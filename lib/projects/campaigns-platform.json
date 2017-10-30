@@ -1,0 +1,9 @@
+{
+  "id":40,
+  "name":"Campaigns platform",
+  "description": "Not available.",
+  "theme": "Government Internal",
+  "organisation": "Government Digital Service",
+  "phase":"alpha",
+  "alpha-assessment":"https://www.gov.uk/service-standard-reports/campaigns-platform"
+}
