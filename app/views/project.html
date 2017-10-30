@@ -29,7 +29,6 @@
 				<p class="circle-label">{{ data.phase | title }}</p>
 			</div>
 
-	
 			{% if data.liveservice %}
 			<br />
 			<p><a href="{{ data.liveservice }}">Live service</a></p>
@@ -38,8 +37,8 @@
 
 			</ul>
 
-			<!--<h3 class="heading-small">Prototype Link</h3>
-			<p><a href="{{ data.prototype | default('#') }}">{{ data.prototype | default('http://not.set/') }}</a></p>-->
+			<h3 class="heading-small">Prototype Link</h3>
+			<p><a href="{{ data.prototype | default('#') }}">{{ data.prototype | default('http://not.set/') }}</a></p>
 
 		</section>
 	</div>
