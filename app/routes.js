@@ -32,7 +32,10 @@ var organisation_order = [
       'Department for Work and Pensions',
       'Ministry of Justice',
       'Land Registry',
-      'Department for Environment, Food & Rural Affairs'
+      'Department for Environment, Food & Rural Affairs',
+      'Department for Education',
+      'NHS Digital',
+      'Companies House'
     ];
 
 /*
