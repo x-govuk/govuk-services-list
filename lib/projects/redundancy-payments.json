@@ -6,6 +6,6 @@ https://www.gov.uk/transformation/redundancy-payment",
   "theme": "Employing people",
   "organisation": "Insolvency Service",
   "phase":"alpha",
-  "beta-assessment" : "https://www.gov.uk/service-standard-reports/redundancy-payments-alpha-assessment",
+  "alpha-assessment":"https://www.gov.uk/service-standard-reports/redundancy-payments-alpha-assessment",
   "github":"https://github.com/InsolvencyService/rps-alpha"
 }
