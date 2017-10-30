@@ -11,13 +11,13 @@
 	<p style="margin-top:30px;">
 		These are all the things we're doing
 		{% if view != 'theme' %}(<a href="/">order by theme</a>){% endif %}
-		{% if view != 'organisation' %}(<a href="/organisation/">order by orgsnisation</a>){% endif %}
+		{% if view != 'organisation' %}(<a href="/organisation/">order by organisation</a>){% endif %}
 	</p>
 
 	<div class="grid-row">
 		<section class="column-fifth">
-			<div class="tag unknown">Unknown</div>
-			<div class="big_number txt-backlog">{{ counts.unknown }}</div>
+			<div class="tag backlog">Backlog</div>
+			<div class="big_number txt-backlog">{{ counts.backlog }}</div>
 		</section>
 		<section class="column-fifth">
 			<div class="tag discovery">Discovery</div>
