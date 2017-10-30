@@ -1,6 +1,6 @@
 @import 'elements';
 
-$backlog-colour: $purple;
+$unknown-colour: $purple;
 
 /*
   Layout stuff.
@@ -14,7 +14,7 @@ html,body { height: 100%; margin: 0px; padding: 0px; overflow:hidden }
   max-width:none;
   overflow:hidden;
   background-color:$turquoise;
-  &.phase-backlog { background-color:$backlog-colour;}
+  &.phase-unknown { background-color:$unknown-colour;}
   &.phase-discovery { background-color:$discovery-colour;}
   &.phase-alpha { background-color:$alpha-colour;}
   &.phase-beta { background-color:$beta-colour;}
