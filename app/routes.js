@@ -35,7 +35,8 @@ var organisation_order = [
       'Department for Environment, Food & Rural Affairs',
       'Department for Education',
       'NHS Digital',
-      'Companies House'
+      'Companies House',
+      'Skills Funding Agency'
     ];
 
 /*
