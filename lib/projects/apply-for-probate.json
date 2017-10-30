@@ -1,0 +1,9 @@
+{
+  "id":25,
+  "name":"Apply for Probate",
+  "description": "The service will enable personal applicants to apply for a grant of probate in a clear and easy way, giving them the legal right to administer the estate of the person who died.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase":"alpha",
+  "alpha-assessment": "https://www.gov.uk/service-standard-reports/apply-for-probate-alpha-assessment"
+}
