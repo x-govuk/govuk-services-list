@@ -1,0 +1,84 @@
+{% extends "layout.html" %}
+
+{% block pageTitle %}
+	Government Digital Services
+{% endblock %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+	<p style="margin-top:30px;">
+		These are all the things we're doing
+		{% if view != 'theme' %}(<a href="/">order by theme</a>){% endif %}
+		{% if view != 'organisation' %}(<a href="/organisation/">order by orgsnisation</a>){% endif %}
+	</p>
+
+	<div class="grid-row">
+		<section class="column-fifth">
+			<div class="tag unknown">Unknown</div>
+			<div class="big_number txt-backlog">{{ counts.unknown }}</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag discovery">Discovery</div>
+			<div class="big_number txt-discovery">{{ counts.discovery }}</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag alpha">Alpha</div>
+			<div class="big_number txt-alpha">{{ counts.alpha }}</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag beta">Beta</div>
+			<div class="big_number txt-beta">{{ counts.beta }}</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag live">Live</div>
+			<div class="big_number txt-live">{{ counts.live }}</div>
+		</section>
+	</div>
+
+	{#
+		theme_order & phase_order are set in routes.js
+		so them can be used in multiple pages.
+	#}
+
+	{% for name in theme_order %}
+
+		{% set item = data[name] %}
+		<h2 class="heading-large service-area">{{ name }}</h2>
+
+		{% if view == 'priority' %}
+		<p>{{ priority_descriptions[name] }}</p>
+		{% endif %}
+
+		<div class="grid-row">
+		{% for phase in phase_order %}
+
+			<section class="column-fifth">
+			{% if item[phase] %}
+
+				<ul class="link-list border-{{phase}}">
+				{% for bit in item[phase]['user'] %}
+					<li><a href="/projects/{{ bit.id }}/{{ bit.name | slugify }}">{{ bit.name }}</a></li>
+				{% endfor %}
+				</ul>
+
+				<ul class="link-list border-internal">
+				{% for bit in item[phase]['internal'] %}
+					<li><a href="/projects/{{ bit.id }}/{{ bit.name | slugify }}">{{ bit.name }}</a></li>
+				{% endfor %}
+				</ul>
+
+			{% else %}&nbsp;{% endif %}
+			</section>
+
+		{% endfor %}
+		</div>
+
+	{% endfor %}
+
+	<p style="margin-top: 100px">Last updated 5 April 2017. <a href="/about">About the digital portfolio</a><p>
+
+</main>
+
+{% endblock %}

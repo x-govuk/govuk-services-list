@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+	<h1 class="heading-xlarge" style="margin-bottom:15px;">{{ data.name }}</h1>
+
+	<div class="grid-row">
+		<section class="column-two-thirds">
+
+			<p>{{ data.description }}</p>
+
+			<div class="location">Built by <strong>{{ data.organisation }}</strong></div>
+
+			{% if data.video %}
+			<div style="margin-top:30px;" class="videoWrapper">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ data.video }}" frameborder="0" allowfullscreen></iframe>
+			</div>
+			{% endif %}
+
+
+		</section>
+		<section class="column-third">
+
+			<div class="phase-circle">
+				<p class="circle {{ data.phase | lower }}"></p>
+				{% if data.phase_modifier %}<p class="phase_modifier">{{ data.phase_modifier }}</p>{% endif %}
+				<p class="circle-label">{{ data.phase | title }}</p>
+			</div>
+			
+			{% if data.prototype %}
+			<br />
+			<p><a href="{{ data.prototype }}">Prototype</a></p>
+
+			{% if data.liveservice %}
+			<br />
+			<p><a href="{{ data.liveservice }}">Live service</a></p>
+			{% endif %}
+			<hr />
+
+			</ul>
+
+			<!--<h3 class="heading-small">Prototype Link</h3>
+			<p><a href="{{ data.prototype | default('#') }}">{{ data.prototype | default('http://not.set/') }}</a></p>-->
+
+		</section>
+	</div>
+</main>
+
+{% endblock %}

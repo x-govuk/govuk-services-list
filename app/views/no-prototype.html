@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+	<h1 class="heading-xlarge" style="margin-bottom:15px;">No prototype</h1>
+
+	<div class="grid-row">
+		<section class="column-two-thirds" style="padding-top:30px;">
+
+			<p>There is no prototype for this project yet.</p>
+			<p>If you think this is wrong contact {{ data.service_man | default('the service manager') }} and let them know that it isn't included here.</p>
+
+		</section>
+		<section class="column-third">
+
+			<div class="phase-circle">
+				<p class="circle {{ data.phase | lower }}"></p>
+				{% if data.phase_modifier %}<p class="phase_modifier">{{ data.phase_modifier }}</p>{% endif %}
+				<p class="circle-label">{{ data.phase | title }}</p>
+			</div>
+
+			<!--<h3 class="heading-small">Prototype Link</h3>
+			<p><a href="{{ data.prototype | default('#') }}">{{ data.prototype | default('http://not.set/') }}</a></p>-->
+
+		</section>
+	</div>
+</main>
+
+{% endblock %}

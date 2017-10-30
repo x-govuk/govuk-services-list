@@ -1,0 +1,10 @@
+{
+  "id":15,
+  "name":"Apply for a Budgeting Loan",
+  "description": "Lets users apply for a short-term cash loan so that they can afford to buy essential items or services.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase":"beta",
+  "phase_modifier":"Public",
+  "prototype":"http://bud-loans.herokuapp.com/"
+}

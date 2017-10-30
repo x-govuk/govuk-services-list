@@ -1,0 +1,10 @@
+{
+  "id":3,
+  "name":"Employment and Support Allowance (ESA)",
+  "description": "Lets customers who are unable to work through sickness or injury make a claim for Employment and Support Allowance.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase":"beta",
+  "phase_modifier":"Private",
+  "prototype":"http://esa-digital.herokuapp.com"
+}

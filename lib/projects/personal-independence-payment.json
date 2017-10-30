@@ -1,0 +1,10 @@
+{
+  "id":6,
+  "name":"Apply for Personal Independence Payment",
+  "description": "Lets users who are disabled or have a long-term health condition apply for a Personal Independence Payment to help them live independently.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase":"beta",
+  "phase_modifier":"Private",
+  "prototype":"http://pip-v2.herokuapp.com/"
+}

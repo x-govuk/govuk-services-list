@@ -1,0 +1,10 @@
+{
+  "id":19,
+  "name":"Report benefit fraud",
+  "description": "Lets users report someone they suspect is claiming benefits they aren't entitled to.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase":"beta",
+  "phase_modifier":"Public",
+  "prototype":"https://still-ocean-5673.herokuapp.com/start-page/"
+}

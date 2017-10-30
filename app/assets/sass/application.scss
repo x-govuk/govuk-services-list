@@ -1,0 +1,213 @@
+// Import GOV.UK elements, this will import the frontend toolkit and some base styles.
+// Take a look at elements.scss to see which files are imported.
+@import 'elements';
+// Take a look at patterns.scss to see which files are imported.
+@import 'patterns';
+
+#global-header #logo {
+  font-size:16px;line-height:1.8;padding-left:5px;
+  @media (min-width:480px) {font-size:19px; line-height:30px}
+  @media (min-width:640px) {font-size:24px; }
+  @media (min-width:960px) {font-size:30px; }
+
+}
+
+/* Little tag in header. */
+.alpha-tag {
+  background-color:$alpha-colour;
+  color:white;
+  font-size:16px;
+  text-transform:uppercase;
+  line-height:1;
+  padding:2px 8px 0;
+  margin-left:0.25em;
+}
+#global-header-bar {background-color:$turquoise;}
+@media (min-width: 769px) {
+  #global-header .header-wrapper .header-global .header-logo {width:100%;}
+}
+#footer {display:none}
+
+$backlog-colour: $purple;
+
+/*
+  Top of the page phase banner bits.
+*/
+.tag {
+  color:white !important;
+  font-weight:700;
+  padding:0.25em;
+  text-align:center;
+  text-decoration:none;
+  text-transform:uppercase;
+}
+.tag.backlog   {background-color:$backlog-colour}
+.tag.discovery {background-color:$discovery-colour;}
+.tag.alpha     {background-color:$alpha-colour;}
+.tag.beta      {background-color:$beta-colour;}
+.tag.live      {background-color:$live-colour;}
+
+.big_number {
+  font-size:96px;
+  font-weight:700;
+  text-align:center;
+}
+/*
+  Convienience classes for colouring text.
+*/
+.txt-backlog    {color:$backlog-colour}
+.txt-discovery  {color:$discovery-colour}
+.txt-alpha      {color:$alpha-colour}
+.txt-beta       {color:$beta-colour}
+.txt-public     {color:$beta-colour}
+.txt-live       {color:$live-colour}
+/*
+  Lists of links
+*/
+.link-list {
+  font-size:16px;
+  margin-bottom:5px;
+  background-color:$highlight-colour;
+  border-left:3px solid transparent;
+  li {
+    // margin-bottom:1em;
+    padding:10px;
+  }
+}
+
+.service-area {
+  border-bottom:1px solid $border-colour;
+  margin-bottom:10px;
+}
+
+.location {
+  display:inline-block;
+  background-color:$turquoise;
+  color:white;
+  font-weight:normal;
+  text-transform:none;
+  padding:2px 8px 0;
+  strong {font-size:24px; font-weight:700}
+}
+
+.phase-history {
+  clear:both;
+  margin-top:30px;
+}
+
+.phase-history-item {
+  padding-left:10px;
+  border-left:3px solid black;
+  margin-bottom:0;
+  padding-bottom:10px;
+}
+
+.tag-history {
+  display:inline-block;
+  margin-left:-10px;
+  padding:4px 10px 2px;
+}
+
+.border-backlog   {border-color:$backlog-colour;}
+.border-discovery {border-color:$discovery-colour;}
+.border-alpha     {border-color:$alpha-colour;}
+.border-beta      {border-color:$beta-colour;}
+.border-public    {border-color:$beta-colour;}
+.border-live      {border-color:$live-colour;}
+.border-internal  {border-color:$black;}
+
+.circle.backlog   {background-color:$backlog-colour;}
+.circle.discovery {background-color:$discovery-colour;}
+.circle.alpha     {background-color:$alpha-colour;}
+.circle.beta      {background-color:$beta-colour;}
+.circle.live      {background-color:$live-colour;}
+
+.phase_modifier {
+  font-size:16px;
+  position:absolute;
+  top:24px; left:0;
+  width:100%;
+  text-align:center;
+  color:white;
+}
+.phase-circle {
+  width:40%;
+  position:relative;
+}
+.circle-label {
+  position:absolute;
+  top:50%; left:0;
+  width:100%;
+  margin-top:-15px;
+  text-align:center;
+  color:white;
+  font-weight:700;
+  font-size:24px;
+}
+.circle {
+  background:red;
+  color:white;
+  width:100%;
+  height:0;
+  padding-top:100%;
+  border-radius:50% 50%;
+  display:inline-block;
+  margin:0;
+}
+.column-fifth {
+  box-sizing:border-box;
+  padding:0 15px;
+  @media (min-width: 640px) {
+    float:left;
+    width:20%;
+  }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 51%;
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* OTHER PROJECTS STUFF */
+.heading-xxlarge {
+  @extend .bold-xxlarge;
+  margin-top:30px;
+}
+.other-project {
+  margin-top:-1px;
+  border-top:1px solid $grey-3;
+  padding-top:15px;
+  border-bottom:1px solid $grey-3;
+  padding-bottom:15px;
+}
+.project-name {
+  margin-top:10px;
+}
+.project-team {
+  @include core-16;
+  border-left:5px solid $turquoise;
+  padding-left:10px;
+  margin-top:0px;
+  padding-top:5px;
+  li {margin-bottom:5px;}
+
+  @media (min-width: 641px){
+    margin-top:45px;
+  }
+}
+.project-links {
+  vertical-align: bottom;
+  margin-bottom:10px;
+}
+.category-heading {
+  margin:45px 0 30px;
+}
