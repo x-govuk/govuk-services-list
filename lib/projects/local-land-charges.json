@@ -1,0 +1,9 @@
+{
+  "id":27,
+  "name":"Local Land Charges",
+  "description": "The service will provide users with accurate and up-to-date information on Local Land Charges, and provide a mechanism for relevant Local Authority staff to update Charges.",
+  "theme": "Housing and local services",
+  "organisation": "Land Registry",
+  "phase":"alpha",
+  "alpha-assessment": "https://www.gov.uk/service-standard-reports/local-land-charges-alpha-assessment"
+}
