@@ -28,7 +28,7 @@
 }
 #footer {display:none}
 
-$backlog-colour: $purple;
+$unknown-colour: $purple;
 
 /*
   Top of the page phase banner bits.
@@ -41,7 +41,7 @@ $backlog-colour: $purple;
   text-decoration:none;
   text-transform:uppercase;
 }
-.tag.backlog   {background-color:$backlog-colour}
+.tag.unknown   {background-color:$unknown-colour}
 .tag.discovery {background-color:$discovery-colour;}
 .tag.alpha     {background-color:$alpha-colour;}
 .tag.beta      {background-color:$beta-colour;}
@@ -55,7 +55,7 @@ $backlog-colour: $purple;
 /*
   Convienience classes for colouring text.
 */
-.txt-backlog    {color:$backlog-colour}
+.txt-unknown    {color:$unknown-colour}
 .txt-discovery  {color:$discovery-colour}
 .txt-alpha      {color:$alpha-colour}
 .txt-beta       {color:$beta-colour}
@@ -108,7 +108,7 @@ $backlog-colour: $purple;
   padding:4px 10px 2px;
 }
 
-.border-backlog   {border-color:$backlog-colour;}
+.border-unknown   {border-color:$unknown-colour;}
 .border-discovery {border-color:$discovery-colour;}
 .border-alpha     {border-color:$alpha-colour;}
 .border-beta      {border-color:$beta-colour;}
@@ -116,7 +116,7 @@ $backlog-colour: $purple;
 .border-live      {border-color:$live-colour;}
 .border-internal  {border-color:$black;}
 
-.circle.backlog   {background-color:$backlog-colour;}
+.circle.unknown   {background-color:$unknown-colour;}
 .circle.discovery {background-color:$discovery-colour;}
 .circle.alpha     {background-color:$alpha-colour;}
 .circle.beta      {background-color:$beta-colour;}
