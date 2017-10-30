@@ -36,7 +36,8 @@ var organisation_order = [
       'Department for Education',
       'NHS Digital',
       'Companies House',
-      'Skills Funding Agency'
+      'Skills Funding Agency',
+      'Insolvency Service'
     ];
 
 /*
