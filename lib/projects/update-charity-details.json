@@ -1,0 +1,9 @@
+{
+  "id":41,
+  "name":"Update Charity Details",
+  "description": "Not available.",
+  "theme": "Money and tax",
+  "organisation": "Charity Commission",
+  "phase":"beta",
+  "beta-assessment":"https://www.gov.uk/service-standard-reports/update-charity-details"
+}

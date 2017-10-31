@@ -1,0 +1,9 @@
+{
+  "id":43,
+  "name":"Biometric Residence Permits",
+  "description": "Not available.",
+  "theme": "Citizenship and living in the UK",
+  "organisation": "Home Office",
+  "phase":"live",
+  "live-assessment":"https://www.gov.uk/service-standard-reports/biometric-residence-permits-brps"
+}
