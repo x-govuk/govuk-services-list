@@ -1,0 +1,8 @@
+{
+  "id":9999,
+  "name":"Ethnicity facts and figures",
+  "description": "Use this service to find information about the different experiences of people from a variety of ethnic backgrounds.",
+  "organisation": "Cabinet Office",
+  "phase":"beta",
+  "build":"https://www.ethnicity-facts-figures.service.gov.uk"
+}
