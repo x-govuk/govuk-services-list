@@ -1,0 +1,12 @@
+{
+  "id":50,
+  "name":"Apply for an Innovation funding grant",
+  "description": "Lets users who are looking for funding to complete their innovative projects apply to comptitions to win a grant.",
+  "theme": "Business and self-employed",
+  "organisation": "Innovate UK",
+  "phase":"beta",
+  "phase_modifier":"Public",
+  "liveservice":"https://apply-for-innovation-funding.service.gov.uk",
+  "github":"https://github.com/InnovateUKGitHub/innovation-funding-service",
+  "video":"YgWbfuxffj8",
+}
