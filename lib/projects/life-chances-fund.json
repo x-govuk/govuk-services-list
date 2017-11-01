@@ -1,10 +1,9 @@
 {
   "id":1002,
-  "name":"Honours nomination",
+  "name":"Access life chances fund",
   "description": "Not available.",
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase":"beta",
-  "liveservice":"https://access-life-chances-fund.service.gov.uk",
-  "contact":"honours@cabinetoffice.gov.uk"
+  "liveservice":"https://access-life-chances-fund.service.gov.uk"
 }
