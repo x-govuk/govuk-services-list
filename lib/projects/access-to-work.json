@@ -6,5 +6,6 @@
   "organisation": "Department for Work and Pensions",
   "phase":"beta",
   "phase_modifier":"Public",
-  "prototype":"http://accesstowork.herokuapp.com/application/"
+  "liveservice":"https://www.get-disability-work-support.service.gov.uk",
+  "github":"https://github.com/dwpdigitaltech/accesstowork"
 }
