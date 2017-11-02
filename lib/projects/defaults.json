@@ -1,14 +1,10 @@
 {
-  "id":0,
-  "name":"Name of Project",
-  "description": "Description of project",
-  "theme": "for example Childcare and parenting",
-  "organisation": "for example Home Office",
-  "sub-organisation": "for example Passport Office",
-  "phase":"backlog, alpha, beta, live - always from small letter!",
-  "alpha-assessment":"alpha report link",
-  "beta-assessment":"beta report link",
-  "live-assessment":"live report link",
-  "liveservice":"link to service.gov.uk or gov.uk start page",
-  "github":"github repo link"
-}
+ +  "id":0,
+ +  "name":"Name Of Project",
+ +  "description": "Description of project",
+ +  "theme": "Platforms",
+ +  "organisation": "Home Office",
+ +  "phase":"backlog",
+ +  "facing":"user",
+ +  "link":"link to prototype or gov.uk start page"
+ +}
