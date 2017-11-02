@@ -8,5 +8,6 @@
   "service_assessment_live":"https://gdsdata.blog.gov.uk/carers-allowance-service-assessment",
   "prototype":"https://dwp-story.3cbeta.co.uk/URSept/",
   "video":"IYBLX3V8ek4",
-  "liveservice":"https://www.gov.uk/carers-allowance"
+  "liveservice":"https://www.gov.uk/carers-allowance",
+  "github":"https://github.com/Department-for-Work-and-Pensions/carers-allowance-prototype"
 }
