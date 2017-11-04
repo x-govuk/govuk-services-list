@@ -74,9 +74,11 @@ router.get('/', function (req, res)
   var data = _.groupBy(req.app.locals.data, 'theme');
   var new_data = indexify(data);
   var phases = _.countBy(req.app.locals.data, 'phase');
+  var countByOrder = _.countBy(req.app.locals.data, 'theme');
   res.render('index', {
     "data":new_data,
     "counts":phases,
+    "countByOrder": countByOrder,
     "view":"theme",
     "theme_order":theme_order,
     "phase_order":phase_order
@@ -99,10 +101,13 @@ router.get('/organisation/', function (req, res)
   });
   org_order.sort();
 
+  var countByOrder = _.countBy(req.app.locals.data, 'organisation');
+
   var phases = _.countBy(req.app.locals.data, 'phase');
   res.render('index', {
     "data":new_data,
     "counts":phases,
+    "countByOrder": countByOrder,
     "view":"organisation",
     "theme_order":org_order,
     "phase_order":phase_order
