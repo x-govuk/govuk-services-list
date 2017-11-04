@@ -1,0 +1,9 @@
+{
+  "id":58,
+  "name":"Repo Security Scanner",
+  "description": "CLI tool that finds secrets accidentally committed to a git repo, eg passwords, private keys.",
+  "theme": "Government Internal",
+  "organisation": "Home Office",
+  "phase":"unknown",
+  "github":"https://github.com/UKHomeOffice/repo-security-scanner"
+}

@@ -1,0 +1,9 @@
+{
+  "id":57,
+  "name":"Swappr",
+  "description": "Client / Server app for managing shift swaps.",
+  "theme": "Government Internal",
+  "organisation": "Home Office",
+  "phase":"unknown",
+  "github":"https://github.com/UKHomeOffice/swappr"
+}
