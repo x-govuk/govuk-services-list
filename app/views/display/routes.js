@@ -11,15 +11,15 @@ router.get('/display/:number?/:organisation?', function(req,res,next)
   if (!number) number = 0;
 
   // Grab organisation from URL (if it's there)
-  var location = req.params.organisation;
+  var organisation = req.params.organisation;
 
   // put data into simpler var for consise-ity (take out backlog stuff).
   var data = _.filter(req.app.locals.data,function(el) {
     return (el.phase !== 'backlog');
   });
 
-  // if we've got a location filter the data.
-  if (location)
+  // if we've got a organisation filter the data.
+  if (organisation)
   {
     data = _.filter(data, function(el) {
       return (el.organisation.toLowerCase() == organisation.toLowerCase());
