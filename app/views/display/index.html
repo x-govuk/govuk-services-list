@@ -29,7 +29,7 @@
 			{% for i in range(0,total) %}
 				{% set class = ""%}
 				{% if i == number %} {% set class = "chosen"%} {% endif %}
-			  <div class="key-block {{ class }}"><a href="/display/{{ i }}/{{ location }}"></a></div>
+			  <div class="key-block {{ class }}"><a href="/display/{{ i }}/{{ organisation }}"></a></div>
 			{% endfor %}
 		</div>
 
@@ -47,7 +47,7 @@
 		var num = {{ number }};
 	  setTimeout(function()
 		{
-			window.location.href = '/display/'+(num+1)+'/{{ location }}';
+			window.organisation.href = '/display/'+(num+1)+'/{{ organisation }}';
 		},time)
 		// $(".timer").animate({"width":"100%"},time,"easeInQuint");
 	});
