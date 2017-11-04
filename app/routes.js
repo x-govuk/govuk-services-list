@@ -92,12 +92,12 @@ router.get('/organisation/', function (req, res)
   var data = _.groupBy(req.app.locals.data, 'organisation');
   var new_data = indexify(data);
 
-  var loc_order = [];
+  var org_order = [];
   _.each(data, function(value, key, list)
   {
-    loc_order.push(key);
+    org_order.push(key);
   });
-  loc_order.sort();
+  org_order.sort();
 
   var phases = _.countBy(req.app.locals.data, 'phase');
   res.render('index', {
