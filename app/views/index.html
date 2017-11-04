@@ -47,7 +47,7 @@
 	{% for name in theme_order %}
 
 		{% set item = data[name] %}
-		<h2 class="heading-large service-area">{{ name }}</h2>
+		<h2 class="heading-large service-area">{{ name }} ({ counts.name }})</h2>
 
 		<div class="grid-row">
 		{% for phase in phase_order %}
