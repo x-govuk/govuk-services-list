@@ -1,0 +1,9 @@
+{
+  "id":1156,
+  "name":"Change your address or your legal representative's details",
+  "description": "If you are a migrant living in the UK or your application was made in the UK, you can use this form to: update your home address, update your correspondence address, update your legal representative's address, update your dependant's details, inform us of a change in your legal representation.",
+  "theme": "Passports, travel and living abroad",
+  "organisation": "Home Office",
+  "phase":"unknown",
+  "liveservice":"https://visa-address-update.service.gov.uk/"
+}

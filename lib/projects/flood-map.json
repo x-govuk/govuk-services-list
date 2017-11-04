@@ -1,0 +1,9 @@
+{
+  "id":1056,
+  "name":"Flood map for planning",
+  "description": "This service is for learning about a site location's flood probability as part of development planning.",
+  "theme": "Environment and countryside",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "phase":"beta",
+  "liveservice":"https://flood-map-for-planning.service.gov.uk/"
+}
