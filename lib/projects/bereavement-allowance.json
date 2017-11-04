@@ -6,5 +6,6 @@
   "organisation": "Department for Work and Pensions",
   "phase":"beta",
   "phase_modifier":"Private",
-  "prototype":"http://bereavement.herokuapp.com/"
+  "prototype":"http://bereavement.herokuapp.com/",
+  "github":"https://github.com/abbott567/bereavement"
 }
