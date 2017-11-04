@@ -3,7 +3,7 @@
   "name":"Apply for bankruptcy",
   "description": "Not available.",
   "theme": "Business and self-employed",
-  "organisation": "The Insolvency Service",
+  "organisation": "Insolvency Service",
   "phase":"beta",
   "beta-assessment":"https://apply-for-bankruptcy.service.gov.uk/"
 }

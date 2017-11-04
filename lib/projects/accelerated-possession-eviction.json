@@ -1,0 +1,9 @@
+{
+  "id":1023,
+  "name":"Evict a tenant using accelerated possession",
+  "description": "Not available.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase":"unknown",
+  "liveservice":"https://civilclaims.service.gov.uk/accelerated-possession-eviction"
+}
