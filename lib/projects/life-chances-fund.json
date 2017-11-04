@@ -5,5 +5,6 @@
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase":"beta",
-  "liveservice":"https://access-life-chances-fund.service.gov.uk"
+  "liveservice":"https://access-life-chances-fund.service.gov.uk",
+  "github":"https://github.com/cabinetoffice/life-chances-fund"
 }
