@@ -16,6 +16,16 @@
 
 			<p>{{ data.description }}</p>
 
+<h2 class="heading-large">Assessments</h3>
+
+	<div class="phase-history">
+    <div class="phase-history-item"><a href="{{ data.alpha-assessment }}">alpha</a> {{ data.alpha-date }}</div>
+
+		 <div class="phase-history-item"><a href="{{ data.beta-assessment }}">beta</a> {{ data.beta-date }}</div>
+
+		  <div class="phase-history-item"><a href="{{ data.live-assessment }}">live</a> {{ data.alpha-date }}</div>
+			
+	</div>
 
 			{% if data.video %}
 			<div style="margin-top:30px;" class="videoWrapper">

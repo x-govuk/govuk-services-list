@@ -5,5 +5,11 @@
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
   "phase":"live",
-  "liveservice":"https://www.faster-uk-entry.service.gov.uk"
+  "liveservice":"https://www.faster-uk-entry.service.gov.uk",
+  "alpha-assessment":"https://dataingovernment.blog.gov.uk/registered-traveller-service-assessment/",
+  "alpha-date":"13/12/2013",
+  "beta-assessment":"https://dataingovernment.blog.gov.uk/registered-traveller-service-assessment-2/",
+  "beta-date":"22/9/2014",
+  "live-assessment":"https://dataingovernment.blog.gov.uk/registered-traveller-service-assessment-3/",
+  "live-date":"15/12/2014"
 }
