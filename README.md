@@ -1,6 +1,6 @@
 # Government Digital Services
 
-Feed this thing data or it will die! 
+Feed this thing data or it will die!
 
 Data sources:
 * [Government Organisation Register](https://government-organisation.register.gov.uk/)
@@ -14,3 +14,16 @@ Existing portfolios I have partially or entirely cannibalised for this:
 * [DWP Digital Service Portfolio](http://dwp-digital-services.herokuapp.com/)
 * [HMPPS Digital Studio](https://github.com/noms-digital-studio/hmpps-portfolio)
 * [Land Registry](https://github.com/LandRegistry/lr-portfolio)
+
+## How to run this project
+
+You'll need
+1. Node 4 or above
+2. NPM (should come with Node 4 and above :))
+
+Using a command line run
+
+```bash
+npm install
+npm start
+```

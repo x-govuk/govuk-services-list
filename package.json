@@ -33,5 +33,8 @@
     "readdir": "0.0.6",
     "serve-favicon": "2.3.0",
     "underscore": "^1.8.3"
+  },
+  "scripts" : {
+    "start": "node server.js"
   }
 }
