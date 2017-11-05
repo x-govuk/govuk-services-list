@@ -379,7 +379,7 @@ button:focus,
     margin-bottom: -3px;
     padding-top: 2px;
     border-bottom: 1px solid transparent;
-    background: url(images/gov.uk_logotype_crown.png?0.15.1) no-repeat;
+    background: url() no-repeat;
     background-size: 35px 31px;
     background-position: 0 0; }
     #global-header #logo img {
@@ -539,7 +539,7 @@ button:focus,
   font-weight: 400;
   text-transform: none;
   margin-top: 0;
-  margin-bottom: 0; 
+  margin-bottom: 0;
   background-color: #005ea5; }
 
 /* Global cookie message */
