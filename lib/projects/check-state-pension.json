@@ -6,6 +6,5 @@
   "organisation": "Department for Work and Pensions",
   "phase":"beta",
   "phase_modifier":"Public",
-
   "prototype":"http://nisp.herokuapp.com/"
 }

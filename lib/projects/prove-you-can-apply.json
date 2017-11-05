@@ -5,5 +5,6 @@
   "theme": "Government Internal",
   "organisation": "Department for Work and Pensions",
   "phase":"alpha",
+  "facing":"internal",
   "prototype":"https://dwp-hrttriage.herokuapp.com/"
 }

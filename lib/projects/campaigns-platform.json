@@ -5,5 +5,6 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase":"alpha",
+  "facing":"internal",
   "alpha-assessment":"https://www.gov.uk/service-standard-reports/campaigns-platform"
 }
