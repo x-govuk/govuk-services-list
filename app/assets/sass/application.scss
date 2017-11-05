@@ -13,16 +13,8 @@
 }
 
 /* Little tag in header. */
-.alpha-tag {
-  background-color:$alpha-colour;
-  color:white;
-  font-size:16px;
-  text-transform:uppercase;
-  line-height:1;
-  padding:2px 8px 0;
-  margin-left:0.25em;
-}
-#global-header-bar {background-color:$turquoise;}
+
+#global-header-bar {background-color:$alpha-colour;}
 @media (min-width: 769px) {
   #global-header .header-wrapper .header-global .header-logo {width:100%;}
 }
