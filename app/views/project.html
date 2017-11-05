@@ -9,11 +9,12 @@
 	<div class="grid-row">
 		<section class="column-two-thirds">
 
+			<div class="theme"><strong>Built by:</strong> {{ data.organisation }}</div>
+
+			<div class="theme"><strong>Theme:</strong> {{ data.theme }} </div>
+
 			<p>{{ data.description }}</p>
 
-			<div class="organisation">Built by <strong>{{ data.organisation }}</strong></div>
-
-			<p><strong>Theme:</strong> {{ data.theme }} </p>
 
 			{% if data.video %}
 			<div style="margin-top:30px;" class="videoWrapper">
