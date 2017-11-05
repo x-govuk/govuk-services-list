@@ -1,5 +1,5 @@
 node_modules
 govuk_modules
+govuk_modules/*
 public
 npm-debug.log
- 
