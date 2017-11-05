@@ -203,3 +203,48 @@ $unknown-colour: $purple;
 .category-heading {
   margin:45px 0 30px;
 }
+
+// Remove crown since this isnt on a gov.uk domain
+#global-header #logo {
+  background: none;
+  top: 0;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+// Remove nta references since we're not using the font
+html {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+*, *::before, *::after {
+  font-family: inherit !important;
+}
+
+@media (min-width: 40em) {
+  #global-header #logo {
+    margin: 0;
+  }
+  // Use as much as the screen as possible since there's so much information
+  #global-header .header-wrapper,
+  #global-header-bar,
+  #global-cookie-message p,
+  #content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@include media(mobile) {
+  .column-spacer {
+    display: none;
+  }
+}
+
+.link-list {
+  border-left-width: 5px;
+}
+
+.heading-large {
+  line-height: 1.5;
+}
