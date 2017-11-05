@@ -28,7 +28,7 @@ _.each(files,function(el)
     json.filename = el;
     app.locals.data.push(json);
   } catch(err) {
-    console.log(err);
+    console.log(el, err);
   }
 });
 
