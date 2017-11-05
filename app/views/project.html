@@ -35,13 +35,14 @@
 
 			{% if data.liveservice %}
 			<br />
-			<p><a href="{{ data.liveservice }}">Live service</a></p>
+			<h3 class="heading-small">Service</h3>
+			<p><a href="{{ data.liveservice }}">{{data.liveservice}}</a></p>
 			{% endif %}
 			<hr />
 
 			</ul>
 
-			<h3 class="heading-small">Github Repository Link</h3>
+			<h3 class="heading-small">Github</h3>
 			<p><a href="{{ data.github | default('#') }}">{{ data.github | default('http://not.available/') }}</a></p>
 
 		</section>
