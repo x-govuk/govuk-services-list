@@ -3,7 +3,7 @@
   "name":"Cell Sharing Risk Assessment application",
   "description": "Not available.",
   "theme": "Crime, justice and the law",
-  "organisation": "HM Prison and Probation Service",
+  "organisation": "Ministry of Justice",
   "phase":"unknown",
   "facing":"internal",
   "github":"https://github.com/noms-digital-studio/csra-app"
