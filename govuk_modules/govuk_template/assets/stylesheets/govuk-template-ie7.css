@@ -379,9 +379,10 @@ button:focus,
     margin-bottom: -3px;
     padding-top: 2px;
     border-bottom: 1px solid transparent;
+    background: url(images/gov.uk_logotype_crown.png?0.15.1) no-repeat;
     background-size: 35px 31px;
     background-position: 0 0;
-    background-image: }
+    background-image: url(images/gov.uk_logotype_crown-1x.png?0.15.1); }
     #global-header #logo img {
       position: relative;
       top: -2px;

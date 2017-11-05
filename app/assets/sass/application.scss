@@ -211,6 +211,7 @@ $unknown-colour: $purple;
   height: auto;
   margin-top: 0;
   padding-top: 0;
+  padding-left: 0;
 }
 
 // Remove nta references since we're not using the font
@@ -247,4 +248,24 @@ html {
 
 .heading-large {
   line-height: 1.5;
+}
+
+#global-header .header-proposition #proposition-link a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+@include media (mobile) {
+  #global-header .header-proposition #proposition-link {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #global-header .header-proposition #proposition-link a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
 }
