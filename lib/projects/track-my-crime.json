@@ -3,7 +3,7 @@
   "name":"TrackMyCrime",
   "description": "A service that allows victims of crime to access the progress of the investigation of their crime.",
   "theme": "Crime, justice and the law",
-  "organisation": "Home Office",
+  "organisation": "Ministry of Justice",
   "phase":"beta",
   "liveservice":"https://trackmycrime.police.uk/"
 }
