@@ -1,10 +1,11 @@
 {
   "id":1023,
   "name":"Evict a tenant using accelerated possession",
-  "description": "Not available.",
+  "description": "The system helps step the user through the creation of an N5B, Claim form for Possession of Property).  The resultant PDF must be printed and posted to the court along with the fee and required documents",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"unknown",
+  "phase":"live",
   "liveservice":"https://civilclaims.service.gov.uk/accelerated-possession-eviction",
-  "github":"https://github.com/ministryofjustice/civil-claims"
+  "github":"https://github.com/ministryofjustice/accelerated_claims",
+  "live-assessment":"https://dataingovernment.blog.gov.uk/civil-claims-accelerated-possession-service-assessment/"
 }
