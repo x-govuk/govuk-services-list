@@ -16,26 +16,31 @@
 
 		<p>{{ data.description }}</p>
 
-<!---	this doesnt Work
-		<h2 class="heading-large">Assessments</h3>
-
-				<div class="phase-history">
-			    <div class="phase-history-item"><a href="{{ data.alpha-assessment }}">alpha</a> {{ data.alpha-date }}</div>
-
-					 <div class="phase-history-item"><a href="{{ data.beta-assessment }}">beta</a> {{ data.beta-date }}</div>
-
-					  <div class="phase-history-item"><a href="{{ data.live-assessment }}">live</a> {{ data.alpha-date }}</div>
-
-				</div>
-	-->
-
 			{% if data.video %}
 			<div style="margin-top:30px;" class="videoWrapper">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ data.video }}" frameborder="0" allowfullscreen></iframe>
 			</div>
 			{% endif %}
-
-
+/*
+			<h2 class="heading-medium">Project history</h2>
+			<div class="phase-history">
+				{% for phase in phase_order %}
+					{% if data["phase-history"][phase].length %}
+					<div class="phase-history-item border-{{phase}} txt-{{phase}}">
+						<h3><a href="#" class="tag tag-history {{phase}}">{{phase}}</a></h3>
+						{% for item in data["phase-history"][phase] %}
+							<p>
+								{{ item.label }} &mdash; {{item.date}}
+								{% if item.report %}
+									<br />(<a href="{{ item.report }}">assessment report</a>)
+								{% endif %}
+							</p>
+						{% endfor %}
+					</div>
+					{% endif %}
+				{% endfor %}
+			</div>
+*/
 		</section>
 		<section class="column-third">
 
