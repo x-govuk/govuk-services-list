@@ -27,3 +27,9 @@ Using a command line run
 npm install
 npm start
 ```
+Alternatively, you can use Docker to avoid installing anything apart from Docker.
+```
+docker build -t service-catalogue /path/to/Dockerfile
+docker run -d -p 3100:3100 service-catalogue
+```
+and point your browser to localhost:3100
