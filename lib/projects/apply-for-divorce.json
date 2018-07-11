@@ -4,6 +4,7 @@
   "description": "The purpose of the service is to provide an effective and efficient way for individuals to apply for their divorce. This will provide a better service and process that will meet user needs and expectations.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"alpha",
+  "phase":"beta",
+  "github":"https://github.com/hmcts/div-petitioner-frontend",
   "alpha-assessment":"https://www.gov.uk/service-standard-reports/apply-for-divorce"
 }

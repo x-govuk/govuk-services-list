@@ -1,0 +1,9 @@
+{
+  "id":50,
+  "name":"Civil money claims - citizens",
+  "description": "A digital service that allows users to resolve civil money claims in a simple, accessible and proportionate way. ",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase":"beta",
+  "github":"https://github.com/hmcts/cmc-citizen-frontend"
+}
