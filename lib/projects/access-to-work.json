@@ -1,10 +1,11 @@
 {
-  "id":5,
+  "id":1059,
   "name":"Apply for an Access to Work Grant",
   "description": "Lets users who are disabled or have a long-term health condition that makes their work life difficult, get a grant to pay for adjustments to their workplace, transport or support so that they can carry on working.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase":"beta",
   "phase_modifier":"Public",
-  "prototype":"http://accesstowork.herokuapp.com/application/"
+  "liveservice":"https://www.get-disability-work-support.service.gov.uk",
+  "github":"https://github.com/dwpdigitaltech/accesstowork"
 }

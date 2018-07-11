@@ -74,9 +74,11 @@ router.get('/', function (req, res)
   var data = _.groupBy(req.app.locals.data, 'theme');
   var new_data = indexify(data);
   var phases = _.countBy(req.app.locals.data, 'phase');
+  var countByOrder = _.countBy(req.app.locals.data, 'theme');
   res.render('index', {
     "data":new_data,
     "counts":phases,
+    "countByOrder": countByOrder,
     "view":"theme",
     "theme_order":theme_order,
     "phase_order":phase_order
@@ -92,17 +94,20 @@ router.get('/organisation/', function (req, res)
   var data = _.groupBy(req.app.locals.data, 'organisation');
   var new_data = indexify(data);
 
-  var loc_order = [];
+  var org_order = [];
   _.each(data, function(value, key, list)
   {
-    loc_order.push(key);
+    org_order.push(key);
   });
-  loc_order.sort();
+  org_order.sort();
+
+  var countByOrder = _.countBy(req.app.locals.data, 'organisation');
 
   var phases = _.countBy(req.app.locals.data, 'phase');
   res.render('index', {
     "data":new_data,
     "counts":phases,
+    "countByOrder": countByOrder,
     "view":"organisation",
     "theme_order":org_order,
     "phase_order":phase_order
@@ -156,71 +161,5 @@ router.get('/api/:id', function (req, res) {
     res.json({error: 'ID not found'});
   }
 });
-
-router.get('/showntells/all/:loc?', function (req, res, next)
-{
-  var loc = req.params.loc;
-
-  var data = [];
-  _.each(req.app.locals.data, function(el)
-  {
-    if (el.showntells)
-    _.each(el.showntells, function(sup)
-    {
-      if (loc && loc !== el.location) {}
-      else {
-        data.push({
-          "name":el.name,
-          "date":moment(sup, "D MMMM YYYY, HH:mm"),
-          "id":el.id,
-          "location":el.location,
-        })
-      }
-    })
-  })
-
-  req.data = req.data || {};
-  req.data.all = true;
-  req.data.loc = loc;
-  req.data.places = _.unique(_.pluck(req.app.locals.data,'location'));
-  req.data.showntells = _.sortBy(data, "date");
-
-  req.url = '/showntells';
-  next();
-  // res.end(tog(newdata))
-});
-
-router.get('/showntells/today/:loc?', function (req, res, next)
-{
-  var loc = req.params.loc;
-  var data = [];
-  _.each(req.app.locals.data, function(el)
-  {
-    if (el.showntells)
-    _.each(el.showntells, function(sup)
-    {
-        supdate = moment(sup, "D MMMM YYYY, HH:mm");
-        if (supdate.isSame(moment(), 'day'))
-        {
-          if (loc && loc !== el.location) {}
-          else {
-            data.push({
-              "name":el.name,
-              "date":supdate,
-              "id":el.id,
-              "location":el.location,
-            })
-          }
-        }
-    })
-  })
-  req.data = req.data || {};
-  req.data.today = true;
-  req.data.loc = loc;
-  req.data.places = _.unique(_.pluck(req.app.locals.data,'location'));
-  req.data.showntells = _.sortBy(data, "date");
-  req.url = '/showntells';
-  next();
-})
 
 module.exports = router;

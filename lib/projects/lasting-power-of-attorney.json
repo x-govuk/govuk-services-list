@@ -1,0 +1,9 @@
+{
+  "id":1176,
+  "name":"Make, register or end a lasting power of attorney",
+  "description": "A lasting power of attorney (LPA) is a legal document that lets you (the ‘donor’) appoint one or more people (known as ‘attorneys’) to help you make decisions or to make decisions on your behalf. This gives you more control over what happens to you if you have an accident or an illness and can’t make your own decisions (you ‘lack mental capacity’).",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase":"live",
+  "liveservice":"https://lastingpowerofattorney.service.gov.uk"
+}

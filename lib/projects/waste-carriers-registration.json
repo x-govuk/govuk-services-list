@@ -1,0 +1,9 @@
+{
+  "id":1158,
+  "name":"Register as a waste carrier",
+  "description": "Not available.",
+  "theme": "Environment and countryside",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "phase":"beta",
+  "liveservice":"https://wastecarriersregistration.service.gov.uk"
+}

@@ -1,9 +1,10 @@
 {
-  "id":13,
+  "id":1148,
   "name":"Universal Credit Digital Service",
   "description": "Universal Credit (UC) Digital provides a simple, personalised digital and non-digital service for claimants and staff.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase":"beta",
-  "phase_modifier":"Public"
+  "phase_modifier":"Public",
+  "liveservice":"https://www.gov.uk/universal-credit"
 }

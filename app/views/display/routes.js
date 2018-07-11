@@ -2,7 +2,7 @@ var express     = require('express'),
     _           = require("underscore"),
     router      = express.Router();
 
-router.get('/display/:number?/:location?', function(req,res,next)
+router.get('/display/:number?/:organisation?', function(req,res,next)
 {
   req.data = {};
 
@@ -10,22 +10,22 @@ router.get('/display/:number?/:location?', function(req,res,next)
   var number = req.params.number;
   if (!number) number = 0;
 
-  // Grab location from URL (if it's there)
-  var location = req.params.location;
+  // Grab organisation from URL (if it's there)
+  var organisation = req.params.organisation;
 
   // put data into simpler var for consise-ity (take out backlog stuff).
   var data = _.filter(req.app.locals.data,function(el) {
     return (el.phase !== 'backlog');
   });
 
-  // if we've got a location filter the data.
-  if (location)
+  // if we've got a organisation filter the data.
+  if (organisation)
   {
     data = _.filter(data, function(el) {
-      return (el.location.toLowerCase() == location.toLowerCase());
+      return (el.organisation.toLowerCase() == organisation.toLowerCase());
     });
-    // pass the location into the template for use there.
-    req.data.location = location;
+    // pass the organisation into the template for use there.
+    req.data.organisation = organisation;
   }
 
   // if number is too big for the current data reset it.

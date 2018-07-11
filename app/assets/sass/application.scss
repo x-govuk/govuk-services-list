@@ -13,16 +13,8 @@
 }
 
 /* Little tag in header. */
-.alpha-tag {
-  background-color:$alpha-colour;
-  color:white;
-  font-size:16px;
-  text-transform:uppercase;
-  line-height:1;
-  padding:2px 8px 0;
-  margin-left:0.25em;
-}
-#global-header-bar {background-color:$turquoise;}
+
+#global-header-bar {background-color:$alpha-colour;}
 @media (min-width: 769px) {
   #global-header .header-wrapper .header-global .header-logo {width:100%;}
 }
@@ -80,10 +72,17 @@ $unknown-colour: $purple;
   margin-bottom:10px;
 }
 
-.location {
+.theme {
   display:inline-block;
-  background-color:$turquoise;
+  background-color: black;
   color:white;
+  font-weight:normal;
+  text-transform:none;
+  padding:2px 8px 0;
+  strong {font-size:24px; font-weight:700}
+}
+
+.organisation {
   font-weight:normal;
   text-transform:none;
   padding:2px 8px 0;
@@ -210,4 +209,70 @@ $unknown-colour: $purple;
 }
 .category-heading {
   margin:45px 0 30px;
+}
+
+// Remove crown since this isnt on a gov.uk domain
+#global-header #logo {
+  background: none;
+  top: 0;
+  height: auto;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+// Remove nta references since we're not using the font
+html {
+  font-family: Helvetica, Arial, sans-serif !important;
+}
+*, *::before, *::after {
+  font-family: inherit !important;
+}
+
+@media (min-width: 40em) {
+  #global-header #logo {
+    margin: 0;
+  }
+  // Use as much as the screen as possible since there's so much information
+  #global-header .header-wrapper,
+  #global-header-bar,
+  #global-cookie-message p,
+  #content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@include media(mobile) {
+  .column-spacer {
+    display: none;
+  }
+}
+
+.link-list {
+  border-left-width: 5px;
+}
+
+.heading-large {
+  line-height: 1.5;
+}
+
+#global-header .header-proposition #proposition-link a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+@include media (mobile) {
+  #global-header .header-proposition #proposition-link {
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #global-header .header-proposition #proposition-link a {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
 }

@@ -1,0 +1,9 @@
+{
+  "id":1008,
+  "name":"Apply for bankruptcy",
+  "description": "Not available.",
+  "theme": "Business and self-employed",
+  "organisation": "Insolvency Service",
+  "phase":"beta",
+  "beta-assessment":"https://apply-for-bankruptcy.service.gov.uk/"
+}

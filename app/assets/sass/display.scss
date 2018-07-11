@@ -53,6 +53,12 @@ html,body { height: 100%; margin: 0px; padding: 0px; overflow:hidden }
   right:30px;
 }
 
+.sticky {
+  position: -webkit-sticky;  // required for Safari
+  position: sticky;
+  top: 0; // required as well.
+}
+
 /*
   Typography
 */
@@ -72,7 +78,7 @@ html,body { height: 100%; margin: 0px; padding: 0px; overflow:hidden }
 .theme {
   font-size:24px;
 }
-.location {
+.organisation {
   // color:black;
   font-size:24px;
   // opacity:0.42;

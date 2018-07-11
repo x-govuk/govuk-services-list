@@ -8,11 +8,9 @@
 
 <main id="content" role="main">
 
-	<p style="margin-top:30px;">
+ <p style="sticky">
+	<p>
 		These are some of the things government is doing. <br />
-		You can contribute here: https://github.com/techforevil/service-portfolio. <br />
-		{% if view != 'theme' %}(<a href="/">order by theme</a>){% endif %}
-		{% if view != 'organisation' %}(<a href="/organisation/">order by organisation</a>){% endif %}
 	</p>
 
 	<div class="grid-row">
@@ -22,22 +20,46 @@
 		</section>
 		<section class="column-fifth">
 			<div class="tag discovery">Discovery</div>
-			<div class="big_number txt-discovery">{{ counts.discovery }}</div>
+			<div class="big_number txt-discovery">
+				{% if counts.discovery %}
+					{{ counts.discovery }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
 		</section>
 		<section class="column-fifth">
 			<div class="tag alpha">Alpha</div>
-			<div class="big_number txt-alpha">{{ counts.alpha }}</div>
+			<div class="big_number txt-alpha">
+				{% if counts.alpha %}
+					{{ counts.alpha }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
 		</section>
 		<section class="column-fifth">
 			<div class="tag beta">Beta</div>
-			<div class="big_number txt-beta">{{ counts.beta }}</div>
+			<div class="big_number txt-beta">
+				{% if counts.beta %}
+					{{ counts.beta }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
 		</section>
 		<section class="column-fifth">
 			<div class="tag live">Live</div>
-			<div class="big_number txt-live">{{ counts.live }}</div>
+			<div class="big_number txt-live">
+				{% if counts.live %}
+					{{ counts.live }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
 		</section>
 	</div>
-
+ </p>
 	{#
 		theme_order & phase_order are set in routes.js
 		so them can be used in multiple pages.
@@ -46,11 +68,7 @@
 	{% for name in theme_order %}
 
 		{% set item = data[name] %}
-		<h2 class="heading-large service-area">{{ name }}</h2>
-
-		{% if view == 'priority' %}
-		<p>{{ priority_descriptions[name] }}</p>
-		{% endif %}
+		<h2 class="heading-large service-area">{{ name }} ({{ countByOrder[name] | default('0') }})</h2>
 
 		<div class="grid-row">
 		{% for phase in phase_order %}
@@ -70,7 +88,7 @@
 				{% endfor %}
 				</ul>
 
-			{% else %}&nbsp;{% endif %}
+			{% else %}<span class='column-spacer'>&nbsp;</span>{% endif %}
 			</section>
 
 		{% endfor %}

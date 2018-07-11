@@ -1,0 +1,10 @@
+{
+  "id":68,
+  "name":"Dynamic Response Tool (DRT)",
+  "description": "This project is a tool used by UK Borderforce to help ensure sufficient resources are available at the border to deal with anticipated demand. It is a tool which aims to provide Borderforce officers in airports with information that helps them A) respond to live changes to circumstances - flights coming in early or late, lower than expected resourcing due to people calling in sick, B) planning for future resourcing. As of 2017-03-39 it primarily focuses on the 'live' aspect.",
+  "theme": "Government Internal",
+  "organisation": "Home Office",
+  "facing":"internal",
+  "github":"https://github.com/UKHomeOffice?utf8=%E2%9C%93&q=drt",
+  "phase":"unknown"
+}
