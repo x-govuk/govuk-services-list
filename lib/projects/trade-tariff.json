@@ -5,5 +5,6 @@
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
   "phase":"live",
-  "liveservice":"https://www.trade-tariff.service.gov.uk"
+  "liveservice":"https://www.trade-tariff.service.gov.uk",
+  "github":"https://github.com/bitzesty?utf8=%E2%9C%93&q=trade-tariff"
 }
