@@ -5,5 +5,6 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase":"alpha",
+  "github": "https://github.com/hmcts/probate-frontend",
   "alpha-assessment": "https://www.gov.uk/service-standard-reports/apply-for-probate-alpha-assessment"
 }
