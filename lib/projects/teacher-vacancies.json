@@ -1,7 +1,9 @@
 {
-  "name":"Teacher vacancies",
-  "description": "Find and list job vacancies for teachers",
+  "id": 2001,
+  "name":"Teaching jobs",
+  "description": "Find or list a teaching job",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Education",
-  "phase":"alpha"
+  "phase":"beta",
+  "liveservice": "https://teaching-jobs.service.gov.uk"
 }
