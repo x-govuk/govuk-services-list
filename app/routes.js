@@ -118,9 +118,9 @@ router.get('/organisation/', function (req, res)
 /*
   - - - - - - - - - -  PROJECT PAGE - - - - - - - - - -
 */
-router.get('/projects/:id/:slug', function (req, res)
+router.get('/projects/:slug', function (req, res)
 {
-  var data = _.findWhere(req.app.locals.data, {id:parseInt(req.params.id)});
+  var data = _.findWhere(req.app.locals.data, {slug:req.params.slug});
   res.render('project', {
     "data":data,
     "phase_order":phase_order,
@@ -130,10 +130,10 @@ router.get('/projects/:id/:slug', function (req, res)
 /*
   - - - - - - - - - -  PROTOTYPE REDRIECT - - - - - - - - - -
 */
-router.get('/projects/:id/:slug/prototype', function (req, res)
+router.get('/projects/:slug/prototype', function (req, res)
 {
   var id = req.params.id;
-  var data = _.findWhere(req.app.locals.data, {id:parseInt(id)});
+  var data = _.findWhere(req.app.locals.data, {slug: req.params.slug});
   if (typeof data.prototype == 'undefined')
   {
     res.render('no-prototype',{
