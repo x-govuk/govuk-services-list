@@ -78,13 +78,13 @@
 
 				<ul class="link-list border-{{phase}}">
 				{% for bit in item[phase]['user'] %}
-					<li><a href="/projects/{{ bit.id }}/{{ bit.name | slugify }}">{{ bit.name }}</a></li>
+					<li><a href="/projects/{{ bit.slug }}">{{ bit.name }}</a></li>
 				{% endfor %}
 				</ul>
 
 				<ul class="link-list border-internal">
 				{% for bit in item[phase]['internal'] %}
-					<li><a href="/projects/{{ bit.id }}/{{ bit.name | slugify }}">{{ bit.name }}</a></li>
+					<li><a href="/projects/{{ bit.slug }}">{{ bit.name }}</a></li>
 				{% endfor %}
 				</ul>
 

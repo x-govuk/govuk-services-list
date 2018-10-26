@@ -26,6 +26,7 @@ _.each(files,function(el)
   try {
     var json = merge(true,defaults,JSON.parse(file));
     json.filename = el;
+    json.slug = el.replace('.json', '');
     app.locals.data.push(json);
   } catch(err) {
     console.log(el, err);
