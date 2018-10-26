@@ -5,6 +5,6 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase":"beta",
-  "liveservices": "https://design-system.service.gov.uk",
+  "liveservice": "https://design-system.service.gov.uk",
   "facing":"internal"
 }
