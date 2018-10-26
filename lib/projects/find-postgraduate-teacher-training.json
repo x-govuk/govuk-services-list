@@ -1,0 +1,9 @@
+{
+  "id": 2000,
+  "name":"Find postgraduate teacher training",
+  "description": "Use this service to search and compare postgraduate teacher training courses in England.",
+  "theme": "Working, jobs and pensions",
+  "organisation": "Department for Education",
+  "phase":"beta",
+  "liveservice": "https://find-postgraduate-teacher-training.education.gov.uk"
+}
