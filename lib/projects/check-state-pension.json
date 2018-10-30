@@ -7,5 +7,5 @@
   "phase":"live",
   "phase_modifier":"Public",
   "prototype":"http://nisp.herokuapp.com/",
-  "liveservice":"https://www.gov.uk/check-state-pension",
+  "liveservice":"https://www.gov.uk/check-state-pension"
 }
