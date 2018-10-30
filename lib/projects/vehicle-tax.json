@@ -1,9 +1,9 @@
 {
   "id":1153,
   "name":"Vehicle Tax",
-  "description": "Not available.",
+  "description": "Tax your car, motorcycle or other vehicle",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase":"unknown",
+  "phase":"beta",
   "liveservice":"https://vehicletax.service.gov.uk/"
 }
