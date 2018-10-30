@@ -8,7 +8,7 @@
   "phase_modifier":"private",
 
   "prototype":"https://drv-ux-prototype.herokuapp.com/",
-  "build":"https://search-property-information.service.gov.uk/",
+  "liveservice":"https://search-property-information.service.gov.uk/",
 
   "facing":"user"
 }
