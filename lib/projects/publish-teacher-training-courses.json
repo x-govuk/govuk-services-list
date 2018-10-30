@@ -5,5 +5,5 @@
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Education",
   "phase":"beta",
-  "liveservices": "https://publish-teacher-training-courses.education.gov.uk"
+  "liveservice": "https://publish-teacher-training-courses.education.gov.uk"
 }
