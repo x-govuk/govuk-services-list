@@ -39,8 +39,10 @@
 
 			</ul>
 
-			<h3 class="heading-small">Github</h3>
-			<p><a href="{{ data.github | default('#') }}">{{ data.github | default('http://not.available/') }}</a></p>
+			{% if data.github %}
+				<h3 class="heading-small">Source code</h3>
+				<p><a href="{{ data.github | default('#') }}">{{ data.github }}</a></p>
+			{% endif %}
 
 		</section>
 	</div>
