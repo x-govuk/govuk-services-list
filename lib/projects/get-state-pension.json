@@ -1,10 +1,11 @@
 {
-  "id":0,
   "name":"Get your State Pension",
-  "description": "Lets users get their State Pension and maintain accurate payments as part of a seamless end to end journey for users accessing retirement provision services.",
+  "description": "Use this service to get your State Pension online",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Work and Pensions",
   "phase":"beta",
   "phase_modifier":"Private",
+  "liveservice":"https://get-state-pension.service.gov.uk/confirm-identity",
+  "start-page":"https://www.gov.uk/get-state-pension",
   "prototype":"https://getyourstatepension.herokuapp.com/"
 }
