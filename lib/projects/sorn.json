@@ -1,0 +1,8 @@
+{
+  "name":"Make a SORN",
+  "description": "Tell us you’re taking your vehicle off the road",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase":"beta",
+  "liveservice":"https://sorn.service.gov.uk"
+}
