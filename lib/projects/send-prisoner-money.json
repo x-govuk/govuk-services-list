@@ -5,6 +5,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase":"live",
-  "liveservice":"https://www.gov.uk/send-prisoner-money",
+  "start-page":"https://www.gov.uk/send-prisoner-money",
+  "liveservice":"https://send-money-to-prisoner.service.gov.uk/",
   "github": "https://github.com/ministryofjustice/money-to-prisoners-send-money"
 }

@@ -5,6 +5,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase":"live",
-  "liveservice":"https://www.gov.uk/prison-visits",
+  "start-page":"https://www.gov.uk/prison-visits",
+  "liveservice":"https://www.prisonvisits.service.gov.uk/",
   "github": "https://github.com/ministryofjustice/prison-visits-2"
 }

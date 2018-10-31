@@ -5,6 +5,7 @@
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase":"live",
-  "liveservice":"https://www.gov.uk/register-to-vote",
+  "start-page":"https://www.gov.uk/register-to-vote",
+  "liveservice": "https://www.registertovote.service.gov.uk/",
   "github":"https://github.com/alphagov/ier-frontend"
 }

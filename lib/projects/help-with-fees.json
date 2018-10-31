@@ -7,6 +7,7 @@
   "phase":"beta",
   "phase_modifier":"Public",
   "beta-assessment":"https://www.gov.uk/service-standard-reports/help-with-fees",
-  "liveservice":"https://www.gov.uk/get-help-with-court-fees",
+  "start-page":"https://www.gov.uk/get-help-with-court-fees",
+  "liveservice":"https://helpwithcourtfees.service.gov.uk/",
   "github":"https://github.com/ministryofjustice/hwf-publicapp"
 }

@@ -5,6 +5,7 @@
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Business and self-employed",
   "phase":"beta",
-  "liveservice":"https://www.gov.uk/check-when-businesses-pay-invoices",
+  "liveservice":"https://check-payment-practices.service.gov.uk/search",
+  "start-page":"https://www.gov.uk/check-when-businesses-pay-invoices",
   "github":"https://github.com/UKGovernmentBEIS/payment-practices-reporting"
 }

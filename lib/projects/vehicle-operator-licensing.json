@@ -6,5 +6,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase":"beta",
   "phase_modifier":"Public",
-  "liveservice":"https://www.gov.uk/manage-vehicle-operator-licence"
+  "start-page":"https://www.gov.uk/manage-vehicle-operator-licence",
+  "liveservice":"https://www.vehicle-operator-licensing.service.gov.uk/"
 }

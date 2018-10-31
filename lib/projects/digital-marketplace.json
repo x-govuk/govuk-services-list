@@ -6,5 +6,5 @@
   "organisation": "Government Digital Service",
   "phase":"beta",
   "facing":"internal",
-  "alpha-assessment":"https://www.digitalmarketplace.service.gov.uk/"
+  "liveservice":"https://www.digitalmarketplace.service.gov.uk/"
 }

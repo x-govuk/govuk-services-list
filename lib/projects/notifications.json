@@ -6,5 +6,5 @@
   "organisation": "Government Digital Service",
   "phase":"beta",
   "facing":"internal",
-  "alpha-assessment":"https://www.notifications.service.gov.uk/"
+  "liveservice":"https://www.notifications.service.gov.uk/"
 }
