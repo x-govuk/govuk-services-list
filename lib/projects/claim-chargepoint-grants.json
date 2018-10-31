@@ -1,0 +1,9 @@
+{
+  "name":"Claim grant for Workplace Charging Scheme",
+  "description": "Portal for authorised OLEV installers to claim the grant on behalf of the applicant workplace.",
+  "organisation": "Office for Low Emission Vehicles",
+  "theme": "Business and self-employed",
+  "phase":"beta",
+  "liveservice":"https://www.claim-chargepoint-grants.service.gov.uk/installer_users/sign_in",
+  "start-page":"https://www.gov.uk/government/publications/workplace-charging-scheme-grant-claim-form-for-installing-charging-equipment"
+}
