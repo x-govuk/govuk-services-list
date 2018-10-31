@@ -1,0 +1,9 @@
+{
+  "name":"Personalised vehicle registration",
+  "description": "Assign or take off personalised number plates",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "theme": "Driving and transport",
+  "phase":"beta",
+  "liveservice":"https://www.personalisedvehicleregistration.service.gov.uk/assign/vehicle-lookup",
+  "start-page":"https://www.gov.uk/personalised-vehicle-registration-numbers/keep-or-assign"
+}

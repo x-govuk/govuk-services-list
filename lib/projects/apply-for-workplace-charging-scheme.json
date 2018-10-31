@@ -1,0 +1,9 @@
+{
+  "name":"Apply for the Workplace Charging Scheme",
+  "description": "Form for businesses, charities and public sector organisations to apply for the Workplace Charging Scheme.",
+  "organisation": "Office for Low Emission Vehicles",
+  "theme": "Business and self-employed",
+  "phase":"beta",
+  "liveservice":"https://www.apply-workplace-chargepoint-grant.service.gov.uk",
+  "start-page":"https://www.gov.uk/government/publications/workplace-charging-scheme-application-form"
+}

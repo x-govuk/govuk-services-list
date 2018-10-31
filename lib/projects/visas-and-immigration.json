@@ -1,0 +1,10 @@
+{
+  "name":"Visas and Immigration",
+  "description": "Apply for a visa",
+  "theme": "Visas and immigration",
+  "organisation": "UK Visas and Immigration",
+  "phase":"beta",
+  "phase_modifier":"Public",
+  "start-page": "https://www.gov.uk/standard-visitor-visa/apply",
+  "liveservice":"https://visas-immigration.service.gov.uk/alt-language-selection-skip-visa"
+}
