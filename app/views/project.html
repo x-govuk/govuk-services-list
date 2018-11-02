@@ -9,12 +9,15 @@
 	<div class="grid-row">
 		<section class="column-two-thirds">
 
-			<div class="theme"><strong>Built by:</strong> {{ data.organisation }}</div>
-
-			<div class="theme"><strong>Theme:</strong> {{ data.theme }} </div>
-<br /><br />
-
 		<p>{{ data.description }}</p>
+
+		{% if data['start-page'] %}
+			<p><a href="{{ data['start-page'] }}">Start page on GOV.UK</a></p>
+		{% endif %}
+		{% if data.liveservice %}
+			<div><a href="{{ data.liveservice }}" class="button">View service</a></div>
+		{% endif %}
+
 
 			{% if data.video %}
 			<div style="margin-top:30px;" class="videoWrapper">
@@ -30,14 +33,11 @@
 				<p class="circle-label">{{ data.phase | title }}</p>
 			</div>
 
-			{% if data.liveservice %}
-			<br />
-			<h3 class="heading-small">Service</h3>
-			<p><a href="{{ data.liveservice }}">{{data.liveservice}}</a></p>
-			{% endif %}
-			<hr />
+			<p>Built by: <a href="/organisation/#{{ data.organisation | slugify }}">{{ data.organisation }}</a></p>
 
-			</ul>
+			<p>Theme: <a href="/#{{ data.theme | slugify }}">{{ data.theme }}</a></p>
+<br /><br />
+
 
 			{% if data.github %}
 				<h3 class="heading-small">Source code</h3>
