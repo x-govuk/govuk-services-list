@@ -1,9 +1,9 @@
 {
   "id":1080,
   "name":"Manage apprenticeships",
-  "description": "The service allows apprenticeship levy paying employers to register, view, and spend levy funds on apprenticeship training.",
+  "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
   "theme": "Education, training and skills",
-  "organisation": "Skills Funding Agency",
+  "organisation": "Education and Skills Funding Agency",
   "phase":"beta",
   "liveservice":"https://manage-apprenticeships.service.gov.uk/"
 }
