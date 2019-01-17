@@ -1,0 +1,9 @@
+{
+  "name":"Get MOT reminders",
+  "description": "Sign up to get free reminders by text message or email when your MOT is due.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase":"beta",
+  "liveservice":"https://www.reminders.mot-testing.service.gov.uk/vrm",
+  "startpage":"https://www.gov.uk/mot-reminder"
+}
