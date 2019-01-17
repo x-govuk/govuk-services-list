@@ -1,0 +1,9 @@
+{
+  "name":"Book your driving test",
+  "description": "Book your practical driving test for: cars, motorcycles, lorries, buses and coaches, approved driving instructor (ADI) part 2 and 3 tests. This service is available from 6am to 11:40pm.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase":"beta",
+  "liveservice":"https://driverpracticaltest.direct.gov.uk/application",
+  "startpage":"https://www.gov.uk/book-driving-test"
+}
