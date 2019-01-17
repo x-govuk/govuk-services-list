@@ -1,7 +1,7 @@
 {
   "id":1021,
   "name":"Check MOT history",
-  "description": "Not available.",
+  "description": "Check the past results of a vehicle’s MOT tests.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase":"unknown",
