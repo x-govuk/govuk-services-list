@@ -1,0 +1,9 @@
+{
+  "name":"Apply for EU settled status",
+  "description": "You can use this service to get settled or pre-settled status.",
+  "theme": "Citizenship and living in the UK",
+  "organisation": "Home Office",
+  "phase":"beta",
+  "start-page": "https://www.gov.uk/apply-stay-uk-leaves-eu-test-phase",
+  "liveservice": "https://apply-for-eu-settled-status.homeoffice.gov.uk/eu-settlement/0/'"
+}
