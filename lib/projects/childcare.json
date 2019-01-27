@@ -2,7 +2,7 @@
   "name":"Childcare",
   "description": "Register for Tax-Free Childcare",
   "theme": "Benefits",
-  "organisation": "HMRC",
+  "organisation": "HM Revenue and Customs",
   "phase":"beta",
   "liveservice":"https://www.gov.uk/sign-in-childcare-account"
 }
