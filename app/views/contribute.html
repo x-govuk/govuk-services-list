@@ -1,0 +1,82 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+<main id="content" role="main">
+
+  <div class="grid-row">
+    <div class="column-two-thirds">
+
+      <h1 class="heading-xlarge">Contribute</h1>
+
+      <p>This is an unofficial community project to catalogue and document the different digital services being developed and run across UK Government departments.</p>
+
+      <p>The project aims to make it easier for digital teams to discover other services which may be related to the one they are working on, in order to improve cross-Government collaboration.</p>
+
+      <p>You can contibute to this project by:</p>
+
+      <ul class="list list-bullet">
+        <li><a href="adding-services">Adding missing services which you know about</a></li>
+        <li><a href="updating-services">Updating information about the services listed</a></li>
+        <li><a href="improve-website">Improving the presentation of this website</a></li>
+      </ul>
+
+      <h2 class="heading-medium" id="adding-services">Adding missing services</h2>
+
+      <p>If a service you know of is missing, you can add it by following these steps:</p>
+
+      <ol class="list list-number">
+        <li>Visit the <a href="https://github.com/techforevil/service-catalogue/tree/master/lib/projects">list of services</a> in GitHub.</li>
+        <li>Click on the "Create new file" button</li>
+        <li>In the box labelled "Name your file", type in the name of the service you want to add in lowercase, with spaces replaced by hyphens, followed by ".json". For example, <samp>check-your-state-pension.json</samp>.</li>
+        <li>In the larger empty box below, copy and paste the contents of <a href="https://raw.githubusercontent.com/techforevil/service-catalogue/master/lib/projects/_template.json">the service template file</a>.</li>
+        <li>Replace all the relevant fields with details about the service you’re adding (for example, name and organisation). Any that you don’t know should be left blank.</li>
+        <li>Click the "Propose new file" button</li>
+        <li>Click the "Create pull request" button.</li>
+        <li>Leave an optional comment, and then press the "Create pull request" button again.</li>
+      </ol>
+
+      <p>Thanks for your contribution! This will send a public request to our project team to add your service.</p>
+
+      <p>We may not reply straight away as this project is run within people’s spare time. However we’ll try and respond as soon as we can, either to accept your request and immediately add it to the website, or to ask for some clarifications.</p>
+
+      <p>If you spot multiple missing services, repeat this process for each service.</p>
+
+      <p>If any part of this process is confusing or your get stuck, you can <a href="https://github.com/techforevil/service-catalogue/issues">create an ‘issue’</a> and we will try and help.</p>
+
+      <h2 id="updating-services" class="heading-medium">Updating information about a service</h2>
+
+      <p>If the information listed about a service is incorrect or out-of-date, please help us correct it. To do this, please follow these steps:</p>
+
+      <ol class="list list-number">
+        <li>Visit the <a href="https://github.com/techforevil/service-catalogue/tree/master/lib/projects">list of services</a> in GitHub.</li>
+        <li>Find the service you’d like to update. The name of the file will match the last part of the URL. Click on the file name.</li>
+        <li>You should see file containing all of the current information about that service. Click on the "Edit this file" button, which is displayed as a pencil icon.</li>
+        <li>Update as much of the content as you can</li>
+        <li>Press the "Propose file change" button at the bottom</li>
+        <li>Click the "Create pull request" button.</li>
+        <li>Leave an optional comment, and then press the "Create pull request" button again.</li>
+      </ol>
+
+      <p>Thanks for your contribution! This will send a public request to our project team to updat your service information.</p>
+
+      <p>We may not reply straight away as this project is run within people’s spare time. However we’ll try and respond as soon as we can, either to accept your changes and update the website, or to ask for some clarifications.</p>
+
+      <p>If you spot updates to make for multiple services, repeat this process for each service.</p>
+
+      <p>If any part of this process is confusing or your get stuck, you can <a href="https://github.com/techforevil/service-catalogue/issues">create an ‘issue’</a> and we will try and help.</p>
+
+      <h2 id="improve-website" class="heading-medium">Improve the website</h2>
+
+      <p>We welcome ideas to improve the presentation or functionality of this website!</p>
+
+      <p>The website is written as Node.js application. The <a href="https://github.com/techforevil/service-catalogue">source code</a> is available on GitHub.</p>
+
+      <p>Please suggest your changes either as a Pull Request, or via opening an Issue.</p>
+
+    </div>
+  </div>
+
+</main>
+
+{% endblock %}
