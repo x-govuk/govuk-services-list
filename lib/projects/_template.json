@@ -1,0 +1,10 @@
+{
+  "name" : "*** Replace this with the full name of the service ***",
+  "description": "*** Replace this with a short description of what the service does ***",
+  "organisation": "*** Full name of the Department or organisaiton responsible ***",
+  "theme": "*** Please use one of the existing themes from the website ***",
+  "phase":"*** Use one of: discovery, alpha, beta, live or unknown. ***",
+  "liveservice":"*** Replace this with the URL of the live service (if live) ***",
+  "startpage": "*** Replace this with the URL of the 'Start page' on GOV.UK ***",
+  "github":"*** Replace this with the URL of the source code (if public) ***"
+}

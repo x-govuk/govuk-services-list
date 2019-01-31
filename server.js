@@ -22,6 +22,7 @@ app.locals.data = [];
 _.each(files,function(el)
 {
   if (el == 'defaults.json') return;
+  if (el == '_template.json') return;
   var file = fs.readFileSync(__dirname + '/lib/projects/'+el).toString();
   try {
     var json = merge(true,defaults,JSON.parse(file));
