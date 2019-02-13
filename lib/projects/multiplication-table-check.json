@@ -1,10 +1,8 @@
 {
-  "id":52,
   "name":"Multiplication tables check",
-  "description": "Not available.",
+  "description": "From the 2019/20 academic year onwards, schools in England will be required to administer an online multiplication tables check (MTC) to year 4 pupils.",
   "organisation": "Department for Education",
-  "theme": "Government Internal",
-  "phase":"unknown",
-  "facing":"internal",
+  "theme": "Education, training and skills",
+  "phase": "",
   "github":"https://github.com/DFEAGILEDEVOPS/MTC"
 }
