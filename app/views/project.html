@@ -4,10 +4,11 @@
 
 <main id="content" role="main">
 
-	<h1 class="heading-xlarge" style="margin-bottom:15px;">{{ data.name }}</h1>
 
 	<div class="grid-row">
 		<section class="column-two-thirds">
+
+		<h1 class="heading-xlarge" style="margin-bottom:15px;">{{ data.name }}</h1>
 
 		<p>{{ data.description }}</p>
 
@@ -27,10 +28,10 @@
 		</section>
 		<section class="column-third">
 
+			<div class="phase-tag">{{ data.phase | title | upper }}</div>
 			<div class="phase-circle">
 				<p class="circle {{ data.phase | lower }}"></p>
-				{% if data.phase_modifier %}<p class="phase_modifier">{{ data.phase_modifier }}</p>{% endif %}
-				<p class="circle-label">{{ data.phase | title }}</p>
+				<p class="circle-label">{{ data.phase | title | upper }}</p>
 			</div>
 
 			<p>Built by: <a href="/organisation/#{{ data.organisation | slugify }}">{{ data.organisation }}</a></p>
