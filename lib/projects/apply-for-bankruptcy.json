@@ -1,9 +1,9 @@
 {
-  "id":1008,
   "name":"Apply for bankruptcy",
-  "description": "Not available.",
+  "description": "Apply for bankruptcy in England and Wales.",
   "theme": "Business and self-employed",
   "organisation": "Insolvency Service",
   "phase":"beta",
-  "liveservice":"https://apply-for-bankruptcy.service.gov.uk/"
+  "liveservice":"https://apply-for-bankruptcy.service.gov.uk/",
+  "start-page": "https://www.gov.uk/apply-for-bankruptcy"
 }
