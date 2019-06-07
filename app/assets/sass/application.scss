@@ -283,3 +283,8 @@ html {
   background-color: #DEE0E2;
   padding-left: 2px; padding-right: 2px;
 }
+
+$govuk-compatibility-govukfrontendtoolkit: true;
+$govuk-compatibility-govuktemplate: true;
+$govuk-compatibility-govukelements: true;
+@import "node_modules/govuk-frontend/all";
