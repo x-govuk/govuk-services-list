@@ -1,9 +1,10 @@
 {
-  "name":"Money Claims",
+  "name":"Make a money claim online",
   "description": "You can make a money claim if you think a person or organisation owes you money and will not pay you back.",
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
   "phase":"beta",
   "start-page": "https://www.gov.uk/make-money-claim",
-  "liveservice":"https://www.moneyclaims.service.gov.uk/"
+  "liveservice":"https://www.moneyclaims.service.gov.uk/",
+  "github":"https://github.com/hmcts/cmc-legal-rep-frontend"
 }
