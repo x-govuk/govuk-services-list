@@ -1,7 +1,6 @@
 {
-  "id":1028,
   "name":"Claim for crown court defence",
-  "description": "Not available.",
+  "description": "A service for solicitors and barristers to claim fees for Crown court defence cases.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase":"live",
