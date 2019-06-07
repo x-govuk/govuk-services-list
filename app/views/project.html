@@ -26,12 +26,11 @@
 			</div>
 			{% endif %}
 		</section>
-		<section class="column-third">
+		<section class="column-third govuk-!-padding-top-9">
 
-			<div class="phase-circle">
-				<p class="circle {{ data.phase | lower }}"></p>
-				<p class="circle-label">{{ data.phase | title | upper }}</p>
-			</div>
+			<strong class="govuk-tag">
+  			{{ data.phase }}
+			</strong>
 
 			<p>Built by: <a href="/organisation/#{{ data.organisation | slugify }}">{{ data.organisation }}</a></p>
 
