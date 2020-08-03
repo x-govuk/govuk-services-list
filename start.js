@@ -1,9 +1,130 @@
-var gruntfile = __dirname + '/Gruntfile.js';
-require(__dirname + '/node_modules/grunt/lib/grunt.js').cli({
-  'gruntfile' : gruntfile
+const express = require('express')
+const fs = require('fs')
+const app = express()
+const port = process.env.PORT || 3100
+var path = require('path');
+var nunjucks = require('nunjucks')
+
+var sassMiddleware = require('node-sass-middleware');
+
+app.use(sassMiddleware({
+  src: path.join(__dirname, 'app/assets/sass'),
+  dest: path.join(__dirname, 'static'),
+  indentedSyntax: false, // true = .sass and false = .scss
+  sourceMap: true
+}));
+
+app.locals.phases = [
+  {
+    name: "unknown",
+    class: "",
+    projects_count: 0
+  },
+  {
+    name: "alpha",
+    class: "purple",
+    projects_count: 0
+  },
+  {
+    name: "beta",
+    class: "pink",
+    projects_count: 0
+  },
+  {
+    name: "live",
+    class: "green",
+    projects_count: 0
+  },
+
+]
+
+app.locals.themes = [
+  'Benefits',
+  'Births, deaths, marriages and care',
+  'Business and self-employed',
+  'Childcare and parenting',
+  'Citizenship and living in the UK',
+  'Crime, justice and the law',
+  'Disabled people',
+  'Driving and transport',
+  'Education, training and skills',
+  'Employing people',
+  'Environment and countryside',
+  'Housing and local services',
+  'Government Internal',
+  'Money and tax',
+  'Passports, travel and living abroad',
+  'Visas and immigration',
+  'Working, jobs and pensions',
+];
+
+app.locals.organisations = [
+  'Home Office',
+  'Department for Work and Pensions',
+  'Ministry of Justice',
+  'Land Registry',
+  'Department for Environment, Food & Rural Affairs',
+  'Department for Education',
+  'NHS Digital',
+  'Companies House',
+  'Skills Funding Agency',
+  'Insolvency Service'
+];
+
+app.locals.projects = []
+
+fs.readdirSync(__dirname + '/lib/projects/').forEach(function(filename) {
+
+  if (filename != '_template.json') {
+    var project = JSON.parse(fs.readFileSync(__dirname + '/lib/projects/' + filename).toString());
+
+    project.filename = filename
+    project.slug = filename.replace('.json', '');
+    app.locals.projects.push(project)
+
+    var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
+
+    if (phase.length > 0) {
+      phase[0].projects_count += 1;
+    }
+  }
+})
+
+
+app.use('/', express.static(path.join(__dirname, 'static')))
+// app.use(express.static('views'))
+
+var env = nunjucks.configure(['app/views/',
+    'node_modules/govuk-frontend/'], {
+    autoescape: true,
+    express: app,
+    watch: (process.env.ENV === 'development')
 });
 
-process.on('SIGINT', function() {
-  process.kill(process.pid, 'SIGTERM');
-  process.exit();
+env.addFilter('slugify', function(str) {
+  return str.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()’]/g,"").replace(/ +/g,'_').toLowerCase();
 });
+
+app.get('/projects/:slug', function (req, res) {
+  project = req.app.locals.projects.filter(function(p) { return p.slug == req.params.slug})[0]
+  res.render('project.html', {
+    'project': project
+  });
+});
+
+app.get('/', function(req, res) {
+    res.render(path.join(__dirname, 'app/views/index.html'))
+});
+
+app.get('/organisation', function(req, res) {
+    res.render('organisations.html')
+});
+
+app.get('/contribute', function(req, res) {
+    res.render('contribute.html')
+});
+
+
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+
+
