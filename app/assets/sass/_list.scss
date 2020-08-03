@@ -1,0 +1,28 @@
+
+.app-list--projects {
+  border-left: 5px solid;
+  background-color: govuk-colour("light-grey");
+  padding-left: 10px;
+
+  > li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+.app-list--unknown {
+  border-color: govuk-colour("blue");
+}
+
+
+.app-list--alpha {
+  border-color: govuk-colour("bright-purple");
+}
+
+.app-list--beta {
+  border-color: govuk-colour("pink");
+}
+
+.app-list--live {
+  border-color: govuk-colour("green");
+}
