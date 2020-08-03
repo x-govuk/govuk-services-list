@@ -1,52 +1,102 @@
 {% extends "layout.html" %}
-{%- from "govuk/components/tag/macro.njk" import govukTag -%}
+
+{% block pageTitle %}
+	Government Digital Services
+{% endblock %}
 
 {% block content %}
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-      <p class="govuk-body">These are some of the things government is doing.</p>
-    </div>
-  </div>
 
-  <div class="govuk-grid-row">
-    {% for phase in phases %}
-      <div class="govuk-grid-column-one-quarter">
-        {{ govukTag({
-          text: phase.name,
-          classes: "app-tag--large govuk-tag--" + phase.class
-        }) }}
+<main id="content" role="main">
 
-        <div class="app-count app-count--{{ phase.name }} govuk-body">
-          {{ phase.projects_count }}
-        </div>
-      </div>
-    {% endfor %}
-  </div>
+ <p style="sticky">
+	<p>
+		These are some of the things government is doing. <br />
+	</p>
 
-  {% for theme in themes %}
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-full">
-        <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
-        <h2 class="govuk-heading-l">{{ theme }}</h2>
-      </div>
-    </div>
+	<div class="grid-row">
+		<section class="column-fifth">
+			<div class="tag unknown">Unknown</div>
+			<div class="big_number txt-unknown">{{ counts.unknown }}</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag discovery">Discovery</div>
+			<div class="big_number txt-discovery">
+				{% if counts.discovery %}
+					{{ counts.discovery }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag alpha">Alpha</div>
+			<div class="big_number txt-alpha">
+				{% if counts.alpha %}
+					{{ counts.alpha }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag beta">Beta</div>
+			<div class="big_number txt-beta">
+				{% if counts.beta %}
+					{{ counts.beta }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
+		</section>
+		<section class="column-fifth">
+			<div class="tag live">Live</div>
+			<div class="big_number txt-live">
+				{% if counts.live %}
+					{{ counts.live }}
+				{% else %}
+					0
+				{% endif %}
+			</div>
+		</section>
+	</div>
+ </p>
+	{#
+		theme_order & phase_order are set in routes.js
+		so them can be used in multiple pages.
+	#}
 
-    <div class="govuk-grid-row">
+	{% for name in theme_order %}
 
-      {%- for phase in phases -%}
-        <div class="govuk-grid-column-one-quarter">
-          <div class="govuk-body"></div>
-          <ul class="govuk-list app-list--projects app-list--{{ phase.name }}">
-            {%- for project in projects -%}
-              {% if project.phase == phase.name and project.theme == theme %}
-                <li><a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a></li>
+		{% set item = data[name] %}
+		<h2 class="heading-large service-area" id="{{ name | slugify }}">{{ name }} ({{ countByOrder[name] | default('0') }})</h2>
 
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      {%- endfor -%}
-    </div>
-  {%- endfor -%}
+		<div class="grid-row">
+		{% for phase in phase_order %}
+
+			<section class="column-fifth">
+			{% if item[phase] %}
+
+				<ul class="link-list border-{{phase}}">
+				{% for bit in item[phase]['user'] %}
+					<li><a href="/projects/{{ bit.slug }}">{{ bit.name }}</a></li>
+				{% endfor %}
+				</ul>
+
+				<ul class="link-list border-internal">
+				{% for bit in item[phase]['internal'] %}
+					<li><a href="/projects/{{ bit.slug }}">{{ bit.name }}</a></li>
+				{% endfor %}
+				</ul>
+
+			{% else %}<span class='column-spacer'>&nbsp;</span>{% endif %}
+			</section>
+
+		{% endfor %}
+		</div>
+
+	{% endfor %}
+
+
+</main>
 
 {% endblock %}

@@ -1,19 +1,18 @@
-{% extends "govuk/template.njk" %}
+e{% extends "govuk_template.html" %}
 
-{% block headIcons %}
-  <link rel="shortcut icon" href="{{ asset_path }}images/unbranded.ico?0.18.3" type="image/x-icon" />
+{% block page_title %}
+	Government Digital Services
 {% endblock %}
 
-{% block head %}
-  <link href="/application.css" rel="stylesheet">
+{% block head %} {% include "includes/head.html" %} {% endblock %}
+
+{% block proposition_header %}
+  {% include "includes/propositional_navigation.html" %}
 {% endblock %}
 
-{% block header %}
-  {% include "includes/_header.html" %}
-{% endblock %}
+{% set global_header_text = "Government Digital Services" %}
 
-{% block content %}
-{% endblock %}
+{% block body_end %}
+{# {% include "includes/scripts.html" %} #}
 
-{% block footer %}
 {% endblock %}
