@@ -13,7 +13,7 @@
       <p class="govuk-body">{{ project.description }}</p>
 
       {% if project['start-page'] %}
-        <p><a href="{{ project['start-page'] }}">Start page on GOV.UK</a></p>
+        <p class="govuk-body"><a class="govuk-link" href="{{ project['start-page'] }}">Start page on GOV.UK</a></p>
       {% endif %}
       {% if project.liveservice %}
 
