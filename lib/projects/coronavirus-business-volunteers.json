@@ -1,0 +1,10 @@
+{
+  "name" : "Offer coronavirus support from your business",
+  "description": "Use this service to tell us how your business might be able to help with the response to coronavirus (COVID-19).",
+  "organisation": "Government Digital Service",
+  "theme": "Business and self-employed",
+  "phase":"unknown",
+  "liveservice":"https://coronavirus-business-volunteers.service.gov.uk/accommodation",
+  "start-page": "https://www.gov.uk/coronavirus-support-from-business",
+  "github": "*https://github.com/alphagov/govuk-coronavirus-business-volunteer-form"
+}
