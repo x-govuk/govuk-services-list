@@ -39,6 +39,7 @@ app.locals.phases = [
 ]
 
 app.locals.themes = [
+  'Coronavirus (COVID-19)',
   'Benefits',
   'Births, deaths, marriages and care',
   'Business and self-employed',

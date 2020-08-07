@@ -2,7 +2,7 @@
   "name" : "Find out what support you can get if you’re affected by coronavirus",
   "description": "Use this service to find out what help and advice you can get from the government and other organisations. You can use it for yourself or someone else.",
   "organisation": "Government Digital Service",
-  "theme": "Benefits",
+  "theme": "Coronavirus (COVID-19)",
   "phase":"unknown",
   "liveservice":"https://find-coronavirus-support.service.gov.uk/need-help-with",
   "start-page": "https://www.gov.uk/find-coronavirus-support",
