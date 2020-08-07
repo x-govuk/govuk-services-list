@@ -83,6 +83,10 @@ fs.readdirSync(__dirname + '/lib/projects/').forEach(function(filename) {
     project.slug = filename.replace('.json', '');
     app.locals.projects.push(project)
 
+    if (!app.locals.organisations.includes(project.organisation)) {
+      app.locals.organisations.push(project.organisation)
+    }
+
     var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
 
     if (phase.length > 0) {
