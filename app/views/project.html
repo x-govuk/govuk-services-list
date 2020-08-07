@@ -1,49 +1,55 @@
 {% extends "layout.html" %}
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{%- from "govuk/components/tag/macro.njk" import govukTag -%}
+
+
 
 {% block content %}
 
-<main id="content" role="main">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">{{ project.name }}</h1>
 
+      <p class="govuk-body">{{ project.description }}</p>
 
-	<div class="grid-row">
-		<section class="column-two-thirds">
+      {% if project['start-page'] %}
+        <p><a href="{{ project['start-page'] }}">Start page on GOV.UK</a></p>
+      {% endif %}
+      {% if project.liveservice %}
 
-		<h1 class="heading-xlarge" style="margin-bottom:15px;">{{ data.name }}</h1>
+        {{ govukButton({
+          text: "View service",
+          href: project.liveservice
 
-		<p>{{ data.description }}</p>
+        }) }}
 
-		{% if data['start-page'] %}
-			<p><a href="{{ data['start-page'] }}">Start page on GOV.UK</a></p>
-		{% endif %}
-		{% if data.liveservice %}
-			<div><a href="{{ data.liveservice }}" class="button">View service</a></div>
-		{% endif %}
+      {% endif %}
 
+      {% if project.video %}
+        <div style="margin-top:30px;" class="videoWrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ project.video }}" frameborder="0" allowfullscreen></iframe>
+        </div>
+      {% endif %}
 
-			{% if data.video %}
-			<div style="margin-top:30px;" class="videoWrapper">
-				<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ data.video }}" frameborder="0" allowfullscreen></iframe>
-			</div>
-			{% endif %}
-		</section>
-		<section class="column-third govuk-!-padding-top-9">
+    </div>
+    <div class="govuk-grid-column-one-third">
 
-			<strong class="govuk-tag">
-  			{{ data.phase }}
-			</strong>
+      {% if project.phase %}
+        {{ govukTag({
+            text: project.phase
+        }) }}
+      {% endif %}
 
-			<p>Built by: <a href="/organisation/#{{ data.organisation | slugify }}">{{ data.organisation }}</a></p>
+      <p class="govuk-body">Built by: <a class="govuk-link" href="/organisation/#{{ project.organisation | slugify }}">{{ project.organisation }}</a></p>
 
-			<p>Theme: <a href="/#{{ data.theme | slugify }}">{{ data.theme }}</a></p>
-<br /><br />
+      <p class="govuk-body">Theme: <a class="govuk-link" href="/#{{ project.theme | slugify }}">{{ project.theme }}</a></p>
 
+      {% if project.github %}
+        <p class="govuk-body"><a class="govuk-link" href="{{ project.github }}">Source code</a></p>
+      {% endif %}
 
-			{% if data.github %}
-				<p><a href="{{ data.github | default('#') }}">Source code</a></p>
-			{% endif %}
+    </div>
+  </div>
 
-		</section>
-	</div>
-</main>
 
 {% endblock %}
