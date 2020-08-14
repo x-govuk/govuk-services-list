@@ -1,0 +1,9 @@
+{
+  "name" : "Report a serious childcare incident",
+  "description": "Ofsted-registered childminders, nannies, nurseries and other daycare must use this service to report significant events affecting their childcare within 14 days.",
+  "organisation": "Ofsted",
+  "theme": "Childcare and parenting",
+  "phase": "beta",
+  "liveservice": "https://www.report-childcare-incident.service.gov.uk/",
+  "start-page": "Childcare and parenting"
+}
