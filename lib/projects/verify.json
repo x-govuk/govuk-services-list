@@ -6,5 +6,6 @@
   "organisation": "Government Digital Service",
   "phase":"live",
   "facing":"internal",
-  "liveservice":"https://www.gov.uk/verify"
+  "start-page":"https://www.signin.service.gov.uk/start",
+  "liveservice": "https://www.verify.service.gov.uk"
 }
