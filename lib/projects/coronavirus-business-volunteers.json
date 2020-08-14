@@ -6,5 +6,5 @@
   "phase":"unknown",
   "liveservice":"https://coronavirus-business-volunteers.service.gov.uk/accommodation",
   "start-page": "https://www.gov.uk/coronavirus-support-from-business",
-  "github": "*https://github.com/alphagov/govuk-coronavirus-business-volunteer-form"
+  "github": "https://github.com/alphagov/govuk-coronavirus-business-volunteer-form"
 }
