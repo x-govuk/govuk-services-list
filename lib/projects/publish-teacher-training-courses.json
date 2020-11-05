@@ -1,9 +1,8 @@
 {
-  "id": 2005,
-  "name":"Publish teacher training courses",
+  "name": "Publish teacher training courses",
   "description": "",
-  "theme": "Working, jobs and pensions",
+  "theme": "Education, training and skills",
   "organisation": "Department for Education",
-  "phase":"beta",
-  "liveservice": "https://publish-teacher-training-courses.education.gov.uk"
+  "phase": "beta",
+  "liveservice": "https://www.publish-teacher-training-courses.education.gov.uk"
 }
