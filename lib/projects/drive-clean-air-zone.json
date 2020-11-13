@@ -1,0 +1,9 @@
+{
+  "name" : "Drive in a Clean Air Zone",
+  "description": "Use this service to find out if there will be a daily charge to drive your vehicle in a Clean Air Zone.",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "theme": "Driving and transport",
+  "phase": "beta",
+  "liveservice": "https://vehiclecheck.drive-clean-air-zone.service.gov.uk/vehicle_checkers/enter_details",
+  "start-page": "https://www.gov.uk/check-clean-air-zone-charge"
+}
