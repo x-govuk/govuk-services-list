@@ -1,14 +1,9 @@
 {
-  "id":1129,
-  "name":"Find property information",
-  "description": "Users can buy and view a snippet of important land and property information from register data held in the System of Record",
+  "name": "Search for property information from HM Land Registry",
+  "description": "Find information about a property in England or Wales, even if you do not own it. Search by address to find the owner, how far its general boundaries extend and whether it’s at risk of flooding.",
   "theme": "Housing and local services",
   "organisation": "Land Registry",
-  "phase":"beta",
-  "phase_modifier":"private",
-
-  "prototype":"https://drv-ux-prototype.herokuapp.com/",
-  "liveservice":"https://search-property-information.service.gov.uk/",
-
-  "facing":"user"
+  "phase": "beta",
+  "liveservice": "https://search-property-information.service.gov.uk/",
+  "start-page": "https://www.gov.uk/search-property-information-land-registry"
 }
