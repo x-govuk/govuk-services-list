@@ -1,9 +1,9 @@
 {
-  "id":27,
-  "name":"Local Land Charges",
-  "description": "The service will provide users with accurate and up-to-date information on Local Land Charges, and provide a mechanism for relevant Local Authority staff to update Charges.",
+  "name": "Search for local land charges",
+  "description": "Use this service to search for restrictions (local land charges) on land or property.",
   "theme": "Housing and local services",
   "organisation": "Land Registry",
-  "phase":"alpha",
-  "alpha-assessment": "https://www.gov.uk/service-standard-reports/local-land-charges-alpha-assessment"
+  "phase": "beta",
+  "alpha-assessment": "https://www.gov.uk/service-standard-reports/local-land-charges-alpha-assessment",
+  "liveservice": "https://search-local-land-charges.service.gov.uk"
 }
