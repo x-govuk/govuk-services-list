@@ -1,10 +1,9 @@
 {
-  "id":3,
-  "name":"Employment and Support Allowance (ESA)",
-  "description": "Lets customers who are unable to work through sickness or injury make a claim for Employment and Support Allowance.",
-  "theme": "Benefits",
+  "name": "Apply for New Style Employment and Support Allowance (New Style ESA)",
+  "description": "Use this service if you need financial support because you’re off work with a health condition, injury or disability.",
   "organisation": "Department for Work and Pensions",
-  "phase":"beta",
-  "phase_modifier":"Private",
-  "prototype":"http://esa-digital.herokuapp.com"
+  "theme": "Benefits",
+  "phase": "beta",
+  "liveservice": "https://www.apply-new-style-employment-support-allowance.service.gov.uk/",
+  "start-page": "https://www.gov.uk/guidance/new-style-employment-and-support-allowance"
 }
