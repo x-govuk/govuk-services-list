@@ -1,10 +1,9 @@
 {
-  "name":"Visas and Immigration",
-  "description": "Apply for a visa",
+  "name": "Apply for a Standard Visitor visa",
+  "description": "If you need a visa, you must apply online before you travel to the UK.",
   "theme": "Visas and immigration",
   "organisation": "UK Visas and Immigration",
-  "phase":"beta",
-  "phase_modifier":"Public",
+  "phase": "beta",
   "start-page": "https://www.gov.uk/standard-visitor-visa/apply",
-  "liveservice":"https://visas-immigration.service.gov.uk/alt-language-selection-skip-visa"
+  "liveservice": "https://visas-immigration.service.gov.uk/apply-visa-type/visit"
 }
