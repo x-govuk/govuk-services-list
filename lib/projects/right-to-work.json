@@ -1,9 +1,9 @@
 {
-  "id":1074,
-  "name":"Right to Work",
-  "description": "Not available",
-  "theme": "Working, jobs and pensions",
+  "name": "View a job applicant's right to work",
+  "description": "Check details of a job applicant’s right to work in the UK",
+  "theme": "Visas and immigration",
   "organisation": "Home Office",
-  "phase":"beta",
-  "liveservice":"https://www.immigrationstatuscheck.service.gov.uk/employers/"
+  "phase": "beta",
+  "liveservice": "https://right-to-work.service.gov.uk/view",
+  "start-page": "https://www.gov.uk/view-right-to-work"
 }
