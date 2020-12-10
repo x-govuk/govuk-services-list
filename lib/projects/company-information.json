@@ -1,0 +1,9 @@
+{
+  "name": "Get information about a company",
+  "description": "Get some details about a company for free, including registered address, date of incorporation, current and resigned officers, document images and previous company names.",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "beta",
+  "liveservice": "https://find-and-update.company-information.service.gov.uk",
+  "start-page": "https://www.gov.uk/get-information-about-a-company"
+}
