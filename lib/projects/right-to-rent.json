@@ -1,9 +1,8 @@
 {
-  "id":54,
   "name":"Check your tenant's right to rent",
   "description": "You must check that a tenant or lodger can legally rent your residential property in England. Before the start of a new tenancy, you must check all tenants aged 18 and over, even if: they’re not named on the tenancy agreement, there’s no tenancy agreement, the tenancy agreement isn’t in writing.",
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
-  "phase":"unknown",
+  "phase": "beta",
   "github":"https://github.com/UKHomeOffice/right-to-rent-check"
 }
