@@ -1,0 +1,9 @@
+{
+  "name": "Record your catch",
+  "description": "Create and submit catch records for all English and Welsh under 10 metre (U10m) flag vessels that fish in UK waters.",
+  "organisation": "Marine Management Organisation",
+  "theme": "Business and self-employed",
+  "phase": "beta",
+  "liveservice": "https://record-catch.service.gov.uk/sign-in",
+  "start-page": "https://www.gov.uk/guidance/record-your-catch"
+}
