@@ -1,0 +1,9 @@
+{
+  "name" : "Renew a patent",
+  "description": "Renew your GB patent or European patent (UK) online.",
+  "organisation": "Intellectual Property Office",
+  "theme": "Business and self-employed",
+  "phase": "beta",
+  "liveservice": "https://www.patent.service.gov.uk/renew",
+  "start-page": "https://www.gov.uk/renew-patent"
+}
