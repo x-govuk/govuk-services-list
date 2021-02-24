@@ -1,0 +1,9 @@
+{
+  "name" : "Apply for a Green Homes Grant",
+  "description": "Use this service to apply for a grant of up to £10,000 towards the cost of making your home more energy efficient.",
+  "organisation": "Department for Business, Energy & Industrial Strategy",
+  "theme": "Housing and local services",
+  "phase": "beta",
+  "liveservice": "https://green-homes-grant.service.gov.uk/homeowner-and-landlord-application",
+  "start-page": "https://www.gov.uk/apply-green-homes-grant"
+}
