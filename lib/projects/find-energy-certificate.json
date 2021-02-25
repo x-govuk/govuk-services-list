@@ -1,0 +1,9 @@
+{
+  "name": "Find an energy certificate",
+  "description": "Use this service to find energy certificates and recommendation reports for properties in England, Wales and Northern Ireland.",
+  "organisation": "Ministry of Housing, Communities and Local Government",
+  "theme": "Housing and local services",
+  "phase": "beta",
+  "liveservice": "https://find-energy-certificate.digital.communities.gov.uk",
+  "start-page": "https://www.gov.uk/buy-sell-your-home/energy-performance-certificates"
+}
