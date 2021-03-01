@@ -1,10 +1,11 @@
 {
-  "id":25,
-  "name":"Apply for Probate",
-  "description": "The service will enable personal applicants to apply for a grant of probate in a clear and easy way, giving them the legal right to administer the estate of the person who died.",
+  "name": "Apply for Probate",
+  "description": "Applying for the legal right to deal with someone’s property, money and possessions (their ‘estate’) when they die is called ‘applying for probate’.",
   "theme": "Crime, justice and the law",
-  "organisation": "Ministry of Justice",
-  "phase":"alpha",
+  "organisation": "HM Courts & Tribunals Service",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/applying-for-probate/apply-for-probate",
+  "liveservice": "https://www.apply-for-probate.service.gov.uk/death-certificate",
   "github": "https://github.com/hmcts/probate-frontend",
   "alpha-assessment": "https://www.gov.uk/service-standard-reports/apply-for-probate-alpha-assessment"
 }
