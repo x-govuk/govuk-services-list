@@ -1,0 +1,9 @@
+{
+  "name": "Respond to a divorce application",
+  "description": "If your husband or wife has started divorce proceedings against you, the divorce centre will send you a copy of their divorce application (‘petition’).",
+  "organisation": "HM Courts & Tribunals Service",
+  "theme": "Births, deaths, marriages and care",
+  "phase": "beta",
+  "liveservice": "https://www.respond-divorce.service.gov.uk/",
+  "start-page": "https://www.gov.uk/respond-divorce-application"
+}
