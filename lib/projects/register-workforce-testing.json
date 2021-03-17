@@ -1,0 +1,9 @@
+{
+  "name": "Register to order free rapid lateral flow coronavirus tests for your employees",
+  "description": "You can order free rapid lateral flow tests to test your employees twice a week in the workplace.",
+  "organisation": "Department for Business, Energy & Industrial Strategy",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "alpha",
+  "liveservice": "https://register-workforce-testing.service.gov.uk",
+  "start-page": "https://www.gov.uk/get-workplace-coronavirus-tests"
+}
