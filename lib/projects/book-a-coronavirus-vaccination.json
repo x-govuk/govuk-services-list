@@ -1,0 +1,9 @@
+{
+  "name": "Book or manage your coronavirus vaccination",
+  "description": "Use this service to book a coronavirus (COVID-19) vaccination or manage your appointments.",
+  "organisation": "NHS Digital",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "unknown",
+  "liveservice": "https://www.nhs.uk/book-a-coronavirus-vaccination/do-you-have-an-nhs-number",
+  "start-page": "https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/book-coronavirus-vaccination/"
+}
