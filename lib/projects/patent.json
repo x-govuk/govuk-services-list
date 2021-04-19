@@ -1,9 +1,9 @@
 {
-  "name" : "Renew a patent",
-  "description": "Renew your GB patent or European patent (UK) online.",
+  "name" : "Renew a patent, trade mark or registered design",
+  "description": "Use this service to renew up to 1,500 patents, trade marks or registered designs and sign up for renewal reminders.",
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "beta",
-  "liveservice": "https://www.patent.service.gov.uk/renew",
-  "start-page": "https://www.gov.uk/renew-patent"
+  "liveservice": "https://www.renew-patent-trademark-registered-design.service.gov.uk/renew/start",
+  "start-page": "https://www.gov.uk/renew-patent-trademark-registered-design"
 }
