@@ -4,6 +4,6 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase":"beta",
-  "liveservice":"https://wsr.theorytest.direct.gov.uk/dsa/book",
-  "startpage":"https://www.gov.uk/book-theory-test"
+  "liveservice": "https://wsr.theorytest.dvsa.gov.uk/dsa/book",
+  "start-page": "https://www.gov.uk/book-theory-test"
 }
