@@ -6,6 +6,7 @@
   "theme":"Driving and transport",
   "phase":"beta",
   "liveservice":"https://driving-medical-condition.service.gov.uk",
+  "start-page": "https://www.gov.uk/report-driving-medical-condition",
   "beta-assessment":"https://www.gov.uk/service-standard-reports/fitness-to-drive",
   "github":"https://github.com/dvla/Fitness-to-Drive-Pageflow"
 }
