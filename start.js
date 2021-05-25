@@ -60,16 +60,26 @@ app.locals.themes = [
 ];
 
 app.locals.organisations = [
-  'Home Office',
-  'Department for Work and Pensions',
-  'Ministry of Justice',
-  'Land Registry',
-  'Department for Environment, Food & Rural Affairs',
+  'Cabinet Office',
+  'Department for Business, Energy & Industrial Strategy',
   'Department for Education',
+  'Department for Environment, Food & Rural Affairs',
+  'Department for International Trade',
+  'Department for Transport',
+  'Department for Work and Pensions',
+  'Department of Health and Social Care',
+  'Foreign & Commonwealth Office',
+  'Home Office',
+  'Ministry of Defence',
+  'Ministry of Housing, Communities and Local Government',
+  'Ministry of Justice',
+  'HM Revenue and Customs',
+  'Environment Agency',
   'NHS Digital',
   'Companies House',
-  'Skills Funding Agency',
-  'Insolvency Service'
+  'Ofsted',
+  'Insolvency Service',
+  'Land Registry',
 ];
 
 app.locals.projects = []

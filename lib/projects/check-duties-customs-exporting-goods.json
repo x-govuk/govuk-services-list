@@ -1,7 +1,7 @@
 {
   "name" : "Check duties and customs procedures for exporting goods",
   "description": "Find information about how to move goods from the UK to the rest of the world.",
-  "organisation": "Department of Trade",
+  "organisation": "Department for International Trade",
   "theme": "Business and self-employed",
   "phase":"beta",
   "liveservice":"https://www.check-duties-customs-exporting-goods.service.gov.uk/selectdest",
