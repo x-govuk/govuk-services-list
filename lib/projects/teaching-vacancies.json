@@ -5,5 +5,6 @@
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Education",
   "phase":"beta",
-  "liveservice": "https://teaching-vacancies.service.gov.uk"
+  "liveservice": "https://teaching-vacancies.service.gov.uk",
+  "github": "https://github.com/DFE-Digital/teaching-vacancies"
 }
