@@ -1,0 +1,9 @@
+{
+  "name": "Register trainee teachers",
+  "description": "Register trainees with the Department for Education and record the outcome of their training.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "liveservice": "https://www.register-trainee-teachers.education.gov.uk"
+  "github": "https://github.com/DFE-Digital/register-trainee-teachers"
+}
