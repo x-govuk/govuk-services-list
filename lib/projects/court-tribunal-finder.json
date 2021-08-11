@@ -1,9 +1,9 @@
 {
-  "id":1037,
-  "name":"Court and tribunal finder",
-  "description": "Find the right court or tribunal.",
+  "name": "Find a Court or Tribunal",
+  "description": "Find contact details and information on courts and tribunals in England and Wales, and some non-devolved tribunals in Scotland.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"beta",
-  "liveservice":"https://courttribunalfinder.service.gov.uk"
+  "phase": "beta",
+  "liveservice": "https://www.find-court-tribunal.service.gov.uk",
+  "start-page": "https://www.gov.uk/find-court-tribunal"
 }
