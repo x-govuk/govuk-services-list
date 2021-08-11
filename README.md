@@ -1,24 +1,25 @@
-# Government Digital Services
+# UK Government digital services
 
-Feed this thing data or it will die!
+A community-maintained list of digital services from the UK government.
 
-Data sources:
-* [Government Organisation Register](https://government-organisation.register.gov.uk/)
-* [Government Service Register](https://government-service.register.gov.uk)
-* [Service Standard Assessments](https://www.gov.uk/service-standard-reports)
-* [Performance Platform](https://www.gov.uk/performance)
+## Data sources
 
+* [Service Standard Reports](https://www.gov.uk/service-standard-reports)
+* [Services on GOV.UK](https://www.gov.uk/search/services)
+* [UK government accounts on GitHub](https://government.github.com/community/#governments-uk-central)
 
-Existing portfolios I have partially or entirely cannibalised for this:
+### Previous data sources
 
+* [Government Service Register](https://government-service.register.gov.uk) (no longer maintained)
+* [Performance Platform](https://www.gov.uk/performance) (no longer maintained)
 * [DWP Digital Service Portfolio](http://dwp-digital-services.herokuapp.com/)
 * [HMPPS Digital Studio](https://github.com/noms-digital-studio/hmpps-portfolio)
-* [Land Registry](https://github.com/LandRegistry/lr-portfolio)
+* [Land Registry Digital Services](https://github.com/LandRegistry/lr-portfolio)
 
 ## How to run this project
 
 You'll need
-1. Node 4 or above
+1. Node 12 or above
 2. NPM (should come with Node 4 and above :))
 
 Using a command line run
@@ -27,9 +28,3 @@ Using a command line run
 npm install
 npm start
 ```
-Alternatively, you can use Docker to avoid installing anything apart from Docker.
-```
-docker build -t service-catalogue /path/to/Dockerfile
-docker run -d -p 3100:3100 service-catalogue
-```
-and point your browser to localhost:3100
