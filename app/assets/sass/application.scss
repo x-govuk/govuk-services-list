@@ -1,8 +1,21 @@
 $govuk-new-link-styles: true;
+
+// Override the default GOV.UK Frontend font stack
+$govuk-font-family: "HelveticaNeue", "Helvetica Neue", "Arial", "Helvetica", sans-serif;
+
 @import "node_modules/govuk-frontend/govuk/all";
+
+// App-specific variables
+$app-light-grey: #f8f8f8;
 
 @import "count";
 @import "header";
 @import "list";
 @import "logo";
+@import "navigation";
 @import "tag";
+
+// We don't change the global width container width so that examples are the current width.
+.app-width-container {
+  @include govuk-width-container(1100px);
+}

@@ -32,22 +32,72 @@
         </div>
       {% endif %}
 
-    </div>
-    <div class="govuk-grid-column-one-third">
 
-      {% if project.phase %}
+      {% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+
+      {% set organisationHtml %}
+        <a class="govuk-link" href="/organisation/#{{ project.organisation | slugify }}">{{ project.organisation }}</a>
+      {% endset %}
+
+      {% set themeHtml %}
+        <a class="govuk-link" href="/#{{ project.theme | slugify }}">{{ project.theme }}</a>
+      {% endset %}
+
+      {% set statusHtml %}
         {{ govukTag({
             text: project.phase
         }) }}
-      {% endif %}
+      {% endset %}
 
-      <p class="govuk-body">Built by: <a class="govuk-link" href="/organisation/#{{ project.organisation | slugify }}">{{ project.organisation }}</a></p>
+      {% set sourceCodeHtml %}
+        {% if project.github %}
+          <a class="govuk-link" href="{{ project.github }}">{{ project.github }}</a>
+        {% else %}
+          Not found
+        {% endif %}
+      {% endset %}
 
-      <p class="govuk-body">Theme: <a class="govuk-link" href="/#{{ project.theme | slugify }}">{{ project.theme }}</a></p>
+      <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl">
 
-      {% if project.github %}
-        <p class="govuk-body"><a class="govuk-link" href="{{ project.github }}">Source code</a></p>
-      {% endif %}
+      <h2 class="govuk-heading-m">About this service</h2>
+
+      {{ govukSummaryList({
+        rows: [
+          {
+            key: {
+              text: "Organisation"
+            },
+            value: {
+              html: organisationHtml
+            }
+          },
+          {
+            key: {
+              text: "Theme"
+            },
+            value: {
+              html: themeHtml
+            }
+          },
+          {
+            key: {
+              text: "Status"
+            },
+            value: {
+              html: statusHtml
+            }
+          },
+          {
+            key: {
+              text: "Source code"
+            },
+            value: {
+              html: sourceCodeHtml
+            }
+          }
+        ]
+      }) }}
+
 
     </div>
   </div>
