@@ -1,0 +1,56 @@
+$navigation-height: 50px;
+
+.app-navigation {
+  @include govuk-font(19, $weight: bold);
+  box-sizing: border-box;
+  width: 100%;
+  background-color: $app-light-grey;
+
+  @include govuk-media-query($until: tablet) {
+    display: none;
+  }
+}
+
+.app-navigation__list {
+  position: relative;
+  left: -(govuk-spacing(3));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.app-navigation__list-item {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  height: $navigation-height;
+  padding: 0 govuk-spacing(3);
+  float: left;
+  line-height: $navigation-height;
+}
+
+.app-navigation__list-item--current {
+  border-bottom: 4px solid govuk-colour("blue");
+}
+
+.app-navigation__link {
+  @include govuk-typography-weight-bold;
+
+  &:not(:focus):hover {
+    color: $govuk-link-colour;
+  }
+
+  // Extend the touch area of the link to the list
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+.app-navigation__list-item--current .app-navigation__link:hover {
+  text-decoration: none;
+}

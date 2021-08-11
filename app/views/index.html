@@ -6,7 +6,7 @@
 {% block content %}
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-full">
-      <p class="govuk-body">These are some of the things government is doing.</p>
+      <p class="govuk-body">A catalogue of government services that are fully digital as part of GOV.UK</p>
     </div>
   </div>
 
@@ -27,28 +27,21 @@
 
   {% for theme in themes %}
     <div class="govuk-grid-row">
-      <div class="govuk-grid-column-full">
+      <div class="govuk-grid-column-two-thirds">
         <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
         <h2 class="govuk-heading-l">{{ theme }}</h2>
+
+        <ul class="govuk-list">
+          {%- for project in projects -%}
+            {% if project.theme == theme %}
+              <li>
+                <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
       </div>
     </div>
-
-    <div class="govuk-grid-row">
-
-      {%- for phase in phases -%}
-        <div class="govuk-grid-column-one-quarter">
-          <div class="govuk-body"></div>
-          <ul class="govuk-list app-list--projects app-list--{{ phase.name }}">
-            {%- for project in projects -%}
-              {% if project.phase == phase.name and project.theme == theme %}
-                <li><a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a></li>
-
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      {%- endfor -%}
-    </div>
-  {%- endfor -%}
+  {% endfor %}
 
 {% endblock %}

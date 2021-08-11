@@ -4,40 +4,27 @@
 {% block pageTitle %}By organisation: Government digital services{% endblock %}
 {% block content %}
 
-  <div class="govuk-grid-row">
-    {% for phase in phases %}
-      <div class="govuk-grid-column-one-quarter">
-        {{ govukTag({
-          text: phase.name,
-          classes: "app-tag--large govuk-tag--" + phase.class
-        }) }}
-      </div>
-    {% endfor %}
-  </div>
+  <h1 class="govuk-heading-xl">By organisation</h1>
 
   {% for organisation in organisations %}
     <div class="govuk-grid-row">
       <div class="govuk-grid-column-full">
-        <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
         <h2 class="govuk-heading-l" id="{{ organisation | slugify }}">{{ organisation }}</h2>
+
+        <ul class="govuk-list">
+          {%- for project in projects -%}
+            {% if project.organisation == organisation %}
+              <li>
+                <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
+
       </div>
     </div>
 
-    <div class="govuk-grid-row">
-      {%- for phase in phases -%}
-        <div class="govuk-grid-column-one-quarter">
-          <div class="govuk-body"></div>
-          <ul class="govuk-list app-list--projects app-list--{{ phase.name }}">
-            {%- for project in projects -%}
-              {% if project.phase == phase.name and project.organisation == organisation %}
-                <li><a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a></li>
-
-              {% endif %}
-            {% endfor %}
-          </ul>
-        </div>
-      {%- endfor -%}
-    </div>
   {%- endfor -%}
 
 {% endblock %}
