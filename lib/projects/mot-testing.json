@@ -1,10 +1,10 @@
 {
-  "id":1084,
-  "name":"MOT Testing",
-  "description": "Not available.",
+  "name": "MOT testing service",
+  "description": "Use this service if you’re an MOT tester and you need to record results of MOTs you carry out, print MOT certificates or buy test slots and check your test station’s balance.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
-  "phase":"unknown",
-  "liveservice":"https://www.mot-testing.service.gov.uk",
-  "github":"https://github.com/dvsa/mot"
+  "phase": "unknown",
+  "liveservice": "https://www.mot-testing.service.gov.uk",
+  "start-page": "https://www.gov.uk/mot-testing-service",
+  "github": "https://github.com/dvsa/mot"
 }
