@@ -1,0 +1,9 @@
+{
+  "name" : "Apply for a National Insurance number",
+  "description": "You should only apply online if you need a National Insurance number to work in the UK.",
+  "organisation": "Department for Work and Pensions",
+  "theme": "Working, jobs and pensions",
+  "phase": "beta",
+  "liveservice": "https://www.apply-national-insurance-number.service.gov.uk/apply/welcome",
+  "start-page": "https://www.gov.uk/apply-national-insurance-number"
+}
