@@ -1,0 +1,9 @@
+{
+  "name" : "Find a coronavirus (COVID-19) travel test provider",
+  "description": "You need to get tested for COVID-19 if you’re arriving in England from abroad. You can compare and choose a test provider based on cost and whether they are available in your region.",
+  "organisation": "Department of Health and Social Care",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "unknown",
+  "liveservice": "https://www.find-travel-test-provider.service.gov.uk/test-type",
+  "start-page": "https://www.gov.uk/find-travel-test-provider"
+}
