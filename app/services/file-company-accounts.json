@@ -1,9 +1,9 @@
 {
-  "id":26,
-  "name":"File Company Accounts",
+  "id": 26,
+  "name": "File Company Accounts",
   "description": "The service allows companies to comply with their legislative requirement that they annually file company accounts, as signed off by the directors, for the public record.",
   "theme": "Business and self-employed",
   "organisation": "Companies House",
-  "phase":"alpha",
+  "phase": "alpha",
   "alpha-assessment": "https://www.gov.uk/service-standard-reports/file-company-accounts-alpha-assessment"
 }

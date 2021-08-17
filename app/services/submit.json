@@ -1,9 +1,9 @@
 {
-  "id":74,
-  "name":"GOV.UK Submit",
+  "id": 74,
+  "name": "GOV.UK Submit",
   "description": "We’re planning a new discovery around collecting information from users. We’ll focus on services without access to a software development team. We’ll use this discovery to decide if there’s an opportunity for a new component to address this common task. https://governmentasaplatform.blog.gov.uk/2017/09/06/discovering-the-next-component/",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase":"discovery",
-  "facing":"internal"
+  "phase": "discovery",
+  "facing": "internal"
 }

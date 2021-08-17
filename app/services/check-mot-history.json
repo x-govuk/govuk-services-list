@@ -1,9 +1,9 @@
 {
-  "id":1021,
-  "name":"Check MOT history",
+  "id": 1021,
+  "name": "Check MOT history",
   "description": "Check the past results of a vehicle’s MOT tests.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
-  "phase":"unknown",
-  "liveservice":"https://www.check-mot.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://www.check-mot.service.gov.uk/"
 }

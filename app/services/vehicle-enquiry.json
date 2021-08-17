@@ -1,9 +1,9 @@
 {
-  "id":1152,
-  "name":"Check if a vehicle is taxed and has an MOT",
+  "id": 1152,
+  "name": "Check if a vehicle is taxed and has an MOT",
   "description": "Not available.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase":"unknown",
-  "liveservice":"https://vehicleenquiry.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://vehicleenquiry.service.gov.uk/"
 }

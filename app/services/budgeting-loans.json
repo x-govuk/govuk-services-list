@@ -1,10 +1,10 @@
 {
-  "id":1004,
-  "name":"Apply for a Budgeting Loan",
+  "id": 1004,
+  "name": "Apply for a Budgeting Loan",
   "description": "Lets users apply for a short-term cash loan so that they can afford to buy essential items or services.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase":"beta",
-  "phase_modifier":"Public",
-  "liveservice":"https://www.apply-budgeting-loan.service.gov.uk"
+  "phase": "beta",
+  "phase_modifier": "Public",
+  "liveservice": "https://www.apply-budgeting-loan.service.gov.uk"
 }

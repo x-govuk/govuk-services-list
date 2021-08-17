@@ -1,9 +1,9 @@
 {
-  "id":1031,
-  "name":"Find and compare schools in England",
+  "id": 1031,
+  "name": "Find and compare schools in England",
   "description": "Not available.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase":"beta",
-  "liveservice":"https://www.compare-school-performance.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://www.compare-school-performance.service.gov.uk/"
 }

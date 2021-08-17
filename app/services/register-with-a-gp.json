@@ -1,9 +1,9 @@
 {
-  "id":29,
-  "name":"Register with a GP Practice",
+  "id": 29,
+  "name": "Register with a GP Practice",
   "description": "The service enables users to register with a GP practice.",
   "theme": "Births, deaths, marriages and care",
   "organisation": "NHS Digital",
-  "phase":"alpha",
+  "phase": "alpha",
   "alpha-assessment": "https://www.gov.uk/service-standard-reports/register-with-a-gp-practice-alpha-assessment"
 }

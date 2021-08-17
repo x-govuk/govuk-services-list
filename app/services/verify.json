@@ -1,11 +1,11 @@
 {
-  "id":73,
-  "name":"GOV.UK Verify",
+  "id": 73,
+  "name": "GOV.UK Verify",
   "description": "The new way to prove who you are online.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase":"live",
-  "facing":"internal",
-  "start-page":"https://www.signin.service.gov.uk/start",
+  "phase": "live",
+  "facing": "internal",
+  "start-page": "https://www.signin.service.gov.uk/start",
   "liveservice": "https://www.verify.service.gov.uk"
 }

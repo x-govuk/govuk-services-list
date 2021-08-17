@@ -1,8 +1,8 @@
 {
-  "id":1071,
-  "name":"HGV levy",
+  "id": 1071,
+  "name": "HGV levy",
   "description": "Not available",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase":"unknown",
-  "liveservice":"https://www.hgvlevy.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://www.hgvlevy.service.gov.uk/"
 }

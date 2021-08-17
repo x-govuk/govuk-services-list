@@ -1,11 +1,11 @@
 {
-  "id":20,
-  "name":"Bereavement support",
+  "id": 20,
+  "name": "Bereavement support",
   "description": "Looking at how to help bereaved customers report and deal with changes after a death.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase":"beta",
-  "phase_modifier":"Private",
-  "prototype":"http://bereavement.herokuapp.com/",
-  "github":"https://github.com/abbott567/bereavement"
+  "phase": "beta",
+  "phase_modifier": "Private",
+  "prototype": "http://bereavement.herokuapp.com/",
+  "github": "https://github.com/abbott567/bereavement"
 }

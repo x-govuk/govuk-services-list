@@ -1,9 +1,9 @@
 {
-  "id":1168,
-  "name":"Report landfill data",
+  "id": 1168,
+  "name": "Report landfill data",
   "description": "Not available.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase":"beta",
-  "liveservice":"https://report-landfill-data.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://report-landfill-data.service.gov.uk/"
 }

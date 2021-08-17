@@ -1,10 +1,10 @@
 {
-  "id":1149,
-  "name":"Update Charity Details",
+  "id": 1149,
+  "name": "Update Charity Details",
   "description": "You can change your charity’s details online with the Charity Commission. You’ll also need to report changes in your charity’s details with HMRC and possibly Companies House..",
   "theme": "Money and tax",
   "organisation": "Charity Commission",
-  "phase":"beta",
-  "beta-assessment":"https://www.gov.uk/service-standard-reports/update-charity-details",
-  "liveservice":"https://www.update-charity-details.service.gov.uk/"
+  "phase": "beta",
+  "beta-assessment": "https://www.gov.uk/service-standard-reports/update-charity-details",
+  "liveservice": "https://www.update-charity-details.service.gov.uk/"
 }

@@ -1,9 +1,9 @@
 {
-  "id":1123,
-  "name":"Domestic Renewable Heat Incentive",
+  "id": 1123,
+  "name": "Domestic Renewable Heat Incentive",
   "description": "The Domestic Renewable Heat Incentive (Domestic RHI) is a UK Government financial incentive to promote the use of renewable heat. Switching to heating systems that use naturally replenished energy can help the UK reduce its carbon emissions. If you join and comply with the scheme rules, you’ll receive quarterly payments for seven years for the amount of clean, green renewable heat the system produces.",
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Environment and countryside",
-  "phase":"unknown",
-  "liveservice":"https://renewable-heat-calculator.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://renewable-heat-calculator.service.gov.uk/"
 }

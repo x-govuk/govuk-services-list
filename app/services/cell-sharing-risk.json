@@ -1,10 +1,10 @@
 {
-  "id":33,
-  "name":"Cell Sharing Risk Assessment application",
+  "id": 33,
+  "name": "Cell Sharing Risk Assessment application",
   "description": "Not available.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"unknown",
-  "facing":"internal",
-  "github":"https://github.com/noms-digital-studio/csra-app"
+  "phase": "unknown",
+  "facing": "internal",
+  "github": "https://github.com/noms-digital-studio/csra-app"
 }

@@ -1,8 +1,8 @@
 {
-  "id":1082,
-  "name":"Manage fleet vehicles",
+  "id": 1082,
+  "name": "Manage fleet vehicles",
   "description": "Not available",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase":"unknown",
-  "liveservice":"https://www.managefleetvehicles.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://www.managefleetvehicles.service.gov.uk/"
 }

@@ -1,9 +1,9 @@
 {
-  "id":1017,
-  "name":"Private sale of a vehicle",
+  "id": 1017,
+  "name": "Private sale of a vehicle",
   "description": "Tell DVLA you've sold, transferred or bought a vehicle",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase":"beta",
-  "theme":"Driving and transport",
-  "liveservice":"https://www.buysellvehicle.service.gov.uk"
+  "phase": "beta",
+  "theme": "Driving and transport",
+  "liveservice": "https://www.buysellvehicle.service.gov.uk"
 }

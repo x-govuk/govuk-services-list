@@ -1,11 +1,11 @@
 {
-  "id":18,
-  "name":"Secure communications",
+  "id": 18,
+  "name": "Secure communications",
   "description": "Authenticates third party medical professionals and lets them send information securely.",
   "theme": "Government Internal",
   "organisation": "Department for Work and Pensions",
-  "phase":"beta",
-  "phase_modifier":"Private",
-  "facing":"internal",
-  "prototype":"http://ds1500.herokuapp.com/"
+  "phase": "beta",
+  "phase_modifier": "Private",
+  "facing": "internal",
+  "prototype": "http://ds1500.herokuapp.com/"
 }

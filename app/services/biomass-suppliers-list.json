@@ -1,9 +1,9 @@
 {
-  "id":1015,
-  "name":"Biomass Suppliers List",
+  "id": 1015,
+  "name": "Biomass Suppliers List",
   "description": "The Biomass Suppliers List (BSL) is a list of woodfuel that has proven it meets the eligibility requirements for the Renewable Heat Incentive (RHI) scheme. It allows RHI participants to easily demonstrate to Ofgem that the fuel they are using in their biomass boilers meets the RHI sustainability criteria required to claim their RHI payments. BSL authorisation does not guarantee the quality of the fuel as it is not a quality scheme.",
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Environment and countryside",
-  "phase":"unknown",
-  "liveservice":"https://biomass-suppliers-list.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://biomass-suppliers-list.service.gov.uk/"
 }

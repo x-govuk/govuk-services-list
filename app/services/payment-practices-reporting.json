@@ -1,10 +1,10 @@
 {
-  "id":1177,
-  "name":"Payment practices reporting",
+  "id": 1177,
+  "name": "Payment practices reporting",
   "description": "Large businesses must publish information about their payment terms and practices, and how they keep to them.",
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Business and self-employed",
-  "phase":"beta",
-  "liveservice":"https://publish-payment-practices.service.gov.uk/",
-  "github":"https://github.com/UKGovernmentBEIS/payment-practices-reporting"
+  "phase": "beta",
+  "liveservice": "https://publish-payment-practices.service.gov.uk/",
+  "github": "https://github.com/UKGovernmentBEIS/payment-practices-reporting"
 }

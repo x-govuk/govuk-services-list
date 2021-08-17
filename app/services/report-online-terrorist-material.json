@@ -1,10 +1,10 @@
 {
-  "id":55,
-  "name":"Report online material promoting terrorism or extremism",
+  "id": 55,
+  "name": "Report online material promoting terrorism or extremism",
   "description": "Report illegal or harmful information, pictures or videos you’ve found on the internet. You can make your report anonymously.",
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
-  "phase":"beta",
-  "github":"https://github.com/UKHomeOffice/rotm",
-  "liveservice":"https://www.gov.uk/report-terrorism"
+  "phase": "beta",
+  "github": "https://github.com/UKHomeOffice/rotm",
+  "liveservice": "https://www.gov.uk/report-terrorism"
 }

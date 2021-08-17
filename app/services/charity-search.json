@@ -1,7 +1,7 @@
 {
-  "name":"Registered charities in England and Wales",
+  "name": "Registered charities in England and Wales",
   "description": "The public register of charities is being redesigned in line with user feedback to make information on charities easier to find and understand.",
   "organisation": "Charity Commission",
-  "phase":"beta",
-  "beta-assessment":"https://www.gov.uk/service-standard-reports/update-charity-details"
+  "phase": "beta",
+  "beta-assessment": "https://www.gov.uk/service-standard-reports/update-charity-details"
 }

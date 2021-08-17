@@ -1,10 +1,10 @@
 {
-  "id":10,
-  "name":"Wider use of Real Time Information",
+  "id": 10,
+  "name": "Wider use of Real Time Information",
   "description": "Lets benefit processing staff get real time employment information about a claimant so that claims can be processed more accurately.",
   "theme": "Government Internal",
   "organisation": "Department for Work and Pensions",
-  "phase":"beta",
-  "phase_modifier":"Private",
-  "facing":"internal"
+  "phase": "beta",
+  "phase_modifier": "Private",
+  "facing": "internal"
 }

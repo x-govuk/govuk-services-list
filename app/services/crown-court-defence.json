@@ -1,8 +1,8 @@
 {
-  "name":"Claim for crown court defence",
+  "name": "Claim for crown court defence",
   "description": "A service for solicitors and barristers to claim fees for Crown court defence cases.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"live",
-  "liveservice":"https://claim-crown-court-defence.service.gov.uk/"
+  "phase": "live",
+  "liveservice": "https://claim-crown-court-defence.service.gov.uk/"
 }

@@ -1,9 +1,9 @@
 {
-  "id":1159,
-  "name":"Register your waste exemptions",
+  "id": 1159,
+  "name": "Register your waste exemptions",
   "description": "Not available.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase":"beta",
-  "liveservice":"https://wasteexemptions.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://wasteexemptions.service.gov.uk/"
 }
