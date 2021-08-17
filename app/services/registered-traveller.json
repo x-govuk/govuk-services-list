@@ -1,9 +1,9 @@
 {
-  "id":1052,
-  "name":"Registered Traveller",
+  "id": 1052,
+  "name": "Registered Traveller",
   "description": "Registered Traveller is a membership service which offers faster and more convenient entry at passport control for frequent travellers.",
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
-  "phase":"live",
-  "liveservice":"https://www.faster-uk-entry.service.gov.uk"
+  "phase": "live",
+  "liveservice": "https://www.faster-uk-entry.service.gov.uk"
 }

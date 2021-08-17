@@ -1,10 +1,10 @@
 {
-  "id":1002,
-  "name":"Access life chances fund",
+  "id": 1002,
+  "name": "Access life chances fund",
   "description": "Not available.",
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
-  "phase":"beta",
-  "liveservice":"https://access-life-chances-fund.service.gov.uk",
-  "github":"https://github.com/cabinetoffice/life-chances-fund"
+  "phase": "beta",
+  "liveservice": "https://access-life-chances-fund.service.gov.uk",
+  "github": "https://github.com/cabinetoffice/life-chances-fund"
 }

@@ -1,9 +1,9 @@
 {
-  "id":1001,
-  "name":"Check if you need an Academic Technology Approval Scheme  certificate",
+  "id": 1001,
+  "name": "Check if you need an Academic Technology Approval Scheme  certificate",
   "description": "The Academic Technology Approval Scheme (ATAS) requires all international students subject to existing UK immigration permissions, who are applying to study for a postgraduate qualification in certain sensitive subjects, knowledge of which could be used in programmes to develop weapons of mass destruction (WMDs) or their means of delivery, to apply for an Academic Technology Approval Scheme (ATAS) certificate before they can study in the UK.",
   "organisation": "Foreign & Commonwealth Office",
   "theme": "Education, training and skills",
-  "phase":"unknown",
-  "liveservice":"https://www.academic-technology-approval.service.gov.uk/"
+  "phase": "unknown",
+  "liveservice": "https://www.academic-technology-approval.service.gov.uk/"
 }

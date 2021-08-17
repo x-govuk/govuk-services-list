@@ -1,9 +1,9 @@
 {
-  "name" : "Apply for a divorce",
+  "name": "Apply for a divorce",
   "description": "You can use this service to apply for a divorce in England and Wales.",
   "organisation": "HM Courts & Tribunals Service",
   "theme": "Births, deaths, marriages and care",
-  "phase":"beta",
-  "liveservice":"https://www.apply-divorce.service.gov.uk/index",
+  "phase": "beta",
+  "liveservice": "https://www.apply-divorce.service.gov.uk/index",
   "start-page": "https://www.gov.uk/apply-for-divorce"
 }

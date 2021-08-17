@@ -1,10 +1,10 @@
 {
   "id": 2001,
-  "name":"Teaching Vacancies",
+  "name": "Teaching Vacancies",
   "description": "Find a job in teaching in England",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Education",
-  "phase":"beta",
+  "phase": "beta",
   "liveservice": "https://teaching-vacancies.service.gov.uk",
   "github": "https://github.com/DFE-Digital/teaching-vacancies"
 }

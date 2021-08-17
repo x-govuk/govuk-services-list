@@ -1,9 +1,9 @@
 {
-  "name":"Apply for the Civil Service Fast Stream",
+  "name": "Apply for the Civil Service Fast Stream",
   "description": "The Civil Service Fast Stream team runs the government’s flagship Fast Stream graduate programme.",
   "theme": "Government Internal",
   "organisation": "Civil Service Fast Stream",
-  "phase":"beta",
-  "liveservice":"https://www.apply-civil-service-fast-stream.service.gov.uk/",
-  "start-page":"https://www.faststream.gov.uk"
+  "phase": "beta",
+  "liveservice": "https://www.apply-civil-service-fast-stream.service.gov.uk/",
+  "start-page": "https://www.faststream.gov.uk"
 }

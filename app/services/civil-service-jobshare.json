@@ -1,7 +1,7 @@
 {
-  "name":" Civil Service Jobs",
+  "name": " Civil Service Jobs",
   "theme": "Government interanl",
   "organisation": "Civil Service Resourcing",
-  "phase":"beta",
-  "liveservice":"https://www.civilservicejobshare.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://www.civilservicejobshare.service.gov.uk/"
 }

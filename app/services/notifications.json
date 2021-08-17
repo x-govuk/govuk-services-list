@@ -1,10 +1,10 @@
 {
-  "id":1087,
-  "name":"GOV.UK Notify",
+  "id": 1087,
+  "name": "GOV.UK Notify",
   "description": "Try GOV.UK Notify now if you work in central government, a local authority, or the NHS.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase":"beta",
-  "facing":"internal",
-  "liveservice":"https://www.notifications.service.gov.uk/"
+  "phase": "beta",
+  "facing": "internal",
+  "liveservice": "https://www.notifications.service.gov.uk/"
 }

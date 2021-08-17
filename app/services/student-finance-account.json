@@ -1,9 +1,9 @@
 {
-  "name":"Student finance account",
+  "name": "Student finance account",
   "description": "Apply online for student finance",
   "theme": "Education, training and skills",
   "organisation": "Student Loans Company",
-  "phase":"beta",
+  "phase": "beta",
   "start-page": "https://www.gov.uk/apply-online-for-student-finance",
   "liveservice": "https://www.student-finance.service.gov.uk/customer/home"
 }

@@ -1,9 +1,9 @@
 {
-  "id":1128,
-  "name":"Rural Payments",
+  "id": 1128,
+  "name": "Rural Payments",
   "description": "Not available.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase":"beta",
-  "liveservice":"https://www.ruralpayments.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://www.ruralpayments.service.gov.uk/"
 }

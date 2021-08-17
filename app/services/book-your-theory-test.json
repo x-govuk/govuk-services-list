@@ -1,9 +1,9 @@
 {
-  "name":"Book your theory test",
+  "name": "Book your theory test",
   "description": "Book your driving theory test for: cars, motorcycles, lorries, buses and coaches, including the Driver Certificate of Professional Competence (CPC) part 1a and 1b (theory) and part 2 (case studies)",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
-  "phase":"beta",
+  "phase": "beta",
   "liveservice": "https://wsr.theorytest.dvsa.gov.uk/dsa/book",
   "start-page": "https://www.gov.uk/book-theory-test"
 }

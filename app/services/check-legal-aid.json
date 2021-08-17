@@ -1,9 +1,9 @@
 {
-  "name":"Check if you can get legal aid",
+  "name": "Check if you can get legal aid",
   "description": "Legal aid can help pay for legal advice.You’ll be asked general questions about your legal problem and your income and savings. You’ll be told where you can get legal advice.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"live",
-  "liveservice":"https://checklegalaid.service.gov.uk/",
-  "start-page":"https://www.gov.uk/check-legal-aid"
+  "phase": "live",
+  "liveservice": "https://checklegalaid.service.gov.uk/",
+  "start-page": "https://www.gov.uk/check-legal-aid"
 }

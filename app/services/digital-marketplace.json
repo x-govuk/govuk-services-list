@@ -1,10 +1,10 @@
 {
-  "id":1040,
-  "name":"Digital Marketplace",
+  "id": 1040,
+  "name": "Digital Marketplace",
   "description": "Find technology or people for digital projects in the public sector.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase":"beta",
-  "facing":"internal",
-  "liveservice":"https://www.digitalmarketplace.service.gov.uk/"
+  "phase": "beta",
+  "facing": "internal",
+  "liveservice": "https://www.digitalmarketplace.service.gov.uk/"
 }

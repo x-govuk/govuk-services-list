@@ -1,11 +1,11 @@
 {
-  "id":14,
-  "name":"Enhancing Jobseeker Services",
+  "id": 14,
+  "name": "Enhancing Jobseeker Services",
   "description": "Lets agents keep in contact with people looking for work, to help them find employment.",
   "theme": "Government Internal",
   "organisation": "Department for Work and Pensions",
-  "phase":"beta",
-  "phase_modifier":"Public",
-  "facing":"internal",
-  "prototype":"https://clean-test.herokuapp.com/"
+  "phase": "beta",
+  "phase_modifier": "Public",
+  "facing": "internal",
+  "prototype": "https://clean-test.herokuapp.com/"
 }

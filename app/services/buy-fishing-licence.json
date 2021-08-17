@@ -1,10 +1,10 @@
 {
-  "id":1061,
-  "name":"Get a fishing licence",
+  "id": 1061,
+  "name": "Get a fishing licence",
   "description": "You can buy a 1-day, 8-day or 12-month licence online.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase":"beta",
-  "liveservice":"https://get-fishing-licence.service.gov.uk/",
-  "start-page":"https://www.gov.uk/fishing-licences/buy-a-fishing-licence"
+  "phase": "beta",
+  "liveservice": "https://get-fishing-licence.service.gov.uk/",
+  "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence"
 }

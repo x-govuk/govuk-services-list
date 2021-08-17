@@ -1,9 +1,9 @@
 {
-  "id":1083,
-  "name":"Application for compensation after a miscarriage of justice",
+  "id": 1083,
+  "name": "Application for compensation after a miscarriage of justice",
   "description": "Fill in the online form to apply for compensation if: you've been granted a free pardon, your conviction has been overturned.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"beta",
-  "liveservice":"https://miscarriage-justice-compensation.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://miscarriage-justice-compensation.service.gov.uk/"
 }

@@ -1,9 +1,9 @@
 {
-  "id":1075,
-  "name":"International Waste Shipments (IWS)",
+  "id": 1075,
+  "name": "International Waste Shipments (IWS)",
   "description": "Not available.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase":"beta",
-  "liveservice":"https://international-waste-shipments.service.gov.uk"
+  "phase": "beta",
+  "liveservice": "https://international-waste-shipments.service.gov.uk"
 }

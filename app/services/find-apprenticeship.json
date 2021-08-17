@@ -1,9 +1,9 @@
 {
-  "id":1054,
-  "name":"Find an apprenticeship",
+  "id": 1054,
+  "name": "Find an apprenticeship",
   "description": "Search the find an apprenticeship service for apprenticeships in England.",
   "theme": "Education, training and skills",
   "organisation": "Education and Skills Funding Agency",
-  "phase":"live",
-  "liveservice":"https://www.findapprenticeship.service.gov.uk"
+  "phase": "live",
+  "liveservice": "https://www.findapprenticeship.service.gov.uk"
 }

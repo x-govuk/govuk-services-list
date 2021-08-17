@@ -1,9 +1,9 @@
 {
-  "id":1048,
-  "name":"Electronic visa waiver",
+  "id": 1048,
+  "name": "Electronic visa waiver",
   "description": "You can get an electronic visa waiver (EVW) instead of a visa if you have a passport from Kuwait, Oman, Qatar or the United Arab Emirates. You must pay £15 for an EVW.An EVW lets you visit the UK for up to 6 months for tourism, business, study or medical treatment. If you’re visiting for another reason, check if you need a visa instead.",
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
-  "phase":"beta",
-  "liveservice":"https://www.electronic-visa-waiver.service.gov.uk"
+  "phase": "beta",
+  "liveservice": "https://www.electronic-visa-waiver.service.gov.uk"
 }

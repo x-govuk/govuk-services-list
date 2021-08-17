@@ -1,11 +1,11 @@
 {
-  "id":1130,
-  "name":"Send money to someone in prison",
+  "id": 1130,
+  "name": "Send money to someone in prison",
   "description": "You can use this service to make a payment by debit card. We accept Visa, Mastercard and Maestro debit cards. You can also find out how to make a UK bank transfer to a prisoner by online banking, mobile banking app, telephone banking",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase":"live",
-  "start-page":"https://www.gov.uk/send-prisoner-money",
-  "liveservice":"https://send-money-to-prisoner.service.gov.uk/",
+  "phase": "live",
+  "start-page": "https://www.gov.uk/send-prisoner-money",
+  "liveservice": "https://send-money-to-prisoner.service.gov.uk/",
   "github": "https://github.com/ministryofjustice/money-to-prisoners-send-money"
 }

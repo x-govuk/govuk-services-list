@@ -1,10 +1,10 @@
 {
   "id": 1189,
-  "name":"Registers",
+  "name": "Registers",
   "description": "Direct access to up-to-date government data",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase":"alpha",
+  "phase": "alpha",
   "liveservice": "https://www.registers.service.gov.uk",
-  "facing":"internal"
+  "facing": "internal"
 }

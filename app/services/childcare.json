@@ -1,8 +1,8 @@
 {
-  "name":"Childcare",
+  "name": "Childcare",
   "description": "Register for Tax-Free Childcare",
   "theme": "Benefits",
   "organisation": "HM Revenue and Customs",
-  "phase":"beta",
-  "liveservice":"https://www.gov.uk/sign-in-childcare-account"
+  "phase": "beta",
+  "liveservice": "https://www.gov.uk/sign-in-childcare-account"
 }

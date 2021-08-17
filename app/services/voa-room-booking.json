@@ -1,10 +1,10 @@
 {
-  "id":49,
-  "name":"Valuation Office Room Booking System",
+  "id": 49,
+  "name": "Valuation Office Room Booking System",
   "description": "Room booking mangement system.",
   "theme": "Government Internal",
   "organisation": "Valuation Office Agency",
-  "phase":"unknown",
-  "facing":"internal",
-  "github":"https://github.com/ValuationOffice/VORBS"
+  "phase": "unknown",
+  "facing": "internal",
+  "github": "https://github.com/ValuationOffice/VORBS"
 }
