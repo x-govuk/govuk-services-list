@@ -1,5 +1,4 @@
 {
-  "id": 1167,
   "name": "Trade Tariff: look up commodity codes, duty and VAT rates.",
   "description": "Commodity codes classify goods for import and export so you can: fill in declarations and other paperwork, check if there’s duty or VAT to pay, find out about duty reliefs.",
   "theme": "Money and tax",
