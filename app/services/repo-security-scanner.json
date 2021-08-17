@@ -1,5 +1,4 @@
 {
-  "id": 58,
   "name": "Repo Security Scanner",
   "description": "CLI tool that finds secrets accidentally committed to a git repo, eg passwords, private keys.",
   "theme": "Government Internal",

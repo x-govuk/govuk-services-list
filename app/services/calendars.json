@@ -1,5 +1,4 @@
 {
-  "id": 67,
   "name": "Calendars",
   "description": "Serves /bank-holidays and /when-do-the-clocks-change on GOV.UK. https://docs.publishing.service.gov.uk/apps/calendars.html",
   "theme": "Government Internal",
