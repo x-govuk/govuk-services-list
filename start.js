@@ -84,10 +84,10 @@ app.locals.organisations = [
 
 app.locals.projects = []
 
-fs.readdirSync(__dirname + '/lib/projects/').forEach(function(filename) {
+fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
 
   if (filename != '_template.json') {
-    var project = JSON.parse(fs.readFileSync(__dirname + '/lib/projects/' + filename).toString());
+    var project = JSON.parse(fs.readFileSync(__dirname + '/app/services/' + filename).toString());
 
     project.filename = filename
     project.slug = filename.replace('.json', '');
