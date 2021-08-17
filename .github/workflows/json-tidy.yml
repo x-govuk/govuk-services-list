@@ -1,0 +1,25 @@
+name: JSON tidy
+
+on: [pull_request]
+
+jobs:
+  json-tidy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.event.pull_request.head.ref }}
+    - name: Setup Ruby
+      uses: actions/setup-ruby@v1
+      with:
+        ruby-version: 2.7.x
+    - name: Run JSON tidy
+      run: .github/lib/json-tidy.rb
+    - name: Push any updated fiels
+      run: |
+        git config --global user.email "json-tidy@example.com"
+        git config --global user.name "json-tidy-bot"
+        git add --all
+        git commit -m "JSON tidy" || exit 0
+        git push
