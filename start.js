@@ -105,6 +105,25 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
   }
 })
 
+app.locals.verbs = []
+
+const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport"]
+
+for (project of app.locals.projects) {
+    const verb = project.name.split(" ")[0].toLowerCase()
+
+    if (ignoredVerbs.includes(verb)) { continue }
+
+    let existingVerb = app.locals.verbs.find(v => v.name == verb)
+
+    if (!existingVerb) {
+      existingVerb = {name: verb, services: [], count: 0}
+      app.locals.verbs.push(existingVerb)
+    }
+
+    existingVerb.services.push({name: project.name, slug: project.slug})
+    existingVerb.count += 1
+}
 
 app.use('/', express.static(path.join(__dirname, 'static')))
 // app.use(express.static('views'))
@@ -137,6 +156,10 @@ app.get('/organisation', function(req, res) {
 
 app.get('/contribute', function(req, res) {
     res.render('contribute.html')
+});
+
+app.get('/verbs', function(req, res) {
+  res.render('verbs.html')
 });
 
 
