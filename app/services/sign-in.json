@@ -1,0 +1,8 @@
+{
+  "name": "GOV.UK Sign in",
+  "description": "GOV.UK Sign in is the new way for government services to sign in their users",
+  "organisation": "Government Digital Service",
+  "theme": "Government Internal",
+  "phase": "beta",
+  "liveservice": "https://www.sign-in.service.gov.uk"
+}
