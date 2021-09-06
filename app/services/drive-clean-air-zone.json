@@ -1,9 +1,9 @@
 {
-  "name": "Drive in a Clean Air Zone",
-  "description": "Use this service to find out if there will be a daily charge to drive your vehicle in a Clean Air Zone.",
+  "name": "Drive in a clean air zone",
+  "description": "Find out if you need to pay to drive in a clean air zone in Bath or Birmingham: check your vehicle meets emission standards.",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Driving and transport",
   "phase": "beta",
-  "liveservice": "https://vehiclecheck.drive-clean-air-zone.service.gov.uk/vehicle_checkers/enter_details",
-  "start-page": "https://www.gov.uk/check-clean-air-zone-charge"
+  "liveservice": "https://multiple-vehiclecheck.drive-clean-air-zone.service.gov.uk/what_would_you_like_to_do",
+  "start-page": "https://www.gov.uk/clean-air-zones"
 }
