@@ -1,8 +1,9 @@
 {
   "name": "Make a SORN",
-  "description": "Tell us you’re taking your vehicle off the road",
+  "description": "Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again",
+  "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
-  "liveservice": "https://sorn.service.gov.uk"
+  "liveservice": "https://www.sorn.service.gov.uk",
+  "start-page": "https://www.gov.uk/make-a-sorn"
 }
