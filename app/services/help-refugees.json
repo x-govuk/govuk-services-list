@@ -1,8 +1,9 @@
 {
-  "name": "Help Refugees in the UK",
-  "description": "Not available",
+  "name": "Help refugees in the UK",
+  "description": "How to offer help to refugees in your area: helping them settle in, running activities or offering career advice",
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "beta",
-  "liveservice": "https://help-refugees-uk.service.gov.uk/"
+  "liveservice": "https://www.help-refugees-uk.service.gov.uk/",
+  "start-page": "https://www.gov.uk/help-refugees"
 }
