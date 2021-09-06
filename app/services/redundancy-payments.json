@@ -6,5 +6,5 @@
   "phase": "beta",
   "github": "https://github.com/InsolvencyService/rps-alpha",
   "start-page": "https://www.gov.uk/claim-redundancy",
-  "liveservice": "https://match.redundancy-payments.service.gov.uk/claims/start"
+  "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify"
 }
