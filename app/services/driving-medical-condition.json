@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "beta",
-  "liveservice": "https://driving-medical-condition.service.gov.uk",
+  "liveservice": "https://www.driving-medical-condition.service.gov.uk/report",
   "start-page": "https://www.gov.uk/report-driving-medical-condition",
   "beta-assessment": "https://www.gov.uk/service-standard-reports/fitness-to-drive",
   "github": "https://github.com/dvla/Fitness-to-Drive-Pageflow"
