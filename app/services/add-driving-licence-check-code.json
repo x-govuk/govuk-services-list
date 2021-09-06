@@ -1,0 +1,9 @@
+{
+  "name": "Add a driving licence check code to your mobile phone",
+  "description": "Add a driving licence 'check code' to your smartphone to share your driving licence record.",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "theme": "Driving and transport",
+  "phase": "beta",
+  "liveservice": "https://www.add-driving-licence-check-code.service.gov.uk/digital/hold-licence",
+  "start-page": "https://www.gov.uk/add-driving-licence-check-code"
+}
