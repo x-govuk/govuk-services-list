@@ -1,6 +1,6 @@
 {
-  "name": "Claim for redundancy and monies owed",
-  "description": "When an employer becomes insolvent employees are often owed money (especially for redundancy pay). The Redundancy Payments Service processes claims for statutory redundancy payments, which are paid from the National Insurance Fund (NIF). The current claim process is largely paper based, which leads to unnecessary cost and increased potential for errors and delays. The scope of the exemplar is to create a digital claim process that will reduce the handling of paper, identify potential problems within claims so that they may be resolved more quickly, and increase confidence and trust in the system for both claimants and insolvency practitioners. https://www.gov.uk/transformation/redundancy-payment",
+  "name": "Claim for redundancy and other money you’re owed by an employer",
+  "description": "Use this service to claim money if your employer owes you a redundancy payment or other money like wages, holiday and commission.",
   "theme": "Employing people",
   "organisation": "Insolvency Service",
   "phase": "beta",
