@@ -1,8 +1,9 @@
 {
-  "name": "Application for compensation after a miscarriage of justice",
-  "description": "Fill in the online form to apply for compensation if: you've been granted a free pardon, your conviction has been overturned.",
+  "name": "Claim compensation for a miscarriage of justice",
+  "description": "You can apply for compensation if your conviction has been overturned (or quashed) by the courts.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "beta",
-  "liveservice": "https://miscarriage-justice-compensation.service.gov.uk/"
+  "start-page": "https://www.gov.uk/claim-compensation-for-miscarriage-of-justice",
+  "liveservice": "https://miscarriages-of-justice.form.service.justice.gov.uk/"
 }
