@@ -1,0 +1,9 @@
+{
+  "name": "Teachers: claim back your student loan repayments",
+  "description": "Use this service to claim back student loan repaymentsmade while employed as a teacher.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "liveservice": "https://www.claim-additional-teaching-payment.service.gov.uk/student-loans/claim",
+  "start-page": "https://www.gov.uk/guidance/teachers-claim-back-your-student-loan-repayments"
+}
