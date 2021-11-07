@@ -69,7 +69,7 @@ app.locals.organisations = [
   'Department for Transport',
   'Department for Work and Pensions',
   'Department of Health and Social Care',
-  'Foreign & Commonwealth Office',
+  'Foreign, Commonwealth & Development Office',
   'Home Office',
   'Ministry of Defence',
   'Ministry of Justice',

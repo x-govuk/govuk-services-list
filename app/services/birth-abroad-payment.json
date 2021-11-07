@@ -1,7 +1,7 @@
 {
   "name": "Payment to register a birth abroad",
   "description": "Pay to register the birth of a British national abroad.",
-  "organisation": "Foreign & Commonwealth Office",
+  "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Births, deaths, marriages and care",
   "phase": "unknown",
   "liveservice": "https://pay-register-birth-abroad.service.gov.uk"
