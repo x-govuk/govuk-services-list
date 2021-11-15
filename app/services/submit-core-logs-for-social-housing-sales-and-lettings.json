@@ -4,5 +4,7 @@
   "theme": "Housing and local services",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "phase": "beta",
-  "github": "https://github.com/communitiesuk/mhclg-data-collection-beta"
+  "github": "https://github.com/communitiesuk/mhclg-data-collection-beta",
+  "start-page": "https://www.gov.uk/government/collections/rents-lettings-and-tenancies",
+  "liveservice": "https://core.communities.gov.uk"
 }
