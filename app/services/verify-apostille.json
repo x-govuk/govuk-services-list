@@ -1,7 +1,7 @@
 {
   "name": "Verify an apostille",
   "description": "Use this service if you want to verify an Apostille certificate issued in the UK.",
-  "organisation": "Foreign & Commonwealth Office",
+  "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "live",
   "liveservice": "https://www.verifyapostille.service.gov.uk/",

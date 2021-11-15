@@ -1,0 +1,10 @@
+{
+  "name": "Submit CORE logs for social housing sales and lettings",
+  "description": "The continuous recording of lettings and sales in social housing in England (referred to as CORE) is a national information source that records information on the characteristics of both private registered providers and local authority new social housing tenants and the homes they rent.",
+  "theme": "Housing and local services",
+  "organisation": "Department for Levelling Up, Housing & Communities",
+  "phase": "beta",
+  "github": "https://github.com/communitiesuk/mhclg-data-collection-beta",
+  "start-page": "https://www.gov.uk/government/collections/rents-lettings-and-tenancies",
+  "liveservice": "https://core.communities.gov.uk"
+}
