@@ -1,0 +1,9 @@
+{
+  "name": "Check your long term flood risk",
+  "description": "Use this service to find out the long term flood risk for an area in England, the possible causes of flooding and how to manage flood risk.",
+  "theme": "Environment and countryside",
+  "organisation": "Environment Agency",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/check-long-term-flood-risk",
+  "liveservice": "https://check-for-flooding.service.gov.uk"
+}
