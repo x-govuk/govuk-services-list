@@ -11,7 +11,7 @@
     "govuk-frontend": "^3.13.0",
     "node-sass-middleware": "0.11.0",
     "nunjucks": "^3.2.2",
-    "sass": "^1.26.10"
+    "sass": "^1.43.5"
   },
   "scripts": {
     "start": "node start.js"
