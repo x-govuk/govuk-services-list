@@ -1,8 +1,9 @@
 {
-  "name": "Rural Payments",
-  "description": "Not available.",
+  "name": "Make or update a rural payments claim",
+  "description": "You can use the service to apply for rural grants and payments, including the Basic Payment Scheme (BPS).",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "beta",
-  "liveservice": "https://www.ruralpayments.service.gov.uk/"
+  "liveservice": "https://www.ruralpayments.service.gov.uk/",
+  "start-page": "https://www.gov.uk/claim-rural-payments"
 }
