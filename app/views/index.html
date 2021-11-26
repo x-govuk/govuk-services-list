@@ -12,16 +12,18 @@
 
   <div class="govuk-grid-row">
     {% for phase in phases %}
-      <div class="govuk-grid-column-one-quarter">
-        {{ govukTag({
-          text: phase.name,
-          classes: "app-tag--large govuk-tag--" + phase.class
-        }) }}
+      {% if phase.name != 'unknown' %}
+        <div class="govuk-grid-column-one-quarter">
+          {{ govukTag({
+            text: phase.name,
+            classes: "app-tag--large govuk-tag--" + phase.class
+          }) }}
 
-        <div class="app-count app-count--{{ phase.name }} govuk-body">
-          {{ phase.projects_count }}
+          <div class="app-count app-count--{{ phase.name }} govuk-body">
+            {{ phase.projects_count }}
+          </div>
         </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 
@@ -36,6 +38,7 @@
             {% if project.theme == theme %}
               <li>
                 <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
+                {% if project.phase == 'retired' %}(retired){% endif %}
               </li>
             {% endif %}
           {% endfor %}

@@ -35,7 +35,11 @@ app.locals.phases = [
     class: "green",
     projects_count: 0
   },
-
+  {
+    name: "retired",
+    class: "grey",
+    projects_count: 0
+  }
 ]
 
 app.locals.themes = [
