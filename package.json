@@ -10,7 +10,7 @@
     "express": "~4.16.1",
     "govuk-frontend": "^3.13.0",
     "node-sass-middleware": "0.11.0",
-    "nunjucks": "^3.2.2",
+    "nunjucks": "^3.2.3",
     "sass": "^1.43.5"
   },
   "scripts": {
