@@ -62,7 +62,7 @@ while (start == 0 || results.count != 0) do
 
     organisations = content['links']['organisations']
 
-    if organisations.count > 0
+    if organisations.to_a.count > 0
       new_json[:organisation] = organisations.first['title']
     end
 
