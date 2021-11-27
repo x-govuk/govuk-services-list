@@ -6,5 +6,19 @@
   "organisation": "NHS Digital",
   "github": "https://github.com/111Online",
   "liveservice": "https://111.nhs.uk",
-  "alpha-assessment": "https://www.gov.uk/service-standard-reports/nhs-111"
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-04-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/nhs-111",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -4,10 +4,24 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "live",
-  "live-assessment": "https://gdsdata.blog.gov.uk/carers-allowance-service-assessment",
   "prototype": "https://dwp-story.3cbeta.co.uk/URSept/",
   "video": "IYBLX3V8ek4",
   "start-page": "https://www.gov.uk/carers-allowance",
   "liveservice": "https://www.carersallowance.service.gov.uk/",
-  "github": "https://github.com/dwp/carers-allowance-prototype"
+  "github": "https://github.com/dwp/carers-allowance-prototype",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2014-11-13",
+        "links": [
+          {
+            "href": "https://gdsdata.blog.gov.uk/carers-allowance-service-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

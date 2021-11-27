@@ -98,6 +98,27 @@
         ]
       }) }}
 
+      {% if project.timeline and project.timeline.items|length > 0 %}
+        <h2 class="govuk-heading-m">Service history</h2>
+
+        <div class="app-timeline">
+          {% for item in project.timeline.items %}
+            <div class="app-timeline__item">
+              <h3 class="app-timeline__heading">{{ item.label }}</h3>
+              <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | formatdate }}</time></p>
+
+              {% if item.links and item.links|length > 0 %}
+                <ul class="govuk-list">
+                  {% for link in item.links %}
+                    <li><a class="govuk-link" href="{{ link.href }}">{{ link.text }}{% if link.visuallyHiddenText %}<span class="govuk-visually-hidden">{{ link.visuallyHiddenText }}</span>{% endif %}</a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endif %}
+
 
     </div>
   </div>

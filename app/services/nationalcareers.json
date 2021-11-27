@@ -4,5 +4,20 @@
   "organisation": "Education and Skills Funding Agency",
   "theme": "Education, training and skills",
   "phase": "beta",
-  "liveservice": "https://nationalcareers.service.gov.uk"
+  "liveservice": "https://nationalcareers.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-01-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/digital-first-careers-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

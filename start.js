@@ -143,6 +143,27 @@ env.addFilter('slugify', function(str) {
   return str.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()’]/g,"").replace(/ +/g,'_').toLowerCase();
 });
 
+env.addFilter('formatdate', function(str) {
+  var date = new Date(str);
+
+  var monthNames = {
+    0: "January",
+    1: "February",
+    2: "March",
+    3: "April",
+    4: "May",
+    5: "June",
+    6: "July",
+    7: "August",
+    8: "September",
+    9: "October",
+    10: "November",
+    11: "December"
+  }
+
+  return `${date.getDate()} ${monthNames[date.getMonth()]} ${date.getFullYear()}`
+});
+
 app.get('/projects/:slug', function (req, res) {
   project = req.app.locals.projects.filter(function(p) { return p.slug == req.params.slug})[0]
   res.render('project.html', {

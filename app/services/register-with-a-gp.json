@@ -4,5 +4,19 @@
   "theme": "Births, deaths, marriages and care",
   "organisation": "NHS Digital",
   "phase": "alpha",
-  "alpha-assessment": "https://www.gov.uk/service-standard-reports/register-with-a-gp-practice-alpha-assessment"
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-01-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-with-a-gp-practice-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
