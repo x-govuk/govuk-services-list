@@ -16,7 +16,7 @@
       {% if project['start-page'] %}
         <p class="govuk-body"><a class="govuk-link" href="{{ project['start-page'] }}">Start page on GOV.UK</a></p>
       {% endif %}
-      {% if project.liveservice and not project.phase == 'retired' %}
+      {% if project.liveservice and project.phase != 'retired' %}
 
         {{ govukButton({
           text: "View service",
