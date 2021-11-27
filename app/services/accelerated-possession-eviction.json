@@ -6,5 +6,19 @@
   "phase": "live",
   "liveservice": "https://civilclaims.service.gov.uk/accelerated-possession-eviction",
   "github": "https://github.com/ministryofjustice/accelerated_claims",
-  "live-assessment": "https://dataingovernment.blog.gov.uk/civil-claims-accelerated-possession-service-assessment/"
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2014-07-15",
+        "links": [
+          {
+            "href": "https://dataingovernment.blog.gov.uk/civil-claims-accelerated-possession-service-assessment/",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

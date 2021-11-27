@@ -4,6 +4,31 @@
   "theme": "Housing and local services",
   "organisation": "Land Registry",
   "phase": "beta",
-  "alpha-assessment": "https://www.gov.uk/service-standard-reports/local-land-charges-alpha-assessment",
-  "liveservice": "https://search-local-land-charges.service.gov.uk"
+  "liveservice": "https://search-local-land-charges.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-11-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/search-for-local-land-charges-and-maintain-local-land-charges-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not meet alpha assessment",
+        "date": "2017-01-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/local-land-charges-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

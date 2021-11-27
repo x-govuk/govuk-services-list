@@ -6,6 +6,20 @@
   "phase": "beta",
   "liveservice": "https://www.driving-medical-condition.service.gov.uk/report",
   "start-page": "https://www.gov.uk/report-driving-medical-condition",
-  "beta-assessment": "https://www.gov.uk/service-standard-reports/fitness-to-drive",
-  "github": "https://github.com/dvla/Fitness-to-Drive-Pageflow"
+  "github": "https://github.com/dvla/Fitness-to-Drive-Pageflow",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-08-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/fitness-to-drive",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,0 +1,39 @@
+.app-timeline {
+  position: relative;
+  padding-left: 25px;
+}
+
+.app-timeline:before {
+  content: ' ';
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  top: 10px;
+  left: 0;
+  background-color: govuk-colour("blue");
+}
+
+.app-timeline__item {
+  position: relative;
+}
+
+.app-timeline__item:before {
+  content: ' ';
+  position: absolute;
+  width: 10px;
+  height: 5px;
+  top: 10px;
+  left: -20px;
+  background-color: govuk-colour("blue");
+}
+
+.app-timeline__heading {
+  @include govuk-font(19, $weight: bold);
+  margin-bottom: 0;
+}
+
+.app-timeline__date {
+  @include govuk-font(19);
+  margin-top: 0;
+  margin-bottom: govuk-spacing(3);
+}

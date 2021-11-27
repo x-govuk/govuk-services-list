@@ -4,7 +4,21 @@
   "theme": "Money and tax",
   "organisation": "The Charity Commission",
   "phase": "beta",
-  "beta-assessment": "https://www.gov.uk/service-standard-reports/update-charity-details",
   "liveservice": "https://portal.update-charity-details.service.gov.uk/group/update-charity-details",
-  "start-page": "https://www.gov.uk/change-your-charitys-details"
+  "start-page": "https://www.gov.uk/change-your-charitys-details",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-07-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/update-charity-details",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

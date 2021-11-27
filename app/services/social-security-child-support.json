@@ -4,5 +4,19 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "alpha",
-  "alpha-assessment": "https://www.gov.uk/service-standard-reports/social-security-and-child-support-tribunal"
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-11-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/social-security-and-child-support-tribunal",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

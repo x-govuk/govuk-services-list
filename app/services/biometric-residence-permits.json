@@ -4,8 +4,22 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "live",
-  "live-assessment": "https://www.gov.uk/service-standard-reports/biometric-residence-permits-brps",
   "github": "https://github.com/UKHomeOffice/brp_enquiry_forms",
   "liveservice": "https://www.gov.uk/biometric-residence-permits",
-  "performance-platform": "https://www.gov.uk/performance/biometric-residence-permit-enquiry-forms"
+  "performance-platform": "https://www.gov.uk/performance/biometric-residence-permit-enquiry-forms",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2016-06-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/biometric-residence-permits-brps",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
