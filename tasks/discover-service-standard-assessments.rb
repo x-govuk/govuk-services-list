@@ -92,7 +92,7 @@ service_assessment_urls.each do |url|
 
       File.open(existing_service['file'], 'w') do |f|
 
-        json_to_write = JSON.parse(JSON.stringify(existing_service))
+        json_to_write = JSON.parse(JSON.generate(existing_service))
         json_to_write.delete("file")
 
         f.write JSON.pretty_generate(json_to_write) + "\n"
