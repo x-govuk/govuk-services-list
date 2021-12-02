@@ -1,7 +1,7 @@
 {
-  "name": "Universal Credit Digital Service",
+  "name": "Universal Credit",
   "synonyms": [
-    "Universal Credit Full Service, beta to live review"
+    "Universal Credit Full Service"
   ],
   "description": "Universal Credit (UC) Digital provides a simple, personalised digital and non-digital service for claimants and staff.",
   "theme": "Benefits",
