@@ -9,7 +9,7 @@
     "items": [
       {
         "label": "Passed live assessment",
-        "date": 2016-09-29,
+        "date": "2016-09-29",
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/claim-for-crown-court-defence-live-assessment",
@@ -21,11 +21,10 @@
       {
         "label": "Did not pass live assessment",
         "date": "2016-07-28"
-        ]
       },
       {
         "label": "Passed beta assessment",
-        "date": "2016-01-29,
+        "date": "2016-01-29",
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/claim-for-crown-court-defence",
