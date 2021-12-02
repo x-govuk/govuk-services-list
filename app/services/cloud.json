@@ -1,7 +1,8 @@
 {
   "name": "GOV.UK Platform as a Service",
   "synonyms": [
-    "GOV.UK Platform as a Service (PaaS)"
+    "GOV.UK Platform as a Service (PaaS)",
+    "Platform as a Service (PaaS)"
   ],
   "description": "Modern web hosting for government services. You can get something up on the Internet in minutes, without depending on a webops team.",
   "theme": "Government Internal",
@@ -24,7 +25,14 @@
       },
       {
         "label": "Passed alpha assessment",
-        "date": "2016-06-01"
+        "date": "2016-06-23",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/platform-as-a-service-paas",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
       }
     ]
   }

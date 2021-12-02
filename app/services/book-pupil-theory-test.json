@@ -1,9 +1,27 @@
 {
   "name": "Book and manage theory tests for your pupils",
+  "synonyms": [
+    "Driving Theory Test Booking"
+  ],
   "description": "Book theory tests for your pupils, check or change appointment details, or cancel tests.",
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "beta",
   "liveservice": "https://www.trainer.book-theory-test.service.gov.uk/",
-  "start-page": "https://www.gov.uk/book-pupil-theory-test"
+  "start-page": "https://www.gov.uk/book-pupil-theory-test",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2016-01-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/driving-theory-test-booking-alpha",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

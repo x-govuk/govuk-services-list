@@ -14,6 +14,8 @@ end
 
 service_assessment_urls = []
 
+existing_timeline_urls = existing_services.collect {|s| s["timeline"].to_h["items"].to_a.collect {|i| i["links"].to_a.collect {|l| l["href"] }}}.flatten
+
 
 page = 1
 count = 0
@@ -38,6 +40,8 @@ assessment_date_regex = /Assessment date\:\<\/td>\s+<td>([^<]+)<?/
 title_regex = /(?: \- )?(alpha|beta|live) (?:service\s)?(?:re)?\-?assessment(?: report)?/i
 
 service_assessment_urls.each do |url|
+
+  next if existing_timeline_urls.include?(url)
 
   api_url = url.gsub("https://www.gov.uk/", "https://www.gov.uk/api/content/")
 
