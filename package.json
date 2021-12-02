@@ -4,16 +4,19 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "12.17.x"
+    "node": "16.x",
+    "npm": "8.x"
   },
   "dependencies": {
     "express": "~4.17.1",
     "govuk-frontend": "^3.14.0",
-    "node-sass-middleware": "0.11.0",
     "nunjucks": "^3.2.3",
     "sass": "^1.43.5"
   },
   "scripts": {
-    "start": "node start.js"
+    "sass": "npx sass --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
+    "start": "npm run sass && node start.js",
+    "dev": "npm run watch & node start.js",
+    "watch": "sass --load-path=node_modules --quiet-deps --watch app/assets/sass/application.scss static/application.css"
   }
 }

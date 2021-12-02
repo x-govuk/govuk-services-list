@@ -5,15 +5,6 @@ const port = process.env.PORT || 3100
 var path = require('path');
 var nunjucks = require('nunjucks')
 
-var sassMiddleware = require('node-sass-middleware');
-
-app.use(sassMiddleware({
-  src: path.join(__dirname, 'app/assets/sass'),
-  dest: path.join(__dirname, 'static'),
-  indentedSyntax: false, // true = .sass and false = .scss
-  sourceMap: true
-}));
-
 app.locals.phases = [
   {
     name: "unknown",
@@ -130,7 +121,6 @@ for (project of app.locals.projects) {
 }
 
 app.use('/', express.static(path.join(__dirname, 'static')))
-// app.use(express.static('views'))
 
 var env = nunjucks.configure(['app/views/',
     'node_modules/govuk-frontend/'], {
