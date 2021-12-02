@@ -5,5 +5,31 @@
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
   "phase_modifier": "Public",
-  "liveservice": "https://www.apply-budgeting-loan.service.gov.uk"
+  "liveservice": "https://www.apply-budgeting-loan.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2015-10-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-budgeting-loan-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-10-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-budgeting-loan",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

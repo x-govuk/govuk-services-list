@@ -5,5 +5,20 @@
   "organisation": "Government Digital Service",
   "phase": "beta",
   "facing": "internal",
-  "liveservice": "https://www.payments.service.gov.uk/"
+  "liveservice": "https://www.payments.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2021-02-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-pay-live-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

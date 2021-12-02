@@ -4,5 +4,20 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "beta",
-  "liveservice": "https://paydvlafine.service.gov.uk/"
+  "liveservice": "https://paydvlafine.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2018-01-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/pay-a-dvla-fine-live-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

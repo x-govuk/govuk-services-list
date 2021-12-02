@@ -4,5 +4,35 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "live",
-  "liveservice": "https://claim-crown-court-defence.service.gov.uk/"
+  "liveservice": "https://claim-crown-court-defence.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2016-09-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/claim-for-crown-court-defence-live-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass live assessment",
+        "date": "2016-07-28"
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-01-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/claim-for-crown-court-defence",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

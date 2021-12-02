@@ -5,5 +5,31 @@
   "organisation": "Government Digital Service",
   "phase": "beta",
   "liveservice": "https://design-system.service.gov.uk",
-  "facing": "internal"
+  "facing": "internal",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-08-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-alpha-reassessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2017-06-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for failed alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
