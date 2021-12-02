@@ -1,9 +1,38 @@
 {
   "name": "Submit a General Aviation Report (GAR)",
+  "synonyms": [
+    "Submit a General Aviation report"
+  ],
   "description": "Submit a general aviation report if you are a pilot or carrier of a general aviation aircraft intending to travel to or from the UK.",
   "organisation": "Home Office",
   "theme": "Driving and transport",
   "phase": "beta",
   "liveservice": "https://www.submit-general-aviation-report.service.gov.uk/welcome/index",
-  "start-page": "https://www.gov.uk/government/publications/general-aviation-operators-and-pilots-notification-of-flights"
+  "start-page": "https://www.gov.uk/government/publications/general-aviation-operators-and-pilots-notification-of-flights",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2019-02-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-a-general-aviation-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2018-11-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-a-general-aviation-report-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

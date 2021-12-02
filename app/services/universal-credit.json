@@ -1,10 +1,28 @@
 {
   "name": "Universal Credit Digital Service",
+  "synonyms": [
+    "Universal Credit Full Service, beta to live review"
+  ],
   "description": "Universal Credit (UC) Digital provides a simple, personalised digital and non-digital service for claimants and staff.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
   "phase_modifier": "Public",
   "liveservice": "https://www.universal-credit.service.gov.uk/",
-  "start-page": "https://www.gov.uk/universal-credit"
+  "start-page": "https://www.gov.uk/universal-credit",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2017-09-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/universal-credit-full-service-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

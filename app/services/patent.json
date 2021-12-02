@@ -1,9 +1,72 @@
 {
   "name": "Renew a patent, trade mark or registered design",
+  "synonyms": [
+    "Renew a patent, trademark and design",
+    "Renew a patent, trademark or design"
+  ],
   "description": "Use this service to renew up to 1,500 patents, trade marks or registered designs and sign up for renewal reminders.",
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "beta",
   "liveservice": "https://www.renew-patent-trademark-registered-design.service.gov.uk/renew/start",
-  "start-page": "https://www.gov.uk/renew-patent-trademark-registered-design"
+  "start-page": "https://www.gov.uk/renew-patent-trademark-registered-design",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta re-assessment",
+        "date": "2020-10-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-and-design-beta-re-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta re-assessment 2"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta re-assessment",
+        "date": "2020-07-02",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-or-design-beta-reassessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta re-assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2019-12-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-and-design-beta-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha re-assessment",
+        "date": "2019-01-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-or-design-alpha-reassessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha re-assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2018-07-19",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-or-design-alpha-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

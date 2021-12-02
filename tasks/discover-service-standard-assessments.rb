@@ -63,7 +63,7 @@ service_assessment_urls.each do |url|
     assessment_date = nil
   end
 
-  existing_service = existing_services.detect {|s| s["name"].downcase.strip == title.downcase.strip}
+  existing_service = existing_services.detect {|s| s["name"].downcase.strip == title.downcase.strip} || existing_services.detect {|s| s["synonyms"].to_a.collect {|a| a.downcase.strip}.include? title.downcase.strip}
 
   if existing_service
 
@@ -100,7 +100,9 @@ service_assessment_urls.each do |url|
     end
 
   else
-    puts "NO match for #{title}"
+    puts title
+    puts url
+    puts "-"
   end
 
 end
