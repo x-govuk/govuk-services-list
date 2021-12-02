@@ -4,14 +4,14 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "12.17.x"
+    "node": "^16.13.x"
   },
   "dependencies": {
     "express": "~4.17.1",
     "govuk-frontend": "^3.14.0",
     "node-sass-middleware": "0.11.0",
     "nunjucks": "^3.2.3",
-    "sass": "^1.43.5"
+    "sass": "^1.44.0"
   },
   "scripts": {
     "start": "node start.js"
