@@ -102,7 +102,7 @@
         <h2 class="govuk-heading-m">Service history</h2>
 
         <div class="app-timeline">
-          {% for item in project.timeline.items %}
+          {% for item in (project.timeline.items | sort(attribute="date")) %}
             <div class="app-timeline__item">
               <h3 class="app-timeline__heading">{{ item.label }}</h3>
               <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | formatdate }}</time></p>
