@@ -1,9 +1,27 @@
 {
-  "name": "Get a fishing licence",
+  "name": "Get a rod fishing licence",
+  "synonyms": [
+    "Get a fishing rod license"
+  ],
   "description": "You can buy a 1-day, 8-day or 12-month licence online.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase": "beta",
+  "phase": "live",
   "liveservice": "https://get-fishing-licence.service.gov.uk/",
-  "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence"
+  "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2021-05-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-a-fishing-rod-license",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for  assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -1,9 +1,38 @@
 {
   "name": "Apply to strike off and dissolve a company",
+  "synonyms": [
+    "Close a company"
+  ],
   "description": "Use this service to apply to close a public limited company, a private limited company, or a limited liability partnership (LLP).",
   "organisation": "Companies House",
   "theme": "Business and self-employed",
   "phase": "beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/close-a-company/",
-  "start-page": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01"
+  "start-page": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2021-01-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/close-a-company-beta-service-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta re-assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2018-04-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/close-a-company-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

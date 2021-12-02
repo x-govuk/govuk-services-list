@@ -1,9 +1,27 @@
 {
   "name": "Manage your chemicals on UK REACH",
+  "synonyms": [
+    "Comply with UK REACH (Chemicals)"
+  ],
   "description": "If you’re based in Great Britain (England, Scotland and Wales), you’ll need to follow UK REACH regulations to manufacture, import, sell or distribute chemical substances or mixtures.",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Business and self-employed",
   "phase": "beta",
   "liveservice": "https://comply-chemical-regulations.service.gov.uk/",
-  "start-page": "https://www.gov.uk/guidance/how-to-comply-with-reach-chemical-regulations#manage-your-chemicals-on-uk-reach"
+  "start-page": "https://www.gov.uk/guidance/how-to-comply-with-reach-chemical-regulations#manage-your-chemicals-on-uk-reach",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2020-11-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/comply-with-uk-reach-chemicals-beta-service-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
