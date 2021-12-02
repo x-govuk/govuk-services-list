@@ -5,5 +5,31 @@
   "theme": "Housing and local services",
   "phase": "beta",
   "liveservice": "https://find-energy-certificate.digital.communities.gov.uk",
-  "start-page": "https://www.gov.uk/buy-sell-your-home/energy-performance-certificates"
+  "start-page": "https://www.gov.uk/buy-sell-your-home/energy-performance-certificates",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2019-04-04",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/find-an-energy-certificate-alpha-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2019-06-13",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/find-an-energy-certificate-alpha-re-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha re-assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

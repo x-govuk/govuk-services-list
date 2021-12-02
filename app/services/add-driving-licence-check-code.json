@@ -5,5 +5,20 @@
   "theme": "Driving and transport",
   "phase": "beta",
   "liveservice": "https://www.add-driving-licence-check-code.service.gov.uk/digital/hold-licence",
-  "start-page": "https://www.gov.uk/add-driving-licence-check-code"
+  "start-page": "https://www.gov.uk/add-driving-licence-check-code",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed|Did not pass beta assessment",
+        "date": "2018-06-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/add-a-driving-licence-check-code-to-your-mobile-phone-beta-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

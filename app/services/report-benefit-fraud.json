@@ -5,5 +5,20 @@
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
   "phase_modifier": "Public",
-  "liveservice": "https://www.report-benefit-fraud.service.gov.uk/details"
+  "liveservice": "https://www.report-benefit-fraud.service.gov.uk/details",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-09-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/report-benefit-fraud",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

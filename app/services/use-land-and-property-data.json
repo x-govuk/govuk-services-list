@@ -4,5 +4,20 @@
   "organisation": "Land Registry",
   "theme": "Housing and local services",
   "phase": "beta",
-  "liveservice": "https://use-land-property-data.service.gov.uk"
+  "liveservice": "https://use-land-property-data.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2018-08-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/use-land-and-property-data-alpha-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

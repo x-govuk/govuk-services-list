@@ -5,5 +5,20 @@
   "theme": "Childcare and parenting",
   "phase": "beta",
   "liveservice": "https://www.register-childminder.service.gov.uk/",
-  "startpage": "https://www.gov.uk/become-childminder-nanny/register-childminder"
+  "startpage": "https://www.gov.uk/become-childminder-nanny/register-childminder",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-10-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-as-a-childminder",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
