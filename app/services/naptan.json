@@ -1,0 +1,9 @@
+{
+  "name": "Download National Public Transport Access Nodes (NaPTAN) data",
+  "description": "You can download transport stop data for Great Britain (England, Scotland and Wales). This does not include Northern Ireland.",
+  "organisation": "Department for Transport",
+  "theme": "Driving and transport",
+  "phase": "beta",
+  "liveservice": "https://beta-naptan.dft.gov.uk",
+  "start-page": "https://www.gov.uk/government/publications/national-public-transport-access-node-schema"
+}
