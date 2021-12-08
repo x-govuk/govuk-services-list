@@ -5,6 +5,5 @@
   "theme": "Citizenship and living in the UK",
   "phase": "live",
   "start-page": "https://www.gov.uk/register-to-vote",
-  "liveservice": "https://www.registertovote.service.gov.uk/",
-  "github": "https://github.com/alphagov/ier-frontend"
+  "liveservice": "https://www.registertovote.service.gov.uk/"
 }
