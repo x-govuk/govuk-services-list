@@ -5,10 +5,6 @@ $navigation-height: 50px;
   box-sizing: border-box;
   width: 100%;
   background-color: $app-light-grey;
-
-  @include govuk-media-query($until: tablet) {
-    display: none;
-  }
 }
 
 .app-navigation__list {
