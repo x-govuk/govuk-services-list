@@ -83,7 +83,7 @@ while (start == 0 || results.count != 0) do
     else
 
       File.open("app/services/#{subdomain}.json", "w") do |f|
-        f.write JSON.pretty_generate(new_json)
+        f.write JSON.pretty_generate(new_json) + "\n"
       end
     end
 
