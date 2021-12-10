@@ -4,8 +4,8 @@
   "organisation": "Department for Levelling Up, Housing & Communities",
   "theme": "Housing and local services",
   "phase": "beta",
-  "liveservice": "https://find-energy-certificate.digital.communities.gov.uk",
-  "start-page": "https://www.gov.uk/buy-sell-your-home/energy-performance-certificates",
+  "liveservice": "https://find-energy-certificate.service.gov.uk/find-a-certificate/type-of-property",
+  "start-page": "https://www.gov.uk/find-energy-certificate",
   "timeline": {
     "items": [
       {
