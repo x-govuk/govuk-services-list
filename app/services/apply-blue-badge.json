@@ -1,7 +1,8 @@
 {
   "name": "Apply for or renew a Blue Badge",
   "synonyms": [
-    "Apply for Blue Badge"
+    "Apply for Blue Badge",
+    "Apply for a Blue Badge"
   ],
   "description": "Check your eligibility and apply for a Blue Badge. You can also use this service to reapply for a Blue Badge.",
   "organisation": "Department for Transport",
@@ -17,8 +18,19 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-blue-badge-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-12-04",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-blue-badge-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
           }
         ]
       }
