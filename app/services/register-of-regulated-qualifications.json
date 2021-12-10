@@ -1,0 +1,13 @@
+{
+  "name": "Check if an awarding body is recognised",
+  "synonyms": [
+    "Register of Regulated Qualifications",
+    "Search the Register of Regulated Qualifications"
+  ],
+  "description": "Search the Register of Regulated Qualifications to find out if the organisation providing your qualification is regulated.",
+  "organisation": "Ofqual",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "liveservice": "http://register.ofqual.gov.uk",
+  "start-page": "https://www.gov.uk/check-awarding-body-recognised"
+}
