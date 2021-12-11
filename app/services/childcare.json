@@ -1,7 +1,8 @@
 {
   "name": "Apply for Tax-Free Childcare",
   "synonyms": [
-    "Tax Free Childcare (Parents)"
+    "Tax Free Childcare (Parents)",
+    "Tax Free Childcare (Providers)"
   ],
   "description": "Register for Tax-Free Childcare",
   "theme": "Benefits",
@@ -12,13 +13,24 @@
   "timeline": {
     "items": [
       {
-        "label": "Passed alpha assessment",
+        "label": "Passed alpha assessment (parents)",
         "date": "2016-10-04",
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/tax-free-childcare-parents-alpha-assessment",
             "text": "service assessment report",
-            "visuallyHiddenText": " for alpha assessment"
+            "visuallyHiddenText": " for alpha assessment (parents)"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment (providers)",
+        "date": "2016-08-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/tax-free-childcare-providers-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment (providers)"
           }
         ]
       }
