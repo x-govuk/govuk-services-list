@@ -1,12 +1,14 @@
 {
   "name": "Biometric Residence Permits",
-  "description": "Enquiry forms for Biometric Residence Permits.",
+  "synonyms": [
+    "Biometric Residence Permits (BRPs)"
+  ],
+  "description": "A biometric residence permit (BRP) can be used to confirm your identit, right to study or work in the UK or right to any public services or benefits you’re entitled to.",
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "live",
   "github": "https://github.com/UKHomeOffice/brp_enquiry_forms",
-  "liveservice": "https://www.gov.uk/biometric-residence-permits",
-  "performance-platform": "https://www.gov.uk/performance/biometric-residence-permit-enquiry-forms",
+  "startpage": "https://www.gov.uk/biometric-residence-permits",
   "timeline": {
     "items": [
       {
@@ -17,6 +19,28 @@
             "href": "https://www.gov.uk/service-standard-reports/biometric-residence-permits-brps",
             "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2015-01-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/biometric-residence-permits-beta",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta reassessment",
+        "date": "2015-08-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/biometric-residence-permits-beta#reassessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
           }
         ]
       }
