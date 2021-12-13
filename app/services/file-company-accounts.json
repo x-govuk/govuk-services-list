@@ -22,6 +22,17 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-02-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-company-accounts-beta",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
       }
     ]
   }
