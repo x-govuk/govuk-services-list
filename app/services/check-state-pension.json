@@ -30,6 +30,17 @@
             "visuallyHiddenText": " for beta assessment"
           }
         ]
+      },
+      {
+        "label": "Passed live assessment",
+        "date": "2017-04-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/check-your-state-pension-live-report-live",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
       }
     ]
   }
