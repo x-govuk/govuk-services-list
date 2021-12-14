@@ -37,7 +37,19 @@ end
 
 
 assessment_date_regex = /Assessment date\:\<\/td>\s+<td>([^<]+)<?/
-title_regex = /(?: \- )?(alpha|beta|live) (?:service\s)?(?:re)?\-?assessment(?: report)?/i
+stage_regex = /(alpha|beta|live)/i
+
+ignored_words = [
+  "alpha",
+  "beta",
+  "live",
+  "service",
+  "standard",
+  "re\-assessment",
+  "reassessment",
+  "assessment",
+  "report"
+]
 
 service_assessment_urls.each do |url|
 
@@ -51,8 +63,15 @@ service_assessment_urls.each do |url|
 
   title = json["title"]
 
-  title = title.gsub(title_regex, "")
-  stage = json["title"].scan(title_regex).flatten
+  ignored_words.each do |word|
+    title.gsub!(/\b#{word}\b/i, '')
+  end
+
+  title.gsub!(" - ", "")
+  title.squeeze!(" ")
+  title.strip!
+
+  stage = json["title"].scan(stage_regex).flatten
   if stage == []
     stage = nil
   else
