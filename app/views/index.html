@@ -34,7 +34,7 @@
         <h2 class="govuk-heading-l">{{ theme }}</h2>
 
         <ul class="govuk-list">
-          {%- for project in projects -%}
+          {%- for project in (projects | sort(attribute="name")) -%}
             {% if project.theme == theme %}
               <li>
                 <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>

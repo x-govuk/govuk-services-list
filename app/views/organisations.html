@@ -12,7 +12,7 @@
         <h2 class="govuk-heading-l" id="{{ organisation | slugify }}">{{ organisation }}</h2>
 
         <ul class="govuk-list">
-          {%- for project in projects -%}
+          {%- for project in (projects | sort(attribute="name")) -%}
             {% if project.organisation == organisation %}
               <li>
                 <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
