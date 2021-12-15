@@ -1,9 +1,29 @@
 {
   "name": "View your driving licence information",
-  "description": "Not available.",
+  "synonyms": [
+    "View or share your driving licence information",
+    "Share Driving Record"
+  ],
+  "description": "You can use this service to view your driving record, for example vehicles you can drive, check your penalty points or disqualifications or create a licence ‘check code’ to share your driving record with someone, for example a car hire company.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "unknown",
-  "liveservice": "https://www.viewdrivingrecord.service.gov.uk/",
-  "github": "https://github.com/dvla/vdr-core"
+  "phase": "live",
+  "startpage": "https://www.gov.uk/view-driving-licence",
+  "liveservice": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
+  "github": "https://github.com/dvla/vdr-core",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2014-07-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/share-driving-record-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

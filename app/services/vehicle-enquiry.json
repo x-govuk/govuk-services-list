@@ -1,8 +1,28 @@
 {
   "name": "Check if a vehicle is taxed and has an MOT",
-  "description": "Not available.",
+  "synonyms": [
+    "Check if a vehicle is taxed or has an MOT",
+    "Check if a vehicle is taxed"
+  ],
+  "description": "Find out if a vehicle has up-to-date vehicle tax or has been registered as off the road (SORN).",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "unknown",
-  "liveservice": "https://vehicleenquiry.service.gov.uk/"
+  "phase": "live",
+  "startpage": "https://www.gov.uk/check-vehicle-tax",
+  "liveservice": "https://vehicleenquiry.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live reassessment",
+        "date": "2018-03-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/check-if-a-vehicle-is-taxed-or-has-an-mot-live-reassessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live reassessment"
+          }
+        ]
+      }
+    ]
+  }
 }
