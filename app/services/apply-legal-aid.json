@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "phase": "beta",
   "liveservice": "https://portal.legalservices.gov.uk/LAAPortal/pages/home.jsp",
-  "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid"
+  "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid",
   "timeline": {
     "items": [
       {
