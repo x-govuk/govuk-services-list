@@ -1,0 +1,28 @@
+{
+  "name": "File a confirmation statement",
+  "synonyms": [
+    "File your confirmation statement",
+    "File your confirmation statement (annual return) with Companies House"
+  ],
+  "description": "Use this service to file your confirmation statement (previously annual return).",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "beta",
+  "liveservice": "https://find-and-update.company-information.service.gov.uk/confirmation-statement",
+  "start-page": "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2021-03-23",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-your-confirmation-statement-alpha-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
