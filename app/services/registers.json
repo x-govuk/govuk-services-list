@@ -1,9 +1,26 @@
 {
   "name": "Registers",
+  "synonyms": [
+    "Build with data (registers)"
+  ],
   "description": "Direct access to up-to-date government data",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "alpha",
+  "phase": "retired",
   "liveservice": "https://www.registers.service.gov.uk",
-  "facing": "internal"
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-06-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/build-with-data-registers-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
