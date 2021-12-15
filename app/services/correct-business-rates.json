@@ -1,8 +1,28 @@
 {
   "name": "Find and check your business rates valuation",
+  "synonyms": [
+    "Find your business rates valuation",
+    "Check or Amend your Property Data"
+  ],
   "description": "You can check the ‘rateable value’ of your property - this is set by the Valuation Office Agency (VOA) and used by your local council to calculate your business rates bill. You can also: request changes to property or valuation details if you think they’re wrong, view the valuation details of other properties, challenge the rateable value if eligible.",
   "theme": "Money and tax",
   "organisation": "Valuation Office Agency",
   "phase": "beta",
-  "liveservice": "https://www.tax.service.gov.uk/business-rates-find/"
+  "startpage": "https://www.gov.uk/correct-your-business-rates",
+  "liveservice": "https://www.tax.service.gov.uk/business-rates-find/search",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-04-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/check-or-amend-your-property-data",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

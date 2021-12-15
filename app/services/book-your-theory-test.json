@@ -1,5 +1,8 @@
 {
   "name": "Book your theory test",
+  "synonyms": [
+    "Book Theory Test"
+  ],
   "description": "Book your driving theory test for: cars, motorcycles, lorries, buses and coaches, including the Driver Certificate of Professional Competence (CPC) part 1a and 1b (theory) and part 2 (case studies)",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
@@ -16,6 +19,17 @@
             "href": "https://www.gov.uk/service-standard-reports/book-your-theory-test-alpha-assessment",
             "text": "service assessment report",
             "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2021-05-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/book-theory-test-beta-service-standard-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
           }
         ]
       }

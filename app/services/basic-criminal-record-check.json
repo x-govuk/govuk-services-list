@@ -1,9 +1,28 @@
 {
   "name": "Basic criminal record check",
+  "synonyms": [
+    "Request a basic DBS check",
+    "Apply for a basic criminal record check"
+  ],
   "description": "Apply for a basic Disclosure and Barring Service (DBS) check to get a copy of your criminal record. This is called ‘basic disclosure’. It’s available for people living or working in England and Wales.",
   "theme": "Crime, justice and the law",
   "organisation": "Disclosure and Barring Service",
   "phase": "beta",
   "start-page": "https://www.gov.uk/request-copy-criminal-record",
-  "liveservice": "https://www.apply-basic-criminal-record-check.service.gov.uk/verify/start"
+  "liveservice": "https://www.apply-basic-criminal-record-check.service.gov.uk/verify/start",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-05-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-basic-criminal-record-check-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

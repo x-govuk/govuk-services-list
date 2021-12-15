@@ -1,10 +1,29 @@
 {
-  "name": "Claim for redundancy and other money you’re owed by an employer",
+  "name": "Claim for redundancy and monies owed",
+  "synonyms": [
+    "Claim for redundancy and other money you’re owed by an employer",
+    "Redundancy Payments"
+  ],
   "description": "Use this service to claim money if your employer owes you a redundancy payment or other money like wages, holiday and commission.",
   "theme": "Employing people",
   "organisation": "Insolvency Service",
   "phase": "beta",
   "github": "https://github.com/InsolvencyService/rps-alpha",
   "start-page": "https://www.gov.uk/claim-redundancy",
-  "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify"
+  "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2013-12-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/redundancy-payments-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
