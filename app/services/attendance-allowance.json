@@ -1,0 +1,23 @@
+{
+  "name": "Attendance allowance",
+  "description": "Attendance Allowance (AA) is a benefit to help with extra costs if the claimant has a disability severe enough that they need help or supervision from someone else.",
+  "organisation": "Department for Work and Pensions",
+  "theme": "Benefits",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/attendance-allowance",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2021-08-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/attendance-allowance",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
