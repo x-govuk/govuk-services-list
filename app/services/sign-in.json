@@ -1,7 +1,8 @@
 {
   "name": "GOV.UK Sign in",
   "synonyms": [
-    "GOV.UK Sign in: End-user digital identity checks"
+    "GOV.UK Sign in: End-user digital identity checks",
+    "Authentication and Digital Identity"
   ],
   "description": "GOV.UK Sign in is the new way for government services to sign in their users",
   "organisation": "Government Digital Service",
@@ -11,11 +12,22 @@
   "timeline": {
     "items": [
       {
-        "label": "Passed alpha  assessment",
+        "label": "Passed alpha assessment: End-user digital identity checks",
         "date": "2021-09-15",
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-sign-in-end-user-digital-identity-checks",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment (end-user digital identity checks)"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2021-07-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/authentication-and-digital-identity",
             "text": "service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
