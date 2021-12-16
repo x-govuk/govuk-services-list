@@ -1,10 +1,39 @@
 {
   "name": "Submit CORE logs for social housing sales and lettings",
+  "synonyms": [
+    "Submit Data On Social Housing Sales And Lettings"
+  ],
   "description": "The continuous recording of lettings and sales in social housing in England (referred to as CORE) is a national information source that records information on the characteristics of both private registered providers and local authority new social housing tenants and the homes they rent.",
   "theme": "Housing and local services",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "phase": "beta",
   "github": "https://github.com/communitiesuk/mhclg-data-collection-beta",
   "start-page": "https://www.gov.uk/government/collections/rents-lettings-and-tenancies",
-  "liveservice": "https://core.communities.gov.uk"
+  "liveservice": "https://core.communities.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2021-09-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-data-on-social-housing-sales-and-lettings-alpha-reassessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2021-07-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-data-on-social-housing-sales-and-lettings-alpha-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
