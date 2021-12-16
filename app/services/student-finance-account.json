@@ -1,9 +1,28 @@
 {
-  "name": "Student finance account",
+  "name": "Apply online for student finance",
+  "synonyms": [
+    "SLC Full Time and Sponsored Applications",
+    "Student finance account"
+  ],
   "description": "Apply online for student finance",
   "theme": "Education, training and skills",
   "organisation": "Student Loans Company",
   "phase": "beta",
   "start-page": "https://www.gov.uk/apply-online-for-student-finance",
-  "liveservice": "https://www.student-finance.service.gov.uk/customer/home"
+  "liveservice": "https://www.student-finance.service.gov.uk/customer/home",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passe alpha assessment",
+        "date": "2014-01-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/slc-full-time-and-sponsored-applications-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
