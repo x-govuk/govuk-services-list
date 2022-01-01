@@ -11,7 +11,7 @@
     "express": "~4.17.2",
     "govuk-frontend": "^3.14.0",
     "nunjucks": "^3.2.3",
-    "sass": "^1.45.1"
+    "sass": "^1.45.2"
   },
   "scripts": {
     "sass": "npx sass --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
