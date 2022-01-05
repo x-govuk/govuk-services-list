@@ -1,0 +1,12 @@
+{
+  "name": "Apply for your immigration health surcharge reimbursement as a student",
+  "synonyms": [
+    "Get an immigration health surcharge refund if you're a student from the EU or Switzerland"
+  ],
+  "description": "Get a refund of the immigration health surcharge (IHS) if you're a student - eligibility, what you’ll get and how to apply.",
+  "organisation": "Department of Health and Social Care",
+  "theme": "Visas and immigration",
+  "phase": "beta",
+  "liveservice": "https://immigration-health-surcharge-reimbursement.service.gov.uk/student-eligibility/start",
+  "start-page": "https://www.gov.uk/apply-student-immigration-health-surcharge-refund"
+}
