@@ -1,0 +1,27 @@
+{
+  "name": "Prove your right to work",
+  "synonyms": [
+    "Prove your right to work to an employer"
+  ],
+  "description": "Share details of your right to work in the UK, including the types of job you’re allowed to do and how long you can work in the UK for.",
+  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "phase": "beta",
+  "liveservice": "https://right-to-work.service.gov.uk/prove",
+  "start-page": "https://www.gov.uk/prove-right-to-work",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-03-02",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/prove-your-right-to-work-beta",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
