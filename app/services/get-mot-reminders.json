@@ -1,9 +1,39 @@
 {
-  "name": "Get MOT reminders",
+  "name": "Get an annual MOT reminder",
+  "synonyms": [
+    "Get MOT reminders",
+    "MOT fraud/MOTreminders"
+  ],
   "description": "Sign up to get free reminders by text message or email when your MOT is due.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
   "liveservice": "https://www.reminders.mot-testing.service.gov.uk/vrm",
-  "startpage": "https://www.gov.uk/mot-reminder"
+  "startpage": "https://www.gov.uk/mot-reminder",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2017-06-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/report-mot-fraud-motreminders-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for  assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta reassessment",
+        "date": "2017-09-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-an-annual-mot-reminder-beta-reassessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
+          }
+        ]
+      }
+    ]
+  }
 }

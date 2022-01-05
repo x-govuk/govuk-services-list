@@ -1,8 +1,26 @@
 {
   "name": "Manage apprenticeships",
+  "synonyms": [
+    "The (Digital) Apprenticeship"
+  ],
   "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
   "theme": "Education, training and skills",
   "organisation": "Education and Skills Funding Agency",
   "phase": "beta",
-  "liveservice": "https://manage-apprenticeships.service.gov.uk/"
+  "liveservice": "https://manage-apprenticeships.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-12-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/the-digital-apprenticeship-service",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

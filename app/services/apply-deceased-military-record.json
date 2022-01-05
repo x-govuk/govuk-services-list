@@ -2,7 +2,9 @@
   "name": "Apply for a deceased person's military record",
   "synonyms": [
     "Apply for a deceased person’s military record (Request A Service Record)",
-    "Apply for a deceased person’s military record (Request A Record)"
+    "Apply for a deceased person’s military record (Request A Record)",
+    "Request A Record",
+    "Request A Historic Record"
   ],
   "description": "You can apply for a copy of a deceased person’s service records if you were their immediate next of kin when they died, for example their spouse, parent or child or you have a family or general research interest.",
   "organisation": "Ministry of Defence",
@@ -13,23 +15,37 @@
   "timeline": {
     "items": [
       {
-        "label": "Passed beta reassessment",
+        "label": "Passed second beta reassessment",
         "date": "2021-01-26",
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-a-deceased-persons-military-record-request-a-service-record-beta-reassessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for second beta reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta reassessment",
+        "date": "2020-10-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/request-a-service-record-beta-reassessment-report",
             "text": "service assessment report",
             "visuallyHiddenText": " for beta reassessment"
           }
         ]
       },
       {
-        "label": "Did not pass beta reassessment",
-        "date": "2020-10-21"
-      },
-      {
         "label": "Did not pass beta assessment",
-        "date": "2020-03-05"
+        "date": "2020-03-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/request-a-service-record",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
       },
       {
         "label": "Passed alpha assessment",
