@@ -1,9 +1,27 @@
 {
   "name": "Reply to a jury summons",
+  "synonyms": [
+    "Juror Summons"
+  ],
   "description": "Use this service to reply to a letter (‘summons’) asking you to do jury service. You can:\n\n* confirm you can go\n* say why you’re not available\n* request help you’ll need at the court, for example because you’re disabled\n\nYou can reply for someone else if they give you permission.",
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
   "phase": "beta",
   "start-page": "https://www.gov.uk/reply-jury-summons",
-  "liveservice": "https://reply-jury-summons.service.gov.uk/steps/00-responder-type?clang=en"
+  "liveservice": "https://reply-jury-summons.service.gov.uk/steps/00-responder-type?clang=en",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-01-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/juror-summons-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
