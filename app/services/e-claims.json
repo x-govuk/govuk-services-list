@@ -1,0 +1,35 @@
+{
+  "name": "E-Claims",
+  "description": "Apply for European Regional Development Fund (ERDF) or European Social Fund (ESF) money.",
+  "organisation": "Department for Levelling Up, Housing & Communities",
+  "theme": "Business and self-employed",
+  "phase": "beta",
+  "liveservice": "https://eclaims.communities.gov.uk/esif-web/",
+  "start-page": "https://www.gov.uk/guidance/england-2014-to-2020-european-structural-and-investment-funds",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2015-12-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/e-claims-service-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2015-06-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/e-claims-service-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      }
+    ]
+  }
+}
