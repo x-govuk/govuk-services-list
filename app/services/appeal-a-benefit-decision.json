@@ -1,9 +1,27 @@
 {
   "name": "Appeal a benefit decision",
+  "synonyms": [
+    "Submit your appeal"
+  ],
   "description": "You can appeal a decision about your entitlement to benefits, for example Personal Independence Payment (PIP), Employment and Support Allowance (ESA) and Universal Credit.",
   "theme": "Benefits",
   "organisation": "HM Courts & Tribunals Service",
   "phase": "beta",
   "liveservice": "http://www.appeal-benefit-decision.service.gov.uk/entry",
-  "start-page": "https://www.gov.uk/appeal-benefit-decision/submit-appeal"
+  "start-page": "https://www.gov.uk/appeal-benefit-decision/submit-appeal",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-09-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-your-appeal-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
