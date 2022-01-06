@@ -1,7 +1,8 @@
 {
   "name": "Manage apprenticeships",
   "synonyms": [
-    "The (Digital) Apprenticeship"
+    "The (Digital) Apprenticeship",
+    "Access my Levy"
   ],
   "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
   "theme": "Education, training and skills",
@@ -18,6 +19,17 @@
             "href": "https://www.gov.uk/service-standard-reports/the-digital-apprenticeship-service",
             "text": "service assessment report",
             "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-06-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/access-my-levy",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
           }
         ]
       }

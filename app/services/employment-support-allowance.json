@@ -3,7 +3,8 @@
   "synonyms": [
     "Apply for new style employment and support allowance",
     "Apply online for new style employment and support allowance",
-    "Apply online for new style employment and support allowance"
+    "Apply online for new style employment and support allowance",
+    "Apply for ESA"
   ],
   "description": "Use this service if you need financial support because you’re off work with a health condition, injury or disability.",
   "organisation": "Department for Work and Pensions",
@@ -41,6 +42,17 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-online-for-new-style-employment-and-support-allowance-alpha-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-07-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-esa",
             "text": "service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }

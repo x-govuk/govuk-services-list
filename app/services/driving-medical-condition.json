@@ -1,5 +1,9 @@
 {
   "name": "Driving with a medical condition",
+  "synonyms": [
+    "Fitness 2 Drive",
+    "Fitness to Drive"
+  ],
   "description": "The service allows citizens who are drivers to tell DVLA about a relevant medical condition or renew their existing medical driving licence. The project is delivering a new online notification service enabling customers to tell DVLA about their medical condition, and a similar service enabling customers to renew their existing medical driving licence.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
@@ -17,6 +21,17 @@
             "href": "https://www.gov.uk/service-standard-reports/fitness-to-drive",
             "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2015-10-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/fitness-2-drive-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
           }
         ]
       }

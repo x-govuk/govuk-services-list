@@ -3,7 +3,8 @@
   "synonyms": [
     "SLC Full Time and Sponsored Applications",
     "Student finance account",
-    "Manage Your Loan"
+    "Manage Your Loan",
+    "SLC Full Time Application"
   ],
   "description": "Apply online for student finance",
   "theme": "Education, training and skills",
@@ -32,6 +33,28 @@
             "href": "https://www.gov.uk/service-standard-reports/manage-your-loan-alpha-assessment",
             "text": "service assessment report",
             "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed live reassessment – full time application",
+        "date": "2015-05-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/slc-full-time-application-live-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass live assessment – full time application",
+        "date": "2015-02-19",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/slc-full-time-application-live-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
           }
         ]
       }
