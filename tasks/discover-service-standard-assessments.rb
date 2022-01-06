@@ -16,6 +16,38 @@ service_assessment_urls = []
 
 existing_timeline_urls = existing_services.collect {|s| s["timeline"].to_h["items"].to_a.collect {|i| i["links"].to_a.collect {|l| l["href"] }}}.flatten
 
+ignored_reports = [
+  "https://www.gov.uk/service-standard-reports/national-parking-platform",
+  "https://www.gov.uk/service-standard-reports/get-healthcare-cover-for-travelling-abroad",
+  "https://www.gov.uk/service-standard-reports/nhs-digital-weight-management-programme-referral-hub",
+  "https://www.gov.uk/service-standard-reports/record-a-patient-safety-event",
+  "https://www.gov.uk/service-standard-reports/integrated-data-service",
+  "https://www.gov.uk/service-standard-reports/get-into-teaching-beta-assessment-report",
+  "https://www.gov.uk/service-standard-reports/prevent-duty-training-learn-how-to-safeguard-individuals-vulnerable-to-radicalisation-beta-assessment",
+  "https://www.gov.uk/service-standard-reports/census-test-2017-beta-assessment",
+  "https://www.gov.uk/service-standard-reports/office-for-national-statistics-ons-website-voluntary-service-assessment",
+  "https://www.gov.uk/service-standard-reports/keep-notes-on-my-performance-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/nhs-uk",
+  "https://www.gov.uk/service-standard-reports/adult-social-care-jobs",
+  "https://www.gov.uk/service-standard-reports/find-and-manage-a-foster-placement",
+  "https://www.gov.uk/service-standard-reports/apply-for-local-growth-funding",
+  "https://www.gov.uk/service-standard-reports/non-domestic-renewable-heat-incentive-alpha-re-assessment-report",
+  "https://www.gov.uk/service-standard-reports/non-domestic-renewable-heat-incentive-alpha-assessment-report",
+  "https://www.gov.uk/service-standard-reports/apply-for-a-large-countryside-productivity-grant-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/check-your-energy-deal-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/check-your-energy-deal-alpha-reassessment",
+  "https://www.gov.uk/service-standard-reports/civil-service-apprenticeships",
+  "https://www.gov.uk/service-standard-reports/direct-debit-online-payment-service-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/dfe-developer-hub-alpha-reassessment-report",
+  "https://www.gov.uk/service-standard-reports/pharmacy-returns-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/digital-submissions-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/adult-social-care-provider-information-return-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/adult-social-care-provider-information-return-alpha",
+  "https://www.gov.uk/service-standard-reports/legal-advice-for-civil-servants-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/manage-your-referral",
+  "https://www.gov.uk/service-standard-reports/your-nhs-pension"
+]
+
 
 page = 1
 count = 0
@@ -51,9 +83,12 @@ ignored_words = [
   "report"
 ]
 
+missing = 0
+
 service_assessment_urls.each do |url|
 
   next if existing_timeline_urls.include?(url)
+  next if ignored_reports.include?(url)
 
   api_url = url.gsub("https://www.gov.uk/", "https://www.gov.uk/api/content/")
 
@@ -68,6 +103,7 @@ service_assessment_urls.each do |url|
   end
 
   title.gsub!(" - ", "")
+  title.gsub!(" – ", "")
   title.squeeze!(" ")
   title.strip!
 
@@ -123,9 +159,12 @@ service_assessment_urls.each do |url|
     end
 
   else
+    missing += 1
     puts title
     puts url
     puts "-"
   end
 
 end
+
+puts "#{missing} service assessments missing"
