@@ -29,6 +29,28 @@
             "visuallyHiddenText": " for failed alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Did not pass live assessment",
+        "date": "2021-03-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-design-system-live-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passe live reassessment",
+        "date": "2021-11-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-live-reassessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live reassessment"
+          }
+        ]
       }
     ]
   }
