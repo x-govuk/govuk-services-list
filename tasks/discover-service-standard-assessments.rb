@@ -22,7 +22,6 @@ ignored_reports = [
   "https://www.gov.uk/service-standard-reports/nhs-digital-weight-management-programme-referral-hub",
   "https://www.gov.uk/service-standard-reports/record-a-patient-safety-event",
   "https://www.gov.uk/service-standard-reports/integrated-data-service",
-  "https://www.gov.uk/service-standard-reports/get-into-teaching-beta-assessment-report",
   "https://www.gov.uk/service-standard-reports/prevent-duty-training-learn-how-to-safeguard-individuals-vulnerable-to-radicalisation-beta-assessment",
   "https://www.gov.uk/service-standard-reports/census-test-2017-beta-assessment",
   "https://www.gov.uk/service-standard-reports/office-for-national-statistics-ons-website-voluntary-service-assessment",
