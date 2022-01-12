@@ -1,0 +1,28 @@
+{
+  "name": "DfE Developer Hub",
+  "synonyms": [
+    "DfE Data Exchange"
+  ],
+  "description": "Connect to the Department for Education digital services through our APIs.",
+  "organisation": "*** Full name of the Department or organisation responsible ***",
+  "theme": "*** Please use one of the existing themes from the website ***",
+  "phase": "*** Use one of: discovery, alpha, beta, live, retired or unknown. ***",
+  "liveservice": "*** Replace this with the URL of the live service (if live) ***",
+  "start-page": "*** Replace this with the URL of the 'Start page' on GOV.UK ***",
+  "github": "*** Replace this with the URL of the source code (if public) ***",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2017-02-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/dfe-data-exchange-alpha",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
