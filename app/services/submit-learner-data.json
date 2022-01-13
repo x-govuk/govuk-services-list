@@ -2,7 +2,8 @@
   "name": "Submit learner data",
   "synonyms": [
     "Submit learner data (data collection)",
-    "Share learner data (previously known as Data Collection)"
+    "Share learner data (previously known as Data Collection)",
+    "Data collection"
   ],
   "description": "Use this service to validate and submit Individualised learner records, Earnings adjustment statements, ESF supplementary data, Funding Claims and FE staff and vacancy data",
   "organisation": "Education and Skills Funding Agency",
@@ -30,6 +31,17 @@
             "href": "https://www.gov.uk/service-standard-reports/share-learner-data-previously-known-as-data-collection-beta-assessment",
             "text": "service assessment report",
             "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2018-02-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/data-collection-service-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
           }
         ]
       }
