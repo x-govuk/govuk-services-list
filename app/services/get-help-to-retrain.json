@@ -1,0 +1,38 @@
+{
+  "name": "Get help to retrain",
+  "description": "The service allowed users to create an action plan to help them identify another type of work they could move into and what training might be available nearby to support them in their application.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "retired",
+  "github": "https://github.com/DFE-Digital/get-help-to-retrain",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2019-11-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-help-to-retrain-beta-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2019-02-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-help-to-retrain-alpha-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service closed",
+        "date": "2020-11-11"
+      }
+    ]
+  }
+}
