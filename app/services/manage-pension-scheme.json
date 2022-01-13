@@ -1,0 +1,27 @@
+{
+  "name": "Manage a registered pension scheme",
+  "synonyms": [
+    "Manage and Register Pension Schemes"
+  ],
+  "description": "Manage a registered pension scheme if you're a scheme administrator.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "beta",
+  "liveservice": "https://www.tax.service.gov.uk/manage-pension-schemes/guidance-triage/who-are-you-in-service",
+  "start-page": "https://www.gov.uk/guidance/manage-a-registered-pension-scheme",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2018-04-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/manage-and-register-pension-schemes-alpha",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
