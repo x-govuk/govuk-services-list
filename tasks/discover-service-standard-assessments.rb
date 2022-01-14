@@ -83,7 +83,16 @@ ignored_reports = [
   "https://www.gov.uk/service-standard-reports/submit-monthly-contributions-for-nhs-pension-scheme-beta-assessment-report",
   "https://www.gov.uk/service-standard-reports/medical-examiners-examining-a-cause-of-death-alpha-reassessment",
   "https://www.gov.uk/service-standard-reports/register-for-cqc",
-  "https://www.gov.uk/service-standard-reports/renewable-electricity-register-alpha-assessment-report"
+  "https://www.gov.uk/service-standard-reports/renewable-electricity-register-alpha-assessment-report",
+  "https://www.gov.uk/service-standard-reports/contract-and-award-service-previous-name-award-a-contract-for-goods-and-services-alpha-reassessment",
+  "https://www.gov.uk/service-standard-reports/apply-for-the-armed-forces-compensation-and-war-pension-schemes-service",
+  "https://www.gov.uk/service-standard-reports/help-to-buy-apply-for-an-equity-loan-alpha-assessment-report",
+  "https://www.gov.uk/service-standard-reports/prove-your-eligibility-to-a-foreign-government",
+  "https://www.gov.uk/service-standard-reports/examining-a-cause-of-death-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/sign-up-to-report-your-income-and-expenses-quarterly-beta-assessment",
+  "https://www.gov.uk/service-standard-reports/manage-my-adult-social-care-workforce-data-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/manage-key-stage-2-and-3-curriculum-resources-alpha-assessment",
+  "https://www.gov.uk/service-standard-reports/export-green-list-waste"
 ]
 
 
@@ -205,4 +214,4 @@ service_assessment_urls.each do |url|
 
 end
 
-puts "#{missing} service assessments missing"
+puts "\n#{missing} service assessments missing"
