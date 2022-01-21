@@ -4,12 +4,11 @@
     "DfE Data Exchange"
   ],
   "description": "Connect to the Department for Education digital services through our APIs.",
-  "organisation": "*** Full name of the Department or organisation responsible ***",
-  "theme": "*** Please use one of the existing themes from the website ***",
-  "phase": "*** Use one of: discovery, alpha, beta, live, retired or unknown. ***",
-  "liveservice": "*** Replace this with the URL of the live service (if live) ***",
-  "start-page": "*** Replace this with the URL of the 'Start page' on GOV.UK ***",
-  "github": "*** Replace this with the URL of the source code (if public) ***",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "alpha",
+  "liveservice": "https://dfe-developerhub.education.gov.uk",
+  "github": "https://github.com/DFE-Digital/eapim-developer-hub",
   "timeline": {
     "items": [
       {
