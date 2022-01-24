@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "live",
-  "liveservice": "https://civilclaims.service.gov.uk/accelerated-possession-eviction",
+  "start-page": "https://www.gov.uk/evicting-tenants/accelerated-possession-orders",
   "github": "https://github.com/ministryofjustice/accelerated_claims",
   "timeline": {
     "items": [
