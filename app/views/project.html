@@ -11,6 +11,10 @@
     <div class="govuk-grid-column-two-thirds">
       <h1 class="govuk-heading-xl">{{ project.name }}</h1>
 
+    </div>
+  </div>
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
       <p class="govuk-body">{{ project.description }}</p>
 
       {% if project['start-page'] %}
@@ -56,8 +60,6 @@
           Not found
         {% endif %}
       {% endset %}
-
-      <hr class="govuk-section-break govuk-section-break--visible govuk-section-break--xl">
 
       <h2 class="govuk-heading-m">About this service</h2>
 
@@ -120,6 +122,11 @@
       {% endif %}
 
 
+    </div>
+    <div class="govuk-grid-column-one-third">
+      {% if project.screenshot %}
+        <a href="/images/service-screenshots/{{ project.slug }}.png"><img class="app-screenshot" src="/images/service-screenshots/{{ project.slug }}.png" alt="Screenshot of service"></a>
+      {% endif %}
     </div>
   </div>
 
