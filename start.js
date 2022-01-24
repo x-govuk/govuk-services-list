@@ -92,6 +92,10 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       app.locals.organisations.push(project.organisation)
     }
 
+    if (fs.existsSync(__dirname + '/app/assets/images/service-screenshots/' + project.slug + '.png')) {
+      project.screenshot = true
+    }
+
     var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
 
     if (phase.length > 0) {
@@ -119,6 +123,8 @@ for (project of app.locals.projects) {
     existingVerb.services.push({name: project.name, slug: project.slug})
     existingVerb.count += 1
 }
+
+app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
 
 app.use('/', express.static(path.join(__dirname, 'static')))
 
