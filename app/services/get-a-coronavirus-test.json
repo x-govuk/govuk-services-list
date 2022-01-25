@@ -4,6 +4,6 @@
   "organisation": "NHS Digital",
   "theme": "Coronavirus (COVID-19)",
   "phase": "alpha",
-  "liveservice": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen/name",
+  "liveservice": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
   "start-page": "https://www.gov.uk/get-coronavirus-test"
 }
