@@ -4,5 +4,6 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "beta",
   "theme": "Driving and transport",
-  "liveservice": "https://www.buysellvehicle.service.gov.uk"
+  "start-page": "https://www.gov.uk/sold-bought-vehicle/y/no/sold-it/sold-it-privately-to-a-person-or-business",
+  "liveservice": "https://www.buysellvehicle.service.gov.uk/sell-private/vehicle-lookup"
 }
