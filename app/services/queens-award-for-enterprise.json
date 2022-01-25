@@ -4,6 +4,7 @@
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Business and self-employed",
   "phase": "beta",
-  "liveservice": "https://www.queens-awards-enterprise.service.gov.uk/",
+  "start-page": "https://www.gov.uk/queens-awards-for-enterprise/how-to-apply",
+  "liveservice": "https://www.queens-awards-enterprise.service.gov.uk/users/sign_up",
   "github": "https://github.com/bitzesty/qae"
 }
