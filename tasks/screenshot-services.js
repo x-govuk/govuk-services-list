@@ -11,7 +11,7 @@ var screenshotsToTake = [];
 fs.readdirSync(servicesFolder).forEach(function(filename) {
   if (filename != '_template.json') {
     var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + filename).toString());
-    if (project.liveservice) {
+    if (project.liveservice && project.phase != 'retired') {
       screenshotsToTake.push({url: project.liveservice, service: filename.replace('.json', '')})
     }
   }
