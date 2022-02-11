@@ -5,6 +5,7 @@
   "theme": "Government Internal",
   "phase": "live",
   "liveservice": "https://www.wifi.service.gov.uk",
+  "github": "https://github.com/alphagov/govwifi-product-page",
   "timeline": {
     "items": [
       {

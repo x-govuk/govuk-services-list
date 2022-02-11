@@ -5,5 +5,6 @@
   "organisation": "Environment Agency",
   "phase": "beta",
   "start-page": "https://www.gov.uk/check-flooding",
-  "liveservice": "https://check-for-flooding.service.gov.uk"
+  "liveservice": "https://check-for-flooding.service.gov.uk",
+  "github": "https://github.com/DEFRA/flood-app"
 }
