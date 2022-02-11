@@ -4,5 +4,6 @@
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "beta",
-  "liveservice": "https://flood-map-for-planning.service.gov.uk/"
+  "liveservice": "https://flood-map-for-planning.service.gov.uk/",
+  "github": "https://github.com/DEFRA/fmp-app"
 }

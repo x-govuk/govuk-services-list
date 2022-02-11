@@ -5,5 +5,6 @@
   "theme": "Money and tax",
   "phase": "unknown",
   "liveservice": "https://check-future-uk-trade-tariffs.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-tariffs-1-january-2021"
+  "start-page": "https://www.gov.uk/check-tariffs-1-january-2021",
+  "github": "https://github.com/uktrade/global-uk-tariff"
 }

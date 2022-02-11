@@ -6,6 +6,7 @@
   "phase": "beta",
   "facing": "internal",
   "liveservice": "https://www.notifications.service.gov.uk/",
+  "github": "https://github.com/alphagov/notifications-admin",
   "timeline": {
     "items": [
       {

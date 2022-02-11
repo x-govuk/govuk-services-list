@@ -6,6 +6,7 @@
   "phase": "beta",
   "facing": "internal",
   "liveservice": "https://www.payments.service.gov.uk/",
+  "github": "https://github.com/alphagov/pay-frontend",
   "timeline": {
     "items": [
       {

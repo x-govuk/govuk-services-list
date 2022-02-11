@@ -10,6 +10,7 @@
   "phase": "live",
   "facing": "internal",
   "liveservice": "https://www.cloud.service.gov.uk/",
+  "github": "https://github.com/alphagov/paas-product-pages",
   "timeline": {
     "items": [
       {
