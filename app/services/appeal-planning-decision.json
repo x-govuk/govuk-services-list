@@ -1,0 +1,10 @@
+{
+  "name": "Appeal a householder planning decision",
+  "description": "Your local planning authority makes decisions about householder planning applications. You can appeal a householder planning decision if you disagree with it.",
+  "organisation": "Planning Inspectorate",
+  "theme": "Housing and local services",
+  "phase": "beta",
+  "liveservice": "https://appeal-planning-decision.planninginspectorate.gov.uk/",
+  "start-page": "https://www.gov.uk/appeal-householder-planning-decision/how-to-appeal",
+  "github": "https://github.com/Planning-Inspectorate/appeal-planning-decision"
+}
