@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{%- from "govuk/components/tag/macro.njk" import govukTag -%}
+
+{% block pageTitle %}{{ organisation.name }}{% endblock %}
+{% block content %}
+
+  <h1 class="govuk-heading-xl">{{ organisation.name }}</h1>
+
+  <h2 class="govuk-heading-m">Digital services</h2>
+  <ul class="govuk-list">
+    {%- for project in (projects | sort(attribute="name")) -%}
+      {% if project.organisation == organisation.name %}
+        <li>
+          <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+{% endblock %}
