@@ -40,7 +40,7 @@
       {% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
 
       {% set organisationHtml %}
-        <a class="govuk-link" href="/organisation/#{{ project.organisation | slugify }}">{{ project.organisation }}</a>
+        <a class="govuk-link" href="/organisation/{{ project.organisation | slugify }}">{{ project.organisation }}</a>
       {% endset %}
 
       {% set themeHtml %}

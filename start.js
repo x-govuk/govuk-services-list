@@ -5,6 +5,10 @@ const port = process.env.PORT || 3100
 var path = require('path');
 var nunjucks = require('nunjucks')
 
+function slugify(str) {
+  return str.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()’]/g,"").replace(/ +/g,'_').toLowerCase();
+}
+
 app.locals.phases = [
   {
     name: "unknown",
@@ -55,27 +59,27 @@ app.locals.themes = [
 ];
 
 app.locals.organisations = [
-  'Cabinet Office',
-  'Department for Business, Energy & Industrial Strategy',
-  'Department for Education',
-  'Department for Environment, Food & Rural Affairs',
-  'Department for International Trade',
-  'Department for Levelling Up, Housing & Communities',
-  'Department for Transport',
-  'Department for Work and Pensions',
-  'Department of Health and Social Care',
-  'Foreign, Commonwealth & Development Office',
-  'Home Office',
-  'Ministry of Defence',
-  'Ministry of Justice',
-  'HM Revenue and Customs',
-  'Environment Agency',
-  'NHS Digital',
-  'Companies House',
-  'Ofsted',
-  'Insolvency Service',
-  'Land Registry',
-];
+  {"name": 'Cabinet Office'},
+  {"name": 'Department for Business, Energy & Industrial Strategy'},
+  {"name": 'Department for Education'},
+  {"name": 'Department for Environment, Food & Rural Affairs'},
+  {"name": 'Department for International Trade'},
+  {"name": 'Department for Levelling Up, Housing & Communities'},
+  {"name": 'Department for Transport'},
+  {"name": 'Department for Work and Pensions'},
+  {"name": 'Department of Health and Social Care'},
+  {"name": 'Foreign, Commonwealth & Development Office'},
+  {"name": 'Home Office'},
+  {"name": 'Ministry of Defence'},
+  {"name": 'Ministry of Justice'},
+  {"name": 'HM Revenue and Customs'},
+  {"name": 'Environment Agency'},
+  {"name": 'NHS Digital'},
+  {"name": 'Companies House'},
+  {"name": 'Ofsted'},
+  {"name": 'Insolvency Service'},
+  {"name": 'Land Registry'}
+]
 
 app.locals.projects = []
 
@@ -88,8 +92,11 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
     project.slug = filename.replace('.json', '');
     app.locals.projects.push(project)
 
-    if (!app.locals.organisations.includes(project.organisation)) {
-      app.locals.organisations.push(project.organisation)
+    if (!app.locals.organisations.find(function(org) { return org.name == project.organisation})) {
+      app.locals.organisations.push({
+        "name": project.organisation,
+        "slug": slugify(project.organisation)
+      })
     }
 
     if (fs.existsSync(__dirname + '/app/assets/images/service-screenshots/' + project.slug + '.png')) {
@@ -103,6 +110,13 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
     }
   }
 })
+
+for (organisation of app.locals.organisations) {
+  organisation.serviceCount = app.locals.projects.filter(function(service) {
+    return service.organisation == organisation.name
+  }).length
+  organisation.slug = slugify(organisation.name)
+}
 
 app.locals.verbs = []
 
@@ -135,9 +149,7 @@ var env = nunjucks.configure(['app/views/',
     watch: (process.env.ENV === 'development')
 });
 
-env.addFilter('slugify', function(str) {
-  return str.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()’]/g,"").replace(/ +/g,'_').toLowerCase();
-});
+env.addFilter('slugify', slugify);
 
 env.addFilter('formatdate', function(str) {
   var date = new Date(str);
@@ -173,6 +185,15 @@ app.get('/', function(req, res) {
 
 app.get('/organisation', function(req, res) {
     res.render('organisations.html')
+});
+
+app.get('/organisation/:slug', function(req, res) {
+  const organisation = app.locals.organisations.find(function(org) { return org.slug == req.params.slug} )
+  if (organisation) {
+    res.render('organisation.html', {organisation})
+  } else {
+    res.status(404).send("Page not found")
+  }
 });
 
 app.get('/contribute', function(req, res) {
