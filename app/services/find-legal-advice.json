@@ -1,0 +1,9 @@
+{
+  "name": "Find a legal aid adviser or family mediator",
+  "description": "Search for a legal adviser or family mediator with a legal aid contract in England and Wales.",
+  "organisation": "Legal Aid Agency",
+  "theme": "Crime, justice and the law",
+  "phase": "beta",
+  "liveservice": "https://find-legal-advice.justice.gov.uk",
+  "github": "https://github.com/ministryofjustice/fala"
+}
