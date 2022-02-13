@@ -4,8 +4,9 @@
   "organisation": "Legal Aid Agency",
   "theme": "Crime, justice and the law",
   "phase": "beta",
-  "liveservice": "https://portal.legalservices.gov.uk/LAAPortal/pages/home.jsp",
+  "liveservice": "https://apply-for-legal-aid.service.justice.gov.uk",
   "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid",
+  "github": "https://github.com/ministryofjustice/laa-apply-for-legal-aid",
   "timeline": {
     "items": [
       {
