@@ -4,6 +4,7 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "beta",
-  "liveservice": "https://get-document-legalised.service.gov.uk",
+  "startpage": "https://www.gov.uk/get-document-legalised",
+  "liveservice": "https://www.get-document-legalised.service.gov.uk/select-service",
   "github": "https://github.com/UKForeignOffice/legalisation-prototype"
 }
