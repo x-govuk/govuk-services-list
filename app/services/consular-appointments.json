@@ -1,9 +1,9 @@
 {
-  "name": "Consular appointments",
+  "name": "Book consular appointments",
   "description": "Not available.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "beta",
-  "liveservice": "https://www.consular-appointments.service.gov.uk",
+  "liveservice": "https://www.book-consular-appointment.service.gov.uk",
   "github": "https://github.com/UKForeignOffice/fco-consular-appointments-slotpicker"
 }
