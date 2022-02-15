@@ -33,7 +33,6 @@ fs.readdirSync(servicesFolder).forEach(function(filename) {
       process.stdout.write('.')
     } catch(error) {
       console.warn('Error fetching ' + screenshotToTake.url)
-      console.warn(error)
     }
   }
 
