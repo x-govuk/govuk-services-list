@@ -4,7 +4,5 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase": "live",
-  "facing": "internal",
-  "start-page": "https://www.signin.service.gov.uk/start",
-  "liveservice": "https://www.verify.service.gov.uk"
+  "liveservice": "https://www.signin.service.gov.uk/verify-services"
 }
