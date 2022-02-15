@@ -3,7 +3,7 @@
   "description": "You can get part of your application fee back if you applied to register a power of attorney from 1 April 2013 to 31 March 2017.",
   "theme": "Crime, justice and the law",
   "organisation": "Office of the Public Guardian",
-  "phase": "beta",
+  "phase": "retired",
   "liveservice": "https://claim-power-of-attorney-refund.service.gov.uk/when-were-fees-paid",
   "start-page": "https://www.gov.uk/power-of-attorney-refund",
   "timeline": {
@@ -28,6 +28,11 @@
             "text": "service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
+        ]
+      },
+      {
+        "label": "Service closes",
+        "date": "2021-02-01"
         ]
       }
     ]
