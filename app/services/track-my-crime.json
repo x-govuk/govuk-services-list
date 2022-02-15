@@ -3,6 +3,6 @@
   "description": "A service that allows victims of crime to access the progress of the investigation of their crime.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "beta",
+  "phase": "retired",
   "liveservice": "https://trackmycrime.police.uk/"
 }
