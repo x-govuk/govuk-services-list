@@ -1,7 +1,7 @@
 {
   "name": "Apply for a duplicate log book (V5C)",
   "description": "You need to get a log book (V5C) if the original has been lost, stolen, damaged or destroyed by you or your insurance company. You can get a duplicate log book online if you do not need to change anything in the log book.",
-  "organisation": "Driver & Vehicle Standards Agency",
+  "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "beta",
   "liveservice": "https://get-duplicate-vehicle-log-book.service.gov.uk",
