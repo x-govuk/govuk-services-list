@@ -11,7 +11,7 @@
     "express": "~4.17.2",
     "govuk-frontend": "^4.0.1",
     "nunjucks": "^3.2.3",
-    "sass": "^1.49.7"
+    "sass": "^1.49.8"
   },
   "devDependencies": {
     "puppeteer": "^13.3.2"
