@@ -7,7 +7,15 @@
   "description": "This service is to trace contacts of people who tested positive for COVID-19, and to provide health advice and information.",
   "organisation": "Department of Health and Social Care",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "beta",
+  "phase": "retired",
   "liveservice": "https://contact-tracing.phe.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/nhs-test-and-trace-how-it-works"
+  "start-page": "https://www.gov.uk/guidance/nhs-test-and-trace-how-it-works",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closed",
+        "date": "2022-02-24"
+      }
+    ]
+  }
 }
