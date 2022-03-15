@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "live",
-  "liveservice": "https://checklegalaid.service.gov.uk/",
+  "liveservice": "https://checklegalaid.service.gov.uk/start?locale=en_GB",
   "start-page": "https://www.gov.uk/check-legal-aid",
   "github": "https://github.com/ministryofjustice/cla_public"
 }
