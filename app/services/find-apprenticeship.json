@@ -4,5 +4,6 @@
   "theme": "Education, training and skills",
   "organisation": "Education and Skills Funding Agency",
   "phase": "live",
-  "liveservice": "https://www.findapprenticeship.service.gov.uk"
+  "start-page": "https://www.gov.uk/apply-apprenticeship",
+  "liveservice": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch"
 }
