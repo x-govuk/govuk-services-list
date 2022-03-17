@@ -6,7 +6,7 @@
   "description": "Use this service to apply for a Kickstart Scheme grant or add additional jobs to your existing grant agreement held directly with DWP.",
   "organisation": "Department of Work and Pensions",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "retired",
   "liveservice": "https://www.apply-kickstart-grant-employer.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/apply-online-for-a-kickstart-scheme-grant",
   "timeline": {
@@ -19,6 +19,16 @@
             "href": "https://www.gov.uk/service-standard-reports/kickstart-service",
             "text": "service assessment report",
             "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service closed",
+        "date": "2021-12-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/guidance/kickstart-scheme-closure",
+            "text": "Service closure guidance"
           }
         ]
       }
