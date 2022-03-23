@@ -4,7 +4,6 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "beta",
-  "github": "https://github.com/hmcts/div-petitioner-frontend",
   "timeline": {
     "items": [
       {
@@ -19,5 +18,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/hmcts/div-petitioner-frontend"
+    }
+  ]
 }

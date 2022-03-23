@@ -6,7 +6,6 @@
   "phase": "beta",
   "liveservice": "https://apply-for-legal-aid.service.justice.gov.uk",
   "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid",
-  "github": "https://github.com/ministryofjustice/laa-apply-for-legal-aid",
   "timeline": {
     "items": [
       {
@@ -21,5 +20,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/laa-apply-for-legal-aid"
+    }
+  ]
 }

@@ -5,7 +5,6 @@
   "theme": "Education, training and skills",
   "phase": "beta",
   "liveservice": "https://getintoteaching.education.gov.uk",
-  "github": "https://github.com/DFE-Digital/get-into-teaching-app",
   "timeline": {
     "items": [
       {
@@ -31,5 +30,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/get-into-teaching-app"
+    }
+  ]
 }

@@ -8,7 +8,6 @@
   "theme": "Employing people",
   "organisation": "Insolvency Service",
   "phase": "beta",
-  "github": "https://github.com/InsolvencyService/rps-alpha",
   "start-page": "https://www.gov.uk/claim-redundancy",
   "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
   "timeline": {
@@ -25,5 +24,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/InsolvencyService/rps-alpha"
+    }
+  ]
 }

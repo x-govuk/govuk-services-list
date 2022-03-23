@@ -5,5 +5,10 @@
   "theme": "Business and self-employed",
   "phase": "beta",
   "liveservice": "https://publish-payment-practices.service.gov.uk/",
-  "github": "https://github.com/UKGovernmentBEIS/payment-practices-reporting"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKGovernmentBEIS/payment-practices-reporting"
+    }
+  ]
 }

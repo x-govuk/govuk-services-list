@@ -9,7 +9,6 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/make-money-claim",
   "liveservice": "https://www.moneyclaims.service.gov.uk/",
-  "github": "https://github.com/hmcts/cmc-legal-rep-frontend",
   "timeline": {
     "items": [
       {
@@ -35,5 +34,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/hmcts/cmc-legal-rep-frontend"
+    }
+  ]
 }

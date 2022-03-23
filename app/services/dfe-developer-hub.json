@@ -8,7 +8,6 @@
   "theme": "Education, training and skills",
   "phase": "alpha",
   "liveservice": "https://dfe-developerhub.education.gov.uk",
-  "github": "https://github.com/DFE-Digital/eapim-developer-hub",
   "timeline": {
     "items": [
       {
@@ -23,5 +22,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/eapim-developer-hub"
+    }
+  ]
 }

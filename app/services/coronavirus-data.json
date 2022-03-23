@@ -6,5 +6,10 @@
   "phase": "live",
   "liveservice": "https://coronavirus.data.gov.uk",
   "start-page": "https://www.gov.uk/guidance/coronavirus-covid-19-statistics-and-analysis",
-  "github": "https://github.com/publichealthengland/coronavirus-dashboard"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/publichealthengland/coronavirus-dashboard"
+    }
+  ]
 }

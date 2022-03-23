@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://www.passport.service.gov.uk/filter",
   "start-page": "https://www.gov.uk/apply-renew-passport",
-  "github": "https://github.com/UKHomeOffice?utf8=%E2%9C%93&q=passport"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice?utf8=%E2%9C%93&q=passport"
+    }
+  ]
 }

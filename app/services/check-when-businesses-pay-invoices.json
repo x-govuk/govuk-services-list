@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://check-payment-practices.service.gov.uk/search",
   "start-page": "https://www.gov.uk/check-when-businesses-pay-invoices",
-  "github": "https://github.com/UKGovernmentBEIS/payment-practices-reporting"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKGovernmentBEIS/payment-practices-reporting"
+    }
+  ]
 }

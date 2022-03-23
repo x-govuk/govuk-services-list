@@ -6,6 +6,11 @@
   "phase": "beta",
   "phase_modifier": "Public",
   "liveservice": "https://apply-for-innovation-funding.service.gov.uk",
-  "github": "https://github.com/InnovateUKGitHub/innovation-funding-service",
-  "video": "YgWbfuxffj8"
+  "video": "YgWbfuxffj8",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/InnovateUKGitHub/innovation-funding-service"
+    }
+  ]
 }

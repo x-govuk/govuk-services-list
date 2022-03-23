@@ -4,7 +4,6 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "retired",
-  "github": "https://github.com/DFE-Digital/get-help-to-retrain",
   "timeline": {
     "items": [
       {
@@ -34,5 +33,11 @@
         "date": "2020-11-11"
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/get-help-to-retrain"
+    }
+  ]
 }

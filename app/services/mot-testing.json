@@ -9,7 +9,6 @@
   "phase": "unknown",
   "liveservice": "https://www.mot-testing.service.gov.uk",
   "start-page": "https://www.gov.uk/mot-testing-service",
-  "github": "https://github.com/dvsa/mot",
   "timeline": {
     "items": [
       {
@@ -24,5 +23,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/dvsa/mot"
+    }
+  ]
 }

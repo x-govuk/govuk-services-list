@@ -5,5 +5,10 @@
   "theme": "Passports, travel and living abroad",
   "phase": "beta",
   "liveservice": "https://www.book-consular-appointment.service.gov.uk",
-  "github": "https://github.com/UKForeignOffice/fco-consular-appointments-slotpicker"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKForeignOffice/fco-consular-appointments-slotpicker"
+    }
+  ]
 }

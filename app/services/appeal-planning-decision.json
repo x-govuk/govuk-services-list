@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://appeal-planning-decision.planninginspectorate.gov.uk/eligibility/householder-planning-permission",
   "start-page": "https://www.gov.uk/appeal-householder-planning-decision/how-to-appeal",
-  "github": "https://github.com/Planning-Inspectorate/appeal-planning-decision"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/Planning-Inspectorate/appeal-planning-decision"
+    }
+  ]
 }

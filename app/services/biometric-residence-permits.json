@@ -7,7 +7,6 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "live",
-  "github": "https://github.com/UKHomeOffice/brp_enquiry_forms",
   "startpage": "https://www.gov.uk/biometric-residence-permits",
   "timeline": {
     "items": [
@@ -45,5 +44,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/brp_enquiry_forms"
+    }
+  ]
 }

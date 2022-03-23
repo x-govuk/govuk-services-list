@@ -6,5 +6,10 @@
   "phase": "live",
   "liveservice": "https://checklegalaid.service.gov.uk/start?locale=en_GB",
   "start-page": "https://www.gov.uk/check-legal-aid",
-  "github": "https://github.com/ministryofjustice/cla_public"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/cla_public"
+    }
+  ]
 }

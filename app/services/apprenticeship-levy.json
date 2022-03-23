@@ -9,7 +9,6 @@
   "organisation": "Education and Skills Funding Agency",
   "phase": "beta",
   "liveservice": "https://manage-apprenticeships.service.gov.uk/",
-  "github": "https://github.com/SkillsFundingAgency/das-employerapprenticeshipsservice",
   "timeline": {
     "items": [
       {
@@ -35,5 +34,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/SkillsFundingAgency/das-employerapprenticeshipsservice"
+    }
+  ]
 }

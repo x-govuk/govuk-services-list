@@ -6,5 +6,10 @@
   "phase": "unknown",
   "facing": "internal",
   "liveservice": "https://peoplefinder.service.gov.uk",
-  "github": "https://github.com/ministryofjustice/peoplefinder"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/peoplefinder"
+    }
+  ]
 }

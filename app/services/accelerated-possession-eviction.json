@@ -5,7 +5,6 @@
   "organisation": "Ministry of Justice",
   "phase": "live",
   "start-page": "https://www.gov.uk/evicting-tenants/accelerated-possession-orders",
-  "github": "https://github.com/ministryofjustice/accelerated_claims",
   "timeline": {
     "items": [
       {
@@ -20,5 +19,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/accelerated_claims"
+    }
+  ]
 }

@@ -5,5 +5,10 @@
   "organisation": "Government Equalities Office",
   "phase": "beta",
   "liveservice": "https://gender-pay-gap.service.gov.uk",
-  "github": "https://github.com/cabinetoffice/gender-pay-gap"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/cabinetoffice/gender-pay-gap"
+    }
+  ]
 }

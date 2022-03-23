@@ -4,7 +4,12 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "beta",
-  "github": "https://github.com/UKHomeOffice/right-to-rent-check",
   "liveservice": "https://right-to-rent.service.gov.uk/view",
-  "start-page": "https://www.gov.uk/view-right-to-rent"
+  "start-page": "https://www.gov.uk/view-right-to-rent",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/right-to-rent-check"
+    }
+  ]
 }

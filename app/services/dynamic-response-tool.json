@@ -4,6 +4,11 @@
   "theme": "Government Internal",
   "organisation": "Home Office",
   "facing": "internal",
-  "github": "https://github.com/UKHomeOffice?utf8=%E2%9C%93&q=drt",
-  "phase": "unknown"
+  "phase": "unknown",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice?utf8=%E2%9C%93&q=drt"
+    }
+  ]
 }

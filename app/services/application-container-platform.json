@@ -5,5 +5,10 @@
   "organisation": "Home Office",
   "phase": "unknown",
   "facing": "internal",
-  "github": "https://github.com/UKHomeOffice/application-container-platform"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/application-container-platform"
+    }
+  ]
 }
