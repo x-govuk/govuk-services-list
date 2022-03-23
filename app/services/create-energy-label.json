@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://create-energy-label.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/create-an-energy-label",
-  "github": "https://github.com/UKGovernmentBEIS/energy-label-service"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKGovernmentBEIS/energy-label-service"
+    }
+  ]
 }

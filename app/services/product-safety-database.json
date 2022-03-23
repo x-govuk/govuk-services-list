@@ -5,5 +5,10 @@
   "theme": "Business and self-employed",
   "phase": "beta",
   "liveservice": "https://www.product-safety-database.service.gov.uk",
-  "github": "https://github.com/UKGovernmentBEIS/beis-opss-psd"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKGovernmentBEIS/beis-opss-psd"
+    }
+  ]
 }

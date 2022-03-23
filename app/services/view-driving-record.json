@@ -10,7 +10,6 @@
   "phase": "live",
   "startpage": "https://www.gov.uk/view-driving-licence",
   "liveservice": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
-  "github": "https://github.com/dvla/vdr-core",
   "timeline": {
     "items": [
       {
@@ -25,5 +24,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/dvla/vdr-core"
+    }
+  ]
 }

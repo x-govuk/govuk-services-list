@@ -9,7 +9,6 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/get-help-with-court-fees",
   "liveservice": "https://helpwithcourtfees.service.gov.uk/",
-  "github": "https://github.com/ministryofjustice/hwf-publicapp",
   "timeline": {
     "items": [
       {
@@ -35,5 +34,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/hwf-publicapp"
+    }
+  ]
 }

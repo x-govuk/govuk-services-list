@@ -6,5 +6,10 @@
   "phase": "retired",
   "liveservice": "https://coronavirus-shielding-support.service.gov.uk/start",
   "start-page": "https://www.gov.uk/coronavirus-shielding-support",
-  "github": "https://github.com/alphagov/govuk-shielded-vulnerable-people-service"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/alphagov/govuk-shielded-vulnerable-people-service"
+    }
+  ]
 }

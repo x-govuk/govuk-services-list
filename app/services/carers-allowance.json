@@ -8,7 +8,6 @@
   "video": "IYBLX3V8ek4",
   "start-page": "https://www.gov.uk/carers-allowance",
   "liveservice": "https://www.carersallowance.service.gov.uk/",
-  "github": "https://github.com/dwp/carers-allowance-prototype",
   "timeline": {
     "items": [
       {
@@ -23,5 +22,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/dwp/carers-allowance-prototype"
+    }
+  ]
 }

@@ -9,7 +9,6 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "live",
   "organisation": "NHS Digital",
-  "github": "https://github.com/111Online",
   "liveservice": "https://111.nhs.uk",
   "timeline": {
     "items": [
@@ -69,5 +68,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/111Online"
+    }
+  ]
 }

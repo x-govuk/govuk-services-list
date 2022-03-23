@@ -5,5 +5,10 @@
   "organisation": "Valuation Office Agency",
   "phase": "unknown",
   "facing": "internal",
-  "github": "https://github.com/ValuationOffice/VORBS"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ValuationOffice/VORBS"
+    }
+  ]
 }

@@ -5,5 +5,10 @@
   "theme": "Citizenship and living in the UK",
   "phase": "beta",
   "liveservice": "https://nominate-uk-honour.service.gov.uk",
-  "github": "https://github.com/cabinetoffice/has-nomination-form"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/cabinetoffice/has-nomination-form"
+    }
+  ]
 }

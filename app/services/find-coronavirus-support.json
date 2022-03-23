@@ -6,5 +6,10 @@
   "phase": "retired",
   "liveservice": "https://find-coronavirus-support.service.gov.uk/need-help-with",
   "start-page": "https://www.gov.uk/find-coronavirus-support",
-  "github": "https://github.com/alphagov/govuk-coronavirus-find-support"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/alphagov/govuk-coronavirus-find-support"
+    }
+  ]
 }

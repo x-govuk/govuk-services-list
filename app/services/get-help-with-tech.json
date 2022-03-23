@@ -6,5 +6,10 @@
   "phase": "alpha",
   "liveservice": "https://get-help-with-tech.education.gov.uk",
   "start-page": "https://www.gov.uk/guidance/get-laptops-and-tablets-for-children-who-cannot-attend-school-due-to-coronavirus-covid-19",
-  "github": "https://github.com/DFE-Digital/get-help-with-tech"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/get-help-with-tech"
+    }
+  ]
 }

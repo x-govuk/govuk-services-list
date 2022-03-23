@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://submit.cosmetic-product-notifications.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
-  "github": "https://github.com/UKGovernmentBEIS/beis-opss-cosmetics"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKGovernmentBEIS/beis-opss-cosmetics"
+    }
+  ]
 }

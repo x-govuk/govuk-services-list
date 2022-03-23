@@ -6,7 +6,6 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/applying-for-probate/apply-for-probate",
   "liveservice": "https://www.apply-for-probate.service.gov.uk/death-certificate",
-  "github": "https://github.com/hmcts/probate-frontend",
   "timeline": {
     "items": [
       {
@@ -36,5 +35,11 @@
         "date": "2016-12-09"
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/hmcts/probate-frontend"
+    }
+  ]
 }

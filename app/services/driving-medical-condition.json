@@ -10,7 +10,6 @@
   "phase": "beta",
   "liveservice": "https://www.driving-medical-condition.service.gov.uk/report",
   "start-page": "https://www.gov.uk/report-driving-medical-condition",
-  "github": "https://github.com/dvla/Fitness-to-Drive-Pageflow",
   "timeline": {
     "items": [
       {
@@ -36,5 +35,11 @@
         ]
       }
     ]
-  }
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/dvla/Fitness-to-Drive-Pageflow"
+    }
+  ]
 }

@@ -4,5 +4,10 @@
   "organisation": "Home Office",
   "phase": "unknown",
   "facing": "internal",
-  "github": "https://github.com/UKHomeOffice/home-office-design-system"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/home-office-design-system"
+    }
+  ]
 }

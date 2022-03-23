@@ -5,5 +5,10 @@
   "organisation": "Ministry of Justice",
   "phase": "unknown",
   "facing": "internal",
-  "github": "https://github.com/noms-digital-studio/csra-app"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/noms-digital-studio/csra-app"
+    }
+  ]
 }

@@ -6,5 +6,10 @@
   "phase": "alpha",
   "liveservice": "https://register-national-professional-qualifications.education.gov.uk",
   "start-page": "https://www.gov.uk/government/publications/national-professional-qualifications-npqs-reforms/national-professional-qualifications-npqs-reforms",
-  "github": "https://github.com/DFE-Digital/npq-registration"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/npq-registration"
+    }
+  ]
 }

@@ -54,8 +54,10 @@
       {% endset %}
 
       {% set sourceCodeHtml %}
-        {% if project.github %}
-          <a class="govuk-link" href="{{ project.github }}">{{ project.github }}</a>
+        {% if project.sourceCode %}
+          {% for sourceCode in project.sourceCode %}
+            <a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a>
+          {% endfor %}
         {% else %}
           Not found
         {% endif %}

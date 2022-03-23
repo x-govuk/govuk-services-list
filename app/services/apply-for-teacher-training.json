@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://www.apply-for-teacher-training.service.gov.uk/candidate/account",
   "start-page": "https://www.gov.uk/apply-for-teacher-training",
-  "github": "https://github.com/DFE-Digital/apply-for-teacher-training"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/apply-for-teacher-training"
+    }
+  ]
 }

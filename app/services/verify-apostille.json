@@ -5,5 +5,10 @@
   "theme": "Passports, travel and living abroad",
   "phase": "live",
   "liveservice": "https://www.verifyapostille.service.gov.uk/",
-  "github": "https://github.com/UKForeignOffice/verify-apostille-service"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKForeignOffice/verify-apostille-service"
+    }
+  ]
 }

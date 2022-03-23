@@ -4,7 +4,12 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "beta",
-  "github": "https://github.com/UKHomeOffice/rotm",
   "liveservice": "https://www.report-terrorist-material.homeoffice.gov.uk/evidence-url",
-  "start-page": "https://www.gov.uk/report-terrorism"
+  "start-page": "https://www.gov.uk/report-terrorism",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/rotm"
+    }
+  ]
 }

@@ -5,5 +5,10 @@
   "theme": "Passports, travel and living abroad",
   "phase": "beta",
   "liveservice": "https://www.apply-emergency-travel-document.service.gov.uk/",
-  "github": "https://github.com/UKForeignOffice/emergency-travel-documents"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKForeignOffice/emergency-travel-documents"
+    }
+  ]
 }

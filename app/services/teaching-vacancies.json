@@ -6,5 +6,10 @@
   "phase": "beta",
   "liveservice": "https://teaching-vacancies.service.gov.uk/",
   "start-page": "https://www.gov.uk/find-teaching-job",
-  "github": "https://github.com/DFE-Digital/teaching-vacancies"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/teaching-vacancies"
+    }
+  ]
 }

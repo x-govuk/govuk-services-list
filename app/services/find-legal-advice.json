@@ -5,5 +5,10 @@
   "theme": "Crime, justice and the law",
   "phase": "beta",
   "liveservice": "https://find-legal-advice.justice.gov.uk",
-  "github": "https://github.com/ministryofjustice/fala"
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/fala"
+    }
+  ]
 }
