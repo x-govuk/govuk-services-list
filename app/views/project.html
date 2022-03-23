@@ -40,7 +40,10 @@
       {% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
 
       {% set organisationHtml %}
-        <a class="govuk-link" href="/organisation/{{ project.organisation | slugify }}">{{ project.organisation }}</a>
+        {% set comma = joiner() %}
+        {% for organisation in project.organisation -%}
+          {{ comma() }} <a class="govuk-link" href="/organisation/{{ organisation | slugify }}">{{ organisation }}</a>
+        {%- endfor %}
       {% endset %}
 
       {% set themeHtml %}
@@ -69,7 +72,7 @@
         rows: [
           {
             key: {
-              text: "Organisation"
+              text: ("Organisation" if project.organisation | length < 2 else "Organisations")
             },
             value: {
               html: organisationHtml

@@ -92,11 +92,17 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
     project.slug = filename.replace('.json', '');
     app.locals.projects.push(project)
 
-    if (!app.locals.organisations.find(function(org) { return org.name == project.organisation})) {
-      app.locals.organisations.push({
-        "name": project.organisation,
-        "slug": slugify(project.organisation)
-      })
+    if (!Array.isArray(project.organisation)) {
+      project.organisation = [project.organisation]
+    }
+
+    for (organisation of project.organisation) {
+      if (!app.locals.organisations.find(function(org) { return org.name == organisation})) {
+        app.locals.organisations.push({
+          "name": organisation,
+          "slug": slugify(organisation)
+        })
+      }
     }
 
     if (fs.existsSync(__dirname + '/app/assets/images/service-screenshots/' + project.slug + '.png')) {
@@ -113,7 +119,7 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
 
 for (organisation of app.locals.organisations) {
   organisation.serviceCount = app.locals.projects.filter(function(service) {
-    return service.organisation == organisation.name
+    return service.organisation.includes(organisation.name)
   }).length
   organisation.slug = slugify(organisation.name)
 }
