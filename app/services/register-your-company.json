@@ -1,12 +1,17 @@
 {
   "name": "Register your company",
-  "description": "The Register your company service allows users to create a company by simultaneously registering it with Companies House (known as incorporation) and HMRC for paying Corporation Tax (CT), Pay as You Earn (PAYE) and Value Added Tax (VAT).",
+  "synonyms": [
+    "Set up a limited company and register for Corporation Tax"
+  ],
+  "description": "Use this service to register your company with Companies House. You will be registered for Corporation Tax at the same time.",
   "theme": "Business and self-employed",
   "organisation": [
     "HM Revenue and Customs",
     "Companies House"
   ],
   "phase": "alpha",
+  "start-page": "https://www.gov.uk/limited-company-formation/register-your-company?step-by-step-nav=37e4c035-b25c-4289-b85c-c6d36d11a763",
+  "liveservice": "https://www.tax.service.gov.uk/register-your-company/setting-up-new-limited-company",
   "timeline": {
     "items": [
       {
