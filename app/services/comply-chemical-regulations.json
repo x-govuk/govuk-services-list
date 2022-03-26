@@ -1,7 +1,9 @@
 {
-  "name": "Manage your chemicals on UK REACH",
+  "name": "Comply with UK REACH",
   "synonyms": [
-    "Comply with UK REACH (Chemicals)"
+    "Comply with UK REACH (Chemicals)",
+    "Manage your chemicals on UK REACH",
+    "Comply with UK REACH: submit and manage chemical registrations and notifications"
   ],
   "description": "If you’re based in Great Britain (England, Scotland and Wales), you’ll need to follow UK REACH regulations to manufacture, import, sell or distribute chemical substances or mixtures.",
   "organisation": "Department for Environment, Food & Rural Affairs",
