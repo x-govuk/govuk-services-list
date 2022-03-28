@@ -5,6 +5,7 @@
   "theme": "Passports, travel and living abroad",
   "phase": "live",
   "liveservice": "https://www.verifyapostille.service.gov.uk/",
+  "start-page": "https://www.gov.uk/verify-apostille",
   "sourceCode": [
     {
       "text": "Source code",
