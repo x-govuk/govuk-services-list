@@ -5,6 +5,6 @@
   "theme": "Business and self-employed",
   "phase": "unknown",
   "liveservice": "https://manage-fish-exports.service.gov.uk/create-catch-certificate/catch-certificates",
-  "startpage": "https://www.gov.uk/guidance/create-a-uk-catch-certificate",
+  "start-page": "https://www.gov.uk/guidance/create-a-uk-catch-certificate",
   "github": null
 }

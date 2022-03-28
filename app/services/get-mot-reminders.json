@@ -9,7 +9,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
   "liveservice": "https://www.reminders.mot-testing.service.gov.uk/vrm",
-  "startpage": "https://www.gov.uk/mot-reminder",
+  "start-page": "https://www.gov.uk/mot-reminder",
   "timeline": {
     "items": [
       {

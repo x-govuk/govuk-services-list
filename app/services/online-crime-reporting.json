@@ -4,6 +4,6 @@
   "theme": "Crime, justice and the law",
   "organisation": "Home Office",
   "phase": "beta",
-  "startpage": "https://www.gov.uk/report-crime-anti-social-behaviour",
+  "start-page": "https://www.gov.uk/report-crime-anti-social-behaviour",
   "liveservice": "https://www.police.uk/pu/contact-the-police/report-a-crime-incident/"
 }

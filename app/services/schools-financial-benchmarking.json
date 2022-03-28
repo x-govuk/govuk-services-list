@@ -9,7 +9,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "beta",
-  "startpage": "https://www.gov.uk/guidance/benchmark-your-schools-financial-data",
+  "start-page": "https://www.gov.uk/guidance/benchmark-your-schools-financial-data",
   "liveservice": "https://schools-financial-benchmarking.service.gov.uk/",
   "timeline": {
     "items": [

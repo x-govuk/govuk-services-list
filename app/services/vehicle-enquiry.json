@@ -8,7 +8,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "live",
-  "startpage": "https://www.gov.uk/check-vehicle-tax",
+  "start-page": "https://www.gov.uk/check-vehicle-tax",
   "liveservice": "https://vehicleenquiry.service.gov.uk/",
   "timeline": {
     "items": [

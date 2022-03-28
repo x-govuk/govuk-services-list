@@ -8,7 +8,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "live",
-  "startpage": "https://www.gov.uk/view-driving-licence",
+  "start-page": "https://www.gov.uk/view-driving-licence",
   "liveservice": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
   "timeline": {
     "items": [

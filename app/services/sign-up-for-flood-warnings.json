@@ -4,6 +4,6 @@
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "beta",
-  "startpage": "https://www.gov.uk/sign-up-for-flood-warnings",
+  "start-page": "https://www.gov.uk/sign-up-for-flood-warnings",
   "liveservice": "https://www.fws.environment-agency.gov.uk/app/olr/register"
 }
