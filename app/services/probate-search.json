@@ -1,8 +1,12 @@
 {
   "name": "Find a will",
+  "synoynms": [
+    "Find a soldier's will"
+  ],
   "description": "Search for the will or probate of any person in the UK who died in or after 1996.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "beta",
-  "liveservice": "https://probatesearch.service.gov.uk"
+  "liveservice": "https://probatesearch.service.gov.uk",
+  "start-page": "https://www.gov.uk/probate-search"
 }

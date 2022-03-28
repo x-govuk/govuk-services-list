@@ -1,7 +1,11 @@
 {
   "name": "HGV levy",
-  "description": "Not available",
+  "synonyms": [
+    "Pay the heavy goods vehicle (HGV) levy"
+  ],
+  "description": "Use this service to pay the levy for heavy goods vehicles",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "unknown",
-  "liveservice": "https://www.hgvlevy.service.gov.uk/"
+  "phase": "beta",
+  "liveservice": "https://www.hgvlevy.service.gov.uk/",
+  "start-page": "https://www.gov.uk/hgv-levy"
 }
