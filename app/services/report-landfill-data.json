@@ -4,6 +4,6 @@
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "beta",
-  "startpage": "https://www.gov.uk/guidance/report-landfill-data-england-only",
+  "start-page": "https://www.gov.uk/guidance/report-landfill-data-england-only",
   "liveservice": "https://report-landfill-data.service.gov.uk/"
 }

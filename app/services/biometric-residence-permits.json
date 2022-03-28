@@ -7,7 +7,7 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "live",
-  "startpage": "https://www.gov.uk/biometric-residence-permits",
+  "start-page": "https://www.gov.uk/biometric-residence-permits",
   "timeline": {
     "items": [
       {

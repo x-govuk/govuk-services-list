@@ -6,7 +6,7 @@
   "phase": "live",
   "phase_modifier": "Public",
   "prototype": "http://nisp.herokuapp.com/",
-  "startpage": "https://www.gov.uk/check-state-pension",
+  "start-page": "https://www.gov.uk/check-state-pension",
   "liveservice": "https://www.tax.service.gov.uk/check-your-state-pension/",
   "timeline": {
     "items": [
