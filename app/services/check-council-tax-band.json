@@ -1,0 +1,12 @@
+{
+  "name": "Check and challenge your Council Tax band",
+  "synonyms": [
+    "Check your Council Tax band"
+  ],
+  "description": "Find out the Council Tax band for a home in England or Wales by looking up its address or postcode. You can also use this service to challenge your Council Tax band if you think it’s wrong.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "beta",
+  "liveservice": "https://www.tax.service.gov.uk/check-council-tax-band/search",
+  "start-page": "https://www.gov.uk/council-tax-bands"
+}
