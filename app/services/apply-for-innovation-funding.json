@@ -1,5 +1,9 @@
 {
-  "name": "Apply for an Innovation funding grant",
+  "name": "Apply for innovation funding",
+  "synonyms": [
+    "Innovation Funding Service",
+    "Apply for an Innovation funding grant"
+  ],
   "description": "Lets users who are looking for funding to complete their innovative projects apply to comptitions to win a grant.",
   "theme": "Business and self-employed",
   "organisation": "Innovate UK",
