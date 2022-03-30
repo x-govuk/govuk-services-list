@@ -1,7 +1,10 @@
 {
-  "name": "Book your theory test",
+  "name": "Book a theory test",
   "synonyms": [
-    "Book Theory Test"
+    "Book theory test",
+    "Book your theory test",
+    "Cancel your theory test",
+    "Change your theory test appointment"
   ],
   "description": "Book your driving theory test for: cars, motorcycles, lorries, buses and coaches, including the Driver Certificate of Professional Competence (CPC) part 1a and 1b (theory) and part 2 (case studies)",
   "theme": "Driving and transport",
