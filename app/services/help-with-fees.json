@@ -8,7 +8,7 @@
   "organisation": "Ministry of Justice",
   "phase": "beta",
   "start-page": "https://www.gov.uk/get-help-with-court-fees",
-  "liveservice": "https://helpwithcourtfees.service.gov.uk/",
+  "liveservice": "https://helpwithcourtfees.service.gov.uk/checklist",
   "timeline": {
     "items": [
       {
