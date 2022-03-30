@@ -4,6 +4,6 @@
   "theme": "Government Internal",
   "organisation": "Civil Service Fast Stream",
   "phase": "beta",
-  "liveservice": "https://www.apply-civil-service-fast-stream.service.gov.uk/",
+  "liveservice": "https://www.apply-civil-service-fast-stream.service.gov.uk/fset-fast-stream/signup",
   "start-page": "https://www.faststream.gov.uk"
 }
