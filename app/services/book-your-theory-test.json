@@ -7,8 +7,13 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
-  "liveservice": "https://www.book-theory-test.service.gov.uk/transition?target=gb&lang=gb",
-  "start-page": "https://www.gov.uk/book-theory-test",
+  "liveservice": "https://www.book-theory-test.service.gov.uk/?target=gb&lang=gb",
+  "start-page": [
+    "https://www.gov.uk/book-theory-test",
+    "https://www.gov.uk/book-your-instructor-theory-test",
+    "https://www.gov.uk/cancel-theory-test",
+    "https://www.gov.uk/change-theory-test"
+  ],
   "timeline": {
     "items": [
       {

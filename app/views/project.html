@@ -17,8 +17,20 @@
     <div class="govuk-grid-column-two-thirds">
       <p class="govuk-body">{{ project.description }}</p>
 
-      {% if project['start-page'] %}
-        <p class="govuk-body"><a class="govuk-link" href="{{ project['start-page'] }}">Start page on GOV.UK</a></p>
+      {% if project['start-page'] | length > 0 %}
+        {% if project['start-page'] | length == 1 %}
+          <p class="govuk-body"><a class="govuk-link" href="{{ project['start-page'][0] }}">Start page on GOV.UK</a></p>
+        {% else %}
+
+          <p class="govuk-body govuk-!-margin-bottom-1">Start pages:</p>
+          <ul class="govuk-list">
+            {% for startPage in project['start-page'] %}
+              <li><a href="{{ startPage }}">{{ startPage }}</li>
+            {% endfor %}
+          </ul>
+
+        {% endif %}
+
       {% endif %}
       {% if project.liveservice and project.phase != 'retired' %}
 

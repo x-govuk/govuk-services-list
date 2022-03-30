@@ -9,7 +9,10 @@
   "phase": "beta",
   "phase_modifier": "Public",
   "liveservice": "https://www.universal-credit.service.gov.uk/",
-  "start-page": "https://www.gov.uk/universal-credit",
+  "start-page": [
+    "https://www.gov.uk/universal-credit",
+    "https://www.gov.uk/apply-universal-credit"
+  ],
   "timeline": {
     "items": [
       {
