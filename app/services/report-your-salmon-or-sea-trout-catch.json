@@ -4,5 +4,7 @@
   "theme": "Business and self-employed",
   "organisation": "Environment Agency",
   "phase": "beta",
-  "liveservice": "https://catchreturn.service.gov.uk/rcr/submitcatchreturn"
+  "liveservice": "https://catchreturn.service.gov.uk/",
+  "start-page": "https://www.gov.uk/catch-return"
+
 }
