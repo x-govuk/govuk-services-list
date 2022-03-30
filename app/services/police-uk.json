@@ -1,8 +1,0 @@
-{
-  "name": "Police.uk",
-  "description": "Crime and policing in England, Wales and Northern Ireland",
-  "theme": "Crime, justice and the law",
-  "organisation": "Home Office",
-  "phase": "live",
-  "liveservice": "https://www.police.uk/"
-}
