@@ -96,6 +96,10 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       project.organisation = [project.organisation]
     }
 
+    if (!Array.isArray(project['start-page'])) {
+      project['start-page'] = [project['start-page']]
+    }
+
     for (organisation of project.organisation) {
       if (!app.locals.organisations.find(function(org) { return org.name == organisation})) {
         app.locals.organisations.push({

@@ -5,6 +5,9 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
   "phase_modifier": "Public",
-  "start-page": "https://www.gov.uk/manage-vehicle-operator-licence",
+  "start-page": [
+    "https://www.gov.uk/manage-vehicle-operator-licence",
+    "https://www.gov.uk/apply-vehicle-operator-licence"
+  ],
   "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/"
 }
