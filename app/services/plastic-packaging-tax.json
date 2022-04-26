@@ -6,8 +6,9 @@
   "description": "Entities that import or produce plastic packaging will soon be liable for a tax. This service allows users to register, fill in returns and pay the tax due.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "alpha",
-  "start-page": "https://www.gov.uk/guidance/register-for-plastic-packaging-tax#after-youve-registered",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/guidance/register-for-plastic-packaging-tax",
+  "liveservice": "https://www.tax.service.gov.uk/register-for-plastic-packaging-tax/start-registration",
   "timeline": {
     "items": [
       {
@@ -18,6 +19,17 @@
             "href": "https://www.gov.uk/service-standard-reports/plastic-packaging-tax",
             "text": "service assessment report",
             "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2022-03-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/plastic-packaging-tax-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
           }
         ]
       }
