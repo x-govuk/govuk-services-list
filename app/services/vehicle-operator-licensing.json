@@ -1,5 +1,9 @@
 {
-  "name": "Manage your Vehicle Operator License",
+  "name": "Vehicle Operator Licensing",
+  "synonyms": [
+    "Manage your Vehicle Operator License",
+    "Apply for a vehicle operator licence"
+  ],
   "description": "Update your heavy goods vehicle (HGV) or public service vehicle (PSV) operator’s licence, for example to: add more vehicles to your licence, increase the vehicle limit on your licence, add or remove a transport manager.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",

@@ -1,9 +1,12 @@
 {
   "name": "Find an energy certificate",
+  "synonyms": [
+    "Energy Performance of Buildings Register"
+  ],
   "description": "Use this service to find energy certificates and recommendation reports for properties in England, Wales and Northern Ireland.",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "theme": "Housing and local services",
-  "phase": "beta",
+  "phase": "live",
   "liveservice": "https://find-energy-certificate.service.gov.uk/find-a-certificate/type-of-property",
   "start-page": "https://www.gov.uk/find-energy-certificate",
   "timeline": {
@@ -27,6 +30,28 @@
             "href": "https://www.gov.uk/service-standard-reports/find-an-energy-certificate-alpha-re-assessment",
             "text": "service assessment report",
             "visuallyHiddenText": " for alpha re-assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2020-11-19",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/energy-performance-of-buildings-register-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed live assessment",
+        "date": "2021-12-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/energy-performance-of-buildings-register-live-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for live assessment"
           }
         ]
       }
