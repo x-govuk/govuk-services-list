@@ -8,7 +8,7 @@
     "npm": "8.x"
   },
   "dependencies": {
-    "express": "~4.17.3",
+    "express": "~4.18.0",
     "govuk-frontend": "^4.0.1",
     "nunjucks": "^3.2.3",
     "sass": "^1.51.0"
