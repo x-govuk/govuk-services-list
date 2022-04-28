@@ -25,3 +25,7 @@ https://www.gov.uk/calculate-tax-rates-for-new-cars
 https://www.gov.uk/cancel-driving-test
 https://www.gov.uk/cattle-tracing-online
 https://www.gov.uk/cbt-certificates
+https://www.gov.uk/check-the-patents-journal
+https://www.gov.uk/check-trade-marks-journal
+https://www.gov.uk/low-emission-zones
+https://www.gov.uk/public-appointments
