@@ -97,7 +97,11 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
     }
 
     if (!Array.isArray(project['start-page'])) {
-      project['start-page'] = [project['start-page']]
+      if (project['start-page']) {
+        project['start-page'] = [project['start-page']]
+      } else {
+        project['start-page'] = []
+      }
     }
 
     for (organisation of project.organisation) {
