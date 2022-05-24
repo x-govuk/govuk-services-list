@@ -1,9 +1,26 @@
 {
   "name": "Pay the Dartford Crossing charge (Dart Charge)",
+  "synonyms": [
+    "Pay for the Dartford Crossing (Dart Charge)"
+  ],
   "description": "You must pay the Dartford Crossing charge by midnight the day after you cross.",
   "theme": "Driving and transport",
   "organisation": "Highways England",
   "phase": "alpha",
   "start-page": "https://www.gov.uk/pay-dartford-crossing-charge",
-  "liveservice": "https://www.dartford-crossing-charge.service.gov.uk/Home/Choose"
+  "liveservice": "https://www.dartford-crossing-charge.service.gov.uk/Home/Choose",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2022-01-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/pay-for-the-dartford-crossing-dart-charge",
+            "text": "Service standard report"
+          }
+        ]
+      }
+    ]
+  }
 }
