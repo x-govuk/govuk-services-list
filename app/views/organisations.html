@@ -8,7 +8,7 @@
 
   <ul class="govuk-list">
     {% for organisation in organisations | sort(attribute="name") %}
-      <li id="{{ organisation.slug }}"><a href="/organisation/{{ organisation.slug }}" class="govuk-link">{{ organisation.name }} ({{ organisation.serviceCount }})</a></li>
+      <li id="{{ organisation.slug }}"><a href="/organisation/{{ organisation.slug }}" class="govuk-link">{{ organisation.name }} ({{ organisation.services.length }})</a></li>
     {% endfor %}
   </ul>
 
