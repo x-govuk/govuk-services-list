@@ -59,7 +59,6 @@ const servicesToSkip = [
 fs.readdirSync(servicesFolder).forEach(function(filename) {
   if (filename != '_template.json') {
     var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + filename).toString());
-    if (project.liveservice && project.phase != 'retired') {
     if (project.liveservice && project.phase != 'retired' && !servicesToSkip.includes(filename.replace('.json', ''))) {
       screenshotsToTake.push({url: project.liveservice, service: filename.replace('.json', '')})
     }
