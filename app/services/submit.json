@@ -1,8 +1,22 @@
 {
   "name": "GOV.UK Submit",
-  "description": "We’re planning a new discovery around collecting information from users. We’ll focus on services without access to a software development team. We’ll use this discovery to decide if there’s an opportunity for a new component to address this common task. https://governmentasaplatform.blog.gov.uk/2017/09/06/discovering-the-next-component/",
+  "description": "A proposed platform for services to collect information from users where they don’t have a dedicated software development team.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "discovery",
-  "facing": "internal"
+  "phase": "retired",
+  "facing": "internal",
+  "timeline": {
+    "items": [
+      {
+        "label": "Published blog post about the proposal",
+        "date": "2017-09-06",
+        "links": [
+          {
+            "href": "https://governmentasaplatform.blog.gov.uk/2017/09/06/discovering-the-next-component/",
+            "text": "Discovering the next Government as a Platform component"
+          }
+        ]
+      }
+    ]
+  }
 }
