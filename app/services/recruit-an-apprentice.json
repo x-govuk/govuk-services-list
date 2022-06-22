@@ -10,7 +10,7 @@
   "organisation": "Education and Skills Funding Agency",
   "phase": "unknown",
   "start-page": "https://www.gov.uk/recruit-apprentice",
-  "liveservice": "https://www.recruit-apprentice.service.gov.uk/signin",
+  "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk",
   "timeline": {
     "items": [
       {
