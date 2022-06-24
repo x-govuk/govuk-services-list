@@ -6,9 +6,6 @@ $govuk-brand-colour: #28a;
 
 @import "govuk-frontend/govuk/all";
 
-// App-specific variables
-$app-light-grey: #f8f8f8;
-
 @import "count";
 @import "header";
 @import "list";
