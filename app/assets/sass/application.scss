@@ -2,6 +2,7 @@ $govuk-new-link-styles: true;
 
 // Override the default GOV.UK Frontend font stack
 $govuk-font-family: system-ui, sans-serif;
+$govuk-brand-colour: #28a;
 
 @import "govuk-frontend/govuk/all";
 
