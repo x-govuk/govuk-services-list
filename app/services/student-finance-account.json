@@ -4,7 +4,8 @@
     "SLC Full Time and Sponsored Applications",
     "Student finance account",
     "Manage Your Loan",
-    "SLC Full Time Application"
+    "SLC Full Time Application",
+    "Apply for student finance"
   ],
   "description": "Apply online for student finance",
   "theme": "Education, training and skills",
@@ -12,6 +13,9 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/apply-online-for-student-finance",
   "liveservice": "https://www.student-finance.service.gov.uk/customer/home",
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

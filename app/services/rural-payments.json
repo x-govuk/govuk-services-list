@@ -1,9 +1,15 @@
 {
   "name": "Make or update a rural payments claim",
+  "synonyms": [
+    "Apply for Rural Grants and Payments"
+  ],
   "description": "You can use the service to apply for rural grants and payments, including the Basic Payment Scheme (BPS).",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "beta",
   "liveservice": "https://www.ruralpayments.service.gov.uk/",
-  "start-page": "https://www.gov.uk/claim-rural-payments"
+  "start-page": "https://www.gov.uk/claim-rural-payments",
+  "tags": [
+    "Top 75"
+  ]
 }

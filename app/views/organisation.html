@@ -11,6 +11,14 @@
     {%- for project in (organisation.services | sort(attribute="name")) -%}
       <li>
         <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
+        {% if project.tags %}
+            {% for tag in project.tags %}
+              {{ govukTag({text: tag, classes: "govuk-tag--blue"}) }}
+            {% endfor %}
+          {% endif %}
+          {% if project.phase == 'retired' %}
+            {{ govukTag({text: 'retired', classes: 'govuk-tag--grey'}) }}
+          {% endif %}
       </li>
     {% endfor %}
   </ul>

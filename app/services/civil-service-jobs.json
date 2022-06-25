@@ -1,7 +1,13 @@
 {
   "name": "Civil Service Jobs",
+  "synonyms": [
+    "Apply for a Civil Service Job"
+  ],
   "theme": "Government internal",
   "organisation": "Civil Service Resourcing",
   "phase": "beta",
-  "liveservice": "https://www.civilservicejobs.service.gov.uk/"
+  "liveservice": "https://www.civilservicejobs.service.gov.uk/",
+  "tags": [
+    "Top 75"
+  ]
 }

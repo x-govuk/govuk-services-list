@@ -38,7 +38,14 @@
             {% if project.theme == theme %}
               <li>
                 <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
-                {% if project.phase == 'retired' %}(retired){% endif %}
+                {% if project.tags %}
+                  {% for tag in project.tags %}
+                    {{ govukTag({text: tag, classes: "govuk-tag--blue"}) }}
+                  {% endfor %}
+                {% endif %}
+                {% if project.phase == 'retired' %}
+                  {{ govukTag({text: 'retired', classes: 'govuk-tag--grey'}) }}
+                {% endif %}
               </li>
             {% endif %}
           {% endfor %}

@@ -3,7 +3,8 @@
   "synonyms": [
     "Get a fishing rod license",
     "I want to go fishing",
-    "I want to fish"
+    "I want to fish",
+    "Buy a Rod Fishing Licence for England & Wales"
   ],
   "description": "You can buy a 1-day, 8-day or 12-month licence online.",
   "theme": "Environment and countryside",
@@ -11,6 +12,9 @@
   "phase": "live",
   "liveservice": "https://get-fishing-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence",
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

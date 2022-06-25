@@ -6,6 +6,9 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/queens-awards-for-enterprise/how-to-apply",
   "liveservice": "https://www.queens-awards-enterprise.service.gov.uk/users/sign_up",
+  "tags": [
+    "Top 75"
+  ],
   "sourceCode": [
     {
       "text": "Source code",

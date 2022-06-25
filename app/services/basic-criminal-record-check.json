@@ -10,6 +10,9 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/request-copy-criminal-record",
   "liveservice": "https://www.apply-basic-criminal-record-check.service.gov.uk/verify/start",
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

@@ -1,9 +1,15 @@
 {
   "name": "Find and compare schools in England",
+  "synonyms": [
+    "Compare School Performance Tables"
+  ],
   "description": "Not available.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "beta",
   "liveservice": "https://www.compare-school-performance.service.gov.uk/",
-  "start-page": "https://www.gov.uk/school-performance-tables"
+  "start-page": "https://www.gov.uk/school-performance-tables",
+  "tags": [
+    "Top 75"
+  ]
 }
