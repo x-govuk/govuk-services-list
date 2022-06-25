@@ -126,10 +126,10 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
 })
 
 for (organisation of app.locals.organisations) {
-  organisation.serviceCount = app.locals.projects.filter(function(service) {
-    return service.organisation.includes(organisation.name)
-  }).length
   organisation.slug = slugify(organisation.name)
+  organisation.services = app.locals.projects.filter(function(service) {
+    return service.organisation.includes(organisation.name)
+  } )
 }
 
 app.locals.verbs = []

@@ -1,16 +1,12 @@
-.app-header {
-  border-bottom-color: govuk-colour("pink");
-}
-
-.app-header__container--pink {
-  border-bottom-width: 0;
-  margin-bottom: 0;
-}
-
 // Forked from header fork on GOV.UK Design System
 // See: https://github.com/alphagov/govuk-design-system/blob/master/src/stylesheets/components/_header.scss
 
 @include govuk-exports("app-header") {
+  // Show border along full length of header to match navigation below
+  .app-header {
+    border-color: $govuk-brand-colour;
+  }
+
   // Override the default 33% width on the logo in GOV.UK Frontend (prevents
   // unnecessary wrapping of product name on smaller tablet / desktop
   // viewports)
@@ -23,12 +19,15 @@
     }
   }
 
-  .app-header__logotype-crest {
-    // Visually adjust placement of the crest
-    margin: -2px 0 -8px;
+  // Height of crown is 30px.
+  // Accept slightly larger icons with a height of 35px
+  .app-header__logotype--large {
+    // Visually adjust placement
+    margin: -3px 0 -8px;
 
-    .govuk-header__link--homepage:hover & {
-      // Prevent link underline interfering with the crest
+    .govuk-header__link--homepage:not(:focus):hover & {
+      // Prevent underline interfering with larger logo, whose height means
+      // it falls below the baseline
       background-color: govuk-colour("black");
     }
   }
