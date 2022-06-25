@@ -4,7 +4,7 @@
     "Kickstart Service"
   ],
   "description": "Use this service to apply for a Kickstart Scheme grant or add additional jobs to your existing grant agreement held directly with DWP.",
-  "organisation": "Department of Work and Pensions",
+  "organisation": "Department for Work and Pensions",
   "theme": "Business and self-employed",
   "phase": "retired",
   "liveservice": "https://www.apply-kickstart-grant-employer.service.gov.uk",
