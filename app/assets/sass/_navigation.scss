@@ -1,52 +1,65 @@
-$navigation-height: 50px;
-
 .app-navigation {
   @include govuk-font(19, $weight: bold);
-  box-sizing: border-box;
-  width: 100%;
-  background-color: $app-light-grey;
+  background-color: govuk-colour("light-grey");
+  border-bottom: 1px solid $govuk-border-colour;
+}
+
+.govuk-phase-banner + .app-navigation {
+  margin-top: -1px;
 }
 
 .app-navigation__list {
-  position: relative;
-  left: -(govuk-spacing(3));
+  @include govuk-clearfix;
+  left: govuk-spacing(-3);
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
+  position: relative;
+  right: govuk-spacing(-3);
+  width: calc(100% + #{govuk-spacing(6)});
 }
 
-.app-navigation__list-item {
+.app-navigation__item {
   box-sizing: border-box;
   display: block;
-  position: relative;
-  height: $navigation-height;
-  padding: 0 govuk-spacing(3);
   float: left;
-  line-height: $navigation-height;
+  line-height: 50px;
+  height: 50px;
+  padding: 0 govuk-spacing(3);
+  position: relative;
 }
 
-.app-navigation__list-item--current {
-  border-bottom: 4px solid govuk-colour("blue");
+.app-navigation__item--current {
+  border-bottom: $govuk-border-width-narrow solid $govuk-link-colour;
+
+  &:hover {
+    border-bottom-color: $govuk-link-hover-colour;
+  }
+
+  &:active {
+    border-bottom-color: $govuk-link-active-colour;
+  }
+}
+
+.app-navigation__item--align-right {
+  @include govuk-media-query($from: tablet) {
+    float: right;
+  }
 }
 
 .app-navigation__link {
+  @include govuk-link-common;
+  @include govuk-link-style-no-visited-state;
+  @include govuk-link-style-no-underline;
   @include govuk-typography-weight-bold;
-
-  &:not(:focus):hover {
-    color: $govuk-link-colour;
-  }
 
   // Extend the touch area of the link to the list
   &:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
     bottom: 0;
+    content: "";
     left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-}
-
-.app-navigation__list-item--current .app-navigation__link:hover {
-  text-decoration: none;
 }

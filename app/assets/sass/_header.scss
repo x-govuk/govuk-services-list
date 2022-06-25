@@ -2,6 +2,11 @@
 // See: https://github.com/alphagov/govuk-design-system/blob/master/src/stylesheets/components/_header.scss
 
 @include govuk-exports("app-header") {
+  // Show border along full length of header to match navigation below
+  .app-header {
+    border-color: $govuk-brand-colour;
+  }
+
   // Override the default 33% width on the logo in GOV.UK Frontend (prevents
   // unnecessary wrapping of product name on smaller tablet / desktop
   // viewports)
@@ -26,9 +31,4 @@
       background-color: govuk-colour("black");
     }
   }
-}
-
-
-.app-header__container {
-  border-bottom-color: #28a;
 }
