@@ -4,6 +4,5 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
-  "phase_modifier": "Private",
-  "prototype": "http://pip-v2.herokuapp.com/"
+  "start-page": "https://www.gov.uk/pip"
 }
