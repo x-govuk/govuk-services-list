@@ -6,6 +6,7 @@
   "phase": "beta",
   "liveservice": "https://www.passport.service.gov.uk/filter",
   "start-page": "https://www.gov.uk/apply-renew-passport",
+  "tags": ["Top 75"],
   "sourceCode": [
     {
       "text": "Source code",

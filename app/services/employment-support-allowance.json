@@ -12,6 +12,7 @@
   "phase": "beta",
   "liveservice": "https://www.apply-new-style-employment-support-allowance.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/new-style-employment-and-support-allowance",
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {

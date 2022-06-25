@@ -148,7 +148,7 @@ for (project of app.locals.projects) {
       app.locals.verbs.push(existingVerb)
     }
 
-    existingVerb.services.push({name: project.name, slug: project.slug})
+    existingVerb.services.push(project)
     existingVerb.count += 1
 }
 
@@ -199,6 +199,10 @@ app.get('/', function(req, res) {
 
 app.get('/organisation', function(req, res) {
     res.render('organisations.html')
+});
+
+app.get('/top-75', function(req, res) {
+  res.render('top-75.html')
 });
 
 app.get('/organisation/:slug', function(req, res) {

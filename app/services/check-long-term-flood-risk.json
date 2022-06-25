@@ -5,5 +5,6 @@
   "organisation": "Environment Agency",
   "phase": "beta",
   "start-page": "https://www.gov.uk/check-long-term-flood-risk",
-  "liveservice": "https://check-long-term-flood-risk.service.gov.uk/postcode"
+  "liveservice": "https://check-long-term-flood-risk.service.gov.uk/postcode",
+  "tags": ["Top 75"]
 }

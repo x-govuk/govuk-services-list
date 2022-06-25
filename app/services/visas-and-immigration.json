@@ -9,6 +9,7 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/standard-visitor-visa/apply",
   "liveservice": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {

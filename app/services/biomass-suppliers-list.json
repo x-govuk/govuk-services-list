@@ -4,5 +4,6 @@
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Environment and countryside",
   "phase": "unknown",
-  "liveservice": "https://biomass-suppliers-list.service.gov.uk/"
+  "liveservice": "https://biomass-suppliers-list.service.gov.uk/",
+  "tags": ["Top 75"]
 }

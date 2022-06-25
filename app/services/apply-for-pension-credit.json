@@ -6,6 +6,7 @@
   "phase": "alpha",
   "liveservice": "https://apply-for-pension-credit.service.gov.uk/",
   "start-page": "https://www.gov.uk/pension-credit/how-to-claim",
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {

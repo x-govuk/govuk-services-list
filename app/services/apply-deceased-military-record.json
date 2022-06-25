@@ -4,7 +4,8 @@
     "Apply for a deceased person’s military record (Request A Service Record)",
     "Apply for a deceased person’s military record (Request A Record)",
     "Request A Record",
-    "Request A Historic Record"
+    "Request A Historic Record",
+    "Request a Historical Service Record"
   ],
   "description": "You can apply for a copy of a deceased person’s service records if you were their immediate next of kin when they died, for example their spouse, parent or child or you have a family or general research interest.",
   "organisation": "Ministry of Defence",
@@ -12,6 +13,7 @@
   "phase": "beta",
   "liveservice": "https://www.apply-deceased-military-record.service.gov.uk/",
   "start-page": "https://www.gov.uk/get-copy-military-service-records/apply-for-someone-elses-records",
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {

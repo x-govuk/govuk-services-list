@@ -1,5 +1,6 @@
 {% extends "layout.html" %}
 {% block pageTitle %}{{ project.name }} – Government digital services{% endblock %}
+{% from "govuk/components/tag/macro.njk" import govukTag %}
 
 {% block content %}
 
@@ -36,7 +37,17 @@
 
           <ul class="govuk-list govuk-list--bullet">
             {% for service in verb.services | sort(false, false, 'name') %}
-              <li><a href="/projects/{{ service.slug }}" class="govuk-link">{{ service.name }}</a></li>
+              <li>
+                <a href="/projects/{{ service.slug }}" class="govuk-link">{{ service.name }}</a>
+                {% if service.tags %}
+                  {% for tag in service.tags %}
+                    {{ govukTag({text: tag, classes: "govuk-tag--blue"}) }}
+                  {% endfor %}
+                {% endif %}
+                {% if service.phase == 'retired' %}
+                  {{ govukTag({text: 'retired', classes: 'govuk-tag--grey'}) }}
+                {% endif %}
+              </li>
             {% endfor %}
           </ul>
         {% endif %}
