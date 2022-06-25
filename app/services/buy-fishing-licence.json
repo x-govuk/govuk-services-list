@@ -12,7 +12,9 @@
   "phase": "live",
   "liveservice": "https://get-fishing-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

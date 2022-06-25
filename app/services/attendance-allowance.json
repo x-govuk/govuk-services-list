@@ -5,7 +5,9 @@
   "theme": "Benefits",
   "phase": "beta",
   "start-page": "https://www.gov.uk/attendance-allowance",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

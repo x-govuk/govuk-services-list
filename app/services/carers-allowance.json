@@ -8,7 +8,9 @@
   "video": "IYBLX3V8ek4",
   "start-page": "https://www.gov.uk/carers-allowance",
   "liveservice": "https://www.carersallowance.service.gov.uk/",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

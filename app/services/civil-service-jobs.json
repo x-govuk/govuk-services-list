@@ -7,5 +7,7 @@
   "organisation": "Civil Service Resourcing",
   "phase": "beta",
   "liveservice": "https://www.civilservicejobs.service.gov.uk/",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }

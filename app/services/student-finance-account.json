@@ -13,7 +13,9 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/apply-online-for-student-finance",
   "liveservice": "https://www.student-finance.service.gov.uk/customer/home",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

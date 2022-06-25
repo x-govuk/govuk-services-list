@@ -6,5 +6,7 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/settled-status-eu-citizens-families/applying-for-settled-status",
   "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/euss",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }

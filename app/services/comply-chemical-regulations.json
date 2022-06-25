@@ -12,7 +12,9 @@
   "phase": "beta",
   "liveservice": "https://comply-chemical-regulations.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/how-to-comply-with-reach-chemical-regulations#manage-your-chemicals-on-uk-reach",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

@@ -5,5 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
   "start-page": "https://www.gov.uk/pip",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }

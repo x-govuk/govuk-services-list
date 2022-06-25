@@ -6,7 +6,9 @@
   "phase": "live",
   "liveservice": "https://checklegalaid.service.gov.uk/start?locale=en_GB",
   "start-page": "https://www.gov.uk/check-legal-aid",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "sourceCode": [
     {
       "text": "Source code",

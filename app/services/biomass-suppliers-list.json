@@ -5,5 +5,7 @@
   "theme": "Environment and countryside",
   "phase": "unknown",
   "liveservice": "https://biomass-suppliers-list.service.gov.uk/",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }

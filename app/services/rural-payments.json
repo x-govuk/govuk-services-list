@@ -9,5 +9,7 @@
   "phase": "beta",
   "liveservice": "https://www.ruralpayments.service.gov.uk/",
   "start-page": "https://www.gov.uk/claim-rural-payments",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }

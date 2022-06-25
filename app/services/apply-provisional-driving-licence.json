@@ -6,5 +6,7 @@
   "phase": "beta",
   "liveservice": "http://apply-provisional-driving-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-first-provisional-driving-licence",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }
