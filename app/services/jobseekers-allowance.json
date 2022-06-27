@@ -10,5 +10,7 @@
   "phase": "beta",
   "liveservice": "https://www.apply-for-new-style-jsa.dwp.gov.uk",
   "start-page": "https://www.gov.uk/jobseekers-allowance/apply-new-style-jsa",
-  "tags": ["Top 75"]
+  "tags": [
+    "Top 75"
+  ]
 }
