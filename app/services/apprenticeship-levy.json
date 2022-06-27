@@ -9,7 +9,9 @@
   "organisation": "Education and Skills Funding Agency",
   "phase": "beta",
   "liveservice": "https://manage-apprenticeships.service.gov.uk/",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {
