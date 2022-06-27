@@ -45,7 +45,6 @@ app.locals.themes = [
   'Childcare and parenting',
   'Citizenship and living in the UK',
   'Crime, justice and the law',
-  'Disabled people',
   'Driving and transport',
   'Education, training and skills',
   'Employing people',
