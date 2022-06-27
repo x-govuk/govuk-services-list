@@ -1,5 +1,8 @@
 {
   "name": "Apply for Pension Credit",
+  "synonyms": [
+    "Claim Pension Credit"
+  ],
   "description": "Pension Credit is an income-related benefit made up of 2 parts - Guarantee Credit and Savings Credit.",
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
