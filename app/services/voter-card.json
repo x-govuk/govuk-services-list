@@ -1,0 +1,24 @@
+{
+  "name": "Apply for a Voter Card",
+  "description": "Electors will be able to apply for the Voter Card online through a dedicated online system provided by the government, similar to the Register to Vote service.",
+  "theme": "Citizenship and living in the UK",
+  "organisation": "Department for Levelling Up, Housing & Communities",
+  "phase": "alpha",
+  "tags": [
+    "Top 75"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Policy paper published setting out intention to create the service",
+        "date": "2022-01-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/publications/voter-identification-at-polling-stations-and-the-new-voter-card",
+            "text": "Voter identification at polling stations and the new Voter Card"
+          }
+        ]
+      }
+    ]
+  }
+}
