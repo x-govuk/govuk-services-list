@@ -10,6 +10,9 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/bereavement-support-payment/how-to-claim",
   "liveservice": "https://apply-for-bereavement-support-payment.dwp.gov.uk/apply?lang=en",
+  "tags": [
+    "Top 75"
+  ],
   "sourceCode": [
     {
       "text": "Source code",
