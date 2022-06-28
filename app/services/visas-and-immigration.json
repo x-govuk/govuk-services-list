@@ -5,7 +5,10 @@
   ],
   "description": "If you need a visa, you must apply online before you travel to the UK.",
   "theme": "Visas and immigration",
-  "organisation": ["Home Office", "UK Visas and Immigration"],
+  "organisation": [
+    "Home Office",
+    "UK Visas and Immigration"
+  ],
   "phase": "beta",
   "start-page": "https://www.gov.uk/standard-visitor-visa/apply",
   "liveservice": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
