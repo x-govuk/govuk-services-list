@@ -6,7 +6,9 @@
   "phase": "live",
   "start-page": "https://www.gov.uk/prison-visits",
   "liveservice": "https://www.prisonvisits.service.gov.uk/",
-  "tags": ["Top 75"],
+  "tags": [
+    "Top 75"
+  ],
   "sourceCode": [
     {
       "text": "Source code",
