@@ -1,9 +1,36 @@
 {
   "name": "Apply for a divorce",
+  "synonyms": [
+    "Apply for Divorce"
+  ],
   "description": "You can use this service to apply for a divorce in England and Wales.",
-  "organisation": "HM Courts & Tribunals Service",
+  "organisation": [
+    "HM Courts & Tribunals Service",
+    "Ministry of Justice"
+  ],
   "theme": "Births, deaths, marriages and care",
   "phase": "beta",
   "liveservice": "https://www.apply-divorce.service.gov.uk/index",
-  "start-page": "https://www.gov.uk/apply-for-divorce"
+  "start-page": "https://www.gov.uk/apply-for-divorce",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-10-25",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-divorce",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/hmcts/div-petitioner-frontend"
+    }
+  ]
 }
