@@ -1,7 +1,8 @@
 {
   "name": "Search the charity register",
   "synonyms": [
-    "Search the register of charities"
+    "Search the register of charities",
+    "Registered charities in England and Wales"
   ],
   "description": "Search the charity register to find details of registered charities in England and Wales including contact information, activities, latest financial reports and current trustees. ",
   "organisation": "The Charity Commission",
