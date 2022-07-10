@@ -3,6 +3,9 @@ const fs = require('fs');
 const path = require('path');
 const process = require('process');
 
+const useHeadless = false; // set to false for services which prevent screen-scraping
+const delayInSeconds = 2; // add a delay for services which use slow client-side rendering
+
 // Specific services to screenshot can be specified as command line arguments
 let services = process.argv.slice(2)
 
@@ -76,7 +79,9 @@ if (services.length == 0) {
 
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: useHeadless
+  });
   const page = await browser.newPage();
   await page.setViewport({
     width: 1080,
@@ -93,6 +98,9 @@ if (services.length == 0) {
     if (project.liveservice && project.phase != 'retired') {
       try {
         await page.goto(project.liveservice);
+        await page.mouse.click(0, 0, {
+          delay: (delayInSeconds * 1000)
+        });
         await page.screenshot({ path: screenshotsFolder + '/' + service + '.png' });
         process.stdout.write('.')
       } catch(error) {
