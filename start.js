@@ -38,7 +38,6 @@ app.locals.phases = [
 ]
 
 app.locals.themes = [
-  'Coronavirus (COVID-19)',
   'Benefits',
   'Births, deaths, marriages and care',
   'Business and self-employed',
@@ -55,6 +54,7 @@ app.locals.themes = [
   'Passports, travel and living abroad',
   'Visas and immigration',
   'Working, jobs and pensions',
+  'Coronavirus (COVID-19)',
 ];
 
 app.locals.organisations = [
