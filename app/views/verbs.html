@@ -35,17 +35,17 @@
 
           <h2 class="govuk-heading-m" id="{{ verb.name }}">{{ verb.name | capitalize }}</h2>
 
-          <ul class="govuk-list govuk-list--bullet">
+          <ul class="govuk-list app-list--services">
             {% for service in verb.services | sort(false, false, 'name') %}
               <li>
                 <a href="/projects/{{ service.slug }}" class="govuk-link">{{ service.name }}</a>
                 {% if service.tags %}
                   {% for tag in service.tags %}
-                    {{ govukTag({text: tag, classes: "govuk-tag--blue"}) }}
+                    {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
                   {% endfor %}
                 {% endif %}
                 {% if service.phase == 'retired' %}
-                  {{ govukTag({text: 'retired', classes: 'govuk-tag--grey'}) }}
+                  {{ govukTag({text: 'retired', classes: 'govuk-tag--grey app-tag--small'}) }}
                 {% endif %}
               </li>
             {% endfor %}

@@ -7,17 +7,17 @@
   <h1 class="govuk-heading-xl">{{ organisation.name }}</h1>
 
   <h2 class="govuk-heading-m">Digital services</h2>
-  <ul class="govuk-list">
+  <ul class="govuk-list app-list--services">
     {%- for project in (organisation.services | sort(attribute="name")) -%}
       <li>
         <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
-        {% if project.tags %}
+          {% if project.tags %}
             {% for tag in project.tags %}
-              {{ govukTag({text: tag, classes: "govuk-tag--blue"}) }}
+              {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
             {% endfor %}
           {% endif %}
           {% if project.phase == 'retired' %}
-            {{ govukTag({text: 'retired', classes: 'govuk-tag--grey'}) }}
+            {{ govukTag({text: 'retired', classes: 'govuk-tag--grey app-tag--small'}) }}
           {% endif %}
       </li>
     {% endfor %}
