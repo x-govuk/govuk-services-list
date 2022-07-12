@@ -18,7 +18,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-platform-as-a-service-paas-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -29,8 +29,18 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/platform-as-a-service-paas",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service retirement announced",
+        "date": "2022-07-12",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2022/07/12/why-weve-decided-to-decommission-gov-uk-paas-platform-as-a-service/",
+            "text": "Why we’ve decided to decommission GOV.UK PaaS (Platform as a Service)"
           }
         ]
       }
