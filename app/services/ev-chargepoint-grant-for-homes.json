@@ -1,0 +1,24 @@
+{
+  "name": "OZEV Electric Vehicle Chargepoint Grants",
+  "synonyms": [
+    "Apply for an electric chargepoint grant if you rent out, lease or manage property"
+  ],
+  "description": "An electric vehicle chargepoint grant (also called an EV chargepoint grant) is money you can get towards installing a chargepoint at your property.",
+  "organisation": "Office for Zero Emission Vehicles",
+  "theme": "Housing and local services",
+  "phase": "beta",
+  "liveservice": "https://chargepointgrants.dft.gov.uk/signin",
+  "start-page": [
+    "https://www.gov.uk/apply-for-an-electric-chargepoint-grant-landlord",
+    "https://www.gov.uk/guidance/ev-chargepoint-grant-for-flat-owner-occupiers-and-people-living-in-rented-properties-installer-guidance",
+    "https://www.gov.uk/guidance/ev-chargepoint-grant-for-landlords-installer-guidance"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "New digital service launched",
+        "date": "2022-08-04"
+      }
+    ]
+  }
+}
