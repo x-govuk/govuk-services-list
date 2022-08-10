@@ -133,7 +133,7 @@ for (organisation of app.locals.organisations) {
 
 app.locals.verbs = []
 
-const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport"]
+const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport", "vehicle"]
 
 for (project of app.locals.projects) {
     const verb = project.name.split(" ")[0].toLowerCase()
