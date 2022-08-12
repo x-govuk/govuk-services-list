@@ -1,9 +1,9 @@
 {
-  "name": "Submit CORE logs for social housing sales and lettings",
+  "name": "Submit social housing lettings and sales data (CORE)",
   "synonyms": [
     "Submit Data On Social Housing Sales And Lettings"
   ],
-  "description": "The continuous recording of lettings and sales in social housing in England (referred to as CORE) is a national information source that records information on the characteristics of both private registered providers and local authority new social housing tenants and the homes they rent.",
+  "description": "Staff at Local Authorities and Housing Associations use this service to submit data about each new social housing letting or sale in England. This data is collected by DLUHC on an annual basis, is released as official national statistics on GOV.UK and informs social housing and homelessness policy.",
   "theme": "Housing and local services",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "phase": "beta",
@@ -11,6 +11,17 @@
   "liveservice": "https://core.communities.gov.uk",
   "timeline": {
     "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2022-07-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-social-housing-lettings-and-sales-data-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
       {
         "label": "Passed alpha reassessment",
         "date": "2021-09-03",
@@ -38,7 +49,7 @@
   "sourceCode": [
     {
       "text": "Source code",
-      "href": "https://github.com/communitiesuk/mhclg-data-collection-beta"
+      "href": "https://github.com/communitiesuk/submit-social-housing-lettings-and-sales-data"
     }
   ]
 }
