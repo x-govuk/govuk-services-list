@@ -78,9 +78,11 @@
 
       {% set sourceCodeHtml %}
         {% if project.sourceCode %}
-          {% for sourceCode in project.sourceCode %}
-            <a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a>
-          {% endfor %}
+          <ul class="govuk-list">
+            {% for sourceCode in project.sourceCode %}
+              <li><a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a></li>
+            {% endfor %}
+          </ul>
         {% else %}
           Not found
         {% endif %}
