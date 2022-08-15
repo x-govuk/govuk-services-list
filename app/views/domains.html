@@ -1,0 +1,51 @@
+{% extends "layout.html" %}
+{% block pageTitle %}Domains – Government digital services{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Domains</h1>
+
+      {% set serviceGovUkRegexp = r/service\.gov\.uk/ %}
+
+      <h2 class="govuk-heading-s">*.service.gov.uk</h2>
+
+      <ol class="govuk-list app-list--domains">
+        {% for domain in domains | sort(false, false, 'domain') %}
+          {% if serviceGovUkRegexp.test(domain.domain) %}
+            <li>
+              {% if domain.services | length == 1 %}
+                {% set service = domain.services | first %}
+                <a class="govuk-link govuk-!-font-weight-bold" href="/projects/{{ service.slug }}">{{ domain.domain }}</a>
+              {% else %}
+                <b>{{ domain.domain }}</b> - {{ domain.services | length }} services
+                <ul class="govuk-list govuk-!-font-size-16 govuk-!-padding-left-5 govuk-!-margin-top-1 govuk-!-margin-bottom-2">
+                  {% for service in domain.services %}
+                    <li><a class="govuk-link" href="/projects/{{ service.slug }}">{{ service.name }}</a></li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+
+      <h2 class="govuk-heading-s">Non service.gov.uk domains</h2>
+
+      <ol class="govuk-list app-list--domains">
+        {% for domain in domains | sort(false, false, 'domain') %}
+          {% if not serviceGovUkRegexp.test(domain.domain) %}
+            <li>
+              {% if domain.services | length == 1 %}
+                {% set service = domain.services | first %}
+                <a class="govuk-link govuk-!-font-weight-bold" href="/projects/{{ service.slug }}">{{ domain.domain }}</a>
+              {% endif %}
+            </li>
+          {% endif %}
+        {% endfor %}
+      </ol>
+
+    </div>
+  </div>
+{% endblock %}

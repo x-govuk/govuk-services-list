@@ -132,6 +132,7 @@ for (organisation of app.locals.organisations) {
 }
 
 app.locals.verbs = []
+app.locals.domains = []
 
 const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport", "vehicle"]
 
@@ -149,6 +150,30 @@ for (project of app.locals.projects) {
 
     existingVerb.services.push(project)
     existingVerb.count += 1
+
+
+    if (project.liveservice) {
+      let url = new URL(project.liveservice)
+      let hostname = url.hostname
+      hostname = hostname.replace(/www\./, '')
+
+      if (hostname == 'gov.uk') { continue }
+      if (project.phase == 'retired') { continue }
+
+      let existingDomain = app.locals.domains.find(domain => domain.domain == hostname)
+      if (existingDomain) {
+        existingDomain.services.push(
+          {slug: project.slug, name: project.name}
+        )
+      } else {
+        app.locals.domains.push({
+          domain: hostname,
+          services: [
+            {slug: project.slug, name: project.name}
+          ]
+        })
+      }
+    }
 }
 
 app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
@@ -219,6 +244,10 @@ app.get('/contribute', function(req, res) {
 
 app.get('/verbs', function(req, res) {
   res.render('verbs.html')
+});
+
+app.get('/domains', function(req, res) {
+  res.render('domains.html')
 });
 
 
