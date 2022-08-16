@@ -1,0 +1,9 @@
+{
+  "name": "Apply for a refugee integration loan",
+  "description": "You can apply for a refugee integration loan to pay for things like a rent deposit or rent, household items or education and training for work.",
+  "organisation": "UK Visas and Immigration",
+  "theme": "Visas and immigration",
+  "phase": "beta",
+  "liveservice": "https://www.apply-for-refugee-integration-loan.service.gov.uk/apply/previously-applied",
+  "start-page": "https://www.gov.uk/apply-refugee-integration-loan"
+}
