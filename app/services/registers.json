@@ -20,6 +20,16 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Service retired",
+        "date": "2021-03-16",
+        "links": [
+          {
+            "href": "https://dataingovernment.blog.gov.uk/2021/02/18/new-guidance-for-publishing-data/",
+            "text": "Blog post: New guidance for publishing data"
+          }
+        ]
       }
     ]
   }
