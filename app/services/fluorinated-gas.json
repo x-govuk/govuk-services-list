@@ -1,8 +1,5 @@
 {
   "name": "Register for a fluorinated gas (F gas) account",
-  "synonyms": [
-    "Record and report F gas and equipment pre-charged with F gas"
-  ],
   "description": "Register for an F gas account to apply for quota, manage your quota and submit an annual report.",
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
