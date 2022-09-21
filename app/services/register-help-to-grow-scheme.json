@@ -1,9 +1,9 @@
 {
   "name": "Help to Grow: Digital",
-  "description": "Register your interest in a scheme offering free online advice and money off software for busineses.",
+  "description": "Help to Grow: Digital supports eligible businesses with up to 50% in discounts on approved software. ",
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Business and self-employed",
-  "phase": "alpha",
-  "liveservice": "https://register-help-to-grow-scheme.service.gov.uk",
-  "start-page": "https://helptogrow.campaign.gov.uk"
+  "phase": "beta",
+  "liveservice": "https://www.learn-to-grow-your-business.service.gov.uk",
+  "start-page": "https://www.gov.uk/business-finance-support/help-to-grow-digital-uk"
 }
