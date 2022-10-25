@@ -92,7 +92,9 @@ ignored_reports = [
   "https://www.gov.uk/service-standard-reports/sign-up-to-report-your-income-and-expenses-quarterly-beta-assessment",
   "https://www.gov.uk/service-standard-reports/manage-my-adult-social-care-workforce-data-alpha-assessment",
   "https://www.gov.uk/service-standard-reports/manage-key-stage-2-and-3-curriculum-resources-alpha-assessment",
-  "https://www.gov.uk/service-standard-reports/export-green-list-waste"
+  "https://www.gov.uk/service-standard-reports/export-green-list-waste",
+  "https://www.gov.uk/service-standard-reports/renewable-electricity-register-beta-reassessment-report",
+  "https://www.gov.uk/service-standard-reports/renewable-electricity-register-beta-assessment-report"
 ]
 
 
