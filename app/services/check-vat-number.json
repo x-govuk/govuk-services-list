@@ -1,0 +1,9 @@
+{
+  "name": "Check a UK VAT number",
+  "description": "Use this service to check if a UK VAT registration number is valid and the name and address of the business the number is registered to.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "live",
+  "liveservice": "https://www.tax.service.gov.uk/check-vat-number/enter-vat-details",
+  "start-page": "https://www.gov.uk/check-uk-vat-number"
+}
