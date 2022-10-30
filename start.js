@@ -80,6 +80,8 @@ app.locals.organisations = [
   {"name": 'Land Registry'}
 ]
 
+app.locals.allEvents = []
+
 app.locals.projects = []
 
 fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
@@ -114,6 +116,19 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
 
     if (fs.existsSync(__dirname + '/app/assets/images/service-screenshots/' + project.slug + '.png')) {
       project.screenshot = true
+    }
+
+    if (project.timeline) {
+      for (item of project.timeline.items) {
+        app.locals.allEvents.push({
+          "service": {
+            "name": project.name,
+            "slug": project.slug
+          },
+          "date": item.date,
+          "label": item.label
+        })
+      }
     }
 
     var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
@@ -244,6 +259,10 @@ app.get('/contribute', function(req, res) {
 
 app.get('/verbs', function(req, res) {
   res.render('verbs.html')
+});
+
+app.get('/screenshots', function(req, res) {
+  res.render('screenshots.html')
 });
 
 app.get('/domains', function(req, res) {
