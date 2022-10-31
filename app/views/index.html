@@ -60,7 +60,7 @@
       {% for event in allEvents | sort(attribute="date", reverse=true) %}
         {% if loop.index < 11 %}
           <h3 class="govuk-body-s govuk-!-font-weight-bold govuk-!-margin-bottom-1">{{ event.date | formatdate }}</h3>
-          <p class="govuk-body-s govuk-!-margin-bottom-1"><a href="/project/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
+          <p class="govuk-body-s govuk-!-margin-bottom-1"><a href="/projects/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
           <p class="govuk-body-s">{{ event.label }}</p>
 
         {% endif %}
