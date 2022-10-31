@@ -4,6 +4,20 @@
   "organisation": "Ministry of Justice",
   "theme": "Crime, justice and the law",
   "phase": "beta",
-  "liveservice": "https://view-lasting-power-of-attorney.service.gov.uk/home",
-  "start-page": "https://www.gov.uk/view-lasting-power-of-attorney"
+  "liveservice": "https://use-lasting-power-of-attorney.service.gov.uk/home",
+  "start-page": "https://www.gov.uk/use-lasting-power-of-attorney",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2020-07-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-online-service-to-improve-lasting-power-of-attorney",
+            "text": "New online service to improve Lasting Power of Attorney"
+          }
+        ]
+      }
+    ]
+  }
 }
