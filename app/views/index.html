@@ -5,33 +5,22 @@
 
 {% block content %}
   <div class="govuk-grid-row">
-    <div class="govuk-grid-column-full">
-      <p class="govuk-body">A list of digital services from the UK government</p>
+    <div class="govuk-grid-column-two-thirds">
+      <p class="govuk-body">A community-maintained list of digital services from the UK government.</p>
+
+      <p class="govuk-body"><a href="/contribute" class="govuk-link">Contribute to this list</a></p>
     </div>
   </div>
 
   <div class="govuk-grid-row">
-    {% for phase in phases %}
-      {% if phase.name != 'unknown' %}
-        <div class="govuk-grid-column-one-quarter">
-          {{ govukTag({
-            text: phase.name,
-            classes: "app-tag--large govuk-tag--" + phase.class
-          }) }}
-
-          <div class="app-count app-count--{{ phase.name }} govuk-body">
-            {{ phase.projects_count }}
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
-
-  <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
+
+      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
+
+      <h2 class="govuk-heading-m">All services ({{ projects | length }})</h2>
+
       {% for theme in themes %}
-        <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
-        <h2 class="govuk-heading-m">{{ theme }}</h2>
+        <h3 class="govuk-heading-s govuk-!-margin-bottom-2">{{ theme }}</h3>
 
         <ul class="govuk-list app-list--services">
           {%- for project in (projects | sort(attribute="name")) -%}
