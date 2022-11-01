@@ -1,0 +1,12 @@
+{
+  "name": "Check the quality of beach and bathing water in England",
+  "description": "Find out how clean the water is on beaches and in other bathing areas in England, and if there is a problem with pollution.",
+  "theme": "Environment and countryside",
+  "organisation": [
+    "Department for Environment, Food & Rural Affairs",
+    "Environment Agency"
+  ],
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/quality-of-local-bathing-water",
+  "liveservice": "http://environment.data.gov.uk/bwq/profiles/"
+}

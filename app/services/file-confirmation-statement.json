@@ -33,6 +33,17 @@
             "visuallyHiddenText": " for beta assessment"
           }
         ]
+      },
+      {
+        "label": "Passed beta reassessment",
+        "date": "2022-04-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-reassessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
+          }
+        ]
       }
     ]
   }
