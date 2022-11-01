@@ -24,6 +24,20 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "New service launched",
+        "date": "2022-04-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-divorce-laws-will-come-into-force-from-6-april-2022",
+            "text": "New divorce laws will come into force from 6 April 2022"
+          },
+          {
+            "href": "https://www.gov.uk/government/news/blame-game-ends-as-no-fault-divorce-comes-into-force",
+            "text": "“Blame game” ends as no-fault divorce comes into force"
+          }
+        ]
       }
     ]
   },

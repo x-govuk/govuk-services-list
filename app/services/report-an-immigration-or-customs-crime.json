@@ -4,6 +4,9 @@
   "theme": "Crime, justice and the law",
   "organisation": "Home Office",
   "phase": "beta",
-  "start-page": "https://www.gov.uk/report-immigration-crime",
+  "start-page": [
+    "https://www.gov.uk/report-immigration-crime",
+    "https://www.gov.uk/report-smuggling"
+  ],
   "liveservice": "https://www.amsallegations.homeoffice.gov.uk/start.html"
 }
