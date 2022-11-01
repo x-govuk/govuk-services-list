@@ -1,0 +1,12 @@
+{
+  "name": "Check someone’s immigration status",
+  "description": "Check someone’s immigration status, and that they can access services like the NHS and benefits in the UK",
+  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "phase": "beta",
+  "liveservice": "https://view-immigration-status.service.gov.uk/view/checker-details",
+  "start-page": [
+    "https://www.gov.uk/check-immigration-status",
+    "https://www.gov.uk/view-prove-immigration-status"
+  ]
+}
