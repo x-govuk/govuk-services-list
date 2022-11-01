@@ -9,6 +9,7 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/search-local-land-charges",
   "liveservice": "https://search-local-land-charges.service.gov.uk",
+  "start-page": "https://www.gov.uk/search-local-land-charges",
   "timeline": {
     "items": [
       {
