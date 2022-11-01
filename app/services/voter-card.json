@@ -18,6 +18,28 @@
             "text": "Voter identification at polling stations and the new Voter Card"
           }
         ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2022-03-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/voter-card-service-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2022-05-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/voter-card-alpha-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
       }
     ]
   }

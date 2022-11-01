@@ -1,9 +1,0 @@
-{
-  "name": "Report a crime or antisocial behaviour",
-  "description": "Report a crime or antisocial behaviour by calling the police, or Crimestoppers if you want to remain anonymous.",
-  "theme": "Crime, justice and the law",
-  "organisation": "Home Office",
-  "phase": "beta",
-  "start-page": "https://www.gov.uk/report-crime-anti-social-behaviour",
-  "liveservice": "https://www.police.uk/pu/contact-the-police/report-a-crime-incident/"
-}

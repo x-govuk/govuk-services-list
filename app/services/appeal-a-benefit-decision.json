@@ -21,6 +21,17 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-07-02",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/appeal-a-benefit-decision-beta-assessment-report",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
       }
     ]
   }

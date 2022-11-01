@@ -8,7 +8,7 @@
   "theme": "Driving and transport",
   "phase": "beta",
   "liveservice": "http://apply-driver-digital-tachograph-card.service.gov.uk/",
-  "start-page": "https://www.gov.uk/apply-company-tachograph-card",
+  "start-page": "https://www.gov.uk/apply-driver-digital-tachograph-card",
   "tags": [
     "Top 75"
   ],
@@ -34,8 +34,19 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-replace-or-renew-a-tachograph-driver-card-company-card-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2021-04-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-replace-or-renew-a-tachograph-driver-card-slash-company-card-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
           }
         ]
       }

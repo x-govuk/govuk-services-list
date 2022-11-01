@@ -1,0 +1,22 @@
+{
+  "name": "Find a grant",
+  "description": "Search for government grants.",
+  "organisation": "Cabinet Office",
+  "theme": "Money and tax",
+  "phase": "beta",
+  "liveservice": "https://www.find-government-grants.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched as a public beta",
+        "date": "2022-04-12",
+        "links": [
+          {
+            "href": "https://grantscommunity.blog.gov.uk/2022/04/12/the-first-gov-uk-release-of-the-find-a-grant-pilot-is-now-open-for-everyone/",
+            "text": "The first GOV.UK release of the Find a Grant pilot is now open - for everyone"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -80,6 +80,8 @@ app.locals.organisations = [
   {"name": 'Land Registry'}
 ]
 
+app.locals.allEvents = []
+
 app.locals.projects = []
 
 fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
@@ -116,6 +118,19 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       project.screenshot = true
     }
 
+    if (project.timeline) {
+      for (item of project.timeline.items) {
+        app.locals.allEvents.push({
+          "service": {
+            "name": project.name,
+            "slug": project.slug
+          },
+          "date": item.date,
+          "label": item.label
+        })
+      }
+    }
+
     var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
 
     if (phase.length > 0) {
@@ -132,8 +147,9 @@ for (organisation of app.locals.organisations) {
 }
 
 app.locals.verbs = []
+app.locals.domains = []
 
-const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport"]
+const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport", "vehicle"]
 
 for (project of app.locals.projects) {
     const verb = project.name.split(" ")[0].toLowerCase()
@@ -149,6 +165,30 @@ for (project of app.locals.projects) {
 
     existingVerb.services.push(project)
     existingVerb.count += 1
+
+
+    if (project.liveservice) {
+      let url = new URL(project.liveservice)
+      let hostname = url.hostname
+      hostname = hostname.replace(/www\./, '')
+
+      if (hostname == 'gov.uk') { continue }
+      if (project.phase == 'retired') { continue }
+
+      let existingDomain = app.locals.domains.find(domain => domain.domain == hostname)
+      if (existingDomain) {
+        existingDomain.services.push(
+          {slug: project.slug, name: project.name}
+        )
+      } else {
+        app.locals.domains.push({
+          domain: hostname,
+          services: [
+            {slug: project.slug, name: project.name}
+          ]
+        })
+      }
+    }
 }
 
 app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
@@ -219,6 +259,14 @@ app.get('/contribute', function(req, res) {
 
 app.get('/verbs', function(req, res) {
   res.render('verbs.html')
+});
+
+app.get('/screenshots', function(req, res) {
+  res.render('screenshots.html')
+});
+
+app.get('/domains', function(req, res) {
+  res.render('domains.html')
 });
 
 

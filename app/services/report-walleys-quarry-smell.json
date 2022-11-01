@@ -1,0 +1,11 @@
+{
+  "name": "Report a smell at Walleys Quarry",
+  "description": "Use this service to report a smell at Walleys Quarry",
+  "theme": "Environment and countryside",
+  "organisation": [
+    "Department for Environment, Food & Rural Affairs",
+    "Environment Agency"
+  ],
+  "phase": "beta",
+  "liveservice": "https://report-walleys-quarry-smell.service.gov.uk"
+}
