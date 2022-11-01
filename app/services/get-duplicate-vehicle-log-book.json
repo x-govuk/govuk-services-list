@@ -5,5 +5,19 @@
   "theme": "Driving and transport",
   "phase": "beta",
   "liveservice": "https://get-duplicate-vehicle-log-book.service.gov.uk",
-  "start-page": "https://www.gov.uk/vehicle-log-book"
+  "start-page": "https://www.gov.uk/vehicle-log-book",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2020-09-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/online-duplicate-log-book-service-launched",
+            "text": "Online duplicate log book service launched"
+          }
+        ]
+      }
+    ]
+  }
 }

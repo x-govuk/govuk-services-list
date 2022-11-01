@@ -5,5 +5,19 @@
   "theme": "Housing and local services",
   "phase": "beta",
   "liveservice": "https://getting-new-energy-certificate.service.gov.uk/find-an-assessor/type-of-property",
-  "start-page": "https://www.gov.uk/get-new-energy-certificate"
+  "start-page": "https://www.gov.uk/get-new-energy-certificate",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2020-09-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-into-teaching-beta-assessment-report",
+            "text": "New digital service to improve home energy performance"
+          }
+        ]
+      }
+    ]
+  }
 }
