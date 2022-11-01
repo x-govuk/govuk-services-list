@@ -58,7 +58,6 @@ ignored_reports = [
   "https://www.gov.uk/service-standard-reports/the-centre-for-evaluation-and-monitoring-alpha-service-assessment-report",
   "https://www.gov.uk/service-standard-reports/express-an-interest-in-a-repatriation-flight-alpha-assessment-report",
   "https://www.gov.uk/service-standard-reports/readiness-reporting-and-deployability-discovery-alpha-assessment-report",
-  "https://www.gov.uk/service-standard-reports/digital-trade-finance-service-alpha-assessment-report",
   "https://www.gov.uk/service-standard-reports/award-a-contract-for-goods-and-services-alpha-reassessment",
   "https://www.gov.uk/service-standard-reports/award-a-contract-for-goods-and-services-alpha-assessment",
   "https://www.gov.uk/service-standard-reports/report-a-cyber-incident",

@@ -27,9 +27,9 @@
     {% endfor %}
   </div>
 
-  {% for theme in themes %}
-    <div class="govuk-grid-row">
-      <div class="govuk-grid-column-two-thirds">
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      {% for theme in themes %}
         <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
         <h2 class="govuk-heading-m">{{ theme }}</h2>
 
@@ -50,8 +50,22 @@
             {% endif %}
           {% endfor %}
         </ul>
-      </div>
+      {% endfor %}
     </div>
-  {% endfor %}
+
+    <div class="govuk-grid-column-one-third">
+      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
+      <h2 class="govuk-heading-m">Latest milestones</h2>
+
+      {% for event in allEvents | sort(attribute="date", reverse=true) %}
+        {% if loop.index < 11 %}
+          <h3 class="govuk-body-s govuk-!-font-weight-bold govuk-!-margin-bottom-1">{{ event.date | formatdate }}</h3>
+          <p class="govuk-body-s govuk-!-margin-bottom-1"><a href="/projects/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
+          <p class="govuk-body-s">{{ event.label }}</p>
+
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 
 {% endblock %}
