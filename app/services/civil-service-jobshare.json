@@ -1,7 +1,18 @@
 {
   "name": "Civil Service Job share finder",
-  "theme": "Government internal",
-  "organisation": "Civil Service Resourcing",
-  "phase": "beta",
-  "liveservice": "https://www.civilservicejobshare.service.gov.uk/"
+  "theme": "Working, jobs and pensions",
+  "organisations": [
+    "Cabinet Office",
+    "Civil Service Resourcing"
+  ],
+  "phase": "retired",
+  "liveservice": "https://www.civilservicejobshare.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closes and becomes part of Civil Service Careers site",
+        "date": "2022-11-28"
+      }
+    ]
+  }
 }
