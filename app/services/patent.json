@@ -13,6 +13,16 @@
   "timeline": {
     "items": [
       {
+        "label": "Launched",
+        "date": "2021-07-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/ipo-officially-launches-digital-ip-renewal-service",
+            "text": "IPO officially launches digital IP renewal service"
+          }
+        ]
+      },
+      {
         "label": "Passed beta re-assessment",
         "date": "2020-10-07",
         "links": [
