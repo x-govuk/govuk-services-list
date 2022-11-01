@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+{% block pageTitle %}Service screenshots - X-GOVUK{% endblock %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Screenshots</h1>
+
+    </div>
+  </div>
+
+  <div class="govuk-grid-row">
+    {%- for project in (projects | sort(attribute="name")) -%}
+      {% if project.screenshot %}
+        <div class="govuk-grid-column-one-quarter govuk-!-padding-bottom-1">
+          <a href="/projects/{{ project.slug }}"><img class="app-screenshot" src="/images/service-screenshots/{{ project.slug }}.png" alt="{{ project.name }}"></a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endblock %}

@@ -1,0 +1,22 @@
+{
+  "name": "Statutory Debt Repayment Plan",
+  "description": "This service aims to provide a platform to implement a regulated approach for citizens struggling with debt repayment to enter into a formal debt repayment plan proposed and supported by debt advice organisations and formalised with their creditor",
+  "organisation": "Insolvency Service",
+  "theme": "Money and tax",
+  "phase": "alpha",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2022-06-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/statutory-debt-repayment-plan-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
