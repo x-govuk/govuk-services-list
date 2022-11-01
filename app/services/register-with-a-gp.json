@@ -16,6 +16,17 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Passed second alpha assessment",
+        "date": "2022-01-12",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-with-a-gp-alpha-assessment-2022",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for second alpha assessment"
+          }
+        ]
       }
     ]
   }

@@ -1,9 +1,15 @@
 {
   "name": "Apply for EU settled status",
   "description": "You can use this service to get settled or pre-settled status.",
-  "theme": "Citizenship and living in the UK",
-  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "organisation": [
+    "Home Office",
+    "UK Visas and Immigration"
+  ],
   "phase": "beta",
   "start-page": "https://www.gov.uk/settled-status-eu-citizens-families/applying-for-settled-status",
-  "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/euss"
+  "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/euss",
+  "tags": [
+    "Top 75"
+  ]
 }

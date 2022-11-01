@@ -3,10 +3,11 @@ const fs = require('fs');
 const path = require('path');
 const process = require('process');
 
-const servicesFolder = path.join(__dirname, '..', 'app', 'services');
-const screenshotsFolder = path.join(__dirname, '..', 'app', 'assets', 'images', 'service-screenshots');
+const useHeadless = false; // set to false for services which prevent screen-scraping
+const delayInSeconds = 2; // add a delay for services which use slow client-side rendering
 
-var screenshotsToTake = [];
+// Specific services to screenshot can be specified as command line arguments
+let services = process.argv.slice(2)
 
 const servicesToSkip = [
   "analyse-school-performance",
@@ -56,18 +57,31 @@ const servicesToSkip = [
   "view-the-orphan-works-register"
 ]
 
-fs.readdirSync(servicesFolder).forEach(function(filename) {
-  if (filename != '_template.json') {
-    var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + filename).toString());
-    if (project.liveservice && project.phase != 'retired') {
-    if (project.liveservice && project.phase != 'retired' && !servicesToSkip.includes(filename.replace('.json', ''))) {
-      screenshotsToTake.push({url: project.liveservice, service: filename.replace('.json', '')})
+const servicesFolder = path.join(__dirname, '..', 'app', 'services');
+const screenshotsFolder = path.join(__dirname, '..', 'app', 'assets', 'images', 'service-screenshots');
+
+if (services.includes('all')) {
+  services = []
+  fs.readdirSync(servicesFolder).forEach(function(filename) {
+    if (filename != '_template.json' && !servicesToSkip.includes(filename.replace('.json', ''))) {
+      services.push(filename.replace('.json', ''))
     }
-  }
-});
+  });
+}
+
+if (services.length == 0) {
+  console.log("npm run screenshots <command>\n")
+  console.log('Usage:')
+  console.log('npm run screenshots <filename>   Collect a screenshot for the service in the filename given (.json can be omitted)')
+  console.log('npm run screenshots all        Collect screenshots for all non-retired services')
+  process.exit()
+}
+
 
 (async () => {
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({
+    headless: useHeadless
+  });
   const page = await browser.newPage();
   await page.setViewport({
     width: 1080,
@@ -75,13 +89,24 @@ fs.readdirSync(servicesFolder).forEach(function(filename) {
     deviceScaleFactor: 2,
   });
 
-  for (screenshotToTake of screenshotsToTake) {
-    try {
-      await page.goto(screenshotToTake.url);
-      await page.screenshot({ path: screenshotsFolder + '/' + screenshotToTake.service + '.png' });
-      process.stdout.write('.')
-    } catch(error) {
-      console.warn('Error fetching ' + screenshotToTake.url)
+  for (service of services) {
+
+    service = service.replace('.json', '');
+
+    var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + service + '.json').toString());
+
+    if (project.liveservice && project.phase != 'retired') {
+      try {
+        await page.goto(project.liveservice);
+        await page.mouse.click(0, 0, {
+          delay: (delayInSeconds * 1000)
+        });
+        await page.screenshot({ path: screenshotsFolder + '/' + service + '.png' });
+        process.stdout.write('.')
+      } catch(error) {
+        console.warn('Error fetching ' + project.liveservice)
+        console.error(error)
+      }
     }
   }
 

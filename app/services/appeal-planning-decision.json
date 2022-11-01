@@ -1,11 +1,17 @@
 {
-  "name": "Appeal a householder planning decision",
-  "description": "Your local planning authority makes decisions about householder planning applications. You can appeal a householder planning decision if you disagree with it.",
-  "organisation": "Planning Inspectorate",
+  "name": "Appeal a planning decision",
+  "synonyms": [
+    "Appeal a householder planning decision"
+  ],
+  "description": "You can appeal a householder planning decision if you were refused permission for reasons that you think go against the local planning authority’s development plan or planning policy.",
+  "organisation": [
+    "Planning Inspectorate",
+    "Department for Levelling Up, Housing & Communities"
+  ],
   "theme": "Housing and local services",
   "phase": "beta",
-  "liveservice": "https://appeal-planning-decision.planninginspectorate.gov.uk/eligibility/householder-planning-permission",
-  "start-page": "https://www.gov.uk/appeal-householder-planning-decision/how-to-appeal",
+  "liveservice": "https://appeal-planning-decision.service.gov.uk/before-you-start",
+  "start-page": "https://www.gov.uk/appeal-householder-planning-decision/make-an-appeal",
   "sourceCode": [
     {
       "text": "Source code",

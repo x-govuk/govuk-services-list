@@ -22,6 +22,28 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2022-01-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-assessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta reassessment",
+        "date": "2022-04-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-reassessment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
+          }
+        ]
       }
     ]
   }

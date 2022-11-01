@@ -1,11 +1,17 @@
 {
   "name": "Apply for Pension Credit",
+  "synonyms": [
+    "Claim Pension Credit"
+  ],
   "description": "Pension Credit is an income-related benefit made up of 2 parts - Guarantee Credit and Savings Credit.",
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
   "phase": "alpha",
   "liveservice": "https://apply-for-pension-credit.service.gov.uk/",
   "start-page": "https://www.gov.uk/pension-credit/how-to-claim",
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

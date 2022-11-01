@@ -6,5 +6,23 @@
   "phase": "beta",
   "facing": "internal",
   "liveservice": "https://www.digitalmarketplace.service.gov.uk/",
-  "start-page": "https://www.gov.uk/digital-marketplace"
+  "start-page": "https://www.gov.uk/digital-marketplace",
+  "sourceCode": [
+    {
+      "text": "Supplier frontend",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-supplier-frontend"
+    },
+    {
+      "text": "Buyer frontend",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-buyer-frontend"
+    },
+    {
+      "text": "Supplier briefs frontend",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-briefs-frontend"
+    },
+    {
+      "text": "API",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-api"
+    }
+  ]
 }

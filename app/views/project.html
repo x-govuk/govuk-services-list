@@ -66,13 +66,23 @@
         {{ govukTag({
             text: project.phase
         }) }}
+
+        {% if project.tags %}
+          {% for tag in project.tags %}
+            {% if tag == 'Top 75' %}
+              <div class="govuk-!-margin-top-3">{{ govukTag({text: "Top 75", classes: "govuk-tag--blue"} )}} – one of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a></div>
+            {% endif %}
+          {% endfor %}
+        {% endif %}
       {% endset %}
 
       {% set sourceCodeHtml %}
         {% if project.sourceCode %}
-          {% for sourceCode in project.sourceCode %}
-            <a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a>
-          {% endfor %}
+          <ul class="govuk-list">
+            {% for sourceCode in project.sourceCode %}
+              <li><a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a></li>
+            {% endfor %}
+          </ul>
         {% else %}
           Not found
         {% endif %}
@@ -92,7 +102,7 @@
           },
           {
             key: {
-              text: "Theme"
+              text: "Topic"
             },
             value: {
               html: themeHtml

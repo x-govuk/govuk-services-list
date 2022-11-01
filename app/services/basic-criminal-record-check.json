@@ -9,7 +9,10 @@
   "organisation": "Disclosure and Barring Service",
   "phase": "beta",
   "start-page": "https://www.gov.uk/request-copy-criminal-record",
-  "liveservice": "https://www.apply-basic-criminal-record-check.service.gov.uk/verify/start",
+  "liveservice": "https://www.apply-basic-criminal-record-check.service.gov.uk/",
+  "tags": [
+    "Top 75"
+  ],
   "timeline": {
     "items": [
       {

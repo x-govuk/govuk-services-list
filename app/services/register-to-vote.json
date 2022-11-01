@@ -1,9 +1,15 @@
 {
   "name": "Register to vote",
+  "synonyms": [
+    "Signing Up to Register to Vote"
+  ],
   "description": "Use this service to apply to register to vote or to: update your name, address or other details on the electoral register, change your voting preferences, for example to vote in person or by post, change whether you’re on the open register",
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase": "live",
   "start-page": "https://www.gov.uk/register-to-vote",
-  "liveservice": "https://www.registertovote.service.gov.uk/register-to-vote/start"
+  "liveservice": "https://www.registertovote.service.gov.uk/register-to-vote/start",
+  "tags": [
+    "Top 75"
+  ]
 }

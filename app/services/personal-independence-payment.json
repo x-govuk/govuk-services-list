@@ -4,6 +4,34 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
-  "phase_modifier": "Private",
-  "prototype": "http://pip-v2.herokuapp.com/"
+  "start-page": "https://www.gov.uk/pip",
+  "tags": [
+    "Top 75"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2022-05-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-personal-independence-payment-alpha-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2021-12-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-personal-independence-payment",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

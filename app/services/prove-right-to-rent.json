@@ -1,0 +1,12 @@
+{
+  "name": "Prove your right to rent",
+  "synonyms": [
+    "Prove your right to rent in England"
+  ],
+  "description": "Share details of your right to rent in England, including how long you can rent for.",
+  "organisation": "Home Office",
+  "theme": "Citizenship and living in the UK",
+  "phase": "beta",
+  "liveservice": "https://right-to-rent.service.gov.uk/prove",
+  "start-page": "https://www.gov.uk/prove-right-to-rent"
+}

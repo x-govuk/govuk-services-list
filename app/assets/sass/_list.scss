@@ -1,19 +1,6 @@
-
-.app-list--projects {
-  border-left: 5px solid;
-  background-color: govuk-colour("light-grey");
-  padding-left: 10px;
-
-  > li {
-    padding-top: 8px;
-    padding-bottom: 8px;
-  }
-}
-
 .app-list--unknown {
   border-color: govuk-colour("blue");
 }
-
 
 .app-list--alpha {
   border-color: govuk-colour("bright-purple");
@@ -25,4 +12,25 @@
 
 .app-list--live {
   border-color: govuk-colour("green");
+}
+
+.app-list--services {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.app-list--services li {
+  margin-bottom: 8px;
+  line-height: 26px;
+}
+
+.app-list--services li a {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.app-list--domains {
+  font-size: 16px;
+  margin-bottom: 8px;
+  line-height: 26px;
 }

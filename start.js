@@ -38,14 +38,12 @@ app.locals.phases = [
 ]
 
 app.locals.themes = [
-  'Coronavirus (COVID-19)',
   'Benefits',
   'Births, deaths, marriages and care',
   'Business and self-employed',
   'Childcare and parenting',
   'Citizenship and living in the UK',
   'Crime, justice and the law',
-  'Disabled people',
   'Driving and transport',
   'Education, training and skills',
   'Employing people',
@@ -56,6 +54,7 @@ app.locals.themes = [
   'Passports, travel and living abroad',
   'Visas and immigration',
   'Working, jobs and pensions',
+  'Coronavirus (COVID-19)',
 ];
 
 app.locals.organisations = [
@@ -81,6 +80,8 @@ app.locals.organisations = [
   {"name": 'Land Registry'}
 ]
 
+app.locals.allEvents = []
+
 app.locals.projects = []
 
 fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
@@ -97,7 +98,11 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
     }
 
     if (!Array.isArray(project['start-page'])) {
-      project['start-page'] = [project['start-page']]
+      if (project['start-page']) {
+        project['start-page'] = [project['start-page']]
+      } else {
+        project['start-page'] = []
+      }
     }
 
     for (organisation of project.organisation) {
@@ -113,6 +118,19 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       project.screenshot = true
     }
 
+    if (project.timeline) {
+      for (item of project.timeline.items) {
+        app.locals.allEvents.push({
+          "service": {
+            "name": project.name,
+            "slug": project.slug
+          },
+          "date": item.date,
+          "label": item.label
+        })
+      }
+    }
+
     var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
 
     if (phase.length > 0) {
@@ -122,15 +140,16 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
 })
 
 for (organisation of app.locals.organisations) {
-  organisation.serviceCount = app.locals.projects.filter(function(service) {
-    return service.organisation.includes(organisation.name)
-  }).length
   organisation.slug = slugify(organisation.name)
+  organisation.services = app.locals.projects.filter(function(service) {
+    return service.organisation.includes(organisation.name)
+  } )
 }
 
 app.locals.verbs = []
+app.locals.domains = []
 
-const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport"]
+const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport", "vehicle"]
 
 for (project of app.locals.projects) {
     const verb = project.name.split(" ")[0].toLowerCase()
@@ -144,8 +163,32 @@ for (project of app.locals.projects) {
       app.locals.verbs.push(existingVerb)
     }
 
-    existingVerb.services.push({name: project.name, slug: project.slug})
+    existingVerb.services.push(project)
     existingVerb.count += 1
+
+
+    if (project.liveservice) {
+      let url = new URL(project.liveservice)
+      let hostname = url.hostname
+      hostname = hostname.replace(/www\./, '')
+
+      if (hostname == 'gov.uk') { continue }
+      if (project.phase == 'retired') { continue }
+
+      let existingDomain = app.locals.domains.find(domain => domain.domain == hostname)
+      if (existingDomain) {
+        existingDomain.services.push(
+          {slug: project.slug, name: project.name}
+        )
+      } else {
+        app.locals.domains.push({
+          domain: hostname,
+          services: [
+            {slug: project.slug, name: project.name}
+          ]
+        })
+      }
+    }
 }
 
 app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
@@ -197,6 +240,10 @@ app.get('/organisation', function(req, res) {
     res.render('organisations.html')
 });
 
+app.get('/top-75', function(req, res) {
+  res.render('top-75.html')
+});
+
 app.get('/organisation/:slug', function(req, res) {
   const organisation = app.locals.organisations.find(function(org) { return org.slug == req.params.slug} )
   if (organisation) {
@@ -212,6 +259,14 @@ app.get('/contribute', function(req, res) {
 
 app.get('/verbs', function(req, res) {
   res.render('verbs.html')
+});
+
+app.get('/screenshots', function(req, res) {
+  res.render('screenshots.html')
+});
+
+app.get('/domains', function(req, res) {
+  res.render('domains.html')
 });
 
 
