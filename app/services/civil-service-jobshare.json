@@ -1,7 +1,7 @@
 {
   "name": "Civil Service Job share finder",
   "theme": "Working, jobs and pensions",
-  "organisations": [
+  "organisation": [
     "Cabinet Office",
     "Civil Service Resourcing"
   ],
