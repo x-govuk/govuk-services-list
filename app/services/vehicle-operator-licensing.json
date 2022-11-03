@@ -13,5 +13,20 @@
     "https://www.gov.uk/manage-vehicle-operator-licence",
     "https://www.gov.uk/apply-vehicle-operator-licence"
   ],
-  "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/"
+  "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass live assessment",
+        "date": "2021-01-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/manage-your-vehicle-operator-licence",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
