@@ -9,5 +9,8 @@
   "theme": "Education, training and skills",
   "phase": "beta",
   "liveservice": "http://register.ofqual.gov.uk",
-  "start-page": "https://www.gov.uk/check-awarding-body-recognised"
+  "start-page": [
+    "https://www.gov.uk/check-awarding-body-recognised",
+    "https://www.gov.uk/find-a-regulated-qualificatiom"
+  ]
 }
