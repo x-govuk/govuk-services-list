@@ -8,7 +8,10 @@
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Environment and countryside",
   "phase": "unknown",
-  "start-page": "https://www.gov.uk/register-biomass-supplier",
+  "start-page": [
+    "https://www.gov.uk/register-biomass-supplier",
+    "https://www.gov.uk/find-fuel-supplier"
+  ],
   "liveservice": "https://biomass-suppliers-list.service.gov.uk/",
   "tags": [
     "Top 75"
