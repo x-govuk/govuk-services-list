@@ -13,7 +13,7 @@ jobs:
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.x
+        ruby-version: 3.x
     - name: Run JSON tidy
       run: .github/lib/json-tidy.rb
     - name: Push any updated fiels
