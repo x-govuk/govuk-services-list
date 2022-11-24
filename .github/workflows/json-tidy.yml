@@ -11,9 +11,9 @@ jobs:
       with:
         ref: ${{ github.event.pull_request.head.ref }}
     - name: Setup Ruby
-      uses: actions/setup-ruby@v1
+      uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.x
+        ruby-version: '3.1'
     - name: Run JSON tidy
       run: .github/lib/json-tidy.rb
     - name: Push any updated fiels
