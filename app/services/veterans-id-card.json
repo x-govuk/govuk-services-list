@@ -1,0 +1,35 @@
+{
+  "name": "Apply for a Veteran’s ID Card",
+  "synonyms": [
+    "Veterans’ Recognition Scheme"
+  ],
+  "description": "Apply for an ID card for armed forces veterans, to help access specialist support and services.",
+  "organisation": "Office for Veterans’ Affairs",
+  "theme": "Citizenship and living in the UK",
+  "phase": "alpha",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2022-10-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-veterans-id-card-alpha-assessment",
+            "text": "Service standard assessment",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service starts issuing cards to personnel as they leave the military",
+        "date": "2019-02-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-veterans-id-cards-rolled-out-to-service-leavers",
+            "text": "News story: New veterans ID cards rolled out to service leavers"
+          }
+        ]
+      }
+    ]
+  }
+}
