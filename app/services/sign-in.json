@@ -1,16 +1,21 @@
 {
-  "name": "GOV.UK Sign in",
+  "name": "GOV.UK One Login",
   "synonyms": [
+    "GOV.UK Sign in",
     "GOV.UK Sign in: End-user digital identity checks",
     "Authentication and Digital Identity"
   ],
-  "description": "GOV.UK Sign in is the new way for government services to sign in their users",
+  "description": "GOV.UK One Login in is the new way for government services to sign in their users",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
   "phase": "beta",
   "liveservice": "https://www.sign-in.service.gov.uk",
   "timeline": {
     "items": [
+      {
+        "label": "Service renamed as GOV.UK One Login",
+        "date": "2022-12-07"
+      },
       {
         "label": "Passed alpha assessment: End-user digital identity checks",
         "date": "2021-09-15",
