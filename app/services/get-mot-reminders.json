@@ -1,15 +1,19 @@
 {
-  "name": "Get an annual MOT reminder",
+  "name": "Get or manage MOT reminders",
   "synonyms": [
     "Get MOT reminders",
-    "MOT fraud/MOTreminders"
+    "MOT fraud/MOTreminders",
+    "Get an annual MOT reminder"
   ],
   "description": "Sign up to get free reminders by text message or email when your MOT is due.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
   "liveservice": "https://www.reminders.mot-testing.service.gov.uk/vrm",
-  "start-page": "https://www.gov.uk/mot-reminder",
+  "start-page": [
+    "https://www.gov.uk/mot-reminder",
+    "https://www.gov.uk/stop-mot-reminder"
+  ],
   "timeline": {
     "items": [
       {
