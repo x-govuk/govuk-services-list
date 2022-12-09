@@ -8,13 +8,14 @@
     "npm": "8.x"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "~4.18.2",
     "govuk-frontend": "^4.4.0",
     "nunjucks": "^3.2.3",
     "sass": "^1.56.1"
   },
   "devDependencies": {
-    "puppeteer": "^19.4.0"
+    "puppeteer-core": "^19.4.0"
   },
   "scripts": {
     "sass": "npx sass --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
