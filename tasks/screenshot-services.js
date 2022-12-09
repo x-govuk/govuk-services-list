@@ -1,10 +1,12 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const fs = require('fs');
 const path = require('path');
 const process = require('process');
 
 const useHeadless = false; // set to false for services which prevent screen-scraping
 const delayInSeconds = 2; // add a delay for services which use slow client-side rendering
+
+require('dotenv').config();
 
 // Specific services to screenshot can be specified as command line arguments
 let services = process.argv.slice(2)
@@ -80,6 +82,7 @@ if (services.length == 0) {
 
 (async () => {
   const browser = await puppeteer.launch({
+    executablePath: process.env.GOOGLE_CHROME_PATH,
     headless: useHeadless
   });
   const page = await browser.newPage();
