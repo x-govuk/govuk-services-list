@@ -1,0 +1,9 @@
+{
+  "name": "Check your National Insurance record",
+  "description": "You can check your National Insurance record online to see what you’ve paid, credits you’ve received, gaps in contributions, and if you can pay voluntary contributions.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Working, jobs and pensions",
+  "phase": "beta",
+  "liveservice": "https://www.apply-national-insurance-number.service.gov.uk/apply/welcome",
+  "start-page": "https://www.tax.service.gov.uk/personal-account/national-insurance-summary"
+}
