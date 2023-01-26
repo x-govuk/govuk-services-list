@@ -5,5 +5,8 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "beta",
   "liveservice": "https://driverpracticaltest.dvsa.gov.uk/application",
-  "start-page": "https://www.gov.uk/book-driving-test"
+  "start-page": [
+    "https://www.gov.uk/book-driving-test",
+    "https://www.gov.uk/check-driving-test"
+  ]
 }
