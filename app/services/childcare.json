@@ -11,7 +11,8 @@
   "liveservice": "https://childcare-support.tax.service.gov.uk/par/app/trialmessage",
   "start-page": [
     "https://www.gov.uk/apply-for-tax-free-childcare",
-    "https://www.gov.uk/apply-30-hours-free-childcare"
+    "https://www.gov.uk/apply-30-hours-free-childcare",
+    "https://www.gov.uk/sign-in-childcare-account"
   ],
   "timeline": {
     "items": [
