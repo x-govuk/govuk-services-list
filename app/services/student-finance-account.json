@@ -5,13 +5,17 @@
     "Student finance account",
     "Manage Your Loan",
     "SLC Full Time Application",
-    "Apply for student finance"
+    "Apply for student finance",
+    "Login or register for student finance"
   ],
   "description": "Apply online for student finance",
   "theme": "Education, training and skills",
   "organisation": "Student Loans Company",
   "phase": "beta",
-  "start-page": "https://www.gov.uk/apply-online-for-student-finance",
+  "start-page": [
+    "https://www.gov.uk/apply-online-for-student-finance",
+    "https://www.gov.uk/student-finance-register-login"
+  ],
   "liveservice": "https://www.student-finance.service.gov.uk/customer/home",
   "tags": [
     "Top 75"
