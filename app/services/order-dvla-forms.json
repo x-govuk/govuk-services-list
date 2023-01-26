@@ -1,0 +1,12 @@
+{
+  "name": "Order DVLA Forms",
+  "synonyms": [
+    "Download and order DVLA forms"
+  ],
+  "description": "You can order the application pack for a car, moped or motorcycle driving licence.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/dvlaforms",
+  "liveservice": "https://contact.dvla.gov.uk/order-dvla-forms"
+}
