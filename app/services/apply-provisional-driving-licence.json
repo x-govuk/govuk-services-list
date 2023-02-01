@@ -8,5 +8,31 @@
   "start-page": "https://www.gov.uk/apply-first-provisional-driving-licence",
   "tags": [
     "Top 75"
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2009-09-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-your-first-provisional-driving-licence",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2021-01-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-your-first-provisional-licence",
+            "text": "service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
