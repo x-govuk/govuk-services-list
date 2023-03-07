@@ -1,0 +1,37 @@
+{
+  "name": "Apply for energy bill support",
+  "synonyms": [
+    "Apply for energy bill support if you do not get it automatically",
+    "Apply for energy bill support in Northern Ireland if you do not get it automatically"
+  ],
+  "description": "Most households get a discount on their energy bills automatically. In some cases, you do not get the discount automatically. Use this service to apply for the discount if you do not get it automatically. You can only make one application per household.",
+  "organisation": "Department for Business, Energy & Industrial Strategy",
+  "theme": "Money and tax",
+  "phase": "beta",
+  "liveservice": "https://online.apply-for-energy-bill-alternative-funds.service.gov.uk/s/#where-do-you-live",
+  "start-page": [
+    "https://www.gov.uk/apply-energy-bill-support-if-not-automatic",
+    "https://www.gov.uk/apply-energy-bill-support-northern-ireland-if-not-automatic"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2023-02-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/900000-more-households-to-benefit-from-400-of-government-energy-bill-support",
+            "text": "News story: 900,000 more households to benefit from £400 of government energy bill support"
+          },
+          {
+            "href": "https://www.gov.uk/government/news/thousands-more-households-in-northern-ireland-on-course-to-benefit-from-600-government-help-with-energy-bills",
+            "text": "News story: Thousands more households in Northern Ireland on course to benefit from £600 government help with energy bills"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
