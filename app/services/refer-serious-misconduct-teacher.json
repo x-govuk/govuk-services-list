@@ -1,10 +1,16 @@
 {
   "name": "Refer serious misconduct by a teacher in England",
+  "synonyms": [
+    "Report serious teacher misconduct"
+  ],
   "description": "The Teaching Regulation Agency (TRA) will investigate cases where the misconduct is serious enough to potentially result in a teacher being stopped from teaching (known as a ‘prohibition order’).",
   "theme": "Education, training and skills",
   "organisation": "Teaching Regulation Agency",
   "phase": "beta",
-  "start-page": "https://www.gov.uk/guidance/teacher-misconduct-referring-a-case",
+  "start-page": [
+    "https://www.gov.uk/report-teacher-misconduct",
+    "https://www.gov.uk/guidance/teacher-misconduct-referring-a-case"
+  ],
   "liveservice": "https://refer-serious-misconduct.education.gov.uk/start",
   "sourceCode": [
     {
