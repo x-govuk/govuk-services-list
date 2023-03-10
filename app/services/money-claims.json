@@ -9,6 +9,9 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/make-money-claim",
   "liveservice": "https://www.moneyclaims.service.gov.uk/",
+  "tags": [
+    "Original 25 exemplars"
+  ],
   "timeline": {
     "items": [
       {

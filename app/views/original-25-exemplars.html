@@ -1,0 +1,24 @@
+{% extends "layout.html" %}
+{% block pageTitle %}Original 25 exemplars - X-GOVUK{% endblock %}
+
+{% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
+
+{% block content %}
+
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">Original 25 exemplar services</h1>
+
+      <p class="govuk-body">These services were among the original <a href="https://www.gov.uk/government/publications/gds-transformation-programme-2013-to-2015/digital-transformation-exemplar-services" class="govuk-link">25 exemplar services</a> which were prioritised for transformation back in 2013:</p>
+
+      <ul class="govuk-list govuk-list--number app-list--services">
+        {%- for project in (projects | sort(attribute="name")) -%}
+          {% if project.tags %}{% for tag in project.tags %}{% if tag == 'Original 25 exemplars' %}
+            <li><a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a></li>
+          {% endif %}{% endfor %}{% endif %}
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+{% endblock %}

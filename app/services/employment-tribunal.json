@@ -4,5 +4,8 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "live",
-  "liveservice": "https://employmenttribunals.service.gov.uk"
+  "liveservice": "https://employmenttribunals.service.gov.uk",
+  "tags": [
+    "Original 25 exemplars"
+  ]
 }
