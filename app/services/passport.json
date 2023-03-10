@@ -7,7 +7,8 @@
   "liveservice": "https://www.passport.service.gov.uk/filter",
   "start-page": "https://www.gov.uk/apply-renew-passport",
   "tags": [
-    "Top 75"
+    "Top 75",
+    "Original 25 exemplars"
   ],
   "sourceCode": [
     {

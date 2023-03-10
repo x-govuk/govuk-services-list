@@ -244,6 +244,10 @@ app.get('/top-75', function(req, res) {
   res.render('top-75.html')
 });
 
+app.get('/original-25-exemplars', function(req, res) {
+  res.render('original-25-exemplars.html')
+});
+
 app.get('/organisation/:slug', function(req, res) {
   const organisation = app.locals.organisations.find(function(org) { return org.slug == req.params.slug} )
   if (organisation) {

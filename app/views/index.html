@@ -29,7 +29,9 @@
                 <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
                 {% if project.tags %}
                   {% for tag in project.tags %}
-                    {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
+                    {% if tag != "Original 25 exemplars" %}
+                      {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
+                    {% endif %}
                   {% endfor %}
                 {% endif %}
                 {% if project.phase == 'retired' %}

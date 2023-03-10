@@ -4,5 +4,8 @@
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
   "phase": "live",
-  "liveservice": "https://www.faster-uk-entry.service.gov.uk"
+  "liveservice": "https://www.faster-uk-entry.service.gov.uk",
+  "tags": [
+    "Original 25 exemplars"
+  ]
 }

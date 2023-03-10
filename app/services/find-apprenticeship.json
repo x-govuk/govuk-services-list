@@ -5,5 +5,8 @@
   "organisation": "Education and Skills Funding Agency",
   "phase": "live",
   "start-page": "https://www.gov.uk/apply-apprenticeship",
-  "liveservice": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch"
+  "liveservice": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch",
+  "tags": [
+    "Original 25 exemplars"
+  ]
 }

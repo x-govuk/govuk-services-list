@@ -1,12 +1,16 @@
 {
   "name": "Apply for Personal Independence Payment",
+  "synonyms": [
+    "Claim Personal Independence Payment (PIP)"
+  ],
   "description": "Lets users who are disabled or have a long-term health condition apply for a Personal Independence Payment to help them live independently.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "beta",
   "start-page": "https://www.gov.uk/pip",
   "tags": [
-    "Top 75"
+    "Top 75",
+    "Original 25 exemplars"
   ],
   "timeline": {
     "items": [

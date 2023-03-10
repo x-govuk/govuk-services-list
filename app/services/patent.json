@@ -10,6 +10,9 @@
   "phase": "beta",
   "liveservice": "https://www.renew-patent-trademark-registered-design.service.gov.uk/renew/start",
   "start-page": "https://www.gov.uk/renew-patent-trademark-registered-design",
+  "tags": [
+    "Original 25 exemplars"
+  ],
   "timeline": {
     "items": [
       {
