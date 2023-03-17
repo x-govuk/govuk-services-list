@@ -1,7 +1,7 @@
 {
-  "name": "Find and check your business rates valuation",
+  "name": "Find your business rates valuation",
   "synonyms": [
-    "Find your business rates valuation",
+    "Find and check your business rates valuation",
     "Check or Amend your Property Data",
     "Check or challenge a business rates valuation",
     "Challenge a Valuation",
@@ -11,7 +11,10 @@
   "theme": "Money and tax",
   "organisation": "Valuation Office Agency",
   "phase": "beta",
-  "start-page": "https://www.gov.uk/correct-your-business-rates",
+  "start-page": [
+    "https://www.gov.uk/find-business-rates",
+    "https://www.gov.uk/correct-your-business-rates"
+  ],
   "liveservice": "https://www.tax.service.gov.uk/business-rates-find/search",
   "timeline": {
     "items": [
