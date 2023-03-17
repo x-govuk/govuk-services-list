@@ -1,0 +1,12 @@
+{
+  "name": "Visa application fees",
+  "synonyms": [
+    "Visa fees"
+  ],
+  "description": "Use this tool to work out the cost of your UK visa application.",
+  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "phase": "beta",
+  "liveservice": "https://visa-fees.homeoffice.gov.uk/y",
+  "start-page": "https://www.gov.uk/visa-fees"
+}
