@@ -1,11 +1,14 @@
 {
-  "name": "The Queen's Awards for Enterprise",
-  "description": "The Queen’s Awards for Enterprise are for outstanding achievement by UK businesses in the categories of: innovation, international trade, sustainable development, promoting opportunity through social mobility",
+  "name": "King's Awards for Enterprise",
+  "synonyms": [
+    "The Queen's Awards for Enterprise"
+  ],
+  "description": "The King’s Awards for Enterprise are for outstanding achievement by UK businesses in the categories of: innovation, international trade, sustainable development, promoting opportunity through social mobility",
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Business and self-employed",
   "phase": "beta",
-  "start-page": "https://www.gov.uk/queens-awards-for-enterprise/how-to-apply",
-  "liveservice": "https://www.queens-awards-enterprise.service.gov.uk/users/sign_up",
+  "start-page": "https://www.gov.uk/kings-awards-for-enterprise/how-to-apply",
+  "liveservice": "https://www.kings-awards-enterprise.service.gov.uk/users/sign_up",
   "tags": [
     "Top 75"
   ],

@@ -1,11 +1,14 @@
 {
-  "name": "The Queen's Awards for Voluntary Service",
-  "description": "The Queen’s Award for Voluntary Service is the highest award given to volunteer groups across the UK.",
+  "name": "The King’s Award for Voluntary Service",
+  "synonyms": [
+    "The Queen’s Award for Voluntary Service"
+  ],
+  "description": "The King’s Award for Voluntary Service is the highest award given to volunteer groups across the UK.",
   "organisation": "Department for Digital, Culture, Media and Sport",
   "theme": "Citizenship and living in the UK",
   "phase": "beta",
-  "start-page": "https://www.gov.uk/queens-award-for-voluntary-service",
-  "liveservice": "https://qavs.dcms.gov.uk/",
+  "start-page": "https://www.gov.uk/kings-award-for-voluntary-service",
+  "liveservice": "https://kavs.dcms.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",
