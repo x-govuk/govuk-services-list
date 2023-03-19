@@ -13,7 +13,8 @@
   "phase": "beta",
   "start-page": [
     "https://www.gov.uk/find-business-rates",
-    "https://www.gov.uk/correct-your-business-rates"
+    "https://www.gov.uk/correct-your-business-rates",
+    "https://www.gov.uk/business-rates-valuation-account"
   ],
   "liveservice": "https://www.tax.service.gov.uk/business-rates-find/search",
   "timeline": {

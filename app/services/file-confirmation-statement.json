@@ -9,7 +9,10 @@
   "theme": "Business and self-employed",
   "phase": "beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/confirmation-statement",
-  "start-page": "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
+  "start-page": [
+    "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
+    "https://www.gov.uk/file-changes-to-a-company-with-companies-house"
+  ],
   "timeline": {
     "items": [
       {
