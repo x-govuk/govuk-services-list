@@ -3,7 +3,21 @@
   "description": "Help to Grow: Digital supports eligible businesses with up to 50% in discounts on approved software. ",
   "organisation": "Department for Business, Energy & Industrial Strategy",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "retired",
   "liveservice": "https://www.learn-to-grow-your-business.service.gov.uk",
-  "start-page": "https://www.gov.uk/business-finance-support/help-to-grow-digital-uk"
+  "start-page": "https://www.gov.uk/business-finance-support/help-to-grow-digital-uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closes",
+        "date": "2023-02-02",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/final-opportunity-for-businesses-to-access-help-to-grow-digital-scheme",
+            "text": "News story: Final opportunity for businesses to access Help to Grow: Digital scheme"
+          }
+        ]
+      }
+    ]
+  }
 }
