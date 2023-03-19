@@ -40,6 +40,7 @@ https://www.gov.uk/find-an-insolvency-practitioner
 https://www.gov.uk/find-dbs-umbrella-body
 https://www.gov.uk/find-driving-schools-and-lessons
 https://www.gov.uk/find-local-trading-standards-office
+https://www.gov.uk/find-out-if-a-company-is-in-financial-trouble
 https://www.gov.uk/get-a-clamped-or-impounded-vehicle-released
 https://www.gov.uk/get-an-exemption-for-an-appliance-to-burn-unauthorised-fuel
 https://www.gov.uk/low-emission-zones
@@ -55,9 +56,11 @@ https://www.gov.uk/report-smoky-vehicle
 https://www.gov.uk/report-suspicious-activity-to-mi5
 https://www.gov.uk/search-armed-forces-memorial-roll-of-honour
 https://www.gov.uk/search-house-prices
+https://www.gov.uk/search-patent-decisions
 https://www.gov.uk/search-trade-mark-decisions
 https://www.gov.uk/sign-up-for-food-safety-alerts
 https://www.gov.uk/sponsor-management-system
+https://www.gov.uk/tied-rebated-oils-services
 https://www.gov.uk/track-your-part-1-compensation-claim
 https://www.gov.uk/check-tax-rates-new-unregistered-cars
 https://www.gov.uk/report-a-disqualified-director
