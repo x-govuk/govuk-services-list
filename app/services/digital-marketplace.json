@@ -3,8 +3,7 @@
   "description": "Find technology or people for digital projects in the public sector.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "beta",
-  "facing": "internal",
+  "phase": "retired",
   "liveservice": "https://www.digitalmarketplace.service.gov.uk/",
   "start-page": "https://www.gov.uk/digital-marketplace",
   "sourceCode": [
@@ -24,5 +23,13 @@
       "text": "API",
       "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-api"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closed",
+        "date": "2023-04-20"
+      }
+    ]
+  }
 }
