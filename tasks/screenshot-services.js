@@ -8,6 +8,12 @@ const delayInSeconds = 2; // add a delay for services which use slow client-side
 
 require('dotenv').config();
 
+// Display a helpful error if path to Google Chrome is missing
+if (!Object.keys(process.env).includes('GOOGLE_CHROME_PATH')) {
+  console.error("Error: Missing path for Google Chrome application.\n\nAdd GOOGLE_CHROME_PATH=\"/path/to/Chrome\" to a file named .env\n\nFor example, on Mac OS add GOOGLE_CHROME_PATH=\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\"")
+  process.exit()
+}
+
 // Specific services to screenshot can be specified as command line arguments
 let services = process.argv.slice(2)
 
