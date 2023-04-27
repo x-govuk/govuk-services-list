@@ -31,12 +31,11 @@ npm start
 
 ## How to add or update screenshots
 
-Screenshots of services (the first page) can be added automatically by running a script.
+Screenshots for service landing or home pages can be added automatically by running a script.
 
 First, you need to have the latest version of [Google Chrome](https://www.google.com/chrome/) installed.
 
-You then need to tell the script exactly where this is installed on your computer. Add the full path to the
-Google Chrome executable by adding it to a file named `.env` (in the same folder as this README file), using this
+To tell the script where the Google Chrome executable is installed on your computer, add the full path to a file named `.env` (in the same folder as this README file), using this
 named environment variable:
 
 `GOOGLE_CHROME_PATH=""`
