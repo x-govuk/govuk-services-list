@@ -20,7 +20,7 @@
       <h2 class="govuk-heading-m">All services ({{ projects | length }})</h2>
 
       {% for theme in themes %}
-        <h3 class="govuk-heading-s govuk-!-margin-bottom-2">{{ theme }}</h3>
+        <h3 class="govuk-heading-s govuk-!-margin-bottom-2" id="{{ theme | slugify }}">{{ theme }}</h3>
 
         <ul class="govuk-list app-list--services">
           {%- for project in (projects | sort(attribute="name")) -%}
