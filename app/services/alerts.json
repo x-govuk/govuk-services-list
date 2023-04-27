@@ -5,7 +5,6 @@
     "Cabinet Office"
   ],
   "description": "A UK government service that will warn you if there’s a danger to life nearby.",
-  "theme": "Citizenship and living in the UK",
   "theme": "Education, training and skills",
   "phase": "beta",
   "liveservice": "https://www.gov.uk/alerts",
