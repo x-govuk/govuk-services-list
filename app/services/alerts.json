@@ -1,0 +1,26 @@
+{
+  "name": "Emergency Alerts",
+  "organisation": [
+    "Government Digital Service",
+    "Cabinet Office"
+  ],
+  "description": "A UK government service that will warn you if there’s a danger to life nearby.",
+  "theme": "Citizenship and living in the UK",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "liveservice": "https://www.gov.uk/alerts",
+  "timeline": {
+    "items": [
+      {
+        "label": "Nationwide test of the service",
+        "date": "2023-04-23",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/uk-emergency-alerts-test-keep-calm-and-carry-on-this-is-just-a-test",
+            "text": "News story: UK Emergency Alerts Test – “Keep Calm and Carry On: This is just a test”"
+          }
+        ]
+      }
+    ]
+  }
+}
