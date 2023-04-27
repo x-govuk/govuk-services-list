@@ -35,8 +35,7 @@ Screenshots for service landing or home pages can be added automatically by runn
 
 First, you need to have the latest version of [Google Chrome](https://www.google.com/chrome/) installed.
 
-To tell the script where the Google Chrome executable is installed on your computer, add the full path to a file named `.env` (in the same folder as this README file), using this
-named environment variable:
+To tell the script where the Google Chrome executable is located on your computer, create a file named `.env` (in the same folder as this `README.md` file) and add this named environment variable:
 
 `GOOGLE_CHROME_PATH=""`
 
@@ -50,12 +49,10 @@ Once this is set up, you can run the script to add the screenshots using this co
 
 Substitute `register-to-vote` with the name of the file for the service you want to screenshot.
 
-You can also update all the screenshots (which will take a while) by running this:
+You can also update all the screenshots (which will take a while) by running this command:
 
 `npm run screenshots all`
 
-Screenshots will be saved in the `app/assets/images/service-screenshots` folder, using the same name as the json file
-within `app/services`. Images are all 2160x2160 pixels (1080x1080 at 2x resolution), and will be rendered with no cookies
-set (and so will include any cookie banner).
+Screenshots will be saved in the `app/assets/images/service-screenshots` folder, using the same name as the json file within `app/services`. Images are all 2160×2160 pixels (1080x1080 at 2× resolution), and will be rendered with no cookies set (so will include any cookie banner).
 
 
