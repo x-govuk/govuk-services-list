@@ -8,7 +8,7 @@ client = Octokit::Client.new(:access_token => ENV.fetch('GITHUB_ACCESS_TOKEN'))
 ignored_url_hosts = File.read("tasks/ignored_urls.txt").split("\n")
   .collect {|line| URI.parse(line).host }
 
-organisations = ['alphagov', 'cabinetoffice', 'communitiesuk', 'DFE-Digital', 'departmentfortransport', 'hmrc', 'dwp', 'defra', 'dfid', 'MHRA', 'ministryofjustice', 'ukforeignoffice', 'UKHomeOffice', 'UKGovernmentBEIS', 'companieshouse', 'decc', 'dvla', 'dvsa', 'insolvencyservice', 'intellectual-property-office', 'LandRegistry', 'MHRA', 'OfqualGovUK', 'SkillsFundingAgency', 'publichealthengland', 'hmcts', 'department-of-health', 'uktrade', 'mcagov', 'HMPO', 'Planning-Inspectorate', 'digital-land', 'FoodStandardsAgency']
+organisations = ['alphagov', 'cabinetoffice', 'communitiesuk', 'DFE-Digital', 'department-for-transport', 'hmrc', 'dwp', 'defra', 'dfid', 'MHRA', 'ministryofjustice', 'ukforeignoffice', 'UKHomeOffice', 'UKGovernmentBEIS', 'companieshouse', 'decc', 'dvla', 'dvsa', 'insolvencyservice', 'intellectual-property-office', 'LandRegistry', 'MHRA', 'OfqualGovUK', 'SkillsFundingAgency', 'publichealthengland', 'hmcts', 'department-of-health', 'uktrade', 'mcagov', 'HMPO', 'Planning-Inspectorate', 'digital-land', 'FoodStandardsAgency']
 
 repos = []
 
