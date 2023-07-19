@@ -15,7 +15,7 @@
     "sass": "^1.63.6"
   },
   "devDependencies": {
-    "puppeteer-core": "^20.8.1"
+    "puppeteer-core": "^20.8.3"
   },
   "scripts": {
     "sass": "npx sass --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
