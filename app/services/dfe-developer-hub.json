@@ -1,13 +1,14 @@
 {
-  "name": "DfE Developer Hub",
+  "name": "Find and Use an API",
   "synonyms": [
+    "DfE Developer Hub",
     "DfE Data Exchange"
   ],
-  "description": "Connect to the Department for Education digital services through our APIs.",
+  "description": "Connect to the Department for Education (DfE) digital services through our APIs.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "alpha",
-  "liveservice": "https://dfe-developerhub.education.gov.uk",
+  "liveservice": "https://find-and-use-an-api.education.gov.uk",
   "timeline": {
     "items": [
       {
