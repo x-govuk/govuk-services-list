@@ -4,7 +4,7 @@
   "theme": "Money and tax",
   "organisation": "The Charity Commission",
   "phase": "beta",
-  "liveservice": "https://portal.update-charity-details.service.gov.uk/group/update-charity-details",
+  "liveservice": "https://my-charity-account.charitycommission.gov.uk",
   "start-page": "https://www.gov.uk/change-your-charitys-details",
   "timeline": {
     "items": [
