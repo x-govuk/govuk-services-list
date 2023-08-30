@@ -2,7 +2,8 @@
   "name": "Vehicle Operator Licensing",
   "synonyms": [
     "Manage your Vehicle Operator License",
-    "Apply for a vehicle operator licence"
+    "Apply for a vehicle operator licence",
+    "View your vehicle operator safety and risk reports"
   ],
   "description": "Update your heavy goods vehicle (HGV) or public service vehicle (PSV) operator’s licence, for example to: add more vehicles to your licence, increase the vehicle limit on your licence, add or remove a transport manager.",
   "theme": "Driving and transport",
@@ -11,7 +12,8 @@
   "phase_modifier": "Public",
   "start-page": [
     "https://www.gov.uk/manage-vehicle-operator-licence",
-    "https://www.gov.uk/apply-vehicle-operator-licence"
+    "https://www.gov.uk/apply-vehicle-operator-licence",
+    "https://www.gov.uk/view-vehicle-operator-safety-risk-reports"
   ],
   "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/",
   "timeline": {
