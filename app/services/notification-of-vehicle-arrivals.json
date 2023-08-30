@@ -1,0 +1,9 @@
+{
+  "name": "Log in to use the Notification of Vehicle Arrivals (NOVA) service",
+  "description": "Use the NOVA service to tell HM Revenue and Customs (HMRC) you’ve brought a vehicle into the UK.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Driving and transport",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/nova-log-in",
+  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/nova/normal&origin=NOVA-frontend"
+}
