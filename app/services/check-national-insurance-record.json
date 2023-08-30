@@ -4,6 +4,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Working, jobs and pensions",
   "phase": "beta",
-  "liveservice": "https://www.apply-national-insurance-number.service.gov.uk/apply/welcome",
-  "start-page": "https://www.tax.service.gov.uk/personal-account/national-insurance-summary"
+  "liveservice": "https://www.tax.service.gov.uk/personal-account/national-insurance-summary",
+  "start-page": "https://www.gov.uk/check-national-insurance-record"
 }

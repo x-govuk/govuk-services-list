@@ -9,7 +9,10 @@
   "theme": "Education, training and skills",
   "organisation": "Education and Skills Funding Agency",
   "phase": "unknown",
-  "start-page": "https://www.gov.uk/recruit-apprentice",
+  "start-page": [
+    "https://www.gov.uk/recruit-apprentice",
+    "https://www.gov.uk/sign-in-apprenticeship-service-account"
+  ],
   "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk",
   "timeline": {
     "items": [
