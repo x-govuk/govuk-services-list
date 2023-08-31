@@ -1,0 +1,15 @@
+{
+  "name": "Apply for British citizenship as a person of Chagossian descent",
+  "synonyms": [
+    "Apply to register as a British overseas territories citizen and British citizen: Form BIOT/Chagossian descendant"
+  ],
+  "description": "You can apply to become a British overseas territories citizen and a British citizen if you you’ve never previously been a British citizen and you’re the direct descendant of someone born in British Indian Ocean Territory.",
+  "theme": "Visas and immigration",
+  "organisation": [
+    "Home Office",
+    "UK Visas and Immigration"
+  ],
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/apply-british-citizenship-person-chagossian-descent",
+  "liveservice": "https://visas-immigration.service.gov.uk/product/nationality-biot"
+}
