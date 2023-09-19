@@ -50,6 +50,17 @@
       {
         "label": "Service launched",
         "date": "2023-01-16"
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2022-11-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-voter-authority-certificate-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
       }
     ]
   }
