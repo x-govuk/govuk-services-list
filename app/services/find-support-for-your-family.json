@@ -1,0 +1,14 @@
+{
+  "name": "Find support for your family",
+  "description": "You can find help, services and activities in your local area, including activities, support for parents and carers, support with special educational needs and disabilities and help with mental health,relationships, money, housing or family life.",
+  "organisation": "Department for Education",
+  "theme": "Childcare and parenting",
+  "phase": "beta",
+  "liveservice": "https://www.find-support-for-your-family.education.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/fh-service-directory-ui"
+    }
+  ]
+}
