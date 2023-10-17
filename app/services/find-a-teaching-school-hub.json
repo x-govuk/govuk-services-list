@@ -1,0 +1,14 @@
+{
+  "name": "Find a teaching school hub",
+  "description": "Use this service to find the contact details and websites of teaching school hubs near you.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "liveservice": "https://find-a-teaching-school-hub.education.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/teaching-school-hub-finder"
+    }
+  ]
+}
