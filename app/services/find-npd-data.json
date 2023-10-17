@@ -1,0 +1,15 @@
+{
+  "name": "National Pupil Database (NPD)",
+  "description": "Use this tool to find and explore information about the data that is held in the NPD, a key DfE data store, covering education, skills and children services data for individual learners in England.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/guidance/apply-for-department-for-education-dfe-personal-data",
+  "liveservice": "https://www.find-npd-data.education.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/npd-find-and-explore"
+    }
+  ]
+}
