@@ -1,0 +1,22 @@
+{
+  "name": "Access your teaching qualifications",
+  "description": "Qualified teachers can use this service to download your teaching certificates, check qualification and early career teacher induction status and change the name on your teaching certificates.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "beta",
+  "liveservice": "https://access-your-teaching-qualifications.education.gov.uk/",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/access-your-teaching-qualifications"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2023-07-21"
+      }
+    ]
+  }
+}
