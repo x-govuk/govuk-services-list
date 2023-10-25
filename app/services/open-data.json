@@ -9,6 +9,12 @@
   "theme": "Government Internal",
   "phase": "beta",
   "liveservice": "https://data.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/alphagov/datagovuk_find"
+    }
+  ],
   "timeline": {
     "items": [
       {

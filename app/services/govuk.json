@@ -5,5 +5,11 @@
   "organisation": "Government Digital Service",
   "phase": "live",
   "facing": "internal",
-  "liveservice": "https://www.gov.uk/"
+  "liveservice": "https://www.gov.uk/",
+  "sourceCode": [
+    {
+      "text": "Source code for the homepage, transactions and some index pages",
+      "href": "https://github.com/alphagov/frontend"
+    }
+  ]
 }

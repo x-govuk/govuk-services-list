@@ -6,6 +6,16 @@
   "phase": "beta",
   "liveservice": "https://design-system.service.gov.uk",
   "facing": "internal",
+  "sourceCode": [
+    {
+      "text": "Website source code",
+      "href": "https://github.com/alphagov/govuk-design-system"
+    },
+    {
+      "text": "govuk-frontend source code",
+      "href": "https://github.com/alphagov/govuk-frontend"
+    }
+  ],
   "timeline": {
     "items": [
       {
