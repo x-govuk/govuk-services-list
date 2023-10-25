@@ -10,6 +10,20 @@
   "theme": "Government Internal",
   "phase": "beta",
   "liveservice": "https://www.sign-in.service.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Product page source code",
+      "href": "https://github.com/alphagov/di-onboarding-product-page"
+    },
+    {
+      "text": "Admin tool source code",
+      "href": "https://github.com/alphagov/di-onboarding-self-service-experience"
+    },
+    {
+      "text": "Account management frontend source code",
+      "href": "https://github.com/alphagov/di-account-management-frontend"
+    }
+  ],
   "timeline": {
     "items": [
       {
