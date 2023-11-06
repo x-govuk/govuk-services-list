@@ -7,6 +7,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
   "phase": "beta",
-  "liveservice": "https://www.tax.service.gov.uk/customs/register-for-cds/isle-of-man",
+  "liveservice": "https://www.tax.service.gov.uk/customs-registration-services/eori-only/register/vat-group",
   "start-page": "https://www.gov.uk/eori/apply-for-eori"
 }
