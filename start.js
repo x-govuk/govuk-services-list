@@ -73,7 +73,7 @@ app.locals.organisations = [
   {"name": 'Ministry of Justice'},
   {"name": 'HM Revenue and Customs'},
   {"name": 'Environment Agency'},
-  {"name": 'NHS Digital'},
+  {"name": 'NHS England'},
   {"name": 'Companies House'},
   {"name": 'Ofsted'},
   {"name": 'Insolvency Service'},
