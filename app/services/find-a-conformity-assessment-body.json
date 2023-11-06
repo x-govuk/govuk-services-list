@@ -6,7 +6,7 @@
   "description": "The UK Market Conformity Assessment Bodies (UKMCAB) database on GOV.UK serves as the UK’s database of CABs, and the UK equivalent of the EU’s NANDO database. UKMCAB is the definitive source of UK CABs who can certify goods for both the GB and NI markets.",
   "organisation": [
     "Office for Product Safety and Standards",
-    "Department for Business & Trade"
+    "Department for Business and Trade"
   ],
   "theme": "Business and self-employed",
   "phase": "beta",

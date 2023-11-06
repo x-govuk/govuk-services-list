@@ -59,7 +59,7 @@ app.locals.themes = [
 
 app.locals.organisations = [
   {"name": 'Cabinet Office'},
-  {"name": 'Department for Business, Energy & Industrial Strategy'},
+  {"name": 'Department for Business and Trade'},
   {"name": 'Department for Education'},
   {"name": 'Department for Environment, Food & Rural Affairs'},
   {"name": 'Department for International Trade'},
@@ -67,6 +67,7 @@ app.locals.organisations = [
   {"name": 'Department for Transport'},
   {"name": 'Department for Work and Pensions'},
   {"name": 'Department of Health and Social Care'},
+  {"name": 'Department for Energy Security and Net Zero'},
   {"name": 'Foreign, Commonwealth & Development Office'},
   {"name": 'Home Office'},
   {"name": 'Ministry of Defence'},

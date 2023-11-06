@@ -5,7 +5,7 @@
   ],
   "description": "Find out if a heat pump could be a suitable choice of central heating system for your home, before you install one.",
   "theme": "Housing and local services",
-  "organisation": "Department for Business, Energy & Industrial Strategy",
+  "organisation": "Department for Energy Security and Net Zero",
   "phase": "beta",
   "liveservice": "https://www.heat-pump-check.service.gov.uk/",
   "start-page": "https://www.gov.uk/check-heat-pump"
