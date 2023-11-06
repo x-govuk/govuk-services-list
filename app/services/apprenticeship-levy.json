@@ -8,7 +8,8 @@
   "theme": "Education, training and skills",
   "organisation": "Education and Skills Funding Agency",
   "phase": "beta",
-  "liveservice": "https://manage-apprenticeships.service.gov.uk/",
+  "start-page": "https://www.gov.uk/sign-in-apprenticeship-service-account",
+  "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk/service",
   "tags": [
     "Top 75"
   ],
