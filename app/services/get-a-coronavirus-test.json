@@ -5,7 +5,7 @@
     "Get a free NHS test today to check if you have coronavirus"
   ],
   "description": "Order a swab test for home delivery or book a slot at a testing centre.",
-  "organisation": "NHS Digital",
+  "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
   "phase": "retired",
   "liveservice": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
