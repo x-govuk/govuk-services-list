@@ -8,5 +8,5 @@
   ],
   "phase": "beta",
   "start-page": "https://www.gov.uk/quality-of-local-bathing-water",
-  "liveservice": "http://environment.data.gov.uk/bwq/profiles/"
+  "liveservice": "https://environment.data.gov.uk/bwq/profiles/"
 }

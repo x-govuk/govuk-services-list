@@ -10,6 +10,6 @@
   ],
   "theme": "Environment and countryside",
   "phase": "beta",
-  "liveservice": "http://www.vmd.defra.gov.uk/ProductInformationDatabase/",
+  "liveservice": "https://www.vmd.defra.gov.uk/ProductInformationDatabase/",
   "start-page": "https://www.gov.uk/check-animal-medicine-licensed"
 }

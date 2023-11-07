@@ -4,6 +4,6 @@
   "theme": "Money and tax",
   "organisation": "The Charity Commission",
   "phase": "beta",
-  "liveservice": "http://forms.charitycommission.gov.uk/dissolution-form/",
+  "liveservice": "https://forms.charitycommission.gov.uk/dissolution-form/",
   "start-page": "https://www.gov.uk/remove-charity-register"
 }

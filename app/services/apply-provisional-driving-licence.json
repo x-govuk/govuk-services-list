@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "beta",
-  "liveservice": "http://apply-provisional-driving-licence.service.gov.uk/",
+  "liveservice": "https://apply-provisional-driving-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-first-provisional-driving-licence",
   "tags": [
     "Top 75"

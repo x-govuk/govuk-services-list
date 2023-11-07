@@ -4,6 +4,6 @@
   "organisation": "Department for International Trade",
   "theme": "Business and self-employed",
   "phase": "beta",
-  "liveservice": "http://check-international-trade-barriers.service.gov.uk/",
+  "liveservice": "https://check-international-trade-barriers.service.gov.uk/",
   "start-page": "https://www.gov.uk/barriers-trading-investing-abroad"
 }

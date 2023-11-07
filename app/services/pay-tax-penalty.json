@@ -4,7 +4,7 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "beta",
-  "liveservice": "http://www.tax.service.gov.uk/pay/taxes-penalties-and-enquiry-settlements/choose-a-way-to-pay",
+  "liveservice": "https://www.tax.service.gov.uk/pay/taxes-penalties-and-enquiry-settlements/choose-a-way-to-pay",
   "start-page": "https://www.gov.uk/guidance/pay-taxes-penalties-and-enquiry-settlements",
   "timeline": {
     "items": [
