@@ -4,6 +4,6 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "beta",
-  "liveservice": "http://check-vehicle-compatibility-e10-petrol.service.gov.uk/",
+  "liveservice": "https://check-vehicle-compatibility-e10-petrol.service.gov.uk/",
   "start-page": "https://www.gov.uk/check-vehicle-e10-petrol"
 }
