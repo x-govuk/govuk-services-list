@@ -1,0 +1,20 @@
+{
+  "name": "Find apprenticeship training for your apprentice",
+  "synonyms": [
+    "Find apprenticeship training if you're an employer"
+  ],
+  "description": "If you’re an employer, you can find training for your apprentices.",
+  "theme": "Education, training and skills",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "phase": "beta",
+  "start-page": "https://www.gov.uk/employers-find-apprenticeship-training",
+  "liveservice": "https://findapprenticeshiptraining.apprenticeships.education.gov.uk/courses",
+  "sourceCode": [{
+      "text": "Source code",
+      "href": "https://github.com/SkillsFundingAgency/das-findapprenticeshiptraining"
+    }
+  ]
+}
