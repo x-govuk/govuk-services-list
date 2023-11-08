@@ -1,7 +1,10 @@
 {
   "name": "National Careers Service",
   "description": "Information, advice and guidance to help you make decisions on learning, training and work.",
-  "organisation": "Education and Skills Funding Agency",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
   "theme": "Education, training and skills",
   "phase": "beta",
   "liveservice": "https://nationalcareers.service.gov.uk",

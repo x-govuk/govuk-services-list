@@ -6,7 +6,10 @@
   ],
   "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
   "theme": "Education, training and skills",
-  "organisation": "Education and Skills Funding Agency",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
   "phase": "beta",
   "start-page": "https://www.gov.uk/sign-in-apprenticeship-service-account",
   "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk/service",
