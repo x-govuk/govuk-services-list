@@ -12,7 +12,8 @@
   "phase": "beta",
   "start-page": "https://www.gov.uk/employers-find-apprenticeship-training",
   "liveservice": "https://findapprenticeshiptraining.apprenticeships.education.gov.uk/courses",
-  "sourceCode": [{
+  "sourceCode": [
+    {
       "text": "Source code",
       "href": "https://github.com/SkillsFundingAgency/das-findapprenticeshiptraining"
     }
