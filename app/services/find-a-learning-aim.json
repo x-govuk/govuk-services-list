@@ -1,7 +1,10 @@
 {
   "name": "Find a learning aim",
   "description": "Find the latest information on available Qualifications, Standards, Apprenticeships, T Levels and Units.",
-  "organisation": "Education and Skills Funding Agency",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
   "theme": "Education, training and skills",
   "phase": "live",
   "liveservice": "https://submit-learner-data.service.gov.uk/find-a-learning-aim/",

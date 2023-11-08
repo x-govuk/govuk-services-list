@@ -1,7 +1,10 @@
 {
   "name": "Find a traineeship",
   "description": "A traineeship is a course with work experience that gets you ready for work or an apprenticeship. It can last from 6 weeks up to 1 year, though most traineeships last for less than 6 months.",
-  "organisation": "Education and Skills Funding Agency",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
   "theme": "Working, jobs and pensions",
   "phase": "live",
   "liveservice": "https://www.findapprenticeship.service.gov.uk/traineeshipsearch",

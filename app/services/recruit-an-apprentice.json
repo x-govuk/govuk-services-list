@@ -7,7 +7,10 @@
   ],
   "description": "This service is for registered training providers (including large employers with direct grant funding) to post vacancies and manage applications for apprenticeships and traineeships.",
   "theme": "Education, training and skills",
-  "organisation": "Education and Skills Funding Agency",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
   "phase": "unknown",
   "start-page": [
     "https://www.gov.uk/recruit-apprentice",
