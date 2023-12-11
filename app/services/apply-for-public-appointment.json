@@ -3,7 +3,7 @@
   "description": "Search and apply for a position at a public body, such as a national museum, regulatory agency or a specialist advisory council.",
   "organisation": "Cabinet Office",
   "theme": "Working, jobs and pensions",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-for-public-appointment.service.gov.uk/",
   "start-page": "https://www.gov.uk/public-appointments"
 }

@@ -3,7 +3,7 @@
   "description": "Change your charity's details with the Charity Commission online.",
   "theme": "Money and tax",
   "organisation": "The Charity Commission",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://my-charity-account.charitycommission.gov.uk",
   "start-page": "https://www.gov.uk/change-your-charitys-details",
   "timeline": {

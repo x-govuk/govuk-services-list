@@ -10,7 +10,7 @@
     "Education and Skills Funding Agency",
     "Department for Education"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/sign-in-apprenticeship-service-account",
   "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk/service",
   "tags": [

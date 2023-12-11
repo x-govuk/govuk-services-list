@@ -3,7 +3,7 @@
   "description": "You can search the Armed Forces Memorial roll of honour to see if someone’s listed on it.",
   "organisation": "Ministry of Defence",
   "theme": "Citizenship and living in the UK",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.search-armed-forces-memorial-roll-of-honour.service.gov.uk/",
   "start-page": "https://www.gov.uk/search-armed-forces-memorial-roll-of-honour",
   "timeline": {

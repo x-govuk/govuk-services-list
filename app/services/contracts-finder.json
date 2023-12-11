@@ -3,7 +3,7 @@
   "description": "Not available.",
   "theme": "Government Internal",
   "organisation": "Crown Commercial Service",
-  "phase": "beta",
+  "phase": "Beta",
   "facing": "internal",
   "liveservice": "https://www.contractsfinder.service.gov.uk",
   "start-page": "https://www.gov.uk/contracts-finder"

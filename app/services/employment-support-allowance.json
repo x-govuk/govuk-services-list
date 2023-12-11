@@ -9,7 +9,7 @@
   "description": "Use this service if you need financial support because you’re off work with a health condition, injury or disability.",
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.apply-new-style-employment-support-allowance.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/new-style-employment-and-support-allowance",
   "tags": [

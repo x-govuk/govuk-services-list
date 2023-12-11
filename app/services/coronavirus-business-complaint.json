@@ -3,6 +3,6 @@
   "description": "Use this service to report a business you believe is behaving unfairly during the Coronavirus (COVID-19) outbreak to the Competition and Markets Authority (CMA).",
   "organisation": "Competition and Markets Authority",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://www.coronavirus-business-complaint.service.gov.uk"
 }

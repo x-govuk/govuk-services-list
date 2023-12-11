@@ -7,7 +7,7 @@
   "description": "Browse a list of available government grants and see if you're eligible to apply for them.",
   "organisation": "Cabinet Office",
   "theme": "Money and tax",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/guidance/find-government-grants",
   "liveservice": "https://www.find-government-grants.service.gov.uk",
   "sourceCode": [

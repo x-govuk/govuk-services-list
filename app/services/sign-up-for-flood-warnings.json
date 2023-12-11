@@ -6,7 +6,7 @@
   "description": "Sign up to get warnings in England by phone, email or text message if your home or business is at risk of flooding. The service is free.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/sign-up-for-flood-warnings",
   "liveservice": "https://www.fws.environment-agency.gov.uk/app/olr/register",
   "timeline": {

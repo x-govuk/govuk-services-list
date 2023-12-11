@@ -3,7 +3,7 @@
   "description": "Application processes for mainstream and special schools applying to convert to academy status.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-convert-academy.service.gov.uk",
   "start-page": "https://www.gov.uk/government/publications/academy-conversion-application-forms",
   "sourceCode": [

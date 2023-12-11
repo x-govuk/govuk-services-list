@@ -6,7 +6,7 @@
   "description": "Use this service to report actual income from self-employment if you estimated it, tell HM Revenue and Customs (HMRC) about changes to your circumstances, or to find out how much and when you’ll be paid",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/manage-your-tax-credits",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/tax-credits-service/renewals/service-router&accountType=individual&origin=PTA-taxcredits"
 }

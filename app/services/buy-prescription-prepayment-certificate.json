@@ -7,7 +7,7 @@
   "description": "You can buy prescription prepayment certificates (PPCs) from the NHS which may make your prescriptions cheaper.",
   "organisation": "NHS Business Services Authority",
   "theme": "Money and tax",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://services.nhsbsa.nhs.uk/buy-prescription-prepayment-certificate/start",
   "start-page": "https://www.gov.uk/get-a-ppc",
   "timeline": {

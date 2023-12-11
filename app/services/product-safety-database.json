@@ -3,7 +3,7 @@
   "description": "Report, track and share product safety information with the product safety community",
   "organisation": "Office for Product Safety and Standards",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.product-safety-database.service.gov.uk",
   "sourceCode": [
     {

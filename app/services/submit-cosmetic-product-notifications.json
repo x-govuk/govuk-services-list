@@ -3,7 +3,7 @@
   "description": "Notify the Office for Product Safety and Standards (OPSS) about cosmetic products available to consumers in Great Britain (GB).",
   "organisation": "Office for Product Safety and Standards",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://submit.cosmetic-product-notifications.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
   "sourceCode": [

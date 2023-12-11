@@ -9,7 +9,7 @@
     "Department for Education"
   ],
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://find-epao.apprenticeships.education.gov.uk/courses",
   "start-page": "https://www.gov.uk/find-endpoint-assessment-organisation-apprentice"
 }

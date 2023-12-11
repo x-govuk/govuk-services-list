@@ -7,7 +7,7 @@
   "description": "Use this service to claim money if your employer owes you a redundancy payment or other money like wages, holiday and commission.",
   "theme": "Employing people",
   "organisation": "Insolvency Service",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/claim-redundancy",
   "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
   "tags": [

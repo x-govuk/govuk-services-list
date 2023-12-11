@@ -9,7 +9,7 @@
     "Home Office",
     "UK Visas and Immigration"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/standard-visitor-visa/apply",
   "liveservice": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
   "tags": [

@@ -3,7 +3,7 @@
   "description": "Apply for your first provisional driving licence from DVLA online to drive a car, motorbike or moped.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-provisional-driving-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-first-provisional-driving-licence",
   "tags": [

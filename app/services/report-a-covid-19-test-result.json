@@ -3,7 +3,7 @@
   "description": "Use this service to report your result to the NHS after using a coronavirus (COVID-19) lateral flow test kit.",
   "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "alpha",
+  "phase": "Alpha",
   "liveservice": "https://test-for-coronavirus.service.gov.uk/report-result",
   "start-page": "https://www.gov.uk/report-covid19-result"
 }

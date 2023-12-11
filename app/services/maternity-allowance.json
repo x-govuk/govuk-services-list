@@ -6,7 +6,7 @@
   "description": "Maternity Allowance is a payment you can get when you take time off to have a baby.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase": "alpha",
+  "phase": "Alpha",
   "start-page": "https://www.gov.uk/maternity-allowance",
   "tags": [
     "Top 75"

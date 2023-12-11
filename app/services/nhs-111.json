@@ -7,7 +7,7 @@
   ],
   "description": "111 online can help if you have a medical problem and you're not sure what to do.",
   "theme": "Births, deaths, marriages and care",
-  "phase": "live",
+  "phase": "Live",
   "organisation": "NHS England",
   "liveservice": "https://111.nhs.uk",
   "timeline": {

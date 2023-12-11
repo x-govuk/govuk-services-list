@@ -3,7 +3,7 @@
   "description": "This service is for teachers who want to register to study for a National Professional Qualification (NPQ).",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "alpha",
+  "phase": "Alpha",
   "liveservice": "https://register-national-professional-qualifications.education.gov.uk",
   "start-page": "https://www.gov.uk/government/publications/national-professional-qualifications-npqs-reforms/national-professional-qualifications-npqs-reforms",
   "sourceCode": [

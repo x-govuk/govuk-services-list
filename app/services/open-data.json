@@ -7,7 +7,7 @@
   "description": "Find data published by central government, local authorities and public bodies to help you build products and services",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://data.gov.uk",
   "sourceCode": [
     {

@@ -3,6 +3,6 @@
   "description": "This service allows users to register, rewnew or update waste exemptions.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://wasteexemptions.service.gov.uk/"
 }

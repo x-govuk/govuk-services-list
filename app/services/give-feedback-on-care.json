@@ -6,7 +6,7 @@
   "description": "A way for people to tell the Care Quality Commission (CQC) about their experience at a health or social care provider.",
   "organisation": "Care Quality Commissions",
   "theme": "Births, deaths, marriages and care",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://give-feedback-on-care.service.cqc.org.uk/form/what-you-want-to-tell-us-about?searchReferrer=start-questions",
   "start-page": "https://www.cqc.org.uk/give-feedback-on-care",
   "timeline": {

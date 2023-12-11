@@ -10,7 +10,7 @@
   "description": "You can check the ‘rateable value’ of your property - this is set by the Valuation Office Agency (VOA) and used by your local council to calculate your business rates bill. You can also: request changes to property or valuation details if you think they’re wrong, view the valuation details of other properties, challenge the rateable value if eligible.",
   "theme": "Money and tax",
   "organisation": "Valuation Office Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": [
     "https://www.gov.uk/find-business-rates",
     "https://www.gov.uk/correct-your-business-rates",

@@ -3,7 +3,7 @@
   "description": "You can apply for, renew, replace or update your passport and pay for it online.",
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.passport.service.gov.uk/filter",
   "start-page": "https://www.gov.uk/apply-renew-passport",
   "tags": [

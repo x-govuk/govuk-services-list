@@ -3,7 +3,7 @@
   "description": "Search for a legal adviser or family mediator with a legal aid contract in England and Wales.",
   "organisation": "Legal Aid Agency",
   "theme": "Crime, justice and the law",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://find-legal-advice.justice.gov.uk",
   "sourceCode": [
     {

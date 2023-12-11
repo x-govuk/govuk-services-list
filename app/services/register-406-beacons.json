@@ -3,7 +3,7 @@
   "description": "Register a UK 406 MHz emergency beacon",
   "organisation": "Maritime and Coastguard Agency",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://register-406-beacons.service.gov.uk/account/sign-up-or-sign-in",
   "start-page": "https://www.gov.uk/register-406-beacons"
 }

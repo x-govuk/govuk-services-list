@@ -6,7 +6,7 @@
   "description": "Use this service to find out if you need to pay for your vehicle and to pay the daily charge.",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://multiple-vehiclecheck.drive-clean-air-zone.service.gov.uk/what_would_you_like_to_do",
   "start-page": "https://www.gov.uk/clean-air-zones",
   "tags": [

@@ -6,7 +6,7 @@
   "description": "The King’s Awards for Enterprise are for outstanding achievement by UK businesses in the categories of: innovation, international trade, sustainable development, promoting opportunity through social mobility",
   "organisation": "Department for Business and Trade",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/kings-awards-for-enterprise/how-to-apply",
   "liveservice": "https://www.kings-awards-enterprise.service.gov.uk/users/sign_up",
   "tags": [

@@ -3,7 +3,7 @@
   "description": "Applying for the legal right to deal with someone’s property, money and possessions (their ‘estate’) when they die is called ‘applying for probate’.",
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/applying-for-probate/apply-for-probate",
   "liveservice": "https://www.apply-for-probate.service.gov.uk/death-certificate",
   "timeline": {

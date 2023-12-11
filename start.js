@@ -16,22 +16,22 @@ app.locals.phases = [
     projects_count: 0
   },
   {
-    name: "alpha",
+    name: "Alpha",
     class: "purple",
     projects_count: 0
   },
   {
-    name: "beta",
+    name: "Beta",
     class: "pink",
     projects_count: 0
   },
   {
-    name: "live",
+    name: "Live",
     class: "green",
     projects_count: 0
   },
   {
-    name: "retired",
+    name: "Retired",
     class: "grey",
     projects_count: 0
   }

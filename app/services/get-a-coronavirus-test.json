@@ -7,7 +7,7 @@
   "description": "Order a swab test for home delivery or book a slot at a testing centre.",
   "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
   "start-page": "https://www.gov.uk/get-coronavirus-test"
 }

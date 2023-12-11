@@ -7,7 +7,7 @@
   "description": "Use this service to pay a company's late filing penalty.",
   "organisation": "Companies House",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/late-filing-penalty",
   "start-page": "https://www.gov.uk/pay-a-penalty-for-filing-company-accounts-late",
   "timeline": {

@@ -7,7 +7,7 @@
   "description": "An overview dashboard visualisation containing high quality, trusted data, statistics and analysis that are required to monitor and evaluate the effectiveness of mitigation measures and adaptation practices.",
   "organisation": "Office for National Statistics",
   "theme": "Environment and countryside",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://climate-change.data.gov.uk",
   "start-page": "https://www.gov.uk/government/collections/local-government-climate-change-and-the-environment",
   "timeline": {

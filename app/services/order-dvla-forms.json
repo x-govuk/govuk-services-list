@@ -6,7 +6,7 @@
   "description": "You can order the application pack for a car, moped or motorcycle driving licence.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/dvlaforms",
   "liveservice": "https://contact.dvla.gov.uk/order-dvla-forms"
 }

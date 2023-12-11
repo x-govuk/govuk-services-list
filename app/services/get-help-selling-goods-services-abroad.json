@@ -6,7 +6,7 @@
   "description": "Ask the Department for International Trade a question to help your UK business export goods or services.",
   "organisation": "Department for International Trade",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.get-help-selling-goods-services-abroad.service.gov.uk/",
   "start-page": "https://www.gov.uk/ask-export-support-team",
   "tags": [

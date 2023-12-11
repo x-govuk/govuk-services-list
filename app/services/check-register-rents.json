@@ -6,7 +6,7 @@
   "description": "Search the register of fair rents to find out the maximum rent that can be charged for a ‘regulated tenancy’ (also known as a ‘protected’ or ‘secure’ tenancy).",
   "organisation": "HM Revenue and Customs",
   "theme": "Housing and local services",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/check-register-fair-rents/search",
   "start-page": "https://www.gov.uk/check-register-rents"
 }

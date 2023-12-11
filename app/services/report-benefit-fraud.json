@@ -3,7 +3,7 @@
   "description": "Lets users report someone they suspect is claiming benefits they aren't entitled to.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase": "beta",
+  "phase": "Beta",
   "phase_modifier": "Public",
   "liveservice": "https://www.report-benefit-fraud.service.gov.uk/details",
   "timeline": {

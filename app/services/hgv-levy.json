@@ -5,7 +5,7 @@
   ],
   "description": "Use this service to pay the levy for heavy goods vehicles",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.hgvlevy.service.gov.uk/",
   "start-page": "https://www.gov.uk/hgv-levy"
 }

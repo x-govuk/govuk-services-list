@@ -6,7 +6,7 @@
   "description": "Report an excessively smoky lorry or bus exhaust to the Driver and Vehicle Standards Agency (DVSA).",
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://contact-dvsa.service.gov.uk/report-smoky-vehicle",
   "start-page": "https://www.gov.uk/report-smoky-vehicle"
 }

@@ -3,7 +3,7 @@
   "description": "The system helps step the user through the creation of an N5B, Claim form for Possession of Property).  The resultant PDF must be printed and posted to the court along with the fee and required documents",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "live",
+  "phase": "Live",
   "start-page": "https://www.gov.uk/evicting-tenants/accelerated-possession-orders",
   "timeline": {
     "items": [

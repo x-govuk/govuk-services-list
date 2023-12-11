@@ -6,7 +6,7 @@
   "description": "Search by name, address or licence number for operators of heavy goods vehicles and public service vehicles.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "phase_modifier": "Public",
   "start-page": "https://www.gov.uk/find-vehicle-operators",
   "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/search/find-lorry-bus-operators"

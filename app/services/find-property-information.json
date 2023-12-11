@@ -3,7 +3,7 @@
   "description": "Find information about a property in England or Wales, even if you do not own it. Search by address to find the owner, how far its general boundaries extend and whether it’s at risk of flooding.",
   "theme": "Housing and local services",
   "organisation": "Land Registry",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://search-property-information.service.gov.uk/",
   "start-page": "https://www.gov.uk/search-property-information-land-registry"
 }

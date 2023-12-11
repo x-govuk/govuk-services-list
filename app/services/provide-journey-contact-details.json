@@ -3,7 +3,7 @@
   "description": "You must complete a passenger locator form online before you arrive in the UK. It’s free to submit the form.",
   "organisation": "Home Office",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://provide-journey-contact-details.homeoffice.gov.uk/passengerLocatorFormUserAccountHolderQuestion",
   "start-page": "https://www.gov.uk/provide-journey-contact-details-before-travel-uk",
   "timeline": {

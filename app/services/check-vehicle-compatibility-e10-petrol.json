@@ -3,7 +3,7 @@
   "description": "Check online if your car, motorcycle or moped can use E10 petrol.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://check-vehicle-compatibility-e10-petrol.service.gov.uk/",
   "start-page": "https://www.gov.uk/check-vehicle-e10-petrol"
 }

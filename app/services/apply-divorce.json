@@ -9,7 +9,7 @@
     "Ministry of Justice"
   ],
   "theme": "Births, deaths, marriages and care",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.apply-divorce.service.gov.uk/index",
   "start-page": "https://www.gov.uk/apply-for-divorce",
   "timeline": {

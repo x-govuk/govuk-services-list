@@ -6,7 +6,7 @@
   "description": "A biometric residence permit (BRP) can be used to confirm your identit, right to study or work in the UK or right to any public services or benefits you’re entitled to.",
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
-  "phase": "live",
+  "phase": "Live",
   "start-page": "https://www.gov.uk/biometric-residence-permits",
   "timeline": {
     "items": [

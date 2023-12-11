@@ -3,7 +3,7 @@
   "description": "Use this service to pay: fixed penalties for vehicle defects and other offences such as breaking the rules around drivers’ hours, immobilisation fees and court deposits.",
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://pay-roadside-fine.service.gov.uk/payment-code",
   "start-page": "https://www.gov.uk/pay-dvsa-roadside-fine"
 }

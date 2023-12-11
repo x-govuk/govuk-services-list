@@ -3,7 +3,7 @@
   "description": "Make a report if you're an obliged entity and the information you hold about a beneficial owner is different from the information on the people with significant control (PSC) register.",
   "organisation": "Companies House",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/report-a-discrepancy/obliged-entity/type",
   "start-page": "https://www.gov.uk/guidance/report-a-discrepancy-about-a-beneficial-owner-on-the-psc-register-by-an-obliged-entity",
   "timeline": {

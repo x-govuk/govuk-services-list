@@ -3,7 +3,7 @@
   "description": "Register a business for the Soft Drinks Industry Levy (also known as the Sugar Tax)",
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/guidance/register-for-the-soft-drinks-industry-levy",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/soft-drinks-industry-levy/register/start&origin=soft-drinks-industry-levy-frontend"
 }

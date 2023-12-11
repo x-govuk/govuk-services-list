@@ -104,7 +104,7 @@ if (services.length == 0) {
 
     var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + service + '.json').toString());
 
-    if (project.liveservice && project.phase != 'retired') {
+    if (project.liveservice && project.phase != 'Retired') {
       try {
         await page.goto(project.liveservice);
         await page.mouse.click(0, 0, {

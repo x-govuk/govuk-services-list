@@ -7,7 +7,7 @@
   "description": "A platform to help you create services to inform planning and housing decisions in England.",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "theme": "Housing and local services",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.planning.data.gov.uk",
   "sourceCode": [
     {

@@ -6,7 +6,7 @@
   "description": "This service will give you information about the different options available to make a child maintenance arrangement.",
   "organisation": "Department for Work and Pensions",
   "theme": "Childcare and parenting",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://child-maintenance.service.gov.uk/get-help-arranging-child-maintenance/",
   "start-page": "https://www.gov.uk/child-maintenance-service/how-to-apply",
   "timeline": {

@@ -6,7 +6,7 @@
   "description": "Use this service to apply for a guarantee on bonds, loans and other facilities that support UK exports.",
   "organisation": "UK Export Finance",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://get-a-guarantee-for-export-finance.service.gov.uk/login",
   "start-page": "https://www.gov.uk/guidance/get-a-guarantee-for-export-finance",
   "timeline": {

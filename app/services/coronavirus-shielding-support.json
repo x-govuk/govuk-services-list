@@ -3,7 +3,7 @@
   "description": "Use this service if you have a medical condition which means you’re classed as being clinically extremely vulnerable to coronavirus.",
   "organisation": "Government Digital Service",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://coronavirus-shielding-support.service.gov.uk/start",
   "start-page": "https://www.gov.uk/coronavirus-shielding-support",
   "sourceCode": [

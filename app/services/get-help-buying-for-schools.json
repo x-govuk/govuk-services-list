@@ -3,7 +3,7 @@
   "description": "Use this service to create a specification for a new catering service for a single school in England.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.get-help-buying-for-schools.service.gov.uk",
   "sourceCode": [
     {

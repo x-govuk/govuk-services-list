@@ -7,7 +7,7 @@
   "description": "Check your eligibility and apply for a Blue Badge. You can also use this service to reapply for a Blue Badge.",
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-blue-badge.service.gov.uk/applicant",
   "start-page": "https://www.gov.uk/apply-blue-badge",
   "timeline": {

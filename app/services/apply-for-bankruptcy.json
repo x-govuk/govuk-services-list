@@ -3,7 +3,7 @@
   "description": "Apply for bankruptcy in England and Wales.",
   "theme": "Business and self-employed",
   "organisation": "Insolvency Service",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-for-bankruptcy.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-for-bankruptcy"
 }

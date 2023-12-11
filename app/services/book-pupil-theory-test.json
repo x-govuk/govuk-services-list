@@ -6,7 +6,7 @@
   "description": "Book theory tests for your pupils, check or change appointment details, or cancel tests.",
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.trainer.book-theory-test.service.gov.uk/",
   "start-page": "https://www.gov.uk/book-pupil-theory-test",
   "timeline": {

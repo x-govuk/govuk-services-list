@@ -6,7 +6,7 @@
   "description": "Pay a maintenance order online or by telephone using a credit or debit card",
   "organisation": "HM Courts & Tribunals Service",
   "theme": "Crime, justice and the law",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://courtfines.justice.gov.uk/courtfines/pages/preselect.do",
   "start-page": "https://www.gov.uk/pay-maintenance-order-online"
 }

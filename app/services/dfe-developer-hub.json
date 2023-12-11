@@ -7,7 +7,7 @@
   "description": "Connect to the Department for Education (DfE) digital services through our APIs.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "alpha",
+  "phase": "Alpha",
   "liveservice": "https://find-and-use-an-api.education.gov.uk",
   "timeline": {
     "items": [

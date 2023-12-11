@@ -6,7 +6,7 @@
   "description": "You can make a money claim if you think a person or organisation owes you money and will not pay you back.",
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/make-money-claim",
   "liveservice": "https://www.moneyclaims.service.gov.uk/",
   "tags": [

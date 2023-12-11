@@ -3,7 +3,7 @@
   "description": "Use this service if you want to request school experience in a primary or secondary school in England.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://schoolexperience.education.gov.uk",
   "sourceCode": [
     {

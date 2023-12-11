@@ -3,7 +3,7 @@
   "description": "Use this service to get your State Pension online",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Work and Pensions",
-  "phase": "beta",
+  "phase": "Beta",
   "phase_modifier": "Private",
   "liveservice": "https://get-state-pension.service.gov.uk/confirm-identity",
   "start-page": "https://www.gov.uk/get-state-pension",

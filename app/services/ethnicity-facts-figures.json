@@ -3,6 +3,6 @@
   "description": "Use this service to find information about the different experiences of people from a variety of ethnic backgrounds.",
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.ethnicity-facts-figures.service.gov.uk"
 }

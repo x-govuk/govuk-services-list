@@ -11,7 +11,7 @@
   "description": "You can pay to get your passport sooner if you think the non-urgent service will take too long.  You need to book a passport office appointment and pay online. You can book an appointment up to 3 weeks in advance.",
   "organisation": "Home Office",
   "theme": "Passports, travel and living abroad",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.passport.service.gov.uk/urgent/",
   "start-page": "https://www.gov.uk/get-a-passport-urgently/online-premium-service",
   "timeline": {

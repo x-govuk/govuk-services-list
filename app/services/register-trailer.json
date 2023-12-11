@@ -3,7 +3,7 @@
   "description": "You must register commercial trailers over 750kg and all trailers over 3,500kg before you can drive through some countries in Europe.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://register-trailer.service.gov.uk/",
   "start-page": "https://www.gov.uk/register-trailer-to-take-abroad"
 }

@@ -3,7 +3,7 @@
   "description": "Find a modern slavery statement from organisations in the UK. Search, download and compare data.",
   "organisation": "Home Office",
   "theme": "Citizenship and living in the UK",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://modern-slavery-statement-registry.service.gov.uk",
   "start-page": "https://www.gov.uk/find-modern-slavery-statement"
 }

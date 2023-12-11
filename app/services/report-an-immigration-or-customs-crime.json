@@ -3,7 +3,7 @@
   "description": "Contact the Home Office if you think someone is living or working in the UK illegally, or is employing someone who isn’t allowed to work in the UK.",
   "theme": "Crime, justice and the law",
   "organisation": "Home Office",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": [
     "https://www.gov.uk/report-immigration-crime",
     "https://www.gov.uk/report-smuggling"

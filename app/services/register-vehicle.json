@@ -8,7 +8,7 @@
   "description": "Allows authorised vehicle manufacturers or retailers to register new vehicles or new imported vehicles for the first time.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://register-vehicle.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/register-a-vehicle-if-you-work-for-a-vehicle-manufacturer-or-retailer",
   "tags": [

@@ -7,7 +7,7 @@
   "description": "The service allows FCA accredited debt advice providers to submit their clients into a period of breathing space whilst they support them with problem debt consultation and potential longer term debt solutions cancellations through the Breathing Space service.",
   "organisation": "Insolvency Service",
   "theme": "Money and tax",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://manage-users-debt-respite-breathing-space.service.gov.uk/",
   "start-page": "https://www.gov.uk/government/publications/debt-respite-scheme-breathing-space-guidance",
   "timeline": {

@@ -7,7 +7,7 @@
   "description": "Pay to register the birth of a British national abroad.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Births, deaths, marriages and care",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/register-a-birth",
   "liveservice": "https://register-a-birth-abroad.service.gov.uk/"
 }

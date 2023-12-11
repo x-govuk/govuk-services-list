@@ -3,7 +3,7 @@
   "description": "Use this service to: see if your email service complies with the guidance on securing government email, check the level of security supported between two email domains, access the email whitelist to use when configuring your email service.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://domaininformation.service.gov.uk/",
   "timeline": {
     "items": [

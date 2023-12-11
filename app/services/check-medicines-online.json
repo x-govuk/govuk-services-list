@@ -6,7 +6,7 @@
   "description": "You can search the Medicines and Healthcare products Regulatory Agency (MHRA) register to check if a website is allowed to sell medicines in Northern Ireland.",
   "organisation": "Medicines and Healthcare products Regulatory Agency ",
   "theme": "Business and self-employed",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://medicine-seller-register.mhra.gov.uk",
   "start-page": "https://www.gov.uk/check-medicines-online"
 }

@@ -3,7 +3,7 @@
   "description": "You can get email alerts for jobs in international organisations, eg the European institutions and United Nations.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/register-jobs-international-organisations",
   "liveservice": "https://www.register-alerts-international-opportunities.service.gov.uk/Registration/Register"
 }

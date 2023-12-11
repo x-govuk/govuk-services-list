@@ -8,7 +8,7 @@
   "description": "GOV.UK One Login in is the new way for government services to sign in their users",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.sign-in.service.gov.uk",
   "sourceCode": [
     {

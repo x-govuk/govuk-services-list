@@ -6,7 +6,7 @@
   "description": "Use this service to apply for certificates and inspections if you export plants from England and Wales.",
   "organisation": "Animal and Plant Health Agency",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://exporter.apply-plant-export-certificates.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/apply-for-plant-export-certificates-and-inspections",
   "timeline": {

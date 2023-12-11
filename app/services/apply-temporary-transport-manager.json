@@ -6,7 +6,7 @@
   "description": "AUse this service to apply to be a temporary transport manager if you work for a business that transports goods from the UK into, or through, the EU, Switzerland, Norway, Iceland or Liechtenstein.",
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
-  "phase": "alpha",
+  "phase": "Alpha",
   "liveservice": "https://apply-temporary-transport-manager.service.gov.uk/weight",
   "start-page": "https://www.gov.uk/apply-temporary-transport-manager"
 }

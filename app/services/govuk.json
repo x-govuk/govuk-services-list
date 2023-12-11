@@ -3,7 +3,7 @@
   "description": "The best place to find government services and information.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "live",
+  "phase": "Live",
   "facing": "internal",
   "liveservice": "https://www.gov.uk/",
   "sourceCode": [

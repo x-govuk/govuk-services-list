@@ -3,7 +3,7 @@
   "description": "This service enables citizens and their solicitors to submit means and capital information, with supporting evidence, and solicitors to submit merit information.",
   "organisation": "Legal Aid Agency",
   "theme": "Crime, justice and the law",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-for-legal-aid.service.justice.gov.uk",
   "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid",
   "tags": [

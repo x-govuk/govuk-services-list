@@ -3,7 +3,7 @@
   "description": "GovWifi is a wifi authentication service allowing staff and visitors to use a single username and password to connect to guest wifi across the public sector.",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.wifi.service.gov.uk",
   "timeline": {
     "items": [

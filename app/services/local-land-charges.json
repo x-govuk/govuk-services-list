@@ -6,7 +6,7 @@
   "description": "Use this service to search for restrictions (local land charges) on land or property.",
   "theme": "Housing and local services",
   "organisation": "Land Registry",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/search-local-land-charges",
   "liveservice": "https://search-local-land-charges.service.gov.uk",
   "timeline": {

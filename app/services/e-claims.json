@@ -3,7 +3,7 @@
   "description": "Apply for European Regional Development Fund (ERDF) or European Social Fund (ESF) money.",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://eclaims.communities.gov.uk/esif-web/",
   "start-page": "https://www.gov.uk/guidance/england-2014-to-2020-european-structural-and-investment-funds",
   "timeline": {

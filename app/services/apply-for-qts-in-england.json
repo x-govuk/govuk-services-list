@@ -3,6 +3,6 @@
   "description": "This service is for qualified teachers who trained outside of England who want to apply for qualified teacher status (QTS) to teach in English schools.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-for-qts-in-england.education.gov.uk/"
 }
