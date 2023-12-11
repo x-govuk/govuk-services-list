@@ -6,7 +6,7 @@
     "Legal Aid Agency",
     "Ministry of Justice"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://check-your-client-qualifies-for-legal-aid.service.gov.uk",
   "sourceCode": [
     {

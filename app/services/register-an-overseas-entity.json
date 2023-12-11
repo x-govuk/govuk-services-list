@@ -7,7 +7,7 @@
   "description": "Overseas entities who want to buy, sell or transfer property or land in the UK, must register with Companies House and tell them who their registrable beneficial owners or managing officers are.",
   "organisation": "Companies House",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/register-an-overseas-entity/sold-land-filter?start=0",
   "start-page": "https://www.gov.uk/guidance/register-an-overseas-entity",
   "timeline": {

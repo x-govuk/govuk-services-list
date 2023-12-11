@@ -3,7 +3,7 @@
   "description": "Report illegal or harmful information, pictures or videos you’ve found on the internet. You can make your report anonymously.",
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.report-terrorist-material.homeoffice.gov.uk/evidence-url",
   "start-page": "https://www.gov.uk/report-terrorism",
   "sourceCode": [

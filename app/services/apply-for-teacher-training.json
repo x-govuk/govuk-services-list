@@ -3,7 +3,7 @@
   "description": "Use this service to apply for a postgraduate teacher training course to teach in a state primary or secondary school, or in further education.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.apply-for-teacher-training.service.gov.uk/candidate/account",
   "start-page": "https://www.gov.uk/apply-for-teacher-training",
   "sourceCode": [

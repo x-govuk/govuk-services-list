@@ -6,7 +6,7 @@
   "description": "Use this tool to work out the cost of your UK visa application.",
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/visa-fees",
   "liveservice": "https://visa-fees.homeoffice.gov.uk/y"
 }

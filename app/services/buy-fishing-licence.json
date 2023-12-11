@@ -9,7 +9,7 @@
   "description": "You can buy a 1-day, 8-day or 12-month licence online.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://get-fishing-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence",
   "tags": [

@@ -6,7 +6,7 @@
     "Department for Environment, Food & Rural Affairs",
     "Environment Agency"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/quality-of-local-bathing-water",
   "liveservice": "https://environment.data.gov.uk/bwq/profiles/"
 }

@@ -6,7 +6,7 @@
   "description": "You might be eligible to order a free pack of rapid lateral flow tests to be sent to your home.",
   "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://rapid-test-home-order.test-for-coronavirus.service.gov.uk/order-lateral-flow-kits",
   "start-page": "https://www.gov.uk/order-coronavirus-rapid-lateral-flow-tests"
 }

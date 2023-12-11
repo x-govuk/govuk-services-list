@@ -10,7 +10,7 @@
   "description": "You can apply for a copy of a deceased person’s service records if you were their immediate next of kin when they died, for example their spouse, parent or child or you have a family or general research interest.",
   "organisation": "Ministry of Defence",
   "theme": "Working, jobs and pensions",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.apply-deceased-military-record.service.gov.uk/",
   "start-page": "https://www.gov.uk/get-copy-military-service-records/apply-for-someone-elses-records",
   "tags": [

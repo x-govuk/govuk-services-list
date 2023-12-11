@@ -6,7 +6,7 @@
     "Driver and Vehicle Licensing Agency",
     "Office for Zero Emission Vehicles"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/guidance/apply-for-a-plug-in-vehicle-grant",
   "liveservice": "https://www.apply-plug-in-vehicle-grant.service.gov.uk"
 }

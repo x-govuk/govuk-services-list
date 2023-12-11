@@ -3,6 +3,6 @@
   "description": "This service provides analytical insights to support business intelligence and better decision making.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://viewyourdata.education.gov.uk"
 }

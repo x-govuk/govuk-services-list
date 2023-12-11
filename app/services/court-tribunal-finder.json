@@ -3,7 +3,7 @@
   "description": "Find contact details and information on courts and tribunals in England and Wales, and some non-devolved tribunals in Scotland.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.find-court-tribunal.service.gov.uk",
   "start-page": "https://www.gov.uk/find-court-tribunal"
 }

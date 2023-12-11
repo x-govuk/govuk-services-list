@@ -9,7 +9,7 @@
   "description": "You can apply for a fee waiver so you do not have to pay a citizenship application fee.",
   "organisation": "Home Office",
   "theme": "Visas and immigration",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://visas-immigration.service.gov.uk/product/fee-waiver",
   "start-page": [
     "https://www.gov.uk/get-child-citizenship-fee-waiver",

@@ -3,7 +3,7 @@
   "description": "As an operator, you need a tachograph company card to download data from the digital tachographs in your vehicles.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-company-tachograph-card.service.gov.uk",
   "start-page": "https://www.gov.uk/apply-company-tachograph-card"
 }

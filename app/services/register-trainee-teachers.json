@@ -3,7 +3,7 @@
   "description": "Register trainees with the Department for Education and record the outcome of their training.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.register-trainee-teachers.education.gov.uk",
   "sourceCode": [
     {

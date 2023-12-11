@@ -6,7 +6,7 @@
   "description": "Lets users who are disabled or have a long-term health condition apply for a Personal Independence Payment to help them live independently.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/pip",
   "tags": [
     "Top 75",

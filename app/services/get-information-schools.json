@@ -3,7 +3,7 @@
   "description": "This is a register of schools and colleges in England. You can search for and download information on establishments, establishment groups or governors. Schools, local authorities and academy trusts can also update details by signing in to their Secure Access account.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.get-information-schools.service.gov.uk/",
   "tags": [
     "Top 75"

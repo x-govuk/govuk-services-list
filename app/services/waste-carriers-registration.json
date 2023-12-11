@@ -6,7 +6,7 @@
   "description": "Register or renew registration with the Environment Agency to transport, buy, sell or broker waste.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://wastecarriersregistration.service.gov.uk/",
   "start-page": "https://www.gov.uk/register-renew-waste-carrier-broker-dealer-england",
   "tags": [

@@ -3,7 +3,7 @@
   "description": "Use this service to get information about importing and exporting.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://check-how-to-import-export-goods.service.gov.uk/",
   "start-page": "https://www.gov.uk/check-how-to-import-export",
   "timeline": {

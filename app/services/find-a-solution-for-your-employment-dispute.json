@@ -3,7 +3,7 @@
   "description": "This service allows claimants or their representatives to notify ACAS of a workplace dispute and choose whether they want early conciliation or to get a certificate to the employment tribunal for a judge to decide.",
   "organisation": "Advisory, Conciliation and Arbitration Service",
   "theme": "Employing people",
-  "phase": "alpha",
+  "phase": "Alpha",
   "sourceCode": [
     {
       "text": "Source code for prototype",

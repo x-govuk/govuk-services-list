@@ -6,7 +6,7 @@
   "description": "Submit a general aviation report if you are a pilot or carrier of a general aviation aircraft intending to travel to or from the UK.",
   "organisation": "Home Office",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.submit-general-aviation-report.service.gov.uk/welcome/index",
   "start-page": "https://www.gov.uk/government/publications/general-aviation-operators-and-pilots-notification-of-flights",
   "timeline": {

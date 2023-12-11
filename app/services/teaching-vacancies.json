@@ -3,7 +3,7 @@
   "description": "Search for a job in teaching in England by subject or role, location, salary, full-time and part-time jobs, and by primary education and secondary education.",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Education",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://teaching-vacancies.service.gov.uk/",
   "start-page": "https://www.gov.uk/find-teaching-job",
   "sourceCode": [

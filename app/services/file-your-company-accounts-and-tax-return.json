@@ -9,7 +9,7 @@
     "Companies House",
     "HM Revenue and Customs"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/file-your-company-accounts-and-tax-return",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/cato/&origin=CATO-frontend"
 }

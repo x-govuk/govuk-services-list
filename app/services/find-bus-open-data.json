@@ -6,7 +6,7 @@
   "description": "Find and use timetable, location and fares data for local bus services in England.",
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://data.bus-data.dft.gov.uk",
   "start-page": "https://www.gov.uk/guidance/find-and-use-bus-open-data"
 }

@@ -6,7 +6,7 @@
   "description": "Apply for a digital driver tachograph card to store information about your daily work as a driver.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-driver-digital-tachograph-card.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-driver-digital-tachograph-card",
   "tags": [

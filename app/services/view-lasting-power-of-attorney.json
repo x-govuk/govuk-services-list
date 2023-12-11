@@ -3,7 +3,7 @@
   "description": "If you’re an attorney or the donor on a lasting power of attorney (LPA), you can use this service to allow people or organisations to view a summary of an LPA, keep track of which people or organisations have been given access to an LPA, view an LPA summary and see how people named on the LPA are using the service.",
   "organisation": "Ministry of Justice",
   "theme": "Crime, justice and the law",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://view-lasting-power-of-attorney.service.gov.uk/home",
   "start-page": "https://www.gov.uk/view-lasting-power-of-attorney"
 }

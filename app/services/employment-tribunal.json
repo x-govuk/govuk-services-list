@@ -3,7 +3,7 @@
   "description": "Make a claim to an employment tribunal.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://employmenttribunals.service.gov.uk",
   "tags": [
     "Original 25 exemplars"

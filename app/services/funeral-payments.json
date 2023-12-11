@@ -8,7 +8,7 @@
   "description": "You could get a Funeral Expenses Payment (also called a Funeral Payment) if you get certain benefits and need help to pay for a funeral you’re arranging.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase": "alpha",
+  "phase": "Alpha",
   "start-page": "https://www.gov.uk/funeral-payments",
   "tags": [
     "Top 75"

@@ -3,7 +3,7 @@
   "description": "Check details of a job applicant’s right to work in the UK",
   "theme": "Visas and immigration",
   "organisation": "Home Office",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://right-to-work.service.gov.uk/view",
   "start-page": "https://www.gov.uk/view-right-to-work"
 }

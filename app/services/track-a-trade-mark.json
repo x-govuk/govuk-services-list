@@ -3,7 +3,7 @@
   "description": "Sign up for alerts to check the status of a trade mark.",
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.ipo.gov.uk/tm-ealerts.htm",
   "start-page": "https://www.gov.uk/track-a-trade-mark"
 }

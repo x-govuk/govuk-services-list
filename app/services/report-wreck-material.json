@@ -3,7 +3,7 @@
   "description": "You can report recovered wreck material online.",
   "organisation": "Maritime and Coastguard Agency",
   "theme": "Crime, justice and the law",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://report-wreck-material.service.gov.uk/report/removed-property-check",
   "start-page": "https://www.gov.uk/report-wreck-material/reporting-wreck-material?step-by-step-nav=d12aa48a-0e7e-4920-956c-216110938ac2"
 }

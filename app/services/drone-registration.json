@@ -6,7 +6,7 @@
   "description": "Use this service to take the theory test to get a flyer ID and to register for an operator ID if you also own or are responsible for a drone or model aircraft.",
   "organisation": "Civil Aviation Authority",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://register-drones.caa.co.uk/register/enter-email",
   "start-page": "https://register-drones.caa.co.uk/individual/register-and-take-test-to-fly",
   "timeline": {

@@ -3,7 +3,7 @@
   "description": "You can use this service to view a summary of a lasting power of attorney (LPA),  check whether an LPA is valid and check who the attorneys are on an LPA.",
   "organisation": "Ministry of Justice",
   "theme": "Crime, justice and the law",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://use-lasting-power-of-attorney.service.gov.uk/home",
   "start-page": "https://www.gov.uk/use-lasting-power-of-attorney",
   "timeline": {

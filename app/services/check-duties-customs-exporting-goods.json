@@ -3,7 +3,7 @@
   "description": "Find information about how to move goods from the UK to the rest of the world.",
   "organisation": "Department for International Trade",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.check-duties-customs-exporting-goods.service.gov.uk/selectdest",
   "start-page": "https://www.gov.uk/check-duties-customs-exporting"
 }

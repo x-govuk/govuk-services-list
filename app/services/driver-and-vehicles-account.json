@@ -3,7 +3,7 @@
   "description": "You can use this account to view your driving record, check details of vehicles and set up vehicle tax reminders with DVLA.",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://driver-and-vehicles-account.service.gov.uk",
   "start-page": "https://www.gov.uk/driver-vehicles-account",
   "timeline": {

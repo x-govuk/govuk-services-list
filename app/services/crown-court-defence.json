@@ -9,7 +9,7 @@
   "description": "A service for solicitors and barristers to claim fees for Crown court defence cases.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "live",
+  "phase": "Live",
   "start-page": "https://www.gov.uk/guidance/claim-for-criminal-legal-work-under-graduated-fee-schemes",
   "liveservice": "https://claim-crown-court-defence.service.gov.uk/",
   "timeline": {

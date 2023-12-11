@@ -6,7 +6,7 @@
   "description": "Use this service to get a goods movement reference so you can move goods through locations which use the Goods Vehicle Movement Service.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/goods-movement-system/dashboard",
   "start-page": "https://www.gov.uk/guidance/get-a-goods-movement-reference"
 }

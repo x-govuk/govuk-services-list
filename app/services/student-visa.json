@@ -6,7 +6,7 @@
     "Home Office",
     "UK Visas and Immigration"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/student-visa/apply",
   "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/student_out_uk",
   "tags": [

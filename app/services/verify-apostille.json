@@ -3,7 +3,7 @@
   "description": "Use this service if you want to verify an Apostille certificate issued in the UK.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.verifyapostille.service.gov.uk/",
   "start-page": "https://www.gov.uk/verify-apostille",
   "sourceCode": [

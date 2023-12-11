@@ -6,7 +6,7 @@
   "description": "Use this service to apply for a Kickstart Scheme grant or add additional jobs to your existing grant agreement held directly with DWP.",
   "organisation": "Department for Work and Pensions",
   "theme": "Business and self-employed",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://www.apply-kickstart-grant-employer.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/apply-online-for-a-kickstart-scheme-grant",
   "timeline": {

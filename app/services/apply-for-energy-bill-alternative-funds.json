@@ -7,7 +7,7 @@
   "description": "Most households get a discount on their energy bills automatically. In some cases, you do not get the discount automatically. Use this service to apply for the discount if you do not get it automatically. You can only make one application per household.",
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Money and tax",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://online.apply-for-energy-bill-alternative-funds.service.gov.uk/s/#where-do-you-live",
   "start-page": [
     "https://www.gov.uk/apply-energy-bill-support-if-not-automatic",

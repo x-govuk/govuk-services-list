@@ -6,7 +6,7 @@
   "description": "Helping teams to create and run great public services that meet the Service Standard.",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.gov.uk/service-manual",
   "timeline": {
     "items": [

@@ -3,7 +3,7 @@
   "description": "Anyone has the right to appeal against a benefits decision they don’t agree with. HMCTS provide an independent appeal service called the Social Security and Child Support Tribunal. It is used by appellants and their representatives. The Social Security and Child Support tribunal (SSCS) is part of the Social Entitlement Chamber within the unified Tribunals structure. It is the largest tribunal jurisdiction within HMCTS, receiving in excess of 200,000 appeals in 2015/16. Appellants have the right to choose an oral appeal hearing and do so in around 90% of appeal hearings, requiring a network of permanent and casual hearing venues across Great Britain. The Tribunal is designed to be more informal than courts, with a more inquisitorial role and most appellants represent themselves. The service is currently fully paper based.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "alpha",
+  "phase": "Alpha",
   "timeline": {
     "items": [
       {

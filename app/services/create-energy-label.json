@@ -3,7 +3,7 @@
   "description": "Create a label for an energy-related product (ErP) that you make or sell to UK customers, for example white goods, boilers and other household appliances.",
   "organisation": "Department for Business and Trade",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://create-energy-label.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/create-an-energy-label",
   "sourceCode": [

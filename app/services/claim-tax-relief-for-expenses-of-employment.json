@@ -7,7 +7,7 @@
   "description": "Find out how to claim tax relief on money you've spent on things like work uniform and clothing, tools, business travel, professional fees and subscriptions.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/digital-forms/form/tax-relief-for-expenses-of-employment/draft/guide",
   "start-page": "https://www.gov.uk/guidance/claim-income-tax-relief-for-your-employment-expenses-p87#claim-by-post",
   "timeline": {

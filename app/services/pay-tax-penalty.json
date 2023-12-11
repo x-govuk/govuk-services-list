@@ -3,7 +3,7 @@
   "description": "HMRC intends to harmonise penalties across VAT and ITSA, as current penalty systems vary significantly across different taxes. The service will present the penalty points, penalties, interest and appeal journeys to VAT users, with a view to the service being reusable for other tax regimes.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/pay/taxes-penalties-and-enquiry-settlements/choose-a-way-to-pay",
   "start-page": "https://www.gov.uk/guidance/pay-taxes-penalties-and-enquiry-settlements",
   "timeline": {

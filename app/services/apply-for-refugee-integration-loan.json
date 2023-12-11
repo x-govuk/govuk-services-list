@@ -3,7 +3,7 @@
   "description": "Apply online for a refugee integration loan to help you settle into UK society if you’re a refugee or have humanitarian protection. ",
   "organisation": "UK Visas and Immigration",
   "theme": "Visas and immigration",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.apply-for-refugee-integration-loan.service.gov.uk",
   "start-page": "https://www.gov.uk/apply-refugee-integration-loan"
 }

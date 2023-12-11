@@ -3,6 +3,6 @@
   "description": "Immigration and asylum chamber: decisions on appeals to the Upper Tribunal.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://tribunalsdecisions.service.gov.uk"
 }

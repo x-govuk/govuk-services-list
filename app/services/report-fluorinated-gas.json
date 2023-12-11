@@ -6,7 +6,7 @@
   "description": "You must record and report how much F gas you produce, import, export and destroy.",
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://report.fluorinated-gas.service.gov.uk/report/index",
   "start-page": "https://www.gov.uk/guidance/record-and-report-f-gas-and-equipment-you-produce-or-import"
 }

@@ -7,7 +7,7 @@
   "description": "Find out if a vehicle has up-to-date vehicle tax or has been registered as off the road (SORN).",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "live",
+  "phase": "Live",
   "start-page": [
     "https://www.gov.uk/check-vehicle-tax",
     "https://www.gov.uk/check-mot-status"

@@ -7,7 +7,7 @@
   "description": "Use this service to file your confirmation statement (previously annual return).",
   "organisation": "Companies House",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/confirmation-statement",
   "start-page": [
     "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",

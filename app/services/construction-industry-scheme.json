@@ -6,7 +6,7 @@
   "description": "CIS contractors can use this service to file monthly returns and verify a subcontractor.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/use-construction-industry-scheme-online",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/construction-ind-scheme/&origin=CIS-frontend"
 }

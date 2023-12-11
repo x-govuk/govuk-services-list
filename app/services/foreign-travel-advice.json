@@ -6,7 +6,7 @@
   "description": "Get advice about travelling abroad, including the latest information on coronavirus, safety and security, entry requirements and travel warnings.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.gov.uk/foreign-travel-advice",
   "tags": [
     "Top 75"

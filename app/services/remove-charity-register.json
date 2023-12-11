@@ -3,7 +3,7 @@
   "description": "You must remove your charity from the charities register if you’ve closed (or ‘dissolved’) it.",
   "theme": "Money and tax",
   "organisation": "The Charity Commission",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://forms.charitycommission.gov.uk/dissolution-form/",
   "start-page": "https://www.gov.uk/remove-charity-register"
 }

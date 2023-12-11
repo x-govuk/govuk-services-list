@@ -7,7 +7,7 @@
   "description": "Use this service if you need to repay debt to the Department for Work and Pensions (DWP) but you do not get benefits anymore.",
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.repay-manage-benefit-owed.service.gov.uk",
   "start-page": "https://www.gov.uk/repay-manage-benefit-owed",
   "timeline": {

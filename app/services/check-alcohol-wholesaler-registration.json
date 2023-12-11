@@ -6,7 +6,7 @@
   "description": "If you buy alcohol to sell on, you must check that the wholesaler or producer you buy it from is approved.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/check-the-awrs-register",
   "start-page": "https://www.gov.uk/check-alcohol-wholesaler-registration"
 }

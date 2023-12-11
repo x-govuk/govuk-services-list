@@ -3,7 +3,7 @@
   "description": "To get an energy performance certificate for your home, you to need have your property assessed. Search for an accredited assessor in your area.",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "theme": "Housing and local services",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://getting-new-energy-certificate.service.gov.uk/find-an-assessor/type-of-property",
   "start-page": "https://www.gov.uk/get-new-energy-certificate",
   "timeline": {

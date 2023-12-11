@@ -6,7 +6,7 @@
   "description": "You might be able to get money off your court or tribunal fees if you have little or no savings, are on certain benefits or have a low income. There are different ways of applying for help with fees for the Court of Protection and the First-Tier Immigration and Asylum Tribunal.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/get-help-with-court-fees",
   "liveservice": "https://helpwithcourtfees.service.gov.uk/checklist",
   "timeline": {

@@ -3,7 +3,7 @@
   "description": "Find, download and explore official Department for Education statistics and data in England.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://explore-education-statistics.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/explore-education-statistics"
 }

@@ -3,6 +3,6 @@
   "description": "Use this form to ask a question about applying for settled status under the EU Settlement Scheme. We’ll reply within 5 working days.",
   "organisation": "Home Office",
   "theme": "Visas and immigration",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://eu-settled-status-enquiries.service.gov.uk/start"
 }

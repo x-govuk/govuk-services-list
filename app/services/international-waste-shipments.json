@@ -3,7 +3,7 @@
   "description": "Notify government and receive consent to ship waster internationally.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/guidance/importing-and-exporting-waste-plastic",
   "liveservice": "https://international-waste-shipments.service.gov.uk"
 }

@@ -6,7 +6,7 @@
   "description": "You must pay the Dartford Crossing charge by midnight the day after you cross.",
   "theme": "Driving and transport",
   "organisation": "Highways England",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/pay-dartford-crossing-charge",
   "liveservice": "https://pay-dartford-crossing-charge.service.gov.uk/landing",
   "timeline": {

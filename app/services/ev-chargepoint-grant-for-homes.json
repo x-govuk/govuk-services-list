@@ -6,7 +6,7 @@
   "description": "An electric vehicle chargepoint grant (also called an EV chargepoint grant) is money you can get towards installing a chargepoint at your property.",
   "organisation": "Office for Zero Emission Vehicles",
   "theme": "Housing and local services",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://chargepointgrants.dft.gov.uk/signin",
   "start-page": [
     "https://www.gov.uk/apply-for-an-electric-chargepoint-grant-landlord",

@@ -3,7 +3,7 @@
   "description": "Try GOV.UK Notify now if you work in central government, a local authority, or the NHS.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "beta",
+  "phase": "Beta",
   "facing": "internal",
   "liveservice": "https://www.notifications.service.gov.uk/",
   "timeline": {

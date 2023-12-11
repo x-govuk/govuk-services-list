@@ -7,7 +7,7 @@
   "description": "Find the residency status of your members to give them the right tax relief using relief at source.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/relief-at-source",
   "start-page": "https://www.gov.uk/guidance/check-a-pension-scheme-members-residency-status-for-relief-at-source",
   "timeline": {

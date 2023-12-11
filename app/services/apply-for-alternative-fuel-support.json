@@ -6,7 +6,7 @@
   "description": "Most households will automatically get a £200 Alternative Fuels Payment (AFP). If you do not get it automatically, use this service to apply for £200 support to help pay for alternative fuels.",
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Money and tax",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://online.apply-for-alternative-fuel-support.service.gov.uk/s/#where-do-you-live",
   "start-page": "https://www.gov.uk/apply-alternative-fuel-bill-support-if-not-automatic",
   "timeline": {

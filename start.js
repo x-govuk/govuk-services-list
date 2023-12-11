@@ -16,22 +16,22 @@ app.locals.phases = [
     projects_count: 0
   },
   {
-    name: "alpha",
+    name: "Alpha",
     class: "purple",
     projects_count: 0
   },
   {
-    name: "beta",
+    name: "Beta",
     class: "pink",
     projects_count: 0
   },
   {
-    name: "live",
+    name: "Live",
     class: "green",
     projects_count: 0
   },
   {
-    name: "retired",
+    name: "Retired",
     class: "grey",
     projects_count: 0
   }
@@ -197,7 +197,7 @@ app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
 app.use('/', express.static(path.join(__dirname, 'static')))
 
 var env = nunjucks.configure(['app/views/',
-    'node_modules/govuk-frontend/'], {
+    'node_modules/govuk-frontend/dist'], {
     autoescape: true,
     express: app,
     watch: (process.env.ENV === 'development')

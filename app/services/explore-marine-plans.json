@@ -3,7 +3,7 @@
   "description": "Find marine planning information for England, including data on marine licenses, environmental designations and policy information from regional marine plans.",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Environment and countryside",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://explore-marine-plans.marineservices.org.uk/",
   "start-page": "https://www.gov.uk/guidance/explore-marine-plans"
 }

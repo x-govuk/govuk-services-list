@@ -6,7 +6,7 @@
   "description": "Direct access to up-to-date government data",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "retired",
+  "phase": "Retired",
   "liveservice": "https://www.registers.service.gov.uk",
   "timeline": {
     "items": [

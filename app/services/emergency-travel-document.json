@@ -3,7 +3,7 @@
   "description": "You can only get an emergency travel document if you're abroad. If the person needing to travel is currently in the UK they should apply for a passport. An emergency travel document is normally issued within 2 working days and can sometimes be done within 24 hours. It costs £100 or the equivalent in local currency which can be paid online or in the consulate.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.apply-emergency-travel-document.service.gov.uk/",
   "sourceCode": [
     {

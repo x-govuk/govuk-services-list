@@ -6,7 +6,7 @@
   "description": "Use this calculator to work out an amount of child maintenance for your children.",
   "organisation": "Department for Work and Pensions",
   "theme": "Childcare and parenting",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://child-maintenance.dwp.gov.uk/calculate/",
   "start-page": "https://www.gov.uk/calculate-child-maintenance"
 }

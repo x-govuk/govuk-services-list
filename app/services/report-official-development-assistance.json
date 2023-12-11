@@ -3,7 +3,7 @@
   "description": "This service is for reporting research and innovation Official Development Assistance.",
   "organisation": "Department for Business and Trade",
   "theme": "Business and self-employed",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.report-official-development-assistance.service.gov.uk",
   "sourceCode": [
     {

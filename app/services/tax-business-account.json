@@ -6,7 +6,7 @@
   "description": "View and access your business taxes in one place",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/business-account",
   "start-page": "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account",
   "tags": [

@@ -3,7 +3,7 @@
   "description": "Use this service to claim money if your employer is insolvent and you have not been paid for your notice period (‘statutory notice pay’). This includes if you did not work your notice period.",
   "theme": "Employing people",
   "organisation": "Insolvency Service",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/claim-loss-notice",
   "liveservice": "https://notice.redundancy-payments.service.gov.uk/claims/personal-details"
 }

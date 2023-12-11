@@ -11,7 +11,7 @@
   "description": "Apply online for student finance",
   "theme": "Education, training and skills",
   "organisation": "Student Loans Company",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": [
     "https://www.gov.uk/apply-online-for-student-finance",
     "https://www.gov.uk/student-finance-register-login"

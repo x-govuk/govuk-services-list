@@ -3,7 +3,7 @@
   "description": "Use this online service to fill in your deputy report and send it to the Office of the Public Guardian (OPG).",
   "theme": "Crime, justice and the law",
   "organisation": "Office of the Public Guardian",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://complete-deputy-report.service.gov.uk/",
   "start-page": "https://www.gov.uk/government/publications/deputy-annual-report-accounting-for-your-actions"
 }

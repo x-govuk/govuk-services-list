@@ -3,7 +3,7 @@
   "description": "Find a test centre and book an MOT (annual test) for a heavy goods vehicle (HGV), public service vehicle (PSV) or trailer in England, Scotland and Wales",
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
-  "phase": "alpha",
+  "phase": "Alpha",
   "liveservice": "https://find-test-centre-hgv-bus-trailer-mot.service.gov.uk",
   "start-page": "https://www.gov.uk/find-mot-test-centre-hgv-bus-trailer"
 }

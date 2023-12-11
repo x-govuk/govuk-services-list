@@ -4,7 +4,7 @@ $govuk-new-link-styles: true;
 $govuk-font-family: system-ui, sans-serif;
 $govuk-brand-colour: #28a;
 
-@import "govuk-frontend/govuk/all";
+@import "govuk-frontend/dist/govuk/all";
 
 @import "count";
 @import "header";

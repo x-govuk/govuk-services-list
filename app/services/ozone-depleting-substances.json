@@ -3,7 +3,7 @@
   "description": "Apply for a licence to import or export ODS substances and mixtures",
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://apply-licence.ozone-depleting-substances.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/applying-for-a-licence-to-import-or-export-ozone-depleting-substances"
 }

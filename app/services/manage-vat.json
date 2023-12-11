@@ -6,7 +6,7 @@
   "description": "Use this service to find out when VAT returns are due, view your payments, set up a Direct Debit, check and appeal penalties, report changes to your business or cancel your VAT registration.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
-  "phase": "live",
+  "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/business-account/vat",
   "start-page": "https://www.gov.uk/sign-in-vat-account"
 }

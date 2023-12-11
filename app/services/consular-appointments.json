@@ -3,7 +3,7 @@
   "description": "Not available.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.book-consular-appointment.service.gov.uk",
   "sourceCode": [
     {

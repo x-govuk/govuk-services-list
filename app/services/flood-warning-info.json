@@ -3,7 +3,7 @@
   "description": "Use this service to check current flood warnings or alerts, river, sea, groundwater and rainfall levels and flood risk in the next 5 days.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/check-flooding",
   "liveservice": "https://check-for-flooding.service.gov.uk",
   "sourceCode": [

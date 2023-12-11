@@ -8,7 +8,7 @@
   "description": "Compare your school's income and expenditure with other schools in England.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
-  "phase": "beta",
+  "phase": "Beta",
   "start-page": "https://www.gov.uk/guidance/benchmark-your-schools-financial-data",
   "liveservice": "https://schools-financial-benchmarking.service.gov.uk/",
   "timeline": {

@@ -9,7 +9,7 @@
     "Animal and Plant Health Agency",
     "Department for Environment, Food & Rural Affairs"
   ],
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://exporter.apply-export-health-certificate.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/get-an-export-health-certificate",
   "tags": [

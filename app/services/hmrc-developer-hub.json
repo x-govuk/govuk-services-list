@@ -7,7 +7,7 @@
   "description": "Tax-related APIs for building smarter software.",
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
-  "phase": "beta",
+  "phase": "Beta",
   "facing": "internal",
   "liveservice": "https://developer.service.hmrc.gov.uk/api-documentation",
   "timeline": {

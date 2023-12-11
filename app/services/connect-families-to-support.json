@@ -3,6 +3,6 @@
   "description": "Use this service to find voluntary and community services to support the families you work with.",
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://connect-families-to-support.education.gov.uk"
 }

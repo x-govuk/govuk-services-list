@@ -3,7 +3,7 @@
   "description": "Request a Standard or Enhanced DBS check allows Registered Bodies (registered organisations legally entitled to request the required level of disclosure check) to request a criminal record disclosure check.",
   "theme": "Crime, justice and the law",
   "organisation": "Disclosure and Barring Service",
-  "phase": "alpha",
+  "phase": "Alpha",
   "start-page": "https://www.gov.uk/dbs-check-applicant-criminal-record/get-a-standard-or-enhanced-dbs-check-for-an-employee",
   "timeline": {
     "items": [

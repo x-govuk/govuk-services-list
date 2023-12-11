@@ -3,7 +3,7 @@
   "description": "Access datasets about all registered land and property in England and Wales.",
   "organisation": "Land Registry",
   "theme": "Housing and local services",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://use-land-property-data.service.gov.uk",
   "timeline": {
     "items": [

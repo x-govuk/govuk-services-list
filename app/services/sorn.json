@@ -6,7 +6,7 @@
   "description": "Register your vehicle as off the road - you will not need to pay vehicle tax until you put it on the road again",
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.sorn.service.gov.uk",
   "start-page": "https://www.gov.uk/make-a-sorn",
   "timeline": {

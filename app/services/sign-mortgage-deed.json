@@ -3,7 +3,7 @@
   "description": "Charge registration service to support an easy, quick and secure fully online secured loan (mortgage) experience for homeowners",
   "theme": "Housing and local services",
   "organisation": "Land Registry",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://sign-your-mortgage-deed.landregistry.gov.uk",
   "start-page": "https://www.gov.uk/government/publications/hm-land-registry-sign-your-mortgage-deed",
   "timeline": {

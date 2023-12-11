@@ -6,7 +6,7 @@
   "description": "Complain to UK Visas and Immigration (UKVI) about applications, appointments and decisions or follow up an existing complaint",
   "organisation": "Home Office",
   "theme": "Visas and immigration",
-  "phase": "beta",
+  "phase": "Beta",
   "liveservice": "https://www.ukvi-complaints.homeoffice.gov.uk/reason",
   "start-page": "https://www.gov.uk/complain-uk-visas-immigration"
 }

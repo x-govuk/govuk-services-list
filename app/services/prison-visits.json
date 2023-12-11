@@ -3,7 +3,7 @@
   "description": "Use this service to book a social visit to a prisoner in England or Wales.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "live",
+  "phase": "Live",
   "start-page": "https://www.gov.uk/prison-visits",
   "liveservice": "https://www.prisonvisits.service.gov.uk/",
   "tags": [
