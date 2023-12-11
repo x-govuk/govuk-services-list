@@ -278,6 +278,15 @@ app.get('/source-code', function(req, res) {
   res.render('source-code.html')
 });
 
+app.get('/data', function(req, res) {
+  res.render('data.html')
+});
+
+app.get('/data.json', function(req, res) {
+  // res.setHeader('Content-Type', 'application/json');
+  res.json({services: app.locals.projects})
+});
+
 
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
 
