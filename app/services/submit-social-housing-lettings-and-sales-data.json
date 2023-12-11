@@ -7,7 +7,7 @@
   "theme": "Housing and local services",
   "organisation": "Department for Levelling Up, Housing & Communities",
   "phase": "Beta",
-  "liveservice": "https://submit-social-housing-lettings-sales-data.service.gov.uk",
+  "liveservice": "https://submit-social-housing-data.levellingup.gov.uk",
   "timeline": {
     "items": [
       {
