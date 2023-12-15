@@ -8,5 +8,11 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://www.claim-additional-teaching-payment.service.gov.uk/additional-payments/landing-page",
-  "start-page": "https://www.gov.uk/guidance/early-career-payments-guidance-for-teachers-and-schools#when-to-apply-and-payments"
+  "start-page": "https://www.gov.uk/guidance/early-career-payments-guidance-for-teachers-and-schools#when-to-apply-and-payments",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/claim-additional-payments-for-teaching"
+    }
+  ]
 }
