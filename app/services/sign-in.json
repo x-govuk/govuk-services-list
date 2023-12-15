@@ -13,15 +13,15 @@
   "sourceCode": [
     {
       "text": "Product page source code",
-      "href": "https://github.com/alphagov/di-onboarding-product-page"
+      "href": "https://github.com/govuk-one-login/onboarding-product-page"
     },
     {
       "text": "Admin tool source code",
-      "href": "https://github.com/alphagov/di-onboarding-self-service-experience"
+      "href": "https://github.com/govuk-one-login/onboarding-self-service-experience"
     },
     {
       "text": "Account management frontend source code",
-      "href": "https://github.com/alphagov/di-account-management-frontend"
+      "href": "https://github.com/govuk-one-login/di-account-management-frontend"
     }
   ],
   "timeline": {
