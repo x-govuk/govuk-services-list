@@ -10,6 +10,10 @@
     {
       "text": "Source code for the homepage, transactions and some index pages",
       "href": "https://github.com/alphagov/frontend"
+    },
+    {
+      "text": "Source code for finder and search pages for GOV.UK",
+      "href": "https://github.com/alphagov/finder-frontend"
     }
   ]
 }
