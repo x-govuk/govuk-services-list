@@ -6,11 +6,12 @@ $govuk-brand-colour: #28a;
 
 @import "govuk-frontend/dist/govuk/all";
 
+@import "@x-govuk/govuk-prototype-components/x-govuk/components/primary-navigation/primary-navigation";
+
 @import "count";
 @import "header";
 @import "list";
 @import "logo";
-@import "navigation";
 @import "screenshot";
 @import "tag";
 @import "timeline";

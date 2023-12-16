@@ -14,17 +14,18 @@
   </div>
 </header>
 
-<nav class="app-navigation">
+<nav class="x-govuk-primary-navigation" aria-labelledby="primary-navigation-heading">
   <div class="govuk-width-container">
-    <ul class="app-navigation__list">
-      <li class="app-navigation__item">
-        <a class="app-navigation__link" href="/">Home</a>
+    <h2 class="govuk-visually-hidden" id="primary-navigation-heading">Menu</h2>
+    <ul class="x-govuk-primary-navigation__list">
+      <li class="x-govuk-primary-navigation__item{{ ' x-govuk-primary-navigation__item--current' if section == "home" }}">
+        <a class="x-govuk-primary-navigation__link" href="/"{{ ' aria-current="page"' if section == "home" }}>Home</a>
       </li>
-      <li class="app-navigation__item">
-        <a class="app-navigation__link" href="/organisation">By organisation</a>
+      <li class="x-govuk-primary-navigation__item{{ ' x-govuk-primary-navigation__item--current' if section == "organisation" }}">
+        <a class="x-govuk-primary-navigation__link" href="/organisation"{{ ' aria-current="page"' if section == "organisation" }}>By organisation</a>
       </li>
-      <li class="app-navigation__item">
-        <a class="app-navigation__link" href="/contribute">Contribute</a>
+      <li class="x-govuk-primary-navigation__item{{ ' x-govuk-primary-navigation__item--current' if section == "contribute" }}">
+        <a class="x-govuk-primary-navigation__link" href="/contribute"{{ ' aria-current="page"' if section == "contribute" }}>Contribute</a>
       </li>
     </ul>
   </div>
