@@ -8,6 +8,7 @@
     "npm": "9.x"
   },
   "dependencies": {
+    "@x-govuk/govuk-prototype-components": "^2.2.2",
     "dotenv": "^16.3.1",
     "express": "~4.18.2",
     "govuk-frontend": "^5.0.0",
