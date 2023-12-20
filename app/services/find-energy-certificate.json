@@ -9,6 +9,28 @@
   "phase": "Live",
   "liveservice": "https://find-energy-certificate.service.gov.uk/find-a-certificate/type-of-property",
   "start-page": "https://www.gov.uk/find-energy-certificate",
+  "sourceCode": [
+    {
+      "text": "Energy performance of buildings register front end",
+      "href": "https://github.com/communitiesuk/epb-frontend"
+    },
+    {
+      "text": "Energy performance of buildings register api",
+      "href": "https://github.com/communitiesuk/epb-register-api"
+    },
+    {
+      "text": "Energy performance of buildings register auth server",
+      "href": "https://github.com/communitiesuk/epb-auth-server"
+    },
+    {
+      "text": "Energy performance of buildings register data warehouse",
+      "href": "https://github.com/communitiesuk/epb-data-warehouse"
+    },
+    {
+      "text": "Energy performance of buildings register infrastructure",
+      "href": "https://github.com/communitiesuk/epb-register-api"
+    }
+  ],
   "timeline": {
     "items": [
       {
