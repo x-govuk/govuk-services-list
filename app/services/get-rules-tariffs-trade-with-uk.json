@@ -6,7 +6,7 @@
   "description": "Find out the UK rules and taxes that apply to your goods.",
   "organisation": "Department for International Trade",
   "theme": "Money and tax",
-  "phase": "Beta",
+  "phase": "Retired",
   "liveservice": "https://www.get-rules-tariffs-trade-with-uk.service.gov.uk/choose-country/",
   "start-page": "https://www.gov.uk/get-rules-tariffs-trade-with-uk",
   "timeline": {
