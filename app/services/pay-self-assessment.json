@@ -1,0 +1,15 @@
+{
+  "name": "Pay your Self Assessment",
+  "synonyms": [
+    "Pay your Self Assessment tax bill"
+  ],
+  "description": "The deadlines for paying your tax bill are usually 31 January and 31 July",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "beta",
+  "tags": [
+    "Top 75"
+  ],
+  "liveservice": "https://www.tax.service.gov.uk/personal-account/self-assessment/make-payment",
+  "start-page": "https://www.gov.uk/pay-self-assessment-tax-bill"
+}
