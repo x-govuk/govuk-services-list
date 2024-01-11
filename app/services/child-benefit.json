@@ -1,0 +1,12 @@
+{
+  "name": "Claim Child Benefit",
+  "description": "You get Child Benefit if you’re responsible for bringing up a child who is under 16 or under 20 if they stay in approved education or training",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Childcare and parenting",
+  "phase": "beta",
+  "tags": [
+    "Top 75"
+  ],
+  "liveservice": "https://www.tax.service.gov.uk/fill-online/claim-child-benefit/recently-claimed-child-benefit",
+  "start-page": "https://www.gov.uk/child-benefit/how-to-claim"
+}
