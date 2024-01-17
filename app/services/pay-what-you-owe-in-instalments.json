@@ -1,0 +1,26 @@
+{
+  "name": "Set up a Self Assessment payment plan",
+  "synonyms": [
+    "If you cannot pay your tax bill on time"
+  ],
+  "description": "You may be able to set up a payment plan online, depending on which type of tax you owe and how much you owe.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "liveservice": "https://www.tax.service.gov.uk/pay-what-you-owe-in-instalments/govuk/start",
+  "start-page": "https://www.gov.uk/difficulties-paying-hmrc/pay-in-instalments",
+  "timeline": {
+    "items": [
+      {
+        "label": "News story published",
+        "date": "2024-01-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/44800-customers-opt-to-spread-the-cost-as-tax-deadline-looms",
+            "text": "Press release: 44,800 customers opt to spread the cost as tax deadline looms"
+          }
+        ]
+      }
+    ]
+  }
+}
