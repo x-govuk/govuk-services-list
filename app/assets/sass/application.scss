@@ -1,8 +1,8 @@
-$govuk-new-link-styles: true;
-
-// Override the default GOV.UK Frontend font stack
 $govuk-font-family: system-ui, sans-serif;
 $govuk-brand-colour: #28a;
+$govuk-link-colour: #006688;
+$govuk-link-hover-colour: #004466;
+$govuk-link-visited-colour: #333366;
 
 @import "govuk-frontend/dist/govuk/all";
 
@@ -11,12 +11,6 @@ $govuk-brand-colour: #28a;
 @import "count";
 @import "header";
 @import "list";
-@import "logo";
 @import "screenshot";
 @import "tag";
 @import "timeline";
-
-// We don't change the global width container width so that examples are the current width.
-.app-width-container {
-  @include govuk-width-container(1100px);
-}
