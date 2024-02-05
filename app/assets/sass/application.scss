@@ -15,8 +15,3 @@ $govuk-link-visited-colour: #333366;
 @import "screenshot";
 @import "tag";
 @import "timeline";
-
-// We don't change the global width container width so that examples are the current width.
-.app-width-container {
-  @include govuk-width-container(1100px);
-}
