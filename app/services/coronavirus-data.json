@@ -11,5 +11,19 @@
       "text": "Source code",
       "href": "https://github.com/publichealthengland/coronavirus-dashboard"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Retired",
+        "date": "2023-12-21",
+        "links": [
+          {
+            "href": "https://ukhsa.blog.gov.uk/2023/12/21/ukhsa-data-dashboard-takes-over-from-the-coronavirus-covid-19-dashboard/",
+            "text": "Blog post: UKHSA data dashboard takes over from the Coronavirus (COVID-19) dashboard"
+          }
+        ]
+      }
+    ]
+  }
 }
