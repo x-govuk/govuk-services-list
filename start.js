@@ -50,6 +50,7 @@ app.locals.themes = [
   'Environment and countryside',
   'Housing and local services',
   'Government Internal',
+  'Health',
   'Money and tax',
   'Passports, travel and living abroad',
   'Visas and immigration',
