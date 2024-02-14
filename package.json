@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^3.0.3",
-    "dotenv": "^16.4.3",
+    "dotenv": "^16.4.4",
     "express": "~4.18.2",
     "govuk-frontend": "^5.0.0",
     "nunjucks": "^3.2.4",
