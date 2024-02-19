@@ -12,7 +12,11 @@
   ],
   "sourceCode": [
     {
-      "text": "Source code",
+      "text": "Public-facing service source code",
+      "href": "https://github.com/ministryofjustice/prison-visits-public"
+    },
+    {
+      "text": "Staff-facing service source code",
       "href": "https://github.com/ministryofjustice/prison-visits-2"
     }
   ]
