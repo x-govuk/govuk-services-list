@@ -18,6 +18,10 @@
     {
       "text": "Back end source code",
       "href": "https://github.com/trade-tariff/trade-tariff-backend"
+    },
+    {
+      "text": "Calculator front end source code",
+      "href": "https://github.com/trade-tariff/trade-tariff-duty-calculator"
     }
   ]
 }
