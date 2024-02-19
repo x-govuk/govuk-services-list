@@ -4,5 +4,11 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://child-development-training.education.gov.uk/"
+  "liveservice": "https://child-development-training.education.gov.uk/",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/early-years-foundation-recovery"
+    }
+  ]
 }
