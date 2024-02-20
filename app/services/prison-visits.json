@@ -18,6 +18,14 @@
     {
       "text": "Staff-facing service source code",
       "href": "https://github.com/ministryofjustice/prison-visits-2"
+    },
+    {
+      "text": "Staff-facing manage service source code",
+      "href": "https://github.com/ministryofjustice/book-a-prison-visit-staff-ui"
+    },
+    {
+      "text": "Public-facing booking service source code",
+      "href": "https://github.com/ministryofjustice/hmpps-book-a-prison-visit-ui"
     }
   ]
 }
