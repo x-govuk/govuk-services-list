@@ -22,6 +22,10 @@
     {
       "text": "Account management frontend source code",
       "href": "https://github.com/govuk-one-login/di-account-management-frontend"
+    },
+    {
+      "text": "Authentication frontend source code",
+      "href": "https://github.com/govuk-one-login/authentication-frontend"
     }
   ],
   "timeline": {
