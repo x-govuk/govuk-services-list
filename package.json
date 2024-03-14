@@ -13,7 +13,7 @@
     "express": "~4.18.3",
     "govuk-frontend": "^5.2.0",
     "nunjucks": "^3.2.4",
-    "sass": "^1.71.1"
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "puppeteer-core": "^22.4.1"
