@@ -1,6 +1,8 @@
 {
-  "name": "Apply for Tax-Free Childcare",
+  "name": "The Childcare service",
   "synonyms": [
+    "Apply for Tax-Free Childcare",
+    "Apply for free childcare if you're working",
     "Tax Free Childcare (Parents)",
     "Tax Free Childcare (Providers)"
   ],
@@ -12,7 +14,8 @@
   "start-page": [
     "https://www.gov.uk/apply-for-tax-free-childcare",
     "https://www.gov.uk/apply-30-hours-free-childcare",
-    "https://www.gov.uk/sign-in-childcare-account"
+    "https://www.gov.uk/sign-in-childcare-account",
+    "https://www.gov.uk/apply-free-childcare-if-youre-working"
   ],
   "timeline": {
     "items": [
