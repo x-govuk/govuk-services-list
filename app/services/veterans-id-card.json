@@ -1,12 +1,21 @@
 {
-  "name": "Apply for a Veteran’s ID Card",
+  "name": "Apply for an HM Armed Forces Veteran Card",
   "synonyms": [
+    "Apply for a Veteran’s ID Card",
     "Veterans’ Recognition Scheme"
   ],
-  "description": "Apply for an ID card for armed forces veterans, to help access specialist support and services.",
-  "organisation": "Office for Veterans’ Affairs",
+  "description": "An HM Armed Forces Veteran Card is a way to prove that you served in the UK armed forces. The card can make it quicker and easier to apply for support as a veteran.",
+  "organisation": [
+    "Office for Veterans’ Affairs",
+    "Ministry of Defence"
+  ],
   "theme": "Citizenship and living in the UK",
-  "phase": "Alpha",
+  "phase": "Beta",
+  "start-page": "https://www.gov.uk/veteran-card",
+  "liveservice": "https://apply-for-a-veterans-card.service.gov.uk/",
+  "tags": [
+    "GOV.UK One Login"
+  ],
   "timeline": {
     "items": [
       {
