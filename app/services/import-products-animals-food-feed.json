@@ -1,0 +1,27 @@
+{
+  "name": "Import of products, animals, food and feed service",
+  "synonyms": [
+    "Import of products, animals, food and feed system (IPAFFS)"
+  ],
+  "description": "Use IPAFFS to notify enforcement authorities about imports to Great Britain.",
+  "theme": "Business and self-employed",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "phase": "Live",
+  "start-page": "https://www.gov.uk/guidance/import-of-products-animals-food-and-feed-system",
+  "liveservice": "https://import-products-animals-food-feed.service.gov.uk/notification/prd/protected/notifications",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2021-07-13",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/import-of-products-animals-food-and-feed-system-ipaffs-plant-journey",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

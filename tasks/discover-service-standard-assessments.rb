@@ -54,7 +54,6 @@ ignored_reports = [
   "https://www.gov.uk/service-standard-reports/prevent-e-learning-alpha-reassessment",
   "https://www.gov.uk/service-standard-reports/prevent-e-learning-alpha-assessment",
   "https://www.gov.uk/service-standard-reports/take-an-online-test-when-i-apply-for-a-job-in-the-civil-service",
-  "https://www.gov.uk/service-standard-reports/import-of-products-animals-food-and-feed-system-ipaffs-plant-journey",
   "https://www.gov.uk/service-standard-reports/the-centre-for-evaluation-and-monitoring-alpha-service-assessment-report",
   "https://www.gov.uk/service-standard-reports/express-an-interest-in-a-repatriation-flight-alpha-assessment-report",
   "https://www.gov.uk/service-standard-reports/readiness-reporting-and-deployability-discovery-alpha-assessment-report",
