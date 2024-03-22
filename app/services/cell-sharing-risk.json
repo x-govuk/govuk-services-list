@@ -1,10 +1,9 @@
 {
   "name": "Cell Sharing Risk Assessment application",
-  "description": "Not available.",
+  "description": "Assess if a prisoner can share a cell safely",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "unknown",
-  "facing": "internal",
+  "phase": "Unknown",
   "sourceCode": [
     {
       "text": "Source code",

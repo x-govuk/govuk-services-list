@@ -1,6 +1,6 @@
 {
   "name": "Report landfill data",
-  "description": "Not available.",
+  "description": "Use this service to report periodic emissions and monitoring data to the Environment Agency.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Beta",
