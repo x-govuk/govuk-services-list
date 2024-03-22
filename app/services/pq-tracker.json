@@ -1,9 +1,11 @@
 {
-  "name": "Track Parliamentary Questions",
-  "description": "Not available.",
+  "name": "PQ Tracker",
+  "synonyms": [
+    "Track Parliamentary Questions"
+  ],
+  "description": "Track questions to parliament.",
   "theme": "Government Internal",
   "organisation": "Ministry of Justice",
-  "phase": "unknown",
-  "facing": "internal",
+  "phase": "Unknown",
   "liveservice": "https://trackparliamentaryquestions.service.gov.uk/"
 }

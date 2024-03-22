@@ -1,9 +1,12 @@
 {
   "name": "Book consular appointments",
-  "description": "Not available.",
+  "description": "The British consulate can provide a range of notarial and documentary services for British nationals",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Beta",
+  "start-page": [
+    "https://www.gov.uk/guidance/notarial-and-documentary-services-guide-for-laos"
+  ],
   "liveservice": "https://www.book-consular-appointment.service.gov.uk",
   "sourceCode": [
     {
