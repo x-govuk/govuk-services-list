@@ -88,7 +88,8 @@ app.locals.projects = []
 
 fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
 
-  if (filename != '_template.json') {
+
+  if (filename != '_template.json' && filename.endsWith('.json')) {
     var project = JSON.parse(fs.readFileSync(__dirname + '/app/services/' + filename).toString());
 
     project.filename = filename
