@@ -228,6 +228,10 @@ env.addFilter('formatdate', function(str) {
   return `${date.getDate()} ${monthNames[date.getMonth()]} ${date.getFullYear()}`
 });
 
+env.addFilter('find', function (array, key, value) {
+  return array.find((item) => item[key] === value)
+});
+
 app.get('/projects/:slug', function (req, res) {
   project = req.app.locals.projects.filter(function(p) { return p.slug == req.params.slug})[0]
   res.render('project.html', {
@@ -248,7 +252,35 @@ app.get('/top-75', function(req, res) {
 });
 
 app.get('/original-25-exemplars', function(req, res) {
-  res.render('original-25-exemplars.html')
+  res.render('original-25-exemplars.html', {
+    exemplars: [
+      "Register to vote",
+      "Find an apprenticeship",
+      "Claim for redundancy and monies owed",
+      "Renew a patent, trade mark or registered design",
+      "Land Registry",
+      "Apply online for student finance",
+      "Register as a waste carrier",
+      "Make or update a rural payments claim",
+      "View your driving licence information",
+      "Personalised vehicle registration",
+      "Register a vehicle",
+      "Apply for Carer’s Allowance",
+      "Apply for Personal Independence Payment",
+      "Universal Credit",
+      "PAYE for employees",
+      "Pay your Self Assessment",
+      "Business tax account",
+      "Agent Online Self Serve",
+      "Registered Traveller",
+      "Apply online for a UK passport",
+      "Apply for a Standard Visitor visa",
+      "Make a money claim online",
+      "Employment Tribunals",
+      "Visit someone in prison",
+      "Make a lasting power of attorney"
+    ]
+  })
 });
 
 app.get('/organisation/:slug', function(req, res) {
