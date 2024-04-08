@@ -1,24 +1,38 @@
 {% extends "layout.html" %}
-{% block pageTitle %}Original 25 exemplars - X-GOVUK{% endblock %}
+{% block pageTitle %}Original 25 exemplars - X-GOVUK{% endblock %}
 
 {% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
 
 {% block content %}
 
+  <h1 class="govuk-heading-xl">Original 25 exemplar services</h1>
+
   <div class="govuk-grid-row">
+    <div class="govuk-grid-column-one-third">
+      <p class="govuk-body">In 2013, <a href="https://www.gov.uk/government/publications/gds-transformation-programme-2013-to-2015/digital-transformation-exemplar-services" class="govuk-link">25 exemplar services</a> were prioritised for transformation.</p>
+
+      <p class="govuk-body">Designed to be ‘simpler, clearer and faster to use’, the Digital Transformation programme aimed to deliver ‘digital services so good people prefer to use them’.</p>
+
+      <p class="govuk-body"><img src="/images/transformation-logo.png" alt="Logo for the Digital Transformation programme." width="192" height="192"></p>
+    </div>
     <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">Original 25 exemplar services</h1>
-
-      <p class="govuk-body">These services were among the original <a href="https://www.gov.uk/government/publications/gds-transformation-programme-2013-to-2015/digital-transformation-exemplar-services" class="govuk-link">25 exemplar services</a> which were prioritised for transformation back in 2013:</p>
-
-      <ul class="govuk-list govuk-list--number app-list--services">
-        {%- for project in (projects | sort(attribute="name")) -%}
-          {% if project.tags %}{% for tag in project.tags %}{% if tag == 'Original 25 exemplars' %}
-            <li><a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a></li>
-          {% endif %}{% endfor %}{% endif %}
-        {% endfor %}
-      </ul>
-
+      {% set number = 1 %}
+      {%- for collection, items in exemplars -%}
+        {% set organisation = organisations | find("slug", collection) %}
+        <h2 class="govuk-heading-m">{{ organisation.name or collection }}</h2>
+        <ol class="govuk-list govuk-list--number govuk-!-margin-bottom-6" start="{{ number }}">
+          {%- for item in items -%}
+            {% set number = number + 1 %}
+            {% set project = projects | find("slug", item) %}
+            <li>
+              <h3 class="govuk-heading-s govuk-!-margin-bottom-2">
+                <a class="govuk-link" href="/projects/{{ project.slug }}">{{ project.name }}</a>
+              </h3>
+              <p class="govuk-body-s">{{ project.description }}</p>
+            </li>
+          {%- endfor -%}
+        </ol>
+      {%- endfor -%}
     </div>
   </div>
 {% endblock %}

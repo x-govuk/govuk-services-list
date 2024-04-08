@@ -252,35 +252,51 @@ app.get('/top-75', function(req, res) {
 });
 
 app.get('/original-25-exemplars', function(req, res) {
-  res.render('original-25-exemplars.html', {
-    exemplars: [
-      "Register to vote",
-      "Find an apprenticeship",
-      "Claim for redundancy and monies owed",
-      "Renew a patent, trade mark or registered design",
-      "Land Registry",
-      "Apply online for student finance",
-      "Register as a waste carrier",
-      "Make or update a rural payments claim",
-      "View your driving licence information",
-      "Personalised vehicle registration",
-      "Register a vehicle",
-      "Apply for Carer’s Allowance",
-      "Apply for Personal Independence Payment",
-      "Universal Credit",
-      "PAYE for employees",
-      "Pay your Self Assessment",
-      "Business tax account",
-      "Agent Online Self Serve",
-      "Registered Traveller",
-      "Apply online for a UK passport",
-      "Apply for a Standard Visitor visa",
-      "Make a money claim online",
-      "Employment Tribunals",
-      "Visit someone in prison",
-      "Make a lasting power of attorney"
+  const exemplars = {
+    "cabinet_office": [
+      "register-to-vote"
+    ],
+    "Department for Business Innovation & Skills": [
+      "find-apprenticeship",
+      "redundancy-payments",
+      "patent",
+      "find-property-information",
+      "student-finance-account",
+    ],
+    "department_for_environment_food_rural_affairs": [
+      "waste-carriers-registration",
+      "rural-payments",
+    ],
+    "department_for_transport": [
+      "view-driving-record",
+      "personalised-vehicle-registration",
+      "register-vehicle",
+    ],
+    "department_for_work_and_pensions": [
+      "carers-allowance",
+      "personal-independence-payment",
+      "universal-credit",
+    ],
+    "hm_revenue_and_customs": [
+      "company-car-tax",
+      "pay-self-assessment",
+      "tax-business-account",
+      "agent-services-account",
+    ],
+    "home_office": [
+      "registered-traveller",
+      "passport",
+      "visas-and-immigration",
+    ],
+    "ministry_of_justice": [
+      "money-claims",
+      "employment-tribunal",
+      "prison-visits",
+      "lasting-power-of-attorney"
     ]
-  })
+  }
+
+  res.render('original-25-exemplars.html', {exemplars})
 });
 
 app.get('/organisation/:slug', function(req, res) {
