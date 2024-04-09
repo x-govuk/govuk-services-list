@@ -1,8 +1,9 @@
 {
-  "name": "Personalised vehicle registration",
+  "name": "Put a registration number on a vehicle",
   "synonyms": [
     "Buy a personalised registration number",
-    "Private (personalised) number plates"
+    "Private (personalised) number plates",
+    "Personalised vehicle registration"
   ],
   "description": "Assign or take off personalised number plates",
   "organisation": "Driver and Vehicle Licensing Agency",

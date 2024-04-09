@@ -1,6 +1,9 @@
 {
-  "name": "Apply online for a UK passport",
-  "description": "You can apply for, renew, replace or update your passport and pay for it online.",
+  "name": "Apply for a passport",
+  "synonyms": [
+    "Apply online for a UK passport"
+  ],
+  "description": "Use this service to apply for, renew, replace or update your passport and pay for it online.",
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
   "phase": "Beta",
