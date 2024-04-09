@@ -1,7 +1,8 @@
 {
-  "name": "Make or update a rural payments claim",
+  "name": "Rural Payments",
   "synonyms": [
-    "Apply for Rural Grants and Payments"
+    "Apply for Rural Grants and Payments",
+    "Make or update a rural payments claim"
   ],
   "description": "You can use the service to apply for rural grants and payments, including the Basic Payment Scheme (BPS).",
   "theme": "Environment and countryside",
