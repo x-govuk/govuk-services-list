@@ -8,7 +8,8 @@
   "theme": "Money and tax",
   "phase": "beta",
   "tags": [
-    "Top 75"
+    "Top 75",
+    "Original 25 exemplars"
   ],
   "liveservice": "https://www.tax.service.gov.uk/personal-account/self-assessment/make-payment",
   "start-page": "https://www.gov.uk/pay-self-assessment-tax-bill"

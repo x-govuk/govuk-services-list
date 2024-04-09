@@ -228,6 +228,10 @@ env.addFilter('formatdate', function(str) {
   return `${date.getDate()} ${monthNames[date.getMonth()]} ${date.getFullYear()}`
 });
 
+env.addFilter('find', function (array, key, value) {
+  return array.find((item) => item[key] === value)
+});
+
 app.get('/projects/:slug', function (req, res) {
   project = req.app.locals.projects.filter(function(p) { return p.slug == req.params.slug})[0]
   res.render('project.html', {
@@ -248,7 +252,51 @@ app.get('/top-75', function(req, res) {
 });
 
 app.get('/original-25-exemplars', function(req, res) {
-  res.render('original-25-exemplars.html')
+  const exemplars = {
+    "cabinet_office": [
+      "register-to-vote"
+    ],
+    "Department for Business Innovation & Skills": [
+      "find-apprenticeship",
+      "redundancy-payments",
+      "patent",
+      "find-property-information",
+      "student-finance-account",
+    ],
+    "department_for_environment_food_rural_affairs": [
+      "waste-carriers-registration",
+      "rural-payments",
+    ],
+    "department_for_transport": [
+      "view-driving-record",
+      "personalised-vehicle-registration",
+      "register-vehicle",
+    ],
+    "department_for_work_and_pensions": [
+      "carers-allowance",
+      "personal-independence-payment",
+      "universal-credit",
+    ],
+    "hm_revenue_and_customs": [
+      "company-car-tax",
+      "pay-self-assessment",
+      "tax-business-account",
+      "agent-services-account",
+    ],
+    "home_office": [
+      "registered-traveller",
+      "passport",
+      "visas-and-immigration",
+    ],
+    "ministry_of_justice": [
+      "money-claims",
+      "employment-tribunal",
+      "prison-visits",
+      "lasting-power-of-attorney"
+    ]
+  }
+
+  res.render('original-25-exemplars.html', {exemplars})
 });
 
 app.get('/organisation/:slug', function(req, res) {
