@@ -1,0 +1,9 @@
+{
+  "name": "Log in and file your Stamp Duty Land Tax return",
+  "description": "Log in to the HM Revenue and Customs (HMRC) Stamp Taxes Online service to file your Stamp Duty Land Tax (SDLT) return as a solicitor, agent or legal conveyancer.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "Live",
+  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/stamp-taxes/&origin=STAMP-frontend",
+  "start-page": "https://www.gov.uk/sdlt-online"
+}
