@@ -1,7 +1,7 @@
 {
   "name": "Get a new energy certificate",
   "description": "To get a new energy certificate for your home, business property or a public building, you need to have it assessed. Find an accredited assessor for your home, business property or a public building.",
-  "organisation": "Department for Levelling Up, Housing & Communities",
+  "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Housing and local services",
   "phase": "Live",
   "liveservice": "https://getting-new-energy-certificate.service.gov.uk/find-an-assessor/type-of-property",
