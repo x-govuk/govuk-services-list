@@ -8,7 +8,10 @@
   "theme": "Money and tax",
   "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/help-to-save/access-account",
-  "start-page": "https://www.gov.uk/get-help-savings-low-income/how-to-apply",
+  "start-page": [
+    "https://www.gov.uk/get-help-savings-low-income/how-to-apply",
+    "https://www.gov.uk/sign-in-help-to-save"
+  ],
   "timeline": {
     "items": [
       {
