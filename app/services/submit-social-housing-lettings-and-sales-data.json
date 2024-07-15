@@ -5,7 +5,7 @@
   ],
   "description": "Staff at Local Authorities and Housing Associations use this service to submit data about each new social housing letting or sale in England. This data is collected by DLUHC on an annual basis, is released as official national statistics on GOV.UK and informs social housing and homelessness policy.",
   "theme": "Housing and local services",
-  "organisation": "Department for Levelling Up, Housing & Communities",
+  "organisation": "Ministry of Housing, Communities & Local Government",
   "phase": "Beta",
   "liveservice": "https://submit-social-housing-data.levellingup.gov.uk",
   "timeline": {

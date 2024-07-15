@@ -64,7 +64,7 @@ app.locals.organisations = [
   {"name": 'Department for Education'},
   {"name": 'Department for Environment, Food & Rural Affairs'},
   {"name": 'Department for International Trade'},
-  {"name": 'Department for Levelling Up, Housing & Communities'},
+  {"name": 'Ministry of Housing, Communities & Local Government'},
   {"name": 'Department for Transport'},
   {"name": 'Department for Work and Pensions'},
   {"name": 'Department of Health and Social Care'},
