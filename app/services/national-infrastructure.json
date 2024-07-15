@@ -1,0 +1,31 @@
+{
+  "name": "Find a National Infrastructure Project",
+  "description": "Find information about Nationally Significant Infrastructure Projects (NSIPs). These are large scale projects like power stations, highways and power lines. They are treated separately from normal local authority planning because of their size and importance to wider communities.",
+  "organisation": [
+    "Planning Inspectorate",
+    "Department for Levelling Up, Housing & Communities"
+  ],
+  "theme": "Housing and local services",
+  "phase": "Beta",
+  "liveservice": "https://national-infrastructure-consenting.planninginspectorate.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/Planning-Inspectorate/applications-service"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2024-03-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/manage-and-register-pension-schemes-alpha",
+            "text": "News story: New online hub launches for National Infrastructure Projects"
+          }
+        ]
+      }
+    ]
+  }
+}
