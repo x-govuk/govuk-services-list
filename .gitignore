@@ -4,3 +4,4 @@ govuk_modules/*
 public
 npm-debug.log
 static
+.env
