@@ -2,6 +2,7 @@
   "name": "Update your capital schemes",
   "description": "Service for local authorities to provide updates on the progress of their Active Travel Fund capital projects",
   "organisation": "Active Travel England",
+  "theme": "Transport",
   "phase": "beta",
   "liveservice": "https://update-your-capital-schemes.activetravelengland.gov.uk/",
   "sourceCode": [
