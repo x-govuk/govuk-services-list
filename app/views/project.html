@@ -58,9 +58,11 @@
         {%- endfor %}
       {% endset %}
 
-      {% set themeHtml %}
-        <a class="govuk-link" href="/#{{ project.theme | slugify }}">{{ project.theme }}</a>
-      {% endset %}
+      {% if project.theme %}
+        {% set themeHtml %}
+          <a class="govuk-link" href="/#{{ project.theme | slugify }}">{{ project.theme }}</a>
+        {% endset %}
+      {% endif %}
 
       {% set statusHtml %}
         {{ govukTag({
@@ -111,7 +113,7 @@
             value: {
               html: themeHtml
             }
-          },
+          } if project.theme,
           {
             key: {
               text: "Status"
