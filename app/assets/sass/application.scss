@@ -5,9 +5,6 @@ $govuk-link-hover-colour: #004466;
 $govuk-link-visited-colour: #333366;
 
 @import "govuk-frontend/dist/govuk/all";
-
-@import "@x-govuk/govuk-prototype-components/x-govuk/components/primary-navigation/primary-navigation";
-
 @import "count";
 @import "header";
 @import "list";

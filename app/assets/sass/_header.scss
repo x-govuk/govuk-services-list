@@ -2,23 +2,6 @@
 // See: https://github.com/alphagov/govuk-design-system/blob/master/src/stylesheets/components/_header.scss
 
 @include govuk-exports("app-header") {
-  // Show border along full length of header to match navigation below
-  .app-header {
-    border-color: $govuk-brand-colour;
-  }
-
-  // Override the default 33% width on the logo in GOV.UK Frontend (prevents
-  // unnecessary wrapping of product name on smaller tablet / desktop
-  // viewports)
-  .app-header__logo {
-    width: auto;
-
-    // Remove right padding of product name as affects appearance on hover
-    .govuk-header__product-name {
-      padding-right: 0;
-    }
-  }
-
   // Visually adjust placement of X-GOVUK logo which has a height of 35px
   .x-govuk-header__logotype {
     margin-bottom: -5px;
