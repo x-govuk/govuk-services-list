@@ -22,6 +22,7 @@
     "start": "npm run sass && node start.js",
     "dev": "npm run watch & node start.js",
     "watch": "sass --load-path=node_modules --quiet-deps --watch app/assets/sass/application.scss static/application.css",
-    "screenshots": "npx node tasks/screenshot-services.js"
+    "screenshots": "npx node tasks/screenshot-services.js",
+    "discover-start-pages": "npx node tasks/discover-start-pages.js"
   }
 }
