@@ -7,7 +7,11 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Citizenship and living in the UK",
   "phase": "Live",
-  "start-page": "https://www.gov.uk/register-to-vote",
+  "start-page": [
+    "https://www.gov.uk/register-to-vote",
+    "https://www.gov.uk/register-to-vote-armed-forces",
+    "https://www.gov.uk/register-to-vote-crown-servants-british-council-employees"
+  ],
   "liveservice": "https://www.registertovote.service.gov.uk/register-to-vote/start",
   "tags": [
     "Top 75",
