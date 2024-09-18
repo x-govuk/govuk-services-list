@@ -10,7 +10,7 @@
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^3.0.7",
     "dotenv": "^16.4.5",
-    "express": "~4.19.2",
+    "express": "~4.20.0",
     "govuk-frontend": "^5.5.0",
     "nunjucks": "^3.2.4",
     "sass": "^1.78.0"
@@ -23,6 +23,7 @@
     "start": "npm run sass && node start.js",
     "dev": "npm run watch & node start.js",
     "watch": "sass --load-path=node_modules --quiet-deps --watch app/assets/sass/application.scss static/application.css",
-    "screenshots": "npx node tasks/screenshot-services.js"
+    "screenshots": "npx node tasks/screenshot-services.js",
+    "discover-start-pages": "npx node tasks/discover-start-pages.js"
   }
 }

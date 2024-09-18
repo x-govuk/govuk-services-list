@@ -1,0 +1,26 @@
+{
+  "name": "Renew your driving licence",
+  "synonyms": [
+    "Change the photo on your driving licence"
+  ],
+  "description": "You need to renew your full or provisional driving licence if you want to update your photo.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "phase": "Beta",
+  "start-page": "https://www.gov.uk/renew-photo-driving-licence",
+  "liveservice": "https://apply-for-driving-licence.service.gov.uk/service-start?start=COP&locale=en",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2024-04-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/dvla-adds-2-more-services-to-its-driver-and-vehicles-account-service",
+            "text": "Press release: DVLA adds 2 more services to its Driver and vehicles account service"
+          }
+        ]
+      }
+    ]
+  }
+}
