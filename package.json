@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
-    "express": "~4.20.0",
+    "express": "~4.21.0",
     "govuk-frontend": "^5.5.0",
     "nunjucks": "^3.2.4",
     "sass": "^1.79.2"
