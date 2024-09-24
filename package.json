@@ -10,13 +10,13 @@
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^3.0.7",
     "dotenv": "^16.4.5",
-    "express": "~4.20.0",
+    "express": "~4.21.0",
     "govuk-frontend": "^5.5.0",
     "nunjucks": "^3.2.4",
-    "sass": "^1.78.0"
+    "sass": "^1.79.3"
   },
   "devDependencies": {
-    "puppeteer-core": "^23.3.0"
+    "puppeteer-core": "^23.4.0"
   },
   "scripts": {
     "sass": "npx sass --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
