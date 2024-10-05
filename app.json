@@ -3,5 +3,8 @@
   "description": "A community-maintained list of digital services from the UK government",
   "website": "https://govuk-digital-services.herokuapp.com",
   "repository": "https://github.com/x-govuk/govuk-services-list",
-  "stack": "heroku-24"
+  "stack": "heroku-24",
+  "buildpacks": [
+    "url": "heroku/nodejs"
+  ]
 }
