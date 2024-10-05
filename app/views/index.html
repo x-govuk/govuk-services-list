@@ -4,60 +4,50 @@
 
 {% block pageTitle %}Government digital services{% endblock %}
 
-{% block content %}
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <p class="govuk-body">A community-maintained list of digital services from the UK government.</p>
-
-      <p class="govuk-body"><a href="/contribute" class="govuk-link">Contribute to this list</a></p>
+{% block main %}
+<div class="x-govuk-masthead">
+  <div class="govuk-width-container">
+    <div class="govuk-grid-row">
+      <div class="govuk-grid-column-two-thirds-from-desktop">
+        <h1 class="x-govuk-masthead__title">
+          A community-maintained list of digital services from the UK government
+        </h1>
+        <p class="x-govuk-masthead__description">
+          This list aims to help designers and developers discover and learn from other digital services.</p>
+        <a href="/topic" role="button" draggable="false" class="govuk-button govuk-button--inverse govuk-button--start" data-module="govuk-button">
+          Explore the list
+          <svg class="govuk-button__start-icon" xmlns="http://www.w3.org/2000/svg" width="17.5" height="19" viewBox="0 0 33 40" aria-hidden="true" focusable="false">
+            <path fill="currentColor" d="M0 0h13l20 20-20 20H0l20-20z" />
+          </svg>
+        </a>
+      </div>
     </div>
   </div>
+</div>
+<div class="govuk-width-container app-width-container">
+  <main class="govuk-main-wrapper app-main-class" id="main-content">
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
 
-      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
-
-      <h2 class="govuk-heading-m">All services ({{ projects | length }})</h2>
-
-      {% for theme in themes %}
-        <h3 class="govuk-heading-s govuk-!-margin-bottom-2" id="{{ theme | slugify }}">{{ theme }}</h3>
-
-        <ul class="govuk-list app-list--services">
-          {%- for project in (projects | sort(attribute="name")) -%}
-            {% if project.theme == theme %}
-              <li>
-                <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
-                {% if project.tags %}
-                  {% for tag in project.tags %}
-                    {% if tag != "Original 25 exemplars" %}
-                      {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
-                    {% endif %}
-                  {% endfor %}
-                {% endif %}
-                {% if project.phase == 'Retired' %}
-                  {{ govukTag({text: 'Retired', classes: 'govuk-tag--grey app-tag--small'}) }}
-                {% endif %}
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-      {% endfor %}
-    </div>
-
-    <div class="govuk-grid-column-one-third">
-      <hr class="govuk-section-break govuk-section-break--l govuk-section-break--visible" />
-      <h2 class="govuk-heading-m">Latest milestones</h2>
+      <h2 class="govuk-heading-l">Latest updates</h2>
 
       {% for event in allEvents | sort(attribute="date", reverse=true) %}
         {% if loop.index < 11 %}
-          <h3 class="govuk-body-s govuk-!-font-weight-bold govuk-!-margin-bottom-1">{{ event.date | formatdate }}</h3>
-          <p class="govuk-body-s govuk-!-margin-bottom-1"><a href="/projects/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
-          <p class="govuk-body-s">{{ event.label }}</p>
+          <h3 class="govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-1">{{ event.date | formatdate }}</h3>
+          <p class="govuk-body govuk-!-margin-bottom-1"><a href="/projects/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
+          <p class="govuk-body">{{ event.label }}</p>
 
         {% endif %}
       {% endfor %}
     </div>
+    <div class="govuk-grid-column-one-third">
+      <h2 class="govuk-heading-m">Contribute</h2>
+      <p class="govuk-body">Help keep this list up-to-date by suggesting additions and changes.</p>
+      <p class="govuk-body">You can contribute by opening an issue or pull request on GitHub.</p>
+      <p class="govuk-body"><a href="/contribute" class="govuk-link">How to contribute</a></p>
+    </div>
   </div>
-
+  </main>
+</div>
 {% endblock %}
