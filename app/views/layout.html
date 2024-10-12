@@ -1,8 +1,6 @@
 {% extends "govuk/template.njk" %}
 
-{% block headIcons %}
-  <link rel="shortcut icon" href="{{ asset_path }}images/unbranded.ico?0.18.3" type="image/x-icon" />
-{% endblock %}
+{% set opengraphImageUrl = "https://govuk-digital-services.herokuapp.com/images/opengraph-image.png" %}
 
 {% block head %}
   <link href="/application.css" rel="stylesheet">

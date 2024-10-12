@@ -198,8 +198,11 @@ app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
 
 app.use('/', express.static(path.join(__dirname, 'static')))
 
-var env = nunjucks.configure(['app/views/',
-    'node_modules/govuk-frontend/dist'], {
+var env = nunjucks.configure([
+  'app/views/',
+  'node_modules/govuk-frontend/dist',
+  'node_modules/@x-govuk/govuk-prototype-components'
+], {
     autoescape: true,
     express: app,
     watch: (process.env.ENV === 'development')

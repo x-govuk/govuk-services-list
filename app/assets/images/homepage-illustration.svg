@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="500">
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="565" cy="170" r="35" fill="#F499BE"/>
+    <path stroke="#F499BE" stroke-linejoin="round" stroke-width="10" d="M565 170H410a32 32 0 0 0-32 32v26"/>
+    <path stroke="#003078" stroke-linejoin="round" stroke-width="10" d="M408 135h-26a24 24 0 0 0-24 24v69"/>
+    <circle cx="413" cy="135" r="35" fill="#003078"/>
+    <circle cx="89" cy="55" r="35" fill="#F3F2F1"/>
+    <path stroke="#F3F2F1" stroke-linejoin="round" stroke-width="10" d="M98 55h148a32 32 0 0 1 32 32v141"/>
+    <path stroke="#D53880" stroke-linejoin="round" stroke-width="10" d="M218 90h56a24 24 0 0 1 24 24v114"/>
+    <path fill="#FFF" d="M138 236h340v230H138z" opacity=".3"/>
+    <path fill="#1E1E1E" fill-rule="nonzero" d="M476.4 228.5c5.6 0 9.1 3.8 9.1 9.8v238.2h-355V238.3c0-6 3.5-9.8 9-9.8h337ZM280 236H142a4 4 0 0 0-4 4v226h340V240a4 4 0 0 0-4-4H336v6a3 3 0 0 1-3 3h-50a3 3 0 0 1-3-3v-6Z"/>
+    <path fill="#EDEDED" fill-rule="nonzero" d="M486 476h-1V237.5c0-5-3.5-8.5-8.5-8.5h-337c-5 0-8.5 3.5-8.5 8.5V476h-1V237.5c0-5.5 4-9.5 9.5-9.5h337c5.5 0 9.5 4 9.5 9.5V476Z"/>
+    <path fill="#808283" fill-rule="nonzero" d="M269 476h78v7h-78z"/>
+    <path fill="#B1B4B6" fill-rule="nonzero" d="M339.5 482.5H276c-5 0-6.5-3-6.5-6.5H80v10a8 8 0 0 0 8 8h440a8 8 0 0 0 8-8v-10H346.5c0 4-2 6.5-7 6.5Z"/>
+    <path stroke="#EDEDED" d="M536 476.5H346.5c0 4-2.5 6-6.5 6h-64c-4 0-6.5-2-6.5-6H80"/>
+    <path fill="#A5A9AB" fill-rule="nonzero" d="M80 486v.1a8 8 0 0 0 8 7.9h440a7.9 7.9 0 0 0 7.9-8 8.5 8.5 0 0 1-5.5 2H86c-2.1 0-4.2-.7-5.9-2Z"/>
+    <path fill="#000" fill-opacity=".5" fill-rule="nonzero" d="M105 496h406l20 4H85z"/>
+    <path fill="#505A5F" fill-rule="nonzero" d="m107.4 494 5.7 3h38.6l5.7-3zm352 0 5.7 3h38.6l5.7-3z"/>
+    <path fill="#FFF" fill-rule="nonzero" stroke="#0B0C0C" stroke-width="2" d="M179 262h258v178H179z"/>
+    <path fill="#0B0C0C" fill-rule="nonzero" d="M179 262h258v28H179z"/>
+    <text fill="#FFF" font-family="system-ui, sans-serif" font-size="16" font-weight="300" letter-spacing="-.1" transform="translate(179 262)">
+      <tspan x="16" y="20">Services List</tspan>
+    </text>
+    <path fill="#4C2C92" fill-rule="nonzero" d="M196 304h9v9h-9z"/>
+    <path fill="#D4351C" fill-rule="nonzero" d="M196 322h9v9h-9z"/>
+    <path fill="#B1B4B6" fill-rule="nonzero" d="M196 340h9v9h-9z"/>
+    <path fill="#D53880" fill-rule="nonzero" d="M196 358h9v9h-9z"/>
+    <path fill="#F47738" fill-rule="nonzero" d="M196 376h9v9h-9z"/>
+    <path fill="#FD0" fill-rule="nonzero" d="M196 394h9v9h-9z"/>
+    <path fill="#003078" fill-rule="nonzero" d="M196 412h9v9h-9z"/>
+    <path fill="#F499BE" fill-rule="nonzero" d="M196 430h9v9h-9z"/>
+    <path fill="#B1B4B6" fill-rule="nonzero" d="M214 304h82v9h-82v-9Zm0 18h161v9H214v-9Zm0 18h171v9H214v-9Zm0 18h143v9H214v-9Zm0 18h113v9H214v-9Zm0 18h133v9H214v-9Zm0 18h112v9H214v-9Zm0 18h112v9H214v-9Z"/>
+    <circle cx="478" cy="70" r="35" fill="#FD0"/>
+    <circle cx="318" cy="35" r="35" fill="#F47738"/>
+    <circle cx="218" cy="90" r="35" fill="#D53880"/>
+    <path stroke="#4C2C92" stroke-linejoin="round" stroke-width="10" d="M35 195h179a24 24 0 0 1 24 24v9"/>
+    <circle cx="124" cy="159" r="35" fill="#D4351C"/>
+    <path stroke="#FD0" stroke-linejoin="round" stroke-width="10" d="M478 70H378c-22 0-40 18-40 40v118"/>
+    <path stroke="#F47738" stroke-linejoin="round" stroke-width="10" d="M318 40v188"/>
+    <path stroke="#D4351C" stroke-linejoin="round" stroke-width="10" d="M128 160h98a32 32 0 0 1 32 32v36"/>
+    <circle cx="35" cy="195" r="35" fill="#4C2C92"/>
+    <path fill="#0B0C0C" fill-rule="nonzero" d="M76.3 70.7 68 62.3l3.3-3.3 5 5 9-9 3.3 3.4-12.3 12.3Zm0-16L68 46.3l3.3-3.3 5 5 9-9 3.3 3.4-12.3 12.3Zm15 11.8v-4.7H110v4.7H91.3Zm0-16v-4.7H110v4.7H91.3Z"/>
+    <path fill="#FFF" fill-rule="nonzero" d="m139.9 178.3-13.5-13.5a11 11 0 0 1-3.4 1.8c-1.3.5-2.7.7-4.3.7-3.8 0-7-1.3-9.7-4-2.7-2.7-4-5.9-4-9.7 0-3.7 1.3-7 4-9.6 2.7-2.7 5.9-4 9.7-4 3.8 0 7 1.3 9.6 4 2.7 2.7 4 5.9 4 9.7a12.7 12.7 0 0 1-2.5 7.8l13.5 13.3-3.4 3.4Zm-21.2-15.7c2.5 0 4.6-.9 6.3-2.6a8.7 8.7 0 0 0 2.6-6.3 9 9 0 0 0-2.6-6.4 8.5 8.5 0 0 0-6.3-2.6 9 9 0 0 0-6.4 2.6 8.6 8.6 0 0 0-2.6 6.3 9 9 0 0 0 2.6 6.4 8.7 8.7 0 0 0 6.4 2.6ZM544 189v-4.7h42.5v4.8H544Zm2-8.4V167h6.7v13.6H546Zm10.5 0V157h6.8v23.6h-6.8Zm10.6 0V163h6.8v17.6h-6.8Zm10.7 0V151h6.8v29.6h-6.8Z"/>
+    <path fill="#0B0C0C" fill-rule="nonzero" d="m456 86 22-38 22 38h-44Zm22-5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Zm-2-8h4V61h-4v12Z"/>
+    <path fill="#FFF" fill-rule="nonzero" d="M413 111a24 24 0 0 1 16.8 41.1l-.4.4.4-.4a24 24 0 0 1-1.4 1.3l-.2.1a13.4 13.4 0 0 1-1 .8l-.8.6a23.9 23.9 0 0 1-30.1-2.7h-.1A24 24 0 0 1 413 111Zm0 4a20 20 0 0 0-15.1 33 17.5 17.5 0 0 1 30.2 0 20 20 0 0 0-15.1-33Zm0 4.7a8.2 8.2 0 1 1 0 16.4 8.2 8.2 0 0 1 0-16.4ZM324.5 26c-.3-.8-.9-1.5-1.7-2-.8-.5-1.7-.8-2.9-.8-.7 0-1.3.1-1.8.4a4 4 0 0 0-1.4 1l-1 1.7a7 7 0 0 0-.2 2.2v3h6.5v6h-6.5V45h14v6H306v-6h3v-7.5h-3v-6h3V28c0-1.7 0-3.3.6-4.6a10 10 0 0 1 5.8-5.7 15.5 15.5 0 0 1 10.5.5c.9.5 1.7 1 2.4 1.6.7.6 1.2 1.4 1.7 2.2l-5.5 4ZM206 104v-7h25V80h7v32l-8-8h-24Zm-8-2V72h30v22h-22l-8 8ZM15 213v-12.6h15.6v3h9v-3H55V213H15Zm18.5-12.6v-3h3v3h-3Zm-18.5-3V183h12v-8h16v8h12v14.4H39.5v-3h-9v3H15ZM30 183h10v-5H30v5Z"/>
+  </g>
+</svg>
