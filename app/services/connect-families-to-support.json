@@ -4,5 +4,11 @@
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://connect-families-to-support.education.gov.uk"
+  "liveservice": "https://connect-families-to-support.education.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/fh-services"
+    }
+  ]
 }
