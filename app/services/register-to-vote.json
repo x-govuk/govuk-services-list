@@ -3,10 +3,10 @@
   "synonyms": [
     "Signing Up to Register to Vote"
   ],
-  "description": "Use this service to apply to register to vote or to: update your name, address or other details on the electoral register, change your voting preferences, for example to vote in person or by post, change whether you’re on the open register",
+  "description": "Use this service to apply to register to vote or to: update your name, address or other details on the electoral register, change whether you’re on the open register",
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Citizenship and living in the UK",
-  "phase": "Live",
+  "phase": "Beta",
   "start-page": [
     "https://www.gov.uk/register-to-vote",
     "https://www.gov.uk/register-to-vote-armed-forces",
