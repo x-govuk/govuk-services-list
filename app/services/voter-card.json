@@ -1,13 +1,9 @@
 {
-  "name": "Voter Authority Certificate",
-  "synonyms": [
-    "Apply for photo ID to vote (called a ‘Voter Authority Certificate’)",
-    "Apply for a Voter Card"
-  ],
-  "description": "Electors will be able to apply for the Voter Card online through a dedicated online system provided by the government, similar to the Register to Vote service.",
+  "name": "Apply for photo ID to vote (called a ‘Voter Authority Certificate’)",
+  "description": "Electors will be able to apply for a Voter Authority Certificate online through a dedicated online system provided by the government, similar to the Register to Vote service.",
   "theme": "Citizenship and living in the UK",
   "organisation": "Ministry of Housing, Communities & Local Government",
-  "phase": "Alpha",
+  "phase": "Beta",
   "tags": [
     "Top 75"
   ],
