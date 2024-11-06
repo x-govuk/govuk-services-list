@@ -7,6 +7,6 @@
   "tags": [
     "Top 75"
   ],
-  "liveservice": "https://www.tax.service.gov.uk/fill-online/claim-child-benefit/recently-claimed-child-benefit",
+  "liveservice": "https://account.hmrc.gov.uk/child-benefit/make_a_claim/recently-claimed-child-benefit",
   "start-page": "https://www.gov.uk/child-benefit/how-to-claim"
 }
