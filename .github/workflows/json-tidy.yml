@@ -18,7 +18,9 @@ jobs:
         ruby-version: '3.1'
     - name: Run JSON tidy
       run: .github/lib/json-tidy.rb
-    - name: Push any updated fiels
+    - name: Commit any JSON changes
+      # Skip this step if it’s a fork, as we won’t have permission to commit
+      if: github.event.pull_request.head.repo.full_name == github.repository
       run: |
         git config --global user.email "json-tidy@example.com"
         git config --global user.name "json-tidy-bot"
