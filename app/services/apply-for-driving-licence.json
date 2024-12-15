@@ -20,6 +20,17 @@
             "text": "Press release: DVLA adds 2 more services to its Driver and vehicles account service"
           }
         ]
+      },
+      {
+        "label": "Assessed as amber at beta stage",
+        "date": "2023-12-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/renew-your-driving-licence-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
       }
     ]
   }
