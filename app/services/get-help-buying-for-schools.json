@@ -10,5 +10,20 @@
       "text": "Source code",
       "href": "https://github.com/DFE-Digital/buy-for-your-school"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2023-01-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-help-buying-for-schools-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
