@@ -31,6 +31,17 @@
             "text": "News story: New online claims form launched to benefit redundancy claimants"
           }
         ]
+      },
+      {
+        "label": "Assessed as amber at beta stage",
+        "date": "2024-04-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-forms-beta-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
       }
     ]
   },
