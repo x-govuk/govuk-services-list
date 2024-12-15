@@ -5,3 +5,4 @@ public
 npm-debug.log
 static
 .env
+.DS_Store
