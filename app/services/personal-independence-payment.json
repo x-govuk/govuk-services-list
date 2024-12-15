@@ -35,6 +35,17 @@
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
+      },
+      {
+        "label": "Assessed as amber at beta reassessment",
+        "date": "2024-04-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-personal-independence-payment-beta-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
+          }
+        ]
       }
     ]
   }
