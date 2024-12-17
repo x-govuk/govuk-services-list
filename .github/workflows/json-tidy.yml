@@ -10,8 +10,15 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+      # Check out the git repo using the 'head' ref, so that
+      # we can commit to the branch if needed - but only if
+      # this is not a fork
       with:
         ref: ${{ github.event.pull_request.head.ref }}
+      if: github.event.pull_request.head.repo.full_name == github.repository
+    - uses: actions/checkout@v4
+      # Checkout the default way if it is a fork
+      if: github.event.pull_request.head.repo.full_name != github.repository
     - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
