@@ -1,0 +1,32 @@
+{
+  "name": "Register a property as a short term let",
+  "description": "This service aims to solve the problem of a lack of reliable insight around short-term lets in England.",
+  "organisation": "Department for Culture, Media and Sport",
+  "theme": "Housing and local services",
+  "phase": "Alpha",
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as green at at alpha assessment",
+        "date": "2024-09-25",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-a-property-as-a-short-term-let-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Guidance published",
+        "date": "2024-02-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/guidance/delivering-a-registration-scheme-for-short-term-lets",
+            "text": "Delivering a registration scheme for short-term lets"
+          }
+        ]
+      }
+    ]
+  }
+}
