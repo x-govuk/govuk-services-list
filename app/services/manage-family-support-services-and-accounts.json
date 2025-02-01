@@ -5,6 +5,9 @@
   "theme": "Childcare and parenting",
   "phase": "Beta",
   "liveservice": "https://manage-family-support-services-and-accounts.education.gov.uk/",
+  "tags": [
+    "GOV.UK One Login"
+  ],
   "sourceCode": [
     {
       "text": "Source code",

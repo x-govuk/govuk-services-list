@@ -5,6 +5,9 @@
   "theme": "Childcare and parenting",
   "phase": "Beta",
   "liveservice": "https://connect-families-to-support.education.gov.uk",
+  "tags": [
+    "GOV.UK One Login"
+  ],
   "sourceCode": [
     {
       "text": "Source code",

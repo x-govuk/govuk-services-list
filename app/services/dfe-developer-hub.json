@@ -9,6 +9,9 @@
   "theme": "Education, training and skills",
   "phase": "Alpha",
   "liveservice": "https://find-and-use-an-api.education.gov.uk",
+  "tags": [
+    "GOV.UK One Login"
+  ],
   "timeline": {
     "items": [
       {

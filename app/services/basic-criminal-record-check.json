@@ -11,7 +11,8 @@
   "start-page": "https://www.gov.uk/request-copy-criminal-record",
   "liveservice": "https://www.apply-basic-criminal-record-check.service.gov.uk/",
   "tags": [
-    "Top 75"
+    "Top 75",
+    "GOV.UK One Login"
   ],
   "timeline": {
     "items": [
