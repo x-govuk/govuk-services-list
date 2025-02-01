@@ -4,5 +4,31 @@
   "organisation": "Department for Science, Innovation and Technology",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://datamarketplace.gov.uk"
+  "liveservice": "https://datamarketplace.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Met alpha reassessment",
+        "date": "2023-09-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/data-marketplace-alpha-reassessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not meet alpha assessment",
+        "date": "2023-03-23",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/data-marketplace-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
