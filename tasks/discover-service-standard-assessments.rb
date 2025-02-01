@@ -189,8 +189,8 @@ service_assessment_urls.each do |url|
         "links": [
           {
             "href": url,
-            "text": "service assessment report",
-            "visuallyHiddenText": " for #{stage} assessment"
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for #{stage} assessment"
           }
         ]
       }
