@@ -36,6 +36,17 @@
             "visuallyHiddenText": " for Beta amber evidence review"
           }
         ]
+      },
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2024-04-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-attendance-allowance-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
       }
     ]
   }
