@@ -2,6 +2,7 @@
   "name": "Apply for an HM Armed Forces Veteran Card",
   "synonyms": [
     "Apply for a Veteran’s ID Card",
+    "Apply for HM Armed Forces Veteran’s Card",
     "Veterans’ Recognition Scheme"
   ],
   "description": "An HM Armed Forces Veteran Card is a way to prove that you served in the UK armed forces. The card can make it quicker and easier to apply for support as a veteran.",
@@ -18,6 +19,17 @@
   ],
   "timeline": {
     "items": [
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2022-10-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-hm-armed-forces-veterans-card-beta-assessment",
+            "text": "Service standard assessment",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      },
       {
         "label": "Passed alpha reassessment",
         "date": "2022-10-03",
