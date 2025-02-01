@@ -15,6 +15,17 @@
             "text": "Service standard report"
           }
         ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2023-02-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-grant-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
       }
     ]
   }
