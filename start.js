@@ -258,6 +258,10 @@ app.get('/top-75', function(req, res) {
   res.render('top-75.html')
 });
 
+app.get('/govuk-one-login', function(req, res) {
+  res.render('govuk-one-login.html')
+});
+
 app.get('/original-25-exemplars', function(req, res) {
   const exemplars = {
     "cabinet_office": [

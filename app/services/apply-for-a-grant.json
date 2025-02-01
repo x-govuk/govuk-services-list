@@ -4,6 +4,9 @@
   "organisation": "Cabinet Office",
   "theme": "Money and tax",
   "phase": "Alpha",
+  "tags": [
+    "GOV.UK One Login"
+  ],
   "timeline": {
     "items": [
       {

@@ -4,5 +4,8 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://apply-for-qts-in-england.education.gov.uk/"
+  "liveservice": "https://apply-for-qts-in-england.education.gov.uk/",
+  "tags": [
+    "GOV.UK One Login"
+  ]
 }
