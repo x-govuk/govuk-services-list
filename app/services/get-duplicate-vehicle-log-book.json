@@ -28,6 +28,16 @@
             "visuallyHiddenText": " for beta assessment"
           }
         ]
+      },
+      {
+        "label": "Service updated with new feature",
+        "date": "2024-09-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/dvla-digital-service-update-allows-motorists-to-tax-vehicle-without-log-book-and-tax-reminder-letter",
+            "text": "Press release: DVLA digital service update allows motorists to tax vehicle without log book and tax reminder letter"
+          }
+        ]
       }
     ]
   }
