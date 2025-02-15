@@ -1,6 +1,6 @@
 name: Update service information
 description: Update information or add missing metadata about a service
-title: 'Update: '
+title: 'Update: (Add service name here)'
 labels: data
 assignees: frankieroberto
 body:
@@ -8,12 +8,6 @@ body:
     attributes:
       value: |
         Thanks for taking the time to contribute. You can tell us about existing information that needs to be updated, or any extra information or metadata that is currently missing.
-  - type: input
-    id: service-name
-    attributes:
-      label: Service name
-    validations:
-      required: true
   - type: textarea
     id: details
     attributes:
