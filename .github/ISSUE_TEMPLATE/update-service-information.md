@@ -1,3 +1,4 @@
+---
 name: Update service information
 about: Update information or add missing metadata about a service
 title: 'Update: '
@@ -21,3 +22,4 @@ body:
       description: Describe any changes that need to be made, or information that should be added. This may include the service name, status, URL, description, organisation or topic. You can also add or update links to the service’s start page on GOV.UK, source code, service standard reports, or any official news stories about it.
     validations:
       required: true
+---
