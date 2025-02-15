@@ -4,5 +4,6 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://viewyourdata.education.gov.uk"
+  "liveservice": "https://viewyourdata.education.gov.uk",
+  "start-page": "https://www.gov.uk/government/publications/16-to-19-data-and-management-information-mi-reports/accessing-the-view-your-education-data-portal-vyed"
 }
