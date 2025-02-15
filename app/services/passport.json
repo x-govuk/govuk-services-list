@@ -8,7 +8,10 @@
   "organisation": "Home Office",
   "phase": "Beta",
   "liveservice": "https://www.passport.service.gov.uk/filter",
-  "start-page": "https://www.gov.uk/apply-renew-passport",
+  "start-page": [
+    "https://www.gov.uk/apply-renew-passport",
+    "https://www.gov.uk/overseas-passports"
+  ],
   "tags": [
     "Top 75",
     "Original 25 exemplars"
