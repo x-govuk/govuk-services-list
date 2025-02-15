@@ -1,0 +1,26 @@
+{
+  "name": "Search for intellectual property",
+  "synonyms": [
+    "One IPO Search"
+  ],
+  "description": "Find details of patents registered in the UK. You can also use this service to search for supplementary protection certificates (SPCs).",
+  "organisation": "Intellectual Property Office",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveservice": "https://www.search-for-intellectual-property.service.gov.uk",
+  "start-page": "https://www.gov.uk/search-for-patent",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2025-01-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-patent-search-tool-to-boost-uk-innovation",
+            "text": "Press release: New patent search tool to boost UK innovation"
+          }
+        ]
+      }
+    ]
+  }
+}
