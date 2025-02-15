@@ -32,6 +32,16 @@
             "visuallyHiddenText": " for live assessment"
           }
         ]
+      },
+      {
+        "label": "Digital service mandated and TM1 form withdrawn",
+        "date": "2025-01-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/improvements-in-our-service-for-transport-managers",
+            "text": "Press release: Improvements in our service for Transport Managers"
+          }
+        ]
       }
     ]
   }
