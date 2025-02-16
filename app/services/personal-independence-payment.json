@@ -37,6 +37,17 @@
         ]
       },
       {
+        "label": "Assessed as red at beta assessment",
+        "date": "2023-10-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/personal-independence-payment-beta-assessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
         "label": "Assessed as amber at beta reassessment",
         "date": "2024-04-17",
         "links": [
