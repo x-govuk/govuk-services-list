@@ -46,6 +46,17 @@
             "visuallyHiddenText": " for beta reassessment"
           }
         ]
+      },
+      ,
+      {
+        "label": "Assessed as green at beta amber evidence review",
+        "date": "2024-08-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-personal-independence-payment-beta-amber-evidence-review",
+            "text": "Beta amber evidence review"
+          }
+        ]
       }
     ]
   }
