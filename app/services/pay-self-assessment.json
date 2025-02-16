@@ -1,7 +1,10 @@
 {
-  "name": "Pay your Self Assessment",
+  "name": "Pay your tax",
   "synonyms": [
-    "Pay your Self Assessment tax bill"
+    "Pay your Self Assessment",
+    "Pay your Self Assessment tax bill",
+    "Pay your tax bill by Direct Debit",
+    "Pay your tax bill by debit or corporate credit card"
   ],
   "description": "The deadlines for paying your tax bill are usually 31 January and 31 July",
   "organisation": "HM Revenue and Customs",
@@ -11,6 +14,10 @@
     "Top 75",
     "Original 25 exemplars"
   ],
-  "liveservice": "https://www.tax.service.gov.uk/pay/self-assessment/choose-a-way-to-pay",
-  "start-page": "https://www.gov.uk/pay-self-assessment-tax-bill"
+  "liveservice": "https://www.tax.service.gov.uk/direct-debit/route-to-direct-debit",
+  "start-page": [
+    "https://www.gov.uk/pay-self-assessment-tax-bill",
+    "https://www.gov.uk/pay-tax-direct-debit",
+    "https://www.gov.uk/pay-tax-debit-credit-card"
+  ]
 }
