@@ -1,0 +1,9 @@
+{
+  "name": "Reply to your Electoral Registration Office about your voting rights",
+  "description": "Use this service to reply to a letter or email from the Electoral Registration Office asking about your immigration status.",
+  "organisation": "Ministry of Housing, Communities and Local Government",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "start-page": "https://www.gov.uk/reply-to-electoral-registration-office-about-your-voting-rights",
+  "liveservice": "https://reply-eu-citizen-voting-rights.service.gov.uk/start"
+}
