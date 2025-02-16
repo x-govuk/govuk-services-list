@@ -1,0 +1,12 @@
+{
+  "name": "Manage your vehicle testing",
+  "description": "Sign in to Manage your vehicle testing to view the balance of your pre-funded accounts, top up your pre-funded account, search and view past transactions or view daily running total of test charges.",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveservice": "https://myvt.cvs.dvsacloud.uk",
+  "start-page": [
+    "https://www.gov.uk/report-change-to-coach-bus",
+    "https://www.gov.uk/apply-vehicle-test-certificate-coach-bus"
+  ]
+}
