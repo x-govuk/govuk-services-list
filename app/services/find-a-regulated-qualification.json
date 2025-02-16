@@ -1,0 +1,13 @@
+{
+  "name": "Find a regulated qualification",
+  "synonyms": [
+    "Register of Regulated Qualifications",
+    "Search the Register of Regulated Qualifications"
+  ],
+  "description": "Search the Register of Regulated Qualifications to find out if a qualification is regulated, see detailed information about a qualification and compare similar qualifications",
+  "organisation": "Ofqual",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveservice": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-qualifications",
+  "start-page": "https://www.gov.uk/find-a-regulated-qualification"
+}
