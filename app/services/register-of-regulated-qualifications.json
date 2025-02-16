@@ -1,16 +1,14 @@
 {
-  "name": "Check if an awarding body is recognised",
+  "name": "Find a regulated awarding organisation",
   "synonyms": [
+    "Check if an awarding body is recognised",
     "Register of Regulated Qualifications",
     "Search the Register of Regulated Qualifications"
   ],
-  "description": "Search the Register of Regulated Qualifications to find out if the organisation providing your qualification is regulated.",
+  "description": "Find out if the organisation offering your qualification is regulated (officially recognised) in England or Northern Ireland.",
   "organisation": "Ofqual",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://register.ofqual.gov.uk",
-  "start-page": [
-    "https://www.gov.uk/check-awarding-body-recognised",
-    "https://www.gov.uk/find-a-regulated-qualification"
-  ]
+  "liveservice": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-organisations",
+  "start-page": "https://www.gov.uk/find-regulated-awarding-organisation"
 }
