@@ -4,6 +4,9 @@
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/register-pay-gambling-tax",
+  "start-page": [
+    "https://www.gov.uk/register-pay-gambling-tax",
+    "https://www.gov.uk/file-gambling-tax-return"
+  ],
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account/&origin=GAMBLING-frontend"
 }
