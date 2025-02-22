@@ -9,7 +9,7 @@ const tasksFolder = path.join(__dirname, '..', 'tasks');
 var services = []
 
 fs.readdirSync(servicesFolder).forEach(function(filename) {
-    if (filename != '_template.json') {
+    if (filename != '_template.json' && filename.endsWith('.json')) {
       services.push(filename.replace('.json', ''))
     }
 });
