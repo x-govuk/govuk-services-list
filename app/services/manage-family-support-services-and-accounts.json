@@ -3,7 +3,7 @@
   "description": "This service is for people working in local authorities or voluntary and community sector organisations. It allows you to manage your organisation and services on Connect families to support and Find support for your family.",
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
-  "phase": "Beta",
+  "phase": "Retired",
   "liveservice": "https://manage-family-support-services-and-accounts.education.gov.uk/",
   "tags": [
     "GOV.UK One Login"
