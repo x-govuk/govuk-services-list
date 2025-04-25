@@ -11,8 +11,13 @@ function slugify(str) {
 
 app.locals.phases = [
   {
-    name: "unknown",
+    name: "Unknown",
     class: "",
+    projects_count: 0
+  },
+  {
+    name: "Retired",
+    class: "grey",
     projects_count: 0
   },
   {
@@ -28,11 +33,6 @@ app.locals.phases = [
   {
     name: "Live",
     class: "green",
-    projects_count: 0
-  },
-  {
-    name: "Retired",
-    class: "grey",
     projects_count: 0
   }
 ]
@@ -252,6 +252,10 @@ app.get('/topic', function(req, res) {
 
 app.get('/organisation', function(req, res) {
     res.render('organisations.html')
+});
+
+app.get('/phase', function(req, res) {
+  res.render('phase.html')
 });
 
 app.get('/top-75', function(req, res) {
