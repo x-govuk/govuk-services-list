@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{%- from "govuk/components/tag/macro.njk" import govukTag -%}
+{% set section = "phase" %}
+
+{% block pageTitle %}Government digital services{% endblock %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+
+      <h1 class="govuk-heading-xl">By phase</h1>
+
+      {% for phase in phases | reverse %}
+        <h2 class="govuk-heading-m govuk-!-margin-bottom-2" id="{{ phase.name | slugify }}">{{ phase.name }}</h2>
+
+        <ul class="govuk-list app-list--services">
+          {%- for project in (projects | sort(attribute="name")) -%}
+            {% if project.phase == phase.name %}
+              <li>
+                <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
+                {% if project.tags %}
+                  {% for tag in project.tags %}
+                    {% if tag != "Original 25 exemplars" %}
+                      {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  </div>
+
+{% endblock %}
