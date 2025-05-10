@@ -1,0 +1,29 @@
+{
+  "name": "DBS barring referral service",
+  "synonyms": [
+    "Submit a barring referral"
+  ],
+  "description": "Submit a barring referral if you are concerned that an individual may have harmed, or put at risk, a child or vulnerable adult.",
+  "theme": "Childcare and parenting",
+  "organisation": "Disclosure and Barring Service",
+  "phase": "Beta",
+  "start-page": "https://www.gov.uk/guidance/making-barring-referrals-to-the-dbs",
+  "liveservice": "https://www.submit-a-barring-referral.service.gov.uk/start",
+  "tags": [
+    "GOV.UK One Login"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "GOV.UK One Login feature added",
+        "date": "2025-04-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/dbs-launches-new-save-and-return-feature-for-its-barring-referral-service",
+            "text": "News story: DBS launches new ‘Save and Return’ feature for its Barring Referral Service"
+          }
+        ]
+      }
+    ]
+  }
+}
