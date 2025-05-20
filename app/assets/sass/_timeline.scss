@@ -33,7 +33,7 @@
 }
 
 .app-timeline__date {
-  @include govuk-font(19);
   margin-top: 0;
   margin-bottom: govuk-spacing(3);
+  @include govuk-font(19);
 }

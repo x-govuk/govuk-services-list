@@ -1,5 +1,16 @@
-<footer class="govuk-footer " role="contentinfo">
-  <div class="govuk-width-container ">
+{% from "macros/x-govuk-logo.njk" import xGovukLogo -%}
+
+<footer class="govuk-footer" role="contentinfo">
+  <div class="govuk-width-container">
+    {{ xGovukLogo({
+      classes: "govuk-footer__crown x-govuk-footer__crown",
+      attributes: {
+        width: "45",
+        height: "45"
+      },
+      useCrown: true,
+      useLogotype: false
+    }) | trim | indent(4) }}
     <div class="govuk-footer__meta">
       <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
         <ul class="govuk-footer__inline-list">
@@ -55,6 +66,7 @@
         </div>
       </div>
       <div class="govuk-footer__meta-item">
+        © X-GOVUK
       </div>
     </div>
   </div>

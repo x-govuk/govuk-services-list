@@ -7,7 +7,7 @@
     <circle cx="89" cy="55" r="35" fill="#F3F2F1"/>
     <path stroke="#F3F2F1" stroke-linejoin="round" stroke-width="10" d="M98 55h148a32 32 0 0 1 32 32v141"/>
     <path stroke="#D53880" stroke-linejoin="round" stroke-width="10" d="M218 90h56a24 24 0 0 1 24 24v114"/>
-    <path fill="#FFF" d="M138 236h340v230H138z" opacity=".3"/>
+    <path fill="#FFF" d="M138 236h340v230H138z" opacity=".4"/>
     <path fill="#1E1E1E" fill-rule="nonzero" d="M476.4 228.5c5.6 0 9.1 3.8 9.1 9.8v238.2h-355V238.3c0-6 3.5-9.8 9-9.8h337ZM280 236H142a4 4 0 0 0-4 4v226h340V240a4 4 0 0 0-4-4H336v6a3 3 0 0 1-3 3h-50a3 3 0 0 1-3-3v-6Z"/>
     <path fill="#EDEDED" fill-rule="nonzero" d="M486 476h-1V237.5c0-5-3.5-8.5-8.5-8.5h-337c-5 0-8.5 3.5-8.5 8.5V476h-1V237.5c0-5.5 4-9.5 9.5-9.5h337c5.5 0 9.5 4 9.5 9.5V476Z"/>
     <path fill="#808283" fill-rule="nonzero" d="M269 476h78v7h-78z"/>
@@ -16,9 +16,9 @@
     <path fill="#A5A9AB" fill-rule="nonzero" d="M80 486v.1a8 8 0 0 0 8 7.9h440a7.9 7.9 0 0 0 7.9-8 8.5 8.5 0 0 1-5.5 2H86c-2.1 0-4.2-.7-5.9-2Z"/>
     <path fill="#000" fill-opacity=".5" fill-rule="nonzero" d="M105 496h406l20 4H85z"/>
     <path fill="#505A5F" fill-rule="nonzero" d="m107.4 494 5.7 3h38.6l5.7-3zm352 0 5.7 3h38.6l5.7-3z"/>
-    <path fill="#FFF" fill-rule="nonzero" stroke="#0B0C0C" stroke-width="2" d="M179 262h258v178H179z"/>
-    <path fill="#0B0C0C" fill-rule="nonzero" d="M179 262h258v28H179z"/>
-    <text fill="#FFF" font-family="system-ui, sans-serif" font-size="16" font-weight="300" letter-spacing="-.1" transform="translate(179 262)">
+    <path fill="#FFF" fill-rule="nonzero" stroke="#1D70B8" stroke-width="2" d="M179 262h258v178H179z"/>
+    <path fill="#1D70B8" fill-rule="nonzero" d="M179 262h258v28H179z"/>
+    <text fill="#FFF" font-family="system-ui, sans-serif" font-size="16" transform="translate(179 262)">
       <tspan x="16" y="20">Services List</tspan>
     </text>
     <path fill="#4C2C92" fill-rule="nonzero" d="M196 304h9v9h-9z"/>

@@ -1,11 +1,14 @@
+{% set govukRebrand = true %}
+{% set themeColor = "#28a" %}
+
 {% extends "govuk/template.njk" %}
 
 {% set opengraphImageUrl = "https://govuk-digital-services.herokuapp.com/images/opengraph-image.png" %}
 
 {% block headIcons %}
   <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/images/favicon.ico" type="image/x-icon">
-  <link rel="mask-icon" href="https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-mask-icon.svg?raw=true" color="#0b0c0c">
-  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-apple-touch-icon.png">
+  <link rel="mask-icon" href="https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-mask.svg?raw=true" color="#28a">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-180.png">
 {% endblock %}
 
 {% block head %}
