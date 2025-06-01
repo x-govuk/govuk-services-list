@@ -1,0 +1,18 @@
+{%- from "govuk/components/tag/macro.njk" import govukTag -%}
+
+{% macro serviceItem(service) %}
+  <li>
+    <a class="govuk-link" href="/projects/{{service.slug }}">{{ service.name }}</a>
+    {% if service.tags %}
+      {% for tag in service.tags %}
+        {% if tag != "Original 25 exemplars" %}
+          {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
+        {% endif %}
+        {% if service.phase == 'Retired' %}
+          {{ govukTag({text: 'Retired', classes: 'govuk-tag--grey app-tag--small'}) }}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  </li>
+
+{% endmacro %}

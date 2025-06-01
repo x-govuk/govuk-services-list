@@ -246,6 +246,10 @@ app.get('/', function(req, res) {
     res.render(path.join(__dirname, 'app/views/index.html'))
 });
 
+app.get('/a-z', function(req, res) {
+  res.render(path.join(__dirname, 'app/views/a-z.html'))
+});
+
 app.get('/topic', function(req, res) {
     res.render(path.join(__dirname, 'app/views/topic.html'))
 });
