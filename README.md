@@ -20,7 +20,7 @@ A community-maintained list of digital services from the UK government.
 
 You’ll need
 
-1. Node 20
+1. Node 22
 2. NPM
 
 Using a command line run
