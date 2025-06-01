@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
-{%- from "govuk/components/tag/macro.njk" import govukTag -%}
+{%- from "includes/_service-item.njk" import serviceItem -%}
 {% set section = "organisation" %}
 
 {% block pageTitle %}{{ organisation.name }}{% endblock %}
@@ -9,20 +9,8 @@
 
   <h2 class="govuk-heading-m">Digital services</h2>
   <ul class="govuk-list app-list--services">
-    {%- for project in (organisation.services | sort(attribute="name")) -%}
-      <li>
-        <a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a>
-          {% if project.tags %}
-            {% for tag in project.tags %}
-              {% if tag != "Original 25 exemplars" %}
-                {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-          {% if project.phase == 'Retired' %}
-            {{ govukTag({text: 'Retired', classes: 'govuk-tag--grey app-tag--small'}) }}
-          {% endif %}
-      </li>
+    {%- for service in (organisation.services | sort(attribute="name")) -%}
+      {{ serviceItem(service) }}
     {% endfor %}
   </ul>
 
