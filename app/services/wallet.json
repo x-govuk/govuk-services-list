@@ -1,0 +1,45 @@
+{
+  "name": "GOV.UK Wallet",
+  "description": "Lets users save and share digital versions of their government documents on their smartphone or device.",
+  "organisation": "Government Digital Service",
+  "phase": "Beta",
+  "start-page": "https://www.gov.uk/wallet",
+  "sourceCode": [
+    {
+      "text": "iOS app source code",
+      "href": "https://github.com/govuk-one-login/mobile-ios-one-login-app"
+    },
+    {
+      "text": "Android app source code",
+      "href": "https://github.com/govuk-one-login/mobile-android-one-login-app"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Details of partnership working with private sector published",
+        "date": "2025-05-30",
+        "links": [
+          {
+            "href": "https://enablingdigitalidentity.blog.gov.uk/2025/05/30/digital-identity-and-the-gov-uk-wallet-increasing-choice-accelerating-adoption/",
+            "text": "Blog post: Digital identity and the GOV.UK Wallet: increasing choice, accelerating adoption"
+          },
+          {
+            "href": "https://gds.blog.gov.uk/2025/05/14/gov-uk-wallet-building-momentum-working-in-partnership/",
+            "text": "Blog post: GOV.UK Wallet: Building momentum, working in partnership"
+          }
+        ]
+      },
+      {
+        "label": "First announced",
+        "date": "2025-01-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/digital-driving-licence-coming-this-year",
+            "text": "Press release: Digital driving licence coming this year"
+          }
+        ]
+      }
+    ]
+  }
+}
