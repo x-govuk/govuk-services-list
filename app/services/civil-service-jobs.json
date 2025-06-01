@@ -3,11 +3,25 @@
   "synonyms": [
     "Apply for a Civil Service Job"
   ],
-  "theme": "Government internal",
-  "organisation": "Civil Service Resourcing",
+  "theme": "Government Internal",
+  "organisation": "Cabinet Office",
   "phase": "Beta",
   "liveservice": "https://www.civilservicejobs.service.gov.uk/",
   "tags": [
     "Top 75"
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "New beta site launched",
+        "date": "2025-05-02",
+        "links": [
+          {
+            "href": "https://www.gov.uk/guidance/using-the-new-civil-service-jobs-for-candidates",
+            "text": "Guidance: Using the new Civil Service Jobs for candidates"
+          }
+        ]
+      }
+    ]
+  }
 }
