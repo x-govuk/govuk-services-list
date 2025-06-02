@@ -12,7 +12,7 @@ $_font-family: system-ui, sans-serif;
 );
 
 // // Import GOV.UK Prototype Components
-@forward "pkg:@x-govuk/govuk-prototype-components/masthead";
+@forward "pkg:@x-govuk/govuk-prototype-components";
 
 
 // Application components
