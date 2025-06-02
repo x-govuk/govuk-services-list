@@ -16,8 +16,8 @@ $_font-family: system-ui, sans-serif;
 
 
 // Application components
-@import "count";
-@import "list";
-@import "screenshot";
-@import "tag";
-@import "timeline";
+@use "count";
+@use "list";
+@use "screenshot";
+@use "tag";
+@use "timeline";
