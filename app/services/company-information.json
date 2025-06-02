@@ -1,7 +1,7 @@
 {
-  "name": "Get information about a company",
+  "name": "Find and update company information",
   "synonyms": [
-    "Find and update company information",
+    "Get information about a company",
     "Find company information"
   ],
   "description": "Get some details about a company for free, including registered address, date of incorporation, current and resigned officers, document images and previous company names.",
@@ -9,5 +9,8 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk",
-  "start-page": "https://www.gov.uk/get-information-about-a-company"
+  "start-page": "https://www.gov.uk/get-information-about-a-company",
+  "tags": [
+    "GOV.UK One Login"
+  ]
 }
