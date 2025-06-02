@@ -14,7 +14,8 @@ $govuk-page-width: 1100px;
 @import "govuk-frontend/dist/govuk";
 
 // Import GOV.UK Prototype Components
-@import "@x-govuk/govuk-prototype-components/x-govuk/components/masthead/masthead";
+@import "@x-govuk/govuk-prototype-components/src/x-govuk/components/masthead";
+
 
 // Application components
 @import "count";
