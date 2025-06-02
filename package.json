@@ -19,10 +19,10 @@
     "puppeteer-core": "^24.9.0"
   },
   "scripts": {
-    "sass": "npx sass --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
+    "sass": "npx sass --pkg-importer=node --load-path=node_modules --quiet-deps app/assets/sass/application.scss static/application.css",
     "start": "npm run sass && node start.js",
     "dev": "npm run watch & node start.js",
-    "watch": "sass --load-path=node_modules --quiet-deps --watch app/assets/sass/application.scss static/application.css",
+    "watch": "sass --pkg-importer=node --load-path=node_modules --quiet-deps --watch app/assets/sass/application.scss static/application.css",
     "screenshots": "npx node tasks/screenshot-services.js",
     "discover-start-pages": "npx node tasks/discover-start-pages.js"
   }
