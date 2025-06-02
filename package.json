@@ -8,7 +8,7 @@
     "npm": "10.x"
   },
   "dependencies": {
-    "@x-govuk/govuk-prototype-components": "^3.0.9",
+    "@x-govuk/govuk-prototype-components": "^4.0.0",
     "dotenv": "^16.4.7",
     "express": "~5.1.0",
     "govuk-frontend": "^5.10.2",
