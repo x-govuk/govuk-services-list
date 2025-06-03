@@ -201,7 +201,7 @@ app.use('/', express.static(path.join(__dirname, 'static')))
 var env = nunjucks.configure([
   'app/views/',
   'node_modules/govuk-frontend/dist',
-  'node_modules/@x-govuk/govuk-prototype-components'
+  'node_modules/@x-govuk/govuk-prototype-components/src'
 ], {
     autoescape: true,
     express: app,
