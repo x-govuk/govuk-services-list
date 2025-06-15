@@ -4,17 +4,17 @@ A community-maintained list of digital services from the UK government.
 
 ## Data sources
 
-* [Service Standard Reports](https://www.gov.uk/service-standard-reports)
-* [Services on GOV.UK](https://www.gov.uk/search/services)
-* [UK government accounts on GitHub](https://government.github.com/community/#governments-uk-central)
+- [Service Standard Reports](https://www.gov.uk/service-standard-reports)
+- [Services on GOV.UK](https://www.gov.uk/search/services)
+- [UK government accounts on GitHub](https://government.github.com/community/#governments-uk-central)
 
 ### Previous data sources
 
-* [Government Service Register](https://government-service.register.gov.uk) (no longer maintained)
-* [Performance Platform](https://www.gov.uk/performance) (no longer maintained)
-* [DWP Digital Service Portfolio](http://dwp-digital-services.herokuapp.com/)
-* [HMPPS Digital Studio](https://github.com/noms-digital-studio/hmpps-portfolio)
-* [Land Registry Digital Services](https://github.com/LandRegistry/lr-portfolio)
+- [Government Service Register](https://government-service.register.gov.uk) (no longer maintained)
+- [Performance Platform](https://www.gov.uk/performance) (no longer maintained)
+- [DWP Digital Service Portfolio](http://dwp-digital-services.herokuapp.com/)
+- [HMPPS Digital Studio](https://github.com/noms-digital-studio/hmpps-portfolio)
+- [Land Registry Digital Services](https://github.com/LandRegistry/lr-portfolio)
 
 ## How to run this project
 
@@ -55,5 +55,3 @@ You can also update all the screenshots (which will take a while) by running thi
 `npm run screenshots all`
 
 Screenshots will be saved in the `app/assets/images/service-screenshots` folder, using the same name as the json file within `app/services`. Images are all 2160×2160 pixels (1080x1080 at 2× resolution), and will be rendered with no cookies set (so will include any cookie banner).
-
-
