@@ -1,28 +1,19 @@
 {
-  "name": "express-prototype",
-  "description": "GOVUK prototyping app in Express",
+  "name": "@x-govuk/govuk-services-list",
   "version": "0.1.0",
-  "private": true,
-  "engines": {
-    "node": "22.x",
-    "npm": "10.x"
+  "description": "A community-maintained list of digital services from the UK government",
+  "keywords": [
+    "govuk",
+    "directory"
+  ],
+  "homepage": "https://github.com/x-govuk/govuk-services-list#readme",
+  "bugs": {
+    "url": "https://github.com/x-govuk/govuk-services-list/issues"
   },
-  "type": "module",
-  "dependencies": {
-    "@x-govuk/govuk-prototype-components": "^4.0.1",
-    "dotenv": "^16.4.7",
-    "express": "~5.1.0",
-    "govuk-frontend": "^5.10.2",
-    "nunjucks": "^3.2.4",
-    "sass": "^1.89.1"
-  },
-  "devDependencies": {
-    "@x-govuk/eslint-config": "^0.0.1",
-    "prettier": "^3.5.3",
-    "puppeteer-core": "^24.10.0",
-    "stylelint": "^16.20.0",
-    "stylelint-config-gds": "^2.0.0",
-    "stylelint-order": "^7.0.0"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-govuk/govuk-services-list.git"
   },
   "scripts": {
     "sass": "npx sass --pkg-importer=node --load-path=. --quiet-deps app/assets/sass/application.scss static/application.css",
@@ -39,5 +30,27 @@
     "watch": "sass --pkg-importer=node --load-path=. --quiet-deps --watch app/assets/sass/application.scss static/application.css",
     "screenshots": "npx node tasks/screenshot-services.js",
     "discover-start-pages": "npx node tasks/discover-start-pages.js"
-  }
+  },
+  "dependencies": {
+    "@x-govuk/govuk-prototype-components": "^4.0.1",
+    "dotenv": "^16.4.7",
+    "express": "~5.1.0",
+    "govuk-frontend": "^5.10.2",
+    "nunjucks": "^3.2.4",
+    "sass": "^1.89.1"
+  },
+  "devDependencies": {
+    "@x-govuk/eslint-config": "^0.0.1",
+    "prettier": "^3.5.3",
+    "puppeteer-core": "^24.10.0",
+    "stylelint": "^16.20.0",
+    "stylelint-config-gds": "^2.0.0",
+    "stylelint-order": "^7.0.0"
+  },
+  "engines": {
+    "node": "^22.12.0",
+    "npm": ">=10.0.0"
+  },
+  "type": "module",
+  "private": true
 }
