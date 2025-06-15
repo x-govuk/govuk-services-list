@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% set title = "Page not found" %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+      <p class="govuk-body">If you entered a web address please check it was correct.</p>
+
+      <p class="govuk-body">You can browse the <a href="/a-z" class="govuk-link">A to Z</a> to find the service you need.</p>
+    </div>
+  </div>
+{% endblock %}

@@ -223,6 +223,17 @@ app.get("/:view", (request, response) => {
   response.render(`${request.params.view}.html`);
 });
 
+app.use((request, response) => {
+  response.status(404);
+  response.render("404.html");
+});
+
+app.use((error, request, response, next) => {
+  console.error(error.stack);
+  response.status(500);
+  response.render("500.html", { error });
+});
+
 app.listen(port, () =>
   console.log(`App listening at http://localhost:${port}`),
 );
