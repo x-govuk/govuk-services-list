@@ -1,17 +1,13 @@
 {% extends "layout.html" %}
-{%- from "includes/_service-item.njk" import serviceItem -%}
-{% set section = "organisation" %}
 
-{% block pageTitle %}{{ organisation.name }}{% endblock %}
+{% set title = organisation.name %}
+
 {% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
 
-  <h1 class="govuk-heading-xl">{{ organisation.name }}</h1>
-
-  <h2 class="govuk-heading-m">Digital services</h2>
   <ul class="govuk-list govuk-list--spaced">
-    {%- for service in (organisation.services | sort(attribute="name")) -%}
-      {{ serviceItem(service) }}
-    {% endfor %}
+  {%- for service in organisation.services | sort(attribute="name") -%}
+    {{ appServiceItem(service) }}
+  {%- endfor %}
   </ul>
-
 {% endblock %}

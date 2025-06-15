@@ -1,12 +1,11 @@
 {% extends "layout.html" %}
 
-{% block pageTitle %}Contribute to Government digital services{% endblock %}
-{% block content %}
+{% set title = "Get the data" %}
 
+{% block content %}
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-
-      <h1 class="govuk-heading-xl">Get the data</h1>
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
 
       <p class="govuk-body">You can get the list of government services as data - useful if you’d like to do some analysis or build further tools.</p>
 
@@ -14,16 +13,15 @@
 
       <p class="govuk-body">You can re-download the data using a script if you need to keep your data up to date.</p>
 
-      <h2 class="govuk-heading-m">How to use the data</h2>
+      <h2 class="govuk-heading-l">How to use the data</h2>
 
       <p class="govuk-body">The list of services is returned as an array within the <code>services</code> key.</p>
     </div>
   </div>
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-three-quarters">
-
       <table class="govuk-table">
-        <caption class="govuk-table__caption govuk-table__caption--s">Metadata for each service</caption>
+        <caption class="govuk-table__caption govuk-table__caption--m">Metadata for each service</caption>
         <thead class="govuk-table__head">
           <tr class="govuk-table__row">
             <th scope="col" class="govuk-table__header">Key</th>
@@ -32,48 +30,47 @@
         </thead>
         <tbody class="govuk-table__body">
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>slug</code></th>
+            <th scope="row" class="govuk-table__header"><code>slug</code></th>
             <td class="govuk-table__cell">A unique key for each service</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>name</code></th>
+            <th scope="row" class="govuk-table__header"><code>name</code></th>
             <td class="govuk-table__cell">The name of the service. Generally this is taken from the name in the header.</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>synonyms</code></th>
+            <th scope="row" class="govuk-table__header"><code>synonyms</code></th>
             <td class="govuk-table__cell">A list of alternative names for the service. These may be previous names, or names given on the GOV.UK start page.</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>organisation</code></th>
+            <th scope="row" class="govuk-table__header"><code>organisation</code></th>
             <td class="govuk-table__cell">The organisation or organisations responsible for the service. This is always returned as an array.</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>phase</code></th>
+            <th scope="row" class="govuk-table__header"><code>phase</code></th>
             <td class="govuk-table__cell">The status of the service. Generally either <code>Alpha</code>, <code>Beta</code>, <code>Live</code>,  <code>Retired</code> or <code>Unknown</code></td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>theme</code></th>
+            <th scope="row" class="govuk-table__header"><code>theme</code></th>
             <td class="govuk-table__cell">A topic under which the service falls.</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>start-page</code></th>
+            <th scope="row" class="govuk-table__header"><code>start-page</code></th>
             <td class="govuk-table__cell">A list of start pages on GOV.UK for the service, if known.</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>liveservice</code></th>
+            <th scope="row" class="govuk-table__header"><code>liveservice</code></th>
             <td class="govuk-table__cell">The URL for the service, generally its homepage or first question page.</td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>sourceCode</code></th>
+            <th scope="row" class="govuk-table__header"><code>sourceCode</code></th>
             <td class="govuk-table__cell">An array of links to source code, if known. Each item in the array contains a link as <code>href</code> and a description as <code>text</code></td>
           </tr>
           <tr class="govuk-table__row">
-            <th scope="row" class="govuk-table__header govuk-!-font-weight-regular"><code>timeline</code></th>
+            <th scope="row" class="govuk-table__header"><code>timeline</code></th>
             <td class="govuk-table__cell">Further metadata containing dates of when the service passed service assessments, went live, or other significant milestones.</td>
           </tr>
         </tbody>
       </table>
-
     </div>
   </div>
 {% endblock %}

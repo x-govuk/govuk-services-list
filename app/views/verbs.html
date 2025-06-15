@@ -1,59 +1,43 @@
 {% extends "layout.html" %}
-{% block pageTitle %}{{ project.name }} – Government digital services{% endblock %}
-{% from "govuk/components/tag/macro.njk" import govukTag %}
+
+{% set title = "Verbs" %}
 
 {% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">Verbs</h1>
+  {% set quote %}
+    <p class="govuk-body">“Good services are verbs, bad services are nouns”</p>
 
-      {% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
+    <p class="govuk-body"><a href="https://designnotes.blog.gov.uk/2015/06/22/good-services-are-verbs-2/" class="govuk-link">Design in government blog post, 22 June 2015</a></p>
+  {% endset %}
 
-      {% set quote %}
-        <p class="govuk-body">“Good services are verbs, bad services are nouns”</p>
+  {{ govukInsetText({
+    html: quote
+  }) }}
 
-        <p class="govuk-body govuk-!-font-size-16"><a href="https://designnotes.blog.gov.uk/2015/06/22/good-services-are-verbs-2/" class="govuk-link">Design in government blog post, 22 June 2015</a></p>
-      {% endset %}
+  <h2 class="govuk-heading-l">Common verbs used across government services</h2>
 
-      {{ govukInsetText({
-      html: quote
-      }) }}
+  <ol class="govuk-list app-list--columns">
+  {%- for verb in verbs | sort(true, false, "count") -%}
+    {% if (verb.count) > 1 %}
+    <li>
+      <a class="govuk-link govuk-font-size-16" href="#{{ verb.name }}">{{ verb.name | capitalize }} ({{ verb.count }})</a>
+    </li>
+    {% endif %}
+  {%- endfor %}
+  </ol>
 
-      <h2 class="govuk-heading-m">Common verbs used across government services</h2>
+  {%- for verb in verbs | sort(true, false, "count") -%}
+    {%- if (verb.count) > 1 %}
+    <h2 class="govuk-heading-l" id="{{ verb.name }}">
+      {{- verb.name | capitalize -}}
+    </h2>
 
-      <ol class="govuk-list app-list--columns">
-        {% for verb in verbs|sort(true, false, 'count') %}
-          {% if (verb.count) > 1 %}
-            <li class="govuk-list--item"><a class="govuk-link govuk-font-size-16" href="#{{ verb.name  }}">{{ verb.name | capitalize  }} ({{ verb.count }})</a></li>
-          {% endif %}
-        {% endfor %}
-      </ol>
-
-      {% for verb in verbs|sort(true, false, 'count') %}
-        {% if (verb.count) > 1 %}
-
-          <h2 class="govuk-heading-m" id="{{ verb.name }}">{{ verb.name | capitalize }}</h2>
-
-          <ul class="govuk-list govuk-list--spaced">
-            {% for service in verb.services | sort(false, false, 'name') %}
-              <li>
-                <a href="/projects/{{ service.slug }}" class="govuk-link">{{ service.name }}</a>
-                {% if service.tags %}
-                  {% for tag in service.tags %}
-                    {{ govukTag({text: tag, classes: "govuk-tag--blue app-tag--small"}) }}
-                  {% endfor %}
-                {% endif %}
-                {% if service.phase == 'Retired' %}
-                  {{ govukTag({text: 'retired', classes: 'govuk-tag--grey app-tag--small'}) }}
-                {% endif %}
-              </li>
-            {% endfor %}
-          </ul>
-        {% endif %}
-
-      {% endfor %}
-
-    </div>
-  </div>
+    <ul class="govuk-list govuk-list--spaced">
+    {%- for service in verb.services | sort(false, false, "name") -%}
+      {{ appServiceItem(service) }}
+    {%- endfor %}
+    </ul>
+    {%- endif %}
+  {%- endfor %}
 {% endblock %}

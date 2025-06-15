@@ -1,17 +1,17 @@
 {% extends "layout.html" %}
-{%- from "govuk/components/tag/macro.njk" import govukTag -%}
-{% set section = "organisation" %}
 
-{% block pageTitle %}By organisation: Government digital services{% endblock %}
+{% set title = "By organisation" %}
+
 {% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
 
-  <h1 class="govuk-heading-xl">By organisation</h1>
-
-  <ul class="govuk-list">
-    {% for organisation in organisations | sort(attribute="name") %}
-      <li id="{{ organisation.slug }}"><a href="/organisation/{{ organisation.slug }}" class="govuk-link">{{ organisation.name }} ({{ organisation.services.length }})</a></li>
-    {% endfor %}
+  <ul class="govuk-list govuk-list--spaced">
+  {%- for organisation in organisations | sort(attribute="name") -%}
+    <li id="{{ organisation.slug }}">
+      <a href="/organisation/{{ organisation.slug }}" class="govuk-link">
+        {{ organisation.name }} ({{ organisation.services.length }})
+      </a>
+    </li>
+  {%- endfor %}
   </ul>
-
-
 {% endblock %}

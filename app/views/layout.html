@@ -1,9 +1,20 @@
+{% extends "govuk/template.njk" %}
+
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
+{% from "govuk/components/service-navigation/macro.njk" import govukServiceNavigation %}
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+{% from "govuk/components/tag/macro.njk" import govukTag %}
+{% from "x-govuk/components/masthead/macro.njk" import xGovukMasthead %}
+{% from "macros/service-item.njk" import appServiceItem %}
+{% from "macros/x-govuk-logo.njk" import xGovukLogo -%}
+
 {% set govukRebrand = true %}
 {% set themeColor = "#28a" %}
 
-{% extends "govuk/template.njk" %}
-
 {% set opengraphImageUrl = "https://govuk-digital-services.herokuapp.com/images/opengraph-image.png" %}
+
+{% block pageTitle %}{{ title + " - " if title }}GOV.UK Services List{% endblock %}
 
 {% block headIcons %}
   <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/images/favicon.ico" type="image/x-icon">
@@ -16,12 +27,12 @@
 {% endblock %}
 
 {% block header %}
-  {% include "includes/_header.html" %}
+  {% include "includes/header.html" %}
 {% endblock %}
 
 {% block content %}
 {% endblock %}
 
 {% block footer %}
-  {% include "includes/_footer.html" %}
+  {% include "includes/footer.html" %}
 {% endblock %}

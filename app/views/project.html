@@ -1,46 +1,38 @@
 {% extends "layout.html" %}
-{% from "govuk/components/button/macro.njk" import govukButton %}
-{%- from "govuk/components/tag/macro.njk" import govukTag -%}
 
-{% block pageTitle %}{{ project.name }} – Government digital services{% endblock %}
-
+{% set title = project.name %}
 
 {% block content %}
-
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">{{ project.name }}</h1>
-
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
     </div>
   </div>
+
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
       <p class="govuk-body">{{ project.description }}</p>
 
-      {% if project['start-page'] | length > 0 %}
-        {% if project['start-page'] | length == 1 %}
+      {% if project["start-page"] | length > 0 %}
+        {% if project["start-page"] | length == 1 %}
           <p class="govuk-body"><a class="govuk-link" href="{{ project['start-page'][0] }}">Start page on GOV.UK</a></p>
         {% else %}
 
           <p class="govuk-body govuk-!-margin-bottom-1">Start pages:</p>
           <ul class="govuk-list">
-            {% for startPage in project['start-page'] %}
-              <li><a href="{{ startPage }}" class="govuk-link">{{ startPage }}</li>
-            {% endfor %}
+          {%- for startPage in project["start-page"] -%}
+            <li>
+              <a href="{{ startPage }}" class="govuk-link">{{ startPage }}</a>
+            </li>
+          {%- endfor %}
           </ul>
-
         {% endif %}
-
       {% endif %}
-      {% if project.liveservice and project.phase != 'Retired' %}
 
-        {{ govukButton({
-          text: "View service",
-          href: project.liveservice
-
-        }) }}
-
-      {% endif %}
+      {{ govukButton({
+        text: "View service",
+        href: project.liveservice
+      }) if project.liveservice and project.phase != "Retired" }}
 
       {% if project.video %}
         <div style="margin-top:30px;" class="videoWrapper">
@@ -48,14 +40,11 @@
         </div>
       {% endif %}
 
-
-      {% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
-
       {% set organisationHtml %}
         {% set comma = joiner() %}
         {% for organisation in project.organisation -%}
           {{ comma() }} <a class="govuk-link" href="/organisation/{{ organisation | slugify }}">{{ organisation }}</a>
-        {%- endfor %}
+        {% endfor %}
       {% endset %}
 
       {% if project.theme %}
@@ -66,32 +55,30 @@
 
       {% set statusHtml %}
         {{ govukTag({
-            text: project.phase
+          text: project.phase
         }) }}
 
-        {% if project.tags %}
-          {% for tag in project.tags %}
-            {% if tag == 'Top 75' %}
-              <div class="govuk-!-margin-top-3">{{ govukTag({text: "Top 75", classes: "govuk-tag--blue"} )}} – one of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a></div>
-            {% endif %}
+        {%- for tag in project.tags -%}
+          {%- if tag == "Top 75" -%}
+            <div class="govuk-!-margin-top-3">One of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a></div>
+          {%- endif %}
 
-            {% if tag == 'Original 25 exemplars' %}
-              <div class="govuk-!-margin-top-3">One of the <a href="/original-25-exemplars" class="govuk-link">original 25 exemplar services</a></div>
-            {% endif %}
+          {%- if tag == "Original 25 exemplars" -%}
+            <div class="govuk-!-margin-top-3">One of the <a href="/original-25-exemplars" class="govuk-link">original 25 exemplar services</a></div>
+          {%- endif %}
 
-            {% if tag == 'GOV.UK One Login' %}
-              <div class="govuk-!-margin-top-3">Uses <a href="/govuk-one-login" class="govuk-link">GOV.UK One Login</a></div>
-            {% endif %}
-          {% endfor %}
-        {% endif %}
+          {%- if tag == "GOV.UK One Login" -%}
+            <div class="govuk-!-margin-top-3">Uses <a href="/govuk-one-login" class="govuk-link">GOV.UK One Login</a></div>
+          {% endif %}
+        {%- endfor %}
       {% endset %}
 
       {% set sourceCodeHtml %}
         {% if project.sourceCode %}
           <ul class="govuk-list">
-            {% for sourceCode in project.sourceCode %}
-              <li><a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a></li>
-            {% endfor %}
+          {%- for sourceCode in project.sourceCode -%}
+            <li><a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a></li>
+          {%- endfor %}
           </ul>
         {% else %}
           Not found
@@ -137,36 +124,38 @@
         ]
       }) }}
 
-      {% if project.timeline and project.timeline.items|length > 0 %}
-        <h2 class="govuk-heading-m">Service history</h2>
+      {%- if project.timeline and project.timeline.items | length > 0 -%}
+      <h2 class="govuk-heading-m">Service history</h2>
 
-        <div class="app-timeline">
-          {% for item in (project.timeline.items | sort(attribute="date")) %}
-            <div class="app-timeline__item">
-              <h3 class="app-timeline__heading">{{ item.label }}</h3>
-              <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | formatdate }}</time></p>
+      <div class="app-timeline">
+      {%- for item in project.timeline.items | sort(attribute="date") -%}
+        <div class="app-timeline__item">
+          <h3 class="app-timeline__heading">
+            {{- item.label -}}
+          </h3>
 
-              {% if item.links and item.links|length > 0 %}
-                <ul class="govuk-list">
-                  {% for link in item.links %}
-                    <li><a class="govuk-link" href="{{ link.href }}">{{ link.text }}{% if link.visuallyHiddenText %}<span class="govuk-visually-hidden">{{ link.visuallyHiddenText }}</span>{% endif %}</a></li>
-                  {% endfor %}
-                </ul>
-              {% endif %}
-            </div>
-          {% endfor %}
+          <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | formatdate }}</time></p>
+
+          {% if item.links and item.links | length > 0 %}
+          <ul class="govuk-list">
+          {%- for link in item.links -%}
+            <li>
+              <a class="govuk-link" href="{{ link.href }}">{{ link.text }}{% if link.visuallyHiddenText %}<span class="govuk-visually-hidden">{{ link.visuallyHiddenText }}</span>{% endif %}</a>
+            </li>
+          {%- endfor %}
+          </ul>
+          {%- endif %}
         </div>
-      {% endif %}
+      {%- endfor %}
+      </div>
+      {%- endif %}
 
       <p class="govuk-body">Is any of this information incorrect or out-of-date? If so, please let us know by <a href="https://github.com/x-govuk/govuk-services-list/issues/new?template=update-service-information.yml&title=Update: {{ project.name }}" class="govuk-link">opening an issue on GitHub</a> (free GitHub account required).</p>
-
     </div>
     <div class="govuk-grid-column-one-third">
-      {% if project.screenshot %}
-        <a href="/images/service-screenshots/{{ project.slug }}.png"><img class="app-screenshot" src="/images/service-screenshots/{{ project.slug }}.png" alt="Screenshot of service"></a>
-      {% endif %}
+    {% if project.screenshot %}
+      <a href="/images/service-screenshots/{{ project.slug }}.png"><img class="app-screenshot" src="/images/service-screenshots/{{ project.slug }}.png" alt="Screenshot of service"></a>
+    {% endif %}
     </div>
   </div>
-
-
 {% endblock %}
