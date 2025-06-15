@@ -1,0 +1,37 @@
+{
+  "cabinet-office": ["register-to-vote"],
+  "Department for Business Innovation & Skills": [
+    "find-apprenticeship",
+    "redundancy-payments",
+    "patent",
+    "find-property-information",
+    "student-finance-account"
+  ],
+  "department-for-environment-food-rural-affairs": [
+    "waste-carriers-registration",
+    "rural-payments"
+  ],
+  "department-for-transport": [
+    "view-driving-record",
+    "personalised-vehicle-registration",
+    "register-vehicle"
+  ],
+  "department-for-work-and-pensions": [
+    "carers-allowance",
+    "personal-independence-payment",
+    "universal-credit"
+  ],
+  "hm-revenue-and-customs": [
+    "company-car-tax",
+    "pay-self-assessment",
+    "tax-business-account",
+    "agent-services-account"
+  ],
+  "home-office": ["registered-traveller", "passport", "visas-and-immigration"],
+  "ministry-of-justice": [
+    "money-claims",
+    "employment-tribunal",
+    "prison-visits",
+    "lasting-power-of-attorney"
+  ]
+}

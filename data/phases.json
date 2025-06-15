@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Unknown",
+    "colour": ""
+  },
+  {
+    "name": "Retired",
+    "colour": "grey"
+  },
+  {
+    "name": "Alpha",
+    "colour": "purple"
+  },
+  {
+    "name": "Beta",
+    "colour": "pink"
+  },
+  {
+    "name": "Live",
+    "colour": "green"
+  }
+]
