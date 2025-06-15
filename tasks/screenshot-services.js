@@ -1,13 +1,12 @@
-const fs = require('node:fs');
-const path = require('node:path');
-const process = require('node:process');
+import fs from 'node:fs'
+import path from 'node:path';
+import process from 'node:process';
 
-const puppeteer = require('puppeteer-core');
+import "dotenv/config";
+import puppeteer from 'puppeteer-core';
 
 const useHeadless = false; // set to false for services which prevent screen-scraping
 const delayInSeconds = 2; // add a delay for services which use slow client-side rendering
-
-require('dotenv').config();
 
 // Display a helpful error if path to Google Chrome is missing
 if (!Object.keys(process.env).includes('GOOGLE_CHROME_PATH')) {
@@ -66,8 +65,8 @@ const servicesToSkip = [
   "view-the-orphan-works-register"
 ]
 
-const servicesFolder = path.join(__dirname, '..', 'app', 'services');
-const screenshotsFolder = path.join(__dirname, '..', 'app', 'assets', 'images', 'service-screenshots');
+const servicesFolder = path.join(import.meta.dirname, '..', 'app', 'services');
+const screenshotsFolder = path.join(import.meta.dirname, '..', 'app', 'assets', 'images', 'service-screenshots');
 
 if (services.includes('all')) {
   services = []

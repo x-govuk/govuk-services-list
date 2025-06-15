@@ -1,11 +1,11 @@
-const fs = require('node:fs');
-const path = require('node:path');
+import fs from 'node:fs'
+import path from 'node:path';
 
 const existingStartPages = []
 const newStartPages = []
 
-const servicesFolder = path.join(__dirname, '..', 'app', 'services');
-const tasksFolder = path.join(__dirname, '..', 'tasks');
+const servicesFolder = path.join(import.meta.dirname, '..', 'app', 'services');
+const tasksFolder = path.join(import.meta.dirname, '..', 'tasks');
 const services = []
 
 fs.readdirSync(servicesFolder).forEach(function(filename) {
