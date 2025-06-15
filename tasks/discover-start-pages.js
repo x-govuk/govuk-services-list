@@ -1,37 +1,43 @@
-import fs from 'node:fs'
-import path from 'node:path';
+import fs from "node:fs";
+import path from "node:path";
 
-const existingStartPages = []
-const newStartPages = []
+const existingStartPages = [];
+const newStartPages = [];
 
-const servicesFolder = path.join(import.meta.dirname, '..', 'app', 'services');
-const tasksFolder = path.join(import.meta.dirname, '..', 'tasks');
-const services = []
+const servicesFolder = path.join(import.meta.dirname, "..", "app", "services");
+const tasksFolder = path.join(import.meta.dirname, "..", "tasks");
+const services = [];
 
-fs.readdirSync(servicesFolder).forEach(function(filename) {
-  if (filename !== '_template.json' && filename.endsWith('.json')) {
-    services.push(filename.replace('.json', ''))
+fs.readdirSync(servicesFolder).forEach(function (filename) {
+  if (filename !== "_template.json" && filename.endsWith(".json")) {
+    services.push(filename.replace(".json", ""));
   }
 });
 
-const ignoredStartPages = fs.readFileSync(`${tasksFolder  }/ignored_start_page_urls.txt`).toString().split('\n')
+const ignoredStartPages = fs
+  .readFileSync(`${tasksFolder}/ignored_start_page_urls.txt`)
+  .toString()
+  .split("\n");
 
 for (let service of services) {
-  service = service.replace('.json', '');
+  service = service.replace(".json", "");
 
-  const project = JSON.parse(fs.readFileSync(`${servicesFolder  }/${  service  }.json`).toString());
+  const project = JSON.parse(
+    fs.readFileSync(`${servicesFolder}/${service}.json`).toString(),
+  );
 
-  const startPages = project['start-page']
+  const startPages = project["start-page"];
 
   if (Array.isArray(startPages)) {
-    existingStartPages.push(...startPages)
+    existingStartPages.push(...startPages);
   } else if (startPages) {
-    existingStartPages.push(startPages)
+    existingStartPages.push(startPages);
   }
 }
 
 async function getData() {
-  const url = "https://www.gov.uk/api/search.json?filter_format=transaction&count=1000&start=0";
+  const url =
+    "https://www.gov.uk/api/search.json?filter_format=transaction&count=1000&start=0";
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -41,17 +47,22 @@ async function getData() {
     const json = await response.json();
     const results = json.results;
 
-    const startPages = results.map((result) => `https://www.gov.uk${result.link}`)
+    const startPages = results.map(
+      (result) => `https://www.gov.uk${result.link}`,
+    );
 
     for (const startPage of startPages) {
-      if (!existingStartPages.includes(startPage) && !ignoredStartPages.includes(startPage)) {
-        newStartPages.push(startPage)
+      if (
+        !existingStartPages.includes(startPage) &&
+        !ignoredStartPages.includes(startPage)
+      ) {
+        newStartPages.push(startPage);
       }
     }
 
-    console.log(`${newStartPages.length} new start pages found:\n`)
+    console.log(`${newStartPages.length} new start pages found:\n`);
     for (const startPage of newStartPages.sort()) {
-      console.log(startPage)
+      console.log(startPage);
     }
   } catch (error) {
     console.error(error.message);
