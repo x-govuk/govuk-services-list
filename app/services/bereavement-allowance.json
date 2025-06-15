@@ -1,18 +1,13 @@
 {
   "name": "Apply for Bereavement Support Payment",
-  "synonyms": [
-    "Bereavement support",
-    "Bereavement Support Payment"
-  ],
+  "synonyms": ["Bereavement support", "Bereavement Support Payment"],
   "description": "You may be able to get Bereavement Support Payment if your husband, wife or civil partner died in the last 21 months.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "start-page": "https://www.gov.uk/bereavement-support-payment/how-to-claim",
   "liveservice": "https://apply-for-bereavement-support-payment.dwp.gov.uk/apply?lang=en",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "sourceCode": [
     {
       "text": "Source code",

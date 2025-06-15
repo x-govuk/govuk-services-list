@@ -28,7 +28,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/book-your-theory-test-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -39,7 +39,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/book-theory-test-beta-service-standard-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

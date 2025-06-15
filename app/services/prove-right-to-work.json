@@ -1,8 +1,6 @@
 {
   "name": "Prove your right to work",
-  "synonyms": [
-    "Prove your right to work to an employer"
-  ],
+  "synonyms": ["Prove your right to work to an employer"],
   "description": "Share details of your right to work in the UK, including the types of job you’re allowed to do and how long you can work in the UK for.",
   "organisation": "Home Office",
   "theme": "Visas and immigration",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/prove-your-right-to-work-beta",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

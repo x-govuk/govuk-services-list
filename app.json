@@ -5,6 +5,8 @@
   "repository": "https://github.com/x-govuk/govuk-services-list",
   "stack": "heroku-24",
   "buildpacks": [
-    "url": "heroku/nodejs"
+    {
+      "url": "heroku/nodejs"
+    }
   ]
 }

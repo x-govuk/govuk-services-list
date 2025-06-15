@@ -1,14 +1,9 @@
 {
   "name": "DfE Connect",
-  "synonyms": [
-    "Connect",
-    "School Account"
-  ],
+  "synonyms": ["Connect", "School Account"],
   "description": "You can use DfE Connect to access DfE services and guidance relating to finance and funding, manage tasks such as school census and accounts return, view deadlines, policy updates and best practice guides.",
   "theme": "Education, training and skills",
-  "organisation": [
-    "Department for Education"
-  ],
+  "organisation": ["Department for Education"],
   "phase": "Beta",
   "liveservice": "https://dfeconnect.education.gov.uk/",
   "timeline": {

@@ -1,8 +1,6 @@
 {
   "name": "Check the register of fair rents",
-  "synonyms": [
-    "Register of fair rents"
-  ],
+  "synonyms": ["Register of fair rents"],
   "description": "Search the register of fair rents to find out the maximum rent that can be charged for a ‘regulated tenancy’ (also known as a ‘protected’ or ‘secure’ tenancy).",
   "organisation": "HM Revenue and Customs",
   "theme": "Housing and local services",

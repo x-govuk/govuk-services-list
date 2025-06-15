@@ -1,8 +1,6 @@
 {
   "name": "Find lorry and bus operators",
-  "synonyms": [
-    "Find lorry or bus operators"
-  ],
+  "synonyms": ["Find lorry or bus operators"],
   "description": "Search by name, address or licence number for operators of heavy goods vehicles and public service vehicles.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",

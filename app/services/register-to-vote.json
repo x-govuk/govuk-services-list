@@ -1,8 +1,6 @@
 {
   "name": "Register to vote",
-  "synonyms": [
-    "Signing Up to Register to Vote"
-  ],
+  "synonyms": ["Signing Up to Register to Vote"],
   "description": "Use this service to apply to register to vote or to: update your name, address or other details on the electoral register, change whether you’re on the open register",
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Citizenship and living in the UK",
@@ -13,8 +11,5 @@
     "https://www.gov.uk/register-to-vote-crown-servants-british-council-employees"
   ],
   "liveservice": "https://www.registertovote.service.gov.uk/register-to-vote/start",
-  "tags": [
-    "Top 75",
-    "Original 25 exemplars"
-  ]
+  "tags": ["Top 75", "Original 25 exemplars"]
 }

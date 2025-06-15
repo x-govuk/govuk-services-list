@@ -10,9 +10,7 @@
   "phase": "Beta",
   "liveservice": "https://www.renew-patent-trademark-registered-design.service.gov.uk/renew/start",
   "start-page": "https://www.gov.uk/renew-patent-trademark-registered-design",
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -31,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-and-design-beta-re-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta re-assessment 2"
           }
         ]
@@ -42,7 +40,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-or-design-beta-reassessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta re-assessment"
           }
         ]
@@ -53,7 +51,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-and-design-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -64,7 +62,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-or-design-alpha-reassessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha re-assessment"
           }
         ]
@@ -75,7 +73,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/renew-a-patent-trademark-or-design-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

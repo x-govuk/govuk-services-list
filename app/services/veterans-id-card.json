@@ -6,17 +6,12 @@
     "Veterans’ Recognition Scheme"
   ],
   "description": "An HM Armed Forces Veteran Card is a way to prove that you served in the UK armed forces. The card can make it quicker and easier to apply for support as a veteran.",
-  "organisation": [
-    "Office for Veterans’ Affairs",
-    "Ministry of Defence"
-  ],
+  "organisation": ["Office for Veterans’ Affairs", "Ministry of Defence"],
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "start-page": "https://www.gov.uk/veteran-card",
   "liveservice": "https://apply-for-a-veterans-card.service.gov.uk/",
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

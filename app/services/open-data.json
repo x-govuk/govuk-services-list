@@ -1,9 +1,6 @@
 {
   "name": "Find open data",
-  "synonyms": [
-    "Data.gov.uk",
-    "Find UK government data"
-  ],
+  "synonyms": ["Data.gov.uk", "Find UK government data"],
   "description": "Find data published by central government, local authorities and public bodies to help you build products and services",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
@@ -23,7 +20,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/data-gov-uk-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -34,7 +31,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/find-uk-government-data-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha reassessment"
           }
         ]

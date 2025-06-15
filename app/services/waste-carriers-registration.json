@@ -9,8 +9,5 @@
   "phase": "Beta",
   "liveservice": "https://wastecarriersregistration.service.gov.uk/",
   "start-page": "https://www.gov.uk/register-renew-waste-carrier-broker-dealer-england",
-  "tags": [
-    "Top 75",
-    "Original 25 exemplars"
-  ]
+  "tags": ["Top 75", "Original 25 exemplars"]
 }

@@ -1,8 +1,6 @@
 {
   "name": "Get help with savings if you’re on a low income (Help to Save)",
-  "synonyms": [
-    "Help to Save"
-  ],
+  "synonyms": ["Help to Save"],
   "description": "Help to Save is a type of savings account. It allows certain people entitled to Working Tax Credit or receiving Universal Credit to get a bonus of 50p for every £1 they save over 4 years.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
@@ -20,7 +18,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/help-to-save-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -31,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/help-to-save-alpha",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

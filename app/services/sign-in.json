@@ -40,7 +40,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-sign-in-end-user-digital-identity-checks",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment (end-user digital identity checks)"
           }
         ]
@@ -51,7 +51,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/authentication-and-digital-identity",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

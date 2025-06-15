@@ -14,7 +14,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-notify-live-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -25,7 +25,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-uk-notify-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -36,7 +36,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-uk-notify",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

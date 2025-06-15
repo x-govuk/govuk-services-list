@@ -1,13 +1,8 @@
 {
   "name": "Apply for a divorce",
-  "synonyms": [
-    "Apply for Divorce"
-  ],
+  "synonyms": ["Apply for Divorce"],
   "description": "You can use this service to apply for a divorce in England and Wales.",
-  "organisation": [
-    "HM Courts & Tribunals Service",
-    "Ministry of Justice"
-  ],
+  "organisation": ["HM Courts & Tribunals Service", "Ministry of Justice"],
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
   "liveservice": "https://www.apply-divorce.service.gov.uk/index",

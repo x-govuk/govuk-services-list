@@ -8,9 +8,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://nationalcareers.service.gov.uk",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {

@@ -1,8 +1,6 @@
 {
   "name": "Tell Us Once",
-  "synonyms": [
-    "Tell us about a death"
-  ],
+  "synonyms": ["Tell us about a death"],
   "description": "Tell Us Once is a service that lets you report a death to most government organisations in one go.",
   "organisation": "Department for Work and Pensions",
   "theme": "Births, deaths, marriages and care",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/tell-us-about-a-death-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

@@ -6,9 +6,7 @@
   "phase": "Beta",
   "liveservice": "https://use-lasting-power-of-attorney.service.gov.uk/home",
   "start-page": "https://www.gov.uk/use-lasting-power-of-attorney",
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

@@ -1,18 +1,13 @@
 {
   "name": "Apply for Attendance Allowance",
-  "synonyms": [
-    "Claim attendance allowance",
-    "Attendance allowance"
-  ],
+  "synonyms": ["Claim attendance allowance", "Attendance allowance"],
   "description": "Attendance Allowance (AA) is a benefit to help with extra costs if the claimant has a disability severe enough that they need help or supervision from someone else.",
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
   "phase": "Beta",
   "start-page": "https://www.gov.uk/attendance-allowance",
   "liveservice": "https://apply-for-attendance-allowance.dwp.gov.uk/attall-apply-ui/claim-type",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -21,7 +16,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/attendance-allowance",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

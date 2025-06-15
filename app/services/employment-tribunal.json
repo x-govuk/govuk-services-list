@@ -5,7 +5,5 @@
   "organisation": "Ministry of Justice",
   "phase": "Live",
   "liveservice": "https://employmenttribunals.service.gov.uk",
-  "tags": [
-    "Original 25 exemplars"
-  ]
+  "tags": ["Original 25 exemplars"]
 }

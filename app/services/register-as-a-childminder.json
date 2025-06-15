@@ -1,8 +1,6 @@
 {
   "name": "Register as a childminder",
-  "synonyms": [
-    "Apply to register as a childminder"
-  ],
+  "synonyms": ["Apply to register as a childminder"],
   "description": "You must register with Ofsted to look after children in your home.",
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/register-as-a-childminder",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -28,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-to-register-as-a-childminder-alpha",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

@@ -1,8 +1,6 @@
 {
   "name": "Register your charity’s details with HMRC",
-  "synonyms": [
-    "Get recognition from HMRC for your charity"
-  ],
+  "synonyms": ["Get recognition from HMRC for your charity"],
   "description": "You can register your charity’s details with HM Revenue and Customs (HMRC) to get tax back on things like Gift Aid donations.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",

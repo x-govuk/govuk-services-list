@@ -1,9 +1,6 @@
 {
   "name": "Repay and manage benefit money you owe",
-  "synonyms": [
-    "Manage the money you owe to DWP",
-    "Repay my debt"
-  ],
+  "synonyms": ["Manage the money you owe to DWP", "Repay my debt"],
   "description": "Use this service if you need to repay debt to the Department for Work and Pensions (DWP) but you do not get benefits anymore.",
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
@@ -18,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/manage-the-money-you-owe-to-dwp-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

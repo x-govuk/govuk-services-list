@@ -1,8 +1,6 @@
 {
   "name": "Give feedback on care",
-  "synonyms": [
-    "Share a concern, make a complaint on care"
-  ],
+  "synonyms": ["Share a concern, make a complaint on care"],
   "description": "A way for people to tell the Care Quality Commission (CQC) about their experience at a health or social care provider.",
   "organisation": "Care Quality Commissions",
   "theme": "Births, deaths, marriages and care",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/give-feedback-on-care-live-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -28,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/give-feedback-on-care",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -39,7 +37,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/share-a-concern-make-a-complaint-on-care-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

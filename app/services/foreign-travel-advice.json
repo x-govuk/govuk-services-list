@@ -1,16 +1,12 @@
 {
   "name": "Foreign travel advice",
-  "synonyms": [
-    "Use the Travel Advice Service"
-  ],
+  "synonyms": ["Use the Travel Advice Service"],
   "description": "Get advice about travelling abroad, including the latest information on coronavirus, safety and security, entry requirements and travel warnings.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Live",
   "liveservice": "https://www.gov.uk/foreign-travel-advice",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "sourceCode": [
     {
       "text": "Publisher source code",

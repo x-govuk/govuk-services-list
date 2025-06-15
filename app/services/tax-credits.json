@@ -1,8 +1,6 @@
 {
   "name": "Tax Credits Service",
-  "synonyms": [
-    "Manage your tax credits"
-  ],
+  "synonyms": ["Manage your tax credits"],
   "description": "Use this service to report actual income from self-employment if you estimated it, tell HM Revenue and Customs (HMRC) about changes to your circumstances, or to find out how much and when you’ll be paid",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",

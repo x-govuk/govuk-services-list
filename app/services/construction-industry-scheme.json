@@ -1,8 +1,6 @@
 {
   "name": "Sign in to the Construction Industry Scheme (CIS) online service",
-  "synonyms": [
-    "Construction Industry Scheme"
-  ],
+  "synonyms": ["Construction Industry Scheme"],
   "description": "CIS contractors can use this service to file monthly returns and verify a subcontractor.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",

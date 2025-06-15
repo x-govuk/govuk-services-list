@@ -29,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/nhs-111-service-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -40,7 +40,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/nhs-111-online-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -51,7 +51,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/111-online-get-urgent-help-with-111-online-beta-reassessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta re-assessment"
           }
         ]
@@ -62,7 +62,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/accessing-nhs-111-service-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

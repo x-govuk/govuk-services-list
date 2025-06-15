@@ -1,9 +1,6 @@
 {
   "name": "Apply for or renew a Blue Badge",
-  "synonyms": [
-    "Apply for Blue Badge",
-    "Apply for a Blue Badge"
-  ],
+  "synonyms": ["Apply for Blue Badge", "Apply for a Blue Badge"],
   "description": "Check your eligibility and apply for a Blue Badge. You can also use this service to reapply for a Blue Badge.",
   "organisation": "Department for Transport",
   "theme": "Driving and transport",

@@ -18,7 +18,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/look-up-residency-status-for-relief-at-source-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for  assessment"
           }
         ]
@@ -29,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/look-up-residency-status-for-relief-at-source-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -40,7 +40,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/residency-tax-status-look-up-service-relief-at-source-alpha",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

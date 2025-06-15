@@ -2,9 +2,7 @@
   "name": "Report packaging data",
   "description": "Sign in or create an account for your organisation to report packaging data. This means it can comply with extended producer responsibility (EPR) for packaging.",
   "theme": "Business and self-employed",
-  "organisation": [
-    "Department for Environment, Food & Rural Affairs"
-  ],
+  "organisation": ["Department for Environment, Food & Rural Affairs"],
   "phase": "Alpha",
   "liveservice": "https://report-packaging-data.defra.gov.uk/report-data",
   "start-page": "https://www.gov.uk/guidance/report-packaging-data",

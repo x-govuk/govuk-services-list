@@ -14,7 +14,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-a-budgeting-loan-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -25,7 +25,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-a-budgeting-loan",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

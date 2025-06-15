@@ -1,8 +1,6 @@
 {
   "name": "Get help arranging child maintenance",
-  "synonyms": [
-    "Apply for help arranging Child Maintenance"
-  ],
+  "synonyms": ["Apply for help arranging Child Maintenance"],
   "description": "This service will give you information about the different options available to make a child maintenance arrangement.",
   "organisation": "Department for Work and Pensions",
   "theme": "Childcare and parenting",

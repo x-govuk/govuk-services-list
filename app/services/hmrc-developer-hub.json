@@ -1,9 +1,6 @@
 {
   "name": "HMRC Developer Hub",
-  "synonyms": [
-    "HMRC Developer Hub and Sandbox",
-    "API Developer Hub"
-  ],
+  "synonyms": ["HMRC Developer Hub and Sandbox", "API Developer Hub"],
   "description": "Tax-related APIs for building smarter software.",
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
@@ -18,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/api-developer-hub-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

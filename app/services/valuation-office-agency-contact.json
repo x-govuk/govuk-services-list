@@ -1,8 +1,6 @@
 {
   "name": "Valuation Office Agency contact form",
-  "synonyms": [
-    "Contact VOA"
-  ],
+  "synonyms": ["Contact VOA"],
   "description": "Contact the Valuation Office Agency (VOA) if you need help with things like your property’s Council Tax band, the rateable value of your property if you pay business rates, Local Housing Allowance and fair rents.",
   "theme": "Money and tax",
   "organisation": "Valuation Office Agency",

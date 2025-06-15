@@ -30,7 +30,5 @@
       }
     ]
   },
-  "tags": [
-    "GOV.UK One Login"
-  ]
+  "tags": ["GOV.UK One Login"]
 }

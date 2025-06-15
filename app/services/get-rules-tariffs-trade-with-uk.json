@@ -1,8 +1,6 @@
 {
   "name": "Trade with the UK: look up tariffs, taxes and rules",
-  "synonyms": [
-    "Look up tariffs, taxes and rules to trade with the UK"
-  ],
+  "synonyms": ["Look up tariffs, taxes and rules to trade with the UK"],
   "description": "Find out the UK rules and taxes that apply to your goods.",
   "organisation": "Department for International Trade",
   "theme": "Money and tax",

@@ -1,10 +1,7 @@
 {
   "name": "Find a lost teacher reference number (TRN)",
   "description": "Use this service to find your teacher reference number (TRN) if you do not know it or have forgotten it, or to check if you have a TRN.",
-  "organisation": [
-    "Teaching Regulation Agency",
-    "Department for Education"
-  ],
+  "organisation": ["Teaching Regulation Agency", "Department for Education"],
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://find-a-lost-trn.education.gov.uk/start",

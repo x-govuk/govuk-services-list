@@ -4,9 +4,7 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Driving and transport",
   "phase": "unknown",
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "liveservice": "https://www.tax.service.gov.uk/paye/company-car/details",
   "start-page": "https://www.gov.uk/update-company-car-details"
 }

@@ -25,7 +25,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/recruit-an-apprentice-provider-posting",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment (providers)"
           }
         ]
@@ -36,7 +36,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apprenticeship-applications-employer-posting",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment (employers)"
           }
         ]
@@ -47,7 +47,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apprenticeship-applications",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

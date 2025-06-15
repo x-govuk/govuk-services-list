@@ -1,8 +1,6 @@
 {
   "name": "Teaching Vacancies",
-  "synonyms": [
-    "Find a job in teaching or education"
-  ],
+  "synonyms": ["Find a job in teaching or education"],
   "description": "Search for a job in teaching in England by subject or role, location, salary, full-time and part-time jobs, and by primary education and secondary education.",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Education",
@@ -47,7 +45,5 @@
       }
     ]
   },
-  "tags": [
-    "GOV.UK One Login"
-  ]
+  "tags": ["GOV.UK One Login"]
 }

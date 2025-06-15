@@ -12,7 +12,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/file-a-statement-of-capital-data-reassessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha reassessment"
           }
         ]
@@ -23,7 +23,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/file-a-statement-of-capital-data",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

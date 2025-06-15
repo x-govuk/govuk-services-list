@@ -1,14 +1,9 @@
 {
   "name": "File your accounts and Company Tax Return",
-  "synonyms": [
-    "File your company accounts and tax return"
-  ],
+  "synonyms": ["File your company accounts and tax return"],
   "description": "Use this service to file your company or Company Tax Return and accounts at the same time.",
   "theme": "Business and self-employed",
-  "organisation": [
-    "Companies House",
-    "HM Revenue and Customs"
-  ],
+  "organisation": ["Companies House", "HM Revenue and Customs"],
   "phase": "Beta",
   "start-page": "https://www.gov.uk/file-your-company-accounts-and-tax-return",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/cato/&origin=CATO-frontend"

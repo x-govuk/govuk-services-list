@@ -12,9 +12,7 @@
   "phase": "Beta",
   "liveservice": "https://www.apply-new-style-employment-support-allowance.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/new-style-employment-and-support-allowance",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -23,7 +21,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-new-style-employment-and-support-allowance-esa-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -34,7 +32,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-online-for-new-style-employment-and-support-allowance-alpha-reassessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha re-assessment"
           }
         ]
@@ -45,7 +43,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-online-for-new-style-employment-and-support-allowance-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -56,7 +54,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-esa",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -67,7 +65,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-new-style-employment-and-support-allowance-beta-reassessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta reassessment"
           }
         ]

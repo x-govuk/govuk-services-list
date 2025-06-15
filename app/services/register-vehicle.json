@@ -11,9 +11,7 @@
   "phase": "Beta",
   "liveservice": "https://register-vehicle.service.gov.uk/",
   "start-page": "https://www.gov.uk/guidance/register-a-vehicle-if-you-work-for-a-vehicle-manufacturer-or-retailer",
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -22,7 +20,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/register-a-vehicle-electronically-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

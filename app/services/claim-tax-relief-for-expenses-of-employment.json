@@ -18,7 +18,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/claim-flat-rate-expenses-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -29,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/claim-flat-rate-expenses-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

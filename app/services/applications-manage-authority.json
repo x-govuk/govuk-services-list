@@ -1,8 +1,6 @@
 {
   "name": "Manage permissions for tax software",
-  "synonyms": [
-    "Manage authorised applications"
-  ],
+  "synonyms": ["Manage authorised applications"],
   "description": "You may be using software to interact with HM Revenue and Customs (HMRC), for example to send your Self Assessment tax return. You can use this service to check which software you’ve given permission to and remove permission from any software.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",

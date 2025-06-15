@@ -4,9 +4,7 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Childcare and parenting",
   "phase": "beta",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "liveservice": "https://account.hmrc.gov.uk/child-benefit/make_a_claim/recently-claimed-child-benefit",
   "start-page": "https://www.gov.uk/child-benefit/how-to-claim"
 }

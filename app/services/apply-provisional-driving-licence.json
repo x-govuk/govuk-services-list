@@ -6,9 +6,7 @@
   "phase": "Beta",
   "liveservice": "https://apply-provisional-driving-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-first-provisional-driving-licence",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-your-first-provisional-driving-licence",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -28,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-your-first-provisional-licence",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

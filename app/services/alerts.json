@@ -1,9 +1,6 @@
 {
   "name": "Emergency Alerts",
-  "organisation": [
-    "Government Digital Service",
-    "Cabinet Office"
-  ],
+  "organisation": ["Government Digital Service", "Cabinet Office"],
   "description": "A UK government service that will warn you if there’s a danger to life nearby.",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",

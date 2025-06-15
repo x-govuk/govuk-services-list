@@ -1,8 +1,6 @@
 {
   "name": "Pay a DVLA fine",
-  "synonyms": [
-    "Pay a DVLA penalty"
-  ],
+  "synonyms": ["Pay a DVLA penalty"],
   "description": "Use this service to pay: a fine for not taxing your vehicle or declaring that it’s off the road (a SORN), the tax you owe for when you didn’t tax your vehicle Your DVLA penalty letter will tell you how much you have to pay and when you must pay it by.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/pay-a-dvla-fine-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]

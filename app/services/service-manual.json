@@ -1,8 +1,6 @@
 {
   "name": "Service Manual",
-  "synonyms": [
-    "Manual"
-  ],
+  "synonyms": ["Manual"],
   "description": "Helping teams to create and run great public services that meet the Service Standard.",
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
@@ -16,7 +14,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/service-manual-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -27,7 +25,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/service-manual-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

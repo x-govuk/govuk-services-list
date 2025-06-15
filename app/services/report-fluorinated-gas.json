@@ -1,8 +1,6 @@
 {
   "name": "Report your fluorinated gas (F gas) activities",
-  "synonyms": [
-    "Record and report F gas and equipment pre-charged with F gas"
-  ],
+  "synonyms": ["Record and report F gas and equipment pre-charged with F gas"],
   "description": "You must record and report how much F gas you produce, import, export and destroy.",
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",

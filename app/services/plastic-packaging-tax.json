@@ -1,8 +1,6 @@
 {
   "name": "Plastic packaging tax",
-  "synonyms": [
-    "Register for Plastic Packaging Tax"
-  ],
+  "synonyms": ["Register for Plastic Packaging Tax"],
   "description": "Entities that import or produce plastic packaging will soon be liable for a tax. This service allows users to register, fill in returns and pay the tax due.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/plastic-packaging-tax",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -28,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/plastic-packaging-tax-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

@@ -22,7 +22,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/report-mot-fraud-motreminders-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for  assessment"
           }
         ]
@@ -33,7 +33,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/get-an-annual-mot-reminder-beta-reassessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta reassessment"
           }
         ]

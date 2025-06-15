@@ -9,9 +9,7 @@
   "phase": "Beta",
   "liveservice": "https://apply-driver-digital-tachograph-card.service.gov.uk/",
   "start-page": "https://www.gov.uk/apply-driver-digital-tachograph-card",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {

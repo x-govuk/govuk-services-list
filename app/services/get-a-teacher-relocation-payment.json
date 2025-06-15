@@ -1,8 +1,6 @@
 {
   "name": "Get an international relocation payment",
-  "synonyms": [
-    "Apply for the international relocation payment"
-  ],
+  "synonyms": ["Apply for the international relocation payment"],
   "description": "The international relocation payment (IRP) is a single payment of £10,000, funded by the UK government, which is available to eligible non-UK trainees and teachers of languages, physics and general or combined science when that includes physics.",
   "organisation": "Department for Education",
   "theme": "Education, training and skills",

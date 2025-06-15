@@ -8,7 +8,5 @@
   "liveservice": "https://get-state-pension.service.gov.uk/confirm-identity",
   "start-page": "https://www.gov.uk/get-state-pension",
   "prototype": "https://getyourstatepension.herokuapp.com/",
-  "tags": [
-    "Top 75"
-  ]
+  "tags": ["Top 75"]
 }

@@ -25,7 +25,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/tax-free-childcare-parents-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment (parents)"
           }
         ]
@@ -36,7 +36,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/tax-free-childcare-providers-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment (providers)"
           }
         ]

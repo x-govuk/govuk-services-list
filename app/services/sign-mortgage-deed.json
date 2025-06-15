@@ -6,9 +6,7 @@
   "phase": "Beta",
   "liveservice": "https://sign-your-mortgage-deed.landregistry.gov.uk",
   "start-page": "https://www.gov.uk/government/publications/hm-land-registry-sign-your-mortgage-deed",
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/sign-your-mortgage-deed-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

@@ -1,17 +1,13 @@
 {
   "name": "Manage your student loan balance",
-  "synonyms": [
-    "Manage My Student Loan Balance"
-  ],
+  "synonyms": ["Manage My Student Loan Balance"],
   "description": "Sign in to your student loan repayment account to check your balance or make a one-off repayment",
   "organisation": "Student Loans Company",
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://www.manage-student-loan-balance.service.gov.uk/ors",
   "start-page": "https://www.gov.uk/sign-in-to-manage-your-student-loan-balance",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -20,7 +16,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/manage-your-student-loan-balance-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

@@ -1,8 +1,6 @@
 {
   "name": "Check if an animal medicine is licensed",
-  "synonyms": [
-    "Product Information Database"
-  ],
+  "synonyms": ["Product Information Database"],
   "description": "Find out if a veterinary medicine is currently licensed for use (‘authorised’) to treat pets and other animals.",
   "organisation": [
     "Veterinary Medicines Directorate",
