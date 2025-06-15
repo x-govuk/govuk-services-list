@@ -1,8 +1,8 @@
-@use "node_modules/govuk-frontend/dist/govuk" as *;
+@use "pkg:govuk-frontend/dist/govuk" as *;
 
 .app-screenshot {
+  border: 1px solid $govuk-border-colour;
   box-sizing: border-box;
   max-width: 100%;
-  padding: 10px;
-  border: 1px solid $govuk-border-colour;
+  padding: govuk-spacing(2);
 }
