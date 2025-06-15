@@ -5,85 +5,20 @@ import govukPrototypeFilters from "@x-govuk/govuk-prototype-filters";
 import express from "express";
 import nunjucks from "nunjucks";
 
+import exemplars from "./data/exemplars.json" with { type: "json" };
+import ignoredVerbs from "./data/ignored-verbs.json" with { type: "json" };
+import organisations from "./data/organisations.json" with { type: "json" };
+import phases from "./data/phases.json" with { type: "json" };
+import themes from "./data/themes.json" with { type: "json" };
+
 const app = express();
 const port = process.env.PORT || 3100;
 
-app.locals.phases = [
-  {
-    name: "Unknown",
-    class: "",
-    projects_count: 0,
-  },
-  {
-    name: "Retired",
-    class: "grey",
-    projects_count: 0,
-  },
-  {
-    name: "Alpha",
-    class: "purple",
-    projects_count: 0,
-  },
-  {
-    name: "Beta",
-    class: "pink",
-    projects_count: 0,
-  },
-  {
-    name: "Live",
-    class: "green",
-    projects_count: 0,
-  },
-];
-
-app.locals.themes = [
-  "Benefits",
-  "Births, deaths, marriages and care",
-  "Business and self-employed",
-  "Childcare and parenting",
-  "Citizenship and living in the UK",
-  "Crime, justice and the law",
-  "Driving and transport",
-  "Education, training and skills",
-  "Employing people",
-  "Environment and countryside",
-  "Housing and local services",
-  "Government Internal",
-  "Health",
-  "Money and tax",
-  "Passports, travel and living abroad",
-  "Visas and immigration",
-  "Working, jobs and pensions",
-  "Coronavirus (COVID-19)",
-];
-
-app.locals.organisations = [
-  { name: "Cabinet Office" },
-  { name: "Department for Business and Trade" },
-  { name: "Department for Education" },
-  { name: "Department for Environment, Food & Rural Affairs" },
-  { name: "Department for International Trade" },
-  { name: "Ministry of Housing, Communities & Local Government" },
-  { name: "Department for Transport" },
-  { name: "Department for Work and Pensions" },
-  { name: "Department of Health and Social Care" },
-  { name: "Department for Energy Security and Net Zero" },
-  { name: "Foreign, Commonwealth & Development Office" },
-  { name: "Home Office" },
-  { name: "Ministry of Defence" },
-  { name: "Ministry of Justice" },
-  { name: "HM Revenue and Customs" },
-  { name: "Environment Agency" },
-  { name: "NHS England" },
-  { name: "Companies House" },
-  { name: "Ofsted" },
-  { name: "Insolvency Service" },
-  { name: "Land Registry" },
-];
-
 app.locals.allEvents = [];
-
+app.locals.organisations = organisations;
+app.locals.phases = phases;
 app.locals.projects = [];
+app.locals.themes = themes;
 
 const servicesDirectory = path.join(import.meta.dirname, "/app/services/");
 
@@ -167,24 +102,6 @@ for (const organisation of app.locals.organisations) {
 
 app.locals.verbs = [];
 app.locals.domains = [];
-
-const ignoredVerbs = [
-  "gov.uk",
-  "trade",
-  "home",
-  "flood",
-  "electronic",
-  "digital",
-  "registered",
-  "application",
-  "online",
-  "payment",
-  "passport",
-  "vehicle",
-  "the",
-  "civil",
-  "supplier",
-];
 
 const projectsWithValidVerbs = app.locals.projects.filter((project) => {
   const verb = project.name.split(" ")[0].toLowerCase();
@@ -296,48 +213,6 @@ app.get("/govuk-one-login", function (req, res) {
 });
 
 app.get("/original-25-exemplars", function (req, res) {
-  const exemplars = {
-    "cabinet-office": ["register-to-vote"],
-    "Department for Business Innovation & Skills": [
-      "find-apprenticeship",
-      "redundancy-payments",
-      "patent",
-      "find-property-information",
-      "student-finance-account",
-    ],
-    "department-for-environment-food-rural-affairs": [
-      "waste-carriers-registration",
-      "rural-payments",
-    ],
-    "department-for-transport": [
-      "view-driving-record",
-      "personalised-vehicle-registration",
-      "register-vehicle",
-    ],
-    "department-for-work-and-pensions": [
-      "carers-allowance",
-      "personal-independence-payment",
-      "universal-credit",
-    ],
-    "hm-revenue-and-customs": [
-      "company-car-tax",
-      "pay-self-assessment",
-      "tax-business-account",
-      "agent-services-account",
-    ],
-    "home-office": [
-      "registered-traveller",
-      "passport",
-      "visas-and-immigration",
-    ],
-    "ministry-of-justice": [
-      "money-claims",
-      "employment-tribunal",
-      "prison-visits",
-      "lasting-power-of-attorney",
-    ],
-  };
-
   res.render("original-25-exemplars.html", { exemplars });
 });
 
