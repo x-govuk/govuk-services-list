@@ -182,19 +182,19 @@ app.use("/", express.static("static"));
 app.use("/images", express.static("app/assets/images"));
 
 app.get("/", (request, response) => {
-  response.render("index.html");
+  response.render("index.njk");
 });
 
 app.get("/organisation{/:slug}", (request, response, next) => {
   const { slug } = request.params;
 
   if (!slug) {
-    return response.render("organisations.html");
+    return response.render("organisations.njk");
   }
 
   const organisation = organisations.find((org) => org.slug === slug);
   if (organisation) {
-    return response.render("organisation.html", { organisation });
+    return response.render("organisation.njk", { organisation });
   }
 
   next();
@@ -209,7 +209,7 @@ app.get("/service{/:slug}", (request, response, next) => {
 
   const service = services.find((service) => service.slug === slug);
   if (service) {
-    return response.render("service.html", { service });
+    return response.render("service.njk", { service });
   }
 
   next();
@@ -220,18 +220,18 @@ app.get("/data.json", (request, response) => {
 });
 
 app.get("/:view", (request, response) => {
-  response.render(`${request.params.view}.html`);
+  response.render(`${request.params.view}.njk`);
 });
 
 app.use((request, response) => {
   response.status(404);
-  response.render("404.html");
+  response.render("404.njk");
 });
 
 app.use((error, request, response, next) => {
   console.error(error.stack);
   response.status(500);
-  response.render("500.html", { error });
+  response.render("500.njk", { error });
 });
 
 app.listen(port, () =>
