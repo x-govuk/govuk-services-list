@@ -15,7 +15,6 @@ $_font-family: system-ui, sans-serif;
 @forward "pkg:@x-govuk/govuk-prototype-components/masthead";
 
 // Application components
-@use "count";
 @use "list";
 @use "screenshot";
 @use "tag";
