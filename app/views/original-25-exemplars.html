@@ -25,14 +25,14 @@
       <ol class="govuk-list govuk-list--number govuk-!-margin-bottom-6" start="{{ number }}">
       {%- for item in items -%}
         {% set number = number + 1 %}
-        {% set project = projects | find("slug", item) %}
+        {% set service = services | find("slug", item) %}
         <li>
           <h3 class="govuk-heading-m govuk-!-margin-bottom-2">
-            <a class="govuk-link" href="/projects/{{ project.slug }}">
-              {{- project.name -}}
+            <a class="govuk-link" href="/service/{{ service.slug }}">
+              {{- service.name -}}
             </a>
           </h3>
-          <p class="govuk-body">{{ project.description }}</p>
+          <p class="govuk-body">{{ service.description }}</p>
         </li>
       {%- endfor %}
       </ol>

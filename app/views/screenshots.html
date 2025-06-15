@@ -6,11 +6,11 @@
   <h1 class="govuk-heading-xl">{{ title }}</h1>
 
   <div class="govuk-grid-row">
-  {%- for project in projects | sort(attribute="name") -%}
-  {%- if project.screenshot -%}
+  {%- for service in services | sort(attribute="name") -%}
+  {%- if service.screenshot -%}
     <div class="govuk-grid-column-one-quarter govuk-!-padding-bottom-4">
-      <a href="/projects/{{ project.slug }}">
-        <img class="app-screenshot" src="/images/service-screenshots/{{ project.slug }}.png" alt="{{ project.name }}">
+      <a href="/service/{{ service.slug }}">
+        <img class="app-screenshot" src="/images/service-screenshots/{{ service.slug }}.png" alt="{{ service.name }}">
       </a>
     </div>
   {%- endif %}

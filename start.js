@@ -17,37 +17,37 @@ const port = process.env.PORT || 3100;
 app.locals.allEvents = [];
 app.locals.organisations = organisations;
 app.locals.phases = phases;
-app.locals.projects = [];
+app.locals.services = [];
 app.locals.themes = themes;
 
 const servicesDirectory = path.join(import.meta.dirname, "/app/services/");
 
 fs.readdirSync(servicesDirectory).forEach(function (filename) {
   if (filename !== "_template.json" && filename.endsWith(".json")) {
-    const projectFile = path.join(
+    const serviceFile = path.join(
       import.meta.dirname,
       "app/services",
       filename,
     );
-    const project = JSON.parse(fs.readFileSync(projectFile).toString());
+    const service = JSON.parse(fs.readFileSync(serviceFile).toString());
 
-    project.filename = filename;
-    project.slug = filename.replace(".json", "");
-    app.locals.projects.push(project);
+    service.filename = filename;
+    service.slug = filename.replace(".json", "");
+    app.locals.services.push(service);
 
-    if (!Array.isArray(project.organisation)) {
-      project.organisation = [project.organisation];
+    if (!Array.isArray(service.organisation)) {
+      service.organisation = [service.organisation];
     }
 
-    if (!Array.isArray(project["start-page"])) {
-      if (project["start-page"]) {
-        project["start-page"] = [project["start-page"]];
+    if (!Array.isArray(service["start-page"])) {
+      if (service["start-page"]) {
+        service["start-page"] = [service["start-page"]];
       } else {
-        project["start-page"] = [];
+        service["start-page"] = [];
       }
     }
 
-    for (const organisation of project.organisation) {
+    for (const organisation of service.organisation) {
       if (
         !app.locals.organisations.find(function (org) {
           return org.name === organisation;
@@ -63,19 +63,19 @@ fs.readdirSync(servicesDirectory).forEach(function (filename) {
     const screenshotFile = path.join(
       import.meta.dirname,
       "app/assets/images/service-screenshots",
-      `${project.slug}.png`,
+      `${service.slug}.png`,
     );
 
     if (fs.existsSync(screenshotFile)) {
-      project.screenshot = true;
+      service.screenshot = true;
     }
 
-    if (project.timeline) {
-      for (const item of project.timeline.items) {
+    if (service.timeline) {
+      for (const item of service.timeline.items) {
         app.locals.allEvents.push({
           service: {
-            name: project.name,
-            slug: project.slug,
+            name: service.name,
+            slug: service.slug,
           },
           date: item.date,
           label: item.label,
@@ -84,7 +84,7 @@ fs.readdirSync(servicesDirectory).forEach(function (filename) {
     }
 
     const phase = app.locals.phases.filter(function (p) {
-      return p.name === project.phase;
+      return p.name === service.phase;
     });
 
     if (phase.length > 0) {
@@ -95,7 +95,7 @@ fs.readdirSync(servicesDirectory).forEach(function (filename) {
 
 for (const organisation of app.locals.organisations) {
   organisation.slug = govukPrototypeFilters.slugify(organisation.name);
-  organisation.services = app.locals.projects.filter(function (service) {
+  organisation.services = app.locals.services.filter(function (service) {
     return service.organisation.includes(organisation.name);
   });
 }
@@ -103,13 +103,13 @@ for (const organisation of app.locals.organisations) {
 app.locals.verbs = [];
 app.locals.domains = [];
 
-const projectsWithValidVerbs = app.locals.projects.filter((project) => {
-  const verb = project.name.split(" ")[0].toLowerCase();
+const servicesWithValidVerbs = app.locals.services.filter((service) => {
+  const verb = service.name.split(" ")[0].toLowerCase();
   return !ignoredVerbs.includes(verb);
 });
 
-for (const project of projectsWithValidVerbs) {
-  const verb = project.name.split(" ")[0].toLowerCase();
+for (const service of servicesWithValidVerbs) {
+  const verb = service.name.split(" ")[0].toLowerCase();
 
   let existingVerb = app.locals.verbs.find((v) => v.name === verb);
 
@@ -118,31 +118,39 @@ for (const project of projectsWithValidVerbs) {
     app.locals.verbs.push(existingVerb);
   }
 
-  existingVerb.services.push(project);
+  existingVerb.services.push(service);
   existingVerb.count += 1;
 }
 
-const projectsWithValidDomains = app.locals.projects
-  .filter((project) => project.liveservice)
-  .filter((project) => project.phase !== "Retired")
-  .filter((project) => {
-    const { hostname } = new URL(project.liveservice);
+const servicesWithValidDomains = app.locals.services
+  .filter((service) => service.liveservice)
+  .filter((service) => service.phase !== "Retired")
+  .filter((service) => {
+    const { hostname } = new URL(service.liveservice);
 
     return hostname.replace(/www\./, "") !== "gov.uk";
   });
 
-for (const project of projectsWithValidDomains) {
-  const { hostname } = new URL(project.liveservice);
+for (const service of servicesWithValidDomains) {
+  const { hostname } = new URL(service.liveservice);
 
   const existingDomain = app.locals.domains.find(
     (domain) => domain.domain === hostname,
   );
   if (existingDomain) {
-    existingDomain.services.push({ slug: project.slug, name: project.name });
+    existingDomain.services.push({
+      slug: service.slug,
+      name: service.name,
+    });
   } else {
     app.locals.domains.push({
       domain: hostname,
-      services: [{ slug: project.slug, name: project.name }],
+      services: [
+        {
+          slug: service.slug,
+          name: service.name,
+        },
+      ],
     });
   }
 }
@@ -175,12 +183,12 @@ env.addFilter("govukDate", govukPrototypeFilters.govukDate);
 
 env.addFilter("slugify", govukPrototypeFilters.slugify);
 
-app.get("/projects/:slug", function (req, res) {
-  const project = req.app.locals.projects.filter(function (p) {
-    return p.slug === req.params.slug;
+app.get("/service/:slug", function (req, res) {
+  const service = req.app.locals.services.filter(function (service) {
+    return service.slug === req.params.slug;
   })[0];
-  res.render("project.html", {
-    project,
+  res.render("service.html", {
+    service,
   });
 });
 
@@ -253,7 +261,7 @@ app.get("/data", function (req, res) {
 
 app.get("/data.json", function (req, res) {
   // res.setHeader('Content-Type', 'application/json');
-  res.json({ services: app.locals.projects });
+  res.json({ services: app.locals.services });
 });
 
 app.listen(port, () =>

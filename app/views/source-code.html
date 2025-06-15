@@ -17,10 +17,10 @@
         html: quote
       }) }}
 
-      {% set serviceCount = projects | length %}
+      {% set serviceCount = services | length %}
       {% set serviceWithSourceCodeCount = 0 %}
 
-      {%- for service in projects | sort(attribute="name") -%}
+      {%- for service in services | sort(attribute="name") -%}
         {%- if service.sourceCode -%}
           {% set serviceWithSourceCodeCount = serviceWithSourceCodeCount + 1 %}
         {%- endif %}
@@ -29,10 +29,10 @@
       <p class="govuk-body">The source code for {{ serviceWithSourceCodeCount }} services ({{ (serviceWithSourceCodeCount / serviceCount * 100) | round }}%) is public and linked to:</p>
 
       <ul class="govuk-list govuk-list--number govuk-list--spaced">
-      {%- for service in projects | sort(attribute="name") -%}
+      {%- for service in services | sort(attribute="name") -%}
       {%- if service.sourceCode -%}
         <li>
-          <a class="govuk-link" href="/projects/{{ service.slug }}">
+          <a class="govuk-link" href="/service/{{ service.slug }}">
             {{- service.name -}}
           </a>
         </li>

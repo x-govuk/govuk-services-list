@@ -1,4 +1,4 @@
-{% extends "layout.html" %}
+{% extends "layout.njk" %}
 
 {% set title = "Top 75 services" %}
 
@@ -19,7 +19,7 @@
       {%- for service in services | sort(attribute="name") -%}
       {%- for tag in service.tags %}{% if tag == "Top 75" -%}
         <li>
-          <a class="govuk-link" href="/services/{{ service.slug }}">
+          <a class="govuk-link" href="/service/{{ service.slug }}">
             {{- service.name -}}
           </a>
         </li>

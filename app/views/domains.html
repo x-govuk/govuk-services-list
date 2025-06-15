@@ -15,12 +15,12 @@
     <li>
     {%- if domain.services | length == 1 -%}
       {% set service = domain.services | first %}
-      <a class="govuk-link govuk-!-font-weight-bold" href="/projects/{{ service.slug }}">{{ domain.domain }}</a>
+      <a class="govuk-link govuk-!-font-weight-bold" href="/service/{{ service.slug }}">{{ domain.domain }}</a>
     {%- else %}
       <b>{{ domain.domain }}</b> - {{ domain.services | length }} services
       <ul class="govuk-list govuk-list--spaced govuk-!-font-size-16 govuk-!-padding-left-5 govuk-!-margin-bottom-4">
       {%- for service in domain.services -%}
-        <li><a class="govuk-link" href="/projects/{{ service.slug }}">{{ service.name }}</a></li>
+        <li><a class="govuk-link" href="/service/{{ service.slug }}">{{ service.name }}</a></li>
       {%- endfor %}
       </ul>
     {%- endif %}
@@ -37,7 +37,7 @@
     <li>
     {%- if domain.services | length == 1 -%}
       {%- set service = domain.services | first %}
-      <a class="govuk-link govuk-!-font-weight-bold" href="/projects/{{ service.slug }}">{{ domain.domain }}</a>
+      <a class="govuk-link govuk-!-font-weight-bold" href="/service/{{ service.slug }}">{{ domain.domain }}</a>
     {%- endif %}
     </li>
     {%- endif %}
