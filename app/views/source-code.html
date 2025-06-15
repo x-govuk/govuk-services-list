@@ -1,13 +1,11 @@
 {% extends "layout.html" %}
-{% block pageTitle %}Source code - X-GOVUK{% endblock %}
 
-{% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
+{% set title = "Source code" %}
 
 {% block content %}
-
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">Source code</h1>
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
 
       {% set quote %}
         <p class="govuk-body">“Make all new source code open and reusable, and publish it under appropriate licences.”</p>
@@ -16,28 +14,31 @@
       {% endset %}
 
       {{ govukInsetText({
-      html: quote
+        html: quote
       }) }}
 
       {% set serviceCount = projects | length %}
       {% set serviceWithSourceCodeCount = 0 %}
 
-      {%- for service in (projects | sort(attribute="name")) -%}
-        {% if service.sourceCode %}
+      {%- for service in projects | sort(attribute="name") -%}
+        {%- if service.sourceCode -%}
           {% set serviceWithSourceCodeCount = serviceWithSourceCodeCount + 1 %}
-        {% endif %}
-      {% endfor %}
+        {%- endif %}
+      {%- endfor %}
 
       <p class="govuk-body">The source code for {{ serviceWithSourceCodeCount }} services ({{ (serviceWithSourceCodeCount / serviceCount * 100) | round }}%) is public and linked to:</p>
 
       <ul class="govuk-list govuk-list--number govuk-list--spaced">
-        {%- for service in (projects | sort(attribute="name")) -%}
-          {% if service.sourceCode %}
-            <li><a class="govuk-link" href="/projects/{{service.slug }}">{{ service.name }}</a></li>
-          {% endif %}
-        {% endfor %}
+      {%- for service in projects | sort(attribute="name") -%}
+      {%- if service.sourceCode -%}
+        <li>
+          <a class="govuk-link" href="/projects/{{ service.slug }}">
+            {{- service.name -}}
+          </a>
+        </li>
+      {%- endif %}
+      {%- endfor %}
       </ul>
-
     </div>
   </div>
 {% endblock %}

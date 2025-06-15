@@ -1,6 +1,3 @@
-{%- from "govuk/components/service-navigation/macro.njk" import govukServiceNavigation -%}
-{% from "macros/x-govuk-logo.njk" import xGovukLogo -%}
-
 <header class="govuk-header" role="banner" data-module="govuk-header">
   <div class="govuk-header__container govuk-width-container">
     <div class="govuk-header__logo">
@@ -20,26 +17,26 @@
   navigation: [{
     href: "/a-z",
     text: "A to Z",
-    active: section == "a-z"
+    active: title == "A to Z"
   },
   {
     href: "/topic",
     text: "By topic",
-    active: section == "topic"
+    active: title == "By topic"
   },
   {
     href: "/organisation",
     text: "By organisation",
-    active: section == "organisation"
+    active: title == "By organisation"
   },
   {
     href: "/phase",
     text: "By phase",
-    active: section == "phase"
+    active: title == "By phase"
   },
   {
     href: "/contribute",
     text: "Contribute",
-    active: section == "contribute"
+    active: title == "Contribute"
   }]
 }) }}

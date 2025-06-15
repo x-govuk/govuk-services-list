@@ -1,19 +1,17 @@
 {% extends "layout.html" %}
-{% set section = "contribute" %}
 
-{% block pageTitle %}Contribute to Government digital services{% endblock %}
+{% set title = "Contribute" %}
+
 {% block content %}
-
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-
-      <h1 class="govuk-heading-xl">Contribute</h1>
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
 
       <p class="govuk-body">This is an unofficial community project to catalogue and document the different digital services being developed and run across UK Government departments.</p>
 
       <p class="govuk-body">The project aims to make it easier for digital teams to discover other services which may be related to the one they are working on, in order to improve cross-Government collaboration.</p>
 
-      <p class="govuk-body">You can contibute to this project by:</p>
+      <p class="govuk-body">You can contribute to this project by:</p>
 
       <ul class="govuk-list govuk-list--bullet">
         <li><a class="govuk-link" href="#adding-services">Adding missing services which you know about</a></li>
@@ -21,7 +19,7 @@
         <li><a class="govuk-link" href="#improve-website">Improving the presentation of this website</a></li>
       </ul>
 
-      <h2 class="govuk-heading-m" id="adding-services">Adding missing services</h2>
+      <h2 class="govuk-heading-l" id="adding-services">Adding missing services</h2>
 
       <p class="govuk-body">If a service you know of is missing, you can add it by following these steps:</p>
 
@@ -44,7 +42,7 @@
 
       <p class="govuk-body">If any part of this process is confusing or your get stuck, you can <a class="govuk-link" href="https://github.com/x-govuk/govuk-services/issues">create an ‘issue’</a> and we will try and help.</p>
 
-      <h2 id="updating-services" class="govuk-heading-m">Updating information about a service</h2>
+      <h2 id="updating-services" class="govuk-heading-l">Updating information about a service</h2>
 
       <p class="govuk-body">If the information listed about a service is incorrect, out-of-date, or missing some metadata, please help us update it.</p>
 
@@ -70,15 +68,13 @@
 
       <p class="govuk-body">If any part of this process is confusing or your get stuck, you can <a class="govuk-link" href="https://github.com/x-govuk/govuk-services/issues">create an ‘issue’</a> and we will try and help.</p>
 
-      <h2 id="improve-website" class="govuk-heading-m">Improve the website</h2>
+      <h2 id="improve-website" class="govuk-heading-l">Improve the website</h2>
 
       <p class="govuk-body">We welcome ideas to improve the presentation or functionality of this website!</p>
 
       <p class="govuk-body">The website is written as Node.js application. The <a class="govuk-link" href="https://github.com/x-govuk/govuk-services">source code</a> is available on GitHub.</p>
 
       <p class="govuk-body">Please suggest your changes either as a Pull Request, or via opening an Issue.</p>
-
     </div>
   </div>
-
 {% endblock %}
