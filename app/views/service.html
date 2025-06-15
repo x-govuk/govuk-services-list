@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 
-{% set title = project.name %}
+{% set title = service.name %}
 
 {% block content %}
   <div class="govuk-grid-row">
@@ -11,16 +11,16 @@
 
   <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-      <p class="govuk-body">{{ project.description }}</p>
+      <p class="govuk-body">{{ service.description }}</p>
 
-      {% if project["start-page"] | length > 0 %}
-        {% if project["start-page"] | length == 1 %}
-          <p class="govuk-body"><a class="govuk-link" href="{{ project['start-page'][0] }}">Start page on GOV.UK</a></p>
+      {% if service["start-page"] | length > 0 %}
+        {% if service["start-page"] | length == 1 %}
+          <p class="govuk-body"><a class="govuk-link" href="{{ service['start-page'][0] }}">Start page on GOV.UK</a></p>
         {% else %}
 
           <p class="govuk-body govuk-!-margin-bottom-1">Start pages:</p>
           <ul class="govuk-list">
-          {%- for startPage in project["start-page"] -%}
+          {%- for startPage in service["start-page"] -%}
             <li>
               <a href="{{ startPage }}" class="govuk-link">{{ startPage }}</a>
             </li>
@@ -31,34 +31,34 @@
 
       {{ govukButton({
         text: "View service",
-        href: project.liveservice
-      }) if project.liveservice and project.phase != "Retired" }}
+        href: service.liveservice
+      }) if service.liveservice and service.phase != "Retired" }}
 
-      {% if project.video %}
+      {% if service.video %}
         <div style="margin-top:30px;" class="videoWrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ project.video }}" frameborder="0" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ service.video }}" frameborder="0" allowfullscreen></iframe>
         </div>
       {% endif %}
 
       {% set organisationHtml %}
         {% set comma = joiner() %}
-        {% for organisation in project.organisation -%}
+        {% for organisation in service.organisation -%}
           {{ comma() }} <a class="govuk-link" href="/organisation/{{ organisation | slugify }}">{{ organisation }}</a>
         {% endfor %}
       {% endset %}
 
-      {% if project.theme %}
+      {% if service.theme %}
         {% set themeHtml %}
-          <a class="govuk-link" href="/#{{ project.theme | slugify }}">{{ project.theme }}</a>
+          <a class="govuk-link" href="/#{{ service.theme | slugify }}">{{ service.theme }}</a>
         {% endset %}
       {% endif %}
 
       {% set statusHtml %}
         {{ govukTag({
-          text: project.phase
+          text: service.phase
         }) }}
 
-        {%- for tag in project.tags -%}
+        {%- for tag in service.tags -%}
           {%- if tag == "Top 75" -%}
             <div class="govuk-!-margin-top-3">One of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a></div>
           {%- endif %}
@@ -74,9 +74,9 @@
       {% endset %}
 
       {% set sourceCodeHtml %}
-        {% if project.sourceCode %}
+        {% if service.sourceCode %}
           <ul class="govuk-list">
-          {%- for sourceCode in project.sourceCode -%}
+          {%- for sourceCode in service.sourceCode -%}
             <li><a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a></li>
           {%- endfor %}
           </ul>
@@ -91,7 +91,7 @@
         rows: [
           {
             key: {
-              text: ("Organisation" if project.organisation | length < 2 else "Organisations")
+              text: ("Organisation" if service.organisation | length < 2 else "Organisations")
             },
             value: {
               html: organisationHtml
@@ -104,7 +104,7 @@
             value: {
               html: themeHtml
             }
-          } if project.theme,
+          } if service.theme,
           {
             key: {
               text: "Status"
@@ -124,11 +124,11 @@
         ]
       }) }}
 
-      {%- if project.timeline and project.timeline.items | length > 0 -%}
+      {%- if service.timeline and service.timeline.items | length > 0 -%}
       <h2 class="govuk-heading-m">Service history</h2>
 
       <div class="app-timeline">
-      {%- for item in project.timeline.items | sort(attribute="date") -%}
+      {%- for item in service.timeline.items | sort(attribute="date") -%}
         <div class="app-timeline__item">
           <h3 class="app-timeline__heading">
             {{- item.label -}}
@@ -150,11 +150,11 @@
       </div>
       {%- endif %}
 
-      <p class="govuk-body">Is any of this information incorrect or out-of-date? If so, please let us know by <a href="https://github.com/x-govuk/govuk-services-list/issues/new?template=update-service-information.yml&title=Update: {{ project.name }}" class="govuk-link">opening an issue on GitHub</a> (free GitHub account required).</p>
+      <p class="govuk-body">Is any of this information incorrect or out-of-date? If so, please let us know by <a href="https://github.com/x-govuk/govuk-services-list/issues/new?template=update-service-information.yml&title=Update: {{ service.name }}" class="govuk-link">opening an issue on GitHub</a> (free GitHub account required).</p>
     </div>
     <div class="govuk-grid-column-one-third">
-    {% if project.screenshot %}
-      <a href="/images/service-screenshots/{{ project.slug }}.png"><img class="app-screenshot" src="/images/service-screenshots/{{ project.slug }}.png" alt="Screenshot of service"></a>
+    {% if service.screenshot %}
+      <a href="/images/service-screenshots/{{ service.slug }}.png"><img class="app-screenshot" src="/images/service-screenshots/{{ service.slug }}.png" alt="Screenshot of service"></a>
     {% endif %}
     </div>
   </div>

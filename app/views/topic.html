@@ -11,7 +11,7 @@
   </h2>
 
   <ul class="govuk-list govuk-list--spaced">
-  {%- for service in projects | sort(attribute="name") -%}
+  {%- for service in services | sort(attribute="name") -%}
     {{ appServiceItem(service) if service.theme == theme }}
   {%- endfor %}
   </ul>

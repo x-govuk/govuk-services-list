@@ -6,7 +6,7 @@
   <h1 class="govuk-heading-xl">{{ title }}</h1>
 
   <ul class="govuk-list govuk-list--spaced">
-  {%- for service in projects | sort(attribute="name") -%}
+  {%- for service in services | sort(attribute="name") -%}
     {{ appServiceItem(service) }}
   {%- endfor %}
   </ul>

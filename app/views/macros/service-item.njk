@@ -2,7 +2,7 @@
 
 {%- macro appServiceItem(service) %}
   <li>
-    <a class="govuk-link" href="/projects/{{ service.slug }}">
+    <a class="govuk-link" href="/service/{{ service.slug }}">
       {{- service.name -}}
     </a>
     {% for tag in service.tags -%}

@@ -22,10 +22,10 @@
       <div class="govuk-grid-row">
         <div class="govuk-grid-column-two-thirds">
           <h2 class="govuk-heading-l">Latest updates</h2>
-          {%- for event in allEvents | sort(attribute="date", reverse=true) -%}
+          {%- for event in events | sort(attribute="date", reverse=true) -%}
           {%- if loop.index < 11 -%}
             <h3 class="govuk-body govuk-!-font-weight-bold govuk-!-margin-bottom-1">{{ event.date | govukDate }}</h3>
-            <p class="govuk-body govuk-!-margin-bottom-1"><a href="/projects/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
+            <p class="govuk-body govuk-!-margin-bottom-1"><a href="/service/{{ event.service.slug }}" class="govuk-link">{{ event.service.name }}</a></p>
             <p class="govuk-body">{{ event.label }}</p>
           {%- endif %}
           {%- endfor %}
