@@ -1,8 +1,6 @@
 {
   "name": "Universal Credit",
-  "synonyms": [
-    "Universal Credit Full Service"
-  ],
+  "synonyms": ["Universal Credit Full Service"],
   "description": "Universal Credit (UC) Digital provides a simple, personalised digital and non-digital service for claimants and staff.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
@@ -14,9 +12,7 @@
     "https://www.gov.uk/apply-universal-credit",
     "https://www.gov.uk/sign-in-universal-credit"
   ],
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -25,7 +21,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/universal-credit-full-service-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

@@ -13,9 +13,7 @@
   "phase": "Beta",
   "liveservice": "https://www.apply-deceased-military-record.service.gov.uk/",
   "start-page": "https://www.gov.uk/get-copy-military-service-records/apply-for-someone-elses-records",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -24,7 +22,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-a-deceased-persons-military-record-request-a-service-record-beta-reassessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for second beta reassessment"
           }
         ]
@@ -35,7 +33,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/request-a-service-record-beta-reassessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta reassessment"
           }
         ]
@@ -46,7 +44,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/request-a-service-record",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

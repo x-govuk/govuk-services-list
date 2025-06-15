@@ -1,18 +1,13 @@
 {
   "name": "Money Claims",
-  "synonyms": [
-    "Civil money claims",
-    "Make a money claim online"
-  ],
+  "synonyms": ["Civil money claims", "Make a money claim online"],
   "description": "You can make a money claim if you think a person or organisation owes you money and will not pay you back.",
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
   "phase": "Beta",
   "start-page": "https://www.gov.uk/make-court-claim-for-money/make-claim",
   "liveservice": "https://www1.moneyclaims.service.gov.uk/eligibility/claim-value",
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -21,7 +16,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/civil-money-claims-beta",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -32,7 +27,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/civil-money-claims-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

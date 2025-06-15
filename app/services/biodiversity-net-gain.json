@@ -1,8 +1,6 @@
 {
   "name": "Register land for off-site biodiversity gain",
-  "synonyms": [
-    "Biodiversity Net Gain"
-  ],
+  "synonyms": ["Biodiversity Net Gain"],
   "description": "Use this service to record and verify off-site habitats you are creating.",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Environment and countryside",

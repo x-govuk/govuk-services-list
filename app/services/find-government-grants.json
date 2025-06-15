@@ -1,9 +1,6 @@
 {
   "name": "Find a grant",
-  "synonyms": [
-    "Find government grants",
-    "Apply for a grand"
-  ],
+  "synonyms": ["Find government grants", "Apply for a grand"],
   "description": "Browse a list of available government grants and see if you're eligible to apply for them.",
   "organisation": "Cabinet Office",
   "theme": "Money and tax",
@@ -16,9 +13,7 @@
       "href": "https://github.com/cabinetoffice/gap-find-apply-web"
     }
   ],
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

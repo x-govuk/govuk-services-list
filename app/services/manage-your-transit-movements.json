@@ -1,8 +1,6 @@
 {
   "name": "Manage your transit movements",
-  "synonyms": [
-    "New Computerised Transit System (NCTS)"
-  ],
+  "synonyms": ["New Computerised Transit System (NCTS)"],
   "description": "You must use the New Computerised Transit System (NCTS) to manage your transit departure declarations and arrival notifications.",
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",

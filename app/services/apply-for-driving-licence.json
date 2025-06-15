@@ -1,8 +1,6 @@
 {
   "name": "Renew your driving licence",
-  "synonyms": [
-    "Change the photo on your driving licence"
-  ],
+  "synonyms": ["Change the photo on your driving licence"],
   "description": "You need to renew your full or provisional driving licence if you want to update your photo.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",

@@ -24,7 +24,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-alpha-reassessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -35,7 +35,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for failed alpha assessment"
           }
         ]
@@ -46,7 +46,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-design-system-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -57,7 +57,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-live-reassessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live reassessment"
           }
         ]

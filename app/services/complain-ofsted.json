@@ -1,8 +1,6 @@
 {
   "name": "Complain about a state school to Ofsted",
-  "synonyms": [
-    "Complain about a school to Ofsted"
-  ],
+  "synonyms": ["Complain about a school to Ofsted"],
   "description": "Use this service to complain to Ofsted about a state school, including academies and free schools.",
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",

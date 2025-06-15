@@ -1,8 +1,6 @@
 {
   "name": "Registers",
-  "synonyms": [
-    "Build with data (registers)"
-  ],
+  "synonyms": ["Build with data (registers)"],
   "description": "Direct access to up-to-date government data",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
@@ -16,7 +14,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/build-with-data-registers-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

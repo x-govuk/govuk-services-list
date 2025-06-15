@@ -12,9 +12,7 @@
   "phase": "Live",
   "liveservice": "https://get-fishing-licence.service.gov.uk/",
   "start-page": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "sourceCode": [
     {
       "text": "Source code",
@@ -29,7 +27,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/get-a-fishing-rod-license",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for  assessment"
           }
         ]
@@ -40,7 +38,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/i-want-to-go-fishing-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

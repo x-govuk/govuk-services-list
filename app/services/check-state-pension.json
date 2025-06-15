@@ -16,7 +16,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/check-your-state-pension-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -27,7 +27,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/check-your-state-pension-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -38,7 +38,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/check-your-state-pension-live-report-live",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]

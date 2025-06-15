@@ -1,8 +1,6 @@
 {
   "name": "Get an export health certificate",
-  "synonyms": [
-    "Export Health Certificates"
-  ],
+  "synonyms": ["Export Health Certificates"],
   "description": "An export health certificate (EHC) is an official document that confirms your export meets the health requirements of the destination country.",
   "theme": "Business and self-employed",
   "organisation": [
@@ -12,7 +10,5 @@
   "phase": "Beta",
   "liveservice": "https://exporter.apply-export-health-certificate.service.gov.uk",
   "start-page": "https://www.gov.uk/guidance/get-an-export-health-certificate",
-  "tags": [
-    "Top 75"
-  ]
+  "tags": ["Top 75"]
 }

@@ -2,10 +2,7 @@
   "name": "Check if your client qualifies for legal aid",
   "description": "Use this service to find out if your client is likely to get civil legal aid, based on their financial situation.",
   "theme": "Crime, justice and the law",
-  "organisation": [
-    "Legal Aid Agency",
-    "Ministry of Justice"
-  ],
+  "organisation": ["Legal Aid Agency", "Ministry of Justice"],
   "phase": "Beta",
   "liveservice": "https://check-your-client-qualifies-for-legal-aid.service.gov.uk",
   "sourceCode": [

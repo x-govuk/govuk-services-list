@@ -18,7 +18,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/plan-and-manage-roadworks-previously-known-as-street-manager-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -29,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/street-manager-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

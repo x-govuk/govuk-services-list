@@ -1,8 +1,6 @@
 {
   "name": "Pay the Dartford Crossing charge (Dart Charge)",
-  "synonyms": [
-    "Pay for the Dartford Crossing (Dart Charge)"
-  ],
+  "synonyms": ["Pay for the Dartford Crossing (Dart Charge)"],
   "description": "You must pay the Dartford Crossing charge by midnight the day after you cross.",
   "theme": "Driving and transport",
   "organisation": "Highways England",

@@ -5,9 +5,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://getintoteaching.education.gov.uk",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -16,7 +14,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/get-into-teaching-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -27,7 +25,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/get-into-teaching-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

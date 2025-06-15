@@ -1,8 +1,6 @@
 {
   "name": "Get a guarantee for export finance",
-  "synonyms": [
-    "Digital Trade Finance Service"
-  ],
+  "synonyms": ["Digital Trade Finance Service"],
   "description": "Use this service to apply for a guarantee on bonds, loans and other facilities that support UK exports.",
   "organisation": "UK Export Finance",
   "theme": "Business and self-employed",
@@ -28,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/digital-trade-finance-service-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

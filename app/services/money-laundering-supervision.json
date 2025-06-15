@@ -1,8 +1,6 @@
 {
   "name": "Register or renew your money laundering supervision with HMRC",
-  "synonyms": [
-    "Register and maintain a trust"
-  ],
+  "synonyms": ["Register and maintain a trust"],
   "description": "Use the service to apply to register for money laundering supervision, renew a registration or to manage your account.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/register-and-maintain-a-trust-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

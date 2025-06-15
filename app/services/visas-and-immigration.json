@@ -1,21 +1,13 @@
 {
   "name": "Apply for a Standard Visitor visa",
-  "synonyms": [
-    "Visas"
-  ],
+  "synonyms": ["Visas"],
   "description": "If you need a visa, you must apply online before you travel to the UK.",
   "theme": "Visas and immigration",
-  "organisation": [
-    "Home Office",
-    "UK Visas and Immigration"
-  ],
+  "organisation": ["Home Office", "UK Visas and Immigration"],
   "phase": "Beta",
   "start-page": "https://www.gov.uk/standard-visitor-visa/apply",
   "liveservice": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
-  "tags": [
-    "Top 75",
-    "Original 25 exemplars"
-  ],
+  "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -24,7 +16,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/visas-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha reassessment"
           }
         ]
@@ -35,7 +27,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/visas-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

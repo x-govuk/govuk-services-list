@@ -17,10 +17,7 @@
     "https://www.gov.uk/student-finance-register-login"
   ],
   "liveservice": "https://www.student-finance.service.gov.uk/customer/home",
-  "tags": [
-    "Top 75",
-    "Original 25 exemplars"
-  ],
+  "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -29,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/slc-full-time-and-sponsored-applications-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -40,7 +37,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/manage-your-loan-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -51,7 +48,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/slc-full-time-application-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live reassessment"
           }
         ]
@@ -62,7 +59,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/slc-full-time-application-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]

@@ -1,8 +1,6 @@
 {
   "name": "Government Property Finder",
-  "synonyms": [
-    "Find government property and land to rent or buy"
-  ],
+  "synonyms": ["Find government property and land to rent or buy"],
   "description": "Use the Government Property Finder to find government-owned property, buildings or land in the UK.",
   "theme": "Business and self-employed",
   "organisation": "Cabinet Office",

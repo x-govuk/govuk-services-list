@@ -5,7 +5,5 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://apply-for-qts-in-england.education.gov.uk/",
-  "tags": [
-    "GOV.UK One Login"
-  ]
+  "tags": ["GOV.UK One Login"]
 }

@@ -1,8 +1,6 @@
 {
   "name": "Check a driving licence",
-  "synonyms": [
-    "Check someone's driving licence information"
-  ],
+  "synonyms": ["Check someone's driving licence information"],
   "description": "You can use this service to check someone’s driving licence information, for example, vehicles they can drive or any penalty points or disqualifications.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",

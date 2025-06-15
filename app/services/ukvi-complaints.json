@@ -1,8 +1,6 @@
 {
   "name": "Complain about UK Visas and Immigration (UKVI)",
-  "synonyms": [
-    "UK Visas and Immigration complaints"
-  ],
+  "synonyms": ["UK Visas and Immigration complaints"],
   "description": "Complain to UK Visas and Immigration (UKVI) about applications, appointments and decisions or follow up an existing complaint",
   "organisation": "Home Office",
   "theme": "Visas and immigration",

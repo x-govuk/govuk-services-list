@@ -36,7 +36,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/find-an-energy-certificate-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -47,7 +47,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/find-an-energy-certificate-alpha-re-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha re-assessment"
           }
         ]
@@ -58,7 +58,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/energy-performance-of-buildings-register-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -69,7 +69,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/energy-performance-of-buildings-register-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]

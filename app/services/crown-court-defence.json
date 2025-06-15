@@ -20,7 +20,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/claim-for-crown-court-defence-live-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -35,7 +35,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/claim-for-crown-court-defence",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -46,7 +46,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/advocate-defence-payments",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

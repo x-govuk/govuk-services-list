@@ -1,8 +1,6 @@
 {
   "name": "PAYE Tax Calculator",
-  "synoyms": [
-    "Estimate your Income Tax for the current year"
-  ],
+  "synoyms": ["Estimate your Income Tax for the current year"],
   "description": "Use this service to estimate how much Income Tax and National Insurance you should pay for the current tax year.",
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",

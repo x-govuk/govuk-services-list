@@ -1,9 +1,6 @@
 {
   "name": "NHS Test and Trace",
-  "synonyms": [
-    "NHS Test and Trace contact tracing",
-    "NHS Contact tracing"
-  ],
+  "synonyms": ["NHS Test and Trace contact tracing", "NHS Contact tracing"],
   "description": "This service is to trace contacts of people who tested positive for COVID-19, and to provide health advice and information.",
   "organisation": "Department of Health and Social Care",
   "theme": "Coronavirus (COVID-19)",

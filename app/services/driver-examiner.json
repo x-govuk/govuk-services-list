@@ -12,7 +12,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/driver-examiner-service-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -33,7 +33,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/driver-examiner-service-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

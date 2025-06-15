@@ -6,9 +6,7 @@
   "phase": "Beta",
   "liveservice": "https://apply-for-legal-aid.service.justice.gov.uk",
   "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "timeline": {
     "items": [
       {
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/apply-for-legal-aid-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

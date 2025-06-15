@@ -1,10 +1,7 @@
 {
   "name": "Civil Service Job share finder",
   "theme": "Working, jobs and pensions",
-  "organisation": [
-    "Cabinet Office",
-    "Civil Service Resourcing"
-  ],
+  "organisation": ["Cabinet Office", "Civil Service Resourcing"],
   "phase": "Retired",
   "liveservice": "https://www.civilservicejobshare.service.gov.uk/",
   "timeline": {

@@ -21,7 +21,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/file-your-confirmation-statement-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -32,7 +32,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -43,7 +43,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-reassessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta reassessment"
           }
         ]

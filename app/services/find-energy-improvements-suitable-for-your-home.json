@@ -1,8 +1,6 @@
 {
   "name": "Find energy improvements suitable for your home",
-  "synonyms": [
-    "Find ways to save energy in your home"
-  ],
+  "synonyms": ["Find ways to save energy in your home"],
   "description": "If you own a property in England or Wales you can get recommendations for home improvements that could make your property cheaper to heat and keep warm.",
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Housing and local services",

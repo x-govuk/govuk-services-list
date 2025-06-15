@@ -1,9 +1,6 @@
 {
   "name": "planning.data.gov.uk",
-  "synonyms": [
-    "Planning Data",
-    "Planning data platform"
-  ],
+  "synonyms": ["Planning Data", "Planning data platform"],
   "description": "A platform to help you create services to inform planning and housing decisions in England.",
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Housing and local services",

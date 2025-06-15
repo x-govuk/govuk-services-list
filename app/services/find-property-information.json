@@ -6,7 +6,5 @@
   "phase": "Beta",
   "liveservice": "https://search-property-information.service.gov.uk/",
   "start-page": "https://www.gov.uk/search-property-information-land-registry",
-  "tags": [
-    "Original 25 exemplars"
-  ]
+  "tags": ["Original 25 exemplars"]
 }

@@ -1,8 +1,6 @@
 {
   "name": "Pay your court fine or maintenance order",
-  "synonyms": [
-    "Pay a maintenance order online"
-  ],
+  "synonyms": ["Pay a maintenance order online"],
   "description": "Pay a maintenance order online or by telephone using a credit or debit card",
   "organisation": "HM Courts & Tribunals Service",
   "theme": "Crime, justice and the law",

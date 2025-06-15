@@ -1,8 +1,6 @@
 {
   "name": "Calculate your child maintenance",
-  "synonyms": [
-    "Calculate child maintenance"
-  ],
+  "synonyms": ["Calculate child maintenance"],
   "description": "Use this calculator to work out an amount of child maintenance for your children.",
   "organisation": "Department for Work and Pensions",
   "theme": "Childcare and parenting",

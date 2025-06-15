@@ -1,17 +1,13 @@
 {
   "name": "DBS barring referral service",
-  "synonyms": [
-    "Submit a barring referral"
-  ],
+  "synonyms": ["Submit a barring referral"],
   "description": "Submit a barring referral if you are concerned that an individual may have harmed, or put at risk, a child or vulnerable adult.",
   "theme": "Childcare and parenting",
   "organisation": "Disclosure and Barring Service",
   "phase": "Beta",
   "start-page": "https://www.gov.uk/guidance/making-barring-referrals-to-the-dbs",
   "liveservice": "https://www.submit-a-barring-referral.service.gov.uk/start",
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

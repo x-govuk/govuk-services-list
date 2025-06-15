@@ -1,9 +1,6 @@
 {
   "name": "Apply for Carer’s Allowance",
-  "synonyms": [
-    "Carer’s Allowance",
-    "Claim Carer’s Allowance"
-  ],
+  "synonyms": ["Carer’s Allowance", "Claim Carer’s Allowance"],
   "description": "Lets users who care for another person for more than 35 hours a week get a regular payment so that they can carry on giving care.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
@@ -12,10 +9,7 @@
   "video": "IYBLX3V8ek4",
   "start-page": "https://www.gov.uk/carers-allowance",
   "liveservice": "https://www.carersallowance.service.gov.uk/",
-  "tags": [
-    "Top 75",
-    "Original 25 exemplars"
-  ],
+  "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [
       {

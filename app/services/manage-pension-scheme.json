@@ -1,8 +1,6 @@
 {
   "name": "Manage a registered pension scheme",
-  "synonyms": [
-    "Manage and Register Pension Schemes"
-  ],
+  "synonyms": ["Manage and Register Pension Schemes"],
   "description": "Manage a registered pension scheme if you're a scheme administrator.",
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/manage-and-register-pension-schemes-alpha",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

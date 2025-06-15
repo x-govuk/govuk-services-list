@@ -18,7 +18,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/buy-a-prescription-prepayment-certificate-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -29,7 +29,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/prepay-for-nhs-prescriptions-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

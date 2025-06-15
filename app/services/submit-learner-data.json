@@ -21,7 +21,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/submit-learner-data-data-collection-live-service-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for live assessment"
           }
         ]
@@ -32,7 +32,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/share-learner-data-previously-known-as-data-collection-beta-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]
@@ -43,7 +43,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/data-collection-service-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

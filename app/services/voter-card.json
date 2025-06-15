@@ -4,9 +4,7 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Ministry of Housing, Communities & Local Government",
   "phase": "Beta",
-  "tags": [
-    "Top 75"
-  ],
+  "tags": ["Top 75"],
   "start-page": "https://www.gov.uk/apply-for-photo-id-voter-authority-certificate",
   "liveservice": "https://voter-authority-certificate.service.gov.uk/start",
   "timeline": {

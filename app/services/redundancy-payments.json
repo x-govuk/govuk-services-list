@@ -10,9 +10,7 @@
   "phase": "Beta",
   "start-page": "https://www.gov.uk/claim-redundancy",
   "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -21,7 +19,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/redundancy-payments-alpha-assessment",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]

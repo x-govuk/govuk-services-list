@@ -1,8 +1,6 @@
 {
   "name": "Appeal a planning decision",
-  "synonyms": [
-    "Appeal a householder planning decision"
-  ],
+  "synonyms": ["Appeal a householder planning decision"],
   "description": "You can appeal a householder planning decision if you were refused permission for reasons that you think go against the local planning authority’s development plan or planning policy.",
   "organisation": [
     "Planning Inspectorate",

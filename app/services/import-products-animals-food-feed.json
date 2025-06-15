@@ -1,8 +1,6 @@
 {
   "name": "Import of products, animals, food and feed service",
-  "synonyms": [
-    "Import of products, animals, food and feed system (IPAFFS)"
-  ],
+  "synonyms": ["Import of products, animals, food and feed system (IPAFFS)"],
   "description": "Use IPAFFS to notify enforcement authorities about imports to Great Britain.",
   "theme": "Business and self-employed",
   "organisation": "Department for Environment, Food & Rural Affairs",

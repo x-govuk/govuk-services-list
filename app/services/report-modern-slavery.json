@@ -1,8 +1,6 @@
 {
   "name": "Report modern slavery",
-  "synonyms": [
-    "Report modern slavery as a first responder"
-  ],
+  "synonyms": ["Report modern slavery as a first responder"],
   "description": "First responders can use the National Referral Mechanism (NRM) to report cases of modern slavery and refer potential victims for support and protection.",
   "organisation": "Home Office",
   "theme": "Crime, justice and the law",

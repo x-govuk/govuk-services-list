@@ -1,8 +1,6 @@
 {
   "name": "Register to use a drone or model aircraft",
-  "synonyms": [
-    "Drone registration and education"
-  ],
+  "synonyms": ["Drone registration and education"],
   "description": "Use this service to take the theory test to get a flyer ID and to register for an operator ID if you also own or are responsible for a drone or model aircraft.",
   "organisation": "Civil Aviation Authority",
   "theme": "Driving and transport",
@@ -17,7 +15,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/drone-registration-and-education-service-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
@@ -28,7 +26,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/drone-registration-and-education-service-beta-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for beta assessment"
           }
         ]

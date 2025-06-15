@@ -6,7 +6,5 @@
   "phase": "Beta",
   "liveservice": "https://modern-slavery-statement-registry.service.gov.uk",
   "start-page": "https://www.gov.uk/find-modern-slavery-statement",
-  "tags": [
-    "GOV.UK One Login"
-  ]
+  "tags": ["GOV.UK One Login"]
 }

@@ -11,9 +11,7 @@
   "phase": "Beta",
   "liveservice": "https://www.personalisedvehicleregistration.service.gov.uk/assign/vehicle-lookup",
   "start-page": "https://www.gov.uk/personalised-vehicle-registration-numbers/buying-a-private-number-plate",
-  "tags": [
-    "Original 25 exemplars"
-  ],
+  "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [
       {
@@ -22,7 +20,7 @@
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/buy-a-personalised-registration-number-alpha-assessment-report",
-            "text": "service assessment report",
+            "text": "Service assessment report",
             "visuallyHiddenText": " for alpha assessment"
           }
         ]
