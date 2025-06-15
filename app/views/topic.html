@@ -13,7 +13,7 @@
       {% for theme in themes %}
         <h2 class="govuk-heading-m govuk-!-margin-bottom-2" id="{{ theme | slugify }}">{{ theme }}</h2>
 
-        <ul class="govuk-list app-list--services">
+        <ul class="govuk-list govuk-list--spaced">
           {%- for service in (projects | sort(attribute="name")) -%}
             {% if service.theme == theme %}
               {{ serviceItem(service) }}

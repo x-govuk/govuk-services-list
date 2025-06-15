@@ -22,7 +22,7 @@
 
       <h2 class="govuk-heading-m">Common verbs used across government services</h2>
 
-      <ol class="govuk-list" style="columns: 3;">
+      <ol class="govuk-list app-list--columns">
         {% for verb in verbs|sort(true, false, 'count') %}
           {% if (verb.count) > 1 %}
             <li class="govuk-list--item"><a class="govuk-link govuk-font-size-16" href="#{{ verb.name  }}">{{ verb.name | capitalize  }} ({{ verb.count }})</a></li>
@@ -35,7 +35,7 @@
 
           <h2 class="govuk-heading-m" id="{{ verb.name }}">{{ verb.name | capitalize }}</h2>
 
-          <ul class="govuk-list app-list--services">
+          <ul class="govuk-list govuk-list--spaced">
             {% for service in verb.services | sort(false, false, 'name') %}
               <li>
                 <a href="/projects/{{ service.slug }}" class="govuk-link">{{ service.name }}</a>
