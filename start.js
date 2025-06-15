@@ -219,6 +219,17 @@ app.get("/data.json", (request, response) => {
   response.json({ services });
 });
 
+app.get("/contribute", (request, response) => {
+  const contributingFile = path.join(import.meta.dirname, "CONTRIBUTING.md");
+  const content = fs.readFileSync(contributingFile).toString();
+  const markdown = govukPrototypeFilters.govukMarkdown(content);
+
+  response.render(`markdown.njk`, {
+    markdown,
+    title: "Contribute",
+  });
+});
+
 app.get("/:view", (request, response) => {
   response.render(`${request.params.view}.njk`);
 });
