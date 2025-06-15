@@ -1,41 +1,44 @@
-@use "node_modules/govuk-frontend/dist/govuk" as *;
+@use "pkg:govuk-frontend/dist/govuk" as *;
 
 .app-timeline {
+  margin-bottom: govuk-spacing(4);
   position: relative;
-  padding-left: 25px;
-}
 
-.app-timeline:before {
-  content: ' ';
-  position: absolute;
-  width: 5px;
-  height: 100%;
-  top: 10px;
-  left: 0;
-  background-color: $govuk-brand-colour;
+  &::before {
+    background-color: $govuk-brand-colour;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: govuk-spacing(2);
+    width: govuk-spacing(1);
+  }
 }
 
 .app-timeline__item {
+  padding-left: govuk-spacing(5);
   position: relative;
-}
 
-.app-timeline__item:before {
-  content: ' ';
-  position: absolute;
-  width: 10px;
-  height: 5px;
-  top: 10px;
-  left: -20px;
-  background-color: $govuk-brand-colour;
+  &::before {
+    background-color: $govuk-brand-colour;
+    content: "";
+    height: govuk-spacing(1);
+    left: 0;
+    position: absolute;
+    top: govuk-spacing(2);
+    width: govuk-spacing(3);
+  }
 }
 
 .app-timeline__heading {
   margin-bottom: 0;
+
   @include govuk-font(19, $weight: bold);
 }
 
 .app-timeline__date {
-  margin-top: 0;
-  margin-bottom: govuk-spacing(3);
-  @include govuk-font(19);
+  color: $govuk-secondary-text-colour;
+  margin-top: govuk-spacing(1);
+
+  @include govuk-font(16);
 }
