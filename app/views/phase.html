@@ -13,7 +13,7 @@
       {% for phase in phases | reverse %}
         <h2 class="govuk-heading-m govuk-!-margin-bottom-2" id="{{ phase.name | slugify }}">{{ phase.name }}</h2>
 
-        <ul class="govuk-list app-list--services">
+        <ul class="govuk-list govuk-list--spaced">
           {%- for service in (projects | sort(attribute="name")) -%}
             {% if service.phase == phase.name %}
               {{ serviceItem(service) }}

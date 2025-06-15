@@ -11,7 +11,7 @@
 
       <h2 class="govuk-heading-s">*.service.gov.uk</h2>
 
-      <ol class="govuk-list app-list--domains">
+      <ol class="govuk-list govuk-list--spaced">
         {% for domain in domains | sort(false, false, 'domain') %}
           {% if serviceGovUkRegexp.test(domain.domain) %}
             <li>
@@ -33,7 +33,7 @@
 
       <h2 class="govuk-heading-s">Non service.gov.uk domains</h2>
 
-      <ol class="govuk-list app-list--domains">
+      <ol class="govuk-list govuk-list--spaced">
         {% for domain in domains | sort(false, false, 'domain') %}
           {% if not serviceGovUkRegexp.test(domain.domain) %}
             <li>

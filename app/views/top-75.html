@@ -17,7 +17,7 @@
 
       <p class="govuk-body">These services are included within the top 75:</p>
 
-      <ul class="govuk-list govuk-list--number app-list--services">
+      <ul class="govuk-list govuk-list--number govuk-list--spaced">
         {%- for project in (projects | sort(attribute="name")) -%}
           {% if project.tags %}{% for tag in project.tags %}{% if tag == 'Top 75' %}
             <li><a class="govuk-link" href="/projects/{{project.slug }}">{{ project.name }}</a></li>

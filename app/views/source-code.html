@@ -30,7 +30,7 @@
 
       <p class="govuk-body">The source code for {{ serviceWithSourceCodeCount }} services ({{ (serviceWithSourceCodeCount / serviceCount * 100) | round }}%) is public and linked to:</p>
 
-      <ul class="govuk-list govuk-list--number app-list--services">
+      <ul class="govuk-list govuk-list--number govuk-list--spaced">
         {%- for service in (projects | sort(attribute="name")) -%}
           {% if service.sourceCode %}
             <li><a class="govuk-link" href="/projects/{{service.slug }}">{{ service.name }}</a></li>
