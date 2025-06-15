@@ -1,8 +1,8 @@
-const fs = require('node:fs')
-const path = require('node:path');
+import fs from 'node:fs'
+import path from 'node:path';
 
-const express = require('express')
-const nunjucks = require('nunjucks')
+import express from 'express'
+import nunjucks from 'nunjucks'
 
 const app = express()
 const port = process.env.PORT || 3100
@@ -88,11 +88,11 @@ app.locals.allEvents = []
 
 app.locals.projects = []
 
-const servicesDirectory = path.join(__dirname, "/app/services/")
+const servicesDirectory = path.join(import.meta.dirname, "/app/services/")
 
 fs.readdirSync(servicesDirectory).forEach(function(filename) {
   if (filename !== '_template.json' && filename.endsWith('.json')) {
-    const projectFile = path.join(__dirname, "app/services", filename)
+    const projectFile = path.join(import.meta.dirname, "app/services", filename)
     const project = JSON.parse(fs.readFileSync(projectFile).toString());
 
     project.filename = filename
@@ -120,7 +120,7 @@ fs.readdirSync(servicesDirectory).forEach(function(filename) {
       }
     }
 
-    const screenshotFile = path.join(__dirname, "app/assets/images/service-screenshots", `${project.slug}.png`)
+    const screenshotFile = path.join(import.meta.dirname, "app/assets/images/service-screenshots", `${project.slug}.png`)
 
     if (fs.existsSync(screenshotFile)) {
       project.screenshot = true
@@ -205,9 +205,9 @@ for (const project of projectsWithValidDomains) {
   }
 }
 
-app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
+app.use('/images', express.static(path.join(import.meta.dirname, 'app/assets/images')))
 
-app.use('/', express.static(path.join(__dirname, 'static')))
+app.use('/', express.static(path.join(import.meta.dirname, 'static')))
 
 const env = nunjucks.configure([
   'app/views/',
@@ -254,15 +254,15 @@ app.get('/projects/:slug', function (req, res) {
 });
 
 app.get('/', function(req, res) {
-  res.render(path.join(__dirname, 'app/views/index.html'))
+  res.render(path.join(import.meta.dirname, 'app/views/index.html'))
 });
 
 app.get('/a-z', function(req, res) {
-  res.render(path.join(__dirname, 'app/views/a-z.html'))
+  res.render(path.join(import.meta.dirname, 'app/views/a-z.html'))
 });
 
 app.get('/topic', function(req, res) {
-  res.render(path.join(__dirname, 'app/views/topic.html'))
+  res.render(path.join(import.meta.dirname, 'app/views/topic.html'))
 });
 
 app.get('/organisation', function(req, res) {
