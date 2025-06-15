@@ -11,9 +11,8 @@ $_font-family: system-ui, sans-serif;
   $govuk-link-visited-colour: #333366
 );
 
-// // Import GOV.UK Prototype Components
-@forward "pkg:@x-govuk/govuk-prototype-components";
-
+// Import GOV.UK Prototype Components
+@forward "pkg:@x-govuk/govuk-prototype-components/masthead";
 
 // Application components
 @use "count";
