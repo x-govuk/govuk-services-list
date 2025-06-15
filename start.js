@@ -1,18 +1,12 @@
 import fs from "node:fs";
 import path from "node:path";
 
+import govukPrototypeFilters from "@x-govuk/govuk-prototype-filters";
 import express from "express";
 import nunjucks from "nunjucks";
 
 const app = express();
 const port = process.env.PORT || 3100;
-
-function slugify(str) {
-  return str
-    .replace(/[.,-/#!$%^&*;:{}=\-_`~()’]/g, "")
-    .replace(/ +/g, "_")
-    .toLowerCase();
-}
 
 app.locals.phases = [
   {
@@ -126,7 +120,7 @@ fs.readdirSync(servicesDirectory).forEach(function (filename) {
       ) {
         app.locals.organisations.push({
           name: organisation,
-          slug: slugify(organisation),
+          slug: govukPrototypeFilters.slugify(organisation),
         });
       }
     }
@@ -165,7 +159,7 @@ fs.readdirSync(servicesDirectory).forEach(function (filename) {
 });
 
 for (const organisation of app.locals.organisations) {
-  organisation.slug = slugify(organisation.name);
+  organisation.slug = govukPrototypeFilters.slugify(organisation.name);
   organisation.services = app.locals.projects.filter(function (service) {
     return service.organisation.includes(organisation.name);
   });
@@ -256,32 +250,13 @@ const env = nunjucks.configure(
   },
 );
 
-env.addFilter("slugify", slugify);
+env.addFilter("find", (array, key, value) =>
+  array.find((item) => item[key] === value),
+);
 
-env.addFilter("formatdate", function (str) {
-  const date = new Date(str);
+env.addFilter("govukDate", govukPrototypeFilters.govukDate);
 
-  const monthNames = {
-    0: "January",
-    1: "February",
-    2: "March",
-    3: "April",
-    4: "May",
-    5: "June",
-    6: "July",
-    7: "August",
-    8: "September",
-    9: "October",
-    10: "November",
-    11: "December",
-  };
-
-  return `${date.getDate()} ${monthNames[date.getMonth()]} ${date.getFullYear()}`;
-});
-
-env.addFilter("find", function (array, key, value) {
-  return array.find((item) => item[key] === value);
-});
+env.addFilter("slugify", govukPrototypeFilters.slugify);
 
 app.get("/projects/:slug", function (req, res) {
   const project = req.app.locals.projects.filter(function (p) {
@@ -322,7 +297,7 @@ app.get("/govuk-one-login", function (req, res) {
 
 app.get("/original-25-exemplars", function (req, res) {
   const exemplars = {
-    cabinet_office: ["register-to-vote"],
+    "cabinet-office": ["register-to-vote"],
     "Department for Business Innovation & Skills": [
       "find-apprenticeship",
       "redundancy-payments",
@@ -330,28 +305,32 @@ app.get("/original-25-exemplars", function (req, res) {
       "find-property-information",
       "student-finance-account",
     ],
-    department_for_environment_food_rural_affairs: [
+    "department-for-environment-food-rural-affairs": [
       "waste-carriers-registration",
       "rural-payments",
     ],
-    department_for_transport: [
+    "department-for-transport": [
       "view-driving-record",
       "personalised-vehicle-registration",
       "register-vehicle",
     ],
-    department_for_work_and_pensions: [
+    "department-for-work-and-pensions": [
       "carers-allowance",
       "personal-independence-payment",
       "universal-credit",
     ],
-    hm_revenue_and_customs: [
+    "hm-revenue-and-customs": [
       "company-car-tax",
       "pay-self-assessment",
       "tax-business-account",
       "agent-services-account",
     ],
-    home_office: ["registered-traveller", "passport", "visas-and-immigration"],
-    ministry_of_justice: [
+    "home-office": [
+      "registered-traveller",
+      "passport",
+      "visas-and-immigration",
+    ],
+    "ministry-of-justice": [
       "money-claims",
       "employment-tribunal",
       "prison-visits",

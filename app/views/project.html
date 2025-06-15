@@ -134,7 +134,7 @@
             {{- item.label -}}
           </h3>
 
-          <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | formatdate }}</time></p>
+          <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | govukDate }}</time></p>
 
           {% if item.links and item.links | length > 0 %}
           <ul class="govuk-list">
