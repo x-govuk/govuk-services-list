@@ -1,25 +1,25 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 
-let existingStartPages = []
-let newStartPages = []
+const existingStartPages = []
+const newStartPages = []
 
 const servicesFolder = path.join(__dirname, '..', 'app', 'services');
 const tasksFolder = path.join(__dirname, '..', 'tasks');
-var services = []
+const services = []
 
 fs.readdirSync(servicesFolder).forEach(function(filename) {
-    if (filename != '_template.json' && filename.endsWith('.json')) {
-      services.push(filename.replace('.json', ''))
-    }
+  if (filename !== '_template.json' && filename.endsWith('.json')) {
+    services.push(filename.replace('.json', ''))
+  }
 });
 
-const ignoredStartPages = fs.readFileSync(tasksFolder + '/ignored_start_page_urls.txt').toString().split('\n')
+const ignoredStartPages = fs.readFileSync(`${tasksFolder  }/ignored_start_page_urls.txt`).toString().split('\n')
 
-for (service of services) {
+for (let service of services) {
   service = service.replace('.json', '');
 
-  var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + service + '.json').toString());
+  const project = JSON.parse(fs.readFileSync(`${servicesFolder  }/${  service  }.json`).toString());
 
   const startPages = project['start-page']
 
@@ -43,14 +43,14 @@ async function getData() {
 
     const startPages = results.map((result) => `https://www.gov.uk${result.link}`)
 
-    for (startPage of startPages) {
+    for (const startPage of startPages) {
       if (!existingStartPages.includes(startPage) && !ignoredStartPages.includes(startPage)) {
         newStartPages.push(startPage)
       }
     }
 
     console.log(`${newStartPages.length} new start pages found:\n`)
-    for (startPage of newStartPages.sort()) {
+    for (const startPage of newStartPages.sort()) {
       console.log(startPage)
     }
   } catch (error) {

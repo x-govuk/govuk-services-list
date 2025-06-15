@@ -1,7 +1,8 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const process = require('node:process');
+
 const puppeteer = require('puppeteer-core');
-const fs = require('fs');
-const path = require('path');
-const process = require('process');
 
 const useHeadless = false; // set to false for services which prevent screen-scraping
 const delayInSeconds = 2; // add a delay for services which use slow client-side rendering
@@ -71,13 +72,13 @@ const screenshotsFolder = path.join(__dirname, '..', 'app', 'assets', 'images', 
 if (services.includes('all')) {
   services = []
   fs.readdirSync(servicesFolder).forEach(function(filename) {
-    if (filename != '_template.json' && !servicesToSkip.includes(filename.replace('.json', ''))) {
+    if (filename !== '_template.json' && !servicesToSkip.includes(filename.replace('.json', ''))) {
       services.push(filename.replace('.json', ''))
     }
   });
 }
 
-if (services.length == 0) {
+if (services.length === 0) {
   console.log("npm run screenshots <command>\n")
   console.log('Usage:')
   console.log('npm run screenshots <filename>   Collect a screenshot for the service in the filename given (.json can be omitted)')
@@ -98,22 +99,22 @@ if (services.length == 0) {
     deviceScaleFactor: 2,
   });
 
-  for (service of services) {
+  for (let service of services) {
 
     service = service.replace('.json', '');
 
-    var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + service + '.json').toString());
+    const project = JSON.parse(fs.readFileSync(`${servicesFolder  }/${  service  }.json`).toString());
 
-    if (project.liveservice && project.phase != 'Retired') {
+    if (project.liveservice && project.phase !== 'Retired') {
       try {
         await page.goto(project.liveservice);
         await page.mouse.click(0, 0, {
           delay: (delayInSeconds * 1000)
         });
-        await page.screenshot({ path: screenshotsFolder + '/' + service + '.png' });
+        await page.screenshot({ path: `${screenshotsFolder  }/${  service  }.png` });
         process.stdout.write('.')
       } catch(error) {
-        console.warn('Error fetching ' + project.liveservice)
+        console.warn(`Error fetching ${  project.liveservice}`)
         console.error(error)
       }
     }

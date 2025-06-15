@@ -1,12 +1,14 @@
+const fs = require('node:fs')
+const path = require('node:path');
+
 const express = require('express')
-const fs = require('fs')
+const nunjucks = require('nunjucks')
+
 const app = express()
 const port = process.env.PORT || 3100
-var path = require('path');
-var nunjucks = require('nunjucks')
 
 function slugify(str) {
-  return str.replace(/[.,-\/#!$%\^&\*;:{}=\-_`~()’]/g,"").replace(/ +/g,'_').toLowerCase();
+  return str.replace(/[.,-/#!$%^&*;:{}=\-_`~()’]/g,"").replace(/ +/g,'_').toLowerCase();
 }
 
 app.locals.phases = [
@@ -86,11 +88,12 @@ app.locals.allEvents = []
 
 app.locals.projects = []
 
-fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
+const servicesDirectory = path.join(__dirname, "/app/services/")
 
-
-  if (filename != '_template.json' && filename.endsWith('.json')) {
-    var project = JSON.parse(fs.readFileSync(__dirname + '/app/services/' + filename).toString());
+fs.readdirSync(servicesDirectory).forEach(function(filename) {
+  if (filename !== '_template.json' && filename.endsWith('.json')) {
+    const projectFile = path.join(__dirname, "app/services", filename)
+    const project = JSON.parse(fs.readFileSync(projectFile).toString());
 
     project.filename = filename
     project.slug = filename.replace('.json', '');
@@ -108,8 +111,8 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       }
     }
 
-    for (organisation of project.organisation) {
-      if (!app.locals.organisations.find(function(org) { return org.name == organisation})) {
+    for (const organisation of project.organisation) {
+      if (!app.locals.organisations.find(function(org) { return org.name === organisation})) {
         app.locals.organisations.push({
           "name": organisation,
           "slug": slugify(organisation)
@@ -117,12 +120,14 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       }
     }
 
-    if (fs.existsSync(__dirname + '/app/assets/images/service-screenshots/' + project.slug + '.png')) {
+    const screenshotFile = path.join(__dirname, "app/assets/images/service-screenshots", `${project.slug}.png`)
+
+    if (fs.existsSync(screenshotFile)) {
       project.screenshot = true
     }
 
     if (project.timeline) {
-      for (item of project.timeline.items) {
+      for (const item of project.timeline.items) {
         app.locals.allEvents.push({
           "service": {
             "name": project.name,
@@ -134,7 +139,7 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
       }
     }
 
-    var phase = app.locals.phases.filter(function(p) { return p.name == project.phase })
+    const phase = app.locals.phases.filter(function(p) { return p.name === project.phase })
 
     if (phase.length > 0) {
       phase[0].projects_count += 1;
@@ -142,7 +147,7 @@ fs.readdirSync(__dirname + '/app/services/').forEach(function(filename) {
   }
 })
 
-for (organisation of app.locals.organisations) {
+for (const organisation of app.locals.organisations) {
   organisation.slug = slugify(organisation.name)
   organisation.services = app.locals.projects.filter(function(service) {
     return service.organisation.includes(organisation.name)
@@ -154,51 +159,57 @@ app.locals.domains = []
 
 const ignoredVerbs = ["gov.uk", "trade", "home", "flood", "electronic", "digital", "registered", "application", "online", "payment", "passport", "vehicle", "the", "civil", "supplier"]
 
-for (project of app.locals.projects) {
-    const verb = project.name.split(" ")[0].toLowerCase()
+const projectsWithValidVerbs = app.locals.projects.filter(project => {
+  const verb = project.name.split(" ")[0].toLowerCase()
+  return !ignoredVerbs.includes(verb)
+})
 
-    if (ignoredVerbs.includes(verb)) { continue }
+for (const project of projectsWithValidVerbs) {
+  const verb = project.name.split(" ")[0].toLowerCase()
 
-    let existingVerb = app.locals.verbs.find(v => v.name == verb)
+  let existingVerb = app.locals.verbs.find(v => v.name === verb)
 
-    if (!existingVerb) {
-      existingVerb = {name: verb, services: [], count: 0}
-      app.locals.verbs.push(existingVerb)
-    }
+  if (!existingVerb) {
+    existingVerb = {name: verb, services: [], count: 0}
+    app.locals.verbs.push(existingVerb)
+  }
 
-    existingVerb.services.push(project)
-    existingVerb.count += 1
+  existingVerb.services.push(project)
+  existingVerb.count += 1
+}
 
+const projectsWithValidDomains = app.locals.projects
+  .filter(project => project.liveservice)
+  .filter(project => project.phase !== 'Retired')
+  .filter(project => {
+    const { hostname } = new URL(project.liveservice)
 
-    if (project.liveservice) {
-      let url = new URL(project.liveservice)
-      let hostname = url.hostname
-      hostname = hostname.replace(/www\./, '')
+    return hostname.replace(/www\./, '') !== 'gov.uk'
+  })
 
-      if (hostname == 'gov.uk') { continue }
-      if (project.phase == 'retired') { continue }
+for (const project of projectsWithValidDomains) {
+  const { hostname } = new URL(project.liveservice)
 
-      let existingDomain = app.locals.domains.find(domain => domain.domain == hostname)
-      if (existingDomain) {
-        existingDomain.services.push(
-          {slug: project.slug, name: project.name}
-        )
-      } else {
-        app.locals.domains.push({
-          domain: hostname,
-          services: [
-            {slug: project.slug, name: project.name}
-          ]
-        })
-      }
-    }
+  const existingDomain = app.locals.domains.find(domain => domain.domain === hostname)
+  if (existingDomain) {
+    existingDomain.services.push(
+      {slug: project.slug, name: project.name}
+    )
+  } else {
+    app.locals.domains.push({
+      domain: hostname,
+      services: [
+        {slug: project.slug, name: project.name}
+      ]
+    })
+  }
 }
 
 app.use('/images', express.static(path.join(__dirname, 'app/assets/images')))
 
 app.use('/', express.static(path.join(__dirname, 'static')))
 
-var env = nunjucks.configure([
+const env = nunjucks.configure([
   'app/views/',
   'node_modules/govuk-frontend/dist',
   'node_modules/@x-govuk/govuk-prototype-components/src'
@@ -211,9 +222,9 @@ var env = nunjucks.configure([
 env.addFilter('slugify', slugify);
 
 env.addFilter('formatdate', function(str) {
-  var date = new Date(str);
+  const date = new Date(str);
 
-  var monthNames = {
+  const monthNames = {
     0: "January",
     1: "February",
     2: "March",
@@ -236,14 +247,14 @@ env.addFilter('find', function (array, key, value) {
 });
 
 app.get('/projects/:slug', function (req, res) {
-  project = req.app.locals.projects.filter(function(p) { return p.slug == req.params.slug})[0]
+  const project = req.app.locals.projects.filter(function(p) { return p.slug === req.params.slug})[0]
   res.render('project.html', {
-    'project': project
+    project
   });
 });
 
 app.get('/', function(req, res) {
-    res.render(path.join(__dirname, 'app/views/index.html'))
+  res.render(path.join(__dirname, 'app/views/index.html'))
 });
 
 app.get('/a-z', function(req, res) {
@@ -251,11 +262,11 @@ app.get('/a-z', function(req, res) {
 });
 
 app.get('/topic', function(req, res) {
-    res.render(path.join(__dirname, 'app/views/topic.html'))
+  res.render(path.join(__dirname, 'app/views/topic.html'))
 });
 
 app.get('/organisation', function(req, res) {
-    res.render('organisations.html')
+  res.render('organisations.html')
 });
 
 app.get('/phase', function(req, res) {
@@ -319,7 +330,7 @@ app.get('/original-25-exemplars', function(req, res) {
 });
 
 app.get('/organisation/:slug', function(req, res) {
-  const organisation = app.locals.organisations.find(function(org) { return org.slug == req.params.slug} )
+  const organisation = app.locals.organisations.find(function(org) { return org.slug === req.params.slug} )
   if (organisation) {
     res.render('organisation.html', {organisation})
   } else {
@@ -328,7 +339,7 @@ app.get('/organisation/:slug', function(req, res) {
 });
 
 app.get('/contribute', function(req, res) {
-    res.render('contribute.html')
+  res.render('contribute.html')
 });
 
 app.get('/verbs', function(req, res) {
@@ -356,7 +367,4 @@ app.get('/data.json', function(req, res) {
   res.json({services: app.locals.projects})
 });
 
-
 app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
-
-
