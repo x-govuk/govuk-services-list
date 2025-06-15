@@ -30,8 +30,8 @@
 }
 
 .app-timeline__heading {
-  @include govuk-font(19, $weight: bold);
   margin-bottom: 0;
+  @include govuk-font(19, $weight: bold);
 }
 
 .app-timeline__date {
