@@ -5,9 +5,15 @@
 {% block content %}
   <h1 class="govuk-heading-xl">{{ title }}</h1>
 
+  {%- for collection in aToZ -%}
+  <h2 class="govuk-heading-l" id="#{{ collection.index | slugify }}">
+    {{- collection.index -}}
+  </h2>
+
   <ul class="govuk-list govuk-list--spaced">
-  {%- for service in services | sort(attribute="name") -%}
+  {%- for service in collection.services -%}
     {{ appServiceItem(service) }}
   {%- endfor %}
   </ul>
+  {%- endfor %}
 {% endblock %}
