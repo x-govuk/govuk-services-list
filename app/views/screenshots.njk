@@ -9,8 +9,8 @@
   {%- for service in services | sort(attribute="name") -%}
   {%- if service.screenshot -%}
     <div class="govuk-grid-column-one-quarter govuk-!-padding-bottom-4">
-      <a href="/service/{{ service.slug }}">
-        <img class="app-screenshot" src="/images/service-screenshots/{{ service.slug }}.png" alt="{{ service.name }}">
+      <a class="app-screenshot" href="/service/{{ service.slug }}">
+        <img src="/images/service-screenshots/{{ service.slug }}.png" alt="{{ service.name }}">
       </a>
     </div>
   {%- endif %}
