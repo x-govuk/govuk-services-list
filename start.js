@@ -147,6 +147,17 @@ for (const service of servicesWithValidDomains) {
   }
 }
 
+let aToZ = Object.groupBy(services, (service) =>
+  service.name.charAt(0).toUpperCase(),
+);
+
+aToZ = Object.entries(aToZ)
+  .sort(([a], [b]) => a.localeCompare(b))
+  .map(([index, services]) => ({
+    index,
+    services: services.sort((a, b) => a.name.localeCompare(b.name)),
+  }));
+
 const env = nunjucks.configure(
   [
     "app/views/",
@@ -170,6 +181,7 @@ env.addFilter("plural", govukPrototypeFilters.plural);
 
 env.addFilter("slugify", govukPrototypeFilters.slugify);
 
+app.locals.aToZ = aToZ;
 app.locals.domains = domains;
 app.locals.events = events;
 app.locals.exemplars = exemplars;
