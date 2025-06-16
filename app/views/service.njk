@@ -2,160 +2,195 @@
 
 {% set title = service.name %}
 
-{% block content %}
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">{{ title }}</h1>
-    </div>
-  </div>
+{% set organisationKey = service.organisation | length | plural("Organisation", showNumber=false) %}
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <p class="govuk-body">{{ service.description }}</p>
+{% set organisationHtml %}
+{% set comma = joiner() %}
+{% for organisation in service.organisation -%}
+  {{ comma() }} <a class="govuk-link" href="/organisation/{{ organisation | slugify }}">{{ organisation }}</a>
+{% endfor %}
+{% endset %}
 
-      {% if service["start-page"] | length > 0 %}
-        {% if service["start-page"] | length == 1 %}
-          <p class="govuk-body"><a class="govuk-link" href="{{ service['start-page'][0] }}">Start page on GOV.UK</a></p>
-        {% else %}
+{% set themeHtml %}
+  <a class="govuk-link" href="/topic#{{ service.theme | slugify }}">
+    {{- service.theme -}}
+  </a>
+{% endset %}
 
-          <p class="govuk-body govuk-!-margin-bottom-1">Start pages:</p>
-          <ul class="govuk-list">
-          {%- for startPage in service["start-page"] -%}
-            <li>
-              <a href="{{ startPage }}" class="govuk-link">{{ startPage }}</a>
-            </li>
-          {%- endfor %}
-          </ul>
-        {% endif %}
-      {% endif %}
+{% set startPageKey = service["start-page"] | length | plural("Start page", showNumber=false) %}
 
-      {{ govukButton({
-        text: "View service",
-        href: service.liveservice
-      }) if service.liveservice and service.phase != "Retired" }}
+{% set startPageHtml %}
+{% if service["start-page"] | length == 1 %}
+  <p class="govuk-body">
+    <a class="govuk-link" href="{{ service['start-page'][0] }}">Start page on GOV.UK</a>
+  </p>
+{% elif service["start-page"] | length > 1 %}
+  <ul class="govuk-list">
+  {%- for startPage in service["start-page"] -%}
+    <li>
+      <a href="{{ startPage }}" class="govuk-link">
+        {{- startPage | replace("https://www.", "") -}}
+      </a>
+    </li>
+  {%- endfor %}
+  </ul>
+{% endif %}
+{% endset %}
 
-      {% if service.video %}
-        <div style="margin-top:30px;" class="videoWrapper">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ service.video }}" frameborder="0" allowfullscreen></iframe>
-        </div>
-      {% endif %}
+{% set notesHtml %}
+{%- for tag in service.tags -%}
+  {%- if tag == "Top 75" -%}
+  <p class="govuk-body">
+    One of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a>
+  </p>
+  {%- endif %}
 
-      {% set organisationHtml %}
-        {% set comma = joiner() %}
-        {% for organisation in service.organisation -%}
-          {{ comma() }} <a class="govuk-link" href="/organisation/{{ organisation | slugify }}">{{ organisation }}</a>
-        {% endfor %}
-      {% endset %}
+  {%- if tag == "Original 25 exemplars" -%}
+  <p class="govuk-body">
+    One of the <a href="/original-25-exemplars" class="govuk-link">original 25 exemplar services</a>
+  </p>
+  {%- endif %}
 
-      {% if service.theme %}
-        {% set themeHtml %}
-          <a class="govuk-link" href="/#{{ service.theme | slugify }}">{{ service.theme }}</a>
-        {% endset %}
-      {% endif %}
+  {%- if tag == "GOV.UK One Login" -%}
+  <p class="govuk-body">
+    Uses <a href="/govuk-one-login" class="govuk-link">GOV.UK One Login</a>
+  </p>
+  {% endif %}
+{%- endfor %}
+{% endset %}
 
-      {% set statusHtml %}
-        {{ govukTag({
-          text: service.phase
-        }) }}
+{% set sourceCodeHtml %}
+<ul class="govuk-list">
+  {%- for sourceCode in service.sourceCode -%}
+  <li>
+    <a class="govuk-link" href="{{ sourceCode.href }}">
+      {{- sourceCode.text -}}
+    </a>
+  </li>
+  {%- endfor %}
+</ul>
+{% endset %}
 
-        {%- for tag in service.tags -%}
-          {%- if tag == "Top 75" -%}
-            <div class="govuk-!-margin-top-3">One of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a></div>
-          {%- endif %}
+{% block main %}
+  {{ xGovukMasthead({
+    title: {
+      text: service.name
+    },
+    description: {
+      text: service.description
+    },
+    startButton: {
+      href: service.liveservice,
+      text: "View service"
+    } if service.liveservice and service.phase != "Retired",
+    image: {
+      src: "/images/service-screenshots/" + service.slug + ".png",
+      alt: "Screenshot of service"
+    } if service.screenshot
+  }) }}
 
-          {%- if tag == "Original 25 exemplars" -%}
-            <div class="govuk-!-margin-top-3">One of the <a href="/original-25-exemplars" class="govuk-link">original 25 exemplar services</a></div>
-          {%- endif %}
+  <div class="govuk-width-container">
+    <main class="govuk-main-wrapper" id="main-content">
+      <div class="govuk-grid-row">
+        <div class="govuk-grid-column-two-thirds">
+          <h2 class="govuk-heading-m">About this service</h2>
 
-          {%- if tag == "GOV.UK One Login" -%}
-            <div class="govuk-!-margin-top-3">Uses <a href="/govuk-one-login" class="govuk-link">GOV.UK One Login</a></div>
+          {{ govukSummaryList({
+            rows: [
+              {
+                key: {
+                  text: organisationKey
+                },
+                value: {
+                  html: organisationHtml
+                }
+              },
+              {
+                key: {
+                  text: "Topic"
+                },
+                value: {
+                  html: themeHtml
+                }
+              } if service.theme,
+              {
+                key: {
+                  text: "Phase"
+                },
+                value: {
+                  html: govukTag({ text: service.phase })
+                }
+              } if service.phase,
+              {
+                key: {
+                  text: startPageKey
+                },
+                value: {
+                  html: startPageHtml
+                }
+              } if service["start-page"] | length > 0,
+              {
+                key: {
+                  text: "Notes"
+                },
+                value: {
+                  html: notesHtml
+                }
+              } if service.tags,
+              {
+                key: {
+                  text: "Source code"
+                },
+                value: {
+                  html: sourceCodeHtml
+                }
+              } if service.sourceCode
+            ]
+          }) }}
+
+          {% if service.video %}
+          <div class="app-video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ service.video }}" frameborder="0" allowfullscreen></iframe>
+          </div>
           {% endif %}
-        {%- endfor %}
-      {% endset %}
-
-      {% set sourceCodeHtml %}
-        {% if service.sourceCode %}
-          <ul class="govuk-list">
-          {%- for sourceCode in service.sourceCode -%}
-            <li><a class="govuk-link" href="{{ sourceCode.href }}">{{ sourceCode.text }}</a></li>
-          {%- endfor %}
-          </ul>
-        {% else %}
-          Not found
-        {% endif %}
-      {% endset %}
-
-      <h2 class="govuk-heading-m">About this service</h2>
-
-      {{ govukSummaryList({
-        rows: [
-          {
-            key: {
-              text: ("Organisation" if service.organisation | length < 2 else "Organisations")
-            },
-            value: {
-              html: organisationHtml
-            }
-          },
-          {
-            key: {
-              text: "Topic"
-            },
-            value: {
-              html: themeHtml
-            }
-          } if service.theme,
-          {
-            key: {
-              text: "Status"
-            },
-            value: {
-              html: statusHtml
-            }
-          },
-          {
-            key: {
-              text: "Source code"
-            },
-            value: {
-              html: sourceCodeHtml
-            }
-          }
-        ]
-      }) }}
-
-      {%- if service.timeline and service.timeline.items | length > 0 -%}
-      <h2 class="govuk-heading-m">Service history</h2>
-
-      <div class="app-timeline">
-      {%- for item in service.timeline.items | sort(attribute="date") -%}
-        <div class="app-timeline__item">
-          <h3 class="app-timeline__heading">
-            {{- item.label -}}
-          </h3>
-
-          <p class="app-timeline__date"><time datetime="{{ item.date }}">{{ item.date | govukDate }}</time></p>
-
-          {% if item.links and item.links | length > 0 %}
-          <ul class="govuk-list">
-          {%- for link in item.links -%}
-            <li>
-              <a class="govuk-link" href="{{ link.href }}">{{ link.text }}{% if link.visuallyHiddenText %}<span class="govuk-visually-hidden">{{ link.visuallyHiddenText }}</span>{% endif %}</a>
-            </li>
-          {%- endfor %}
-          </ul>
-          {%- endif %}
         </div>
-      {%- endfor %}
+
+        {%- if service.timeline and service.timeline.items | length > 0 -%}
+        <div class="govuk-grid-column-one-third">
+          <h2 class="govuk-heading-m">Service history</h2>
+
+          <div class="app-timeline">
+          {%- for item in service.timeline.items | sort(attribute="date") -%}
+            <div class="app-timeline__item">
+              <h3 class="app-timeline__heading">
+                {{- item.label -}}
+              </h3>
+
+              <p class="app-timeline__date">
+                <time datetime="{{ item.date }}">
+                  {{- item.date | govukDate -}}
+                </time>
+              </p>
+
+              {% if item.links and item.links | length > 0 %}
+              <ul class="govuk-list">
+              {%- for link in item.links -%}
+                <li>
+                  <a class="govuk-link" href="{{ link.href }}">{{ link.text }}{% if link.visuallyHiddenText %}<span class="govuk-visually-hidden">{{ link.visuallyHiddenText }}</span>{% endif %}</a>
+                </li>
+              {%- endfor %}
+              </ul>
+              {%- endif %}
+            </div>
+          {%- endfor %}
+          </div>
+        </div>
+        {%- endif %}
       </div>
-      {%- endif %}
+
+      <hr class="govuk-section-break govuk-section-break--l">
 
       <p class="govuk-body">Is any of this information incorrect or out-of-date? If so, please let us know by <a href="https://github.com/x-govuk/govuk-services-list/issues/new?template=update-service-information.yml&title=Update: {{ service.name }}" class="govuk-link">opening an issue on GitHub</a> (free GitHub account required).</p>
-    </div>
-    <div class="govuk-grid-column-one-third">
-    {% if service.screenshot %}
-      <a href="/images/service-screenshots/{{ service.slug }}.png"><img class="app-screenshot" src="/images/service-screenshots/{{ service.slug }}.png" alt="Screenshot of service"></a>
-    {% endif %}
-    </div>
+    </main>
   </div>
 {% endblock %}

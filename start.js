@@ -166,6 +166,8 @@ env.addFilter("find", (array, key, value) =>
 
 env.addFilter("govukDate", govukPrototypeFilters.govukDate);
 
+env.addFilter("plural", govukPrototypeFilters.plural);
+
 env.addFilter("slugify", govukPrototypeFilters.slugify);
 
 app.locals.domains = domains;
