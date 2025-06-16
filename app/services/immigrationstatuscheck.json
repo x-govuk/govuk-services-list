@@ -4,6 +4,6 @@
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://www.immigrationstatuscheck.service.gov.uk/employers/",
+  "liveService": "https://www.immigrationstatuscheck.service.gov.uk/employers/",
   "startPage": "https://www.gov.uk/employee-immigration-employment-status"
 }

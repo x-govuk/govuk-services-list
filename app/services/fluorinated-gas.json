@@ -4,6 +4,6 @@
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
   "phase": "Beta",
-  "liveservice": "https://register.fluorinated-gas.service.gov.uk/register/index",
+  "liveService": "https://register.fluorinated-gas.service.gov.uk/register/index",
   "startPage": "https://www.gov.uk/guidance/record-and-report-f-gas-and-equipment-you-produce-or-import"
 }

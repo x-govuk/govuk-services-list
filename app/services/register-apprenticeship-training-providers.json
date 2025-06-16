@@ -9,5 +9,5 @@
   ],
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/register-of-apprenticeship-training-providers",
-  "liveservice": "https://download.apprenticeships.education.gov.uk"
+  "liveService": "https://download.apprenticeships.education.gov.uk"
 }

@@ -5,7 +5,7 @@
   "organisation": "Ministry of Justice",
   "phase": "unknown",
   "facing": "internal",
-  "liveservice": "https://peoplefinder.service.gov.uk",
+  "liveService": "https://peoplefinder.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

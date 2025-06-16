@@ -4,6 +4,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Alpha",
-  "liveservice": "https://find-test-centre-hgv-bus-trailer-mot.service.gov.uk",
+  "liveService": "https://find-test-centre-hgv-bus-trailer-mot.service.gov.uk",
   "startPage": "https://www.gov.uk/find-mot-test-centre-hgv-bus-trailer"
 }

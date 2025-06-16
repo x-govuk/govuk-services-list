@@ -5,7 +5,7 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://www.planning.data.gov.uk",
+  "liveService": "https://www.planning.data.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

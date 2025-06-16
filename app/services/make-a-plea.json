@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "liveservice": "https://makeaplea.service.gov.uk/plea/enter_urn/",
+  "liveService": "https://makeaplea.service.gov.uk/plea/enter_urn/",
   "startPage": "https://www.gov.uk/make-a-plea",
   "timeline": {
     "items": [

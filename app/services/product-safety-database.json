@@ -4,7 +4,7 @@
   "organisation": "Office for Product Safety and Standards",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.product-safety-database.service.gov.uk",
+  "liveService": "https://www.product-safety-database.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

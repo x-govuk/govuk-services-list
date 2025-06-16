@@ -4,6 +4,6 @@
   "organisation": "Crown Commercial Service",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.find-tender.service.gov.uk/",
+  "liveService": "https://www.find-tender.service.gov.uk/",
   "startPage": "https://www.gov.uk/find-tender"
 }

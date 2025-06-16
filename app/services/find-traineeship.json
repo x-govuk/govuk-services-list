@@ -7,6 +7,6 @@
   ],
   "theme": "Working, jobs and pensions",
   "phase": "Live",
-  "liveservice": "https://www.findapprenticeship.service.gov.uk/traineeshipsearch",
+  "liveService": "https://www.findapprenticeship.service.gov.uk/traineeshipsearch",
   "startPage": "https://www.gov.uk/find-traineeship"
 }

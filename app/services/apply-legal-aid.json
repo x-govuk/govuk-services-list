@@ -4,7 +4,7 @@
   "organisation": "Legal Aid Agency",
   "theme": "Crime, justice and the law",
   "phase": "Beta",
-  "liveservice": "https://apply-for-legal-aid.service.justice.gov.uk",
+  "liveService": "https://apply-for-legal-aid.service.justice.gov.uk",
   "startPage": "https://www.gov.uk/guidance/apply-for-legal-aid",
   "tags": ["Top 75"],
   "timeline": {

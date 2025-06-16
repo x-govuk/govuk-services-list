@@ -6,7 +6,7 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/kings-award-for-voluntary-service",
-  "liveservice": "https://kavs.dcms.gov.uk",
+  "liveService": "https://kavs.dcms.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

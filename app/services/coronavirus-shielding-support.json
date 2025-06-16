@@ -4,7 +4,7 @@
   "organisation": "Government Digital Service",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://coronavirus-shielding-support.service.gov.uk/start",
+  "liveService": "https://coronavirus-shielding-support.service.gov.uk/start",
   "startPage": "https://www.gov.uk/coronavirus-shielding-support",
   "sourceCode": [
     {

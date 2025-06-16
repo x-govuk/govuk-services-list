@@ -7,6 +7,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/customs-registration-services/eori-only/register/vat-group",
+  "liveService": "https://www.tax.service.gov.uk/customs-registration-services/eori-only/register/vat-group",
   "startPage": "https://www.gov.uk/eori/apply-for-eori"
 }

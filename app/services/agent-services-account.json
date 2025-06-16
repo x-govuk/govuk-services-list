@@ -5,6 +5,6 @@
   "theme": "Money and tax",
   "phase": "unknown",
   "tags": ["Original 25 exemplars"],
-  "liveservice": "https://www.tax.service.gov.uk/agent-services-account",
+  "liveService": "https://www.tax.service.gov.uk/agent-services-account",
   "startPage": "https://www.gov.uk/guidance/sign-in-to-your-agent-services-account"
 }

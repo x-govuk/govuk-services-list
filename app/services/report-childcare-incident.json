@@ -4,6 +4,6 @@
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://www.report-childcare-incident.service.gov.uk/",
+  "liveService": "https://www.report-childcare-incident.service.gov.uk/",
   "startPage": "Childcare and parenting"
 }

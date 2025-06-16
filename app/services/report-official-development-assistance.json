@@ -4,7 +4,7 @@
   "organisation": "Department for Business and Trade",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.report-official-development-assistance.service.gov.uk",
+  "liveService": "https://www.report-official-development-assistance.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

@@ -4,7 +4,7 @@
   "organisation": "Department of Health and Social Care",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://create-qr-code-poster.service.gov.uk/createposter/contact-details",
+  "liveService": "https://create-qr-code-poster.service.gov.uk/createposter/contact-details",
   "startPage": "https://www.gov.uk/create-coronavirus-qr-poster",
   "timeline": {
     "items": [

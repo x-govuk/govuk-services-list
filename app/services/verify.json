@@ -4,7 +4,7 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase": "Retired",
-  "liveservice": "https://www.signin.service.gov.uk/verify-services",
+  "liveService": "https://www.signin.service.gov.uk/verify-services",
   "timeline": {
     "items": [
       {

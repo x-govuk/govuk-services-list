@@ -11,7 +11,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "Beta",
-  "liveservice": "https://www.book-theory-test.service.gov.uk/?target=gb&lang=gb",
+  "liveService": "https://www.book-theory-test.service.gov.uk/?target=gb&lang=gb",
   "startPage": [
     "https://www.gov.uk/book-theory-test",
     "https://www.gov.uk/book-your-instructor-theory-test",

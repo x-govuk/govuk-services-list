@@ -5,7 +5,7 @@
   "organisation": "Companies House",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://find-and-update.company-information.service.gov.uk/close-a-company/",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/close-a-company/",
   "startPage": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01",
   "timeline": {
     "items": [

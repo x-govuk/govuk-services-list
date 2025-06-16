@@ -8,7 +8,7 @@
   "organisation": "HM Courts & Tribunals Service",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://www.appeal-immigration-asylum-decision.service.gov.uk/start-appeal",
+  "liveService": "https://www.appeal-immigration-asylum-decision.service.gov.uk/start-appeal",
   "startPage": "https://www.gov.uk/immigration-asylum-tribunal/appeal-from-within-the-uk",
   "timeline": {
     "items": [

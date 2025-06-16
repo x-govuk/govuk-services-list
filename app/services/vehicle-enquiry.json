@@ -13,7 +13,7 @@
     "https://www.gov.uk/check-mot-status",
     "https://www.gov.uk/get-vehicle-information-from-dvla"
   ],
-  "liveservice": "https://vehicleenquiry.service.gov.uk/",
+  "liveService": "https://vehicleenquiry.service.gov.uk/",
   "timeline": {
     "items": [
       {

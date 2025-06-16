@@ -4,6 +4,6 @@
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://www.report-childminder-new-adults.service.gov.uk/",
+  "liveService": "https://www.report-childminder-new-adults.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/childminders-report-new-adults-in-the-home"
 }

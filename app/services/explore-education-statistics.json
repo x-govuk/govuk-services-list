@@ -4,6 +4,6 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://explore-education-statistics.service.gov.uk",
+  "liveService": "https://explore-education-statistics.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/explore-education-statistics"
 }

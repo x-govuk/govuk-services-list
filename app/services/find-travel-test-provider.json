@@ -4,6 +4,6 @@
   "organisation": "Department of Health and Social Care",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://www.find-travel-test-provider.service.gov.uk/test-type",
+  "liveService": "https://www.find-travel-test-provider.service.gov.uk/test-type",
   "startPage": "https://www.gov.uk/find-travel-test-provider"
 }

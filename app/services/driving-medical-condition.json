@@ -10,7 +10,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://www.driving-medical-condition.service.gov.uk/report",
+  "liveService": "https://www.driving-medical-condition.service.gov.uk/report",
   "startPage": [
     "https://www.gov.uk/report-driving-medical-condition",
     "https://www.gov.uk/renew-medical-driving-licence"

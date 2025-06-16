@@ -4,7 +4,7 @@
   "organisation": "UK Health Security Agency",
   "theme": "Health",
   "phase": "Beta",
-  "liveservice": "https://ukhsa-dashboard.data.gov.uk",
+  "liveService": "https://ukhsa-dashboard.data.gov.uk",
   "timeline": {
     "items": [
       {

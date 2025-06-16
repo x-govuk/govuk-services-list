@@ -4,7 +4,7 @@
   "organisation": "Home Office",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://provide-journey-contact-details.homeoffice.gov.uk/passengerLocatorFormUserAccountHolderQuestion",
+  "liveService": "https://provide-journey-contact-details.homeoffice.gov.uk/passengerLocatorFormUserAccountHolderQuestion",
   "startPage": "https://www.gov.uk/provide-journey-contact-details-before-travel-uk",
   "timeline": {
     "items": [

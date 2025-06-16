@@ -5,7 +5,7 @@
   "organisation": "Marine Management Organisation",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://record-catch.service.gov.uk/sign-in",
+  "liveService": "https://record-catch.service.gov.uk/sign-in",
   "startPage": "https://www.gov.uk/guidance/record-your-catch",
   "timeline": {
     "items": [

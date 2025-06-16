@@ -9,7 +9,7 @@
   "organisation": "HM Revenue and Customs",
   "phase": "Live",
   "startPage": "https://www.gov.uk/trade-tariff",
-  "liveservice": "https://www.trade-tariff.service.gov.uk/trade-tariff/sections",
+  "liveService": "https://www.trade-tariff.service.gov.uk/trade-tariff/sections",
   "sourceCode": [
     {
       "text": "Front end source code",

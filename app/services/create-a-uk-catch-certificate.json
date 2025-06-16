@@ -4,7 +4,7 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Business and self-employed",
   "phase": "unknown",
-  "liveservice": "https://manage-fish-exports.service.gov.uk/create-catch-certificate/catch-certificates",
+  "liveService": "https://manage-fish-exports.service.gov.uk/create-catch-certificate/catch-certificates",
   "startPage": "https://www.gov.uk/guidance/create-a-uk-catch-certificate",
   "tags": ["Top 75"]
 }

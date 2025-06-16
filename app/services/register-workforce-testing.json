@@ -4,6 +4,6 @@
   "organisation": "Department for Business and Trade",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://register-workforce-testing.service.gov.uk",
+  "liveService": "https://register-workforce-testing.service.gov.uk",
   "startPage": "https://www.gov.uk/get-workplace-coronavirus-tests"
 }

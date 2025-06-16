@@ -4,6 +4,6 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://find-dfe-approved-framework.service.gov.uk",
+  "liveService": "https://find-dfe-approved-framework.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/find-a-dfe-approved-framework-for-your-school"
 }

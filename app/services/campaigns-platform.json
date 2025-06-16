@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "phase": "Alpha",
   "facing": "internal",
-  "liveservice": "https://gcs.civilservice.gov.uk/guidance/marketing/how-to-set-up-a-new-government-campaign-online/",
+  "liveService": "https://gcs.civilservice.gov.uk/guidance/marketing/how-to-set-up-a-new-government-campaign-online/",
   "timeline": {
     "items": [
       {

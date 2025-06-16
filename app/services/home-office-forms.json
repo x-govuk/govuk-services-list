@@ -4,7 +4,7 @@
   "theme": "Government Internal",
   "organisation": "Home Office",
   "phase": "unknown",
-  "liveservice": "https://ukhomeofficeforms.github.io/hof-guide/",
+  "liveService": "https://ukhomeofficeforms.github.io/hof-guide/",
   "sourceCode": [
     {
       "text": "Source code",

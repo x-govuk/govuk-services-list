@@ -4,6 +4,6 @@
   "organisation": "*** Full name of the Department or organisation responsible ***",
   "theme": "*** Please use one of the existing themes from the website ***",
   "phase": "*** Use one of: discovery, alpha, beta, live, retired or unknown. ***",
-  "liveservice": "*** Replace this with the URL of the live service (if live) ***",
+  "liveService": "*** Replace this with the URL of the live service (if live) ***",
   "startPage": "*** Replace this with the URL of the 'Start page' on GOV.UK ***"
 }

@@ -5,5 +5,5 @@
   "organisation": "Insolvency Service",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/claim-loss-notice",
-  "liveservice": "https://notice.redundancy-payments.service.gov.uk/claims/personal-details"
+  "liveService": "https://notice.redundancy-payments.service.gov.uk/claims/personal-details"
 }

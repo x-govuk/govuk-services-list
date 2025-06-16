@@ -9,7 +9,7 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "Live",
   "organisation": "NHS England",
-  "liveservice": "https://111.nhs.uk",
+  "liveService": "https://111.nhs.uk",
   "timeline": {
     "items": [
       {

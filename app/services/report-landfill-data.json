@@ -5,5 +5,5 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/report-landfill-data-england-only",
-  "liveservice": "https://report-landfill-data.service.gov.uk/"
+  "liveService": "https://report-landfill-data.service.gov.uk/"
 }

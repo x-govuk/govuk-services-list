@@ -5,6 +5,6 @@
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://find-energy-improvements-suitable-for-your-home.service.gov.uk/energy-efficiency/new-or-returning-user",
+  "liveService": "https://find-energy-improvements-suitable-for-your-home.service.gov.uk/energy-efficiency/new-or-returning-user",
   "startPage": "https://www.gov.uk/improve-energy-efficiency"
 }

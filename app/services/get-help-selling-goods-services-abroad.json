@@ -5,7 +5,7 @@
   "organisation": "Department for International Trade",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.get-help-selling-goods-services-abroad.service.gov.uk/",
+  "liveService": "https://www.get-help-selling-goods-services-abroad.service.gov.uk/",
   "startPage": "https://www.gov.uk/ask-export-support-team",
   "tags": ["Top 75"]
 }

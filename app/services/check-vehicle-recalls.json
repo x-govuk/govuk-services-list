@@ -4,6 +4,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "*** Please use one of the existing themes from the website ***",
   "phase": "unknown",
-  "liveservice": "https://www.check-vehicle-recalls.service.gov.uk/",
+  "liveService": "https://www.check-vehicle-recalls.service.gov.uk/",
   "startPage": "https://www.gov.uk/check-vehicle-recall"
 }

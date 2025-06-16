@@ -5,6 +5,6 @@
   "organisation": ["Home Office", "UK Visas and Immigration"],
   "phase": "Beta",
   "startPage": "https://www.gov.uk/skilled-worker-visa/apply-from-outside-the-uk",
-  "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/skilled_worker_out_uk",
+  "liveService": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/skilled_worker_out_uk",
   "tags": ["Top 75"]
 }

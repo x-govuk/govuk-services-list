@@ -10,7 +10,7 @@
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://visas-immigration.service.gov.uk/product/fee-waiver",
+  "liveService": "https://visas-immigration.service.gov.uk/product/fee-waiver",
   "startPage": [
     "https://www.gov.uk/get-child-citizenship-fee-waiver",
     "https://www.gov.uk/visa-fee-waiver-in-uk"

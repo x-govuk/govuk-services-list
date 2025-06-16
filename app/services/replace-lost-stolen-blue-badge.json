@@ -5,6 +5,6 @@
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://apply-blue-badge.service.gov.uk/replace-a-blue-badge",
+  "liveService": "https://apply-blue-badge.service.gov.uk/replace-a-blue-badge",
   "startPage": "https://www.gov.uk/replace-lost-stolen-blue-badge"
 }

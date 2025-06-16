@@ -6,5 +6,5 @@
   "organisation": "Ofsted",
   "phase": "Live",
   "startPage": "https://www.gov.uk/find-ofsted-inspection-report",
-  "liveservice": "https://reports.ofsted.gov.uk"
+  "liveService": "https://reports.ofsted.gov.uk"
 }

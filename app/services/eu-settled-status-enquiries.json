@@ -4,5 +4,5 @@
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://eu-settled-status-enquiries.service.gov.uk/start"
+  "liveService": "https://eu-settled-status-enquiries.service.gov.uk/start"
 }

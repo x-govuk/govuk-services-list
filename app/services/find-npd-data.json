@@ -5,7 +5,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/apply-for-department-for-education-dfe-personal-data",
-  "liveservice": "https://www.find-npd-data.education.gov.uk",
+  "liveService": "https://www.find-npd-data.education.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

@@ -7,7 +7,7 @@
   ],
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://national-infrastructure-consenting.planninginspectorate.gov.uk",
+  "liveService": "https://national-infrastructure-consenting.planninginspectorate.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

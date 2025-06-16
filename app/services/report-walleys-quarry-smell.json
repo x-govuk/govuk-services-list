@@ -7,5 +7,5 @@
     "Environment Agency"
   ],
   "phase": "Beta",
-  "liveservice": "https://report-walleys-quarry-smell.service.gov.uk"
+  "liveService": "https://report-walleys-quarry-smell.service.gov.uk"
 }

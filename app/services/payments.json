@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "phase": "Beta",
   "facing": "internal",
-  "liveservice": "https://www.payments.service.gov.uk/",
+  "liveService": "https://www.payments.service.gov.uk/",
   "timeline": {
     "items": [
       {

@@ -10,7 +10,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Live",
   "startPage": "https://www.gov.uk/view-driving-licence",
-  "liveservice": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
+  "liveService": "https://www.viewdrivingrecord.service.gov.uk/driving-record/licence-number",
   "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [

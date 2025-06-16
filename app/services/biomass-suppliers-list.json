@@ -12,6 +12,6 @@
     "https://www.gov.uk/register-biomass-supplier",
     "https://www.gov.uk/find-fuel-supplier"
   ],
-  "liveservice": "https://biomass-suppliers-list.service.gov.uk/",
+  "liveService": "https://biomass-suppliers-list.service.gov.uk/",
   "tags": ["Top 75"]
 }

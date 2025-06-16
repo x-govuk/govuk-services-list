@@ -5,7 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "phase_modifier": "Public",
-  "liveservice": "https://www.apply-budgeting-loan.service.gov.uk",
+  "liveService": "https://www.apply-budgeting-loan.service.gov.uk",
   "timeline": {
     "items": [
       {

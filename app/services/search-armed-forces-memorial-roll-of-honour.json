@@ -4,7 +4,7 @@
   "organisation": "Ministry of Defence",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "liveservice": "https://www.search-armed-forces-memorial-roll-of-honour.service.gov.uk/",
+  "liveService": "https://www.search-armed-forces-memorial-roll-of-honour.service.gov.uk/",
   "startPage": "https://www.gov.uk/search-armed-forces-memorial-roll-of-honour",
   "timeline": {
     "items": [

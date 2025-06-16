@@ -8,6 +8,6 @@
   ],
   "phase": "Live",
   "startPage": "https://www.gov.uk/apply-apprenticeship",
-  "liveservice": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch",
+  "liveService": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch",
   "tags": ["Original 25 exemplars", "GOV.UK One Login"]
 }

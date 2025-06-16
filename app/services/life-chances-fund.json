@@ -4,7 +4,7 @@
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase": "Retired",
-  "liveservice": "https://access-life-chances-fund.service.gov.uk",
+  "liveService": "https://access-life-chances-fund.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

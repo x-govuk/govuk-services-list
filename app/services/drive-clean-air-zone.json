@@ -5,7 +5,7 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://multiple-vehiclecheck.drive-clean-air-zone.service.gov.uk/what_would_you_like_to_do",
+  "liveService": "https://multiple-vehiclecheck.drive-clean-air-zone.service.gov.uk/what_would_you_like_to_do",
   "startPage": "https://www.gov.uk/clean-air-zones",
   "tags": ["Top 75"],
   "timeline": {

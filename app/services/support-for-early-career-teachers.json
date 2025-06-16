@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://support-for-early-career-teachers.education.gov.uk",
+  "liveService": "https://support-for-early-career-teachers.education.gov.uk",
   "startPage": "https://www.gov.uk/guidance/how-to-set-up-training-for-early-career-teachers",
   "sourceCode": [
     {

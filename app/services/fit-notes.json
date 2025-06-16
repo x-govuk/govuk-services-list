@@ -4,6 +4,6 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
-  "liveservice": "https://send-fit-note.service.gov.uk/",
+  "liveService": "https://send-fit-note.service.gov.uk/",
   "startPage": "https://www.gov.uk/send-fit-note"
 }

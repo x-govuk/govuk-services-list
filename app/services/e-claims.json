@@ -4,7 +4,7 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://eclaims.communities.gov.uk/esif-web/",
+  "liveService": "https://eclaims.communities.gov.uk/esif-web/",
   "startPage": "https://www.gov.uk/guidance/england-2014-to-2020-european-structural-and-investment-funds",
   "timeline": {
     "items": [

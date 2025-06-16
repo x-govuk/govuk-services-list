@@ -5,7 +5,7 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase": "Retired",
-  "liveservice": "https://www.registers.service.gov.uk",
+  "liveService": "https://www.registers.service.gov.uk",
   "timeline": {
     "items": [
       {

@@ -5,7 +5,7 @@
   "organisation": "Animal and Plant Health Agency",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://exporter.apply-plant-export-certificates.service.gov.uk/",
+  "liveService": "https://exporter.apply-plant-export-certificates.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/apply-for-plant-export-certificates-and-inspections",
   "timeline": {
     "items": [

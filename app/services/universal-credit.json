@@ -6,7 +6,7 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "phase_modifier": "Public",
-  "liveservice": "https://www.universal-credit.service.gov.uk/",
+  "liveService": "https://www.universal-credit.service.gov.uk/",
   "startPage": [
     "https://www.gov.uk/universal-credit",
     "https://www.gov.uk/apply-universal-credit",

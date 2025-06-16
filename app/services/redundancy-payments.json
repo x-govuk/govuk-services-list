@@ -9,7 +9,7 @@
   "organisation": "Insolvency Service",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/claim-redundancy",
-  "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
+  "liveService": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
   "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [

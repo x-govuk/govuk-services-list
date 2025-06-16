@@ -7,7 +7,7 @@
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
   "phase": "Beta",
-  "liveservice": "https://wastecarriersregistration.service.gov.uk/",
+  "liveService": "https://wastecarriersregistration.service.gov.uk/",
   "startPage": "https://www.gov.uk/register-renew-waste-carrier-broker-dealer-england",
   "tags": ["Top 75", "Original 25 exemplars"]
 }

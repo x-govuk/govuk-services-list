@@ -5,6 +5,6 @@
   "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Live",
-  "liveservice": "https://www.nhs.uk/nbs/start/covid",
+  "liveService": "https://www.nhs.uk/nbs/start/covid",
   "startPage": "https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/book-coronavirus-vaccination/"
 }

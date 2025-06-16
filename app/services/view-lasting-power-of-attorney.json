@@ -4,6 +4,6 @@
   "organisation": "Ministry of Justice",
   "theme": "Crime, justice and the law",
   "phase": "Beta",
-  "liveservice": "https://view-lasting-power-of-attorney.service.gov.uk/home",
+  "liveService": "https://view-lasting-power-of-attorney.service.gov.uk/home",
   "startPage": "https://www.gov.uk/view-lasting-power-of-attorney"
 }

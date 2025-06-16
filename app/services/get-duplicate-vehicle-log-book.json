@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://get-duplicate-vehicle-log-book.service.gov.uk",
+  "liveService": "https://get-duplicate-vehicle-log-book.service.gov.uk",
   "startPage": "https://www.gov.uk/vehicle-log-book",
   "timeline": {
     "items": [

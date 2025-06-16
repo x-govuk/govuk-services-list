@@ -5,7 +5,7 @@
   "organisation": "Student Loans Company",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://www.manage-student-loan-balance.service.gov.uk/ors",
+  "liveService": "https://www.manage-student-loan-balance.service.gov.uk/ors",
   "startPage": "https://www.gov.uk/sign-in-to-manage-your-student-loan-balance",
   "tags": ["Top 75"],
   "timeline": {

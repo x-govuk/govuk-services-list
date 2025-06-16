@@ -5,7 +5,7 @@
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.search-for-intellectual-property.service.gov.uk",
+  "liveService": "https://www.search-for-intellectual-property.service.gov.uk",
   "startPage": "https://www.gov.uk/search-for-patent",
   "timeline": {
     "items": [

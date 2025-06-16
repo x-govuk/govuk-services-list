@@ -4,7 +4,7 @@
   "theme": "Housing and local services",
   "organisation": "Land Registry",
   "phase": "Beta",
-  "liveservice": "https://sign-your-mortgage-deed.landregistry.gov.uk",
+  "liveService": "https://sign-your-mortgage-deed.landregistry.gov.uk",
   "startPage": "https://www.gov.uk/government/publications/hm-land-registry-sign-your-mortgage-deed",
   "tags": ["GOV.UK One Login"],
   "timeline": {

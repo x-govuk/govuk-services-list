@@ -4,7 +4,7 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase": "Live",
-  "liveservice": "https://platforms.service.gov.uk",
+  "liveService": "https://platforms.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

@@ -5,7 +5,7 @@
   "organisation": "Department for Business and Trade",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://check-payment-practices.service.gov.uk/search",
+  "liveService": "https://check-payment-practices.service.gov.uk/search",
   "startPage": "https://www.gov.uk/check-when-businesses-pay-invoices",
   "sourceCode": [
     {

@@ -5,5 +5,5 @@
   "organisation": "Ministry of Justice",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/claim-compensation-for-miscarriage-of-justice",
-  "liveservice": "https://miscarriages-of-justice.form.service.justice.gov.uk/"
+  "liveService": "https://miscarriages-of-justice.form.service.justice.gov.uk/"
 }

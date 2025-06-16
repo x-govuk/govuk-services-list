@@ -6,5 +6,5 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "unknown",
   "startPage": "https://www.gov.uk/register-a-death/y/overseas",
-  "liveservice": "https://register-a-death-abroad.service.gov.uk/"
+  "liveService": "https://register-a-death-abroad.service.gov.uk/"
 }

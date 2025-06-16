@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://find-a-teaching-school-hub.education.gov.uk",
+  "liveService": "https://find-a-teaching-school-hub.education.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

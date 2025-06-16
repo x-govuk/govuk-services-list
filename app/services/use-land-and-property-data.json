@@ -4,7 +4,7 @@
   "organisation": "Land Registry",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://use-land-property-data.service.gov.uk",
+  "liveService": "https://use-land-property-data.service.gov.uk",
   "timeline": {
     "items": [
       {

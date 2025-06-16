@@ -5,6 +5,6 @@
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://www.register-nanny.service.gov.uk/nanny/sign-in/new-application/",
+  "liveService": "https://www.register-nanny.service.gov.uk/nanny/sign-in/new-application/",
   "startPage": "https://www.gov.uk/become-childminder-nanny/register-nanny"
 }

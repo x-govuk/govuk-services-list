@@ -5,7 +5,7 @@
   "organisation": "Ministry of Justice",
   "phase": "Live",
   "startPage": "https://www.gov.uk/prison-visits",
-  "liveservice": "https://www.prisonvisits.service.gov.uk/",
+  "liveService": "https://www.prisonvisits.service.gov.uk/",
   "tags": ["Top 75", "Original 25 exemplars"],
   "sourceCode": [
     {

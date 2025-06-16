@@ -4,5 +4,5 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Environment and countryside",
   "phase": "unknown",
-  "liveservice": "https://environment.data.gov.uk/flood-monitoring/tidegauge/"
+  "liveService": "https://environment.data.gov.uk/flood-monitoring/tidegauge/"
 }

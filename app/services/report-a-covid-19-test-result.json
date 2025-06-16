@@ -4,7 +4,7 @@
   "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://test-for-coronavirus.service.gov.uk/report-result",
+  "liveService": "https://test-for-coronavirus.service.gov.uk/report-result",
   "startPage": "https://www.gov.uk/report-covid19-result",
   "timeline": {
     "items": [

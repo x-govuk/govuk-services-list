@@ -17,7 +17,7 @@
     "https://www.gov.uk/check-vehicle-operator-licence-applications"
   ],
   "tags": ["GOV.UK One Login"],
-  "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/",
+  "liveService": "https://www.vehicle-operator-licensing.service.gov.uk/",
   "timeline": {
     "items": [
       {

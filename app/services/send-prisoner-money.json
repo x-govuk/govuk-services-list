@@ -6,7 +6,7 @@
   "organisation": "Ministry of Justice",
   "phase": "Live",
   "startPage": "https://www.gov.uk/send-prisoner-money",
-  "liveservice": "https://send-money-to-prisoner.service.gov.uk/",
+  "liveService": "https://send-money-to-prisoner.service.gov.uk/",
   "tags": ["Top 75"],
   "timeline": {
     "items": [

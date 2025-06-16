@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/register-for-plastic-packaging-tax",
-  "liveservice": "https://www.tax.service.gov.uk/register-for-plastic-packaging-tax/start-registration",
+  "liveService": "https://www.tax.service.gov.uk/register-for-plastic-packaging-tax/start-registration",
   "timeline": {
     "items": [
       {

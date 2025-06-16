@@ -4,7 +4,7 @@
   "organisation": "Office for Product Safety and Standards",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://submit.cosmetic-product-notifications.service.gov.uk",
+  "liveService": "https://submit.cosmetic-product-notifications.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
   "sourceCode": [
     {

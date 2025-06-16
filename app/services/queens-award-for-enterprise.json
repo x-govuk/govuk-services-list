@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/kings-awards-for-enterprise/how-to-apply",
-  "liveservice": "https://www.kings-awards-enterprise.service.gov.uk/users/sign_up",
+  "liveService": "https://www.kings-awards-enterprise.service.gov.uk/users/sign_up",
   "tags": ["Top 75"],
   "sourceCode": [
     {

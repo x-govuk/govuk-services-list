@@ -4,6 +4,6 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://apply-company-tachograph-card.service.gov.uk",
+  "liveService": "https://apply-company-tachograph-card.service.gov.uk",
   "startPage": "https://www.gov.uk/apply-company-tachograph-card"
 }

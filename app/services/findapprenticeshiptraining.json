@@ -9,7 +9,7 @@
   ],
   "phase": "Beta",
   "startPage": "https://www.gov.uk/employers-find-apprenticeship-training",
-  "liveservice": "https://findapprenticeshiptraining.apprenticeships.education.gov.uk/courses",
+  "liveService": "https://findapprenticeshiptraining.apprenticeships.education.gov.uk/courses",
   "sourceCode": [
     {
       "text": "Source code",

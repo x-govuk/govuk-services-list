@@ -5,7 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
   "phase": "Beta",
-  "liveservice": "https://www.apply-for-new-style-jsa.dwp.gov.uk",
+  "liveService": "https://www.apply-for-new-style-jsa.dwp.gov.uk",
   "startPage": "https://www.gov.uk/jobseekers-allowance/apply-new-style-jsa",
   "tags": ["Top 75"],
   "timeline": {

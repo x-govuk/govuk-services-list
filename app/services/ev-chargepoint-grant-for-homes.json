@@ -7,7 +7,7 @@
   "organisation": "Office for Zero Emission Vehicles",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://chargepointgrants.dft.gov.uk/signin",
+  "liveService": "https://chargepointgrants.dft.gov.uk/signin",
   "startPage": [
     "https://www.gov.uk/apply-for-an-electric-chargepoint-grant-landlord",
     "https://www.gov.uk/guidance/ev-chargepoint-grant-for-flat-owner-occupiers-and-people-living-in-rented-properties-installer-guidance",

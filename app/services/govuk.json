@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "phase": "Live",
   "facing": "internal",
-  "liveservice": "https://www.gov.uk/",
+  "liveService": "https://www.gov.uk/",
   "sourceCode": [
     {
       "text": "Source code for the homepage, transactions and some index pages",

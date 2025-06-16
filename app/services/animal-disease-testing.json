@@ -5,5 +5,5 @@
   "organisation": "Animal and Plant Health Agency",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/animal-disease-testing",
-  "liveservice": "https://www.animal-disease-testing.service.gov.uk/login"
+  "liveService": "https://www.animal-disease-testing.service.gov.uk/login"
 }

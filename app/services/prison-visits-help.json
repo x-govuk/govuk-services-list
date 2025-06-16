@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "liveservice": "https://help-with-prison-visits.service.gov.uk/start",
+  "liveService": "https://help-with-prison-visits.service.gov.uk/start",
   "startPage": "https://www.gov.uk/help-with-prison-visits",
   "sourceCode": [
     {

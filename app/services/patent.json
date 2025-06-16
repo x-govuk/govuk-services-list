@@ -8,7 +8,7 @@
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.renew-patent-trademark-registered-design.service.gov.uk/renew/start",
+  "liveService": "https://www.renew-patent-trademark-registered-design.service.gov.uk/renew/start",
   "startPage": "https://www.gov.uk/renew-patent-trademark-registered-design",
   "tags": ["Original 25 exemplars"],
   "timeline": {

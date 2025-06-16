@@ -5,7 +5,7 @@
   "theme": "Education, training and skills",
   "organisation": ["Department for Education"],
   "phase": "Beta",
-  "liveservice": "https://dfeconnect.education.gov.uk/",
+  "liveService": "https://dfeconnect.education.gov.uk/",
   "timeline": {
     "items": [
       {

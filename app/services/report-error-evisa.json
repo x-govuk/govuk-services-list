@@ -5,5 +5,5 @@
   "organisation": "Home Office",
   "phase": "Live",
   "startPage": "https://www.gov.uk/report-error-evisa",
-  "liveservice": "https://www.report-error-evisa.homeoffice.gov.uk/"
+  "liveService": "https://www.report-error-evisa.homeoffice.gov.uk/"
 }

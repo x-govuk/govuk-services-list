@@ -4,7 +4,7 @@
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
   "phase": "Beta",
-  "liveservice": "https://flood-map-for-planning.service.gov.uk/",
+  "liveService": "https://flood-map-for-planning.service.gov.uk/",
   "sourceCode": [
     {
       "text": "Source code",

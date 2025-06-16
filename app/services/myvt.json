@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://myvt.cvs.dvsacloud.uk",
+  "liveService": "https://myvt.cvs.dvsacloud.uk",
   "startPage": [
     "https://www.gov.uk/report-change-to-coach-bus",
     "https://www.gov.uk/apply-vehicle-test-certificate-coach-bus"

@@ -7,6 +7,6 @@
   "organisation": "Marine Management Organisation",
   "theme": "Environment and countryside",
   "phase": "Live",
-  "liveservice": "https://marinelicensing.marinemanagement.org.uk/mmofox5/fox/live/MMO_PUBLIC_REGISTER",
+  "liveService": "https://marinelicensing.marinemanagement.org.uk/mmofox5/fox/live/MMO_PUBLIC_REGISTER",
   "startPage": "https://www.gov.uk/check-marine-licence-register"
 }

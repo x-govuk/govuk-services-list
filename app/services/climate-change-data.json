@@ -8,7 +8,7 @@
   "organisation": "Office for National Statistics",
   "theme": "Environment and countryside",
   "phase": "Beta",
-  "liveservice": "https://climate-change.data.gov.uk",
+  "liveService": "https://climate-change.data.gov.uk",
   "startPage": "https://www.gov.uk/government/collections/local-government-climate-change-and-the-environment",
   "timeline": {
     "items": [

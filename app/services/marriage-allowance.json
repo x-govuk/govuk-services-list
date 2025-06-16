@@ -4,6 +4,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/marriage-allowance-application/eligibility-check",
+  "liveService": "https://www.tax.service.gov.uk/marriage-allowance-application/eligibility-check",
   "startPage": "https://www.gov.uk/apply-marriage-allowance"
 }

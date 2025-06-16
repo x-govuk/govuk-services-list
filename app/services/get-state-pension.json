@@ -5,7 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "phase_modifier": "Private",
-  "liveservice": "https://get-state-pension.service.gov.uk/confirm-identity",
+  "liveService": "https://get-state-pension.service.gov.uk/confirm-identity",
   "startPage": "https://www.gov.uk/get-state-pension",
   "prototype": "https://getyourstatepension.herokuapp.com/",
   "tags": ["Top 75"]

@@ -8,5 +8,5 @@
     "https://www.gov.uk/report-immigration-crime",
     "https://www.gov.uk/report-smuggling"
   ],
-  "liveservice": "https://www.amsallegations.homeoffice.gov.uk/start.html"
+  "liveService": "https://www.amsallegations.homeoffice.gov.uk/start.html"
 }

@@ -5,7 +5,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "unknown",
-  "liveservice": "https://www.mot-testing.service.gov.uk",
+  "liveService": "https://www.mot-testing.service.gov.uk",
   "startPage": "https://www.gov.uk/mot-testing-service",
   "timeline": {
     "items": [

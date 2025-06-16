@@ -4,7 +4,7 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase": "Retired",
-  "liveservice": "https://www.digitalmarketplace.service.gov.uk/",
+  "liveService": "https://www.digitalmarketplace.service.gov.uk/",
   "startPage": "https://www.gov.uk/digital-marketplace",
   "sourceCode": [
     {

@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://data.gov.uk",
+  "liveService": "https://data.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

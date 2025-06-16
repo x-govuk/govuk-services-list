@@ -5,6 +5,6 @@
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://complain.ofsted.gov.uk/SchoolDetails/Index/1d308c3e-e514-4c14-aae7-af5433e23b58",
+  "liveService": "https://complain.ofsted.gov.uk/SchoolDetails/Index/1d308c3e-e514-4c14-aae7-af5433e23b58",
   "startPage": "https://www.gov.uk/complain-to-ofsted"
 }

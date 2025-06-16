@@ -5,5 +5,5 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/importing-and-exporting-waste-plastic",
-  "liveservice": "https://international-waste-shipments.service.gov.uk"
+  "liveService": "https://international-waste-shipments.service.gov.uk"
 }

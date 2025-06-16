@@ -7,6 +7,6 @@
   "organisation": "Medicines and Healthcare products Regulatory Agency ",
   "theme": "Business and self-employed",
   "phase": "Live",
-  "liveservice": "https://medicine-seller-register.mhra.gov.uk",
+  "liveService": "https://medicine-seller-register.mhra.gov.uk",
   "startPage": "https://www.gov.uk/check-medicines-online"
 }

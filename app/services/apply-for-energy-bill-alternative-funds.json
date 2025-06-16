@@ -8,7 +8,7 @@
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Money and tax",
   "phase": "Retired",
-  "liveservice": "https://online.apply-for-energy-bill-alternative-funds.service.gov.uk/s/#where-do-you-live",
+  "liveService": "https://online.apply-for-energy-bill-alternative-funds.service.gov.uk/s/#where-do-you-live",
   "startPage": [
     "https://www.gov.uk/apply-energy-bill-support-if-not-automatic",
     "https://www.gov.uk/apply-energy-bill-support-northern-ireland-if-not-automatic"

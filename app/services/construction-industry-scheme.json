@@ -6,5 +6,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/use-construction-industry-scheme-online",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/construction-ind-scheme/&origin=CIS-frontend"
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/construction-ind-scheme/&origin=CIS-frontend"
 }

@@ -4,6 +4,6 @@
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Housing and local services",
   "phase": "Retired",
-  "liveservice": "https://green-homes-grant.service.gov.uk/homeowner-and-landlord-application",
+  "liveService": "https://green-homes-grant.service.gov.uk/homeowner-and-landlord-application",
   "startPage": "https://www.gov.uk/apply-green-homes-grant"
 }

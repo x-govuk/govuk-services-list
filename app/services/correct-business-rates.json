@@ -16,7 +16,7 @@
     "https://www.gov.uk/correct-your-business-rates",
     "https://www.gov.uk/business-rates-valuation-account"
   ],
-  "liveservice": "https://www.tax.service.gov.uk/business-rates-find/search",
+  "liveService": "https://www.tax.service.gov.uk/business-rates-find/search",
   "timeline": {
     "items": [
       {

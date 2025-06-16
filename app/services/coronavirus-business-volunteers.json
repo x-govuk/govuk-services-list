@@ -4,7 +4,7 @@
   "organisation": "Government Digital Service",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://coronavirus-business-volunteers.service.gov.uk/accommodation",
+  "liveService": "https://coronavirus-business-volunteers.service.gov.uk/accommodation",
   "startPage": "https://www.gov.uk/coronavirus-support-from-business",
   "sourceCode": [
     {

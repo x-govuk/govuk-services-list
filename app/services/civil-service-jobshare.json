@@ -3,7 +3,7 @@
   "theme": "Working, jobs and pensions",
   "organisation": ["Cabinet Office", "Civil Service Resourcing"],
   "phase": "Retired",
-  "liveservice": "https://www.civilservicejobshare.service.gov.uk/",
+  "liveService": "https://www.civilservicejobshare.service.gov.uk/",
   "timeline": {
     "items": [
       {

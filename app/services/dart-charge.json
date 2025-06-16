@@ -6,7 +6,7 @@
   "organisation": "Highways England",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/pay-dartford-crossing-charge",
-  "liveservice": "https://pay-dartford-crossing-charge.service.gov.uk/landing",
+  "liveService": "https://pay-dartford-crossing-charge.service.gov.uk/landing",
   "timeline": {
     "items": [
       {

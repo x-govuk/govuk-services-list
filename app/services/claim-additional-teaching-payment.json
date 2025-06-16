@@ -5,7 +5,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://www.claim-additional-teaching-payment.service.gov.uk/additional-payments/landing-page",
+  "liveService": "https://www.claim-additional-teaching-payment.service.gov.uk/additional-payments/landing-page",
   "startPage": "https://www.gov.uk/guidance/early-career-payments-guidance-for-teachers-and-schools#when-to-apply-and-payments",
   "sourceCode": [
     {

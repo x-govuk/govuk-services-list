@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://www.gov.uk/service-manual",
+  "liveService": "https://www.gov.uk/service-manual",
   "timeline": {
     "items": [
       {

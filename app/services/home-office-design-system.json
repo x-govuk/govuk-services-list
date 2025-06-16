@@ -4,7 +4,7 @@
   "organisation": "Home Office",
   "phase": "unknown",
   "theme": "Government internal",
-  "liveservice": "https://design.homeoffice.gov.uk",
+  "liveService": "https://design.homeoffice.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

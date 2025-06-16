@@ -5,6 +5,6 @@
   "organisation": "Department for Work and Pensions",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://child-maintenance.dwp.gov.uk/calculate/",
+  "liveService": "https://child-maintenance.dwp.gov.uk/calculate/",
   "startPage": "https://www.gov.uk/calculate-child-maintenance"
 }

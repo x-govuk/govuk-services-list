@@ -4,6 +4,6 @@
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
   "phase": "Beta",
-  "liveservice": "https://register-flood-risk-exemption.service.gov.uk",
+  "liveService": "https://register-flood-risk-exemption.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/register-your-flood-risk-exemption-environmental-permits"
 }

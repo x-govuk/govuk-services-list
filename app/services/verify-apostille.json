@@ -4,7 +4,7 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Live",
-  "liveservice": "https://www.verifyapostille.service.gov.uk/",
+  "liveService": "https://www.verifyapostille.service.gov.uk/",
   "startPage": "https://www.gov.uk/verify-apostille",
   "sourceCode": [
     {

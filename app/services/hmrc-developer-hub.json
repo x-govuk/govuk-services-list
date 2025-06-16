@@ -6,7 +6,7 @@
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
   "facing": "internal",
-  "liveservice": "https://developer.service.hmrc.gov.uk/api-documentation",
+  "liveService": "https://developer.service.hmrc.gov.uk/api-documentation",
   "timeline": {
     "items": [
       {

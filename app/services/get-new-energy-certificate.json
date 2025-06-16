@@ -4,7 +4,7 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Housing and local services",
   "phase": "Live",
-  "liveservice": "https://getting-new-energy-certificate.service.gov.uk/find-an-assessor/type-of-property",
+  "liveService": "https://getting-new-energy-certificate.service.gov.uk/find-an-assessor/type-of-property",
   "startPage": "https://www.gov.uk/get-new-energy-certificate",
   "sourceCode": [
     {

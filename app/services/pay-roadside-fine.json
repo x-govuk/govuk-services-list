@@ -4,6 +4,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://pay-roadside-fine.service.gov.uk/payment-code",
+  "liveService": "https://pay-roadside-fine.service.gov.uk/payment-code",
   "startPage": "https://www.gov.uk/pay-dvsa-roadside-fine"
 }

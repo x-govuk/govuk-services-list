@@ -4,6 +4,6 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "Beta",
-  "liveservice": "https://www.help-refugees-uk.service.gov.uk/",
+  "liveService": "https://www.help-refugees-uk.service.gov.uk/",
   "startPage": "https://www.gov.uk/help-refugees"
 }

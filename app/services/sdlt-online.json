@@ -4,6 +4,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Live",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/stamp-taxes/&origin=STAMP-frontend",
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/stamp-taxes/&origin=STAMP-frontend",
   "startPage": "https://www.gov.uk/sdlt-online"
 }

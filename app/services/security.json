@@ -4,7 +4,7 @@
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
   "phase": "Live",
-  "liveservice": "https://www.security.gov.uk",
+  "liveService": "https://www.security.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

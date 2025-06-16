@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://apply-convert-academy.service.gov.uk",
+  "liveService": "https://apply-convert-academy.service.gov.uk",
   "startPage": "https://www.gov.uk/government/publications/academy-conversion-application-forms",
   "sourceCode": [
     {

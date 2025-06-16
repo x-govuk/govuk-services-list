@@ -4,7 +4,7 @@
   "organisation": "Department for Work and Pensions",
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
-  "liveservice": "https://www.apply-national-insurance-number.service.gov.uk/apply/welcome",
+  "liveService": "https://www.apply-national-insurance-number.service.gov.uk/apply/welcome",
   "startPage": "https://www.gov.uk/apply-national-insurance-number",
   "timeline": {
     "items": [

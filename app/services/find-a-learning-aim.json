@@ -7,6 +7,6 @@
   ],
   "theme": "Education, training and skills",
   "phase": "Live",
-  "liveservice": "https://submit-learner-data.service.gov.uk/find-a-learning-aim/",
+  "liveService": "https://submit-learner-data.service.gov.uk/find-a-learning-aim/",
   "startPage": "https://www.gov.uk/government/publications/individualised-learner-record-ilr-sources-of-data"
 }

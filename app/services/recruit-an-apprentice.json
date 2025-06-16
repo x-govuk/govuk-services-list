@@ -16,7 +16,7 @@
     "https://www.gov.uk/recruit-apprentice",
     "https://www.gov.uk/sign-in-apprenticeship-service-account"
   ],
-  "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk",
+  "liveService": "https://accounts.manage-apprenticeships.service.gov.uk",
   "timeline": {
     "items": [
       {

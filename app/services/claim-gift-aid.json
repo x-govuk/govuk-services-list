@@ -4,6 +4,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account/&origin=GIFTAID-frontend",
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account/&origin=GIFTAID-frontend",
   "startPage": "https://www.gov.uk/claim-gift-aid-online"
 }

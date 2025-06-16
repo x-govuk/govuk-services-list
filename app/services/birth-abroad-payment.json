@@ -9,5 +9,5 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/register-a-birth",
-  "liveservice": "https://register-a-birth-abroad.service.gov.uk/"
+  "liveService": "https://register-a-birth-abroad.service.gov.uk/"
 }

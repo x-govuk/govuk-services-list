@@ -4,6 +4,6 @@
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
   "phase": "Beta",
-  "liveservice": "https://apply-quota.ozone-depleting-substances.service.gov.uk/",
+  "liveService": "https://apply-quota.ozone-depleting-substances.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/applying-for-quota-to-import-or-produce-ozone-depleting-substances"
 }

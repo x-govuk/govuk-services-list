@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://driver-and-vehicles-account.service.gov.uk",
+  "liveService": "https://driver-and-vehicles-account.service.gov.uk",
   "startPage": "https://www.gov.uk/driver-vehicles-account",
   "timeline": {
     "items": [

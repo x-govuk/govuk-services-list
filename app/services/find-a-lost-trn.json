@@ -4,7 +4,7 @@
   "organisation": ["Teaching Regulation Agency", "Department for Education"],
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://find-a-lost-trn.education.gov.uk/start",
+  "liveService": "https://find-a-lost-trn.education.gov.uk/start",
   "startPage": "https://www.gov.uk/guidance/teacher-reference-number-trn",
   "sourceCode": [
     {

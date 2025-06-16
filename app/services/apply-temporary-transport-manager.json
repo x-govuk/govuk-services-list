@@ -5,6 +5,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Alpha",
-  "liveservice": "https://apply-temporary-transport-manager.service.gov.uk/weight",
+  "liveService": "https://apply-temporary-transport-manager.service.gov.uk/weight",
   "startPage": "https://www.gov.uk/apply-temporary-transport-manager"
 }

@@ -5,6 +5,6 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://studentbursary.education.gov.uk/w/webpage/student-bursary",
+  "liveService": "https://studentbursary.education.gov.uk/w/webpage/student-bursary",
   "startPage": "https://www.gov.uk/care-to-learn/applying-for-care-to-learn"
 }

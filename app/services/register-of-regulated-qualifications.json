@@ -9,6 +9,6 @@
   "organisation": "Ofqual",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-organisations",
+  "liveService": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-organisations",
   "startPage": "https://www.gov.uk/find-regulated-awarding-organisation"
 }

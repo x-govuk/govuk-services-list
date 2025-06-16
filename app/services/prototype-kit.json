@@ -4,7 +4,7 @@
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://prototype-kit.service.gov.uk",
+  "liveService": "https://prototype-kit.service.gov.uk",
   "timeline": {
     "items": [
       {

@@ -4,7 +4,7 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "Beta",
-  "liveservice": "https://right-to-rent.service.gov.uk/view",
+  "liveService": "https://right-to-rent.service.gov.uk/view",
   "startPage": "https://www.gov.uk/view-right-to-rent",
   "sourceCode": [
     {

@@ -5,7 +5,7 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
-  "liveservice": "https://www.get-disability-work-support.service.gov.uk",
+  "liveService": "https://www.get-disability-work-support.service.gov.uk",
   "startPage": "https://www.gov.uk/access-to-work/apply",
   "tags": ["Top 75"],
   "timeline": {

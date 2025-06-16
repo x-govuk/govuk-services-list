@@ -5,7 +5,7 @@
   "theme": "Housing and local services",
   "organisation": "Ministry of Housing, Communities & Local Government",
   "phase": "Beta",
-  "liveservice": "https://submit-social-housing-data.levellingup.gov.uk",
+  "liveService": "https://submit-social-housing-data.levellingup.gov.uk",
   "timeline": {
     "items": [
       {

@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": ["Legal Aid Agency", "Ministry of Justice"],
   "phase": "Beta",
-  "liveservice": "https://check-your-client-qualifies-for-legal-aid.service.gov.uk",
+  "liveService": "https://check-your-client-qualifies-for-legal-aid.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",
