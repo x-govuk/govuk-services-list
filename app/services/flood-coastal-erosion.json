@@ -4,8 +4,6 @@
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Beta",
-  "start-page": [
-    "https://www.gov.uk/guidance/submit-an-fcerm-project-proposal"
-  ],
+  "startPage": ["https://www.gov.uk/guidance/submit-an-fcerm-project-proposal"],
   "liveservice": "https://submit-flood-coastal-erosion-funding-proposal.service.gov.uk"
 }

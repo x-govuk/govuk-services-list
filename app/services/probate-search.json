@@ -6,7 +6,7 @@
   "organisation": "Ministry of Justice",
   "phase": "Beta",
   "liveservice": "https://probatesearch.service.gov.uk",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/probate-search",
     "https://www.gov.uk/search-will-probate"
   ]

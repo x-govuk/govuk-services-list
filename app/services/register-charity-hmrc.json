@@ -6,5 +6,5 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/register-charity-hmrc/check-eligibility/register-the-charity",
-  "start-page": "https://www.gov.uk/charity-recognition-hmrc"
+  "startPage": "https://www.gov.uk/charity-recognition-hmrc"
 }

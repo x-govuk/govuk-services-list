@@ -5,7 +5,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://driver-and-vehicles-account.service.gov.uk",
-  "start-page": "https://www.gov.uk/driver-vehicles-account",
+  "startPage": "https://www.gov.uk/driver-vehicles-account",
   "timeline": {
     "items": [
       {

@@ -6,7 +6,7 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "Live",
   "liveservice": "https://give-feedback-on-care.service.cqc.org.uk/form/what-you-want-to-tell-us-about?searchReferrer=start-questions",
-  "start-page": "https://www.cqc.org.uk/give-feedback-on-care",
+  "startPage": "https://www.cqc.org.uk/give-feedback-on-care",
   "timeline": {
     "items": [
       {

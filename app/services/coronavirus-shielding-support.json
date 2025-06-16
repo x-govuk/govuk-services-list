@@ -5,7 +5,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://coronavirus-shielding-support.service.gov.uk/start",
-  "start-page": "https://www.gov.uk/coronavirus-shielding-support",
+  "startPage": "https://www.gov.uk/coronavirus-shielding-support",
   "sourceCode": [
     {
       "text": "Source code",

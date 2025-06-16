@@ -9,6 +9,6 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Alpha",
-  "start-page": "https://www.gov.uk/funeral-payments",
+  "startPage": "https://www.gov.uk/funeral-payments",
   "tags": ["Top 75"]
 }

@@ -5,7 +5,7 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/pip",
+  "startPage": "https://www.gov.uk/pip",
   "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [

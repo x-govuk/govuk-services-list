@@ -6,7 +6,7 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "liveservice": "https://www.get-disability-work-support.service.gov.uk",
-  "start-page": "https://www.gov.uk/access-to-work/apply",
+  "startPage": "https://www.gov.uk/access-to-work/apply",
   "tags": ["Top 75"],
   "timeline": {
     "items": [

@@ -5,5 +5,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://register-406-beacons.service.gov.uk/account/sign-up-or-sign-in",
-  "start-page": "https://www.gov.uk/register-406-beacons"
+  "startPage": "https://www.gov.uk/register-406-beacons"
 }

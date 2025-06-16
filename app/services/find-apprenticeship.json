@@ -7,7 +7,7 @@
     "Department for Education"
   ],
   "phase": "Live",
-  "start-page": "https://www.gov.uk/apply-apprenticeship",
+  "startPage": "https://www.gov.uk/apply-apprenticeship",
   "liveservice": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch",
   "tags": ["Original 25 exemplars", "GOV.UK One Login"]
 }

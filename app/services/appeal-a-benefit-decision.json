@@ -6,7 +6,7 @@
   "organisation": "HM Courts & Tribunals Service",
   "phase": "Beta",
   "liveservice": "https://www.appeal-benefit-decision.service.gov.uk/entry",
-  "start-page": "https://www.gov.uk/appeal-benefit-decision/submit-appeal",
+  "startPage": "https://www.gov.uk/appeal-benefit-decision/submit-appeal",
   "timeline": {
     "items": [
       {

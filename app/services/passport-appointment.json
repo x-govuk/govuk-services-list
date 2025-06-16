@@ -9,6 +9,6 @@
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/get-a-passport-urgently/1-week-fast-track-service",
+  "startPage": "https://www.gov.uk/get-a-passport-urgently/1-week-fast-track-service",
   "liveservice": "https://www.passportappointment.service.gov.uk/outreach/publicbooking.ofml"
 }

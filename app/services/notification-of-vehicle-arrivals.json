@@ -4,6 +4,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/nova-log-in",
+  "startPage": "https://www.gov.uk/nova-log-in",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/nova/normal&origin=NOVA-frontend"
 }

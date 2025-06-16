@@ -57,7 +57,7 @@ while (start == 0 || results.count != 0) do
       theme: "** TODO **",
       phase: "** TODO **",
       liveservice: start_link,
-      "start-page": start_page
+      "startPage": start_page
     }
 
     organisations = content['links']['organisations']
@@ -67,7 +67,7 @@ while (start == 0 || results.count != 0) do
     end
 
     existing_service_with_same_start_page = existing_services.detect do |s|
-      s['start-page'] == start_page
+      s.startPage == start_page
     end
 
     if existing_service_with_same_start_page

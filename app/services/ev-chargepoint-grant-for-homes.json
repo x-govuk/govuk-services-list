@@ -8,7 +8,7 @@
   "theme": "Housing and local services",
   "phase": "Beta",
   "liveservice": "https://chargepointgrants.dft.gov.uk/signin",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/apply-for-an-electric-chargepoint-grant-landlord",
     "https://www.gov.uk/guidance/ev-chargepoint-grant-for-flat-owner-occupiers-and-people-living-in-rented-properties-installer-guidance",
     "https://www.gov.uk/guidance/ev-chargepoint-grant-for-landlords-installer-guidance"

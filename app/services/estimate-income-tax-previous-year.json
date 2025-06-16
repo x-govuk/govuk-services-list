@@ -4,6 +4,6 @@
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/estimate-income-tax-previous-year",
+  "startPage": "https://www.gov.uk/estimate-income-tax-previous-year",
   "liveservice": "https://tax.service.gov.uk/guidance/previous-year-tax-checker"
 }

@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "phase": "Beta",
   "liveservice": "https://use-lasting-power-of-attorney.service.gov.uk/home",
-  "start-page": "https://www.gov.uk/use-lasting-power-of-attorney",
+  "startPage": "https://www.gov.uk/use-lasting-power-of-attorney",
   "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [

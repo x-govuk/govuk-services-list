@@ -8,7 +8,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Live",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/check-vehicle-tax",
     "https://www.gov.uk/check-mot-status",
     "https://www.gov.uk/get-vehicle-information-from-dvla"

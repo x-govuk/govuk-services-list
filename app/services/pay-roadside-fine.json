@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://pay-roadside-fine.service.gov.uk/payment-code",
-  "start-page": "https://www.gov.uk/pay-dvsa-roadside-fine"
+  "startPage": "https://www.gov.uk/pay-dvsa-roadside-fine"
 }

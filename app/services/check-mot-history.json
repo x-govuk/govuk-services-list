@@ -5,5 +5,5 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "unknown",
   "liveservice": "https://www.check-mot.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-mot-history"
+  "startPage": "https://www.gov.uk/check-mot-history"
 }

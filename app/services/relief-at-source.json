@@ -9,7 +9,7 @@
   "theme": "Money and tax",
   "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/relief-at-source",
-  "start-page": "https://www.gov.uk/guidance/check-a-pension-scheme-members-residency-status-for-relief-at-source",
+  "startPage": "https://www.gov.uk/guidance/check-a-pension-scheme-members-residency-status-for-relief-at-source",
   "timeline": {
     "items": [
       {

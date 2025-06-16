@@ -6,7 +6,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://contact-tracing.phe.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/nhs-test-and-trace-how-it-works",
+  "startPage": "https://www.gov.uk/guidance/nhs-test-and-trace-how-it-works",
   "timeline": {
     "items": [
       {

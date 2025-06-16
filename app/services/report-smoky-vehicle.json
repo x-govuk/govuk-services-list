@@ -6,5 +6,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://contact-dvsa.service.gov.uk/report-smoky-vehicle",
-  "start-page": "https://www.gov.uk/report-smoky-vehicle"
+  "startPage": "https://www.gov.uk/report-smoky-vehicle"
 }

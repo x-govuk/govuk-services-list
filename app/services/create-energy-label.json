@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://create-energy-label.service.gov.uk/",
-  "start-page": "https://www.gov.uk/guidance/create-an-energy-label",
+  "startPage": "https://www.gov.uk/guidance/create-an-energy-label",
   "sourceCode": [
     {
       "text": "Source code",

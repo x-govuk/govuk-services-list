@@ -5,6 +5,6 @@
   "theme": "Money and tax",
   "organisation": "Valuation Office Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/contact-voa",
+  "startPage": "https://www.gov.uk/contact-voa",
   "liveservice": "https://www.tax.service.gov.uk/valuation-office-agency-contact-frontend/new-or-existing-enquiry"
 }

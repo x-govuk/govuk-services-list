@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/close-a-company/",
-  "start-page": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01",
+  "startPage": "https://www.gov.uk/government/publications/strike-off-a-company-from-the-register-ds01",
   "timeline": {
     "items": [
       {

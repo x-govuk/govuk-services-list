@@ -5,5 +5,5 @@
   "organisation": "Home Office",
   "phase": "Beta",
   "liveservice": "https://right-to-work.service.gov.uk/view",
-  "start-page": "https://www.gov.uk/view-right-to-work"
+  "startPage": "https://www.gov.uk/view-right-to-work"
 }

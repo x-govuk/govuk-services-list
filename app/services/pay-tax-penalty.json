@@ -5,7 +5,7 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/pay/taxes-penalties-and-enquiry-settlements/choose-a-way-to-pay",
-  "start-page": "https://www.gov.uk/guidance/pay-taxes-penalties-and-enquiry-settlements",
+  "startPage": "https://www.gov.uk/guidance/pay-taxes-penalties-and-enquiry-settlements",
   "timeline": {
     "items": [
       {

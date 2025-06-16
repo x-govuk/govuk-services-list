@@ -4,6 +4,6 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/apply-proxy-vote",
+  "startPage": "https://www.gov.uk/apply-proxy-vote",
   "liveservice": "https://proxy-vote.service.gov.uk/start"
 }

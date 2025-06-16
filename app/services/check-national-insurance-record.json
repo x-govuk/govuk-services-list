@@ -5,5 +5,5 @@
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/personal-account/national-insurance-summary",
-  "start-page": "https://www.gov.uk/check-national-insurance-record"
+  "startPage": "https://www.gov.uk/check-national-insurance-record"
 }

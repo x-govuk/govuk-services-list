@@ -5,7 +5,7 @@
   "theme": "Driving and transport",
   "organisation": "Highways England",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/pay-dartford-crossing-charge",
+  "startPage": "https://www.gov.uk/pay-dartford-crossing-charge",
   "liveservice": "https://pay-dartford-crossing-charge.service.gov.uk/landing",
   "timeline": {
     "items": [

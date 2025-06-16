@@ -5,7 +5,7 @@
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
   "liveservice": "https://www.apply-national-insurance-number.service.gov.uk/apply/welcome",
-  "start-page": "https://www.gov.uk/apply-national-insurance-number",
+  "startPage": "https://www.gov.uk/apply-national-insurance-number",
   "timeline": {
     "items": [
       {

@@ -5,7 +5,7 @@
   "organisation": "Home Office",
   "phase": "Beta",
   "liveservice": "https://www.report-terrorist-material.homeoffice.gov.uk/evidence-url",
-  "start-page": "https://www.gov.uk/report-terrorism",
+  "startPage": "https://www.gov.uk/report-terrorism",
   "sourceCode": [
     {
       "text": "Source code",

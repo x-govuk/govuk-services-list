@@ -5,6 +5,6 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "liveservice": "https://modern-slavery-statement-registry.service.gov.uk",
-  "start-page": "https://www.gov.uk/find-modern-slavery-statement",
+  "startPage": "https://www.gov.uk/find-modern-slavery-statement",
   "tags": ["GOV.UK One Login"]
 }

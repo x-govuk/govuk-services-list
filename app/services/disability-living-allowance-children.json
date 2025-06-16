@@ -5,6 +5,6 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Alpha",
-  "start-page": "https://www.gov.uk/disability-living-allowance-children",
+  "startPage": "https://www.gov.uk/disability-living-allowance-children",
   "tags": ["Top 75"]
 }

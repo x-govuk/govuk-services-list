@@ -5,5 +5,5 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://view-immigration-status.service.gov.uk/status",
-  "start-page": "https://www.gov.uk/view-prove-immigration-status"
+  "startPage": "https://www.gov.uk/view-prove-immigration-status"
 }

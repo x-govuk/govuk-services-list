@@ -12,7 +12,7 @@
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
   "liveservice": "https://www.apply-deceased-military-record.service.gov.uk/",
-  "start-page": "https://www.gov.uk/get-copy-military-service-records/apply-for-someone-elses-records",
+  "startPage": "https://www.gov.uk/get-copy-military-service-records/apply-for-someone-elses-records",
   "tags": ["Top 75"],
   "timeline": {
     "items": [

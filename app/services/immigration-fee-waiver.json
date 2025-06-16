@@ -11,7 +11,7 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://visas-immigration.service.gov.uk/product/fee-waiver",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/get-child-citizenship-fee-waiver",
     "https://www.gov.uk/visa-fee-waiver-in-uk"
   ]

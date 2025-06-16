@@ -6,7 +6,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://www.trainer.book-theory-test.service.gov.uk/",
-  "start-page": "https://www.gov.uk/book-pupil-theory-test",
+  "startPage": "https://www.gov.uk/book-pupil-theory-test",
   "timeline": {
     "items": [
       {

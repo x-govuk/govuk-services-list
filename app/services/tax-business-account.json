@@ -6,6 +6,6 @@
   "theme": "Business and self-employed",
   "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/business-account",
-  "start-page": "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account",
+  "startPage": "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account",
   "tags": ["Original 25 exemplars"]
 }

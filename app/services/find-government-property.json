@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "organisation": "Cabinet Office",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/find-government-property",
+  "startPage": "https://www.gov.uk/find-government-property",
   "liveservice": "https://e-pims.cabinetoffice.gov.uk/government-property-finder/Home.aspx",
   "timeline": {
     "items": [

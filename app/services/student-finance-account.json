@@ -12,7 +12,7 @@
   "theme": "Education, training and skills",
   "organisation": "Student Loans Company",
   "phase": "Beta",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/apply-online-for-student-finance",
     "https://www.gov.uk/student-finance-register-login"
   ],

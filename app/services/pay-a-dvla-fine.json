@@ -5,7 +5,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/pay-dvla-fine",
+  "startPage": "https://www.gov.uk/pay-dvla-fine",
   "liveservice": "https://paydvlafine.service.gov.uk/search",
   "timeline": {
     "items": [

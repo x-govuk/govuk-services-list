@@ -7,6 +7,6 @@
     "Office for Zero Emission Vehicles"
   ],
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/apply-for-a-plug-in-vehicle-grant",
+  "startPage": "https://www.gov.uk/guidance/apply-for-a-plug-in-vehicle-grant",
   "liveservice": "https://www.apply-plug-in-vehicle-grant.service.gov.uk"
 }

@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/applying-for-probate/apply-for-probate",
+  "startPage": "https://www.gov.uk/applying-for-probate/apply-for-probate",
   "liveservice": "https://www.apply-for-probate.service.gov.uk/death-certificate",
   "timeline": {
     "items": [

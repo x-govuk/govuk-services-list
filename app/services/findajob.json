@@ -5,7 +5,7 @@
   "theme": "Working, jobs and pensions",
   "phase": "unknown",
   "liveservice": "https://findajob.dwp.gov.uk",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/find-a-job",
     "https://www.gov.uk/advertise-job"
   ]

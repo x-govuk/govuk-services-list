@@ -5,7 +5,7 @@
   "organisation": "Home Office",
   "phase": "Beta",
   "liveservice": "https://right-to-rent.service.gov.uk/view",
-  "start-page": "https://www.gov.uk/view-right-to-rent",
+  "startPage": "https://www.gov.uk/view-right-to-rent",
   "sourceCode": [
     {
       "text": "Source code",

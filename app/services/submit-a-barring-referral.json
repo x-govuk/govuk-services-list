@@ -5,7 +5,7 @@
   "theme": "Childcare and parenting",
   "organisation": "Disclosure and Barring Service",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/making-barring-referrals-to-the-dbs",
+  "startPage": "https://www.gov.uk/guidance/making-barring-referrals-to-the-dbs",
   "liveservice": "https://www.submit-a-barring-referral.service.gov.uk/start",
   "tags": ["GOV.UK One Login"],
   "timeline": {

@@ -5,5 +5,5 @@
   "organisation": "Home Office",
   "phase": "Beta",
   "liveservice": "https://www.help-refugees-uk.service.gov.uk/",
-  "start-page": "https://www.gov.uk/help-refugees"
+  "startPage": "https://www.gov.uk/help-refugees"
 }

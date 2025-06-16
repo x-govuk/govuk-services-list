@@ -4,6 +4,6 @@
   "theme": "Business and self-employed",
   "organisation": "Environment Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/manage-your-water-abstraction-or-impoundment-licences-online",
+  "startPage": "https://www.gov.uk/guidance/manage-your-water-abstraction-or-impoundment-licences-online",
   "liveservice": "https://manage-water-abstraction-impoundment-licence.service.gov.uk/"
 }

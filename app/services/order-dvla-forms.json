@@ -5,6 +5,6 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/dvlaforms",
+  "startPage": "https://www.gov.uk/dvlaforms",
   "liveservice": "https://contact.dvla.gov.uk/order-dvla-forms"
 }

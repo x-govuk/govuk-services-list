@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/report-a-discrepancy/obliged-entity/type",
-  "start-page": "https://www.gov.uk/guidance/report-a-discrepancy-about-a-beneficial-owner-on-the-psc-register-by-an-obliged-entity",
+  "startPage": "https://www.gov.uk/guidance/report-a-discrepancy-about-a-beneficial-owner-on-the-psc-register-by-an-obliged-entity",
   "timeline": {
     "items": [
       {

@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://check-vehicle-compatibility-e10-petrol.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-vehicle-e10-petrol"
+  "startPage": "https://www.gov.uk/check-vehicle-e10-petrol"
 }

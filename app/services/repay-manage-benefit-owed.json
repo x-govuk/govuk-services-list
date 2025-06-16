@@ -6,7 +6,7 @@
   "theme": "Benefits",
   "phase": "Beta",
   "liveservice": "https://www.repay-manage-benefit-owed.service.gov.uk",
-  "start-page": "https://www.gov.uk/repay-manage-benefit-owed",
+  "startPage": "https://www.gov.uk/repay-manage-benefit-owed",
   "timeline": {
     "items": [
       {

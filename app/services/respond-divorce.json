@@ -5,5 +5,5 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
   "liveservice": "https://www.respond-divorce.service.gov.uk/",
-  "start-page": "https://www.gov.uk/respond-divorce-application"
+  "startPage": "https://www.gov.uk/respond-divorce-application"
 }

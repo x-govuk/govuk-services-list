@@ -6,7 +6,7 @@
   "theme": "Driving and transport",
   "phase": "Retired",
   "liveservice": "https://check-hgv-border-readiness.service.gov.uk/start-kent-access-permit",
-  "start-page": "https://www.gov.uk/check-hgv-border",
+  "startPage": "https://www.gov.uk/check-hgv-border",
   "timeline": {
     "items": [
       {

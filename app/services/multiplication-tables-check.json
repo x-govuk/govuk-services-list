@@ -6,7 +6,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://multiplication-tables-check-trial.service.gov.uk/",
-  "start-page": "https://www.gov.uk/government/collections/multiplication-tables-check",
+  "startPage": "https://www.gov.uk/government/collections/multiplication-tables-check",
   "timeline": {
     "items": [
       {

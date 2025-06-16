@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://apply-company-tachograph-card.service.gov.uk",
-  "start-page": "https://www.gov.uk/apply-company-tachograph-card"
+  "startPage": "https://www.gov.uk/apply-company-tachograph-card"
 }

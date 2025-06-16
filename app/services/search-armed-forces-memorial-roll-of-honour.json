@@ -5,7 +5,7 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "liveservice": "https://www.search-armed-forces-memorial-roll-of-honour.service.gov.uk/",
-  "start-page": "https://www.gov.uk/search-armed-forces-memorial-roll-of-honour",
+  "startPage": "https://www.gov.uk/search-armed-forces-memorial-roll-of-honour",
   "timeline": {
     "items": [
       {

@@ -10,7 +10,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://www.personalisedvehicleregistration.service.gov.uk/assign/vehicle-lookup",
-  "start-page": "https://www.gov.uk/personalised-vehicle-registration-numbers/buying-a-private-number-plate",
+  "startPage": "https://www.gov.uk/personalised-vehicle-registration-numbers/buying-a-private-number-plate",
   "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [

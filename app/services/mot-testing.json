@@ -6,7 +6,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "unknown",
   "liveservice": "https://www.mot-testing.service.gov.uk",
-  "start-page": "https://www.gov.uk/mot-testing-service",
+  "startPage": "https://www.gov.uk/mot-testing-service",
   "timeline": {
     "items": [
       {

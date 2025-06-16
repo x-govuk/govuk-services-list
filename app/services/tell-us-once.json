@@ -6,7 +6,7 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
   "liveservice": "https://tell-us-someone-died.dwp.gov.uk/death/enrich/recover",
-  "start-page": "https://www.gov.uk/after-a-death/organisations-you-need-to-contact-and-tell-us-once",
+  "startPage": "https://www.gov.uk/after-a-death/organisations-you-need-to-contact-and-tell-us-once",
   "timeline": {
     "items": [
       {

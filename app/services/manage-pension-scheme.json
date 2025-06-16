@@ -6,7 +6,7 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/manage-pension-schemes/guidance-triage/who-are-you-in-service",
-  "start-page": "https://www.gov.uk/guidance/manage-a-registered-pension-scheme",
+  "startPage": "https://www.gov.uk/guidance/manage-a-registered-pension-scheme",
   "timeline": {
     "items": [
       {

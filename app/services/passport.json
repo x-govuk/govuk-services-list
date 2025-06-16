@@ -6,7 +6,7 @@
   "organisation": "Home Office",
   "phase": "Beta",
   "liveservice": "https://www.passport.service.gov.uk/filter",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/apply-renew-passport",
     "https://www.gov.uk/overseas-passports"
   ],

@@ -9,7 +9,7 @@
   "theme": "Environment and countryside",
   "phase": "Beta",
   "liveservice": "https://climate-change.data.gov.uk",
-  "start-page": "https://www.gov.uk/government/collections/local-government-climate-change-and-the-environment",
+  "startPage": "https://www.gov.uk/government/collections/local-government-climate-change-and-the-environment",
   "timeline": {
     "items": [
       {

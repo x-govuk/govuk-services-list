@@ -5,6 +5,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/manage-your-tax-credits",
+  "startPage": "https://www.gov.uk/manage-your-tax-credits",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/tax-credits-service/renewals/service-router&accountType=individual&origin=PTA-taxcredits"
 }

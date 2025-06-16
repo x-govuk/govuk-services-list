@@ -7,6 +7,6 @@
     "Environment Agency"
   ],
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/quality-of-local-bathing-water",
+  "startPage": "https://www.gov.uk/quality-of-local-bathing-water",
   "liveservice": "https://environment.data.gov.uk/bwq/profiles/"
 }

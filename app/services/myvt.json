@@ -5,7 +5,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://myvt.cvs.dvsacloud.uk",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/report-change-to-coach-bus",
     "https://www.gov.uk/apply-vehicle-test-certificate-coach-bus"
   ]

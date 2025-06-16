@@ -4,7 +4,7 @@
   "theme": "Births, deaths, marriages and care",
   "organisation": ["Home Office", "General Register Office"],
   "phase": "unknown",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/order-copy-birth-death-marriage-certificate",
     "https://www.gov.uk/commemorative-marriage-certificate"
   ],

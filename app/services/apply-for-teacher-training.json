@@ -5,7 +5,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://www.apply-for-teacher-training.service.gov.uk/candidate/account",
-  "start-page": "https://www.gov.uk/apply-for-teacher-training",
+  "startPage": "https://www.gov.uk/apply-for-teacher-training",
   "sourceCode": [
     {
       "text": "Source code",

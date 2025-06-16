@@ -4,6 +4,6 @@
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/importing-and-exporting-waste-plastic",
+  "startPage": "https://www.gov.uk/guidance/importing-and-exporting-waste-plastic",
   "liveservice": "https://international-waste-shipments.service.gov.uk"
 }

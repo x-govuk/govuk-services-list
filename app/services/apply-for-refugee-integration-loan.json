@@ -5,5 +5,5 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://www.apply-for-refugee-integration-loan.service.gov.uk",
-  "start-page": "https://www.gov.uk/apply-refugee-integration-loan"
+  "startPage": "https://www.gov.uk/apply-refugee-integration-loan"
 }

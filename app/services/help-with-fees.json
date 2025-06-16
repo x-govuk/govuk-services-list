@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/get-help-with-court-fees",
+  "startPage": "https://www.gov.uk/get-help-with-court-fees",
   "liveservice": "https://helpwithcourtfees.service.gov.uk/checklist",
   "timeline": {
     "items": [

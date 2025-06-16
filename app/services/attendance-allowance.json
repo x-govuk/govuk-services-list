@@ -5,7 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/attendance-allowance",
+  "startPage": "https://www.gov.uk/attendance-allowance",
   "liveservice": "https://apply-for-attendance-allowance.dwp.gov.uk/attall-apply-ui/claim-type",
   "tags": ["Top 75"],
   "timeline": {

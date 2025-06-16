@@ -11,7 +11,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/sending-rental-information/login",
-  "start-page": "https://www.gov.uk/send-rent-lease-details",
+  "startPage": "https://www.gov.uk/send-rent-lease-details",
   "timeline": {
     "items": [
       {

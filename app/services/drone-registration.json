@@ -6,7 +6,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://register-drones.caa.co.uk/register/enter-email",
-  "start-page": "https://register-drones.caa.co.uk/individual/register-and-take-test-to-fly",
+  "startPage": "https://register-drones.caa.co.uk/individual/register-and-take-test-to-fly",
   "timeline": {
     "items": [
       {

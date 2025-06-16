@@ -10,5 +10,5 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-organisations",
-  "start-page": "https://www.gov.uk/find-regulated-awarding-organisation"
+  "startPage": "https://www.gov.uk/find-regulated-awarding-organisation"
 }

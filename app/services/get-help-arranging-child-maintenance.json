@@ -6,7 +6,7 @@
   "theme": "Childcare and parenting",
   "phase": "Beta",
   "liveservice": "https://child-maintenance.service.gov.uk/get-help-arranging-child-maintenance/",
-  "start-page": "https://www.gov.uk/child-maintenance-service/how-to-apply",
+  "startPage": "https://www.gov.uk/child-maintenance-service/how-to-apply",
   "timeline": {
     "items": [
       {

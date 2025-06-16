@@ -5,7 +5,7 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/bereavement-support-payment/how-to-claim",
+  "startPage": "https://www.gov.uk/bereavement-support-payment/how-to-claim",
   "liveservice": "https://apply-for-bereavement-support-payment.dwp.gov.uk/apply?lang=en",
   "tags": ["Top 75"],
   "sourceCode": [

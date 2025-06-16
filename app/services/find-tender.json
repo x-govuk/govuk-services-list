@@ -5,5 +5,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://www.find-tender.service.gov.uk/",
-  "start-page": "https://www.gov.uk/find-tender"
+  "startPage": "https://www.gov.uk/find-tender"
 }

@@ -4,7 +4,7 @@
   "theme": "Education, training and skills",
   "organisation": "Department for Education",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/find-teacher-training-courses",
+  "startPage": "https://www.gov.uk/find-teacher-training-courses",
   "liveservice": "https://find-teacher-training-courses.service.gov.uk",
   "sourceCode": [
     {

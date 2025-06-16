@@ -6,7 +6,7 @@
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
   "liveservice": "https://www.apply-divorce.service.gov.uk/index",
-  "start-page": "https://www.gov.uk/apply-for-divorce",
+  "startPage": "https://www.gov.uk/apply-for-divorce",
   "timeline": {
     "items": [
       {

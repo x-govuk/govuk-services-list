@@ -5,7 +5,7 @@
   "theme": "Money and tax",
   "phase": "Retired",
   "liveservice": "https://check-future-uk-trade-tariffs.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-tariffs-1-january-2021",
+  "startPage": "https://www.gov.uk/check-tariffs-1-january-2021",
   "sourceCode": [
     {
       "text": "Source code",

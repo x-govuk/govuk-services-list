@@ -6,7 +6,7 @@
   "theme": "Housing and local services",
   "phase": "Live",
   "liveservice": "https://find-energy-certificate.service.gov.uk/find-a-certificate/type-of-property",
-  "start-page": "https://www.gov.uk/find-energy-certificate",
+  "startPage": "https://www.gov.uk/find-energy-certificate",
   "sourceCode": [
     {
       "text": "Energy performance of buildings register front end",

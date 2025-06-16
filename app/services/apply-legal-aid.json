@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "phase": "Beta",
   "liveservice": "https://apply-for-legal-aid.service.justice.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/apply-for-legal-aid",
+  "startPage": "https://www.gov.uk/guidance/apply-for-legal-aid",
   "tags": ["Top 75"],
   "timeline": {
     "items": [

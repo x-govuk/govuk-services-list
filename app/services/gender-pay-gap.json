@@ -5,7 +5,7 @@
   "theme": "Working, jobs and pensions",
   "organisation": "Government Equalities Office",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/find-gender-pay-gap-data",
+  "startPage": "https://www.gov.uk/find-gender-pay-gap-data",
   "liveservice": "https://gender-pay-gap.service.gov.uk",
   "sourceCode": [
     {

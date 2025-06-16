@@ -5,5 +5,5 @@
   "organisation": "Crown Commercial Service",
   "phase": "Beta",
   "liveservice": "https://www.contractsfinder.service.gov.uk",
-  "start-page": "https://www.gov.uk/contracts-finder"
+  "startPage": "https://www.gov.uk/contracts-finder"
 }

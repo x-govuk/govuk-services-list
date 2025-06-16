@@ -10,7 +10,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk/register-an-overseas-entity/sold-land-filter?start=0",
-  "start-page": "https://www.gov.uk/guidance/register-an-overseas-entity",
+  "startPage": "https://www.gov.uk/guidance/register-an-overseas-entity",
   "timeline": {
     "items": [
       {

@@ -6,7 +6,7 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=%2Fanti-money-laundering&origin=amls-frontend",
-  "start-page": "https://www.gov.uk/guidance/register-or-renew-your-money-laundering-supervision-with-hmrc",
+  "startPage": "https://www.gov.uk/guidance/register-or-renew-your-money-laundering-supervision-with-hmrc",
   "timeline": {
     "items": [
       {

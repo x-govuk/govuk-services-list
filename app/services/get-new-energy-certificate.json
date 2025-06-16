@@ -5,7 +5,7 @@
   "theme": "Housing and local services",
   "phase": "Live",
   "liveservice": "https://getting-new-energy-certificate.service.gov.uk/find-an-assessor/type-of-property",
-  "start-page": "https://www.gov.uk/get-new-energy-certificate",
+  "startPage": "https://www.gov.uk/get-new-energy-certificate",
   "sourceCode": [
     {
       "text": "Energy performance of buildings register front end",

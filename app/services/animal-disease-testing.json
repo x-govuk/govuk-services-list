@@ -4,6 +4,6 @@
   "theme": "Business and self-employed",
   "organisation": "Animal and Plant Health Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/animal-disease-testing",
+  "startPage": "https://www.gov.uk/animal-disease-testing",
   "liveservice": "https://www.animal-disease-testing.service.gov.uk/login"
 }

@@ -5,7 +5,7 @@
   "organisation": "Ministry of Justice",
   "phase": "Beta",
   "liveservice": "https://help-with-prison-visits.service.gov.uk/start",
-  "start-page": "https://www.gov.uk/help-with-prison-visits",
+  "startPage": "https://www.gov.uk/help-with-prison-visits",
   "sourceCode": [
     {
       "text": "Source code",

@@ -5,5 +5,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://www.check-duties-customs-exporting-goods.service.gov.uk/selectdest",
-  "start-page": "https://www.gov.uk/check-duties-customs-exporting"
+  "startPage": "https://www.gov.uk/check-duties-customs-exporting"
 }

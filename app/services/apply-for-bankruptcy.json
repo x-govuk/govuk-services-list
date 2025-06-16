@@ -5,5 +5,5 @@
   "organisation": "Insolvency Service",
   "phase": "Beta",
   "liveservice": "https://apply-for-bankruptcy.service.gov.uk/",
-  "start-page": "https://www.gov.uk/apply-for-bankruptcy"
+  "startPage": "https://www.gov.uk/apply-for-bankruptcy"
 }

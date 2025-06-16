@@ -8,7 +8,7 @@
   "theme": "Money and tax",
   "phase": "Retired",
   "liveservice": "https://online.apply-for-alternative-fuel-support.service.gov.uk/s/#where-do-you-live",
-  "start-page": "https://www.gov.uk/apply-alternative-fuel-bill-support-if-not-automatic",
+  "startPage": "https://www.gov.uk/apply-alternative-fuel-bill-support-if-not-automatic",
   "timeline": {
     "items": [
       {

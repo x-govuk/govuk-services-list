@@ -10,7 +10,7 @@
   "phase": "Beta",
   "phase_modifier": "Public",
   "liveservice": "https://apply-for-innovation-funding.service.gov.uk",
-  "start-page": "https://www.gov.uk/apply-funding-innovation",
+  "startPage": "https://www.gov.uk/apply-funding-innovation",
   "video": "YgWbfuxffj8",
   "sourceCode": [
     {

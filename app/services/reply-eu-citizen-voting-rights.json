@@ -4,7 +4,7 @@
   "organisation": "Ministry of Housing, Communities and Local Government",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/reply-to-electoral-registration-office-about-your-voting-rights",
+  "startPage": "https://www.gov.uk/reply-to-electoral-registration-office-about-your-voting-rights",
   "liveservice": "https://reply-eu-citizen-voting-rights.service.gov.uk/start",
   "timeline": {
     "items": [
