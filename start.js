@@ -5,10 +5,14 @@ import govukPrototypeFilters from "@x-govuk/govuk-prototype-filters";
 import express from "express";
 
 import exemplars from "./data/exemplars.json" with { type: "json" };
-import ignoredVerbs from "./data/ignored-verbs.json" with { type: "json" };
 import phases from "./data/phases.json" with { type: "json" };
 import themes from "./data/themes.json" with { type: "json" };
-import { getEvents, getOrganisations, getServices } from "./lib/data.js";
+import {
+  getEvents,
+  getOrganisations,
+  getServices,
+  getVerbs,
+} from "./lib/data.js";
 import { nunjucksEnv } from "./lib/nunjucks.js";
 
 const app = express();
@@ -18,27 +22,6 @@ nunjucksEnv(app);
 
 const services = await getServices();
 const organisations = getOrganisations(services);
-
-const verbs = [];
-
-const servicesWithValidVerbs = services.filter((service) => {
-  const verb = service.name.split(" ")[0].toLowerCase();
-  return !ignoredVerbs.includes(verb);
-});
-
-for (const service of servicesWithValidVerbs) {
-  const verb = service.name.split(" ")[0].toLowerCase();
-
-  let existingVerb = verbs.find((v) => v.name === verb);
-
-  if (!existingVerb) {
-    existingVerb = { name: verb, services: [], count: 0 };
-    verbs.push(existingVerb);
-  }
-
-  existingVerb.services.push(service);
-  existingVerb.count += 1;
-}
 
 const domains = [];
 
@@ -92,7 +75,7 @@ app.locals.organisations = organisations;
 app.locals.phases = phases;
 app.locals.services = services;
 app.locals.themes = themes;
-app.locals.verbs = verbs;
+app.locals.verbs = getVerbs(services);
 
 app.use("/", express.static("static"));
 

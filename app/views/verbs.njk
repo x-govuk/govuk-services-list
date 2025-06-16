@@ -18,26 +18,22 @@
   <h2 class="govuk-heading-l">Common verbs used across government services</h2>
 
   <ol class="govuk-list app-list--columns">
-  {%- for verb in verbs | sort(true, false, "count") -%}
-    {% if (verb.count) > 1 %}
+  {%- for verb in verbs -%}
     <li>
-      <a class="govuk-link govuk-font-size-16" href="#{{ verb.name }}">{{ verb.name | capitalize }} ({{ verb.count }})</a>
+      <a class="govuk-link" href="#{{ verb.slug }}">{{ verb.name }} ({{ verb.count }})</a>
     </li>
-    {% endif %}
   {%- endfor %}
   </ol>
 
-  {%- for verb in verbs | sort(true, false, "count") -%}
-    {%- if (verb.count) > 1 %}
-    <h2 class="govuk-heading-l" id="{{ verb.name }}">
-      {{- verb.name | capitalize -}}
-    </h2>
+  {%- for verb in verbs -%}
+  <h2 class="govuk-heading-l" id="{{ verb.slug }}">
+    {{- verb.name -}}
+  </h2>
 
-    <ul class="govuk-list govuk-list--spaced">
-    {%- for service in verb.services | sort(false, false, "name") -%}
-      {{ appServiceItem(service) }}
-    {%- endfor %}
-    </ul>
-    {%- endif %}
+  <ul class="govuk-list govuk-list--spaced">
+  {%- for service in verb.services | sort(false, false, "name") -%}
+    {{ appServiceItem(service) }}
+  {%- endfor %}
+  </ul>
   {%- endfor %}
 {% endblock %}
