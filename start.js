@@ -8,6 +8,7 @@ import exemplars from "./data/exemplars.json" with { type: "json" };
 import phases from "./data/phases.json" with { type: "json" };
 import themes from "./data/themes.json" with { type: "json" };
 import {
+  getDomains,
   getEvents,
   getOrganisations,
   getServices,
@@ -23,39 +24,6 @@ nunjucksEnv(app);
 const services = await getServices();
 const organisations = getOrganisations(services);
 
-const domains = [];
-
-const servicesWithValidDomains = services
-  .filter((service) => service.liveService)
-  .filter((service) => service.phase !== "Retired")
-  .filter((service) => {
-    const { hostname } = new URL(service.liveService);
-
-    return hostname.replace(/www\./, "") !== "gov.uk";
-  });
-
-for (const service of servicesWithValidDomains) {
-  const { hostname } = new URL(service.liveService);
-
-  const existingDomain = domains.find((domain) => domain.domain === hostname);
-  if (existingDomain) {
-    existingDomain.services.push({
-      slug: service.slug,
-      name: service.name,
-    });
-  } else {
-    domains.push({
-      domain: hostname,
-      services: [
-        {
-          slug: service.slug,
-          name: service.name,
-        },
-      ],
-    });
-  }
-}
-
 let aToZ = Object.groupBy(services, (service) =>
   service.name.charAt(0).toUpperCase(),
 );
@@ -68,7 +36,7 @@ aToZ = Object.entries(aToZ)
   }));
 
 app.locals.aToZ = aToZ;
-app.locals.domains = domains;
+app.locals.domains = getDomains(services);
 app.locals.events = getEvents(services);
 app.locals.exemplars = exemplars;
 app.locals.organisations = organisations;
