@@ -6,9 +6,9 @@ import express from "express";
 
 import exemplars from "./data/exemplars.json" with { type: "json" };
 import ignoredVerbs from "./data/ignored-verbs.json" with { type: "json" };
-import organisations from "./data/organisations.json" with { type: "json" };
 import phases from "./data/phases.json" with { type: "json" };
 import themes from "./data/themes.json" with { type: "json" };
+import { getEvents, getOrganisations, getServices } from "./lib/data.js";
 import { nunjucksEnv } from "./lib/nunjucks.js";
 
 const app = express();
@@ -16,84 +16,8 @@ const port = process.env.PORT || 3100;
 
 nunjucksEnv(app);
 
-const events = [];
-const services = [];
-
-const servicesDirectory = path.join(import.meta.dirname, "/app/services/");
-fs.readdirSync(servicesDirectory).forEach((filename) => {
-  if (filename !== "_template.json" && filename.endsWith(".json")) {
-    const serviceFile = path.join(
-      import.meta.dirname,
-      "app/services",
-      filename,
-    );
-    const service = JSON.parse(fs.readFileSync(serviceFile).toString());
-
-    service.filename = filename;
-    service.slug = filename.replace(".json", "");
-    services.push(service);
-
-    if (!Array.isArray(service.organisation)) {
-      service.organisation = [service.organisation];
-    }
-
-    if (!Array.isArray(service["start-page"])) {
-      if (service["start-page"]) {
-        service["start-page"] = [service["start-page"]];
-      } else {
-        service["start-page"] = [];
-      }
-    }
-
-    for (const organisation of service.organisation) {
-      if (!organisations.find(({ name }) => name === organisation)) {
-        organisations.push({
-          name: organisation,
-          slug: govukPrototypeFilters.slugify(organisation),
-        });
-      }
-    }
-
-    const screenshotFile = path.join(
-      import.meta.dirname,
-      "app",
-      "assets",
-      "images",
-      "service-screenshots",
-      `${service.slug}.png`,
-    );
-
-    if (fs.existsSync(screenshotFile)) {
-      service.screenshot = true;
-    }
-
-    if (service.timeline) {
-      for (const item of service.timeline.items) {
-        events.push({
-          service: {
-            name: service.name,
-            slug: service.slug,
-          },
-          date: item.date,
-          label: item.label,
-        });
-      }
-    }
-
-    const phase = phases.filter((phase) => phase.name === service.phase);
-
-    if (phase.length > 0) {
-      phase[0].services_count += 1;
-    }
-  }
-});
-
-for (const organisation of organisations) {
-  organisation.slug = govukPrototypeFilters.slugify(organisation.name);
-  organisation.services = services.filter((service) =>
-    service.organisation.includes(organisation.name),
-  );
-}
+const services = await getServices();
+const organisations = getOrganisations(services);
 
 const verbs = [];
 
@@ -162,7 +86,7 @@ aToZ = Object.entries(aToZ)
 
 app.locals.aToZ = aToZ;
 app.locals.domains = domains;
-app.locals.events = events;
+app.locals.events = getEvents(services);
 app.locals.exemplars = exemplars;
 app.locals.organisations = organisations;
 app.locals.phases = phases;
