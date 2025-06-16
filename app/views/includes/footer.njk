@@ -1,4 +1,4 @@
-<footer class="govuk-footer" role="contentinfo">
+<footer class="govuk-footer">
   <div class="govuk-width-container">
     {{ xGovukLogo({
       classes: "govuk-footer__crown x-govuk-footer__crown",
@@ -9,57 +9,71 @@
       useCrown: true,
       useLogotype: false
     }) | trim | indent(4) }}
-    <div class="govuk-footer__meta">
-      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
-        <ul class="govuk-footer__inline-list">
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/contribute">
-              Contribute
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/verbs">
-              Verbs
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/top-75">
-              Top 75 services
-            </a>
-          </li>
-          <li class="govuk-footer__inline-list-item">
+
+    <div class="govuk-footer__navigation">
+      <div class="govuk-footer__section govuk-grid-column-two-thirds">
+        <h2 class="govuk-footer__heading govuk-heading-m">Browse services</h2>
+        <ul class="govuk-footer__list govuk-footer__list--columns-2">
+          <li class="govuk-footer__list-item">
             <a class="govuk-footer__link" href="/domains">
               Domains
             </a>
           </li>
-          <li class="govuk-footer__inline-list-item">
+          <li class="govuk-footer__list-item">
             <a class="govuk-footer__link" href="/screenshots">
               Screenshots
             </a>
           </li>
-          <li class="govuk-footer__inline-list-item">
+          <li class="govuk-footer__list-item">
+            <a class="govuk-footer__link" href="/verbs">
+              Verbs
+            </a>
+          </li>
+          <li class="govuk-footer__list-item">
             <a class="govuk-footer__link" href="/original-25-exemplars">
               Original 25 exemplar services
             </a>
           </li>
-
-          <li class="govuk-footer__inline-list-item">
-            <a class="govuk-footer__link" href="/source-code">
-              Source code
+          <li class="govuk-footer__list-item">
+            <a class="govuk-footer__link" href="/top-75">
+              Top 75 services
             </a>
           </li>
-          <li class="govuk-footer__inline-list-item">
+          <li class="govuk-footer__list-item">
             <a class="govuk-footer__link" href="/govuk-one-login">
               GOV.UK One Login
             </a>
           </li>
-          <li class="govuk-footer__inline-list-item">
+        </ul>
+      </div>
+
+      <div class="govuk-footer__section govuk-grid-column-one-third">
+        <h2 class="govuk-footer__heading govuk-heading-m">About</h2>
+        <ul class="govuk-footer__list">
+          <li class="govuk-footer__list-item">
+            <a class="govuk-footer__link" href="/contribute">
+              Contribute
+            </a>
+          </li>
+          <li class="govuk-footer__list-item">
             <a class="govuk-footer__link" href="/data">
               Get the data
             </a>
           </li>
+          <li class="govuk-footer__list-item">
+            <a class="govuk-footer__link" href="/source-code">
+              View source code
+            </a>
+          </li>
         </ul>
-        <div class="govuk-footer__meta-custom">
+      </div>
+    </div>
+
+    <hr class="govuk-footer__section-break">
+
+    <div class="govuk-footer__meta">
+      <div class="govuk-footer__meta-item govuk-footer__meta-item--grow">
+        <div class="govuk-footer__meta-custom govuk-!-margin-0">
           An unofficial community project
         </div>
       </div>
