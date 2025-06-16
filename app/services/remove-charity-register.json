@@ -5,5 +5,5 @@
   "organisation": "The Charity Commission",
   "phase": "Beta",
   "liveservice": "https://forms.charitycommission.gov.uk/dissolution-form/",
-  "start-page": "https://www.gov.uk/remove-charity-register"
+  "startPage": "https://www.gov.uk/remove-charity-register"
 }

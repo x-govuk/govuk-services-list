@@ -8,6 +8,6 @@
     "Department for Education"
   ],
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/register-of-apprenticeship-training-providers",
+  "startPage": "https://www.gov.uk/guidance/register-of-apprenticeship-training-providers",
   "liveservice": "https://download.apprenticeships.education.gov.uk"
 }

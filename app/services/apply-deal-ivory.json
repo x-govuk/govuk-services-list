@@ -5,5 +5,5 @@
   "organisation": ["Department for Environment, Food & Rural Affairs"],
   "phase": "Beta",
   "liveservice": "https://apply-deal-ivory.service.gov.uk/",
-  "start-page": "https://www.gov.uk/guidance/declare-ivory-you-intend-to-sell-or-hire-out"
+  "startPage": "https://www.gov.uk/guidance/declare-ivory-you-intend-to-sell-or-hire-out"
 }

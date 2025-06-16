@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://submit.cosmetic-product-notifications.service.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
+  "startPage": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
   "sourceCode": [
     {
       "text": "Source code",

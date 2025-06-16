@@ -6,7 +6,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://www.sorn.service.gov.uk",
-  "start-page": "https://www.gov.uk/make-a-sorn",
+  "startPage": "https://www.gov.uk/make-a-sorn",
   "timeline": {
     "items": [
       {

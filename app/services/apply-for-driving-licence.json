@@ -5,7 +5,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/renew-photo-driving-licence",
+  "startPage": "https://www.gov.uk/renew-photo-driving-licence",
   "liveservice": "https://apply-for-driving-licence.service.gov.uk/service-start?start=COP&locale=en",
   "timeline": {
     "items": [

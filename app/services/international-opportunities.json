@@ -4,6 +4,6 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/register-jobs-international-organisations",
+  "startPage": "https://www.gov.uk/register-jobs-international-organisations",
   "liveservice": "https://www.register-alerts-international-opportunities.service.gov.uk/Registration/Register"
 }

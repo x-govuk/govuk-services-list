@@ -6,5 +6,5 @@
   "theme": "Childcare and parenting",
   "phase": "Beta",
   "liveservice": "https://child-maintenance.dwp.gov.uk/calculate/",
-  "start-page": "https://www.gov.uk/calculate-child-maintenance"
+  "startPage": "https://www.gov.uk/calculate-child-maintenance"
 }

@@ -5,7 +5,7 @@
   "theme": "Housing and local services",
   "organisation": "Land Registry",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/search-local-land-charges",
+  "startPage": "https://www.gov.uk/search-local-land-charges",
   "liveservice": "https://search-local-land-charges.service.gov.uk",
   "timeline": {
     "items": [

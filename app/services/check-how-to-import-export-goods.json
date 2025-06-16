@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://check-how-to-import-export-goods.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-how-to-import-export",
+  "startPage": "https://www.gov.uk/check-how-to-import-export",
   "timeline": {
     "items": [
       {

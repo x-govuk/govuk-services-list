@@ -6,5 +6,5 @@
   "theme": "Crime, justice and the law",
   "phase": "Beta",
   "liveservice": "https://courtfines.justice.gov.uk/courtfines/pages/preselect.do",
-  "start-page": "https://www.gov.uk/pay-maintenance-order-online"
+  "startPage": "https://www.gov.uk/pay-maintenance-order-online"
 }

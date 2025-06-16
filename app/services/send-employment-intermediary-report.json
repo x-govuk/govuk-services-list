@@ -5,5 +5,5 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/employment-intermediary-report/distribute-requests/&origin=ei-frontend",
-  "start-page": "https://www.gov.uk/send-employment-intermediary-report"
+  "startPage": "https://www.gov.uk/send-employment-intermediary-report"
 }

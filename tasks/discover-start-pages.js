@@ -26,7 +26,7 @@ for (let service of services) {
     fs.readFileSync(`${servicesFolder}/${service}.json`).toString(),
   );
 
-  const startPages = project["start-page"];
+  const startPages = project.startPage;
 
   if (Array.isArray(startPages)) {
     existingStartPages.push(...startPages);

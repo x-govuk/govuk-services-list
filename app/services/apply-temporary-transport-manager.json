@@ -6,5 +6,5 @@
   "theme": "Driving and transport",
   "phase": "Alpha",
   "liveservice": "https://apply-temporary-transport-manager.service.gov.uk/weight",
-  "start-page": "https://www.gov.uk/apply-temporary-transport-manager"
+  "startPage": "https://www.gov.uk/apply-temporary-transport-manager"
 }

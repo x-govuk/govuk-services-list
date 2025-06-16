@@ -4,6 +4,6 @@
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
   "phase": "Live",
-  "start-page": "https://www.gov.uk/self-assessment-tax-calculator",
+  "startPage": "https://www.gov.uk/self-assessment-tax-calculator",
   "liveservice": "https://tax.service.gov.uk/guidance/estimate-your-self-assessment-tax-bill"
 }

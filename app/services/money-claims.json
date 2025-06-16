@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "HM Courts & Tribunals Service",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/make-court-claim-for-money/make-claim",
+  "startPage": "https://www.gov.uk/make-court-claim-for-money/make-claim",
   "liveservice": "https://www1.moneyclaims.service.gov.uk/eligibility/claim-value",
   "tags": ["Original 25 exemplars"],
   "timeline": {

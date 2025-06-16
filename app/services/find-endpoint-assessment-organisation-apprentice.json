@@ -9,5 +9,5 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://find-epao.apprenticeships.education.gov.uk/courses",
-  "start-page": "https://www.gov.uk/find-endpoint-assessment-organisation-apprentice"
+  "startPage": "https://www.gov.uk/find-endpoint-assessment-organisation-apprentice"
 }

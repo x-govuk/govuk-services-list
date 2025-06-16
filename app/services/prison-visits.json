@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Live",
-  "start-page": "https://www.gov.uk/prison-visits",
+  "startPage": "https://www.gov.uk/prison-visits",
   "liveservice": "https://www.prisonvisits.service.gov.uk/",
   "tags": ["Top 75", "Original 25 exemplars"],
   "sourceCode": [

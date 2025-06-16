@@ -9,7 +9,7 @@
   "organisation": ["Office for Veterans’ Affairs", "Ministry of Defence"],
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/veteran-card",
+  "startPage": "https://www.gov.uk/veteran-card",
   "liveservice": "https://apply-for-a-veterans-card.service.gov.uk/",
   "tags": ["GOV.UK One Login"],
   "timeline": {

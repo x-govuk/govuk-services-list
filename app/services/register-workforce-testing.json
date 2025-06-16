@@ -5,5 +5,5 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://register-workforce-testing.service.gov.uk",
-  "start-page": "https://www.gov.uk/get-workplace-coronavirus-tests"
+  "startPage": "https://www.gov.uk/get-workplace-coronavirus-tests"
 }

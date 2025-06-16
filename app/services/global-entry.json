@@ -5,5 +5,5 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://global-entry.beta.homeoffice.gov.uk/register-to-apply/register",
-  "start-page": "https://www.gov.uk/global-entry-usa"
+  "startPage": "https://www.gov.uk/global-entry-usa"
 }

@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/search/find-registered-local-bus-services",
-  "start-page": "https://www.gov.uk/find-local-bus-services"
+  "startPage": "https://www.gov.uk/find-local-bus-services"
 }

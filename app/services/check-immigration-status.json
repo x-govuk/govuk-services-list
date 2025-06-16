@@ -5,7 +5,7 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://view-immigration-status.service.gov.uk/view/checker-details",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/check-immigration-status",
     "https://www.gov.uk/view-prove-immigration-status"
   ]

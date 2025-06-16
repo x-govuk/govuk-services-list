@@ -3,7 +3,7 @@
   "description": "Lets users save and share digital versions of their government documents on their smartphone or device.",
   "organisation": "Government Digital Service",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/wallet",
+  "startPage": "https://www.gov.uk/wallet",
   "sourceCode": [
     {
       "text": "iOS app source code",

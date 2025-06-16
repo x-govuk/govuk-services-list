@@ -6,7 +6,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://rapid-test-home-order.test-for-coronavirus.service.gov.uk/order-lateral-flow-kits",
-  "start-page": "https://www.gov.uk/order-coronavirus-rapid-lateral-flow-tests",
+  "startPage": "https://www.gov.uk/order-coronavirus-rapid-lateral-flow-tests",
   "timeline": {
     "items": [
       {

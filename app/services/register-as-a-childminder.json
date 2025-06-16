@@ -6,7 +6,7 @@
   "theme": "Childcare and parenting",
   "phase": "Beta",
   "liveservice": "https://www.register-childminder.service.gov.uk/",
-  "start-page": "https://www.gov.uk/become-childminder-nanny/register-childminder",
+  "startPage": "https://www.gov.uk/become-childminder-nanny/register-childminder",
   "timeline": {
     "items": [
       {

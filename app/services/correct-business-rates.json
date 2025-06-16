@@ -11,7 +11,7 @@
   "theme": "Money and tax",
   "organisation": "Valuation Office Agency",
   "phase": "Beta",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/find-business-rates",
     "https://www.gov.uk/correct-your-business-rates",
     "https://www.gov.uk/business-rates-valuation-account"

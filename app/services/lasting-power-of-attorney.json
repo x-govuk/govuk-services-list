@@ -6,7 +6,7 @@
   "organisation": "Ministry of Justice",
   "phase": "Live",
   "liveservice": "https://www.lastingpowerofattorney.service.gov.uk/home",
-  "start-page": "https://www.gov.uk/power-of-attorney/make-lasting-power",
+  "startPage": "https://www.gov.uk/power-of-attorney/make-lasting-power",
   "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [

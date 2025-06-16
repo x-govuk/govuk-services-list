@@ -9,7 +9,7 @@
   "theme": "Money and tax",
   "phase": "Retired",
   "liveservice": "https://online.apply-for-energy-bill-alternative-funds.service.gov.uk/s/#where-do-you-live",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/apply-energy-bill-support-if-not-automatic",
     "https://www.gov.uk/apply-energy-bill-support-northern-ireland-if-not-automatic"
   ],

@@ -5,7 +5,7 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/register-to-vote",
     "https://www.gov.uk/register-to-vote-armed-forces",
     "https://www.gov.uk/register-to-vote-crown-servants-british-council-employees"

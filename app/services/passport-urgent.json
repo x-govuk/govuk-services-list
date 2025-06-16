@@ -13,7 +13,7 @@
   "theme": "Passports, travel and living abroad",
   "phase": "Beta",
   "liveservice": "https://www.passport.service.gov.uk/urgent/",
-  "start-page": "https://www.gov.uk/get-a-passport-urgently/online-premium-service",
+  "startPage": "https://www.gov.uk/get-a-passport-urgently/online-premium-service",
   "timeline": {
     "items": [
       {

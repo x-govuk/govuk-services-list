@@ -6,6 +6,6 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://find-and-update.company-information.service.gov.uk",
-  "start-page": "https://www.gov.uk/get-information-about-a-company",
+  "startPage": "https://www.gov.uk/get-information-about-a-company",
   "tags": ["GOV.UK One Login"]
 }

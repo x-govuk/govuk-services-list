@@ -5,5 +5,5 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Alpha",
   "liveservice": "https://log-coronavirus-test-site-results.service.gov.uk/",
-  "start-page": "https://www.gov.uk/log-test-site-covid19-results"
+  "startPage": "https://www.gov.uk/log-test-site-covid19-results"
 }

@@ -5,6 +5,6 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Beta",
   "theme": "Driving and transport",
-  "start-page": "https://www.gov.uk/written-off-vehicle",
+  "startPage": "https://www.gov.uk/written-off-vehicle",
   "liveservice": "https://www.buysellvehicle.service.gov.uk/sell-motor-trade/private/setup-trade-details"
 }

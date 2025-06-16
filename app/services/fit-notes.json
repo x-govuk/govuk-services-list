@@ -5,5 +5,5 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "liveservice": "https://send-fit-note.service.gov.uk/",
-  "start-page": "https://www.gov.uk/send-fit-note"
+  "startPage": "https://www.gov.uk/send-fit-note"
 }

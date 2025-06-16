@@ -5,5 +5,5 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://www.immigrationstatuscheck.service.gov.uk/employers/",
-  "start-page": "https://www.gov.uk/employee-immigration-employment-status"
+  "startPage": "https://www.gov.uk/employee-immigration-employment-status"
 }

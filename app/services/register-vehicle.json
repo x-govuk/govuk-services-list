@@ -10,7 +10,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://register-vehicle.service.gov.uk/",
-  "start-page": "https://www.gov.uk/guidance/register-a-vehicle-if-you-work-for-a-vehicle-manufacturer-or-retailer",
+  "startPage": "https://www.gov.uk/guidance/register-a-vehicle-if-you-work-for-a-vehicle-manufacturer-or-retailer",
   "tags": ["Original 25 exemplars"],
   "timeline": {
     "items": [

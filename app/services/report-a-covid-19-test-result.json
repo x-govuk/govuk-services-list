@@ -5,7 +5,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://test-for-coronavirus.service.gov.uk/report-result",
-  "start-page": "https://www.gov.uk/report-covid19-result",
+  "startPage": "https://www.gov.uk/report-covid19-result",
   "timeline": {
     "items": [
       {

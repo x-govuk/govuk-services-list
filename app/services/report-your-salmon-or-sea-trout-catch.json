@@ -6,7 +6,7 @@
   "organisation": "Environment Agency",
   "phase": "Beta",
   "liveservice": "https://catchreturn.service.gov.uk/",
-  "start-page": "https://www.gov.uk/catch-return",
+  "startPage": "https://www.gov.uk/catch-return",
   "sourceCode": [
     {
       "text": "Source code",

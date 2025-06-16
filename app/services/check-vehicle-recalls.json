@@ -5,5 +5,5 @@
   "theme": "*** Please use one of the existing themes from the website ***",
   "phase": "unknown",
   "liveservice": "https://www.check-vehicle-recalls.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-vehicle-recall"
+  "startPage": "https://www.gov.uk/check-vehicle-recall"
 }

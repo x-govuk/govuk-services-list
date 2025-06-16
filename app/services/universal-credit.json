@@ -7,7 +7,7 @@
   "phase": "Beta",
   "phase_modifier": "Public",
   "liveservice": "https://www.universal-credit.service.gov.uk/",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/universal-credit",
     "https://www.gov.uk/apply-universal-credit",
     "https://www.gov.uk/sign-in-universal-credit"

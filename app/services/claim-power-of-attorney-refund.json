@@ -5,7 +5,7 @@
   "organisation": "Office of the Public Guardian",
   "phase": "Retired",
   "liveservice": "https://claim-power-of-attorney-refund.service.gov.uk/when-were-fees-paid",
-  "start-page": "https://www.gov.uk/power-of-attorney-refund",
+  "startPage": "https://www.gov.uk/power-of-attorney-refund",
   "timeline": {
     "items": [
       {

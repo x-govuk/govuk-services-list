@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://publish.bus-data.dft.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/publish-bus-open-data"
+  "startPage": "https://www.gov.uk/guidance/publish-bus-open-data"
 }

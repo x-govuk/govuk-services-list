@@ -5,5 +5,5 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://apply-for-emergency-driving-test.service.gov.uk/driving/critical_sector",
-  "start-page": "https://www.gov.uk/apply-emergency-driving-test"
+  "startPage": "https://www.gov.uk/apply-emergency-driving-test"
 }

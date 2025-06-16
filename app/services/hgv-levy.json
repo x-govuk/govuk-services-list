@@ -5,5 +5,5 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Beta",
   "liveservice": "https://www.hgvlevy.service.gov.uk/",
-  "start-page": "https://www.gov.uk/hgv-levy"
+  "startPage": "https://www.gov.uk/hgv-levy"
 }

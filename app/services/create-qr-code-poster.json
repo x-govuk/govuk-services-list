@@ -5,7 +5,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://create-qr-code-poster.service.gov.uk/createposter/contact-details",
-  "start-page": "https://www.gov.uk/create-coronavirus-qr-poster",
+  "startPage": "https://www.gov.uk/create-coronavirus-qr-poster",
   "timeline": {
     "items": [
       {

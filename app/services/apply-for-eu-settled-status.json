@@ -4,7 +4,7 @@
   "theme": "Visas and immigration",
   "organisation": ["Home Office", "UK Visas and Immigration"],
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/settled-status-eu-citizens-families/applying-for-settled-status",
+  "startPage": "https://www.gov.uk/settled-status-eu-citizens-families/applying-for-settled-status",
   "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/euss",
   "tags": ["Top 75"]
 }

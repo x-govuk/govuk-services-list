@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://get-a-guarantee-for-export-finance.service.gov.uk/login",
-  "start-page": "https://www.gov.uk/guidance/get-a-guarantee-for-export-finance",
+  "startPage": "https://www.gov.uk/guidance/get-a-guarantee-for-export-finance",
   "timeline": {
     "items": [
       {

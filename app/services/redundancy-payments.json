@@ -8,7 +8,7 @@
   "theme": "Employing people",
   "organisation": "Insolvency Service",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/claim-redundancy",
+  "startPage": "https://www.gov.uk/claim-redundancy",
   "liveservice": "https://claim.redundancy-payments.service.gov.uk/claims/choose-how-to-verify",
   "tags": ["Original 25 exemplars"],
   "timeline": {

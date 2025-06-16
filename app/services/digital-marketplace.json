@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "phase": "Retired",
   "liveservice": "https://www.digitalmarketplace.service.gov.uk/",
-  "start-page": "https://www.gov.uk/digital-marketplace",
+  "startPage": "https://www.gov.uk/digital-marketplace",
   "sourceCode": [
     {
       "text": "Supplier frontend",

@@ -6,5 +6,5 @@
   "theme": "Business and self-employed",
   "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/check-the-awrs-register",
-  "start-page": "https://www.gov.uk/check-alcohol-wholesaler-registration"
+  "startPage": "https://www.gov.uk/check-alcohol-wholesaler-registration"
 }

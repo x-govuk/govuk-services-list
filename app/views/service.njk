@@ -17,16 +17,16 @@
   </a>
 {% endset %}
 
-{% set startPageKey = service["start-page"] | length | plural("Start page", showNumber=false) %}
+{% set startPageKey = service.startPage | length | plural("Start page", showNumber=false) %}
 
 {% set startPageHtml %}
-{% if service["start-page"] | length == 1 %}
+{% if service.startPage | length == 1 %}
   <p class="govuk-body">
-    <a class="govuk-link" href="{{ service['start-page'][0] }}">Start page on GOV.UK</a>
+    <a class="govuk-link" href="{{ service.startPage[0] }}">Start page on GOV.UK</a>
   </p>
-{% elif service["start-page"] | length > 1 %}
+{% elif service.startPage | length > 1 %}
   <ul class="govuk-list">
-  {%- for startPage in service["start-page"] -%}
+  {%- for startPage in service.startPage -%}
     <li>
       <a href="{{ startPage }}" class="govuk-link">
         {{- startPage | replace("https://www.", "") -}}
@@ -128,7 +128,7 @@
                 value: {
                   html: startPageHtml
                 }
-              } if service["start-page"] | length > 0,
+              } if service.startPage | length > 0,
               {
                 key: {
                   text: "Notes"

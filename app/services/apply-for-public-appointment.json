@@ -5,5 +5,5 @@
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
   "liveservice": "https://apply-for-public-appointment.service.gov.uk/",
-  "start-page": "https://www.gov.uk/public-appointments"
+  "startPage": "https://www.gov.uk/public-appointments"
 }

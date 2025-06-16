@@ -5,5 +5,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://www.claim-chargepoint-grants.service.gov.uk/installer_users/sign_in",
-  "start-page": "https://www.gov.uk/government/publications/workplace-charging-scheme-grant-claim-form-for-installing-charging-equipment"
+  "startPage": "https://www.gov.uk/government/publications/workplace-charging-scheme-grant-claim-form-for-installing-charging-equipment"
 }

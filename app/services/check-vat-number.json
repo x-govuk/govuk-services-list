@@ -5,5 +5,5 @@
   "theme": "Business and self-employed",
   "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/check-vat-number/enter-vat-details",
-  "start-page": "https://www.gov.uk/check-uk-vat-number"
+  "startPage": "https://www.gov.uk/check-uk-vat-number"
 }

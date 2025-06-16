@@ -9,5 +9,5 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-qualifications",
-  "start-page": "https://www.gov.uk/find-a-regulated-qualification"
+  "startPage": "https://www.gov.uk/find-a-regulated-qualification"
 }

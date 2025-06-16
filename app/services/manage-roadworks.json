@@ -9,7 +9,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://www.manage-roadworks.service.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/plan-and-manage-roadworks",
+  "startPage": "https://www.gov.uk/guidance/plan-and-manage-roadworks",
   "timeline": {
     "items": [
       {

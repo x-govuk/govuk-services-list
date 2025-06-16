@@ -8,7 +8,7 @@
     "Department for Education"
   ],
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/employers-find-apprenticeship-training",
+  "startPage": "https://www.gov.uk/employers-find-apprenticeship-training",
   "liveservice": "https://findapprenticeshiptraining.apprenticeships.education.gov.uk/courses",
   "sourceCode": [
     {

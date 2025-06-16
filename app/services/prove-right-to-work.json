@@ -6,7 +6,7 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://right-to-work.service.gov.uk/prove",
-  "start-page": "https://www.gov.uk/prove-right-to-work",
+  "startPage": "https://www.gov.uk/prove-right-to-work",
   "timeline": {
     "items": [
       {

@@ -5,7 +5,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://support-for-early-career-teachers.education.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/how-to-set-up-training-for-early-career-teachers",
+  "startPage": "https://www.gov.uk/guidance/how-to-set-up-training-for-early-career-teachers",
   "sourceCode": [
     {
       "text": "Source code",

@@ -5,5 +5,5 @@
   "theme": "*** Please use one of the existing themes from the website ***",
   "phase": "*** Use one of: discovery, alpha, beta, live, retired or unknown. ***",
   "liveservice": "*** Replace this with the URL of the live service (if live) ***",
-  "start-page": "*** Replace this with the URL of the 'Start page' on GOV.UK ***"
+  "startPage": "*** Replace this with the URL of the 'Start page' on GOV.UK ***"
 }

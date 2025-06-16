@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://check-payment-practices.service.gov.uk/search",
-  "start-page": "https://www.gov.uk/check-when-businesses-pay-invoices",
+  "startPage": "https://www.gov.uk/check-when-businesses-pay-invoices",
   "sourceCode": [
     {
       "text": "Source code",

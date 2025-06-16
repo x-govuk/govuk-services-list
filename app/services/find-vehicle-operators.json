@@ -6,6 +6,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "Beta",
   "phase_modifier": "Public",
-  "start-page": "https://www.gov.uk/find-vehicle-operators",
+  "startPage": "https://www.gov.uk/find-vehicle-operators",
   "liveservice": "https://www.vehicle-operator-licensing.service.gov.uk/search/find-lorry-bus-operators"
 }

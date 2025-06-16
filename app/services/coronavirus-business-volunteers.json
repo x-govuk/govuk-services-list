@@ -5,7 +5,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://coronavirus-business-volunteers.service.gov.uk/accommodation",
-  "start-page": "https://www.gov.uk/coronavirus-support-from-business",
+  "startPage": "https://www.gov.uk/coronavirus-support-from-business",
   "sourceCode": [
     {
       "text": "Source code",

@@ -6,7 +6,7 @@
   "theme": "Crime, justice and the law",
   "phase": "Beta",
   "liveservice": "https://www.modernslavery.gov.uk/start",
-  "start-page": "https://www.gov.uk/guidance/report-modern-slavery-as-a-first-responder",
+  "startPage": "https://www.gov.uk/guidance/report-modern-slavery-as-a-first-responder",
   "sourceCode": [
     {
       "text": "Source code",

@@ -4,7 +4,7 @@
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/check-flooding",
+  "startPage": "https://www.gov.uk/check-flooding",
   "liveservice": "https://check-for-flooding.service.gov.uk",
   "sourceCode": [
     {

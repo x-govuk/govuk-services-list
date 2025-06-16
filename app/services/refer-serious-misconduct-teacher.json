@@ -5,7 +5,7 @@
   "theme": "Education, training and skills",
   "organisation": "Teaching Regulation Agency",
   "phase": "Beta",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/report-teacher-misconduct",
     "https://www.gov.uk/guidance/teacher-misconduct-referring-a-case"
   ],

@@ -9,5 +9,5 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
-  "start-page": "https://www.gov.uk/get-coronavirus-test"
+  "startPage": "https://www.gov.uk/get-coronavirus-test"
 }

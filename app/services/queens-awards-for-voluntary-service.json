@@ -5,7 +5,7 @@
   "organisation": "Department for Digital, Culture, Media and Sport",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/kings-award-for-voluntary-service",
+  "startPage": "https://www.gov.uk/kings-award-for-voluntary-service",
   "liveservice": "https://kavs.dcms.gov.uk",
   "sourceCode": [
     {

@@ -5,7 +5,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Live",
   "liveservice": "https://coronavirus.data.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/coronavirus-covid-19-statistics-and-analysis",
+  "startPage": "https://www.gov.uk/guidance/coronavirus-covid-19-statistics-and-analysis",
   "sourceCode": [
     {
       "text": "Source code",

@@ -5,7 +5,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveservice": "https://improve-workload-and-wellbeing-for-school-staff.education.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/improve-workload-and-wellbeing-for-school-staff",
+  "startPage": "https://www.gov.uk/guidance/improve-workload-and-wellbeing-for-school-staff",
   "sourceCode": [
     {
       "text": "Source code",

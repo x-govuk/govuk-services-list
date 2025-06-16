@@ -6,7 +6,7 @@
   "organisation": "Department for Education",
   "phase": "Beta",
   "liveservice": "https://teaching-vacancies.service.gov.uk/",
-  "start-page": "https://www.gov.uk/find-teaching-job",
+  "startPage": "https://www.gov.uk/find-teaching-job",
   "sourceCode": [
     {
       "text": "Source code",

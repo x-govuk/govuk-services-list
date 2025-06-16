@@ -5,6 +5,6 @@
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "Live",
-  "start-page": "https://www.gov.uk/notice-to-oppose-trademark",
+  "startPage": "https://www.gov.uk/notice-to-oppose-trademark",
   "liveservice": "https://trademarks.ipo.gov.uk/ipo-threaten-to-oppose"
 }

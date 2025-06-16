@@ -5,6 +5,6 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Births, deaths, marriages and care",
   "phase": "unknown",
-  "start-page": "https://www.gov.uk/register-a-death/y/overseas",
+  "startPage": "https://www.gov.uk/register-a-death/y/overseas",
   "liveservice": "https://register-a-death-abroad.service.gov.uk/"
 }

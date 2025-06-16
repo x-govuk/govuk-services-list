@@ -9,7 +9,7 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "liveservice": "https://apply-gender-recognition-certificate.service.gov.uk/",
-  "start-page": "https://www.gov.uk/apply-gender-recognition-certificate/how-to-apply",
+  "startPage": "https://www.gov.uk/apply-gender-recognition-certificate/how-to-apply",
   "timeline": {
     "items": [
       {

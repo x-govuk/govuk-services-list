@@ -5,7 +5,7 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/register-for-plastic-packaging-tax",
+  "startPage": "https://www.gov.uk/guidance/register-for-plastic-packaging-tax",
   "liveservice": "https://www.tax.service.gov.uk/register-for-plastic-packaging-tax/start-registration",
   "timeline": {
     "items": [

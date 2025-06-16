@@ -5,7 +5,7 @@
   "organisation": ["Department for Environment, Food & Rural Affairs"],
   "phase": "Alpha",
   "liveservice": "https://report-packaging-data.defra.gov.uk/report-data",
-  "start-page": "https://www.gov.uk/guidance/report-packaging-data",
+  "startPage": "https://www.gov.uk/guidance/report-packaging-data",
   "timeline": {
     "items": [
       {

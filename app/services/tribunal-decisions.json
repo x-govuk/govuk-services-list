@@ -5,6 +5,6 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/immigration-asylum-appeal-decisions",
+  "startPage": "https://www.gov.uk/immigration-asylum-appeal-decisions",
   "liveservice": "https://tribunalsdecisions.service.gov.uk"
 }

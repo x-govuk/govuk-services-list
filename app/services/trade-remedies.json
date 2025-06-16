@@ -5,5 +5,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://www.trade-remedies.service.gov.uk/accounts/login",
-  "start-page": "https://www.trade-remedies.service.gov.uk/accounts/login"
+  "startPage": "https://www.trade-remedies.service.gov.uk/accounts/login"
 }

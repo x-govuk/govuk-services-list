@@ -5,6 +5,6 @@
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/visa-fees",
+  "startPage": "https://www.gov.uk/visa-fees",
   "liveservice": "https://visa-fees.homeoffice.gov.uk/y"
 }

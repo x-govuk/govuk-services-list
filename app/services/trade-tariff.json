@@ -8,7 +8,7 @@
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
   "phase": "Live",
-  "start-page": "https://www.gov.uk/trade-tariff",
+  "startPage": "https://www.gov.uk/trade-tariff",
   "liveservice": "https://www.trade-tariff.service.gov.uk/trade-tariff/sections",
   "sourceCode": [
     {

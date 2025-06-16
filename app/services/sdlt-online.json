@@ -5,5 +5,5 @@
   "theme": "Money and tax",
   "phase": "Live",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/stamp-taxes/&origin=STAMP-frontend",
-  "start-page": "https://www.gov.uk/sdlt-online"
+  "startPage": "https://www.gov.uk/sdlt-online"
 }

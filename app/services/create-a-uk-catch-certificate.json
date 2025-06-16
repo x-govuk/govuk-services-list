@@ -5,6 +5,6 @@
   "theme": "Business and self-employed",
   "phase": "unknown",
   "liveservice": "https://manage-fish-exports.service.gov.uk/create-catch-certificate/catch-certificates",
-  "start-page": "https://www.gov.uk/guidance/create-a-uk-catch-certificate",
+  "startPage": "https://www.gov.uk/guidance/create-a-uk-catch-certificate",
   "tags": ["Top 75"]
 }

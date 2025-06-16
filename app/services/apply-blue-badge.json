@@ -6,7 +6,7 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://apply-blue-badge.service.gov.uk/applicant",
-  "start-page": "https://www.gov.uk/apply-blue-badge",
+  "startPage": "https://www.gov.uk/apply-blue-badge",
   "timeline": {
     "items": [
       {

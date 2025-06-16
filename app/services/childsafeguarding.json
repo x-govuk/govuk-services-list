@@ -4,6 +4,6 @@
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/report-a-serious-child-safeguarding-incident",
+  "startPage": "https://www.gov.uk/guidance/report-a-serious-child-safeguarding-incident",
   "liveservice": "https://childsafeguarding.education.gov.uk"
 }

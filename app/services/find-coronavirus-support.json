@@ -5,7 +5,7 @@
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
   "liveservice": "https://find-coronavirus-support.service.gov.uk/need-help-with",
-  "start-page": "https://www.gov.uk/find-coronavirus-support",
+  "startPage": "https://www.gov.uk/find-coronavirus-support",
   "sourceCode": [
     {
       "text": "Source code",

@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Disclosure and Barring Service",
   "phase": "Alpha",
-  "start-page": "https://www.gov.uk/dbs-check-applicant-criminal-record/get-a-standard-or-enhanced-dbs-check-for-an-employee",
+  "startPage": "https://www.gov.uk/dbs-check-applicant-criminal-record/get-a-standard-or-enhanced-dbs-check-for-an-employee",
   "timeline": {
     "items": [
       {

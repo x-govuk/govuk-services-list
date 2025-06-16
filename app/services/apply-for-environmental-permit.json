@@ -5,5 +5,5 @@
   "theme": "Environment and countryside",
   "phase": "Beta",
   "liveservice": "https://apply-for-environmental-permit.service.gov.uk/",
-  "start-page": "https://www.gov.uk/guidance/apply-for-a-standard-rules-environmental-permit"
+  "startPage": "https://www.gov.uk/guidance/apply-for-a-standard-rules-environmental-permit"
 }

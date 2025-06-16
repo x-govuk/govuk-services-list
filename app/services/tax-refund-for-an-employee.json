@@ -6,5 +6,5 @@
   "theme": "Money and tax",
   "phase": "Live",
   "liveservice": "http://www.tax.service.gov.uk/digital-forms/form/Application-for-funding-a-tax-refund-for-an-employee/draft/guide",
-  "start-page": "https://www.gov.uk/payroll-funding"
+  "startPage": "https://www.gov.uk/payroll-funding"
 }

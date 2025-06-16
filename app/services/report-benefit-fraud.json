@@ -6,7 +6,7 @@
   "phase": "Beta",
   "phase_modifier": "Public",
   "liveservice": "https://www.report-benefit-fraud.service.gov.uk/details",
-  "start-page": "https://www.gov.uk/report-benefit-fraud",
+  "startPage": "https://www.gov.uk/report-benefit-fraud",
   "timeline": {
     "items": [
       {

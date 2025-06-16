@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://exporter.apply-plant-export-certificates.service.gov.uk/",
-  "start-page": "https://www.gov.uk/guidance/apply-for-plant-export-certificates-and-inspections",
+  "startPage": "https://www.gov.uk/guidance/apply-for-plant-export-certificates-and-inspections",
   "timeline": {
     "items": [
       {

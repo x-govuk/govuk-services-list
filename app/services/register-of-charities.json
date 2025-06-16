@@ -9,5 +9,5 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://register-of-charities.charitycommission.gov.uk/charity-search",
-  "start-page": "https://www.gov.uk/find-charity-information"
+  "startPage": "https://www.gov.uk/find-charity-information"
 }

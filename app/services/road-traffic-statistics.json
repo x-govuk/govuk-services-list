@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "unknown",
   "liveservice": "https://roadtraffic.dft.gov.uk",
-  "start-page": "https://www.gov.uk/government/collections/road-traffic-statistics"
+  "startPage": "https://www.gov.uk/government/collections/road-traffic-statistics"
 }

@@ -6,6 +6,6 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Beta",
   "liveservice": "https://vehicletax.service.gov.uk/",
-  "start-page": "https://www.gov.uk/vehicle-tax",
+  "startPage": "https://www.gov.uk/vehicle-tax",
   "tags": ["Top 75"]
 }

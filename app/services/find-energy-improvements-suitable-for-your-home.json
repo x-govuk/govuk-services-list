@@ -6,5 +6,5 @@
   "theme": "Housing and local services",
   "phase": "Beta",
   "liveservice": "https://find-energy-improvements-suitable-for-your-home.service.gov.uk/energy-efficiency/new-or-returning-user",
-  "start-page": "https://www.gov.uk/improve-energy-efficiency"
+  "startPage": "https://www.gov.uk/improve-energy-efficiency"
 }

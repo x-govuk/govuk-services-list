@@ -12,7 +12,7 @@
   "phase": "beta",
   "tags": ["Top 75", "Original 25 exemplars"],
   "liveservice": "https://www.tax.service.gov.uk/direct-debit/route-to-direct-debit",
-  "start-page": [
+  "startPage": [
     "https://www.gov.uk/pay-self-assessment-tax-bill",
     "https://www.gov.uk/pay-tax-direct-debit",
     "https://www.gov.uk/pay-tax-debit-credit-card"

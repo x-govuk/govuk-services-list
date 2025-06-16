@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Live",
-  "start-page": "https://www.gov.uk/guidance/import-of-products-animals-food-and-feed-system",
+  "startPage": "https://www.gov.uk/guidance/import-of-products-animals-food-and-feed-system",
   "liveservice": "https://import-products-animals-food-feed.service.gov.uk/notification/prd/protected/notifications",
   "timeline": {
     "items": [

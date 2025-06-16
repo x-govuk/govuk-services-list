@@ -5,7 +5,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://eclaims.communities.gov.uk/esif-web/",
-  "start-page": "https://www.gov.uk/guidance/england-2014-to-2020-european-structural-and-investment-funds",
+  "startPage": "https://www.gov.uk/guidance/england-2014-to-2020-european-structural-and-investment-funds",
   "timeline": {
     "items": [
       {

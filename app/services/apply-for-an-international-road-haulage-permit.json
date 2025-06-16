@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/international-authorisations-and-permits-for-road-haulage",
+  "startPage": "https://www.gov.uk/guidance/international-authorisations-and-permits-for-road-haulage",
   "timeline": {
     "items": [
       {

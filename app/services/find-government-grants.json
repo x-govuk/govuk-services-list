@@ -5,7 +5,7 @@
   "organisation": "Cabinet Office",
   "theme": "Money and tax",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/guidance/find-government-grants",
+  "startPage": "https://www.gov.uk/guidance/find-government-grants",
   "liveservice": "https://www.find-government-grants.service.gov.uk",
   "sourceCode": [
     {

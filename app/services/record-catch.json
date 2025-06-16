@@ -6,7 +6,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveservice": "https://record-catch.service.gov.uk/sign-in",
-  "start-page": "https://www.gov.uk/guidance/record-your-catch",
+  "startPage": "https://www.gov.uk/guidance/record-your-catch",
   "timeline": {
     "items": [
       {

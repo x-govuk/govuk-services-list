@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "liveservice": "https://beta-naptan.dft.gov.uk",
-  "start-page": "https://www.gov.uk/government/publications/national-public-transport-access-node-schema"
+  "startPage": "https://www.gov.uk/government/publications/national-public-transport-access-node-schema"
 }

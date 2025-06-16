@@ -5,7 +5,7 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "liveservice": "https://nominate-uk-honour.service.gov.uk",
-  "start-page": "https://www.gov.uk/honours/nominate-someone-in-the-uk",
+  "startPage": "https://www.gov.uk/honours/nominate-someone-in-the-uk",
   "sourceCode": [
     {
       "text": "Source code",

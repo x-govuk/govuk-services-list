@@ -5,7 +5,7 @@
   "organisation": "Civil Service Fast Stream",
   "phase": "Retired",
   "liveservice": "https://www.apply-civil-service-fast-stream.service.gov.uk/fset-fast-stream/signup",
-  "start-page": "https://www.gov.uk/government/organisations/civil-service-fast-stream",
+  "startPage": "https://www.gov.uk/government/organisations/civil-service-fast-stream",
   "timeline": {
     "items": [
       {

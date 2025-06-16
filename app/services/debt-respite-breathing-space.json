@@ -9,7 +9,7 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveservice": "https://manage-users-debt-respite-breathing-space.service.gov.uk/",
-  "start-page": "https://www.gov.uk/government/publications/debt-respite-scheme-breathing-space-guidance",
+  "startPage": "https://www.gov.uk/government/publications/debt-respite-scheme-breathing-space-guidance",
   "timeline": {
     "items": [
       {

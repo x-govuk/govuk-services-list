@@ -5,5 +5,5 @@
   "theme": "Visas and immigration",
   "phase": "Beta",
   "liveservice": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/sar_in_uk",
-  "start-page": "https://www.gov.uk/get-access-evisa"
+  "startPage": "https://www.gov.uk/get-access-evisa"
 }

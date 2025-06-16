@@ -5,6 +5,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/use-construction-industry-scheme-online",
+  "startPage": "https://www.gov.uk/use-construction-industry-scheme-online",
   "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/construction-ind-scheme/&origin=CIS-frontend"
 }

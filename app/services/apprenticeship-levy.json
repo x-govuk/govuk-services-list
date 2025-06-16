@@ -8,7 +8,7 @@
     "Department for Education"
   ],
   "phase": "Beta",
-  "start-page": "https://www.gov.uk/sign-in-apprenticeship-service-account",
+  "startPage": "https://www.gov.uk/sign-in-apprenticeship-service-account",
   "liveservice": "https://accounts.manage-apprenticeships.service.gov.uk/service",
   "tags": ["Top 75"],
   "timeline": {
