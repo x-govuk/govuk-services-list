@@ -4,6 +4,6 @@
   "organisation": "HM Courts & Tribunals Service",
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
-  "liveservice": "https://www.respond-divorce.service.gov.uk/",
+  "liveService": "https://www.respond-divorce.service.gov.uk/",
   "startPage": "https://www.gov.uk/respond-divorce-application"
 }

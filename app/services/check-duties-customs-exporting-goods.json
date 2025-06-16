@@ -4,6 +4,6 @@
   "organisation": "Department for International Trade",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.check-duties-customs-exporting-goods.service.gov.uk/selectdest",
+  "liveService": "https://www.check-duties-customs-exporting-goods.service.gov.uk/selectdest",
   "startPage": "https://www.gov.uk/check-duties-customs-exporting"
 }

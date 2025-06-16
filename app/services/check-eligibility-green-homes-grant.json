@@ -4,6 +4,6 @@
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Housing and local services",
   "phase": "Retired",
-  "liveservice": "https://check-eligibility-green-homes-grant.service.gov.uk/",
+  "liveService": "https://check-eligibility-green-homes-grant.service.gov.uk/",
   "startPage": "https://www.gov.uk/check-eligible-green-homes-grant"
 }

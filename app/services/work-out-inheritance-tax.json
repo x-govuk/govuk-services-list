@@ -6,5 +6,5 @@
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/inheritance-tax-reduced-rate-calculator",
-  "liveservice": "https://www.tax.service.gov.uk/guidance/work-out-if-Inheritance-Tax-qualifies-for-reduced-rate"
+  "liveService": "https://www.tax.service.gov.uk/guidance/work-out-if-Inheritance-Tax-qualifies-for-reduced-rate"
 }

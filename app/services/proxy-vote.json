@@ -5,5 +5,5 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/apply-proxy-vote",
-  "liveservice": "https://proxy-vote.service.gov.uk/start"
+  "liveService": "https://proxy-vote.service.gov.uk/start"
 }

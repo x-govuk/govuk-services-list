@@ -5,7 +5,7 @@
   "organisation": "Civil Aviation Authority",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://register-drones.caa.co.uk/register/enter-email",
+  "liveService": "https://register-drones.caa.co.uk/register/enter-email",
   "startPage": "https://register-drones.caa.co.uk/individual/register-and-take-test-to-fly",
   "timeline": {
     "items": [

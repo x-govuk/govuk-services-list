@@ -4,6 +4,6 @@
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.ipo.gov.uk/tm-ealerts.htm",
+  "liveService": "https://www.ipo.gov.uk/tm-ealerts.htm",
   "startPage": "https://www.gov.uk/track-a-trade-mark"
 }

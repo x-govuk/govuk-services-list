@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://change-address-v5c.service.gov.uk",
+  "liveService": "https://change-address-v5c.service.gov.uk",
   "startPage": "https://www.gov.uk/change-address-v5c",
   "timeline": {
     "items": [

@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://www.develop-child-family-social-work-career.education.gov.uk",
+  "liveService": "https://www.develop-child-family-social-work-career.education.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

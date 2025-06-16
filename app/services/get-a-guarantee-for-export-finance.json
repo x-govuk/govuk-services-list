@@ -5,7 +5,7 @@
   "organisation": "UK Export Finance",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://get-a-guarantee-for-export-finance.service.gov.uk/login",
+  "liveService": "https://get-a-guarantee-for-export-finance.service.gov.uk/login",
   "startPage": "https://www.gov.uk/guidance/get-a-guarantee-for-export-finance",
   "timeline": {
     "items": [

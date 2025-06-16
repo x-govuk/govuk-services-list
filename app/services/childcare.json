@@ -10,7 +10,7 @@
   "theme": "Benefits",
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
-  "liveservice": "https://childcare-support.tax.service.gov.uk/par/app/trialmessage",
+  "liveService": "https://childcare-support.tax.service.gov.uk/par/app/trialmessage",
   "startPage": [
     "https://www.gov.uk/apply-for-tax-free-childcare",
     "https://www.gov.uk/apply-30-hours-free-childcare",

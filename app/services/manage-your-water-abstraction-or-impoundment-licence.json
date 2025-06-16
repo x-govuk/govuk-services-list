@@ -5,5 +5,5 @@
   "organisation": "Environment Agency",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/manage-your-water-abstraction-or-impoundment-licences-online",
-  "liveservice": "https://manage-water-abstraction-impoundment-licence.service.gov.uk/"
+  "liveService": "https://manage-water-abstraction-impoundment-licence.service.gov.uk/"
 }

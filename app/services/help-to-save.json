@@ -5,7 +5,7 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Live",
-  "liveservice": "https://www.tax.service.gov.uk/help-to-save/access-account",
+  "liveService": "https://www.tax.service.gov.uk/help-to-save/access-account",
   "startPage": [
     "https://www.gov.uk/get-help-savings-low-income/how-to-apply",
     "https://www.gov.uk/sign-in-help-to-save"

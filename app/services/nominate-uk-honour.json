@@ -4,7 +4,7 @@
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "liveservice": "https://nominate-uk-honour.service.gov.uk",
+  "liveService": "https://nominate-uk-honour.service.gov.uk",
   "startPage": "https://www.gov.uk/honours/nominate-someone-in-the-uk",
   "sourceCode": [
     {

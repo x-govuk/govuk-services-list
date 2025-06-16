@@ -6,5 +6,5 @@
   "organisation": "Ministry of Justice",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/immigration-asylum-appeal-decisions",
-  "liveservice": "https://tribunalsdecisions.service.gov.uk"
+  "liveService": "https://tribunalsdecisions.service.gov.uk"
 }

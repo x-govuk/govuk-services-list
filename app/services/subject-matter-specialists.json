@@ -4,6 +4,6 @@
   "organisation": "Ofqual",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://subject-matter-specialists.ofqual.gov.uk/",
+  "liveService": "https://subject-matter-specialists.ofqual.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/subject-matter-specialists-for-ofqual"
 }

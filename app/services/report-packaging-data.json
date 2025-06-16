@@ -4,7 +4,7 @@
   "theme": "Business and self-employed",
   "organisation": ["Department for Environment, Food & Rural Affairs"],
   "phase": "Alpha",
-  "liveservice": "https://report-packaging-data.defra.gov.uk/report-data",
+  "liveService": "https://report-packaging-data.defra.gov.uk/report-data",
   "startPage": "https://www.gov.uk/guidance/report-packaging-data",
   "timeline": {
     "items": [

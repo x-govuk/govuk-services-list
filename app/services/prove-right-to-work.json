@@ -5,7 +5,7 @@
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://right-to-work.service.gov.uk/prove",
+  "liveService": "https://right-to-work.service.gov.uk/prove",
   "startPage": "https://www.gov.uk/prove-right-to-work",
   "timeline": {
     "items": [

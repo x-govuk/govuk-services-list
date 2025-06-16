@@ -12,7 +12,7 @@
   ],
   "theme": "Education, training and skills",
   "phase": "Live",
-  "liveservice": "https://submit-learner-data.service.gov.uk",
+  "liveService": "https://submit-learner-data.service.gov.uk",
   "timeline": {
     "items": [
       {

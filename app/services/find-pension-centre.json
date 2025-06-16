@@ -5,5 +5,5 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Live",
   "startPage": "https://www.gov.uk/find-pension-centre",
-  "liveservice": "https://findpensioncentre.dwp.gov.uk"
+  "liveService": "https://findpensioncentre.dwp.gov.uk"
 }

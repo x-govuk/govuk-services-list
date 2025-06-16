@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://schoolexperience.education.gov.uk",
+  "liveService": "https://schoolexperience.education.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

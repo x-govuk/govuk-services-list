@@ -8,7 +8,7 @@
   "organisation": "Companies House",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://find-and-update.company-information.service.gov.uk/late-filing-penalty",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/late-filing-penalty",
   "startPage": "https://www.gov.uk/pay-a-penalty-for-filing-company-accounts-late",
   "timeline": {
     "items": [

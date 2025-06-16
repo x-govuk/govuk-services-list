@@ -5,6 +5,6 @@
   "organisation": "Home Office",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "liveservice": "https://right-to-rent.service.gov.uk/prove",
+  "liveService": "https://right-to-rent.service.gov.uk/prove",
   "startPage": "https://www.gov.uk/prove-right-to-rent"
 }

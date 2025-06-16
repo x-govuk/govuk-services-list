@@ -4,7 +4,7 @@
   "theme": "Citizenship and living in the UK",
   "organisation": "Home Office",
   "phase": "Beta",
-  "liveservice": "https://www.report-terrorist-material.homeoffice.gov.uk/evidence-url",
+  "liveService": "https://www.report-terrorist-material.homeoffice.gov.uk/evidence-url",
   "startPage": "https://www.gov.uk/report-terrorism",
   "sourceCode": [
     {

@@ -4,6 +4,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/employment-intermediary-report/distribute-requests/&origin=ei-frontend",
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/employment-intermediary-report/distribute-requests/&origin=ei-frontend",
   "startPage": "https://www.gov.uk/send-employment-intermediary-report"
 }

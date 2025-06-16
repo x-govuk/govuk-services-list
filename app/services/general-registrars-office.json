@@ -8,7 +8,7 @@
     "https://www.gov.uk/order-copy-birth-death-marriage-certificate",
     "https://www.gov.uk/commemorative-marriage-certificate"
   ],
-  "liveservice": "https://www.gro.gov.uk/gro/content/certificates/default.asp",
+  "liveService": "https://www.gro.gov.uk/gro/content/certificates/default.asp",
   "tags": ["Top 75"],
   "sourceCode": [
     {

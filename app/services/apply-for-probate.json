@@ -5,7 +5,7 @@
   "organisation": "HM Courts & Tribunals Service",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/applying-for-probate/apply-for-probate",
-  "liveservice": "https://www.apply-for-probate.service.gov.uk/death-certificate",
+  "liveService": "https://www.apply-for-probate.service.gov.uk/death-certificate",
   "timeline": {
     "items": [
       {

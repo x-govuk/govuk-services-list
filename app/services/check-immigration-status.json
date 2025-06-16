@@ -4,7 +4,7 @@
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://view-immigration-status.service.gov.uk/view/checker-details",
+  "liveService": "https://view-immigration-status.service.gov.uk/view/checker-details",
   "startPage": [
     "https://www.gov.uk/check-immigration-status",
     "https://www.gov.uk/view-prove-immigration-status"

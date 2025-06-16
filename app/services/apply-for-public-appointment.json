@@ -4,6 +4,6 @@
   "organisation": "Cabinet Office",
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
-  "liveservice": "https://apply-for-public-appointment.service.gov.uk/",
+  "liveService": "https://apply-for-public-appointment.service.gov.uk/",
   "startPage": "https://www.gov.uk/public-appointments"
 }

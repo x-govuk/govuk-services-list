@@ -7,6 +7,6 @@
   "organisation": "Department of Health and Social Care",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://immigration-health-surcharge-reimbursement.service.gov.uk/student-eligibility/start",
+  "liveService": "https://immigration-health-surcharge-reimbursement.service.gov.uk/student-eligibility/start",
   "startPage": "https://www.gov.uk/apply-student-immigration-health-surcharge-refund"
 }

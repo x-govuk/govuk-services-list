@@ -4,7 +4,7 @@
   "organisation": "Department for Business and Trade",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://create-energy-label.service.gov.uk/",
+  "liveService": "https://create-energy-label.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/create-an-energy-label",
   "sourceCode": [
     {

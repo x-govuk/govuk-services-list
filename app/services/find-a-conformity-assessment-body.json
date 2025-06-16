@@ -9,6 +9,6 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/uk-conformity-assessment",
-  "liveservice": "https://find-a-conformity-assessment-body.service.gov.uk",
+  "liveService": "https://find-a-conformity-assessment-body.service.gov.uk",
   "tags": ["GOV.UK One Login"]
 }

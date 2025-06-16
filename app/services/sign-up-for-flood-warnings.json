@@ -6,7 +6,7 @@
   "organisation": "Environment Agency",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/sign-up-for-flood-warnings",
-  "liveservice": "https://www.fws.environment-agency.gov.uk/app/olr/register",
+  "liveService": "https://www.fws.environment-agency.gov.uk/app/olr/register",
   "timeline": {
     "items": [
       {

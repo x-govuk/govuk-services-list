@@ -26,16 +26,16 @@ const organisations = getOrganisations(services);
 const domains = [];
 
 const servicesWithValidDomains = services
-  .filter((service) => service.liveservice)
+  .filter((service) => service.liveService)
   .filter((service) => service.phase !== "Retired")
   .filter((service) => {
-    const { hostname } = new URL(service.liveservice);
+    const { hostname } = new URL(service.liveService);
 
     return hostname.replace(/www\./, "") !== "gov.uk";
   });
 
 for (const service of servicesWithValidDomains) {
-  const { hostname } = new URL(service.liveservice);
+  const { hostname } = new URL(service.liveService);
 
   const existingDomain = domains.find((domain) => domain.domain === hostname);
   if (existingDomain) {

@@ -4,5 +4,5 @@
   "organisation": ["Central Digital and Data Office", "Cabinet Office"],
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://ddat-capability-framework.service.gov.uk"
+  "liveService": "https://ddat-capability-framework.service.gov.uk"
 }

@@ -6,7 +6,7 @@
   "organisation": ["Home Office", "UK Visas and Immigration"],
   "phase": "Beta",
   "startPage": "https://www.gov.uk/standard-visitor-visa/apply",
-  "liveservice": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
+  "liveService": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
   "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
     "items": [

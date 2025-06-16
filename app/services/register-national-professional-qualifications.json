@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Alpha",
-  "liveservice": "https://register-national-professional-qualifications.education.gov.uk",
+  "liveService": "https://register-national-professional-qualifications.education.gov.uk",
   "startPage": "https://www.gov.uk/government/publications/national-professional-qualifications-npqs-reforms/national-professional-qualifications-npqs-reforms",
   "sourceCode": [
     {

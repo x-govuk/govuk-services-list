@@ -4,6 +4,6 @@
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://publish.bus-data.dft.gov.uk",
+  "liveService": "https://publish.bus-data.dft.gov.uk",
   "startPage": "https://www.gov.uk/guidance/publish-bus-open-data"
 }

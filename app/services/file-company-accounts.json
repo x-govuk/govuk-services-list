@@ -9,7 +9,7 @@
   "organisation": "Companies House",
   "phase": "Alpha",
   "startPage": "https://www.gov.uk/file-your-company-annual-accounts",
-  "liveservice": "https://find-and-update.company-information.service.gov.uk/accounts/corporation-tax",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/accounts/corporation-tax",
   "timeline": {
     "items": [
       {

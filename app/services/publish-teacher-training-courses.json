@@ -4,7 +4,7 @@
   "theme": "Education, training and skills",
   "organisation": "Department for Education",
   "phase": "Beta",
-  "liveservice": "https://www.publish-teacher-training-courses.service.gov.uk",
+  "liveService": "https://www.publish-teacher-training-courses.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

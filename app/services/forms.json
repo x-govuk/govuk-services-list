@@ -4,7 +4,7 @@
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://www.forms.service.gov.uk/",
+  "liveService": "https://www.forms.service.gov.uk/",
   "timeline": {
     "items": [
       {

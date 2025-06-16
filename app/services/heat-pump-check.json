@@ -5,6 +5,6 @@
   "theme": "Housing and local services",
   "organisation": "Department for Energy Security and Net Zero",
   "phase": "Beta",
-  "liveservice": "https://www.heat-pump-check.service.gov.uk/",
+  "liveService": "https://www.heat-pump-check.service.gov.uk/",
   "startPage": "https://www.gov.uk/check-heat-pump"
 }

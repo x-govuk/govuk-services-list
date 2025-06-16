@@ -6,7 +6,7 @@
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
   "startPage": "",
-  "liveservice": "https://www.tax.service.gov.uk/manage-transit-movements",
+  "liveService": "https://www.tax.service.gov.uk/manage-transit-movements",
   "timeline": {
     "items": [
       {

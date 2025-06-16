@@ -10,7 +10,7 @@
   "organisation": "Valuation Office Agency",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/sending-rental-information/login",
+  "liveService": "https://www.tax.service.gov.uk/sending-rental-information/login",
   "startPage": "https://www.gov.uk/send-rent-lease-details",
   "timeline": {
     "items": [

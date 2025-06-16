@@ -9,7 +9,7 @@
   "organisation": "Government Digital Service",
   "phase": "Live",
   "facing": "internal",
-  "liveservice": "https://www.cloud.service.gov.uk/",
+  "liveService": "https://www.cloud.service.gov.uk/",
   "timeline": {
     "items": [
       {

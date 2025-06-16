@@ -4,6 +4,6 @@
   "theme": "Crime, justice and the law",
   "organisation": "Office of the Public Guardian",
   "phase": "Beta",
-  "liveservice": "https://complete-deputy-report.service.gov.uk/",
+  "liveService": "https://complete-deputy-report.service.gov.uk/",
   "startPage": "https://www.gov.uk/government/publications/deputy-annual-report-accounting-for-your-actions"
 }

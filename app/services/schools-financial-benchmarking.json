@@ -10,7 +10,7 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/benchmark-your-schools-financial-data",
-  "liveservice": "https://schools-financial-benchmarking.service.gov.uk/",
+  "liveService": "https://schools-financial-benchmarking.service.gov.uk/",
   "timeline": {
     "items": [
       {

@@ -8,7 +8,7 @@
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://www.manage-roadworks.service.gov.uk",
+  "liveService": "https://www.manage-roadworks.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/plan-and-manage-roadworks",
   "timeline": {
     "items": [

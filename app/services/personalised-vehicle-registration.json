@@ -9,7 +9,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://www.personalisedvehicleregistration.service.gov.uk/assign/vehicle-lookup",
+  "liveService": "https://www.personalisedvehicleregistration.service.gov.uk/assign/vehicle-lookup",
   "startPage": "https://www.gov.uk/personalised-vehicle-registration-numbers/buying-a-private-number-plate",
   "tags": ["Original 25 exemplars"],
   "timeline": {

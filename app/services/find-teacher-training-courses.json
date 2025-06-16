@@ -5,7 +5,7 @@
   "organisation": "Department for Education",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/find-teacher-training-courses",
-  "liveservice": "https://find-teacher-training-courses.service.gov.uk",
+  "liveService": "https://find-teacher-training-courses.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

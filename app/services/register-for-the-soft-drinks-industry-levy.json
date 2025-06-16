@@ -5,5 +5,5 @@
   "organisation": "HM Revenue and Customs",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/register-for-the-soft-drinks-industry-levy",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/soft-drinks-industry-levy/register/start&origin=soft-drinks-industry-levy-frontend"
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/soft-drinks-industry-levy/register/start&origin=soft-drinks-industry-levy-frontend"
 }

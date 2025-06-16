@@ -5,7 +5,7 @@
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://apply-blue-badge.service.gov.uk/applicant",
+  "liveService": "https://apply-blue-badge.service.gov.uk/applicant",
   "startPage": "https://www.gov.uk/apply-blue-badge",
   "timeline": {
     "items": [

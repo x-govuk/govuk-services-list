@@ -10,7 +10,7 @@
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
   "phase": "Live",
-  "liveservice": "https://get-fishing-licence.service.gov.uk/",
+  "liveService": "https://get-fishing-licence.service.gov.uk/",
   "startPage": "https://www.gov.uk/fishing-licences/buy-a-fishing-licence",
   "tags": ["Top 75"],
   "sourceCode": [

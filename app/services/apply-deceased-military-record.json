@@ -11,7 +11,7 @@
   "organisation": "Ministry of Defence",
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
-  "liveservice": "https://www.apply-deceased-military-record.service.gov.uk/",
+  "liveService": "https://www.apply-deceased-military-record.service.gov.uk/",
   "startPage": "https://www.gov.uk/get-copy-military-service-records/apply-for-someone-elses-records",
   "tags": ["Top 75"],
   "timeline": {

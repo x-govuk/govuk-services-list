@@ -5,7 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
   "phase_modifier": "Public",
-  "liveservice": "https://www.report-benefit-fraud.service.gov.uk/details",
+  "liveService": "https://www.report-benefit-fraud.service.gov.uk/details",
   "startPage": "https://www.gov.uk/report-benefit-fraud",
   "timeline": {
     "items": [

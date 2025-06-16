@@ -4,6 +4,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://apply-for-emergency-driving-test.service.gov.uk/driving/critical_sector",
+  "liveService": "https://apply-for-emergency-driving-test.service.gov.uk/driving/critical_sector",
   "startPage": "https://www.gov.uk/apply-emergency-driving-test"
 }

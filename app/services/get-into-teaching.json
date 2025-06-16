@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://getintoteaching.education.gov.uk",
+  "liveService": "https://getintoteaching.education.gov.uk",
   "tags": ["Top 75"],
   "timeline": {
     "items": [

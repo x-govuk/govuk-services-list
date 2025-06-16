@@ -6,7 +6,7 @@
   "organisation": ["HM Revenue and Customs", "Companies House"],
   "phase": "Alpha",
   "startPage": "https://www.gov.uk/limited-company-formation/register-your-company?step-by-step-nav=37e4c035-b25c-4289-b85c-c6d36d11a763",
-  "liveservice": "https://www.tax.service.gov.uk/register-your-company/setting-up-new-limited-company",
+  "liveService": "https://www.tax.service.gov.uk/register-your-company/setting-up-new-limited-company",
   "timeline": {
     "items": [
       {

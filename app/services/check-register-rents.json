@@ -5,6 +5,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/check-register-fair-rents/search",
+  "liveService": "https://www.tax.service.gov.uk/check-register-fair-rents/search",
   "startPage": "https://www.gov.uk/check-register-rents"
 }

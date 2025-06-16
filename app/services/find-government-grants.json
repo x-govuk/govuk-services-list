@@ -6,7 +6,7 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/guidance/find-government-grants",
-  "liveservice": "https://www.find-government-grants.service.gov.uk",
+  "liveService": "https://www.find-government-grants.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

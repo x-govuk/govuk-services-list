@@ -8,5 +8,5 @@
   "organisation": ["Home Office", "UK Visas and Immigration"],
   "phase": "Beta",
   "startPage": "https://www.gov.uk/apply-british-citizenship-person-chagossian-descent",
-  "liveservice": "https://visas-immigration.service.gov.uk/product/nationality-biot"
+  "liveService": "https://visas-immigration.service.gov.uk/product/nationality-biot"
 }

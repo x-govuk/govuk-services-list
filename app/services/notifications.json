@@ -5,7 +5,7 @@
   "organisation": "Government Digital Service",
   "phase": "Beta",
   "facing": "internal",
-  "liveservice": "https://www.notifications.service.gov.uk/",
+  "liveService": "https://www.notifications.service.gov.uk/",
   "timeline": {
     "items": [
       {

@@ -5,6 +5,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
   "phase": "Live",
-  "liveservice": "https://www.tax.service.gov.uk/check-the-awrs-register",
+  "liveService": "https://www.tax.service.gov.uk/check-the-awrs-register",
   "startPage": "https://www.gov.uk/check-alcohol-wholesaler-registration"
 }

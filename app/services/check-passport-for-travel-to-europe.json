@@ -4,6 +4,6 @@
   "organisation": "HM Passport Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Retired",
-  "liveservice": "https://check-passport-for-travel-to-europe.homeoffice.gov.uk/",
+  "liveService": "https://check-passport-for-travel-to-europe.homeoffice.gov.uk/",
   "startPage": "https://www.gov.uk/check-a-passport-travel-europe"
 }

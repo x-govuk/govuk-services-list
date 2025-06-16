@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://manage-training-for-early-career-teachers.education.gov.uk",
+  "liveService": "https://manage-training-for-early-career-teachers.education.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

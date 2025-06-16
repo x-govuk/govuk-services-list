@@ -4,6 +4,6 @@
   "theme": "Environment and countryside",
   "organisation": ["Department for Environment, Food & Rural Affairs"],
   "phase": "Beta",
-  "liveservice": "https://apply-deal-ivory.service.gov.uk/",
+  "liveService": "https://apply-deal-ivory.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/declare-ivory-you-intend-to-sell-or-hire-out"
 }

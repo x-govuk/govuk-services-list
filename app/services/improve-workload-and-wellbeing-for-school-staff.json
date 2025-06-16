@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://improve-workload-and-wellbeing-for-school-staff.education.gov.uk",
+  "liveService": "https://improve-workload-and-wellbeing-for-school-staff.education.gov.uk",
   "startPage": "https://www.gov.uk/guidance/improve-workload-and-wellbeing-for-school-staff",
   "sourceCode": [
     {

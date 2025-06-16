@@ -4,7 +4,7 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "Beta",
-  "liveservice": "https://driverpracticaltest.dvsa.gov.uk/application",
+  "liveService": "https://driverpracticaltest.dvsa.gov.uk/application",
   "startPage": [
     "https://www.gov.uk/book-driving-test",
     "https://www.gov.uk/check-driving-test"

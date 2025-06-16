@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
   "phase": "Retired",
-  "liveservice": "https://manage-family-support-services-and-accounts.education.gov.uk/",
+  "liveService": "https://manage-family-support-services-and-accounts.education.gov.uk/",
   "tags": ["GOV.UK One Login"],
   "sourceCode": [
     {

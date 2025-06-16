@@ -6,7 +6,7 @@
   "organisation": "HM Courts & Tribunals Service",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/reply-jury-summons",
-  "liveservice": "https://reply-jury-summons.service.gov.uk/steps/00-responder-type?clang=en",
+  "liveService": "https://reply-jury-summons.service.gov.uk/steps/00-responder-type?clang=en",
   "timeline": {
     "items": [
       {

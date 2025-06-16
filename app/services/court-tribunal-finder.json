@@ -4,6 +4,6 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "liveservice": "https://www.find-court-tribunal.service.gov.uk",
+  "liveService": "https://www.find-court-tribunal.service.gov.uk",
   "startPage": "https://www.gov.uk/find-court-tribunal"
 }

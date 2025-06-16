@@ -4,7 +4,7 @@
   "theme": "Housing and local services",
   "organisation": "Land Registry",
   "phase": "Beta",
-  "liveservice": "https://search-property-information.service.gov.uk/",
+  "liveService": "https://search-property-information.service.gov.uk/",
   "startPage": "https://www.gov.uk/search-property-information-land-registry",
   "tags": ["Original 25 exemplars"]
 }

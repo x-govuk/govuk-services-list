@@ -5,7 +5,7 @@
   "organisation": "Cabinet Office",
   "theme": "Driving and transport",
   "phase": "Retired",
-  "liveservice": "https://check-hgv-border-readiness.service.gov.uk/start-kent-access-permit",
+  "liveService": "https://check-hgv-border-readiness.service.gov.uk/start-kent-access-permit",
   "startPage": "https://www.gov.uk/check-hgv-border",
   "timeline": {
     "items": [

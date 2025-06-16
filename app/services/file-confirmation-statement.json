@@ -8,7 +8,7 @@
   "organisation": "Companies House",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://find-and-update.company-information.service.gov.uk/confirmation-statement",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/confirmation-statement",
   "startPage": [
     "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
     "https://www.gov.uk/file-changes-to-a-company-with-companies-house"

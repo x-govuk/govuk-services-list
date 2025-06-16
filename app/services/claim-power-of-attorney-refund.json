@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Office of the Public Guardian",
   "phase": "Retired",
-  "liveservice": "https://claim-power-of-attorney-refund.service.gov.uk/when-were-fees-paid",
+  "liveService": "https://claim-power-of-attorney-refund.service.gov.uk/when-were-fees-paid",
   "startPage": "https://www.gov.uk/power-of-attorney-refund",
   "timeline": {
     "items": [

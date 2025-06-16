@@ -8,7 +8,7 @@
   "organisation": "NHS Business Services Authority",
   "theme": "Money and tax",
   "phase": "Beta",
-  "liveservice": "https://services.nhsbsa.nhs.uk/buy-prescription-prepayment-certificate/start",
+  "liveService": "https://services.nhsbsa.nhs.uk/buy-prescription-prepayment-certificate/start",
   "startPage": "https://www.gov.uk/get-a-ppc",
   "timeline": {
     "items": [

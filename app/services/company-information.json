@@ -5,7 +5,7 @@
   "organisation": "Companies House",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://find-and-update.company-information.service.gov.uk",
+  "liveService": "https://find-and-update.company-information.service.gov.uk",
   "startPage": "https://www.gov.uk/get-information-about-a-company",
   "tags": ["GOV.UK One Login"]
 }

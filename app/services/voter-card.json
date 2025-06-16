@@ -6,7 +6,7 @@
   "phase": "Beta",
   "tags": ["Top 75"],
   "startPage": "https://www.gov.uk/apply-for-photo-id-voter-authority-certificate",
-  "liveservice": "https://voter-authority-certificate.service.gov.uk/start",
+  "liveService": "https://voter-authority-certificate.service.gov.uk/start",
   "timeline": {
     "items": [
       {

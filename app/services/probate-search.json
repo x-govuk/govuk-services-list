@@ -5,7 +5,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "liveservice": "https://probatesearch.service.gov.uk",
+  "liveService": "https://probatesearch.service.gov.uk",
   "startPage": [
     "https://www.gov.uk/probate-search",
     "https://www.gov.uk/search-will-probate"

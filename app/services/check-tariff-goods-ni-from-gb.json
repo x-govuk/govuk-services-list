@@ -5,5 +5,5 @@
   "organisation": "HM Revenue and Customs",
   "phase": "Live",
   "startPage": "https://www.gov.uk/check-tariff-goods-ni-from-gb",
-  "liveservice": "https://www.tax.service.gov.uk/guidance/tariff-on-goods-brought-into-NI/start"
+  "liveService": "https://www.tax.service.gov.uk/guidance/tariff-on-goods-brought-into-NI/start"
 }

@@ -59,8 +59,8 @@ repos.each do |repo|
       next if ignored_url_hosts.include?(homepage_url.host)
 
       existing_service_with_same_url = existing_services.detect do |s|
-        s['liveservice'] &&
-        URI.parse(s['liveservice']).host == homepage_url.host
+        s['liveService'] &&
+        URI.parse(s['liveService']).host == homepage_url.host
       end
 
       if existing_service_with_same_url

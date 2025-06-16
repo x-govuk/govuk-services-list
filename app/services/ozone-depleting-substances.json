@@ -4,6 +4,6 @@
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
   "phase": "Beta",
-  "liveservice": "https://apply-licence.ozone-depleting-substances.service.gov.uk/",
+  "liveService": "https://apply-licence.ozone-depleting-substances.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/applying-for-a-licence-to-import-or-export-ozone-depleting-substances"
 }

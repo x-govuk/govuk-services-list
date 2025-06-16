@@ -10,7 +10,7 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://comply-chemical-regulations.service.gov.uk/",
+  "liveService": "https://comply-chemical-regulations.service.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/how-to-comply-with-reach-chemical-regulations#manage-your-chemicals-on-uk-reach",
   "tags": ["Top 75"],
   "timeline": {

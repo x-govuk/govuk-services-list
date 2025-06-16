@@ -4,7 +4,7 @@
   "organisation": "Department for Work and Pensions",
   "theme": "Working, jobs and pensions",
   "phase": "unknown",
-  "liveservice": "https://findajob.dwp.gov.uk",
+  "liveService": "https://findajob.dwp.gov.uk",
   "startPage": [
     "https://www.gov.uk/find-a-job",
     "https://www.gov.uk/advertise-job"

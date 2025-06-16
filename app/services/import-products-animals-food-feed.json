@@ -6,7 +6,7 @@
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Live",
   "startPage": "https://www.gov.uk/guidance/import-of-products-animals-food-and-feed-system",
-  "liveservice": "https://import-products-animals-food-feed.service.gov.uk/notification/prd/protected/notifications",
+  "liveService": "https://import-products-animals-food-feed.service.gov.uk/notification/prd/protected/notifications",
   "timeline": {
     "items": [
       {

@@ -6,5 +6,5 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "Live",
   "startPage": "https://www.gov.uk/check-driving-information",
-  "liveservice": "https://www.viewdrivingrecord.service.gov.uk/lang/en/driving-record/validate"
+  "liveService": "https://www.viewdrivingrecord.service.gov.uk/lang/en/driving-record/validate"
 }

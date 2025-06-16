@@ -6,7 +6,7 @@
   "organisation": "Land Registry",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/search-local-land-charges",
-  "liveservice": "https://search-local-land-charges.service.gov.uk",
+  "liveService": "https://search-local-land-charges.service.gov.uk",
   "timeline": {
     "items": [
       {

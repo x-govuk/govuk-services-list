@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://get-information-pupils.service.gov.uk/",
+  "liveService": "https://get-information-pupils.service.gov.uk/",
   "timeline": {
     "items": [
       {

@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
   "phase": "Retired",
-  "liveservice": "https://www.find-support-for-your-family.education.gov.uk",
+  "liveService": "https://www.find-support-for-your-family.education.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

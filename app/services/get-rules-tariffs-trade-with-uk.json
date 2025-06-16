@@ -5,7 +5,7 @@
   "organisation": "Department for International Trade",
   "theme": "Money and tax",
   "phase": "Retired",
-  "liveservice": "https://www.get-rules-tariffs-trade-with-uk.service.gov.uk/choose-country/",
+  "liveService": "https://www.get-rules-tariffs-trade-with-uk.service.gov.uk/choose-country/",
   "startPage": "https://www.gov.uk/get-rules-tariffs-trade-with-uk",
   "timeline": {
     "items": [

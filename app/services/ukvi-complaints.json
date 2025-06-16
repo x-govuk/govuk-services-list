@@ -5,6 +5,6 @@
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveservice": "https://www.ukvi-complaints.homeoffice.gov.uk/reason",
+  "liveService": "https://www.ukvi-complaints.homeoffice.gov.uk/reason",
   "startPage": "https://www.gov.uk/complain-uk-visas-immigration"
 }

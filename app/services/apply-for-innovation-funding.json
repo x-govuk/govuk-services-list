@@ -9,7 +9,7 @@
   "organisation": "Innovate UK",
   "phase": "Beta",
   "phase_modifier": "Public",
-  "liveservice": "https://apply-for-innovation-funding.service.gov.uk",
+  "liveService": "https://apply-for-innovation-funding.service.gov.uk",
   "startPage": "https://www.gov.uk/apply-funding-innovation",
   "video": "YgWbfuxffj8",
   "sourceCode": [

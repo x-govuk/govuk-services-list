@@ -4,7 +4,7 @@
   "organisation": "Ministry of Justice",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://helpwithchildarrangements.service.justice.gov.uk",
+  "liveService": "https://helpwithchildarrangements.service.justice.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

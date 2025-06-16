@@ -4,6 +4,6 @@
   "organisation": "Ministry of Housing, Communities & Local Government",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveservice": "https://apply-to-offer-homes-for-ukraine.service.gov.uk/individual/steps/1",
+  "liveService": "https://apply-to-offer-homes-for-ukraine.service.gov.uk/individual/steps/1",
   "startPage": "https://www.gov.uk/register-interest-homes-ukraine"
 }

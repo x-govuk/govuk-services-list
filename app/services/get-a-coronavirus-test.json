@@ -8,6 +8,6 @@
   "organisation": "NHS England",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
+  "liveService": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
   "startPage": "https://www.gov.uk/get-coronavirus-test"
 }

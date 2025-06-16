@@ -120,16 +120,16 @@ if (services.length === 0) {
       fs.readFileSync(`${servicesFolder}/${service}.json`).toString(),
     );
 
-    if (project.liveservice && project.phase !== "Retired") {
+    if (project.liveService && project.phase !== "Retired") {
       try {
-        await page.goto(project.liveservice);
+        await page.goto(project.liveService);
         await page.mouse.click(0, 0, {
           delay: delayInSeconds * 1000,
         });
         await page.screenshot({ path: `${screenshotsFolder}/${service}.png` });
         process.stdout.write(".");
       } catch (error) {
-        console.warn(`Error fetching ${project.liveservice}`);
+        console.warn(`Error fetching ${project.liveService}`);
         console.error(error);
       }
     }

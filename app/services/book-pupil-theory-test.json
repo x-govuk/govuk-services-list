@@ -5,7 +5,7 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://www.trainer.book-theory-test.service.gov.uk/",
+  "liveService": "https://www.trainer.book-theory-test.service.gov.uk/",
   "startPage": "https://www.gov.uk/book-pupil-theory-test",
   "timeline": {
     "items": [

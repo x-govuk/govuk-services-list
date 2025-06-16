@@ -5,7 +5,7 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Live",
-  "liveservice": "https://www.gov.uk/foreign-travel-advice",
+  "liveService": "https://www.gov.uk/foreign-travel-advice",
   "tags": ["Top 75"],
   "sourceCode": [
     {

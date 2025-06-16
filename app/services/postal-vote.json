@@ -5,5 +5,5 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/apply-postal-vote",
-  "liveservice": "https://postal-vote.service.gov.uk/start"
+  "liveService": "https://postal-vote.service.gov.uk/start"
 }

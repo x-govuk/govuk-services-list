@@ -6,5 +6,5 @@
   "organisation": "Department for Work and Pensions",
   "phase": "Live",
   "startPage": "https://www.gov.uk/carers-allowance-report-change",
-  "liveservice": "https://www.carersallowance.service.gov.uk/circumstances/report-changes/selection"
+  "liveService": "https://www.carersallowance.service.gov.uk/circumstances/report-changes/selection"
 }

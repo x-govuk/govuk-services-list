@@ -9,7 +9,7 @@
     "https://www.gov.uk/report-teacher-misconduct",
     "https://www.gov.uk/guidance/teacher-misconduct-referring-a-case"
   ],
-  "liveservice": "https://refer-serious-misconduct.education.gov.uk/start",
+  "liveService": "https://refer-serious-misconduct.education.gov.uk/start",
   "sourceCode": [
     {
       "text": "Source code",

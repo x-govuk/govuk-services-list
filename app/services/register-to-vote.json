@@ -10,6 +10,6 @@
     "https://www.gov.uk/register-to-vote-armed-forces",
     "https://www.gov.uk/register-to-vote-crown-servants-british-council-employees"
   ],
-  "liveservice": "https://www.registertovote.service.gov.uk/register-to-vote/start",
+  "liveService": "https://www.registertovote.service.gov.uk/register-to-vote/start",
   "tags": ["Top 75", "Original 25 exemplars"]
 }

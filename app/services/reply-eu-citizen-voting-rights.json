@@ -5,7 +5,7 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/reply-to-electoral-registration-office-about-your-voting-rights",
-  "liveservice": "https://reply-eu-citizen-voting-rights.service.gov.uk/start",
+  "liveService": "https://reply-eu-citizen-voting-rights.service.gov.uk/start",
   "timeline": {
     "items": [
       {

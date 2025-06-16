@@ -4,6 +4,6 @@
   "organisation": "Maritime and Coastguard Agency",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://register-406-beacons.service.gov.uk/account/sign-up-or-sign-in",
+  "liveService": "https://register-406-beacons.service.gov.uk/account/sign-up-or-sign-in",
   "startPage": "https://www.gov.uk/register-406-beacons"
 }

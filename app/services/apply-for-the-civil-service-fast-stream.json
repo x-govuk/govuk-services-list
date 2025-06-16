@@ -4,7 +4,7 @@
   "theme": "Working, jobs and pensions",
   "organisation": "Civil Service Fast Stream",
   "phase": "Retired",
-  "liveservice": "https://www.apply-civil-service-fast-stream.service.gov.uk/fset-fast-stream/signup",
+  "liveService": "https://www.apply-civil-service-fast-stream.service.gov.uk/fset-fast-stream/signup",
   "startPage": "https://www.gov.uk/government/organisations/civil-service-fast-stream",
   "timeline": {
     "items": [

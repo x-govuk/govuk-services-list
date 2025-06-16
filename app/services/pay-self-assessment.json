@@ -11,7 +11,7 @@
   "theme": "Money and tax",
   "phase": "beta",
   "tags": ["Top 75", "Original 25 exemplars"],
-  "liveservice": "https://www.tax.service.gov.uk/direct-debit/route-to-direct-debit",
+  "liveService": "https://www.tax.service.gov.uk/direct-debit/route-to-direct-debit",
   "startPage": [
     "https://www.gov.uk/pay-self-assessment-tax-bill",
     "https://www.gov.uk/pay-tax-direct-debit",

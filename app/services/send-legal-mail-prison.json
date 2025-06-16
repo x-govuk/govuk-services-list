@@ -4,7 +4,7 @@
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
   "phase": "Beta",
-  "liveservice": "https://send-legal-mail.prison.service.justice.gov.uk/oneTimeCode/request-code",
+  "liveService": "https://send-legal-mail.prison.service.justice.gov.uk/oneTimeCode/request-code",
   "sourceCode": [
     {
       "text": "Source code",

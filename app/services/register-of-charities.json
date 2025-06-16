@@ -8,6 +8,6 @@
   "organisation": "The Charity Commission",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveservice": "https://register-of-charities.charitycommission.gov.uk/charity-search",
+  "liveService": "https://register-of-charities.charitycommission.gov.uk/charity-search",
   "startPage": "https://www.gov.uk/find-charity-information"
 }

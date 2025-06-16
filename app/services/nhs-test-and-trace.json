@@ -5,7 +5,7 @@
   "organisation": "Department of Health and Social Care",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Retired",
-  "liveservice": "https://contact-tracing.phe.gov.uk",
+  "liveService": "https://contact-tracing.phe.gov.uk",
   "startPage": "https://www.gov.uk/guidance/nhs-test-and-trace-how-it-works",
   "timeline": {
     "items": [

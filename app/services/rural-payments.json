@@ -8,7 +8,7 @@
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "phase": "Beta",
-  "liveservice": "https://www.ruralpayments.service.gov.uk/",
+  "liveService": "https://www.ruralpayments.service.gov.uk/",
   "startPage": "https://www.gov.uk/claim-rural-payments",
   "tags": ["Top 75", "Original 25 exemplars"]
 }

@@ -8,7 +8,7 @@
     "Department for Environment, Food & Rural Affairs"
   ],
   "phase": "Beta",
-  "liveservice": "https://exporter.apply-export-health-certificate.service.gov.uk",
+  "liveService": "https://exporter.apply-export-health-certificate.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/get-an-export-health-certificate",
   "tags": ["Top 75"]
 }

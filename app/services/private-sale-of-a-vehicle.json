@@ -5,5 +5,5 @@
   "phase": "Beta",
   "theme": "Driving and transport",
   "startPage": "https://www.gov.uk/sold-bought-vehicle/y/no/sold-it/sold-it-privately-to-a-person-or-business",
-  "liveservice": "https://www.buysellvehicle.service.gov.uk/sell-private/vehicle-lookup"
+  "liveService": "https://www.buysellvehicle.service.gov.uk/sell-private/vehicle-lookup"
 }

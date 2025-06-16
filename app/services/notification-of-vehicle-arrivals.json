@@ -5,5 +5,5 @@
   "theme": "Driving and transport",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/nova-log-in",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/nova/normal&origin=NOVA-frontend"
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/nova/normal&origin=NOVA-frontend"
 }

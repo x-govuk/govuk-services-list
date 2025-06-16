@@ -4,6 +4,6 @@
   "organisation": "Ofsted",
   "theme": "Childcare and parenting",
   "phase": "Beta",
-  "liveservice": "https://www.register-nursery-daycare.service.gov.uk/submissions/new-form/EYO",
+  "liveService": "https://www.register-nursery-daycare.service.gov.uk/submissions/new-form/EYO",
   "startPage": "https://www.gov.uk/guidance/apply-to-register-your-nursery-or-other-daycare-organisation-eyo"
 }

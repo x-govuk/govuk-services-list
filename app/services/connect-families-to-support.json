@@ -4,7 +4,7 @@
   "organisation": "Department for Education",
   "theme": "Childcare and parenting",
   "phase": "Retired",
-  "liveservice": "https://connect-families-to-support.education.gov.uk",
+  "liveService": "https://connect-families-to-support.education.gov.uk",
   "tags": ["GOV.UK One Login"],
   "sourceCode": [
     {

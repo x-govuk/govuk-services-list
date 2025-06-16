@@ -5,7 +5,7 @@
   "organisation": "Environment Agency",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/check-flooding",
-  "liveservice": "https://check-for-flooding.service.gov.uk",
+  "liveService": "https://check-for-flooding.service.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

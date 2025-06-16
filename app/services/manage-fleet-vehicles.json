@@ -9,5 +9,5 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "phase": "live",
   "startPage": "https://www.gov.uk/dvla-fleet-vehicle-info",
-  "liveservice": "https://www.managefleetvehicles.service.gov.uk/"
+  "liveService": "https://www.managefleetvehicles.service.gov.uk/"
 }

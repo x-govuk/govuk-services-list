@@ -4,7 +4,7 @@
   "organisation": "Social Mobility Commission",
   "phase": "Beta",
   "theme": "Citizenship and living in the UK",
-  "liveservice": "https://social-mobility.data.gov.uk",
+  "liveService": "https://social-mobility.data.gov.uk",
   "timeline": {
     "items": [
       {

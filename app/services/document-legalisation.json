@@ -5,7 +5,7 @@
   "theme": "Passports, travel and living abroad",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/get-document-legalised",
-  "liveservice": "https://www.get-document-legalised.service.gov.uk/select-service",
+  "liveService": "https://www.get-document-legalised.service.gov.uk/select-service",
   "sourceCode": [
     {
       "text": "Source code",

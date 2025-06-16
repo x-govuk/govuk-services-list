@@ -5,6 +5,6 @@
   "organisation": "HM Revenue and Customs",
   "theme": "Money and tax",
   "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/register-charity-hmrc/check-eligibility/register-the-charity",
+  "liveService": "https://www.tax.service.gov.uk/register-charity-hmrc/check-eligibility/register-the-charity",
   "startPage": "https://www.gov.uk/charity-recognition-hmrc"
 }

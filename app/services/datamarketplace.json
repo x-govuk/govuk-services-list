@@ -4,7 +4,7 @@
   "organisation": "Department for Science, Innovation and Technology",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://datamarketplace.gov.uk",
+  "liveService": "https://datamarketplace.gov.uk",
   "timeline": {
     "items": [
       {

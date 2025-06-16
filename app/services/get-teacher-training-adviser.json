@@ -5,7 +5,7 @@
   "organisation": "Department for Education",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveservice": "https://getintoteaching.education.gov.uk/teacher-training-adviser/sign_up/identity",
+  "liveService": "https://getintoteaching.education.gov.uk/teacher-training-adviser/sign_up/identity",
   "sourceCode": [
     {
       "text": "Source code",

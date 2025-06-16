@@ -11,7 +11,7 @@
   "organisation": "Ministry of Justice",
   "phase": "Live",
   "startPage": "https://www.gov.uk/guidance/claim-for-criminal-legal-work-under-graduated-fee-schemes",
-  "liveservice": "https://claim-crown-court-defence.service.gov.uk/",
+  "liveService": "https://claim-crown-court-defence.service.gov.uk/",
   "timeline": {
     "items": [
       {

@@ -9,7 +9,7 @@
   "organisation": "Government Digital Service",
   "theme": "Government Internal",
   "phase": "Beta",
-  "liveservice": "https://www.sign-in.service.gov.uk",
+  "liveService": "https://www.sign-in.service.gov.uk",
   "sourceCode": [
     {
       "text": "Product page source code",

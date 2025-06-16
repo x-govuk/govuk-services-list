@@ -5,7 +5,7 @@
   "organisation": "Department for Work and Pensions",
   "theme": "Benefits",
   "phase": "Alpha",
-  "liveservice": "https://apply-for-pension-credit.service.gov.uk/",
+  "liveService": "https://apply-for-pension-credit.service.gov.uk/",
   "startPage": "https://www.gov.uk/pension-credit/how-to-claim",
   "tags": ["Top 75"],
   "timeline": {

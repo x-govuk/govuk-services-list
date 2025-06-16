@@ -4,6 +4,6 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Coronavirus (COVID-19)",
   "phase": "Beta",
-  "liveservice": "https://apply-for-coronavirus-overseas-loan.service.gov.uk",
+  "liveService": "https://apply-for-coronavirus-overseas-loan.service.gov.uk",
   "startPage": "https://www.gov.uk/apply-loan-overseas-coronavirus"
 }

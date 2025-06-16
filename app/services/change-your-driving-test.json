@@ -4,6 +4,6 @@
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "Beta",
-  "liveservice": "https://driverpracticaltest.dvsa.gov.uk/login",
+  "liveService": "https://driverpracticaltest.dvsa.gov.uk/login",
   "startPage": ["https://www.gov.uk/change-driving-test"]
 }

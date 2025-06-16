@@ -7,7 +7,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveservice": "https://apply-driver-digital-tachograph-card.service.gov.uk/",
+  "liveService": "https://apply-driver-digital-tachograph-card.service.gov.uk/",
   "startPage": "https://www.gov.uk/apply-driver-digital-tachograph-card",
   "tags": ["Top 75"],
   "timeline": {

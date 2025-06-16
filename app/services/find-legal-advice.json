@@ -4,7 +4,7 @@
   "organisation": "Legal Aid Agency",
   "theme": "Crime, justice and the law",
   "phase": "Beta",
-  "liveservice": "https://find-legal-advice.justice.gov.uk",
+  "liveService": "https://find-legal-advice.justice.gov.uk",
   "sourceCode": [
     {
       "text": "Source code",

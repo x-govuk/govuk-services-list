@@ -10,7 +10,7 @@
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/veteran-card",
-  "liveservice": "https://apply-for-a-veterans-card.service.gov.uk/",
+  "liveService": "https://apply-for-a-veterans-card.service.gov.uk/",
   "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
