@@ -3,16 +3,18 @@ import path from "node:path";
 
 import govukPrototypeFilters from "@x-govuk/govuk-prototype-filters";
 import express from "express";
-import nunjucks from "nunjucks";
 
 import exemplars from "./data/exemplars.json" with { type: "json" };
 import ignoredVerbs from "./data/ignored-verbs.json" with { type: "json" };
 import organisations from "./data/organisations.json" with { type: "json" };
 import phases from "./data/phases.json" with { type: "json" };
 import themes from "./data/themes.json" with { type: "json" };
+import { nunjucksEnv } from "./lib/nunjucks.js";
 
 const app = express();
 const port = process.env.PORT || 3100;
+
+nunjucksEnv(app);
 
 const events = [];
 const services = [];
@@ -157,29 +159,6 @@ aToZ = Object.entries(aToZ)
     index,
     services: services.sort((a, b) => a.name.localeCompare(b.name)),
   }));
-
-const env = nunjucks.configure(
-  [
-    "app/views/",
-    "node_modules/govuk-frontend/dist",
-    "node_modules/@x-govuk/govuk-prototype-components/src",
-  ],
-  {
-    autoescape: true,
-    express: app,
-    watch: process.env.ENV === "development",
-  },
-);
-
-env.addFilter("find", (array, key, value) =>
-  array.find((item) => item[key] === value),
-);
-
-env.addFilter("govukDate", govukPrototypeFilters.govukDate);
-
-env.addFilter("plural", govukPrototypeFilters.plural);
-
-env.addFilter("slugify", govukPrototypeFilters.slugify);
 
 app.locals.aToZ = aToZ;
 app.locals.domains = domains;
