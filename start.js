@@ -8,6 +8,7 @@ import exemplars from "./data/exemplars.json" with { type: "json" };
 import phases from "./data/phases.json" with { type: "json" };
 import themes from "./data/themes.json" with { type: "json" };
 import {
+  getAtoZ,
   getDomains,
   getEvents,
   getOrganisations,
@@ -24,18 +25,7 @@ nunjucksEnv(app);
 const services = await getServices();
 const organisations = getOrganisations(services);
 
-let aToZ = Object.groupBy(services, (service) =>
-  service.name.charAt(0).toUpperCase(),
-);
-
-aToZ = Object.entries(aToZ)
-  .sort(([a], [b]) => a.localeCompare(b))
-  .map(([index, services]) => ({
-    index,
-    services: services.sort((a, b) => a.name.localeCompare(b.name)),
-  }));
-
-app.locals.aToZ = aToZ;
+app.locals.aToZ = getAtoZ(services);
 app.locals.domains = getDomains(services);
 app.locals.events = getEvents(services);
 app.locals.exemplars = exemplars;
