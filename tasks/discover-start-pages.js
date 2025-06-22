@@ -1,32 +1,12 @@
-import fs from "node:fs";
-import path from "node:path";
+import ignoredStartPages from "../data/ignored-start-pages.json" with { type: "json" };
+import { getServices } from "../lib/data.js";
 
+const services = await getServices();
 const existingStartPages = [];
 const newStartPages = [];
 
-const servicesFolder = path.join(import.meta.dirname, "..", "app", "services");
-const tasksFolder = path.join(import.meta.dirname, "..", "tasks");
-const services = [];
-
-fs.readdirSync(servicesFolder).forEach(function (filename) {
-  if (filename !== "_template.json" && filename.endsWith(".json")) {
-    services.push(filename.replace(".json", ""));
-  }
-});
-
-const ignoredStartPages = fs
-  .readFileSync(`${tasksFolder}/ignored_start_page_urls.txt`)
-  .toString()
-  .split("\n");
-
-for (let service of services) {
-  service = service.replace(".json", "");
-
-  const project = JSON.parse(
-    fs.readFileSync(`${servicesFolder}/${service}.json`).toString(),
-  );
-
-  const startPages = project.startPage;
+for (const service of services) {
+  const startPages = service.startPage;
 
   if (Array.isArray(startPages)) {
     existingStartPages.push(...startPages);
