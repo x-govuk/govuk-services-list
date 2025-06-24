@@ -36,7 +36,7 @@
     "@x-govuk/govuk-prototype-filters": "^2.0.0",
     "dotenv": "^16.4.7",
     "express": "~5.1.0",
-    "govuk-frontend": "^5.10.2",
+    "govuk-frontend": "^5.11.0",
     "nunjucks": "^3.2.4",
     "sass": "^1.89.1"
   },
