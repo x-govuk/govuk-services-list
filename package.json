@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
-    "prettier": "^3.5.3",
+    "prettier": "^3.6.1",
     "puppeteer-core": "^24.10.0",
     "stylelint": "^16.20.0",
     "stylelint-config-gds": "^2.0.0",
