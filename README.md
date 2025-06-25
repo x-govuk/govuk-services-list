@@ -54,4 +54,4 @@ You can also update all the screenshots (which will take a while) by running thi
 
 `npm run screenshots all`
 
-Screenshots will be saved in the `app/assets/images/service-screenshots` folder, using the same name as the json file within `app/services`. Images are all 2160×2160 pixels (1080x1080 at 2× resolution), and will be rendered with no cookies set (so will include any cookie banner).
+Screenshots will be saved in the `app/assets/images/service-screenshots` folder, using the same name as the json file within `data/services`. Images are all 2160×2160 pixels (1080x1080 at 2× resolution), and will be rendered with no cookies set (so will include any cookie banner).
