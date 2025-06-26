@@ -67,7 +67,7 @@ const servicesToSkip = [
   "view-the-orphan-works-register",
 ];
 
-const servicesFolder = path.join(import.meta.dirname, "..", "app", "services");
+const servicesFolder = path.join(import.meta.dirname, "..", "data", "services");
 const screenshotsFolder = path.join(
   import.meta.dirname,
   "..",

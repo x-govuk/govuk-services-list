@@ -17,7 +17,7 @@ If a service you know of is missing, you can add it by following these steps:
 1. Visit the list of services in GitHub.
 2. Click on the ‘Create new file’ button
 3. In the box labelled ‘Name your file’, type in the name of the service you want to add in lowercase, with spaces replaced by hyphens, followed by ‘.json’. For example, `check-your-state-pension.json`.
-4. In the larger empty box below, copy and paste the contents of [the service template file](https://raw.githubusercontent.com/x-govuk/govuk-services/main/app/services/_template.json).
+4. In the larger empty box below, copy and paste the contents of [the service template file](https://raw.githubusercontent.com/x-govuk/govuk-services/main/data/services/_template.json).
 5. Replace all the relevant fields with details about the service you’re adding (for example, name and organisation). Any that you don’t know should be left blank.
 6. Click the ‘Propose new file’ button
 7. Click the ‘Create pull request’ button.
