@@ -12,6 +12,7 @@
 </header>
 
 {{ govukServiceNavigation({
+  classes: "govuk-service-navigation--inverse" if productPage,
   serviceName: "GOV.UK Services List",
   serviceUrl: "/",
   navigation: [{
