@@ -15,8 +15,8 @@ $_font-family: system-ui, sans-serif;
 @forward "pkg:@x-govuk/govuk-prototype-components/masthead";
 
 // Application components
-@use "list";
-@use "screenshot";
-@use "tag";
-@use "timeline";
-@use "video";
+@forward "list";
+@forward "screenshot";
+@forward "tag";
+@forward "timeline";
+@forward "video";

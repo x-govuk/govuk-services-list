@@ -16,9 +16,10 @@
     "url": "git+https://github.com/x-govuk/govuk-services-list.git"
   },
   "scripts": {
-    "sass": "npx sass --pkg-importer=node --load-path=. --quiet-deps app/assets/sass/application.scss static/application.css",
-    "start": "npm run sass && node start.js",
-    "dev": "npm run watch & node start.js",
+    "assets:build": "node tasks/build-assets.js",
+    "assets:watch": "node tasks/build-assets.js --watch",
+    "start": "npm run assets:build && node start.js",
+    "dev": "npm run assets:watch & node start.js",
     "lint:prettier": "prettier . --check",
     "lint:prettier:fix": "prettier . --write",
     "lint:js": "eslint '**/*.js'",
@@ -27,7 +28,6 @@
     "lint:scss:fix": "stylelint '**/*.scss' --fix",
     "lint": "npm run lint:prettier && npm run lint:js && npm run lint:scss",
     "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix && npm run lint:scss:fix",
-    "watch": "sass --pkg-importer=node --load-path=. --quiet-deps --watch app/assets/sass/application.scss static/application.css",
     "screenshots": "npx node tasks/screenshot-services.js",
     "discover-start-pages": "npx node tasks/discover-start-pages.js"
   },
@@ -35,6 +35,7 @@
     "@x-govuk/govuk-prototype-components": "^4.0.1",
     "@x-govuk/govuk-prototype-filters": "^2.0.0",
     "dotenv": "^16.4.7",
+    "esbuild": "^0.25.5",
     "express": "~5.1.0",
     "govuk-frontend": "^5.10.2",
     "nunjucks": "^3.2.4",
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
+    "browser-sync": "^3.0.4",
     "prettier": "^3.5.3",
     "puppeteer-core": "^24.10.0",
     "stylelint": "^16.20.0",
