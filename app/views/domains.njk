@@ -1,31 +1,32 @@
 {% extends "layout.njk" %}
 
+{% set govukServiceRegexp = r/service\.gov\.uk/ %}
 {% set title = "Domains" %}
+
+{% macro _serviceDomain(domain) %}
+<li>
+{%- if domain.services | length == 1 -%}
+  {% set service = domain.services | first %}
+  <a class="govuk-link govuk-!-font-weight-bold" href="/service/{{ service.slug }}">{{ domain.name }}</a>
+{%- else %}
+  <b>{{ domain.name }}</b> — {{ domain.services | length }} services
+  <ul class="govuk-list govuk-list--spaced govuk-!-font-size-16 govuk-!-padding-left-5 govuk-!-margin-bottom-4">
+  {%- for service in domain.services -%}
+    <li><a class="govuk-link" href="/service/{{ service.slug }}">{{ service.name }}</a></li>
+  {%- endfor %}
+  </ul>
+{%- endif %}
+</li>
+{% endmacro %}
 
 {% block content %}
   <h1 class="govuk-heading-xl">{{ title }}</h1>
-
-  {% set serviceGovUkRegexp = r/service\.gov\.uk/ %}
 
   <h2 class="govuk-heading-l">*.service.gov.uk</h2>
 
   <ol class="govuk-list govuk-list--spaced">
   {%- for domain in domains -%}
-    {%- if serviceGovUkRegexp.test(domain.name) -%}
-    <li>
-    {%- if domain.services | length == 1 -%}
-      {% set service = domain.services | first %}
-      <a class="govuk-link govuk-!-font-weight-bold" href="/service/{{ service.slug }}">{{ domain.name }}</a>
-    {%- else %}
-      <b>{{ domain.name }}</b> - {{ domain.services | length }} services
-      <ul class="govuk-list govuk-list--spaced govuk-!-font-size-16 govuk-!-padding-left-5 govuk-!-margin-bottom-4">
-      {%- for service in domain.services -%}
-        <li><a class="govuk-link" href="/service/{{ service.slug }}">{{ service.name }}</a></li>
-      {%- endfor %}
-      </ul>
-    {%- endif %}
-    </li>
-    {%- endif %}
+    {{ _serviceDomain(domain) if govukServiceRegexp.test(domain.name) }}
   {%- endfor %}
   </ol>
 
@@ -33,14 +34,7 @@
 
   <ol class="govuk-list govuk-list--spaced">
   {%- for domain in domains -%}
-    {% if not serviceGovUkRegexp.test(domain.name) %}
-    <li>
-    {%- if domain.services | length == 1 -%}
-      {%- set service = domain.services | first %}
-      <a class="govuk-link govuk-!-font-weight-bold" href="/service/{{ service.slug }}">{{ domain.name }}</a>
-    {%- endif %}
-    </li>
-    {%- endif %}
+    {{ _serviceDomain(domain) if not govukServiceRegexp.test(domain.name) }}
   {%- endfor %}
   </ol>
 {% endblock %}

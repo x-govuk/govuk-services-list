@@ -1,19 +1,32 @@
 {% extends "layout.njk" %}
 
+{% set govukServiceRegexp = r/service\.gov\.uk/ %}
 {% set title = "Screenshots" %}
+
+{% macro _serviceScreenshot(service) %}
+<div class="govuk-grid-column-one-quarter govuk-!-padding-bottom-4">
+  <a class="app-screenshot" href="/service/{{ service.slug }}">
+    <img src="/images/service-screenshots/{{ service.slug }}.png" alt="{{ service.name }}">
+  </a>
+</div>
+{% endmacro %}
 
 {% block content %}
   <h1 class="govuk-heading-xl">{{ title }}</h1>
 
+  <h2 class="govuk-heading-l">*.service.gov.uk</h2>
+
   <div class="govuk-grid-row">
   {%- for service in services | sort(attribute="name") -%}
-  {%- if service.screenshot -%}
-    <div class="govuk-grid-column-one-quarter govuk-!-padding-bottom-4">
-      <a class="app-screenshot" href="/service/{{ service.slug }}">
-        <img src="/images/service-screenshots/{{ service.slug }}.png" alt="{{ service.name }}">
-      </a>
-    </div>
-  {%- endif %}
+    {{ _serviceScreenshot(service) if service.screenshot and govukServiceRegexp.test(service.domain) }}
+  {%- endfor %}
+  </div>
+
+  <h2 class="govuk-heading-l">Non service.gov.uk domains</h2>
+
+  <div class="govuk-grid-row">
+  {%- for service in services | sort(attribute="name") -%}
+    {{ _serviceScreenshot(service) if service.screenshot and not govukServiceRegexp.test(service.domain) }}
   {%- endfor %}
   </div>
 {% endblock %}
