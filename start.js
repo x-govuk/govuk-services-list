@@ -11,6 +11,7 @@ import {
   markdownController,
   organisationController,
   projectController,
+  screenshotController,
   serviceController,
   viewController,
 } from "./lib/controllers.js";
@@ -49,6 +50,7 @@ const contributingFile = path.join(import.meta.dirname, "CONTRIBUTING.md");
 
 app.get("/organisation{/:slug}", organisationController(organisations));
 app.get("/projects{/:slug}", projectController);
+app.get("/screenshots", screenshotController(services));
 app.get("/service{/:slug}", serviceController(services));
 app.get("/data.json", (request, response) => response.json({ services }));
 app.get("/contribute", markdownController(contributingFile, "Contributing"));
