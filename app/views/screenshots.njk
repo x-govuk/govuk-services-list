@@ -1,6 +1,6 @@
 {% extends "layout.njk" %}
 
-{% set serviceGovUkRegexp = r/service\.gov\.uk/ %}
+{% set govukServiceRegexp = r/service\.gov\.uk/ %}
 {% set title = "Screenshots" %}
 
 {% macro _serviceScreenshot(service) %}
@@ -18,7 +18,7 @@
 
   <div class="govuk-grid-row">
   {%- for service in services | sort(attribute="name") -%}
-    {{ _serviceScreenshot(service) if service.screenshot and serviceGovUkRegexp.test(service.domain) }}
+    {{ _serviceScreenshot(service) if service.screenshot and govukServiceRegexp.test(service.domain) }}
   {%- endfor %}
   </div>
 
@@ -26,7 +26,7 @@
 
   <div class="govuk-grid-row">
   {%- for service in services | sort(attribute="name") -%}
-    {{ _serviceScreenshot(service) if service.screenshot and not serviceGovUkRegexp.test(service.domain) }}
+    {{ _serviceScreenshot(service) if service.screenshot and not govukServiceRegexp.test(service.domain) }}
   {%- endfor %}
   </div>
 {% endblock %}
