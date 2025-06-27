@@ -3,6 +3,6 @@
   "description": "Browse data from the UK National Tide Gauge Network",
   "organisation": "Department for Environment, Food & Rural Affairs",
   "theme": "Environment and countryside",
-  "phase": "unknown",
+  "phase": "Unknown",
   "liveService": "https://environment.data.gov.uk/flood-monitoring/tidegauge/"
 }

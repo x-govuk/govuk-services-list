@@ -3,6 +3,6 @@
   "description": "The FQA (Fixed Quota Allocation) Register is a list of fishing vessel licence and entitlement holders who hold FQA units. Details are given of the FQA units attributable to each licence and entitlement including for the latter those held on Producer Organisation (PO) 'dummy licences' together with the source of such units.",
   "theme": "Environment and countryside",
   "organisation": "Department for Environment, Food & Rural Affairs",
-  "phase": "unknown",
+  "phase": "Unknown",
   "liveService": "https://www.fqaregister.service.gov.uk"
 }

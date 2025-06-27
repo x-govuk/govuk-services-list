@@ -3,7 +3,7 @@
   "description": "Find contact details.",
   "theme": "Government Internal",
   "organisation": "Ministry of Justice",
-  "phase": "unknown",
+  "phase": "Unknown",
   "facing": "internal",
   "liveService": "https://peoplefinder.service.gov.uk",
   "sourceCode": [

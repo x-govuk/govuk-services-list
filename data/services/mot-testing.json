@@ -4,7 +4,7 @@
   "description": "Use this service if you’re an MOT tester and you need to record results of MOTs you carry out, print MOT certificates or buy test slots and check your test station’s balance.",
   "theme": "Driving and transport",
   "organisation": "Driver and Vehicle Standards Agency",
-  "phase": "unknown",
+  "phase": "Unknown",
   "liveService": "https://www.mot-testing.service.gov.uk",
   "startPage": "https://www.gov.uk/mot-testing-service",
   "timeline": {

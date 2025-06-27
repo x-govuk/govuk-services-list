@@ -3,7 +3,7 @@
   "description": "Find full or part-time jobs in England, Scotland and Wales.",
   "organisation": "Department for Work and Pensions",
   "theme": "Working, jobs and pensions",
-  "phase": "unknown",
+  "phase": "Unknown",
   "liveService": "https://findajob.dwp.gov.uk",
   "startPage": [
     "https://www.gov.uk/find-a-job",
