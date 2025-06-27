@@ -1,11 +1,10 @@
 {% extends "layout.njk" %}
 
+{% set serviceGovUkRegexp = r/service\.gov\.uk/ %}
 {% set title = "Domains" %}
 
 {% block content %}
   <h1 class="govuk-heading-xl">{{ title }}</h1>
-
-  {% set serviceGovUkRegexp = r/service\.gov\.uk/ %}
 
   <h2 class="govuk-heading-l">*.service.gov.uk</h2>
 
