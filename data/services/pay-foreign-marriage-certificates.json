@@ -3,6 +3,6 @@
   "description": "Pay for documents you need from the Foreign, Commonwealth & Development Office (FCO) to prove you’re allowed to get married abroad.",
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Births, deaths, marriages and care",
-  "phase": "unknown",
+  "phase": "Unknown",
   "liveService": "https://www.pay-foreign-marriage-certificates.service.gov.uk/start"
 }

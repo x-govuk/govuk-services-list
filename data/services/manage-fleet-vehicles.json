@@ -7,7 +7,7 @@
   ],
   "description": "You can get information about your fleet including which vehicles need taxing and when, and MOT renewal dates.",
   "organisation": "Driver and Vehicle Licensing Agency",
-  "phase": "live",
+  "phase": "Live",
   "startPage": "https://www.gov.uk/dvla-fleet-vehicle-info",
   "liveService": "https://www.managefleetvehicles.service.gov.uk/"
 }

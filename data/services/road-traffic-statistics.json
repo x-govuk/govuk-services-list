@@ -3,7 +3,7 @@
   "description": "Summary and street-level traffic data for road-links on the motorway, 'A' road and minor road network in Great Britain.",
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
-  "phase": "unknown",
+  "phase": "Unknown",
   "liveService": "https://roadtraffic.dft.gov.uk",
   "startPage": "https://www.gov.uk/government/collections/road-traffic-statistics"
 }

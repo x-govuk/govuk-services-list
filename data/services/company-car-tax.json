@@ -3,7 +3,7 @@
   "description": "Use this service to check your company car’s details, tell HM Revenue and Customs (HMRC) about any changes to your car since 6 April, and update your fuel benefit, if your employer pays for fuel.",
   "organisation": "HM Revenue and Customs",
   "theme": "Driving and transport",
-  "phase": "unknown",
+  "phase": "Unknown",
   "tags": ["Original 25 exemplars"],
   "liveService": "https://www.tax.service.gov.uk/paye/company-car/details",
   "startPage": "https://www.gov.uk/update-company-car-details"
