@@ -1,9 +1,8 @@
 {
-  "name": "Apply for an environmental permit",
-  "description": "Apply for a standard rules environmental permit.",
+  "name": "Apply for a standard rules environmental permit",
+  "description": "Apply for a standard rules permits for using, treating, storing and disposing of waste.",
   "organisation": "Environment Agency",
   "theme": "Environment and countryside",
   "phase": "Beta",
-  "liveService": "https://apply-for-environmental-permit.service.gov.uk/",
-  "startPage": "https://www.gov.uk/guidance/apply-for-a-standard-rules-environmental-permit"
+  "startPage": "https://www.gov.uk/guidance/waste-environmental-permits#apply-for-a-standard-rules-permit"
 }
