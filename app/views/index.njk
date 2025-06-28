@@ -2,6 +2,7 @@
 
 {% block main %}
   {{ xGovukMasthead({
+    inverse: true,
     title: {
       html: "A community-maintained list of digital services from the UK&nbsp;government"
     },
@@ -13,7 +14,8 @@
       text: "Explore the list"
     },
     image: {
-      src: "/images/homepage-illustration.svg"
+      src: "/images/homepage-illustration.svg",
+      hideOnMobile: true
     }
   }) }}
 
