@@ -15,5 +15,19 @@
       "text": "Source code for finder and search pages for GOV.UK",
       "href": "https://github.com/alphagov/finder-frontend"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Brand refresh goes live",
+        "date": "2025-06-25",
+        "links": [
+          {
+            "href": "https://www.gov.uk/guidance/changes-to-govuk",
+            "text": "Guidance: Changes to GOV.UK"
+          }
+        ]
+      }
+    ]
+  }
 }
