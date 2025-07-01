@@ -1,0 +1,9 @@
+{
+  "name": "GOV.UK ID Check App",
+  "description": "Use this to verify your identity with GOV.UK One Login",
+  "organisation": "Government Digital Service",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/using-the-govuk-id-check-app",
+  "liveService": "https://apps.apple.com/gb/app/gov-uk-id-check/id1629050566",
+  "platform": "app"
+}
