@@ -1,0 +1,10 @@
+{
+  "name": "HMRC App",
+  "description": "The HMRC app is a quick and easy way to get information about your tax, National Insurance and benefits.",
+  "theme": "Money and tax",
+  "organisation": "HM Revenue and Customs",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/download-the-hmrc-app",
+  "liveService": "https://apps.apple.com/gb/app/hmrc/id514561561",
+  "platform": "app"
+}
