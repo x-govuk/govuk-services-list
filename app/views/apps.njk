@@ -1,0 +1,18 @@
+{% extends "layout.njk" %}
+
+{% set title = "Apps" %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+
+      <ul class="govuk-list govuk-list--spaced">
+        {%- for service in services | sort(attribute="name") -%}
+          {{ appServiceItem(service) }}
+        {%- endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock %}
