@@ -1,0 +1,22 @@
+{
+  "name": "UKHSA data dashboard",
+  "description": "The UKHSA data dashboard shows public health data across England.",
+  "organisation": "UK Health Security Agency",
+  "theme": "Health",
+  "phase": "Beta",
+  "liveService": "https://ukhsa-dashboard.data.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2023-12-21",
+        "links": [
+          {
+            "href": "https://ukhsa.blog.gov.uk/2023/12/21/ukhsa-data-dashboard-takes-over-from-the-coronavirus-covid-19-dashboard/",
+            "text": "Blog post: UKHSA data dashboard takes over from the Coronavirus (COVID-19) dashboard"
+          }
+        ]
+      }
+    ]
+  }
+}

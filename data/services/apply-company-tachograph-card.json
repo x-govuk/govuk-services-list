@@ -1,0 +1,9 @@
+{
+  "name": "Apply for a company digital tachograph card",
+  "description": "As an operator, you need a tachograph company card to download data from the digital tachographs in your vehicles.",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://apply-company-tachograph-card.service.gov.uk",
+  "startPage": "https://www.gov.uk/apply-company-tachograph-card"
+}

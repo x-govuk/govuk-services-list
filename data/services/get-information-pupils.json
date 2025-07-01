@@ -1,0 +1,22 @@
+{
+  "name": "Get information about pupils",
+  "description": "Secure access to confidential pupil data.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://get-information-pupils.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched in private beta",
+        "date": "2020-10-08",
+        "links": [
+          {
+            "href": "https://www.keytosuccess.education.gov.uk/cgi-bin/schools/index",
+            "text": "Release history"
+          }
+        ]
+      }
+    ]
+  }
+}

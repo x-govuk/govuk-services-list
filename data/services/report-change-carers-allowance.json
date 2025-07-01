@@ -1,0 +1,10 @@
+{
+  "name": "Report a change to Carer's Allowance",
+  "synonyms": ["Carer's Allowance: report changes"],
+  "description": "You must report changes in circumstances if you’re claiming or have applied for Carer’s Allowance",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/carers-allowance-report-change",
+  "liveService": "https://www.carersallowance.service.gov.uk/circumstances/report-changes/selection"
+}

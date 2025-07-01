@@ -1,0 +1,13 @@
+{
+  "name": "Register as a waste carrier",
+  "synonyms": [
+    "Register or Renew a Business As a Waste Carrier, Broker, Or Dealer"
+  ],
+  "description": "Register or renew registration with the Environment Agency to transport, buy, sell or broker waste.",
+  "theme": "Environment and countryside",
+  "organisation": "Environment Agency",
+  "phase": "Beta",
+  "liveService": "https://wastecarriersregistration.service.gov.uk/",
+  "startPage": "https://www.gov.uk/register-renew-waste-carrier-broker-dealer-england",
+  "tags": ["Top 75", "Original 25 exemplars"]
+}

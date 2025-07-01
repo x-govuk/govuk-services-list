@@ -1,0 +1,18 @@
+{
+  "name": "NHS Test and Trace",
+  "synonyms": ["NHS Test and Trace contact tracing", "NHS Contact tracing"],
+  "description": "This service is to trace contacts of people who tested positive for COVID-19, and to provide health advice and information.",
+  "organisation": "Department of Health and Social Care",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "Retired",
+  "liveService": "https://contact-tracing.phe.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/nhs-test-and-trace-how-it-works",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closed",
+        "date": "2022-02-24"
+      }
+    ]
+  }
+}

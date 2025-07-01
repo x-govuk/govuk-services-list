@@ -1,0 +1,66 @@
+{
+  "name": "GOV.UK Forms",
+  "description": "Create an accessible online form in minutes without needing technical knowledge.",
+  "organisation": "Government Digital Service",
+  "theme": "Government Internal",
+  "phase": "Beta",
+  "liveService": "https://www.forms.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2022-03-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-forms-alpha-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "First form launches",
+        "date": "2022-10-06",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2022/10/06/making-it-easy-to-create-and-publish-digital-forms-on-gov-uk/",
+            "text": "Blog post: Making it easy to create and publish digital forms on GOV.UK"
+          },
+          {
+            "href": "https://www.gov.uk/government/news/new-online-claims-form-launched-to-benefit-redundancy-claimants",
+            "text": "News story: New online claims form launched to benefit redundancy claimants"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as amber at beta stage",
+        "date": "2024-04-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-forms-beta-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Prototype for the API",
+      "href": "https://github.com/alphagov/forms-api-prototype"
+    },
+    {
+      "text": "Product pages",
+      "href": "https://github.com/alphagov/forms-product-page"
+    },
+    {
+      "text": "Admin application",
+      "href": "https://github.com/alphagov/forms-admin"
+    },
+    {
+      "text": "Forms runner",
+      "href": "https://github.com/alphagov/forms-runner"
+    }
+  ]
+}

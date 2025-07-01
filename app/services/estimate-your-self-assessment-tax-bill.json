@@ -1,9 +1,0 @@
-{
-  "name": "Estimate your Self Assessment tax bill",
-  "description": "Use the Self Assessment tax calculator to estimate your Self Assessment tax bill for the current tax year.",
-  "theme": "Money and tax",
-  "organisation": "HM Revenue and Customs",
-  "phase": "Live",
-  "start-page": "https://www.gov.uk/self-assessment-tax-calculator",
-  "liveservice": "https://tax.service.gov.uk/guidance/estimate-your-self-assessment-tax-bill"
-}

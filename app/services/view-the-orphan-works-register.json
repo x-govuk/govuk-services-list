@@ -1,8 +1,0 @@
-{
-  "name": "View the orphan works register",
-  "description": "Search the orphan works register for details of applications for orphan works licences, licences that have been granted, and applications that have been refused.",
-  "theme": "Business and self-employed",
-  "organisation": "Intellectual Property Office",
-  "phase": "Beta",
-  "liveservice": "https://www.orphanworkslicensing.service.gov.uk/view-register"
-}

@@ -1,0 +1,10 @@
+{
+  "name": "Apply for fluorinated gas (F gas) quota",
+  "synonyms": ["Applying for quota to produce or import F gas"],
+  "description": "You must get quota to produce or import bulk hydrofluorocarbons (HFCs) - the most common type of fluorinated gas (F gas) - into Great Britain.",
+  "organisation": "Environment Agency",
+  "theme": "Environment and countryside",
+  "phase": "Beta",
+  "liveService": "https://apply-quota.fluorinated-gas.service.gov.uk/applyforquota/index",
+  "startPage": "https://www.gov.uk/guidance/applying-for-quota-to-produce-or-import-f-gas"
+}

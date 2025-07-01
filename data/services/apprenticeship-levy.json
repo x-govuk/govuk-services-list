@@ -1,0 +1,46 @@
+{
+  "name": "Manage apprenticeships",
+  "synonyms": ["The (Digital) Apprenticeship", "Access my Levy"],
+  "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
+  "theme": "Education, training and skills",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/sign-in-apprenticeship-service-account",
+  "liveService": "https://accounts.manage-apprenticeships.service.gov.uk/service",
+  "tags": ["Top 75"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-12-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/the-digital-apprenticeship-service",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-06-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/access-my-levy",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/SkillsFundingAgency/das-employerapprenticeshipsservice"
+    }
+  ]
+}

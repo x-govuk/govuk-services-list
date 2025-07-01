@@ -1,0 +1,26 @@
+{
+  "name": "Make a lasting power of attorney",
+  "synonyms": ["Lasting Power of Attorney"],
+  "description": "A lasting power of attorney (LPA) is a legal document that lets you (the ‘donor’) appoint one or more people (known as ‘attorneys’) to help you make decisions or to make decisions on your behalf. This gives you more control over what happens to you if you have an accident or an illness and can’t make your own decisions (you ‘lack mental capacity’).",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase": "Live",
+  "liveService": "https://www.lastingpowerofattorney.service.gov.uk/home",
+  "startPage": "https://www.gov.uk/power-of-attorney/make-lasting-power",
+  "tags": ["Top 75", "Original 25 exemplars"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2014-04-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/lasting-power-of-attorney-live-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

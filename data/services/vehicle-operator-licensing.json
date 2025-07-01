@@ -1,0 +1,46 @@
+{
+  "name": "Vehicle Operator Licensing",
+  "synonyms": [
+    "Manage your Vehicle Operator License",
+    "Apply for a vehicle operator licence",
+    "View your vehicle operator safety and risk reports"
+  ],
+  "description": "Update your heavy goods vehicle (HGV) or public service vehicle (PSV) operator’s licence, for example to: add more vehicles to your licence, increase the vehicle limit on your licence, add or remove a transport manager.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase": "Beta",
+  "phase_modifier": "Public",
+  "startPage": [
+    "https://www.gov.uk/manage-vehicle-operator-licence",
+    "https://www.gov.uk/apply-vehicle-operator-licence",
+    "https://www.gov.uk/view-vehicle-operator-safety-risk-reports",
+    "https://www.gov.uk/check-vehicle-operator-licence-applications"
+  ],
+  "tags": ["GOV.UK One Login"],
+  "liveService": "https://www.vehicle-operator-licensing.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass live assessment",
+        "date": "2021-01-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/manage-your-vehicle-operator-licence",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      },
+      {
+        "label": "Digital service mandated and TM1 form withdrawn",
+        "date": "2025-01-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/improvements-in-our-service-for-transport-managers",
+            "text": "Press release: Improvements in our service for Transport Managers"
+          }
+        ]
+      }
+    ]
+  }
+}

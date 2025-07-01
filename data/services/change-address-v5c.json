@@ -1,0 +1,27 @@
+{
+  "name": "Change the address on your vehicle log book (V5C)",
+  "description": "You must update your vehicle log book (V5C) if you change your address. It’s usually free to update it.",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://change-address-v5c.service.gov.uk",
+  "startPage": "https://www.gov.uk/change-address-v5c",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2020-06-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/dvla-launches-online-service-to-change-address-on-vehicle-log-book-v5c",
+            "text": "Press release"
+          },
+          {
+            "href": "https://dvladigital.blog.gov.uk/2020/06/19/dvla-launches-new-online-service-to-change-address-on-your-vehicle-log-book-v5c/",
+            "text": "Blog post"
+          }
+        ]
+      }
+    ]
+  }
+}

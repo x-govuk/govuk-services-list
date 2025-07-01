@@ -1,8 +1,0 @@
-{
-  "name": "Tide gauge readings",
-  "description": "Browse data from the UK National Tide Gauge Network",
-  "organisation": "Department for Environment, Food & Rural Affairs",
-  "theme": "Environment and countryside",
-  "phase": "unknown",
-  "liveservice": "https://environment.data.gov.uk/flood-monitoring/tidegauge/"
-}

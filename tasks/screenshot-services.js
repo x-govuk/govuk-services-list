@@ -1,21 +1,23 @@
-const puppeteer = require('puppeteer-core');
-const fs = require('fs');
-const path = require('path');
-const process = require('process');
+import fs from "node:fs";
+import path from "node:path";
+import process from "node:process";
+
+import "dotenv/config";
+import puppeteer from "puppeteer-core";
 
 const useHeadless = false; // set to false for services which prevent screen-scraping
 const delayInSeconds = 2; // add a delay for services which use slow client-side rendering
 
-require('dotenv').config();
-
 // Display a helpful error if path to Google Chrome is missing
-if (!Object.keys(process.env).includes('GOOGLE_CHROME_PATH')) {
-  console.error("Error: Missing path for Google Chrome application.\n\nAdd GOOGLE_CHROME_PATH=\"/path/to/Chrome\" to a file named .env\n\nFor example, on Mac OS add GOOGLE_CHROME_PATH=\"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\"")
-  process.exit()
+if (!Object.keys(process.env).includes("GOOGLE_CHROME_PATH")) {
+  console.error(
+    'Error: Missing path for Google Chrome application.\n\nAdd GOOGLE_CHROME_PATH="/path/to/Chrome" to a file named .env\n\nFor example, on Mac OS add GOOGLE_CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"',
+  );
+  process.exit();
 }
 
 // Specific services to screenshot can be specified as command line arguments
-let services = process.argv.slice(2)
+let services = process.argv.slice(2);
 
 const servicesToSkip = [
   "analyse-school-performance",
@@ -62,34 +64,47 @@ const servicesToSkip = [
   "vehicle-operator-licensing",
   "vehicle-tax",
   "view-designs-journal",
-  "view-the-orphan-works-register"
-]
+  "view-the-orphan-works-register",
+];
 
-const servicesFolder = path.join(__dirname, '..', 'app', 'services');
-const screenshotsFolder = path.join(__dirname, '..', 'app', 'assets', 'images', 'service-screenshots');
+const servicesFolder = path.join(import.meta.dirname, "..", "data", "services");
+const screenshotsFolder = path.join(
+  import.meta.dirname,
+  "..",
+  "app",
+  "assets",
+  "images",
+  "service-screenshots",
+);
 
-if (services.includes('all')) {
-  services = []
-  fs.readdirSync(servicesFolder).forEach(function(filename) {
-    if (filename != '_template.json' && !servicesToSkip.includes(filename.replace('.json', ''))) {
-      services.push(filename.replace('.json', ''))
+if (services.includes("all")) {
+  services = [];
+  fs.readdirSync(servicesFolder).forEach(function (filename) {
+    if (
+      filename !== "_template.json" &&
+      !servicesToSkip.includes(filename.replace(".json", ""))
+    ) {
+      services.push(filename.replace(".json", ""));
     }
   });
 }
 
-if (services.length == 0) {
-  console.log("npm run screenshots <command>\n")
-  console.log('Usage:')
-  console.log('npm run screenshots <filename>   Collect a screenshot for the service in the filename given (.json can be omitted)')
-  console.log('npm run screenshots all        Collect screenshots for all non-retired services')
-  process.exit()
+if (services.length === 0) {
+  console.log("npm run screenshots <command>\n");
+  console.log("Usage:");
+  console.log(
+    "npm run screenshots <filename>   Collect a screenshot for the service in the filename given (.json can be omitted)",
+  );
+  console.log(
+    "npm run screenshots all        Collect screenshots for all non-retired services",
+  );
+  process.exit();
 }
-
 
 (async () => {
   const browser = await puppeteer.launch({
     executablePath: process.env.GOOGLE_CHROME_PATH,
-    headless: useHeadless
+    headless: useHeadless,
   });
   const page = await browser.newPage();
   await page.setViewport({
@@ -98,23 +113,24 @@ if (services.length == 0) {
     deviceScaleFactor: 2,
   });
 
-  for (service of services) {
+  for (let service of services) {
+    service = service.replace(".json", "");
 
-    service = service.replace('.json', '');
+    const project = JSON.parse(
+      fs.readFileSync(`${servicesFolder}/${service}.json`).toString(),
+    );
 
-    var project = JSON.parse(fs.readFileSync(servicesFolder + '/' + service + '.json').toString());
-
-    if (project.liveservice && project.phase != 'Retired') {
+    if (project.liveService && project.phase !== "Retired") {
       try {
-        await page.goto(project.liveservice);
+        await page.goto(project.liveService);
         await page.mouse.click(0, 0, {
-          delay: (delayInSeconds * 1000)
+          delay: delayInSeconds * 1000,
         });
-        await page.screenshot({ path: screenshotsFolder + '/' + service + '.png' });
-        process.stdout.write('.')
-      } catch(error) {
-        console.warn('Error fetching ' + project.liveservice)
-        console.error(error)
+        await page.screenshot({ path: `${screenshotsFolder}/${service}.png` });
+        process.stdout.write(".");
+      } catch (error) {
+        console.warn(`Error fetching ${project.liveService}`);
+        console.error(error);
       }
     }
   }

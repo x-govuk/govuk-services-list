@@ -1,0 +1,13 @@
+{
+  "name": "Register a birth abroad",
+  "synonyms": [
+    "Payment to register a birth abroad",
+    "Pay to register a birth abroad"
+  ],
+  "description": "Pay to register the birth of a British national abroad.",
+  "organisation": "Foreign, Commonwealth & Development Office",
+  "theme": "Births, deaths, marriages and care",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/register-a-birth",
+  "liveService": "https://register-a-birth-abroad.service.gov.uk/"
+}

@@ -15,10 +15,10 @@ end
 
 
 existing_live_service_hosts = existing_services.collect do |existing_service|
-  if existing_service['liveservice'].nil?
+  if existing_service['liveService'].nil?
     nil
   else
-    URI.parse(existing_service['liveservice']).host
+    URI.parse(existing_service['liveService']).host
   end
 end.compact
 
@@ -56,8 +56,8 @@ while (start == 0 || results.count != 0) do
       organisation: "** TODO **",
       theme: "** TODO **",
       phase: "** TODO **",
-      liveservice: start_link,
-      "start-page": start_page
+      liveService: start_link,
+      "startPage": start_page
     }
 
     organisations = content['links']['organisations']
@@ -67,7 +67,7 @@ while (start == 0 || results.count != 0) do
     end
 
     existing_service_with_same_start_page = existing_services.detect do |s|
-      s['start-page'] == start_page
+      s.startPage == start_page
     end
 
     if existing_service_with_same_start_page
@@ -76,7 +76,7 @@ while (start == 0 || results.count != 0) do
 
         json_to_write = existing_service_with_same_start_page
         json_to_write.delete("file")
-        json_to_write[:liveservice] = start_link
+        json_to_write[:liveService] = start_link
         f.write JSON.pretty_generate(json_to_write)
       end
 

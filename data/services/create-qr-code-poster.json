@@ -1,0 +1,17 @@
+{
+  "name": "Create a coronavirus NHS QR code for your venue",
+  "description": "Use this service to create a QR code for display in your venue. Get visitors to scan the QR code when they arrive, using the NHS COVID-19 app. This is to help trace and stop the spread of coronavirus (COVID-19).",
+  "organisation": "Department of Health and Social Care",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "Retired",
+  "liveService": "https://create-qr-code-poster.service.gov.uk/createposter/contact-details",
+  "startPage": "https://www.gov.uk/create-coronavirus-qr-poster",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closed",
+        "date": "2022-02-24"
+      }
+    ]
+  }
+}

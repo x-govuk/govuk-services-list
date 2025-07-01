@@ -1,0 +1,15 @@
+{
+  "name": "Support for early career teachers",
+  "description": "Use this service to access training and support materials for the Early Career Framework (ECF), accredited by the Department for Education.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://support-for-early-career-teachers.education.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/how-to-set-up-training-for-early-career-teachers",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/support-for-early-career-teachers"
+    }
+  ]
+}

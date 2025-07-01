@@ -1,0 +1,9 @@
+{
+  "name": "Apply for a proxy vote",
+  "description": "You can get someone else to vote on your behalf (a proxy) if you cannot go to the polling station in person.",
+  "organisation": "Ministry of Housing, Communities & Local Government",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/apply-proxy-vote",
+  "liveService": "https://proxy-vote.service.gov.uk/start"
+}

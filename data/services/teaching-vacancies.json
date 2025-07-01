@@ -1,0 +1,49 @@
+{
+  "name": "Teaching Vacancies",
+  "synonyms": ["Find a job in teaching or education"],
+  "description": "Search for a job in teaching in England by subject or role, location, salary, full-time and part-time jobs, and by primary education and secondary education.",
+  "theme": "Working, jobs and pensions",
+  "organisation": "Department for Education",
+  "phase": "Beta",
+  "liveService": "https://teaching-vacancies.service.gov.uk/",
+  "startPage": "https://www.gov.uk/find-teaching-job",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/teaching-vacancies"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service announced",
+        "date": "2014-11-15",
+        "links": [
+          {
+            "href": "https://dfedigital.blog.gov.uk/2017/11/15/how-were-creating-a-national-teacher-vacancy-service/",
+            "text": "Blog post: How we're creating a national teacher vacancy service"
+          }
+        ]
+      },
+      {
+        "label": "Service launched",
+        "date": "2019-04-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-teacher-recruitment-service-set-to-save-schools-millions",
+            "text": "Press release: New teacher recruitment service set to save schools millions"
+          },
+          {
+            "href": "https://dfedigital.blog.gov.uk/2019/04/05/new-teaching-vacancies-service/",
+            "text": "Blog post: Why we built the new Teaching Vacancies service"
+          }
+        ]
+      },
+      {
+        "label": "GOV.UK One Login added",
+        "date": "2024-11-05"
+      }
+    ]
+  },
+  "tags": ["GOV.UK One Login"]
+}

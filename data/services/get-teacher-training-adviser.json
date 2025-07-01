@@ -1,0 +1,15 @@
+{
+  "name": "Get an adviser",
+  "synonyms": ["Get a teacher training adviser"],
+  "description": "If you’re thinking about teaching in England, an adviser can provide free, one-to-one support through phone, text or email.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://getintoteaching.education.gov.uk/teacher-training-adviser/sign_up/identity",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/get-teacher-training-adviser-service"
+    }
+  ]
+}

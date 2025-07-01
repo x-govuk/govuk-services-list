@@ -1,0 +1,9 @@
+{
+  "name": "International Waste Shipments (IWS)",
+  "description": "Notify government and receive consent to ship waster internationally.",
+  "theme": "Environment and countryside",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/importing-and-exporting-waste-plastic",
+  "liveService": "https://international-waste-shipments.service.gov.uk"
+}

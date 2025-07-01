@@ -1,0 +1,13 @@
+{
+  "name": "Find an apprenticeship",
+  "description": "Search the find an apprenticeship service for apprenticeships in England.",
+  "theme": "Education, training and skills",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/apply-apprenticeship",
+  "liveService": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch",
+  "tags": ["Original 25 exemplars", "GOV.UK One Login"]
+}

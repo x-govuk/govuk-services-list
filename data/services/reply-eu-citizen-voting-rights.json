@@ -1,0 +1,45 @@
+{
+  "name": "Reply to your Electoral Registration Office about your voting rights",
+  "description": "Use this service to reply to a letter or email from the Electoral Registration Office asking about your immigration status.",
+  "organisation": "Ministry of Housing, Communities and Local Government",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/reply-to-electoral-registration-office-about-your-voting-rights",
+  "liveService": "https://reply-eu-citizen-voting-rights.service.gov.uk/start",
+  "timeline": {
+    "items": [
+      {
+        "label": "Met alpha assessment",
+        "date": "2022-03-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-to-vote-overseas-electors-and-eu-citizens-journey-alpha-assessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as amber at beta reassessment",
+        "date": "2024-04-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/voting-rights-for-eu-citizens-beta-reassessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for beta reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as green at beta amber evidence review",
+        "date": "2024-07-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/voting-rights-for-eu-citizens-beta-amber-evidence-review",
+            "text": "Beta amber evidence review"
+          }
+        ]
+      }
+    ]
+  }
+}

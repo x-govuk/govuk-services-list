@@ -5,7 +5,7 @@ require 'json'
 # Token needs no privileges at all.
 client = Octokit::Client.new(:access_token => ENV.fetch('GITHUB_ACCESS_TOKEN'))
 
-ignored_url_hosts = File.read("tasks/ignored_urls.txt").split("\n")
+ignored_url_hosts = File.read("tasks/ignored-urls.txt").split("\n")
   .collect {|line| URI.parse(line).host }
 
 organisations = ['alphagov', 'cabinetoffice', 'communitiesuk', 'DFE-Digital', 'department-for-transport', 'hmrc', 'dwp', 'defra', 'dfid', 'MHRA', 'ministryofjustice', 'ukforeignoffice', 'UKHomeOffice', 'UKGovernmentBEIS', 'companieshouse', 'decc', 'dvla', 'dvsa', 'insolvencyservice', 'intellectual-property-office', 'LandRegistry', 'MHRA', 'OfqualGovUK', 'SkillsFundingAgency', 'publichealthengland', 'hmcts', 'department-of-health', 'uktrade', 'mcagov', 'HMPO', 'Planning-Inspectorate', 'digital-land', 'FoodStandardsAgency']
@@ -59,8 +59,8 @@ repos.each do |repo|
       next if ignored_url_hosts.include?(homepage_url.host)
 
       existing_service_with_same_url = existing_services.detect do |s|
-        s['liveservice'] &&
-        URI.parse(s['liveservice']).host == homepage_url.host
+        s['liveService'] &&
+        URI.parse(s['liveService']).host == homepage_url.host
       end
 
       if existing_service_with_same_url

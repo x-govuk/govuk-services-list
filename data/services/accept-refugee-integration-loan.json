@@ -1,0 +1,9 @@
+{
+  "name": "Accept a refugee integration loan",
+  "description": "If you've been offered a refugee integration loan, accept the loan agreement online to start receiving payments.",
+  "organisation": "UK Visas and Immigration",
+  "theme": "Visas and immigration",
+  "phase": "Beta",
+  "liveService": "https://www.accept-refugee-integration-loan.service.gov.uk",
+  "startPage": "https://www.gov.uk/accept-refugee-integration-loan"
+}

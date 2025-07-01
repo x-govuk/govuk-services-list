@@ -1,0 +1,33 @@
+{
+  "name": "File A Statement Of Capital Data",
+  "description": "The service allows users to tell Companies House about new shares that have been issued by their company.",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "Alpha",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2021-10-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-statement-of-capital-data-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2021-08-12",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-statement-of-capital-data",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

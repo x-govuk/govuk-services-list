@@ -1,0 +1,9 @@
+{
+  "name": "Find registered local bus services",
+  "description": "Find registered local bus services by operator name, licence number, or start and finish point.",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://www.vehicle-operator-licensing.service.gov.uk/search/find-registered-local-bus-services",
+  "startPage": "https://www.gov.uk/find-local-bus-services"
+}

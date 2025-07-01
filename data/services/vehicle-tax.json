@@ -1,0 +1,11 @@
+{
+  "name": "Vehicle Tax",
+  "synonyms": ["Tax your vehicle"],
+  "description": "Tax your car, motorcycle or other vehicle",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "phase": "Beta",
+  "liveService": "https://vehicletax.service.gov.uk/",
+  "startPage": "https://www.gov.uk/vehicle-tax",
+  "tags": ["Top 75"]
+}

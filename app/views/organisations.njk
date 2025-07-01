@@ -1,0 +1,17 @@
+{% extends "layout.njk" %}
+
+{% set title = "By organisation" %}
+
+{% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+  <ul class="govuk-list govuk-list--spaced">
+  {%- for organisation in organisations | sort(attribute="name") -%}
+    <li id="{{ organisation.slug }}">
+      <a href="/organisation/{{ organisation.slug }}" class="govuk-link">
+        {{ organisation.name }} ({{ organisation.services.length }})
+      </a>
+    </li>
+  {%- endfor %}
+  </ul>
+{% endblock %}

@@ -1,0 +1,23 @@
+{
+  "name": "Apply for an International Road Haulage Permit",
+  "description": "The Apply for an International Road Haulage Permit service will allow UK hauliers transporting goods into Europe and beyond to apply for, be issued with and manage their permits so that they can continue to operate after the UK leaves the EU.",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/international-authorisations-and-permits-for-road-haulage",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2018-06-12",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-an-international-road-haulage-permit",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

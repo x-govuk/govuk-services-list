@@ -1,0 +1,44 @@
+{
+  "name": "MoJ Forms",
+  "description": "Prototype, test and publish online forms quickly and easily",
+  "theme": "Government Internal",
+  "organisation": "Ministry of Justice",
+  "phase": "Live",
+  "liveService": "https://moj-forms-editor.service.justice.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Product page source code",
+      "href": "https://github.com/ministryofjustice/formbuilder-product-page"
+    },
+    {
+      "text": "Form builder source code",
+      "href": "https://github.com/ministryofjustice/fb-editor"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as red at beta assessment",
+        "date": "2023-12-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/moj-forms-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as amber at beta reassessment",
+        "date": "2024-06-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/moj-forms-beta-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta reassessment"
+          }
+        ]
+      }
+    ]
+  }
+}

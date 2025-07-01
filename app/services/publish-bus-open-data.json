@@ -1,9 +1,0 @@
-{
-  "name": "Publish bus open data",
-  "description": "Use this service to publish bus routes and timetable data, Automatic Vehicle Location (AVL and bus fares.",
-  "organisation": "Department for Transport",
-  "theme": "Driving and transport",
-  "phase": "Beta",
-  "liveservice": "https://publish.bus-data.dft.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/publish-bus-open-data"
-}

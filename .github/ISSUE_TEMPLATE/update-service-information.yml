@@ -1,6 +1,6 @@
 name: Update service information
 description: Update information or add missing metadata about a service
-title: 'Update: (Add service name here)'
+title: "Update: (Add service name here)"
 labels: data
 assignees: frankieroberto
 body:

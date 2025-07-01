@@ -1,0 +1,29 @@
+{
+  "name": "GOV.UK Prototype Kit",
+  "description": "Rapidly create HTML prototypes of GOV.UK services.",
+  "organisation": "Government Digital Service",
+  "theme": "Government Internal",
+  "phase": "Beta",
+  "liveService": "https://prototype-kit.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Version 13 released with significant changes",
+        "date": "2022-11-21",
+        "links": [
+          {
+            "href": "https://github.com/alphagov/govuk-prototype-kit/releases/tag/v13.0.0",
+            "text": "Release notes",
+            "visuallyHiddenText": " for version 13"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/alphagov/govuk-prototype-kit"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Notify the death or serious harm of a child",
+  "description": "Notify the Child Safeguarding Practice Review Panel if it’s known or suspected that a child has been abused or neglected.",
+  "organisation": "Department for Education",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/report-a-serious-child-safeguarding-incident",
+  "liveService": "https://childsafeguarding.education.gov.uk"
+}

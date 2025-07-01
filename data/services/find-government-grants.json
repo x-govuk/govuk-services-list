@@ -1,0 +1,41 @@
+{
+  "name": "Find a grant",
+  "synonyms": ["Find government grants", "Apply for a grand"],
+  "description": "Browse a list of available government grants and see if you're eligible to apply for them.",
+  "organisation": "Cabinet Office",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/find-government-grants",
+  "liveService": "https://www.find-government-grants.service.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/cabinetoffice/gap-find-apply-web"
+    }
+  ],
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Apply for a grant feature launched",
+        "date": "2022-11-14",
+        "links": [
+          {
+            "href": "https://grantscommunity.blog.gov.uk/2022/11/14/an-update-to-find-a-grant-apply-for-a-grant/",
+            "text": "Blog post: An update to Find a Grant - Apply for a Grant!"
+          }
+        ]
+      },
+      {
+        "label": "Launched as a public beta",
+        "date": "2022-04-12",
+        "links": [
+          {
+            "href": "https://grantscommunity.blog.gov.uk/2022/04/12/the-first-gov-uk-release-of-the-find-a-grant-pilot-is-now-open-for-everyone/",
+            "text": "Blog post: The first GOV.UK release of the Find a Grant pilot is now open - for everyone"
+          }
+        ]
+      }
+    ]
+  }
+}

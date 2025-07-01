@@ -1,0 +1,9 @@
+{
+  "name": "Check if a vehicle, part or accessory has been recalled",
+  "description": "Find out if the manufacturer has recalled a vehicle, part or accessory because of a serious safety problem.",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "theme": "*** Please use one of the existing themes from the website ***",
+  "phase": "Unknown",
+  "liveService": "https://www.check-vehicle-recalls.service.gov.uk/",
+  "startPage": "https://www.gov.uk/check-vehicle-recall"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Animal Disease Testing",
+  "description": "Use this service to create animal disease testing submissions if you’re a vet working on a farm. You can also use this service to check your test results.",
+  "theme": "Business and self-employed",
+  "organisation": "Animal and Plant Health Agency",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/animal-disease-testing",
+  "liveService": "https://www.animal-disease-testing.service.gov.uk/login"
+}

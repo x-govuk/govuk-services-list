@@ -1,9 +1,0 @@
-{
-  "name": "Create fares data",
-  "description": "This service is for creating or accessing NeTEx data for public transport services, excluding rail, in England.",
-  "organisation": "Department for Transport",
-  "theme": "Driving and transport",
-  "phase": "Beta",
-  "liveservice": "https://fares-data.dft.gov.uk",
-  "start-page": "https://www.gov.uk/guidance/publish-bus-open-data"
-}

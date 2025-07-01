@@ -1,8 +1,0 @@
-{
-  "name": "Environment public registers",
-  "description": "The Environment Agency licenses industry, business and individuals to carry out certain activities that have the potential to pollute the environment. When we receive an application for such a licence, we make that application and other relevant information available to the public. We do this before we make the decision of whether to issue the licence, or what conditions we will attach to it. After any permit is issued, further information is also made available on the registers. This can typically include monitoring information, details of any breaches of the terms of the licence, any enforcement actions that we have carried out and any applications to vary the terms of the licence.",
-  "organisation": "Department for Environment, Food & Rural Affairs",
-  "theme": "Environment and countryside",
-  "phase": "Beta",
-  "liveservice": "https://environment.data.gov.uk/public-register/"
-}

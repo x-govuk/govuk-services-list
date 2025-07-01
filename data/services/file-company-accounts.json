@@ -1,0 +1,39 @@
+{
+  "name": "File your company accounts",
+  "synonyms": [
+    "File Company Accounts",
+    "File your company's annual accounts with Companies House"
+  ],
+  "description": "Use this service to file your company’s annual accounts with Companies House.",
+  "theme": "Business and self-employed",
+  "organisation": "Companies House",
+  "phase": "Alpha",
+  "startPage": "https://www.gov.uk/file-your-company-annual-accounts",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/accounts/corporation-tax",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-02-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-company-accounts-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-02-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-company-accounts-beta",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

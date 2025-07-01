@@ -1,0 +1,31 @@
+{
+  "name": "My Charity Commission Account",
+  "synonyms": [
+    "Send a charity's annual return",
+    "Tell the Charity Commission about a change to your charity"
+  ],
+  "description": "Change your charity's details with the Charity Commission online or send a charity's annual return",
+  "theme": "Money and tax",
+  "organisation": "The Charity Commission",
+  "phase": "Beta",
+  "liveService": "https://my-charity-account.charitycommission.gov.uk",
+  "startPage": [
+    "https://www.gov.uk/change-your-charitys-details",
+    "https://www.gov.uk/send-charity-annual-return"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-07-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/update-charity-details",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

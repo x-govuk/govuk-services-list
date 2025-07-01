@@ -1,0 +1,15 @@
+{
+  "name": "Check UK trade tariffs from 1 January 2021",
+  "description": "Use this service to check the UK Global Tariff that will apply to goods you import from 1 January 2021. You can also check the difference between what you pay now and what you’ll pay from 1 January 2021.",
+  "organisation": "Department for International Trade",
+  "theme": "Money and tax",
+  "phase": "Retired",
+  "liveService": "https://check-future-uk-trade-tariffs.service.gov.uk/",
+  "startPage": "https://www.gov.uk/check-tariffs-1-january-2021",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/uktrade/global-uk-tariff"
+    }
+  ]
+}

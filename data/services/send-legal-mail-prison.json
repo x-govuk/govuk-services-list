@@ -1,0 +1,14 @@
+{
+  "name": "Send legal mail to prisons",
+  "description": "Use this service to create barcodes and addresses to display in your legal correspondence or confidential access mail if your organisation or role is listed in the guidance on monitoring and managing prisoner communications.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase": "Beta",
+  "liveService": "https://send-legal-mail.prison.service.justice.gov.uk/oneTimeCode/request-code",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/send-legal-mail-to-prisons"
+    }
+  ]
+}

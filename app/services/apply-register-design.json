@@ -1,9 +1,0 @@
-{
-  "name": "Apply to register a design",
-  "description": "Use this service to register a design with the Intellectual Property Office (IPO).",
-  "organisation": "Intellectual Property Office",
-  "theme": "Business and self-employed",
-  "phase": "Beta",
-  "liveservice": "https://www.registered-design.service.gov.uk/apply",
-  "start-page": "https://www.gov.uk/apply-register-design"
-}

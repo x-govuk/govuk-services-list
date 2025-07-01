@@ -1,0 +1,22 @@
+{
+  "name": "GOV.UK Verify",
+  "description": "A way to prove who you are online.",
+  "theme": "Government Internal",
+  "organisation": "Government Digital Service",
+  "phase": "Retired",
+  "liveService": "https://www.signin.service.gov.uk/verify-services",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service retired",
+        "date": "2023-03-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/publications/introducing-govuk-verify/introducing-govuk-verify",
+            "text": "GOV.UK Verify"
+          }
+        ]
+      }
+    ]
+  }
+}

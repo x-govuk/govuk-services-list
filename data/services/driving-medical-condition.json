@@ -1,0 +1,50 @@
+{
+  "name": "Driving with a medical condition",
+  "synonyms": [
+    "Fitness 2 Drive",
+    "Fitness to Drive",
+    "Check if a health condition affects your driving",
+    "Renew your short-term medical driving licence"
+  ],
+  "description": "The service allows citizens who are drivers to tell DVLA about a relevant medical condition or renew their existing medical driving licence. The project is delivering a new online notification service enabling customers to tell DVLA about their medical condition, and a similar service enabling customers to renew their existing medical driving licence.",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://www.driving-medical-condition.service.gov.uk/report",
+  "startPage": [
+    "https://www.gov.uk/report-driving-medical-condition",
+    "https://www.gov.uk/renew-medical-driving-licence"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-08-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/fitness-to-drive",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2015-10-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/fitness-2-drive-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/dvla/Fitness-to-Drive-Pageflow"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Agent services account",
+  "description": "Agent services accounts (ASA) allow tax agents to use certain HMRC services.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "Unknown",
+  "tags": ["Original 25 exemplars"],
+  "liveService": "https://www.tax.service.gov.uk/agent-services-account",
+  "startPage": "https://www.gov.uk/guidance/sign-in-to-your-agent-services-account"
+}

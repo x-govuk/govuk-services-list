@@ -1,0 +1,9 @@
+{
+  "name": "Find schemes for your business",
+  "description": "A range of government programmes, are available for employers who are considering hiring employees, offering work experience or upskilling existing staff, some of which offer financial incentives.",
+  "organisation": "Department for Education",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://find-employer-schemes.education.gov.uk",
+  "startPage": "https://www.gov.uk/government/topical-events/skills-for-life"
+}

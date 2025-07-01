@@ -1,8 +1,0 @@
-{
-  "name": "Appeal against a tax decision",
-  "description": "Settle a dispute with HM Revenue & Customs (HMRC), UK Border Force or the National Crime Agency.",
-  "theme": "Crime, justice and the law",
-  "organisation": "Ministry of Justice",
-  "phase": "Beta",
-  "liveservice": "https://appeal-tax-tribunal.service.gov.uk/"
-}

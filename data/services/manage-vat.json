@@ -1,0 +1,10 @@
+{
+  "name": "Manage your VAT account",
+  "synonyms": ["Sign in to your VAT online account"],
+  "description": "Use this service to find out when VAT returns are due, view your payments, set up a Direct Debit, check and appeal penalties, report changes to your business or cancel your VAT registration.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Live",
+  "liveService": "https://www.tax.service.gov.uk/business-account/vat",
+  "startPage": "https://www.gov.uk/sign-in-vat-account"
+}

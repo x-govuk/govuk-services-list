@@ -1,0 +1,40 @@
+{% extends "govuk/template.njk" %}
+
+{% from "govuk/components/button/macro.njk" import govukButton %}
+{% from "govuk/components/details/macro.njk" import govukDetails %}
+{% from "govuk/components/inset-text/macro.njk" import govukInsetText %}
+{% from "govuk/components/service-navigation/macro.njk" import govukServiceNavigation %}
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+{% from "govuk/components/tag/macro.njk" import govukTag %}
+{% from "x-govuk/components/masthead/macro.njk" import xGovukMasthead %}
+{% from "macros/service-item.njk" import appServiceItem %}
+{% from "macros/x-govuk-logo.njk" import xGovukLogo -%}
+
+{% set govukRebrand = true %}
+{% set themeColor = "#28a" %}
+
+{% set opengraphImageUrl = "https://govuk-digital-services.herokuapp.com/images/opengraph-image.png" %}
+
+{% block pageTitle %}{{ title + " - " if title }}GOV.UK Services List{% endblock %}
+
+{% block headIcons %}
+  <link rel="shortcut icon" sizes="16x16 32x32 48x48" href="/images/favicon.ico" type="image/x-icon">
+  <link rel="mask-icon" href="https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-mask.svg?raw=true" color="#28a">
+  <link rel="apple-touch-icon" href="https://raw.githubusercontent.com/x-govuk/logo/main/images/x-govuk-icon-180.png">
+{% endblock %}
+
+{% block head %}
+  <link href="/application.css" rel="stylesheet">
+  <script src="/application.js" type="module"></script>
+{% endblock %}
+
+{% block header %}
+  {% include "includes/header.njk" %}
+{% endblock %}
+
+{% block content %}
+{% endblock %}
+
+{% block footer %}
+  {% include "includes/footer.njk" %}
+{% endblock %}

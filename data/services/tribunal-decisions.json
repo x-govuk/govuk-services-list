@@ -1,0 +1,10 @@
+{
+  "name": "Tribunal decisions",
+  "synonyms": ["Immigration and asylum tribunal appeal decisions"],
+  "description": "Immigration and asylum chamber: decisions on appeals to the Upper Tribunal.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/immigration-asylum-appeal-decisions",
+  "liveService": "https://tribunalsdecisions.service.gov.uk"
+}

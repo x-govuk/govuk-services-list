@@ -1,0 +1,10 @@
+{
+  "name": "File a notice of threatened opposition",
+  "synonyms": ["Give notice of your intention to oppose a trade mark"],
+  "description": "Tell Intellectual Property Office you intend to oppose a trade mark application, sometimes known as giving ‘notice of threatened opposition’. This will give you one extra month to file your opposition.",
+  "organisation": "Intellectual Property Office",
+  "theme": "Business and self-employed",
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/notice-to-oppose-trademark",
+  "liveService": "https://trademarks.ipo.gov.uk/ipo-threaten-to-oppose"
+}

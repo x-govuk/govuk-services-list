@@ -1,0 +1,10 @@
+{
+  "name": "Complain about a state school to Ofsted",
+  "synonyms": ["Complain about a school to Ofsted"],
+  "description": "Use this service to complain to Ofsted about a state school, including academies and free schools.",
+  "organisation": "Ofsted",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "liveService": "https://complain.ofsted.gov.uk/SchoolDetails/Index/1d308c3e-e514-4c14-aae7-af5433e23b58",
+  "startPage": "https://www.gov.uk/complain-to-ofsted"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Book or manage your coronavirus vaccination",
+  "synonyms": ["Book or manage a COVID-19 vaccination appointment"],
+  "description": "Use this service to book a coronavirus (COVID-19) vaccination or manage your appointments.",
+  "organisation": "NHS England",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "Live",
+  "liveService": "https://www.nhs.uk/nbs/start/covid",
+  "startPage": "https://www.nhs.uk/conditions/coronavirus-covid-19/coronavirus-vaccination/book-coronavirus-vaccination/"
+}

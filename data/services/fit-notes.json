@@ -1,0 +1,9 @@
+{
+  "name": "Send your fit note for your ESA claim",
+  "description": "You’ll be told during your application for Employment and Support Allowance (ESA) or ‘new style’ ESA, when you need to send fit notes (sometimes called ‘sick notes’ or a ‘statement of fitness for work’).",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Beta",
+  "liveService": "https://send-fit-note.service.gov.uk/",
+  "startPage": "https://www.gov.uk/send-fit-note"
+}

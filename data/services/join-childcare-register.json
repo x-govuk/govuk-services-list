@@ -1,0 +1,9 @@
+{
+  "name": "Apply to join the Childcare Register ",
+  "description": "Use this service if you want to apply to join the compulsory or voluntary parts of the Childcare Register.",
+  "organisation": "Ofsted",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "liveService": "https://www.join-childcare-register.service.gov.uk/submissions/new-form/CR1",
+  "startPage": "https://www.gov.uk/guidance/apply-to-join-the-childcare-register-cr1"
+}

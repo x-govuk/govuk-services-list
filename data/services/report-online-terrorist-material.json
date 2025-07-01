@@ -1,0 +1,15 @@
+{
+  "name": "Report online material promoting terrorism or extremism",
+  "description": "Report illegal or harmful information, pictures or videos you’ve found on the internet. You can make your report anonymously.",
+  "theme": "Citizenship and living in the UK",
+  "organisation": "Home Office",
+  "phase": "Beta",
+  "liveService": "https://www.report-terrorist-material.homeoffice.gov.uk/evidence-url",
+  "startPage": "https://www.gov.uk/report-terrorism",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/rotm"
+    }
+  ]
+}

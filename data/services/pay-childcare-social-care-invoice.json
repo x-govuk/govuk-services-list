@@ -1,0 +1,9 @@
+{
+  "name": "Pay your childcare or social care invoice",
+  "description": "Find out how to pay an Ofsted invoice in relation to your childcare business or children's social care service.",
+  "organisation": "Ofsted",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "liveService": "https://www.pay-childcare-social-care-invoice.service.gov.uk/",
+  "startPage": "https://www.gov.uk/guidance/pay-your-childcare-or-social-care-invoice"
+}

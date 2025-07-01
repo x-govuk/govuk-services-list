@@ -1,0 +1,9 @@
+{
+  "name": "Manage your water abstraction or impoundment licence",
+  "description": "Use this service to view and share your licence information and to submit abstraction returns.",
+  "theme": "Business and self-employed",
+  "organisation": "Environment Agency",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/manage-your-water-abstraction-or-impoundment-licences-online",
+  "liveService": "https://manage-water-abstraction-impoundment-licence.service.gov.uk/"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Apply for bankruptcy",
+  "description": "Apply for bankruptcy in England and Wales.",
+  "theme": "Business and self-employed",
+  "organisation": "Insolvency Service",
+  "phase": "Beta",
+  "liveService": "https://apply-for-bankruptcy.service.gov.uk/",
+  "startPage": "https://www.gov.uk/apply-for-bankruptcy"
+}

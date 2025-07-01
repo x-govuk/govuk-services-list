@@ -1,0 +1,14 @@
+{
+  "name": "GOV.UK UK Government Security",
+  "description": "This website is where people across the UK government can find security-related strategies, standards, and guidance, along with the organisations involved in the security profession.",
+  "theme": "Government Internal",
+  "organisation": "Government Digital Service",
+  "phase": "Live",
+  "liveService": "https://www.security.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/alphagov/platforms-product-page"
+    }
+  ]
+}

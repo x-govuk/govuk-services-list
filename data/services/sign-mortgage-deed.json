@@ -1,0 +1,25 @@
+{
+  "name": "Sign your mortgage deed",
+  "description": "Charge registration service to support an easy, quick and secure fully online secured loan (mortgage) experience for homeowners",
+  "theme": "Housing and local services",
+  "organisation": "Land Registry",
+  "phase": "Beta",
+  "liveService": "https://sign-your-mortgage-deed.landregistry.gov.uk",
+  "startPage": "https://www.gov.uk/government/publications/hm-land-registry-sign-your-mortgage-deed",
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2017-08-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/sign-your-mortgage-deed-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

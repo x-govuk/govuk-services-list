@@ -1,0 +1,24 @@
+{
+  "name": "Government Property Finder",
+  "synonyms": ["Find government property and land to rent or buy"],
+  "description": "Use the Government Property Finder to find government-owned property, buildings or land in the UK.",
+  "theme": "Business and self-employed",
+  "organisation": "Cabinet Office",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/find-government-property",
+  "liveService": "https://e-pims.cabinetoffice.gov.uk/government-property-finder/Home.aspx",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2014-08-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-tool-that-maps-government-property",
+            "text": "News story: New tool that maps government property"
+          }
+        ]
+      }
+    ]
+  }
+}

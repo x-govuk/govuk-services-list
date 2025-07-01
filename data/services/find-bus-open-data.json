@@ -1,0 +1,10 @@
+{
+  "name": "Find bus open data",
+  "synonyms": ["Find and use bus open data"],
+  "description": "Find and use timetable, location and fares data for local bus services in England.",
+  "organisation": "Department for Transport",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://data.bus-data.dft.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/find-and-use-bus-open-data"
+}

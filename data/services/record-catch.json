@@ -1,0 +1,25 @@
+{
+  "name": "Record your catch",
+  "synonyms": ["Record your catches"],
+  "description": "Create and submit catch records for all English and Welsh under 10 metre (U10m) flag vessels that fish in UK waters.",
+  "organisation": "Marine Management Organisation",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://record-catch.service.gov.uk/sign-in",
+  "startPage": "https://www.gov.uk/guidance/record-your-catch",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2019-07-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/record-your-catches-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

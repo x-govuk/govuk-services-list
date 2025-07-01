@@ -1,0 +1,46 @@
+{
+  "name": "The Childcare service",
+  "synonyms": [
+    "Apply for Tax-Free Childcare",
+    "Apply for free childcare if you're working",
+    "Tax Free Childcare (Parents)",
+    "Tax Free Childcare (Providers)"
+  ],
+  "description": "Register for Tax-Free Childcare",
+  "theme": "Benefits",
+  "organisation": "HM Revenue and Customs",
+  "phase": "Beta",
+  "liveService": "https://childcare-support.tax.service.gov.uk/par/app/trialmessage",
+  "startPage": [
+    "https://www.gov.uk/apply-for-tax-free-childcare",
+    "https://www.gov.uk/apply-30-hours-free-childcare",
+    "https://www.gov.uk/sign-in-childcare-account",
+    "https://www.gov.uk/apply-free-childcare-if-youre-working"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment (parents)",
+        "date": "2016-10-04",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/tax-free-childcare-parents-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment (parents)"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment (providers)",
+        "date": "2016-08-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/tax-free-childcare-providers-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment (providers)"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Look up commodity codes, import duties, taxes and controls (UK Integrated Online Tariff)",
+  "synonyms": [
+    "UK Integrated Online Tariff",
+    "Trade Tariff: look up commodity codes, duty and VAT rates"
+  ],
+  "description": "Commodity codes classify goods for import and export so you can: fill in declarations and other paperwork, check if there’s duty or VAT to pay, find out about duty reliefs.",
+  "theme": "Money and tax",
+  "organisation": "HM Revenue and Customs",
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/trade-tariff",
+  "liveService": "https://www.trade-tariff.service.gov.uk/trade-tariff/sections",
+  "sourceCode": [
+    {
+      "text": "Front end source code",
+      "href": "https://github.com/trade-tariff/trade-tariff-frontend"
+    },
+    {
+      "text": "Back end source code",
+      "href": "https://github.com/trade-tariff/trade-tariff-backend"
+    },
+    {
+      "text": "Calculator front end source code",
+      "href": "https://github.com/trade-tariff/trade-tariff-duty-calculator"
+    }
+  ]
+}

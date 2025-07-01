@@ -1,0 +1,53 @@
+{
+  "name": "File a confirmation statement",
+  "synonyms": [
+    "File your confirmation statement",
+    "File your confirmation statement (annual return) with Companies House"
+  ],
+  "description": "Use this service to file your confirmation statement (previously annual return).",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/confirmation-statement",
+  "startPage": [
+    "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
+    "https://www.gov.uk/file-changes-to-a-company-with-companies-house"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2021-03-23",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-your-confirmation-statement-alpha-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2022-01-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta reassessment",
+        "date": "2022-04-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/file-a-confirmation-statement-beta-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
+          }
+        ]
+      }
+    ]
+  }
+}

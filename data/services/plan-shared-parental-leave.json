@@ -1,0 +1,9 @@
+{
+  "name": "Plan shared parental leave and pay",
+  "description": "Plan how and when you and your partner take Shared Parental Leave. Find out how much Statutory Shared Parental Pay you would get and when to give notice.",
+  "organisation": "Department for Business and Trade",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "liveService": "https://www.plan-shared-parental-leave.service.gov.uk",
+  "startPage": "https://www.gov.uk/plan-shared-parental-leave-pay"
+}

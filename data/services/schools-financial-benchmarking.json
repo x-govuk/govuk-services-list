@@ -1,0 +1,29 @@
+{
+  "name": "Schools financial benchmarking",
+  "synonyms": [
+    "Schools Financial Benchmarking Website",
+    "Benchmark your school’s financial data",
+    "Compare your school or trust's budget: financial benchmarking"
+  ],
+  "description": "Compare your school's income and expenditure with other schools in England.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/benchmark-your-schools-financial-data",
+  "liveService": "https://schools-financial-benchmarking.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2021-02-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/schools-financial-benchmarking-website-live-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

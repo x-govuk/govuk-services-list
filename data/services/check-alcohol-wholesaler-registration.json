@@ -1,0 +1,10 @@
+{
+  "name": "Check if an alcohol wholesaler or producer is approved",
+  "synonyms": ["Check if an alcohol wholesaler is approved"],
+  "description": "If you buy alcohol to sell on, you must check that the wholesaler or producer you buy it from is approved.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Live",
+  "liveService": "https://www.tax.service.gov.uk/check-the-awrs-register",
+  "startPage": "https://www.gov.uk/check-alcohol-wholesaler-registration"
+}

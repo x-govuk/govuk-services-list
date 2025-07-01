@@ -1,9 +1,0 @@
-{
-  "name": "Apply for Marriage Allowance",
-  "description": "Marriage Allowance lets you transfer £1,260 of your Personal Allowance to your husband, wife or civil partner. It’s free to apply for Marriage Allowance.",
-  "organisation": "HM Revenue and Customs",
-  "theme": "Money and tax",
-  "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/marriage-allowance-application/eligibility-check",
-  "start-page": "https://www.gov.uk/apply-marriage-allowance"
-}

@@ -1,0 +1,27 @@
+{
+  "name": "Request a standard or enhanced DBS check",
+  "description": "Request a Standard or Enhanced DBS check allows Registered Bodies (registered organisations legally entitled to request the required level of disclosure check) to request a criminal record disclosure check.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Disclosure and Barring Service",
+  "phase": "Alpha",
+  "startPage": "https://www.gov.uk/dbs-check-applicant-criminal-record/get-a-standard-or-enhanced-dbs-check-for-an-employee",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2022-04-27"
+      },
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2023-06-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/request-a-standard-or-enhanced-dbs-check",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      }
+    ]
+  }
+}

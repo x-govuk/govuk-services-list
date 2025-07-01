@@ -1,0 +1,8 @@
+{
+  "name": "Register your waste exemptions",
+  "description": "This service allows users to register, rewnew or update waste exemptions.",
+  "theme": "Environment and countryside",
+  "organisation": "Environment Agency",
+  "phase": "Beta",
+  "liveService": "https://wasteexemptions.service.gov.uk/"
+}

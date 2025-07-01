@@ -1,0 +1,15 @@
+{
+  "name": "View a tenant's right to rent in England",
+  "description": "View a tenant's right to rent if they have a biometric residence card, biometric residence permit, settled or pre-settled status, or applied for a visa and used the ‘UK Immigration: ID Check’ app to scan their identity document on their phone.",
+  "theme": "Citizenship and living in the UK",
+  "organisation": "Home Office",
+  "phase": "Beta",
+  "liveService": "https://right-to-rent.service.gov.uk/view",
+  "startPage": "https://www.gov.uk/view-right-to-rent",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKHomeOffice/right-to-rent-check"
+    }
+  ]
+}

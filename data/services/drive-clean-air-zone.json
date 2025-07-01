@@ -1,0 +1,26 @@
+{
+  "name": "Drive in a clean air zone",
+  "synonyms": ["Pay a Clean Air Zone charge"],
+  "description": "Use this service to find out if you need to pay for your vehicle and to pay the daily charge.",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://multiple-vehiclecheck.drive-clean-air-zone.service.gov.uk/what_would_you_like_to_do",
+  "startPage": "https://www.gov.uk/clean-air-zones",
+  "tags": ["Top 75"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2019-10-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/pay-a-clean-air-zone-charge-alpha-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Apply for your first provisional driving licence",
+  "description": "Apply for your first provisional driving licence from DVLA online to drive a car, motorbike or moped.",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://apply-provisional-driving-licence.service.gov.uk/",
+  "startPage": "https://www.gov.uk/apply-first-provisional-driving-licence",
+  "tags": ["Top 75"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2009-09-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-your-first-provisional-driving-licence",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2021-01-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-your-first-provisional-licence",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

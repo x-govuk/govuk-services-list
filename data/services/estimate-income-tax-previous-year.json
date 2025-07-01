@@ -1,0 +1,9 @@
+{
+  "name": "Estimate your Income Tax for a previous tax year",
+  "description": "Use this service to estimate how much Income Tax you should have paid for a previous tax year.",
+  "theme": "Money and tax",
+  "organisation": "HM Revenue and Customs",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/estimate-income-tax-previous-year",
+  "liveService": "https://tax.service.gov.uk/guidance/previous-year-tax-checker"
+}

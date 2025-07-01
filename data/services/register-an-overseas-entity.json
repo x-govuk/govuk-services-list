@@ -1,0 +1,38 @@
+{
+  "name": "Register an overseas entity",
+  "synonyms": [
+    "Register of Overseas Entities",
+    "Register an overseas entity and tell us about its beneficial owners",
+    "Register and find a beneficial owner"
+  ],
+  "description": "Overseas entities who want to buy, sell or transfer property or land in the UK, must register with Companies House and tell them who their registrable beneficial owners or managing officers are.",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/register-an-overseas-entity/sold-land-filter?start=0",
+  "startPage": "https://www.gov.uk/guidance/register-an-overseas-entity",
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as red at alpha stage",
+        "date": "2024-12-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-and-find-a-beneficial-owner-alpha-assessment-report",
+            "text": "Service standard assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service goes live",
+        "date": "2022-08-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/the-new-register-of-overseas-entities-is-live",
+            "text": "News story: The new Register of Overseas Entities is live"
+          }
+        ]
+      }
+    ]
+  }
+}

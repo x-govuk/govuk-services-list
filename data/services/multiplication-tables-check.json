@@ -1,0 +1,25 @@
+{
+  "name": "Multiplication tables check",
+  "synonyms": ["The Multiplication Tables Check"],
+  "description": "The purpose of this service is to determine whether pupils can recall their times tables fluently, which is essential for future success in mathematics. It will help schools to identify pupils who have not yet mastered their times tables, so that additional support can be provided.",
+  "organisation": "Standards and Testing Agency",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://multiplication-tables-check-trial.service.gov.uk/",
+  "startPage": "https://www.gov.uk/government/collections/multiplication-tables-check",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-07-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/the-multiplication-tables-check-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

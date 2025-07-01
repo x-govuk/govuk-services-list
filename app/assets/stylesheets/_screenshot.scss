@@ -1,0 +1,19 @@
+@use "pkg:govuk-frontend/dist/govuk" as *;
+
+.app-screenshot {
+  @include govuk-link-image;
+
+  img {
+    border: 1px solid $govuk-border-colour;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  &:hover img {
+    border-color: $govuk-link-colour;
+  }
+
+  &:active img {
+    border-color: $govuk-link-active-colour;
+  }
+}

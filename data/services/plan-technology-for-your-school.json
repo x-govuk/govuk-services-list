@@ -1,0 +1,14 @@
+{
+  "name": "Plan technology for your school",
+  "description": "This is a self-assessment service to determine how your school is using technology and what your school can do to use technology better in future.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://www.plan-technology-for-your-school.education.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/plan-technology-for-your-school"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{% extends "layout.njk" %}
+
+{% set title = organisation.name %}
+
+{% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+  <ul class="govuk-list govuk-list--spaced">
+  {%- for service in organisation.services | sort(attribute="name") -%}
+    {{ appServiceItem(service) }}
+  {%- endfor %}
+  </ul>
+{% endblock %}

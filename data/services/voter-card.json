@@ -1,0 +1,61 @@
+{
+  "name": "Apply for photo ID to vote (called a ‘Voter Authority Certificate’)",
+  "description": "Electors will be able to apply for a Voter Authority Certificate online through a dedicated online system provided by the government, similar to the Register to Vote service.",
+  "theme": "Citizenship and living in the UK",
+  "organisation": "Ministry of Housing, Communities & Local Government",
+  "phase": "Beta",
+  "tags": ["Top 75"],
+  "startPage": "https://www.gov.uk/apply-for-photo-id-voter-authority-certificate",
+  "liveService": "https://voter-authority-certificate.service.gov.uk/start",
+  "timeline": {
+    "items": [
+      {
+        "label": "Policy paper published setting out intention to create the service",
+        "date": "2022-01-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/publications/voter-identification-at-polling-stations-and-the-new-voter-card",
+            "text": "Voter identification at polling stations and the new Voter Card"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2022-03-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/voter-card-service-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2022-05-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/voter-card-alpha-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Service launched",
+        "date": "2023-01-16"
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2022-11-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-voter-authority-certificate-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

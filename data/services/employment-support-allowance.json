@@ -1,0 +1,75 @@
+{
+  "name": "Apply for New Style Employment and Support Allowance (New Style ESA)",
+  "synonyms": [
+    "Apply for new style employment and support allowance",
+    "Apply online for new style employment and support allowance",
+    "Apply online for new style employment and support allowance",
+    "Apply for ESA"
+  ],
+  "description": "Use this service if you need financial support because you’re off work with a health condition, injury or disability.",
+  "organisation": "Department for Work and Pensions",
+  "theme": "Benefits",
+  "phase": "Beta",
+  "liveService": "https://www.apply-new-style-employment-support-allowance.service.gov.uk/",
+  "startPage": "https://www.gov.uk/guidance/new-style-employment-and-support-allowance",
+  "tags": ["Top 75"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2020-05-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-new-style-employment-and-support-allowance-esa-beta-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha re-assessment",
+        "date": "2019-05-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-online-for-new-style-employment-and-support-allowance-alpha-reassessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha re-assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2019-02-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-online-for-new-style-employment-and-support-allowance-alpha-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2016-07-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-esa",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta reassessment",
+        "date": "2020-10-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-new-style-employment-and-support-allowance-beta-reassessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta reassessment"
+          }
+        ]
+      }
+    ]
+  }
+}

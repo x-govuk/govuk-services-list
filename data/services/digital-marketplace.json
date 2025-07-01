@@ -1,0 +1,35 @@
+{
+  "name": "Digital Marketplace",
+  "description": "Find technology or people for digital projects in the public sector.",
+  "theme": "Government Internal",
+  "organisation": "Government Digital Service",
+  "phase": "Retired",
+  "liveService": "https://www.digitalmarketplace.service.gov.uk/",
+  "startPage": "https://www.gov.uk/digital-marketplace",
+  "sourceCode": [
+    {
+      "text": "Supplier frontend",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-supplier-frontend"
+    },
+    {
+      "text": "Buyer frontend",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-buyer-frontend"
+    },
+    {
+      "text": "Supplier briefs frontend",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-briefs-frontend"
+    },
+    {
+      "text": "API",
+      "href": "https://github.com/Crown-Commercial-Service/digitalmarketplace-api"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closed",
+        "date": "2023-04-20"
+      }
+    ]
+  }
+}

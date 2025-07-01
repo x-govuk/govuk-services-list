@@ -1,9 +1,0 @@
-{
-  "name": "Replace MOT certificate",
-  "description": "You can get a replacement MOT certificate online if you’ve lost or damaged the original.",
-  "theme": "Driving and transport",
-  "organisation": "Driver and Vehicle Standards Agency",
-  "phase": "Beta",
-  "liveservice": "https://www.check-mot.service.gov.uk/?skipResults=true",
-  "start-page": "https://www.gov.uk/replacing-lost-damaged-mot-certificate"
-}

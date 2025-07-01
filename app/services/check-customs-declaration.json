@@ -1,9 +1,0 @@
-{
-  "name": "Check if you need to declare goods you bring into or take out of the UK",
-  "description": "Whether you need to declare goods to UK customs depends where in the UK they start or end their journey.",
-  "organisation": "HM Revenue and Customs",
-  "theme": "Business and self-employed",
-  "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/guidance/check-if-you-need-to-declare-goods-you-bring-into-or-take-out-of-the-UK",
-  "start-page": "https://www.gov.uk/check-customs-declaration"
-}

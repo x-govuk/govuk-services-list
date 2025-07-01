@@ -1,0 +1,28 @@
+{
+  "name": "Check if your client qualifies for legal aid",
+  "description": "Use this service to find out if your client is likely to get civil legal aid, based on their financial situation.",
+  "theme": "Crime, justice and the law",
+  "organisation": ["Legal Aid Agency", "Ministry of Justice"],
+  "phase": "Beta",
+  "liveService": "https://check-your-client-qualifies-for-legal-aid.service.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/laa-estimate-financial-eligibility-for-legal-aid"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2023-08-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/civil-news-online-eligibility-tool-launched-for-all-providers",
+            "text": "News story: Civil news: online eligibility tool launched for providers"
+          }
+        ]
+      }
+    ]
+  }
+}

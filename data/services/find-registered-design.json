@@ -1,0 +1,9 @@
+{
+  "name": "Find a registered design",
+  "description": "Find details of a UK design registered with the Intellectual Property Office.",
+  "organisation": "Intellectual Property Office",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://www.registered-design.service.gov.uk/find/",
+  "startPage": "https://www.gov.uk/search-registered-design"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Pay a late filing penalty",
+  "synonyms": [
+    "Pay or appeal against a late filing penalty",
+    "Pay a penalty for filing your company accounts late"
+  ],
+  "description": "Use this service to pay a company's late filing penalty.",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://find-and-update.company-information.service.gov.uk/late-filing-penalty",
+  "startPage": "https://www.gov.uk/pay-a-penalty-for-filing-company-accounts-late",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2020-10-29",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/pay-or-appeal-against-a-late-filing-penalty-beta-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-09-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/pay-a-late-filing-penalty-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

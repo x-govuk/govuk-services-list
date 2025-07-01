@@ -1,0 +1,9 @@
+{
+  "name": "View designs journal",
+  "description": "View designs registered in the designs journal from the last 25 years",
+  "organisation": "Intellectual Property Office",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://www.registered-design.service.gov.uk/view/",
+  "startPage": "https://www.gov.uk/check-the-design-journal"
+}

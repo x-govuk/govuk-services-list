@@ -1,0 +1,9 @@
+{
+  "name": "Change your driving test",
+  "description": "Use this service to find an earlier driving test, move your driving test to a later date or change which test centre you take your test at.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase": "Beta",
+  "liveService": "https://driverpracticaltest.dvsa.gov.uk/login",
+  "startPage": ["https://www.gov.uk/change-driving-test"]
+}

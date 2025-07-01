@@ -1,0 +1,14 @@
+{
+  "name": "Flood map for planning",
+  "description": "This service is for learning about a site location's flood probability as part of development planning.",
+  "theme": "Environment and countryside",
+  "organisation": "Environment Agency",
+  "phase": "Beta",
+  "liveService": "https://flood-map-for-planning.service.gov.uk/",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DEFRA/fmp-app"
+    }
+  ]
+}

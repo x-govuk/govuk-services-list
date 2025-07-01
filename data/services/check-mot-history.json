@@ -1,0 +1,9 @@
+{
+  "name": "Check MOT history",
+  "description": "Check the past results of a vehicle’s MOT tests.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase": "Unknown",
+  "liveService": "https://www.check-mot.service.gov.uk/",
+  "startPage": "https://www.gov.uk/check-mot-history"
+}

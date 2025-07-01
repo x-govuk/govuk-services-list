@@ -1,0 +1,18 @@
+{
+  "name": "Check an HGV is ready to cross the border",
+  "synonyms": ["Kent Access Permit"],
+  "description": "You can use this service to apply for a Kent Access Permit and check you have the paperwork you need to cross the border between Great Britain and the EU via the Port of Dover or Eurotunnel",
+  "organisation": "Cabinet Office",
+  "theme": "Driving and transport",
+  "phase": "Retired",
+  "liveService": "https://check-hgv-border-readiness.service.gov.uk/start-kent-access-permit",
+  "startPage": "https://www.gov.uk/check-hgv-border",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service closed",
+        "date": "2021-04-21"
+      }
+    ]
+  }
+}

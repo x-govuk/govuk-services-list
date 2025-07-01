@@ -1,0 +1,10 @@
+{
+  "name": "Apply to be temporarily recognised as a transport manager for vans",
+  "synonyms": ["Apply to be a temporary transport manager"],
+  "description": "AUse this service to apply to be a temporary transport manager if you work for a business that transports goods from the UK into, or through, the EU, Switzerland, Norway, Iceland or Liechtenstein.",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "theme": "Driving and transport",
+  "phase": "Alpha",
+  "liveService": "https://apply-temporary-transport-manager.service.gov.uk/weight",
+  "startPage": "https://www.gov.uk/apply-temporary-transport-manager"
+}

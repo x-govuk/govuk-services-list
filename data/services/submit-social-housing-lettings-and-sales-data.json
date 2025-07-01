@@ -1,0 +1,52 @@
+{
+  "name": "Submit social housing lettings and sales data (CORE)",
+  "synonyms": ["Submit Data On Social Housing Sales And Lettings"],
+  "description": "Staff at Local Authorities and Housing Associations use this service to submit data about each new social housing letting or sale in England. This data is collected by MHCLG on an annual basis, is released as official national statistics on GOV.UK and informs social housing and homelessness policy.",
+  "theme": "Housing and local services",
+  "organisation": "Ministry of Housing, Communities & Local Government",
+  "phase": "Beta",
+  "liveService": "https://submit-social-housing-data.levellingup.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2022-07-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-social-housing-lettings-and-sales-data-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2021-09-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-data-on-social-housing-sales-and-lettings-alpha-reassessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2021-07-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-data-on-social-housing-sales-and-lettings-alpha-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/communitiesuk/submit-social-housing-lettings-and-sales-data"
+    }
+  ]
+}

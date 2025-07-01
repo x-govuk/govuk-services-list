@@ -1,0 +1,15 @@
+{
+  "name": "MoJ People Finder",
+  "description": "Find contact details.",
+  "theme": "Government Internal",
+  "organisation": "Ministry of Justice",
+  "phase": "Unknown",
+  "facing": "internal",
+  "liveService": "https://peoplefinder.service.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/peoplefinder"
+    }
+  ]
+}

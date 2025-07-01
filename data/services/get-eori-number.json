@@ -1,0 +1,12 @@
+{
+  "name": "Get an EORI number",
+  "synonyms": [
+    "Get an Economic Operators Registration and Identification number"
+  ],
+  "description": "Before you move goods in or out of the EU, or carry out other customs activities, you may need an Economic Operator and Registration Identification (EORI) number.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://www.tax.service.gov.uk/customs-registration-services/eori-only/register/vat-group",
+  "startPage": "https://www.gov.uk/eori/apply-for-eori"
+}

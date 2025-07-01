@@ -1,0 +1,14 @@
+{
+  "name": "Payment practices reporting",
+  "description": "Large businesses must publish information about their payment terms and practices, and how they keep to them.",
+  "organisation": "Department for Business and Trade",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://publish-payment-practices.service.gov.uk/",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKGovernmentBEIS/payment-practices-reporting"
+    }
+  ]
+}

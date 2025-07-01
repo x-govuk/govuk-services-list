@@ -1,0 +1,9 @@
+{
+  "name": "Register to Apply for US Global Entry",
+  "description": "Global Entry gets you through border control faster at some airports in the USA.",
+  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "phase": "Beta",
+  "liveService": "https://global-entry.beta.homeoffice.gov.uk/register-to-apply/register",
+  "startPage": "https://www.gov.uk/global-entry-usa"
+}

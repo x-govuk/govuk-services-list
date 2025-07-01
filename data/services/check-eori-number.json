@@ -1,0 +1,9 @@
+{
+  "name": "Check an EORI number",
+  "description": "Use this service to check if an EORI number beginning with GB (issued by the UK) is valid.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Live",
+  "liveService": "https://www.tax.service.gov.uk/check-eori-number",
+  "startPage": "https://www.gov.uk/check-eori-number"
+}

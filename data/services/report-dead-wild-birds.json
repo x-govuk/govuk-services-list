@@ -1,0 +1,17 @@
+{
+  "name": "Report dead wild birds",
+  "description": "Use this service to report dead wild birds. Your report will help us understand how diseases are spreading.",
+  "theme": "Environment and countryside",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "phase": "Alpha",
+  "liveService": "https://report-dead-wild-birds.service.gov.uk/anon/services/defra/report-a-dead-bird-3-master-v3",
+  "startPage": "https://www.gov.uk/guidance/report-dead-wild-birds",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2022-12-13"
+      }
+    ]
+  }
+}

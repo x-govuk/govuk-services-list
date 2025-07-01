@@ -1,0 +1,22 @@
+{
+  "name": "State of the Nation",
+  "description": "State of the Nation is an annual report into social mobility in the UK.",
+  "organisation": "Social Mobility Commission",
+  "phase": "Beta",
+  "theme": "Citizenship and living in the UK",
+  "liveService": "https://social-mobility.data.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2023-09-12",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/publications/state-of-the-nation-2023-people-and-places",
+            "text": "State of the Nation 2023: People and Places"
+          }
+        ]
+      }
+    ]
+  }
+}

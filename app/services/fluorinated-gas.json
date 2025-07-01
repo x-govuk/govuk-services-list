@@ -1,9 +1,0 @@
-{
-  "name": "Register for a fluorinated gas (F gas) account",
-  "description": "Register for an F gas account to apply for quota, manage your quota and submit an annual report.",
-  "organisation": "Environment Agency",
-  "theme": "Environment and countryside",
-  "phase": "Beta",
-  "liveservice": "https://register.fluorinated-gas.service.gov.uk/register/index",
-  "start-page": "https://www.gov.uk/guidance/record-and-report-f-gas-and-equipment-you-produce-or-import"
-}

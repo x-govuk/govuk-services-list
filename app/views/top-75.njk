@@ -1,0 +1,31 @@
+{% extends "layout.njk" %}
+
+{% set title = "Top 75 services" %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+      <p class="govuk-body">As part of the government’s <a href="https://www.gov.uk/government/publications/roadmap-for-digital-and-data-2022-to-2025/transforming-for-a-digital-future-2022-to-2025-roadmap-for-digital-and-data" class="govuk-link">2022 to 2025 roadmap for digital and data</a>, 75&nbsp;services have been prioritised.
+
+      {{ govukInsetText({
+        text: "By 2025, at least 50 of the government’s top 75 identified services will move to a ‘great’ standard, against a consistent measure of service performance."
+      }) }}
+
+      <p class="govuk-body">These services are included within the top 75:</p>
+
+      <ul class="govuk-list govuk-list--number govuk-list--spaced">
+      {%- for service in services | sort(attribute="name") -%}
+      {%- for tag in service.tags %}{% if tag == "Top 75" -%}
+        <li>
+          <a class="govuk-link" href="/service/{{ service.slug }}">
+            {{- service.name -}}
+          </a>
+        </li>
+      {%- endif %}{% endfor %}
+      {%- endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock %}

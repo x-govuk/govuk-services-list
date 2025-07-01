@@ -1,0 +1,15 @@
+{
+  "name": "Find out what support you can get if you’re affected by coronavirus",
+  "description": "Use this service to find out what help and advice you can get from the government and other organisations. You can use it for yourself or someone else.",
+  "organisation": "Government Digital Service",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "Retired",
+  "liveService": "https://find-coronavirus-support.service.gov.uk/need-help-with",
+  "startPage": "https://www.gov.uk/find-coronavirus-support",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/alphagov/govuk-coronavirus-find-support"
+    }
+  ]
+}

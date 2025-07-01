@@ -1,0 +1,15 @@
+{
+  "name": "Verify an apostille",
+  "description": "Use this service if you want to verify an Apostille certificate issued in the UK.",
+  "organisation": "Foreign, Commonwealth & Development Office",
+  "theme": "Passports, travel and living abroad",
+  "phase": "Live",
+  "liveService": "https://www.verifyapostille.service.gov.uk/",
+  "startPage": "https://www.gov.uk/verify-apostille",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/UKForeignOffice/verify-apostille-service"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "name": "Register a boat",
-  "description": "You need to register your boat with the UK Ship Register to use it at sea.",
-  "organisation": "Maritime and Coastguard Agency",
-  "theme": "Driving and transport",
-  "phase": "Beta",
-  "liveservice": "https://ukshipregister.service.mcga.gov.uk/signin",
-  "start-page": "https://www.gov.uk/register-a-boat/the-uk-ship-register"
-}

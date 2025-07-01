@@ -1,0 +1,50 @@
+{
+  "name": "Check a pension scheme member's residency status for relief at source",
+  "synonyms": [
+    "Residency Tax Status Look Up (Relief at Source)",
+    "Look up residency status for relief at source"
+  ],
+  "description": "Find the residency status of your members to give them the right tax relief using relief at source.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "Live",
+  "liveService": "https://www.tax.service.gov.uk/relief-at-source",
+  "startPage": "https://www.gov.uk/guidance/check-a-pension-scheme-members-residency-status-for-relief-at-source",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2018-08-15",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/look-up-residency-status-for-relief-at-source-live-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for  assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-04-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/look-up-residency-status-for-relief-at-source-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-10-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/residency-tax-status-look-up-service-relief-at-source-alpha",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

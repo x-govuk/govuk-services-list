@@ -1,9 +1,0 @@
-{
-  "name": "Update your employment details",
-  "description": "Update your employment details with the Student Loans Company",
-  "theme": "Working, jobs and pensions",
-  "organisation": "Student Loans Company",
-  "phase": "Beta",
-  "start-page": "https://www.gov.uk/repaying-your-student-loan/update-your-employment-details",
-  "liveservice": "https://www.update-student-loan-employment-details.service.gov.uk/open/captureresidency"
-}

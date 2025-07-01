@@ -1,0 +1,44 @@
+@use "pkg:govuk-frontend/dist/govuk" as *;
+
+.app-timeline {
+  margin-bottom: govuk-spacing(4);
+  position: relative;
+
+  &::before {
+    background-color: $govuk-brand-colour;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: govuk-spacing(2);
+    width: govuk-spacing(1);
+  }
+}
+
+.app-timeline__item {
+  padding-left: govuk-spacing(5);
+  position: relative;
+
+  &::before {
+    background-color: $govuk-brand-colour;
+    content: "";
+    height: govuk-spacing(1);
+    left: 0;
+    position: absolute;
+    top: govuk-spacing(2);
+    width: govuk-spacing(3);
+  }
+}
+
+.app-timeline__heading {
+  margin-bottom: 0;
+
+  @include govuk-font(19, $weight: bold);
+}
+
+.app-timeline__date {
+  color: $govuk-secondary-text-colour;
+  margin-top: govuk-spacing(1);
+
+  @include govuk-font(16);
+}

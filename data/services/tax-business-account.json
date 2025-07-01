@@ -1,0 +1,11 @@
+{
+  "name": "Business tax account",
+  "synonyms": ["Your tax account"],
+  "description": "View and access your business taxes in one place",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Live",
+  "liveService": "https://www.tax.service.gov.uk/business-account",
+  "startPage": "https://www.gov.uk/guidance/sign-in-to-your-hmrc-business-tax-account",
+  "tags": ["Original 25 exemplars"]
+}

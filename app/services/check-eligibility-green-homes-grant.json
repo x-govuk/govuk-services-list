@@ -1,9 +1,0 @@
-{
-  "name": "Check if you are eligible for the Green Homes Grant",
-  "description": "Use this service to find out if you can get a grant of up to £10,000 towards the cost of making your home more energy efficient.",
-  "organisation": "Department for Energy Security and Net Zero",
-  "theme": "Housing and local services",
-  "phase": "Retired",
-  "liveservice": "https://check-eligibility-green-homes-grant.service.gov.uk/",
-  "start-page": "https://www.gov.uk/check-eligible-green-homes-grant"
-}

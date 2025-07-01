@@ -1,0 +1,9 @@
+{
+  "name": "Submit an employment intermediary report",
+  "description": "Tell HM Revenue and Customs (HMRC) about people you pay but do not operate PAYE for - for example, if you’re a recruitment agency and find people work.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/employment-intermediary-report/distribute-requests/&origin=ei-frontend",
+  "startPage": "https://www.gov.uk/send-employment-intermediary-report"
+}

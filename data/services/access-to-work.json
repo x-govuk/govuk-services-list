@@ -1,0 +1,48 @@
+{
+  "name": "Apply for an Access to Work Grant",
+  "synonyms": ["Access to Work"],
+  "description": "Lets users who are disabled or have a long-term health condition that makes their work life difficult, get a grant to pay for adjustments to their workplace, transport or support so that they can carry on working.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Beta",
+  "liveService": "https://www.get-disability-work-support.service.gov.uk",
+  "startPage": "https://www.gov.uk/access-to-work/apply",
+  "tags": ["Top 75"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2015-07-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/access-to-work-alpha",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha re-assessment",
+        "date": "2015-07-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/access-to-work-alpha#reassessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha re-assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-07-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/access-to-work-beta",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

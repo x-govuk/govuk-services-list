@@ -1,0 +1,13 @@
+{
+  "name": "Get a PCR test to check if you have COVID-19",
+  "synonyns": [
+    "Get a free PCR test to check if you have coronavirus (COVID-19)",
+    "Get a free NHS test today to check if you have coronavirus"
+  ],
+  "description": "Order a swab test for home delivery or book a slot at a testing centre.",
+  "organisation": "NHS England",
+  "theme": "Coronavirus (COVID-19)",
+  "phase": "Retired",
+  "liveService": "https://self-referral.test-for-coronavirus.service.gov.uk/antigen",
+  "startPage": "https://www.gov.uk/get-coronavirus-test"
+}

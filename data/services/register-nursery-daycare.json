@@ -1,0 +1,9 @@
+{
+  "name": "Apply to register your nursery or other daycare organisation",
+  "description": "You must apply to register your nursery, or other daycare organisation for children, with Ofsted",
+  "organisation": "Ofsted",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "liveService": "https://www.register-nursery-daycare.service.gov.uk/submissions/new-form/EYO",
+  "startPage": "https://www.gov.uk/guidance/apply-to-register-your-nursery-or-other-daycare-organisation-eyo"
+}

@@ -1,0 +1,7 @@
+@use "pkg:govuk-frontend/dist/govuk" as *;
+
+.app-list--columns {
+  @include govuk-media-query($from: tablet) {
+    columns: 3;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Gender pay gap service",
+  "synonyms": ["Gender pay gap reporting"],
+  "description": "Use this service to find gender pay gap data for organisations in the UK.",
+  "theme": "Working, jobs and pensions",
+  "organisation": "Government Equalities Office",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/find-gender-pay-gap-data",
+  "liveService": "https://gender-pay-gap.service.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/cabinetoffice/gender-pay-gap"
+    }
+  ]
+}

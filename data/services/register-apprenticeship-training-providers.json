@@ -1,0 +1,13 @@
+{
+  "name": "Register of apprenticeship training providers service",
+  "synonyms": ["Register of Apprenticeship Training Providers (RoATP)"],
+  "description": "The Register of Apprenticeship Training Providers (RoATP) is a list of organisations that are eligible to receive government funding to train apprentices.",
+  "theme": "Education, training and skills",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/register-of-apprenticeship-training-providers",
+  "liveService": "https://download.apprenticeships.education.gov.uk"
+}

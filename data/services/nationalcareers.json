@@ -1,0 +1,27 @@
+{
+  "name": "National Careers Service",
+  "description": "Information, advice and guidance to help you make decisions on learning, training and work.",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://nationalcareers.service.gov.uk",
+  "tags": ["Top 75"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-01-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/digital-first-careers-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

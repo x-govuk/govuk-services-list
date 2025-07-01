@@ -1,0 +1,8 @@
+{
+  "name": "Director Conduct Reporting Service",
+  "description": "Once logged into the system you will be able complete director conduct reports required under Section 7a CDDA. Access to this service is restricted to Insolvency Practitioners and their staff. Please keep your password private.",
+  "theme": "Working, jobs and pensions",
+  "organisation": "Insolvency Service",
+  "phase": "Beta",
+  "liveService": "https://report-director-conduct.service.gov.uk/"
+}

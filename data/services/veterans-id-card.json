@@ -1,0 +1,51 @@
+{
+  "name": "Apply for an HM Armed Forces Veteran Card",
+  "synonyms": [
+    "Apply for a Veteran’s ID Card",
+    "Apply for HM Armed Forces Veteran’s Card",
+    "Veterans’ Recognition Scheme"
+  ],
+  "description": "An HM Armed Forces Veteran Card is a way to prove that you served in the UK armed forces. The card can make it quicker and easier to apply for support as a veteran.",
+  "organisation": ["Office for Veterans’ Affairs", "Ministry of Defence"],
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/veteran-card",
+  "liveService": "https://apply-for-a-veterans-card.service.gov.uk/",
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2022-10-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-hm-armed-forces-veterans-card-beta-assessment",
+            "text": "Service standard assessment",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha reassessment",
+        "date": "2022-10-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-veterans-id-card-alpha-assessment",
+            "text": "Service standard assessment",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service starts issuing cards to personnel as they leave the military",
+        "date": "2019-02-18",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-veterans-id-cards-rolled-out-to-service-leavers",
+            "text": "News story: New veterans ID cards rolled out to service leavers"
+          }
+        ]
+      }
+    ]
+  }
+}

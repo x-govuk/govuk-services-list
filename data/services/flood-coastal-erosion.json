@@ -1,0 +1,9 @@
+{
+  "name": "Submit a proposal for flood and coastal erosion risk management project funding",
+  "description": "As a risk management authority (RMA) you can submit your FCERM project proposal to apply for grant-in-aid (GIA) funding.",
+  "theme": "Environment and countryside",
+  "organisation": "Department for Environment, Food & Rural Affairs",
+  "phase": "Beta",
+  "startPage": ["https://www.gov.uk/guidance/submit-an-fcerm-project-proposal"],
+  "liveService": "https://submit-flood-coastal-erosion-funding-proposal.service.gov.uk"
+}

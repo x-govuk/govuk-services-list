@@ -1,0 +1,31 @@
+{
+  "name": "Find and Use an API",
+  "synonyms": ["DfE Developer Hub", "DfE Data Exchange"],
+  "description": "Connect to the Department for Education (DfE) digital services through our APIs.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Alpha",
+  "liveService": "https://find-and-use-an-api.education.gov.uk",
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2017-02-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/dfe-data-exchange-alpha",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/eapim-developer-hub"
+    }
+  ]
+}

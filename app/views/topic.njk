@@ -1,0 +1,19 @@
+{% extends "layout.njk" %}
+
+{% set title = "By topic" %}
+
+{% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+  {%- for theme in themes -%}
+  <h2 class="govuk-heading-l" id="{{ theme | slugify }}">
+    {{- theme -}}
+  </h2>
+
+  <ul class="govuk-list govuk-list--spaced">
+  {%- for service in services | sort(attribute="name") -%}
+    {{ appServiceItem(service) if service.theme == theme }}
+  {%- endfor %}
+  </ul>
+  {%- endfor %}
+{% endblock %}

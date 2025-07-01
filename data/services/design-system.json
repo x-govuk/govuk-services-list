@@ -1,0 +1,67 @@
+{
+  "name": "GOV.UK Design System",
+  "description": "Use this design system to make your service consistent with GOV.UK. Learn from the research and experience of other service teams and avoid repeating work that’s already been done.",
+  "theme": "Government Internal",
+  "organisation": "Government Digital Service",
+  "phase": "Beta",
+  "liveService": "https://design-system.service.gov.uk",
+  "facing": "internal",
+  "sourceCode": [
+    {
+      "text": "Website source code",
+      "href": "https://github.com/alphagov/govuk-design-system"
+    },
+    {
+      "text": "govuk-frontend source code",
+      "href": "https://github.com/alphagov/govuk-frontend"
+    }
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2017-08-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-alpha-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2017-06-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for failed alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass live assessment",
+        "date": "2021-03-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-dot-uk-design-system-live-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed live reassessment",
+        "date": "2021-11-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/gov-uk-design-system-live-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live reassessment"
+          }
+        ]
+      }
+    ]
+  }
+}

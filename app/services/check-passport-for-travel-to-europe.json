@@ -1,9 +1,0 @@
-{
-  "name": "Check a passport for travel to Europe",
-  "description": "Use this service to check if you need to renew your passport before travelling to an EU country, Switzerland, Norway, Iceland or Liechtenstein.",
-  "organisation": "HM Passport Office",
-  "theme": "Passports, travel and living abroad",
-  "phase": "Retired",
-  "liveservice": "https://check-passport-for-travel-to-europe.homeoffice.gov.uk/",
-  "start-page": "https://www.gov.uk/check-a-passport-travel-europe"
-}

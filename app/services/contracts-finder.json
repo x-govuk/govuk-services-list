@@ -1,9 +1,0 @@
-{
-  "name": "Contracts Finder",
-  "description": "Contracts Finder lets you search for information about contracts worth over £12,000 (including VAT) with the government and its agencies.",
-  "theme": "Business and self-employed",
-  "organisation": "Crown Commercial Service",
-  "phase": "Beta",
-  "liveservice": "https://www.contractsfinder.service.gov.uk",
-  "start-page": "https://www.gov.uk/contracts-finder"
-}

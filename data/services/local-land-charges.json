@@ -1,0 +1,36 @@
+{
+  "name": "Search for local land charges",
+  "synonyms": ["Search for local land charges on land and property"],
+  "description": "Use this service to search for restrictions (local land charges) on land or property.",
+  "theme": "Housing and local services",
+  "organisation": "Land Registry",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/search-local-land-charges",
+  "liveService": "https://search-local-land-charges.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-11-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/search-for-local-land-charges-and-maintain-local-land-charges-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not meet alpha assessment",
+        "date": "2017-01-31",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/local-land-charges-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Request an immigration or citizenship fee waiver",
+  "synonyms": [
+    "Requesting a fee waiver",
+    "Fee waiver",
+    "Get a citizenship application fee waiver if you’re under 18",
+    "Get a visa application fee waiver from inside the UK"
+  ],
+  "description": "You can apply for a fee waiver so you do not have to pay a citizenship application fee.",
+  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "phase": "Beta",
+  "liveService": "https://visas-immigration.service.gov.uk/product/fee-waiver",
+  "startPage": [
+    "https://www.gov.uk/get-child-citizenship-fee-waiver",
+    "https://www.gov.uk/visa-fee-waiver-in-uk"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Apply for a trade remedies investigation",
+  "description": "You can apply to the Trade Remedies Service if you want the Trade Remedies Investigations Directorate to investigate imports which are causing or threatening injury to UK industry.",
+  "organisation": "Department for International Trade",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://www.trade-remedies.service.gov.uk/accounts/login",
+  "startPage": "https://www.trade-remedies.service.gov.uk/accounts/login"
+}

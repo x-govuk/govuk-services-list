@@ -1,0 +1,21 @@
+{
+  "name": "Apply for innovation funding",
+  "synonyms": [
+    "Innovation Funding Service",
+    "Apply for an Innovation funding grant"
+  ],
+  "description": "Lets users who are looking for funding to complete their innovative projects apply to comptitions to win a grant.",
+  "theme": "Business and self-employed",
+  "organisation": "Innovate UK",
+  "phase": "Beta",
+  "phase_modifier": "Public",
+  "liveService": "https://apply-for-innovation-funding.service.gov.uk",
+  "startPage": "https://www.gov.uk/apply-funding-innovation",
+  "video": "YgWbfuxffj8",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/InnovateUKGitHub/innovation-funding-service"
+    }
+  ]
+}

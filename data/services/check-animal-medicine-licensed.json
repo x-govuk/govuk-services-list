@@ -1,0 +1,13 @@
+{
+  "name": "Check if an animal medicine is licensed",
+  "synonyms": ["Product Information Database"],
+  "description": "Find out if a veterinary medicine is currently licensed for use (‘authorised’) to treat pets and other animals.",
+  "organisation": [
+    "Veterinary Medicines Directorate",
+    "Department for Environment, Food & Rural Affairs"
+  ],
+  "theme": "Environment and countryside",
+  "phase": "Beta",
+  "liveService": "https://www.vmd.defra.gov.uk/ProductInformationDatabase/",
+  "startPage": "https://www.gov.uk/check-animal-medicine-licensed"
+}

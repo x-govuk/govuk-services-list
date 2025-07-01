@@ -1,0 +1,17 @@
+{
+  "name": "Apply for the Civil Service Fast Stream",
+  "description": "The Civil Service Fast Stream team runs the government’s flagship Fast Stream graduate programme.",
+  "theme": "Working, jobs and pensions",
+  "organisation": "Civil Service Fast Stream",
+  "phase": "Retired",
+  "liveService": "https://www.apply-civil-service-fast-stream.service.gov.uk/fset-fast-stream/signup",
+  "startPage": "https://www.gov.uk/government/organisations/civil-service-fast-stream",
+  "timeline": {
+    "items": [
+      {
+        "label": "Scheme closed",
+        "date": "2020-01-22"
+      }
+    ]
+  }
+}

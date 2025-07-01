@@ -1,0 +1,10 @@
+{
+  "name": "Register a death abroad",
+  "synonyms": ["Payment to register a death abroad"],
+  "description": "Pay to register the death of a British national abroad.",
+  "organisation": "Foreign, Commonwealth & Development Office",
+  "theme": "Births, deaths, marriages and care",
+  "phase": "Unknown",
+  "startPage": "https://www.gov.uk/register-a-death/y/overseas",
+  "liveService": "https://register-a-death-abroad.service.gov.uk/"
+}

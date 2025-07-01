@@ -1,0 +1,29 @@
+{
+  "name": "Evict a tenant using accelerated possession",
+  "description": "The system helps step the user through the creation of an N5B, Claim form for Possession of Property).  The resultant PDF must be printed and posted to the court along with the fee and required documents",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/evicting-tenants/accelerated-possession-orders",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2014-07-15",
+        "links": [
+          {
+            "href": "https://dataingovernment.blog.gov.uk/civil-claims-accelerated-possession-service-assessment/",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/ministryofjustice/accelerated_claims"
+    }
+  ]
+}

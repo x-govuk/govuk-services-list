@@ -1,8 +1,0 @@
-{
-  "name": "Apply to close a Tax tribunal enquiry",
-  "description": "Ask the judge for a closure, counteraction or no-counteraction notice.",
-  "theme": "Crime, justice and the law",
-  "organisation": "Ministry of Justice",
-  "phase": "Beta",
-  "liveservice": "https://appeal-tax-tribunal.service.gov.uk/en/closure"
-}

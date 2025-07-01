@@ -1,0 +1,35 @@
+{
+  "name": "Service Manual",
+  "synonyms": ["Manual"],
+  "description": "Helping teams to create and run great public services that meet the Service Standard.",
+  "organisation": "Government Digital Service",
+  "theme": "Government Internal",
+  "phase": "Beta",
+  "liveService": "https://www.gov.uk/service-manual",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-06-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/service-manual-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed alpha assessment",
+        "date": "2015-11-17",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/service-manual-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Marine licence applications register",
+  "synonyms": [
+    "Check the public register of marine licence applications and decisions"
+  ],
+  "description": "View applications for marine licences and the decisions made.",
+  "organisation": "Marine Management Organisation",
+  "theme": "Environment and countryside",
+  "phase": "Live",
+  "liveService": "https://marinelicensing.marinemanagement.org.uk/mmofox5/fox/live/MMO_PUBLIC_REGISTER",
+  "startPage": "https://www.gov.uk/check-marine-licence-register"
+}

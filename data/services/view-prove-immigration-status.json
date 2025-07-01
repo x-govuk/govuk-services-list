@@ -1,0 +1,9 @@
+{
+  "name": "View or prove your immigration status",
+  "description": "If you have been told you can view your immigration status online you can use this service to get a ‘share code’ to prove your status to others, update personal details in your UK Visas and Immigration (UKVI) account, and check what rights you have in the UK, for example the right to work, rent or claim benefits.",
+  "organisation": "Home Office",
+  "theme": "Visas and immigration",
+  "phase": "Beta",
+  "liveService": "https://view-immigration-status.service.gov.uk/status",
+  "startPage": "https://www.gov.uk/view-prove-immigration-status"
+}

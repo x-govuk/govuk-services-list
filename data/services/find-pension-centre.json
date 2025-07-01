@@ -1,0 +1,9 @@
+{
+  "name": "Find your pension centre",
+  "description": "Look up contact details for your pension centre to make an enquiry about State Pension and Pension Credit claims.",
+  "theme": "Money and tax",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/find-pension-centre",
+  "liveService": "https://findpensioncentre.dwp.gov.uk"
+}

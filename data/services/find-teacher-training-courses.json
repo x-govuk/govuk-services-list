@@ -1,0 +1,15 @@
+{
+  "name": "Find teacher training courses",
+  "description": "Find teaching courses in England if you want to teach in a state primary or secondary school, or in further education.",
+  "theme": "Education, training and skills",
+  "organisation": "Department for Education",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/find-teacher-training-courses",
+  "liveService": "https://find-teacher-training-courses.service.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/publish-teacher-training"
+    }
+  ]
+}

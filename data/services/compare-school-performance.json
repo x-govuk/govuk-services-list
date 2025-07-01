@@ -1,0 +1,15 @@
+{
+  "name": "Find school and college performance data in England",
+  "synonyms": [
+    "Find and check the performance of schools and colleges in England",
+    "Compare School Performance Tables",
+    "Find and compare schools in England"
+  ],
+  "description": "Search for primary, secondary and special needs schools and colleges near you, and check their performance.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://www.compare-school-performance.service.gov.uk/",
+  "startPage": "https://www.gov.uk/school-performance-tables",
+  "tags": ["Top 75"]
+}

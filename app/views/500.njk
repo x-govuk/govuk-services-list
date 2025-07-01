@@ -1,0 +1,21 @@
+{% extends "layout.njk" %}
+
+{% set title = "Sorry, there is a problem" %}
+{% set stackHtml %}<pre class="govuk-!-margin-0" tabindex="0"><code class="govuk-!-font-size-14">{{ error.stack }}</code></pre>{% endset %}
+
+{% block content %}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+      <h2 class="govuk-heading-m govuk-!-margin-bottom-2">{{ error.name }}</h2>
+
+      <p class="govuk-body">{{ error.message | nl2br | nl2br | safe }}</p>
+
+      {{ govukDetails({
+        summaryHtml: "Stack trace",
+        html: stackHtml
+      }) }}
+    </div>
+  </div>
+{% endblock %}

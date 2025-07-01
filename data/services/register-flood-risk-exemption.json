@@ -1,0 +1,9 @@
+{
+  "name": "Register a flood risk activity exemption",
+  "description": "You may need an environmental permit if you want to work in, over, under or near a main river or flood or sea defence. Some flood risk activities are exempt from needing a permit and you can carry out the work if you register an exemption.",
+  "organisation": "Environment Agency",
+  "theme": "Environment and countryside",
+  "phase": "Beta",
+  "liveService": "https://register-flood-risk-exemption.service.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/register-your-flood-risk-exemption-environmental-permits"
+}

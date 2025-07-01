@@ -1,0 +1,14 @@
+{
+  "name": "Develop your career in child and family social work",
+  "description": "Find development programmes for child and family social workers at different stages of your career.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://www.develop-child-family-social-work-career.education.gov.uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/childrens-social-care-cpd"
+    }
+  ]
+}

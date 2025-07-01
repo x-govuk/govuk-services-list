@@ -1,0 +1,9 @@
+{
+  "name": "Find pension contact details",
+  "description": "Find the contact details for a pension provider by using the Pension Tracing Service",
+  "theme": "Working, jobs and pensions",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Live",
+  "liveService": "https://www.findpensioncontacts.service.gov.uk/",
+  "startPage": "https://www.gov.uk/find-pension-contact-details"
+}

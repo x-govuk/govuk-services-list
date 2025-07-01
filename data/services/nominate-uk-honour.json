@@ -1,0 +1,15 @@
+{
+  "name": "Honours nomination",
+  "description": "ou can nominate someone for an honour online.",
+  "organisation": "Cabinet Office",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "liveService": "https://nominate-uk-honour.service.gov.uk",
+  "startPage": "https://www.gov.uk/honours/nominate-someone-in-the-uk",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/cabinetoffice/has-nomination-form"
+    }
+  ]
+}

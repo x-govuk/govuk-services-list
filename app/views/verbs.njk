@@ -1,0 +1,39 @@
+{% extends "layout.njk" %}
+
+{% set title = "Verbs" %}
+
+{% block content %}
+  <h1 class="govuk-heading-xl">{{ title }}</h1>
+
+  {% set quote %}
+    <p class="govuk-body">“Good services are verbs, bad services are nouns”</p>
+
+    <p class="govuk-body"><a href="https://designnotes.blog.gov.uk/2015/06/22/good-services-are-verbs-2/" class="govuk-link">Design in government blog post, 22 June 2015</a></p>
+  {% endset %}
+
+  {{ govukInsetText({
+    html: quote
+  }) }}
+
+  <h2 class="govuk-heading-l">Common verbs used across government services</h2>
+
+  <ol class="govuk-list app-list--columns">
+  {%- for verb in verbs -%}
+    <li>
+      <a class="govuk-link" href="#{{ verb.slug }}">{{ verb.name }} ({{ verb.count }})</a>
+    </li>
+  {%- endfor %}
+  </ol>
+
+  {%- for verb in verbs -%}
+  <h2 class="govuk-heading-l" id="{{ verb.slug }}">
+    {{- verb.name -}}
+  </h2>
+
+  <ul class="govuk-list govuk-list--spaced">
+  {%- for service in verb.services | sort(false, false, "name") -%}
+    {{ appServiceItem(service) }}
+  {%- endfor %}
+  </ul>
+  {%- endfor %}
+{% endblock %}

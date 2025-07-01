@@ -1,0 +1,25 @@
+{
+  "name": "Tell Us Once",
+  "synonyms": ["Tell us about a death"],
+  "description": "Tell Us Once is a service that lets you report a death to most government organisations in one go.",
+  "organisation": "Department for Work and Pensions",
+  "theme": "Births, deaths, marriages and care",
+  "phase": "Beta",
+  "liveService": "https://tell-us-someone-died.dwp.gov.uk/death/enrich/recover",
+  "startPage": "https://www.gov.uk/after-a-death/organisations-you-need-to-contact-and-tell-us-once",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed alpha assessment",
+        "date": "2018-05-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/tell-us-about-a-death-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

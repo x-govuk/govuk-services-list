@@ -1,0 +1,43 @@
+<header class="govuk-header" role="banner" data-module="govuk-header">
+  <div class="govuk-header__container govuk-width-container">
+    <div class="govuk-header__logo">
+      <a class="govuk-header__link govuk-header__link--homepage" href="https://x-govuk.github.io">
+        {{ xGovukLogo({
+          classes: "govuk-header__logotype x-govuk-header__logotype",
+          ariaLabelText: "X-GOVUK"
+        }) | trim | indent(10) }}
+      </a>
+    </div>
+  </div>
+</header>
+
+{{ govukServiceNavigation({
+  classes: "govuk-service-navigation--inverse" if productPage,
+  serviceName: "GOV.UK Services List",
+  serviceUrl: "/",
+  navigation: [{
+    href: "/a-z",
+    text: "A to Z",
+    active: title == "A to Z"
+  },
+  {
+    href: "/topic",
+    text: "By topic",
+    active: title == "By topic"
+  },
+  {
+    href: "/organisation",
+    text: "By organisation",
+    active: section == "organisation"
+  },
+  {
+    href: "/phase",
+    text: "By phase",
+    active: title == "By phase"
+  },
+  {
+    href: "/contribute",
+    text: "Contribute",
+    active: title == "Contributing"
+  }]
+}) }}

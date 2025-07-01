@@ -1,0 +1,25 @@
+{
+  "name": "Report benefit fraud",
+  "description": "Lets users report someone they suspect is claiming benefits they aren't entitled to.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Beta",
+  "phase_modifier": "Public",
+  "liveService": "https://www.report-benefit-fraud.service.gov.uk/details",
+  "startPage": "https://www.gov.uk/report-benefit-fraud",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2016-09-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/report-benefit-fraud",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

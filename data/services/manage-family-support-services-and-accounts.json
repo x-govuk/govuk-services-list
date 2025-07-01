@@ -1,0 +1,15 @@
+{
+  "name": "Manage family support services and accounts",
+  "description": "This service is for people working in local authorities or voluntary and community sector organisations. It allows you to manage your organisation and services on Connect families to support and Find support for your family.",
+  "organisation": "Department for Education",
+  "theme": "Childcare and parenting",
+  "phase": "Retired",
+  "liveService": "https://manage-family-support-services-and-accounts.education.gov.uk/",
+  "tags": ["GOV.UK One Login"],
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/fh-services"
+    }
+  ]
+}

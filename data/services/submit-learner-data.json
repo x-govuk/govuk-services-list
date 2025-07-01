@@ -1,0 +1,53 @@
+{
+  "name": "Submit learner data",
+  "synonyms": [
+    "Submit learner data (data collection)",
+    "Share learner data (previously known as Data Collection)",
+    "Data collection"
+  ],
+  "description": "Use this service to validate and submit Individualised learner records, Earnings adjustment statements, ESF supplementary data, Funding Claims and FE staff and vacancy data",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "theme": "Education, training and skills",
+  "phase": "Live",
+  "liveService": "https://submit-learner-data.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live assessment",
+        "date": "2020-12-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-learner-data-data-collection-live-service-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live assessment"
+          }
+        ]
+      },
+      {
+        "label": "Passed beta assessment",
+        "date": "2019-04-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/share-learner-data-previously-known-as-data-collection-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not pass alpha assessment",
+        "date": "2018-02-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/data-collection-service-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

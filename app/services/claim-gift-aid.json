@@ -1,9 +1,0 @@
-{
-  "name": "Claim Gift Aid online",
-  "description": "Your charity or community amateur sports club (CASC) can use online services to claim Gift Aid and tax back on other income, such as bank interest.",
-  "organisation": "HM Revenue and Customs",
-  "theme": "Money and tax",
-  "phase": "Beta",
-  "liveservice": "https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account/&origin=GIFTAID-frontend",
-  "start-page": "https://www.gov.uk/claim-gift-aid-online"
-}

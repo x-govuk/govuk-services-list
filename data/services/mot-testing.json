@@ -1,0 +1,31 @@
+{
+  "name": "MOT testing service",
+  "synonyms": ["Record MOT test results"],
+  "description": "Use this service if you’re an MOT tester and you need to record results of MOTs you carry out, print MOT certificates or buy test slots and check your test station’s balance.",
+  "theme": "Driving and transport",
+  "organisation": "Driver and Vehicle Standards Agency",
+  "phase": "Unknown",
+  "liveService": "https://www.mot-testing.service.gov.uk",
+  "startPage": "https://www.gov.uk/mot-testing-service",
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed live reassessment",
+        "date": "2018-10-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/record-mot-test-results-live-reassessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for live reassessment"
+          }
+        ]
+      }
+    ]
+  },
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/dvsa/mot"
+    }
+  ]
+}

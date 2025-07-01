@@ -1,0 +1,13 @@
+{
+  "name": "Find an end-point assessment organisation for your apprentice",
+  "synonyms": ["Find an assessor for your apprentice"],
+  "description": "Find an organisation to assess your apprentice at the end of their apprenticeship. This is known as an ‘end-point assessment’.",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "theme": "Education, training and skills",
+  "phase": "Beta",
+  "liveService": "https://find-epao.apprenticeships.education.gov.uk/courses",
+  "startPage": "https://www.gov.uk/find-endpoint-assessment-organisation-apprentice"
+}

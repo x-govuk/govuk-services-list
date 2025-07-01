@@ -1,0 +1,30 @@
+{
+  "name": "Register a vehicle",
+  "synonyms": [
+    "Register a vehicle if you work for a vehicle manufacturer or retailer",
+    "Register a Vehicle Electronically",
+    "Register a Vehicle (RaV)"
+  ],
+  "description": "Allows authorised vehicle manufacturers or retailers to register new vehicles or new imported vehicles for the first time.",
+  "organisation": "Driver and Vehicle Licensing Agency",
+  "theme": "Driving and transport",
+  "phase": "Beta",
+  "liveService": "https://register-vehicle.service.gov.uk/",
+  "startPage": "https://www.gov.uk/guidance/register-a-vehicle-if-you-work-for-a-vehicle-manufacturer-or-retailer",
+  "tags": ["Original 25 exemplars"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Passed beta assessment",
+        "date": "2018-11-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/register-a-vehicle-electronically-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": " for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}

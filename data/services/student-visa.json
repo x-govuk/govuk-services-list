@@ -1,0 +1,10 @@
+{
+  "name": "Apply for a Student visa",
+  "description": "You can apply for a Student visa to study in the UK.",
+  "theme": "Visas and immigration",
+  "organisation": ["Home Office", "UK Visas and Immigration"],
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/student-visa/apply",
+  "liveService": "https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/student_out_uk",
+  "tags": ["Top 75"]
+}
