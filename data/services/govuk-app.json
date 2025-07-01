@@ -1,0 +1,27 @@
+{
+  "name": "GOV.UK App",
+  "description": "The GOV.UK app gives you time back by making your interactions with government more personalised and proactive.",
+  "organisation": "Government Digital Service",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/download-the-govuk-app",
+  "liveService": "https://www.gov.uk/",
+  "platform": "app",
+  "timeline": {
+    "items": [
+      {
+        "label": "Trial version launched",
+        "date": "2025-06-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/public-services-put-in-your-pocket-with-trial-govuk-app-launched-today",
+            "text": "Press release: Public services put in your pocket with trial GOV.UK App launched today"
+          },
+          {
+            "href": "https://www.youtube.com/watch?v=dmHmBiJteCc",
+            "text": "YouTube video: The new GOV.UK app"
+          }
+        ]
+      }
+    ]
+  }
+}
