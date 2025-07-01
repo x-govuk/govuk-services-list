@@ -14,6 +14,7 @@ import {
   screenshotController,
   serviceController,
   viewController,
+  appsController,
 } from "./lib/controllers.js";
 import {
   getAtoZ,
@@ -51,6 +52,7 @@ const contributingFile = path.join(import.meta.dirname, "CONTRIBUTING.md");
 app.get("/organisation{/:slug}", organisationController(organisations));
 app.get("/projects{/:slug}", projectController);
 app.get("/screenshots", screenshotController(services));
+app.get("/apps", appsController(services));
 app.get("/service{/:slug}", serviceController(services));
 app.get("/data.json", (request, response) => response.json({ services }));
 app.get("/contribute", markdownController(contributingFile, "Contributing"));
