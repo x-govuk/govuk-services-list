@@ -3,7 +3,7 @@
   "description": "Those living in tower blocks can access to updates on the status of their building’s application to the government’s Building Safety Fund.",
   "theme": "Housing and local services",
   "organisation": "Ministry of Housing, Communities & Local Government",
-  "phase": "Live",
+  "phase": "Retired",
   "startPage": "https://www.gov.uk/guidance/find-support-as-a-leaseholder-or-resident-of-a-building-in-the-building-safety-fund-bsf-process#getting-information-on-your-buildings-application",
   "liveService": "https://www.building-safety-fund-status.communities.gov.uk",
   "timeline": {
