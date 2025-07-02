@@ -3,7 +3,7 @@
   "description": "Businesses that bring goods into Northern Ireland from Great Britain (England, Scotland and Wales) must submit declarations for those goods.",
   "theme": "Money and tax",
   "organisation": "HM Revenue and Customs",
-  "phase": "Live",
+  "phase": "Retired",
   "startPage": "https://www.gov.uk/check-tariff-goods-ni-from-gb",
   "liveService": "https://www.tax.service.gov.uk/guidance/tariff-on-goods-brought-into-NI/start"
 }
