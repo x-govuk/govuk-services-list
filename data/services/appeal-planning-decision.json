@@ -15,5 +15,19 @@
       "text": "Source code",
       "href": "https://github.com/Planning-Inspectorate/appeal-planning-decision"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "National rollout begins",
+        "date": "2025-07-02",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-online-appeals-service-launching-for-all-local-planning-authorities",
+            "text": "News story: New online appeals service launching for all local planning authorities"
+          }
+        ]
+      }
+    ]
+  }
 }
