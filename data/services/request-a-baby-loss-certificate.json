@@ -1,0 +1,33 @@
+{
+  "name": "Request a baby loss certificate",
+  "description": "You can get a certificate in memory of your baby if your pregnancy ends before 24 weeks (or 28 weeks if your pregnancy ended before 1 October 1992).",
+  "organisation": "Department of Health and Social Care",
+  "theme": "Childcare and parenting",
+  "phase": "Beta",
+  "liveService": "https://www.request-a-baby-loss-certificate.service.gov.uk/request-a-baby-loss-certificate",
+  "startPage": "https://www.gov.uk/request-baby-loss-certificate",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service extended",
+        "date": "2024-10-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/certificates-recognising-heartbreak-of-losing-a-baby-extended",
+            "text": "Service extended with no backdate"
+          }
+        ]
+      },
+      {
+        "label": "Service launched",
+        "date": "2024-02-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/baby-loss-certificate-launchedto-recognise-parents-grief",
+            "text": "Press release: Baby loss certificate launched to recognise parents’ grief"
+          }
+        ]
+      }
+    ]
+  }
+}
