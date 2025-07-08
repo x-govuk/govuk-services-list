@@ -1,0 +1,23 @@
+{
+  "name": "Get help if HMRC has contacted you about a compliance check",
+  "description": "Find guidance, videos and information about what to do if HMRC contacts you about compliance checks.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://www.tax.service.gov.uk/guidance/get-help-if-hmrc-has-contacted-you-about-a-compliance-check/start/what-do-you-need-help-with",
+  "startPage": "https://www.gov.uk/guidance/get-help-if-hmrc-contacts-you-about-a-compliance-check",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2025-04-30",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/hmrc-launches-new-online-interactive-help-for-compliance-checks",
+            "text": "Press release: HMRC launches new online interactive help for compliance checks"
+          }
+        ]
+      }
+    ]
+  }
+}
