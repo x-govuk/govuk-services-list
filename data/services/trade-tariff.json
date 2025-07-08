@@ -1,7 +1,8 @@
 {
-  "name": "Look up commodity codes, import duties, taxes and controls (UK Integrated Online Tariff)",
+  "name": "UK Integrated Online Tariff",
   "synonyms": [
     "UK Integrated Online Tariff",
+    "Look up commodity codes, import duties, taxes and controls",
     "Trade Tariff: look up commodity codes, duty and VAT rates"
   ],
   "description": "Commodity codes classify goods for import and export so you can: fill in declarations and other paperwork, check if there’s duty or VAT to pay, find out about duty reliefs.",
