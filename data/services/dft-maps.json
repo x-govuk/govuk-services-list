@@ -1,0 +1,22 @@
+{
+  "name": "DfT Maps",
+  "description": "Find out about road and rail investment.",
+  "organisation": "Department for Transport",
+  "phase": "Alpha",
+  "liveService": "https://maps.dft.gov.uk/road-and-rail-investment-spending-review-2025/index.html",
+  "startPage": "https://www.gov.uk/government/news/green-light-for-over-50-road-and-rail-upgrades-supporting-over-39000-new-homes-and-42000-jobs",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched in Alpha",
+        "date": "2025-07-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/green-light-for-over-50-road-and-rail-upgrades-supporting-over-39000-new-homes-and-42000-jobs",
+            "text": "Press release: Green light for over 50 road and rail upgrades supporting over 39,000 new homes and 42,000 jobs"
+          }
+        ]
+      }
+    ]
+  }
+}
