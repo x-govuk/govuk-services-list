@@ -7,5 +7,19 @@
   "phase": "Beta",
   "liveService": "https://find-and-update.company-information.service.gov.uk",
   "startPage": "https://www.gov.uk/get-information-about-a-company",
-  "tags": ["GOV.UK One Login"]
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service celebrates 10 year anniversary",
+        "date": "2025-06-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/companies-house-celebrates-10-years-of-open-data",
+            "text": "Press release: Companies House celebrates 10 years of open data"
+          }
+        ]
+      }
+    ]
+  }
 }
