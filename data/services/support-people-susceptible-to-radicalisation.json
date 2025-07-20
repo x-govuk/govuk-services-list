@@ -1,0 +1,47 @@
+{
+  "name": "Prevent duty training",
+  "synonyms": ["Support people susceptible to radicalisation"],
+  "description": "Government training courses are designed for staff working in sectors covered by the Prevent duty.",
+  "organisation": "Home Office",
+  "theme": "Crime, justice and the law",
+  "phase": "Beta",
+  "liveService": "https://www.support-people-susceptible-to-radicalisation.service.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/prevent-duty-training",
+  "timeline": {
+    "items": [
+      {
+        "label": "Did not meet alpha assessment",
+        "date": "2020-01-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/prevent-e-learning-alpha-assessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Met alpha reassessment",
+        "date": "2020-06-09",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/prevent-e-learning-alpha-reassessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for alpha reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Did not meet beta assessment",
+        "date": "2021-04-21",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/prevent-duty-training-learn-how-to-safeguard-individuals-vulnerable-to-radicalisation-beta-assessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
