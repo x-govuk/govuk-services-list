@@ -1,8 +1,6 @@
 {
   "name": "Prevent duty training",
-  "synonyms": [
-    "Support people susceptible to radicalisation"
-  ],
+  "synonyms": ["Support people susceptible to radicalisation"],
   "description": "Government training courses are designed for staff working in sectors covered by the Prevent duty.",
   "organisation": "Home Office",
   "theme": "Crime, justice and the law",
