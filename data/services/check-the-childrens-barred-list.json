@@ -1,0 +1,15 @@
+{
+  "name": "Check the children's barred list",
+  "description": "Check if a new employee can work with children while you wait for Disclosure and Barring Service (DBS) checks.",
+  "organisation": "Department for Education",
+  "theme": "Education, training and skills",
+  "phase": "Unknown",
+  "liveService": "https://check-the-childrens-barred-list.education.gov.uk/sign-in",
+  "startPage": "https://www.gov.uk/guidance/check-the-childrens-barred-list",
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/check-childrens-barred-list"
+    }
+  ]
+}
