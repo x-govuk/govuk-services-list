@@ -5,5 +5,11 @@
   "theme": "Education, training and skills",
   "phase": "Beta",
   "liveService": "https://apply-for-qts-in-england.education.gov.uk/",
-  "tags": ["GOV.UK One Login"]
+  "tags": ["GOV.UK One Login"],
+  "sourceCode": [
+    {
+      "text": "Source code",
+      "href": "https://github.com/DFE-Digital/apply-for-qualified-teacher-status"
+    }
+  ]
 }
