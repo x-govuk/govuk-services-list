@@ -1,0 +1,17 @@
+{
+  "name": "Find public health resources",
+  "description": "Explore public health and immunisation resources that support national immunisation programmes.",
+  "organisation": "UK Health Security Agency",
+  "theme": "Health",
+  "phase": "Beta",
+  "liveService": "https://find-public-health-resources.service.gov.uk/",
+  "startPage": "https://www.gov.uk/guidance/find-public-health-resources",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2025-07-14"
+      }
+    ]
+  }
+}
