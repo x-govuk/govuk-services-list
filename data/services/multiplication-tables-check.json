@@ -5,7 +5,7 @@
   "organisation": "Standards and Testing Agency",
   "theme": "Education, training and skills",
   "phase": "Beta",
-  "liveService": "https://multiplication-tables-check-trial.service.gov.uk/",
+  "liveService": "https://pupil.multiplication-tables-check.service.gov.uk/sign-in",
   "startPage": "https://www.gov.uk/government/collections/multiplication-tables-check",
   "timeline": {
     "items": [

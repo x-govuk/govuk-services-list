@@ -1,9 +1,9 @@
 {
   "name": "Use the Employer Checking Service",
-  "description": "Employer checking service (ECS): check your employee or potential employee's immigration employment status",
+  "description": "Employer checking service (ECS): check your employee or potential employee’s immigration employment status",
   "organisation": "Home Office",
   "theme": "Visas and immigration",
   "phase": "Beta",
-  "liveService": "https://www.immigrationstatuscheck.service.gov.uk/employers/",
+  "liveService": "https://www.employer-request-a-check.homeoffice.gov.uk/eligibility",
   "startPage": "https://www.gov.uk/employee-immigration-employment-status"
 }

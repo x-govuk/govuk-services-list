@@ -8,12 +8,12 @@
     "HMPO Online Appointment Booking (CHAMP)",
     "Passport appointments"
   ],
-  "description": "You can pay to get your passport sooner if you think the non-urgent service will take too long.  You need to book a passport office appointment and pay online. You can book an appointment up to 3 weeks in advance.",
+  "description": "You can pay to get your passport sooner if you think the non-urgent service will take too long. You need to book a passport office appointment and pay online. You can book an appointment up to 3 weeks in advance.",
   "organisation": "Home Office",
   "theme": "Passports, travel and living abroad",
   "phase": "Beta",
   "liveService": "https://www.passport.service.gov.uk/urgent/",
-  "startPage": "https://www.gov.uk/get-a-passport-urgently/online-premium-service",
+  "startPage": "https://www.gov.uk/get-a-passport-urgently",
   "timeline": {
     "items": [
       {
