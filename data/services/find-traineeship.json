@@ -6,7 +6,7 @@
     "Department for Education"
   ],
   "theme": "Working, jobs and pensions",
-  "phase": "Live",
+  "phase": "Retired",
   "liveService": "https://www.findapprenticeship.service.gov.uk/traineeshipsearch",
   "startPage": "https://www.gov.uk/find-traineeship"
 }

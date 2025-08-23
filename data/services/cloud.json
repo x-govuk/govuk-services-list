@@ -7,7 +7,7 @@
   "description": "Modern web hosting for government services. You can get something up on the Internet in minutes, without depending on a webops team.",
   "theme": "Government Internal",
   "organisation": "Government Digital Service",
-  "phase": "Live",
+  "phase": "Retired",
   "facing": "internal",
   "liveService": "https://www.cloud.service.gov.uk/",
   "timeline": {

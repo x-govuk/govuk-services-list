@@ -3,8 +3,9 @@
   "description": "Use this guide if you need to make or change child arrangements (also known as contact, access or custody) with the other parent.",
   "organisation": "Ministry of Justice",
   "theme": "Childcare and parenting",
-  "phase": "Beta",
+  "phase": "Retired",
   "liveService": "https://helpwithchildarrangements.service.justice.gov.uk",
+  "startPage": "https://www.gov.uk/looking-after-children-divorce",
   "sourceCode": [
     {
       "text": "Source code",
