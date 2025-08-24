@@ -9,6 +9,16 @@
   "timeline": {
     "items": [
       {
+        "label": "Launched in beta",
+        "date": "2015-08-15",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2015/10/15/introducing-gov-uk-pay/",
+            "text": "Blog post: Introducing GOV.UK Pay"
+          }
+        ]
+      },
+      {
         "label": "Passed live assessment",
         "date": "2021-02-09",
         "links": [
