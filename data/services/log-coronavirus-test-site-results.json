@@ -3,7 +3,7 @@
   "description": "Log lateral flow test results from coronavirus test sites. ",
   "organisation": "Department of Health and Social Care",
   "theme": "Coronavirus (COVID-19)",
-  "phase": "Alpha",
+  "phase": "Retired",
   "liveService": "https://log-coronavirus-test-site-results.service.gov.uk/",
   "startPage": "https://www.gov.uk/log-test-site-covid19-results"
 }
