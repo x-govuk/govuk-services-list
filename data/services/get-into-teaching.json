@@ -9,13 +9,24 @@
   "timeline": {
     "items": [
       {
+        "label": "Assessed as green at beta assessment",
+        "date": "2025-04-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-into-teaching",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for public beta assessment"
+          }
+        ]
+      },
+      {
         "label": "Passed beta assessment",
         "date": "2021-01-19",
         "links": [
           {
             "href": "https://www.gov.uk/service-standard-reports/get-into-teaching-beta-assessment-report",
             "text": "Service assessment report",
-            "visuallyHiddenText": " for beta assessment"
+            "visuallyHiddenText": "for beta assessment"
           }
         ]
       },
