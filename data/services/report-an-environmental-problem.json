@@ -1,0 +1,41 @@
+{
+  "name": "Report an environmental problem",
+  "synonyms":[
+    "Report water pollution in England",
+    "Report a smell from a waste facility, industrial site or farm in England"
+  ],
+  "description": "Use this service to report water pollution or unpleasant smells from waste facilities, industrial sites and farms.",
+  "organisation": "Environment Agency",
+  "theme": "Environment and countryside",
+  "phase": "Beta",
+  "startPage": [
+    "https://www.gov.uk/report-environmental-problem",
+    "https://www.gov.uk/report-water-pollution",
+    "https://www.gov.uk/report-smell"
+  ],
+  "liveService": "https://report-an-environmental-problem.service.gov.uk/smell",
+  "timeline": {
+    "items": [
+      {
+        "label": "Launched",
+        "date": "2025-06-12",
+        "links": [
+          {
+            "href": "https://environmentagency.blog.gov.uk/2025/06/12/how-can-i-report-water-pollution-and-odour-problems-online-new-service-puts-environmental-action-at-your-fingertips/",
+            "text": "Blog post: How can I report water pollution and odour problems online? New service puts environmental action at your fingertips."
+          }
+        ]
+      },
+      {
+        "label": "Service announced",
+        "date": "2024-11-12",
+        "links": [
+          {
+            "href": "https://environmentagency.blog.gov.uk/2024/11/12/reporting-water-pollution-to-get-easier-with-new-online-service/",
+            "text": "Blog post: Reporting water pollution to get easier with new online service "
+          }
+        ]
+      }
+    ]
+  }
+}
