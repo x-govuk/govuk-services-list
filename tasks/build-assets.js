@@ -1,5 +1,3 @@
-import browserSync from "browser-sync";
-
 import { compileJavaScript, compileSass } from "../lib/assets.js";
 
 async function buildAssets() {
@@ -10,6 +8,7 @@ async function buildAssets() {
     await Promise.all([compileSass(), compileJavaScript()]);
 
     // Create Browsersync instance
+    const browserSync = await import("browser-sync");
     const bs = browserSync.create();
 
     bs.init({
