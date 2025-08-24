@@ -41,6 +41,16 @@
         ]
       },
       {
+        "label": "Service launched",
+        "date": "2018-06-22",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2018/06/22/introducing-the-gov-uk-design-system/?utm_medium=referral&utm_source=gdsblog&utm_campaign=designsystemlive",
+            "text": "Blog post: Introducing the GOV.UK Design System"
+          }
+        ]
+      },
+      {
         "label": "Did not pass live assessment",
         "date": "2021-03-11",
         "links": [
