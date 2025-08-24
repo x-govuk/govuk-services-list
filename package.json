@@ -34,7 +34,6 @@
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^5.0.2",
     "@x-govuk/govuk-prototype-filters": "^2.0.0",
-    "browser-sync": "^3.0.4",
     "dotenv": "^17.2.1",
     "esbuild": "^0.25.9",
     "express": "~5.1.0",
@@ -44,6 +43,7 @@
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
+    "browser-sync": "^3.0.4",
     "prettier": "^3.5.3",
     "puppeteer-core": "^24.17.0",
     "stylelint": "^16.23.1",
