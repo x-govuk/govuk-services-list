@@ -4,5 +4,19 @@
   "organisation": "Cabinet Office",
   "theme": "Citizenship and living in the UK",
   "phase": "Beta",
-  "liveService": "https://www.ethnicity-facts-figures.service.gov.uk"
+  "liveService": "https://www.ethnicity-facts-figures.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2017-08-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/prime-minister-launches-world-leading-project-on-impact-of-ethnicity-on-everyday-life",
+            "text": "Press release: Prime Minister launches world-leading project on impact of ethnicity on everyday life"
+          }
+        ]
+      }
+    ]
+  }
 }
