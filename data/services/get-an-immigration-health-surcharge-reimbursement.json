@@ -1,0 +1,9 @@
+{
+  "name": "Apply for your immigration health surcharge reimbursement",
+  "description": "Get a refund of the immigration health surcharge (IHS) if you’re  a medical professional or work in another role in a healthcare setting",
+  "organisation": "NHS Business Services Authority",
+  "theme": "Visas and immigration",
+  "phase": "Live",
+  "liveService": "https://get-an-immigration-health-surcharge-reimbursement.service.gov.uk/health/eligibility/immigration-health-surcharge-paid",
+  "startPage": "https://www.gov.uk/apply-immigration-health-surcharge-refund/healthcare-setting"
+}
