@@ -1,0 +1,9 @@
+{
+  "name": "Penalty Notice Portal",
+  "description": "The Penalty Notice Portal allows you to pay your Penalty Notice.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Home Office",
+  "phase": "Alpha",
+  "startPage": "https://www.gov.uk/parking-tickets",
+  "liveService": "https://penaltynotice.homeoffice.gov.uk"
+}
