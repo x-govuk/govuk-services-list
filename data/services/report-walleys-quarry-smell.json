@@ -6,6 +6,14 @@
     "Department for Environment, Food & Rural Affairs",
     "Environment Agency"
   ],
-  "phase": "Beta",
-  "liveService": "https://report-walleys-quarry-smell.service.gov.uk"
+  "phase": "Retired",
+  "liveService": "https://report-walleys-quarry-smell.service.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service retired and replaced with new service",
+        "date": "2025-06-12"
+      }
+    ]
+  }
 }
