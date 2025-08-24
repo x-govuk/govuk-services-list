@@ -19,6 +19,36 @@
   "timeline": {
     "items": [
       {
+        "label": "Launched in beta",
+        "date": "2012-01-31",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2012/01/31/beta/",
+            "text": "Blog post: Introducing the beta of GOV.UK"
+          }
+        ]
+      },
+      {
+        "label": "Wins Design of the Year award",
+        "date": "2013-04-37",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2013/04/17/gov-uk-wins-design-of-the-year-2013/",
+            "text": "Blog post: GOV.UK wins Design of the Year 2013"
+          }
+        ]
+      },
+      {
+        "label": "All arm’s length body websites transitioned on to GOV.UK",
+        "date": "2014-12-19",
+        "links": [
+          {
+            "href": "https://insidegovuk.blog.gov.uk/2014/12/19/300-websites-to-just-1-in-15-months/",
+            "text": "Blog post: 300+ websites to just 1 in 15 months"
+          }
+        ]
+      },
+      {
         "label": "Brand refresh goes live",
         "date": "2025-06-25",
         "links": [
