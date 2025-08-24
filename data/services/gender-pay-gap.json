@@ -12,5 +12,19 @@
       "text": "Source code",
       "href": "https://github.com/cabinetoffice/gender-pay-gap"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2017-01-28",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/gender-pay-gap-reporting",
+            "text": "News story: Gender Pay Gap Reporting"
+          }
+        ]
+      }
+    ]
+  }
 }
