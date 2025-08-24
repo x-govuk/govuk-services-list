@@ -1,0 +1,23 @@
+{
+  "name": "Register for the UK/European applicant transfer scheme",
+  "description": "Use this expression of interest form if you would like to come to the UK under the UK/European applicant transfer scheme.",
+  "theme": "Visas and immigration",
+  "organisation": "Home Office",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/ukeuropean-applicant-transfer-scheme",
+  "liveService": "https://www.register-uk-european-applicant-transfer-scheme.homeoffice.gov.uk/start",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launches",
+        "date": "2025-08-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/first-illegal-immigrants-detained-under-landmark-uk-france-deal",
+            "text": "News story: First illegal immigrants detained under landmark UK-France deal"
+          }
+        ]
+      }
+    ]
+  }
+}
