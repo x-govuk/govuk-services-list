@@ -1,14 +1,24 @@
 {
-  "name": "Make a plea for a traffic offence",
-  "synonyms": ["Make a Plea"],
+  "name": "Make a Plea",
+  "synonyms": ["Make a plea for a traffic offence"],
   "description": "Use this service to plead guilty or not guilty to a traffic offence. You must be either: the person charged with the offence, an official representative of the company charged with the offence.",
   "theme": "Crime, justice and the law",
-  "organisation": "Ministry of Justice",
+  "organisation": ["Ministry of Justice", "HM Courts & Tribunals Service"],
   "phase": "Beta",
-  "liveService": "https://makeaplea.service.gov.uk/plea/enter_urn/",
-  "startPage": "https://www.gov.uk/make-a-plea",
+  "liveService": "https://onlineplea.cjscp.org.uk/onlineplea/start.xhtml?locale=en",
+  "startPage": "https://www.gov.uk/single-justice-procedure-notices",
   "timeline": {
     "items": [
+      {
+        "label": "Service launched",
+        "date": "2016-12-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/online-plea-service-for-traffic-offences",
+            "text": "News story: Online plea service for traffic offences"
+          }
+        ]
+      },
       {
         "label": "Passed alpha assessment",
         "date": "2018-02-21",
