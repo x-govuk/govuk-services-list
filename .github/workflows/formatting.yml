@@ -20,7 +20,7 @@ jobs:
         # Checkout the default way if it is a fork
         if: github.event.pull_request.head.repo.full_name != github.repository
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version-file: ".nvmrc"
       - name: Install dependencies
