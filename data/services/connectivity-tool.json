@@ -2,7 +2,7 @@
   "name": "Connectivity Tool",
   "description": "You can use the tool to display how any location in England and Wales is connected to everyday services by walking, driving, cycling and public transport and plot new transport routes to understand how these would affect an area’s connectivity.",
   "organisation": "Department for Transport",
-  "theme": "Driving and transport"
+  "theme": "Driving and transport",
   "phase": "Beta",
   "liveService": "https://connectivity-tool.dft.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/connectivity-tool",
