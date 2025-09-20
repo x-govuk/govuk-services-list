@@ -1,8 +1,6 @@
 {
   "name": "Register of digital identity and attribute services",
-  "synonyms": [
-    "Find registered digital identity and attribute services"
-  ],
+  "synonyms": ["Find registered digital identity and attribute services"],
   "description": "The register of digital identity and attribute services is a public list of government-registered organisations who provide digital identity services certified against the UK digital identity and attributes trust framework.",
   "organisation": " Department for Science, Innovation and Technology",
   "theme": "Citizenship and living in the UK",
