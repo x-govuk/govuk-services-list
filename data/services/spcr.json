@@ -1,0 +1,14 @@
+{
+  "name": "Tell Border Force and HMRC you are sailing to or from the UK in a pleasure craft",
+  "synonyms": [
+    "Submit a pleasure craft report"
+  ],
+  "description": "Use this service to tell Border Force and HMRC about your next voyage plan or update an existing voyage plan",
+  "organisation": "Border Force",
+  "theme": "Passports, travel and living abroad",
+  "phase": "Beta",
+  "liveService": "https://www.spcr.homeoffice.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/submit-a-pleasure-craft-report",
+  "platform": "web",
+  "tags": ["GOV.UK One Login"]
+}
