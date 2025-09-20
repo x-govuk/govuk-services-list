@@ -1,0 +1,11 @@
+{
+  "name": "Immigration Advice Authority",
+  "description": "Search for a registered adviser, make an application for registration, submit a complaint or make an enquiry.",
+  "organisation": "Immigration Advice Authority",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "liveService": "https://portal.immigrationadviceauthority.gov.uk/s/",
+  "startPage": "https://www.gov.uk/government/organisations/immigration-advice-authority",
+  "platform": "web",
+  "tags": ["GOV.UK One Login"]
+}
