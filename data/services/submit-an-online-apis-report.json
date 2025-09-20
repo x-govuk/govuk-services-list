@@ -1,0 +1,15 @@
+{
+  "name": "Submit an Online APIS Report",
+  "synonyms": [
+    "Submit an Online Advanced Passenger Information System Report",
+    "Online APIS"
+  ],
+  "description": "Use this service to inform UK Border Force of an international aviation journey, create and submit a report, view a report and edit draft reports.",
+  "organisation": "Home Office",
+  "theme": "Passports, travel and living abroad",
+  "phase": "Beta",
+  "liveService": "https://www.submit-an-online-apis-report.service.gov.uk",
+  "startPage": "https://www.gov.uk/government/publications/providing-information-about-scheduled-aviation-flights",
+  "platform": "web",
+  "tags": ["GOV.UK One Login"]
+}
