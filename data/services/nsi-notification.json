@@ -1,0 +1,11 @@
+{
+  "name": "Submit a National Security and Investment notification",
+  "description": "Use this service to notify the government of acquisitions that fall under the National Security and Investment Act 2021 (NSI Act).",
+  "organisation": "Cabinet Office",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "liveService": "https://nsi.beis.gov.uk",
+  "startPage": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions",
+  "platform": "web",
+  "tags": ["GOV.UK One Login"]
+}
