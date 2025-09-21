@@ -27,6 +27,17 @@
             "visuallyHiddenText": "for beta assessment"
           }
         ]
+      },
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2025-08-05",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-a-grant-beta-assessment-report",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta re-assessment"
+          }
+        ]
       }
     ]
   }
