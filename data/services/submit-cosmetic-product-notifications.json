@@ -6,6 +6,7 @@
   "phase": "Beta",
   "liveService": "https://submit.cosmetic-product-notifications.service.gov.uk",
   "startPage": "https://www.gov.uk/guidance/submit-a-cosmetic-product-notification",
+  "tags": ["GOV.UK One Login"],
   "sourceCode": [
     {
       "text": "Source code",

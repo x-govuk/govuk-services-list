@@ -6,6 +6,7 @@
   "phase": "Beta",
   "startPage": "https://www.gov.uk/find-teacher-training-courses",
   "liveService": "https://find-teacher-training-courses.service.gov.uk",
+  "tags": ["GOV.UK One Login"],
   "sourceCode": [
     {
       "text": "Source code",

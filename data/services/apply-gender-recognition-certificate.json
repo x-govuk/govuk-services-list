@@ -10,6 +10,7 @@
   "phase": "Beta",
   "liveService": "https://apply-gender-recognition-certificate.service.gov.uk/",
   "startPage": "https://www.gov.uk/apply-gender-recognition-certificate/how-to-apply",
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {
