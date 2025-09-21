@@ -13,7 +13,6 @@ https://accessibility-manual.dwp.gov.uk
 https://api.prison.service.justice.gov.uk
 https://api.publish-teacher-training-courses.service.gov.uk
 https://apply-for-legal-aid.service.justice.gov.uk/
-https://apply-the-service-standard.education.gov.uk
 https://ccrc.gov.uk/
 https://components.publishing.service.gov.uk
 https://content-api.publishing.service.gov.uk

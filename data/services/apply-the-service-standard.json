@@ -1,0 +1,9 @@
+{
+  "name": "Apply the Service Standard",
+  "synonyms": ["Apply the Service Standard in the Department for Education"],
+  "description": "Guidance and information for how to apply the Government Service Standard to design and build accessible, usable and understandable services in DfE.",
+  "theme": "Government Internal",
+  "organisation": ["Department for Education"],
+  "phase": "Beta",
+  "liveService": "https://apply-the-service-standard.education.gov.uk"
+}
