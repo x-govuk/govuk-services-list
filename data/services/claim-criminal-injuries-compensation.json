@@ -1,0 +1,10 @@
+{
+  "name": "Claim criminal injuries compensation",
+  "description": "You might be able to claim compensation if you were the victim of a violent crime.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Criminal Injuries Compensation Authority",
+  "phase": "Beta",
+  "liveService": "https://claim-criminal-injuries-compensation.service.justice.gov.uk/apply",
+  "startPage": "https://www.gov.uk/claim-compensation-criminal-injury/make-claim",
+  "tags": ["GOV.UK One Login"]
+}

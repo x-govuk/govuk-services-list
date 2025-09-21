@@ -1,0 +1,10 @@
+{
+  "name": "Apply for an import licence",
+  "description": "Use this service to apply for an export certificate",
+  "theme": "Business and self-employed",
+  "organisation": ["Department for Business and Trade"],
+  "phase": "Beta",
+  "liveService": "https://apply-for-an-import-licence.service.gov.uk/login-start/",
+  "startPage": "https://www.gov.uk/guidance/import-controls",
+  "tags": ["GOV.UK One Login"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Apply for an export certificate",
+  "synonyms": ["Apply for a Certificate of Free Sale"],
+  "description": "Use this service to apply for an export certificate",
+  "theme": "Business and self-employed",
+  "organisation": ["Department for Business and Trade"],
+  "phase": "Beta",
+  "liveService": "https://apply-for-an-export-certificate.service.gov.uk/login-start/",
+  "startPage": "https://www.gov.uk/guidance/apply-for-an-export-certificate",
+  "tags": ["GOV.UK One Login"]
+}

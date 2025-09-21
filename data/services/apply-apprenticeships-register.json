@@ -1,0 +1,17 @@
+{
+  "name": "Apprenticeship provider and assessment register service",
+  "synonyms": [
+    "Apply to join the apprenticeship provider and assessment register (APAR)",
+    "Apprenticeship Provider and Assessment Register (APAR)"
+  ],
+  "description": "Use this service to join the apprenticeship provider and assessment register (APAR) so you can train apprentices in England.",
+  "theme": "Education, training and skills",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/guidance/apply-to-the-apar-as-an-apprenticeship-training-provider",
+  "liveService": "https://apply.apprenticeships.education.gov.uk",
+  "tags": ["GOV.UK One Login"]
+}
