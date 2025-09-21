@@ -1,0 +1,11 @@
+{
+  "name": "Foreign Influence Registration Scheme",
+  "description": "Use the Foreign Influence Registration Scheme (FIRS) service to register arrangements with foreign powers and entities they control, manage your registrations, and view the public register.",
+  "organisation": "Home Office",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "liveService": "https://foreign-influence-registration-scheme.service.gov.uk",
+  "startPage": "https://www.gov.uk/government/collections/foreign-influence-registration-scheme",
+  "tags": ["GOV.UK One Login"],
+  "platform": "web"
+}
