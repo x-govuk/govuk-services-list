@@ -1,0 +1,46 @@
+{
+  "name": "Get approval to spend",
+  "description": "This service is for those who are applying to spend public money through the Cabinet Office spend approval for Digital and Technology",
+  "organisation": "Cabinet Office",
+  "theme": "Government Internal",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/government/publications/digital-and-technology-spend-control-version-6/digital-and-technology-spend-control-version-6",
+  "liveService": "https://www.get-approval-to-spend.service.gov.uk/",
+  "timeline": {
+    "items": [
+      {
+        "label": "Met alpha reassessment",
+        "date": "2022-02-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/submit-a-pipeline-for-spend-assurance-alpha-assessment-report",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as amber at beta reassessment",
+        "date": "2024-04-19",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-approval-to-spend-beta-reassessment",
+            "text": "Service standard report",
+            "visuallyHiddenText": "for beta reassessment"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as green at Beta amber evidence review",
+        "date": "2025-10-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-approval-to-spend-beta-amber-evidence-review",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta amber evidence review"
+          }
+        ]
+      }
+    ]
+  }
+}
