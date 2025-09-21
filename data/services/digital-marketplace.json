@@ -2,9 +2,9 @@
   "name": "Digital Marketplace",
   "description": "Find technology or people for digital projects in the public sector.",
   "theme": "Government Internal",
-  "organisation": "Government Digital Service",
-  "phase": "Retired",
-  "liveService": "https://www.digitalmarketplace.service.gov.uk/",
+  "organisation": "Crown Commercial Service",
+  "phase": "Beta",
+  "liveService": "https://www.applytosupply.digitalmarketplace.service.gov.uk",
   "startPage": "https://www.gov.uk/digital-marketplace",
   "sourceCode": [
     {
@@ -27,8 +27,24 @@
   "timeline": {
     "items": [
       {
-        "label": "Service closed",
-        "date": "2023-04-20"
+        "label": "Service launched",
+        "date": "2014-11-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-digital-marketplace-opens-for-business",
+            "text": "Press relese: New Digital Marketplace opens for business"
+          }
+        ]
+      },
+      {
+        "label": "Service celebrates 4th anniversary",
+        "date": "2018-11-06",
+        "links": [
+          {
+            "href": "https://gds.blog.gov.uk/2018/11/06/digital-marketplace-turns-4-what-weve-achieved/",
+            "text": "Blog post: Digital Marketplace turns 4: what we've achieved"
+          }
+        ]
       }
     ]
   }
