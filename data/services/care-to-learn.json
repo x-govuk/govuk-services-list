@@ -3,7 +3,7 @@
   "synonyms": ["Care to Learn"],
   "description": "The Care to Learn scheme can help with childcare costs while you study.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://studentbursary.education.gov.uk/w/webpage/student-bursary",
   "startPage": "https://www.gov.uk/care-to-learn/applying-for-care-to-learn"

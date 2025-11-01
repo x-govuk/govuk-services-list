@@ -7,7 +7,7 @@
   ],
   "description": "Search for primary, secondary and special needs schools and colleges near you, and check their performance.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://www.compare-school-performance.service.gov.uk/",
   "startPage": "https://www.gov.uk/school-performance-tables",

@@ -2,7 +2,7 @@
   "name": "Get information about pupils",
   "description": "Secure access to confidential pupil data.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://get-information-pupils.service.gov.uk/",
   "timeline": {

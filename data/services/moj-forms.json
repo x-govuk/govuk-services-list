@@ -1,7 +1,7 @@
 {
   "name": "MoJ Forms",
   "description": "Prototype, test and publish online forms quickly and easily",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Ministry of Justice",
   "phase": "Live",
   "liveService": "https://moj-forms-editor.service.justice.gov.uk",

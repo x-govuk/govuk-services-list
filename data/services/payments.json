@@ -1,7 +1,7 @@
 {
   "name": "GOV.UK Pay",
   "description": "GOV.UK Pay is a secure payment service that is easy to integrate with and designed to meet the Digital Service Standard. Give your users a trusted GOV.UK-branded payment experience.",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Government Digital Service",
   "phase": "Beta",
   "facing": "internal",

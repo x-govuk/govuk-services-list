@@ -2,7 +2,7 @@
   "name": "Calculate teacher pay",
   "description": "Calculate teacher pay following the 2023 pay award",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://calculate-teacher-pay.education.gov.uk",
   "sourceCode": [

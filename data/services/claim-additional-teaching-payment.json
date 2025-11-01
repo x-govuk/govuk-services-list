@@ -3,7 +3,7 @@
   "synonyms": ["Claim an early-career payment"],
   "description": "You may be eligible for early-career payments if you teach chemistry, languages, mathematics or physics.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://www.claim-additional-teaching-payment.service.gov.uk/additional-payments/landing-page",
   "startPage": "https://www.gov.uk/guidance/early-career-payments-guidance-for-teachers-and-schools#when-to-apply-and-payments",

@@ -2,7 +2,7 @@
   "name": "Registers",
   "synonyms": ["Build with data (registers)"],
   "description": "Direct access to up-to-date government data",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Government Digital Service",
   "phase": "Retired",
   "liveService": "https://www.registers.service.gov.uk",

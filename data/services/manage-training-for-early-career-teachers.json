@@ -2,7 +2,7 @@
   "name": "Manage training for early career teachers",
   "description": "This service is for induction tutors who have been nominated by their school Use this service to manage your school’s statutory induction programme for early career teachers.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://manage-training-for-early-career-teachers.education.gov.uk",
   "sourceCode": [

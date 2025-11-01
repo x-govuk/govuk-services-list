@@ -2,7 +2,7 @@
   "name": "Get help buying for schools",
   "description": "Use this service to create a specification for a new catering service for a single school in England.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://www.get-help-buying-for-schools.service.gov.uk",
   "sourceCode": [

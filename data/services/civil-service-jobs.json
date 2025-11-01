@@ -1,7 +1,7 @@
 {
   "name": "Civil Service Jobs",
   "synonyms": ["Apply for a Civil Service Job"],
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Cabinet Office",
   "phase": "Beta",
   "liveService": "https://www.civilservicejobs.service.gov.uk/",

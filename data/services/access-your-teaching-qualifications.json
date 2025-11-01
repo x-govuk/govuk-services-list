@@ -2,7 +2,7 @@
   "name": "Access your teaching qualifications",
   "description": "Qualified teachers can use this service to download your teaching certificates, check qualification and early career teacher induction status and change the name on your teaching certificates.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://access-your-teaching-qualifications.education.gov.uk/",
   "sourceCode": [

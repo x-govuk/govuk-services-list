@@ -1,7 +1,7 @@
 {
   "name": "Digital Marketplace",
   "description": "Find technology or people for digital projects in the public sector.",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Crown Commercial Service",
   "phase": "Beta",
   "liveService": "https://www.applytosupply.digitalmarketplace.service.gov.uk",

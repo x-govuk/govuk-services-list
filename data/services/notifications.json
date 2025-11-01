@@ -1,7 +1,7 @@
 {
   "name": "GOV.UK Notify",
   "description": "Try GOV.UK Notify now if you work in central government, a local authority, or the NHS.",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Government Digital Service",
   "phase": "Beta",
   "facing": "internal",

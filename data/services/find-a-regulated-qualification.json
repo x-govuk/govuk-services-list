@@ -6,7 +6,7 @@
   ],
   "description": "Search the Register of Regulated Qualifications to find out if a qualification is regulated, see detailed information about a qualification and compare similar qualifications",
   "organisation": "Ofqual",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-qualifications",
   "startPage": "https://www.gov.uk/find-a-regulated-qualification"

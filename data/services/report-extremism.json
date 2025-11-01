@@ -2,7 +2,7 @@
   "name": "Report Extremism in Education",
   "description": "Use this service to report extremism within an education setting in England, including allegations against institutions and staff or adverse external influences on an education setting",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://report-extremism.education.gov.uk"
 }

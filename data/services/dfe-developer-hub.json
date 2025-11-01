@@ -3,7 +3,7 @@
   "synonyms": ["DfE Developer Hub", "DfE Data Exchange"],
   "description": "Connect to the Department for Education (DfE) digital services through our APIs.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Alpha",
   "liveService": "https://find-and-use-an-api.education.gov.uk",
   "tags": ["GOV.UK One Login"],

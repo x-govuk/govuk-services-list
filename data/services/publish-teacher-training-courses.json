@@ -1,7 +1,7 @@
 {
   "name": "Publish teacher training courses",
   "description": "Use this service to publish information about initial teacher training courses.",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "organisation": "Department for Education",
   "phase": "Beta",
   "liveService": "https://www.publish-teacher-training-courses.service.gov.uk",

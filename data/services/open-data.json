@@ -3,7 +3,7 @@
   "synonyms": ["Data.gov.uk", "Find UK government data"],
   "description": "Find data published by central government, local authorities and public bodies to help you build products and services",
   "organisation": "Government Digital Service",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "liveService": "https://data.gov.uk",
   "sourceCode": [
