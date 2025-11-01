@@ -1,7 +1,7 @@
 {
   "name": "GOV.UK Digital Service Platform ",
   "description": "GOV.UK Digital Service Platform is a set of tools to make it easier to build and run your online service if you work in the public sector.",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Government Digital Service",
   "phase": "Live",
   "liveService": "https://platforms.service.gov.uk",

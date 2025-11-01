@@ -2,7 +2,7 @@
   "name": "View your education data",
   "description": "This service provides analytical insights to support business intelligence and better decision making.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://viewyourdata.education.gov.uk",
   "startPage": "https://www.gov.uk/government/publications/16-to-19-data-and-management-information-mi-reports/accessing-the-view-your-education-data-portal-vyed"
