@@ -2,7 +2,7 @@
   "name": "Find a teaching school hub",
   "description": "Use this service to find the contact details and websites of teaching school hubs near you.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://find-a-teaching-school-hub.education.gov.uk",
   "sourceCode": [

@@ -1,7 +1,7 @@
 {
   "name": "GOV.UK Submit",
   "description": "A proposed platform for services to collect information from users where they don’t have a dedicated software development team.",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Government Digital Service",
   "phase": "Retired",
   "facing": "internal",

@@ -2,7 +2,7 @@
   "name": "Data Marketplace",
   "description": "A place for people who work in government organisations, agencies and public bodies to share data.",
   "organisation": "Department for Science, Innovation and Technology",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "liveService": "https://datamarketplace.gov.uk",
   "timeline": {

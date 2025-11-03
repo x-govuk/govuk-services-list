@@ -7,7 +7,7 @@
   ],
   "description": "Find out if the organisation offering your qualification is regulated (officially recognised) in England or Northern Ireland.",
   "organisation": "Ofqual",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://find-a-qualification.services.ofqual.gov.uk/find-regulated-organisations",
   "startPage": "https://www.gov.uk/find-regulated-awarding-organisation"

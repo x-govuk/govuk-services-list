@@ -2,7 +2,7 @@
   "name": "Complete conversions, transfers and changes",
   "description": "This can be used by delivery officers or caseworkers at the Department for Education to manage work that helps DfE to convert schools to academies.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://www.complete.education.gov.uk/",
   "sourceCode": [
