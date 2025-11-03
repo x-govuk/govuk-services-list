@@ -3,7 +3,7 @@
   "synonyms": ["Manual"],
   "description": "Helping teams to create and run great public services that meet the Service Standard.",
   "organisation": "Government Digital Service",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "liveService": "https://www.gov.uk/service-manual",
   "timeline": {

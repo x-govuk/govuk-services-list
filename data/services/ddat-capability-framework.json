@@ -2,7 +2,7 @@
   "name": "Digital, Data and Technology Profession Capability Framework",
   "description": "Learn about the digital, data and technology (DDaT) roles in government, and the skills you need to do them.",
   "organisation": ["Central Digital and Data Office", "Cabinet Office"],
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "liveService": "https://ddat-capability-framework.service.gov.uk"
 }

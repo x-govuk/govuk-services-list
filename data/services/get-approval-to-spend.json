@@ -2,7 +2,7 @@
   "name": "Get approval to spend",
   "description": "This service is for those who are applying to spend public money through the Cabinet Office spend approval for Digital and Technology",
   "organisation": "Cabinet Office",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/government/publications/digital-and-technology-spend-control-version-6/digital-and-technology-spend-control-version-6",
   "liveService": "https://www.get-approval-to-spend.service.gov.uk/",

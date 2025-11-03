@@ -2,7 +2,7 @@
   "name": "GOV.UK Forms",
   "description": "Create an accessible online form in minutes without needing technical knowledge.",
   "organisation": "Government Digital Service",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "liveService": "https://www.forms.service.gov.uk/",
   "timeline": {

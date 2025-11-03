@@ -2,7 +2,7 @@
   "name": "GOV.UK Prototype Kit",
   "description": "Rapidly create HTML prototypes of GOV.UK services.",
   "organisation": "Government Digital Service",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "phase": "Beta",
   "liveService": "https://prototype-kit.service.gov.uk",
   "timeline": {

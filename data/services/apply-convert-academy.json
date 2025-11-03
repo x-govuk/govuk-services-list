@@ -2,7 +2,7 @@
   "name": "Apply to become an Academy",
   "description": "Application processes for mainstream and special schools applying to convert to academy status.",
   "organisation": "Department for Education",
-  "theme": "Education, training and skills",
+  "theme": "Education and learning",
   "phase": "Beta",
   "liveService": "https://apply-convert-academy.service.gov.uk",
   "startPage": "https://www.gov.uk/government/publications/academy-conversion-application-forms",
