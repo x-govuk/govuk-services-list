@@ -1,7 +1,7 @@
 {
   "name": "GOV.UK Verify",
   "description": "A way to prove who you are online.",
-  "theme": "Government Internal",
+  "theme": "Government internal",
   "organisation": "Government Digital Service",
   "phase": "Retired",
   "liveService": "https://www.signin.service.gov.uk/verify-services",
