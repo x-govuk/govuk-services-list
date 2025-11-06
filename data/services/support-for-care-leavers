@@ -1,0 +1,10 @@
+{
+  "name": "Support for care leavers",
+  "description": "Support for young care leavers aged 16 to 25 who have been in care or looked after by a local authority in England. Includes foster or residential care, time in custody, and young asylum seekers",
+  "organisation": "Department for Education",
+  "theme": "Births, deaths, marriages and care",
+  "phase": "Live",
+  "liveService": "https://www.support-for-care-leavers.education.gov.uk/en/home",
+  "startPage": "",
+  "platform": "web"
+}
