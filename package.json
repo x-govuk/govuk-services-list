@@ -35,7 +35,7 @@
     "@x-govuk/govuk-prototype-components": "^5.0.2",
     "@x-govuk/govuk-prototype-filters": "^2.0.3",
     "dotenv": "^17.2.3",
-    "esbuild": "^0.25.12",
+    "esbuild": "^0.27.0",
     "express": "~5.1.0",
     "govuk-frontend": "^5.13.0",
     "nunjucks": "^3.2.4",
