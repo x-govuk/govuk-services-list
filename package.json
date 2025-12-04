@@ -44,7 +44,7 @@
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
     "browser-sync": "^3.0.4",
-    "prettier": "^3.7.1",
+    "prettier": "^3.7.4",
     "puppeteer-core": "^24.32.0",
     "stylelint": "^16.26.0",
     "stylelint-config-gds": "^2.0.0",
