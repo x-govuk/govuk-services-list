@@ -1,78 +1,74 @@
-import { govukEleventyPlugin } from '@x-govuk/govuk-eleventy-plugin'
+import { govukEleventyPlugin } from "@x-govuk/govuk-eleventy-plugin";
 
-export default function(eleventyConfig) {
-
-  const serviceName = 'GOV.UK Services list'
+export default function (eleventyConfig) {
+  const serviceName = "GOV.UK Services list";
 
   // Register the plugin
   eleventyConfig.addPlugin(govukEleventyPlugin, {
-    templates: {
-    },
-    header: {
-    },
+    templates: {},
+    header: {},
     footer: {
       meta: {
         items: [
           {
-            text: 'Domains',
-            href: '/domains'
+            text: "Domains",
+            href: "/domains",
           },
           {
-            text: 'Screenshots',
-            href: '/screenshots'
+            text: "Screenshots",
+            href: "/screenshots",
           },
           {
-            text: 'Verbs',
-            href: '/verbs'
+            text: "Verbs",
+            href: "/verbs",
           },
           {
-            text: 'Original 25 exemplar services',
-            href: '/original-25-exemplars'
+            text: "Original 25 exemplar services",
+            href: "/original-25-exemplars",
           },
           {
-            text: 'Top 75 services',
-            href: '/top-75'
+            text: "Top 75 services",
+            href: "/top-75",
           },
           {
-            text: 'GOV.UK One Login',
-            href: '/govuk-one-login'
-          }
-        ]
-      }
+            text: "GOV.UK One Login",
+            href: "/govuk-one-login",
+          },
+        ],
+      },
     },
     serviceNavigation: {
       serviceName,
-      serviceUrl: '/',
+      serviceUrl: "/",
       navigation: [
         {
-          text: 'A to Z',
-          href: '/a-z'
+          text: "A to Z",
+          href: "/a-z",
         },
         {
-          text: 'By topic',
-          href: '/topic'
+          text: "By topic",
+          href: "/topic",
         },
         {
-          text: 'By organisation',
-          href: '/organisation'
+          text: "By organisation",
+          href: "/organisation",
         },
         {
-          text: 'By phase',
-          href: '/phase'
+          text: "By phase",
+          href: "/phase",
         },
         {
-          text: 'Contribute',
-          href: '/contribute'
-        }
-      ]
+          text: "Contribute",
+          href: "/contribute",
+        },
+      ],
     },
-    stylesheets: ['/assets/stylesheets/application.css'],
-    themeColor: '#2288aa'
-  })
+    stylesheets: ["/assets/stylesheets/application.css"],
+    themeColor: "#2288aa",
+  });
 
   // Enable X-GOVUK brand
-  eleventyConfig.addNunjucksGlobal('xGovuk', true)
-
+  eleventyConfig.addNunjucksGlobal("xGovuk", true);
 
   // Collections
   // eleventyConfig.addCollection('post', (collection) => {
@@ -80,16 +76,16 @@ export default function(eleventyConfig) {
   // })
 
   // Pass through
-  eleventyConfig.addPassthroughCopy('./app/assets/images')
+  eleventyConfig.addPassthroughCopy("./app/assets/images");
 
   return {
-    dataTemplateEngine: 'njk',
-    htmlTemplateEngine: 'njk',
-    markdownTemplateEngine: 'njk',
+    dataTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
     dir: {
-      input: 'app',
-      includes: '_includes',
-      data: '../data'
-    }
-  }
-};
+      input: "app",
+      includes: "_includes",
+      data: "../data",
+    },
+  };
+}
