@@ -1,8 +1,8 @@
 {%- from "govuk/components/tag/macro.njk" import govukTag %}
 
-{%- macro appServiceItem(service) %}
+{%- macro appServiceItem(service, id) %}
   <li>
-    <a class="govuk-link" href="/service/{{ service.slug }}">
+    <a class="govuk-link" href="/service/{{ id }}">
       {{- service.name -}}
     </a>
     {% for tag in service.tags -%}
