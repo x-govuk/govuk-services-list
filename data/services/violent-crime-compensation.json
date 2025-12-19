@@ -1,0 +1,9 @@
+{
+  "name": "Claim compensation if you were the victim of a violent crime",
+  "description": "You might be able to claim compensation if you were the victim of a violent crime.",
+  "theme": "Crime, justice and the law",
+  "organisation": "Ministry of Justice",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/claim-compensation-criminal-injury/make-claim",
+  "liveService": "https://miscarriages-of-justice.form.service.justice.gov.uk/"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Confirm my apprenticeship details",
+  "description": "Review and confirm your apprenticeship details are correct when starting your apprenticeship",
+  "theme": "Education and learning",
+  "organisation": [
+    "Education and Skills Funding Agency",
+    "Department for Education"
+  ],
+  "phase": "Live",
+  "startPage": "https://my.apprenticeships.education.gov.uk/",
+  "liveService": "https://my.apprenticeships.education.gov.uk/",
+  "tags": ["Original 25 exemplars", "GOV.UK One Login"]
+}

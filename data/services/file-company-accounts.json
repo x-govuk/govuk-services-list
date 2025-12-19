@@ -7,9 +7,10 @@
   "description": "Use this service to file your company’s annual accounts with Companies House.",
   "theme": "Business and self-employed",
   "organisation": "Companies House",
-  "phase": "Alpha",
+  "phase": "Beta",
   "startPage": "https://www.gov.uk/file-your-company-annual-accounts",
   "liveService": "https://find-and-update.company-information.service.gov.uk/accounts/corporation-tax",
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

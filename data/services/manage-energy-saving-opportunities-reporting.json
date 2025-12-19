@@ -1,0 +1,10 @@
+{
+  "name": "Manage your Energy Savings Opportunity Scheme Reporting",
+  "description": "The Energy Savings Opportunity Scheme (ESOS) is an energy assessment and energy saving scheme that applies to large undertakings and groups containing large undertakings in the UK",
+  "organisation": "Environment Agency",
+  "theme": "Money and tax",
+  "phase": "Live",
+  "liveService": "https://manage-energy-saving-opportunities-reporting.service.gov.uk/landing",
+  "startPage": "https://manage-energy-saving-opportunities-reporting.service.gov.uk/landing",
+  "tags": ["GOV.UK One Login"]
+}
