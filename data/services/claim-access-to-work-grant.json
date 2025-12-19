@@ -1,0 +1,10 @@
+{
+  "name": "Claim money from your Access to Work Grant",
+  "synonyms": ["Access to Work"],
+  "description": "You can claim money from your grant online or by post.",
+  "theme": "Benefits",
+  "organisation": "Department for Work and Pensions",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/access-to-work/claiming-from-your-grant",
+  "tags": ["GOV.UK One Login"]
+}

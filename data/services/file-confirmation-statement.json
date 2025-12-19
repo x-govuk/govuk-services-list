@@ -13,6 +13,7 @@
     "https://www.gov.uk/file-your-confirmation-statement-with-companies-house",
     "https://www.gov.uk/file-changes-to-a-company-with-companies-house"
   ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

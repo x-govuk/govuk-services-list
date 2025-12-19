@@ -1,11 +1,19 @@
 {
   "name": "Get a proof of benefits letter",
-  "synonyms": ["Access to Work"],
+  "synonyms": [
+    "Access to Work",
+    "Get proof of your benefits and State Pension"
+  ],
   "description": "Use this service to request a letter to prove you get Employment and Support Allowance, Income Support, Jobseeker’s Allowance, Pension Credit or a State Pension.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
-  "phase": "Alpha",
-  "liveService": "https://secure.dwp.gov.uk/get-a-proof-of-benefit-letter/",
+  "phase": "Beta",
+  "liveService": [
+    "https://secure.dwp.gov.uk/get-a-proof-of-benefit-letter/",
+    "https://access.financial-support.dwp.gov.uk/orchestration/intro"
+  ],
+  "startPage": "https://www.gov.uk/proof-benefits-state-pension",
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

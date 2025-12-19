@@ -3,7 +3,7 @@
   "description": "You can apply for compensation if your conviction has been overturned (or quashed) by the courts.",
   "theme": "Crime, justice and the law",
   "organisation": "Ministry of Justice",
-  "phase": "Beta",
-  "startPage": "https://www.gov.uk/claim-compensation-for-miscarriage-of-justice",
-  "liveService": "https://miscarriages-of-justice.form.service.justice.gov.uk/"
+  "phase": "Live",
+  "startPage": "https://www.gov.uk/claim-compensation-criminal-injury",
+  "liveService": "https://claim-criminal-injuries-compensation.service.justice.gov.uk/"
 }

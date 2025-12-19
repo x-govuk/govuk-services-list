@@ -1,5 +1,8 @@
 {
   "name": "Check your State Pension forecast",
+  "synonyms": [
+    "Manage your State Pension"
+  ],
   "description": "Gives users a forecast of what their State Pension could be worth when they reach retirement age so that they can plan for their retirement.",
   "theme": "Working, jobs and pensions",
   "organisation": "Department for Work and Pensions",
@@ -8,6 +11,7 @@
   "prototype": "http://nisp.herokuapp.com/",
   "startPage": "https://www.gov.uk/check-state-pension",
   "liveService": "https://www.tax.service.gov.uk/check-your-state-pension/",
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

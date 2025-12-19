@@ -1,0 +1,10 @@
+{
+  "name": "Change your company details",
+  "description": "Tell Companies House about changes to your limited company",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://ewf.companieshouse.gov.uk/",
+  "startPage": "https://www.gov.uk/file-changes-to-a-company-with-companies-house",
+  "tags": ["GOV.UK One Login"]
+}

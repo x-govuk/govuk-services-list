@@ -1,0 +1,10 @@
+{
+  "name": "Manage your GOV.UK email subscriptions",
+  "description": "Sign in to see and manage the emails you get about updates to GOV.UK",
+  "organisation": "Department for Science, Innovation and Technology",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Live",
+  "liveService": "https://www.gov.uk/email/manage/authenticate",
+  "startPage": "https://www.gov.uk/email/manage/authenticate",
+  "tags": ["GOV.UK One Login"]
+}
