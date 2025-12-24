@@ -10,8 +10,8 @@ A community-maintained list of digital services from the UK government.
 
 ### Previous data sources
 
-- [Government Service Register](https://government-service.register.gov.uk) (no longer maintained)
-- [Performance Platform](https://www.gov.uk/performance) (no longer maintained)
+- [Government Service Register](https://government-service.register.gov.uk)
+- [Performance Platform](https://www.gov.uk/performance)
 - [DWP Digital Service Portfolio](http://dwp-digital-services.herokuapp.com/)
 - [HMPPS Digital Studio](https://github.com/noms-digital-studio/hmpps-portfolio)
 - [Land Registry Digital Services](https://github.com/LandRegistry/lr-portfolio)
