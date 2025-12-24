@@ -1,0 +1,130 @@
+---
+layout: page
+title: TODO
+pagination:
+  data: services
+  alias: id
+  size: 1
+  resolve: keys
+permalink: "service/{{ pagination.items[0] }}/"
+---
+
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+{% from "govuk/components/tag/macro.njk" import govukTag %}
+
+{% set service = services[id] %}
+
+{# TODO: add logic back in for pluralisation #}
+{% set organisationKey = "Organisation(s)" %}
+
+{% set organisationHtml %}
+{# TODO: iterate these if an array, and add link #}
+{{ service.organisation }}
+{% endset %}
+
+{% set themeHtml %}
+  <a class="govuk-link" href="/topic#{{ service.theme | slugify }}">
+    {{- service.theme -}}
+  </a>
+{% endset %}
+
+{# TODO: get plural filter working #}
+{% set startPageKey = "Start page(s)" %}
+
+{% set startPageHtml %}
+{# TODO: get working where startPage is an array #}
+{% if service.startPage %}
+  <p class="govuk-body">
+    <a class="govuk-link" href="{{ service.startPage[0] }}">Start page on GOV.UK</a>
+  </p>
+{% endif %}
+{% endset %}
+
+{% set notesHtml %}
+{%- for tag in service.tags -%}
+  {%- if tag == "Top 75" -%}
+  <p class="govuk-body">
+    One of the <a href="/top-75" class="govuk-link">top 75 prioritised services</a>
+  </p>
+  {%- endif %}
+
+  {%- if tag == "Original 25 exemplars" -%}
+  <p class="govuk-body">
+    One of the <a href="/original-25-exemplars" class="govuk-link">original 25 exemplar services</a>
+  </p>
+  {%- endif %}
+
+  {%- if tag == "GOV.UK One Login" -%}
+  <p class="govuk-body">
+    Uses <a href="/govuk-one-login" class="govuk-link">GOV.UK One Login</a>
+  </p>
+  {% endif %}
+{%- endfor %}
+{% endset %}
+
+{% set sourceCodeHtml %}
+<ul class="govuk-list">
+  {%- for sourceCode in service.sourceCode -%}
+  <li>
+    <a class="govuk-link" href="{{ sourceCode.href }}">
+      {{- sourceCode.text -}}
+    </a>
+  </li>
+  {%- endfor %}
+</ul>
+{% endset %}
+
+<h2 class="govuk-heading-m">About this service</h2>
+
+{{ govukSummaryList({
+  rows: [
+    {
+      key: {
+        text: organisationKey
+      },
+      value: {
+        html: organisationHtml
+      }
+    },
+    {
+      key: {
+        text: "Topic"
+      },
+      value: {
+        html: themeHtml
+      }
+    } if service.theme,
+    {
+      key: {
+        text: "Phase"
+      },
+      value: {
+        html: govukTag({ text: service.phase })
+      }
+    } if service.phase,
+    {
+      key: {
+        text: startPageKey
+      },
+      value: {
+        html: startPageHtml
+      }
+    } if service.startPage | length > 0,
+    {
+      key: {
+        text: "Notes"
+      },
+      value: {
+        html: notesHtml
+      }
+    } if service.tags,
+    {
+      key: {
+        text: "Source code"
+      },
+      value: {
+        html: sourceCodeHtml
+      }
+    } if service.sourceCode
+  ]
+}) }}

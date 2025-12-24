@@ -6,3 +6,4 @@ npm-debug.log
 static
 .env
 .DS_Store
+_site
