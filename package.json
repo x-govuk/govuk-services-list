@@ -48,7 +48,7 @@
     "puppeteer-core": "^24.32.0",
     "stylelint": "^16.26.1",
     "stylelint-config-gds": "^2.0.0",
-    "stylelint-order": "^7.0.0"
+    "stylelint-order": "^7.0.1"
   },
   "engines": {
     "node": "^22.12.0",
