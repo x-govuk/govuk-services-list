@@ -1,0 +1,43 @@
+{
+  "name": "Fuel Finder",
+  "synonyms": [
+    "Report your fuel prices and forecourt details",
+    "Register for Fuel Finder scheme"
+  ],
+  "description": "Use the Fuel Finder service to report fuel prices and manage details for your forecourts.",
+  "organisation": "Department for Energy Security and Net Zero",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "liveService": "https://www.register-fuel-finder-scheme.service.gov.uk/gov-one-login-notice",
+  "startPage": [
+    "https://www.gov.uk/guidance/report-your-fuel-prices-and-forecourt-details"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service announced",
+        "date": "2023-07-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/cma-sets-out-plan-to-help-drivers-get-more-competitive-fuel-prices",
+            "text": "Press release: CMA sets out plan to help drivers get more competitive fuel prices"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as green at alpha assessment",
+        "date": "2025-08-26",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/fuel-finder-alpha-assessment-report",
+            "text": "Service standard report"
+          }
+        ]
+      },
+      {
+        "label": "Service launched",
+        "date": "2026-01-05"
+      }
+    ]
+  }
+}
