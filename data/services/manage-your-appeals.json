@@ -1,0 +1,26 @@
+{
+  "name": "Manage your appeals",
+  "synonyms": ["Online appeals service"],
+  "description": "Local planning authorities can use the service to manage Householder (HAS), Planning (S78) and Listed Building (S20) appeals.",
+  "organisation": [
+    "Planning Inspectorate",
+    "Ministry of Housing, Communities & Local Government"
+  ],
+  "theme": "Housing and local services",
+  "phase": "Beta",
+  "liveService": "https://appeal-planning-decision.service.gov.uk/manage-appeals/your-email-address",
+  "timeline": {
+    "items": [
+      {
+        "label": "Available to all planning authorities",
+        "date": "2025-12-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/new-online-appeals-service-now-available-to-all-local-planning-authorities-in-england",
+            "text": "News story: New online appeals service now available to all local planning authorities in England"
+          }
+        ]
+      }
+    ]
+  }
+}
