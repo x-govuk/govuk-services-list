@@ -7,5 +7,29 @@
   "liveService": "https://foreign-influence-registration-scheme.service.gov.uk",
   "startPage": "https://www.gov.uk/government/collections/foreign-influence-registration-scheme",
   "tags": ["GOV.UK One Login"],
-  "platform": "web"
+  "platform": "web",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2025-07-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/uk-launches-foreign-influence-registration-scheme",
+            "text": "News story: UK launches Foreign Influence Registration Scheme"
+          }
+        ]
+      },
+      {
+        "label": "Grace period ends",
+        "date": "2025-10-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/foreign-influence-registration-scheme-to-come-fully-into-effect",
+            "text": "News story: Foreign Influence Registration Scheme to come fully into effect"
+          }
+        ]
+      }
+    ]
+  }
 }
