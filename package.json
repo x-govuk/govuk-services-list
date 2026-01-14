@@ -37,7 +37,7 @@
     "dotenv": "^17.2.3",
     "esbuild": "^0.27.1",
     "express": "~5.2.1",
-    "govuk-frontend": "^5.13.0",
+    "govuk-frontend": "^5.14.0",
     "nunjucks": "^3.2.4",
     "sass": "^1.97.2"
   },
