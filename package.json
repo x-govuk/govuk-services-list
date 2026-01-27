@@ -39,7 +39,7 @@
     "express": "~5.2.1",
     "govuk-frontend": "^5.14.0",
     "nunjucks": "^3.2.4",
-    "sass": "^1.97.2"
+    "sass": "^1.97.3"
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
