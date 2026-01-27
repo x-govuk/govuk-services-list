@@ -1,12 +1,11 @@
 {
-  "name": "Connectivity Tool",
-  "description": "You can use the tool to display how any location in England and Wales is connected to everyday services by walking, driving, cycling and public transport and plot new transport routes to understand how these would affect an area’s connectivity.",
+  "name": "Connectivity Tool Lite",
+  "description": "Connectivity Tool Lite is available to anyone without registration. You can use it to see how any location in England and Wales is connected to everyday services by walking, driving, cycling and public transport. It doesn’t include interactive features, such as plotting new transport routes.",
   "organisation": "Department for Transport",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveService": "https://connectivity-tool.dft.gov.uk/",
+  "liveService": "https://connectivity-tool-lite.dft.gov.uk/",
   "startPage": "https://www.gov.uk/guidance/connectivity-tool",
-  "tags": ["GOV.UK One Login"],
   "platform": "web",
   "timeline": {
     "items": [

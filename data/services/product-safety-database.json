@@ -5,6 +5,7 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveService": "https://www.product-safety-database.service.gov.uk",
+  "tags": ["GOV.UK One Login"],
   "sourceCode": [
     {
       "text": "Source code",

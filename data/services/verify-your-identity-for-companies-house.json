@@ -1,0 +1,10 @@
+{
+  "name": "Verify your identity for Companies House",
+  "description": "Verify your identity for Companies House",
+  "organisation": "Companies House",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://identity.company-information.service.gov.uk/identity-verification/direct/has-identity-been-verified",
+  "startPage": "https://www.gov.uk/guidance/verify-your-identity-for-companies-house",
+  "tags": ["GOV.UK One Login"]
+}

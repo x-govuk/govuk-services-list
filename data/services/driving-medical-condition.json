@@ -15,6 +15,7 @@
     "https://www.gov.uk/report-driving-medical-condition",
     "https://www.gov.uk/renew-medical-driving-licence"
   ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {
