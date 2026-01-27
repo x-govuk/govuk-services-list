@@ -1,0 +1,12 @@
+---
+layout: page
+title: By topic
+---
+{% from "macros/service-item.njk" import appServiceItem %}
+
+{# TODO: group into A to Z, then sort by name #}
+<ul class="govuk-list govuk-list--spaced">
+{%- for id, service in services -%}
+  {{ appServiceItem(service, id) }}
+{%- endfor %}
+</ul>

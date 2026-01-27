@@ -16,10 +16,8 @@
     "url": "git+https://github.com/x-govuk/govuk-services-list.git"
   },
   "scripts": {
-    "assets:build": "node tasks/build-assets.js",
-    "assets:watch": "node tasks/build-assets.js --watch",
-    "start": "npm run assets:build && node start.js",
-    "dev": "npm run assets:watch & node start.js",
+    "start": "eleventy --serve --quiet --port $PORT",
+    "build": "eleventy --quiet",
     "lint:prettier": "prettier . --check",
     "lint:prettier:fix": "prettier . --write",
     "lint:js": "eslint '**/*.js'",
@@ -32,14 +30,8 @@
     "discover-start-pages": "npx node tasks/discover-start-pages.js"
   },
   "dependencies": {
-    "@x-govuk/govuk-prototype-components": "^5.0.2",
-    "@x-govuk/govuk-prototype-filters": "^2.1.0",
-    "dotenv": "^17.2.3",
-    "esbuild": "^0.27.1",
-    "express": "~5.2.1",
-    "govuk-frontend": "^5.14.0",
-    "nunjucks": "^3.2.4",
-    "sass": "^1.97.2"
+    "@11ty/eleventy": "^3.0.0",
+    "@x-govuk/govuk-eleventy-plugin": "^8.0.0"
   },
   "devDependencies": {
     "@x-govuk/eslint-config": "^0.0.1",
