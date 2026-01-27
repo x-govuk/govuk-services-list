@@ -1,0 +1,9 @@
+{
+  "name": "Get approval to use a .gov.uk domain name",
+  "description": "Use this service if you're a .gov.uk Approved Registrar and you want to apply for a .gov.uk domain name for a registrant.",
+  "organisation": "Cabinet Office",
+  "theme": "Government internal",
+  "phase": "Beta",
+  "startPage": "https://www.gov.uk/government/publications/digital-and-technology-spend-control-version-6/digital-and-technology-spend-control-version-6",
+  "liveService": "https://get-approval.domains.gov.uk"
+}
