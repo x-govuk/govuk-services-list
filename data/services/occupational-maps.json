@@ -1,0 +1,8 @@
+{
+  "name": "Occupational Maps",
+  "description": "Occupational maps show where technical education can lead.",
+  "organisation": "Skills England",
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://occupational-maps.skillsengland.education.gov.uk"
+}
