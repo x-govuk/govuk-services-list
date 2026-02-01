@@ -1,0 +1,32 @@
+{
+  "name": "Best Start in Life",
+  "description": "Advice and support for your child’s development. From pregnancy to childcare right through to starting school.",
+  "organisation": "Department for Education",
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://beststartinlife.gov.uk",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2025-09-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/over-half-a-million-children-to-benefit-from-funded-childcare",
+            "text": "Press release: Over half a million children to benefit from funded childcare"
+          }
+        ]
+      },
+      {
+        "label": "Policy announced",
+        "date": "2025-07-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/publications/giving-every-child-the-best-start-in-life/giving-every-child-the-best-start-in-life",
+            "text": "Policy paper: Giving every child the best start in life"
+          }
+        ]
+      }
+    ]
+  }
+}
