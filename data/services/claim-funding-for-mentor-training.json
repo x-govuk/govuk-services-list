@@ -1,0 +1,8 @@
+{
+  "name": "Claim funding for mentor training",
+  "description": "Use this service to make a claim for the time spent becoming an initial teacher training (ITT) mentor.",
+  "organisation": "Department for Education",
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://claim-funding-for-mentor-training.education.gov.uk"
+}
