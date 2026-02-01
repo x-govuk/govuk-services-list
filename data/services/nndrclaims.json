@@ -1,0 +1,8 @@
+{
+  "name": "Submit a national non-domestic rates (NNDR) claim",
+  "description": "Academies and trusts can use this service to submit an NNDR claim, view claim history or adjust previously paid claims.",
+  "organisation": "Department for Education",
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://nndrclaims.education.gov.uk/start/academy"
+}
