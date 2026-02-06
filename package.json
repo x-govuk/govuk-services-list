@@ -45,7 +45,7 @@
     "@x-govuk/eslint-config": "^0.0.1",
     "browser-sync": "^3.0.4",
     "prettier": "^3.8.1",
-    "puppeteer-core": "^24.36.0",
+    "puppeteer-core": "^24.37.2",
     "stylelint": "^16.26.1",
     "stylelint-config-gds": "^2.0.0",
     "stylelint-order": "^7.0.1"
