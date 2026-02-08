@@ -1,0 +1,22 @@
+{
+  "name": "Fuel Finder: Report a discrepancy at a forecourt",
+  "synonyms": [
+    "Report a discrepancy at a forecourt"
+  ],
+  "description": "Use this service to report any issue you notice with a forecourt’s information — including prices, facilities, opening times, location details or temporary closures.",
+  "organisation": "Department for Energy Security and Net Zero",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "liveService": "https://www.fuel-finder.service.gov.uk/motorist/price-report/complaint-type",
+  "startPage": [
+    "https://www.gov.uk/guidance/report-an-error-in-fuel-prices-or-forecourt-details"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2026-02-02"
+      }
+    ]
+  }
+}
