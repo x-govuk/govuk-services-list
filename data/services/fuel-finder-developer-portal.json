@@ -1,0 +1,23 @@
+{
+  "name": "Fuel Finder Developer Portal",
+  "synonyms": [
+    "Access the latest fuel prices and forecourt data via API or email"
+  ],
+  "description": "Use the Fuel Finder service to get the latest retail fuel prices and forecourt details across the UK.",
+  "organisation": "Department for Energy Security and Net Zero",
+  "theme": "Money and tax",
+  "phase": "Beta",
+  "liveService": "https://www.developer.fuel-finder.service.gov.uk/access-latest-fuelprices",
+  "startPage": [
+    "https://www.gov.uk/guidance/access-the-latest-fuel-prices-and-forecourt-data-via-api-or-email"
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2026-02-02"
+      }
+    ]
+  },
+  "tags": ["GOV.UK One Login"]
+}
