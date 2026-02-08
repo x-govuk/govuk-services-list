@@ -1,8 +1,6 @@
 {
   "name": "Fuel Finder: Report a discrepancy at a forecourt",
-  "synonyms": [
-    "Report a discrepancy at a forecourt"
-  ],
+  "synonyms": ["Report a discrepancy at a forecourt"],
   "description": "Use this service to report any issue you notice with a forecourt’s information — including prices, facilities, opening times, location details or temporary closures.",
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Money and tax",
