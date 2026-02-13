@@ -1,0 +1,8 @@
+{
+  "name": "UK Skills Explorer",
+  "description": "Search and discover the skills and knowledge related to UK jobs and qualifications.",
+  "organisation": "Skills England",
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://skillsclassification.org"
+}
