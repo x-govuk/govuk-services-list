@@ -7,7 +7,6 @@
   "description": "Use this service to join the apprenticeship provider and assessment register (APAR) so you can train apprentices in England.",
   "theme": "Education and learning",
   "organisation": [
-    "Education and Skills Funding Agency",
     "Department for Education"
   ],
   "phase": "Beta",

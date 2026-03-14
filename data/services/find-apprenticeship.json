@@ -3,7 +3,6 @@
   "description": "Search the find an apprenticeship service for apprenticeships in England.",
   "theme": "Education and learning",
   "organisation": [
-    "Education and Skills Funding Agency",
     "Department for Education"
   ],
   "phase": "Live",

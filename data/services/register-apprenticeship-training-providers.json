@@ -4,7 +4,6 @@
   "description": "The Register of Apprenticeship Training Providers (RoATP) is a list of organisations that are eligible to receive government funding to train apprentices.",
   "theme": "Education and learning",
   "organisation": [
-    "Education and Skills Funding Agency",
     "Department for Education"
   ],
   "phase": "Beta",
