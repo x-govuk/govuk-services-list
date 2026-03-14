@@ -39,7 +39,6 @@ const servicesToSkip = [
   "drone-registration",
   "find-energy-certificate",
   "find-property-information",
-  "get-help-with-dfe-services",
   "give-feedback-on-care",
   "goods-vehicle-movement-service",
   "help-to-save",
