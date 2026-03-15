@@ -3,9 +3,7 @@
   "synonyms": ["The (Digital) Apprenticeship", "Access my Levy"],
   "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
   "theme": "Education and learning",
-  "organisation": [
-    "Department for Education"
-  ],
+  "organisation": ["Department for Education"],
   "phase": "Beta",
   "startPage": "https://www.gov.uk/sign-in-apprenticeship-service-account",
   "liveService": "https://accounts.manage-apprenticeships.service.gov.uk/service",
