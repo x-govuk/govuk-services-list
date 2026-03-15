@@ -2,9 +2,7 @@
   "name": "Confirm my apprenticeship details",
   "description": "Review and confirm your apprenticeship details are correct when starting your apprenticeship",
   "theme": "Education and learning",
-  "organisation": [
-    "Department for Education"
-  ],
+  "organisation": ["Department for Education"],
   "phase": "Live",
   "startPage": "https://my.apprenticeships.education.gov.uk/",
   "liveService": "https://my.apprenticeships.education.gov.uk/",
