@@ -42,7 +42,7 @@
     "sass": "^1.98.0"
   },
   "devDependencies": {
-    "@x-govuk/eslint-config": "^0.0.1",
+    "@x-govuk/eslint-config": "^0.0.2",
     "browser-sync": "^3.0.4",
     "prettier": "^3.8.1",
     "puppeteer-core": "^24.39.1",

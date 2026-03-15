@@ -2,9 +2,7 @@
   "name": "Find an apprenticeship",
   "description": "Search the find an apprenticeship service for apprenticeships in England.",
   "theme": "Education and learning",
-  "organisation": [
-    "Department for Education"
-  ],
+  "organisation": ["Department for Education"],
   "phase": "Live",
   "startPage": "https://www.gov.uk/apply-apprenticeship",
   "liveService": "https://www.findapprenticeship.service.gov.uk/apprenticeshipsearch",
