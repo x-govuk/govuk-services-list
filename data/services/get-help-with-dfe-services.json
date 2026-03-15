@@ -1,0 +1,10 @@
+{
+  "name": "Get help with Department for Education services",
+  "description": "Self-service support options for education providers.",
+  "organisation": [
+    "Department for Education"
+  ],
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://customerhelp.education.gov.uk/"
+}
