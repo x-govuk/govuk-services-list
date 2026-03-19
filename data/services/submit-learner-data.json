@@ -6,9 +6,7 @@
     "Data collection"
   ],
   "description": "Use this service to validate and submit Individualised learner records, Earnings adjustment statements, ESF supplementary data, Funding Claims and FE staff and vacancy data",
-  "organisation": [
-    "Department for Education"
-  ],
+  "organisation": ["Department for Education"],
   "theme": "Education and learning",
   "phase": "Live",
   "liveService": "https://submit-learner-data.service.gov.uk",
