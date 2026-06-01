@@ -5,7 +5,7 @@
   position: relative;
 
   &::before {
-    background-color: $govuk-brand-colour;
+    background-color: govuk-functional-colour(brand);
     content: "";
     height: 100%;
     left: 0;
@@ -20,7 +20,7 @@
   position: relative;
 
   &::before {
-    background-color: $govuk-brand-colour;
+    background-color: govuk-functional-colour(brand);
     content: "";
     height: govuk-spacing(1);
     left: 0;
@@ -37,7 +37,7 @@
 }
 
 .app-timeline__date {
-  color: $govuk-secondary-text-colour;
+  color: govuk-functional-colour(secondary-text);
   margin-top: govuk-spacing(1);
 
   @include govuk-font(16);
