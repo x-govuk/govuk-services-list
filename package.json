@@ -32,12 +32,12 @@
     "discover-start-pages": "npx node tasks/discover-start-pages.js"
   },
   "dependencies": {
-    "@x-govuk/govuk-prototype-components": "^5.0.2",
+    "@x-govuk/govuk-prototype-components": "^6.0.0",
     "@x-govuk/govuk-prototype-filters": "^2.1.0",
     "dotenv": "^17.4.2",
     "esbuild": "^0.28.0",
     "express": "~5.2.1",
-    "govuk-frontend": "^5.14.0",
+    "govuk-frontend": "^6.1.0",
     "nunjucks": "^3.2.4",
     "sass": "^1.98.0"
   },
