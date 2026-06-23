@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         # Check this is not a PR from a fork
         if: github.event.pull_request.head.repo.full_name == github.repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
         with:
           # Use the head ref so we can commit to the branch
           ref: ${{ github.head_ref || github.ref }}
@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         # Checkout the default way if it is a fork
         if: github.event.pull_request.head.repo.full_name != github.repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
       - name: Setup Node.js
         uses: actions/setup-node@v6
         with:
