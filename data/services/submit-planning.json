@@ -1,9 +1,9 @@
 {
-  "name": "Submit and update your planning data",
-  "synonyms": ["Planning Data platform"],
-  "description": "The Planning Data platform is a single national platform that indexes the data and makes it available in a standardised format.",
+  "name": "Check and provide planning data",
+  "synonyms": ["Planning Data platform", "Submit and update your planning data"],
+  "description": "Use this service to check your data is ready to publish and provide your data to the planning data platform",
   "organisation": "Ministry of Housing, Communities and Local Government",
   "theme": "Housing and local services",
   "phase": "Beta",
-  "liveService": "https://submit.planning.data.gov.uk"
+  "liveService": "https://provide.planning.data.gov.uk"
 }
