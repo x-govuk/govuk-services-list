@@ -1,9 +1,27 @@
 {
   "name": "Apply for a public appointment",
+  "synonyms": [
+    "Public Appointments"
+  ],
   "description": "Search and apply for a position at a public body, such as a national museum, regulatory agency or a specialist advisory council.",
   "organisation": "Cabinet Office",
   "theme": "Working, jobs and pensions",
   "phase": "Beta",
   "liveService": "https://apply-for-public-appointment.service.gov.uk/",
-  "startPage": "https://www.gov.uk/public-appointments"
+  "startPage": "https://www.gov.uk/public-appointments",
+  "timeline": {
+    "items": [
+      {
+        "label": "Met beta assessment",
+        "date": "2022-05-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/public-appointments-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
