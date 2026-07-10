@@ -192,7 +192,7 @@ function extractTableValue(body, labels) {
 
   for (const label of labels) {
     const regex = new RegExp(
-      `${escapeRegex(label)}:?<\\/(?:td|th)>\\s*<td>([\\s\\S]*?)<\\/td>`,
+      `<(?:td|th)[^>]*>\\s*${escapeRegex(label)}:?\\s*<\\/(?:td|th)>\\s*<(?:td|th)[^>]*>([\\s\\S]*?)<\\/(?:td|th)>`,
       "i",
     );
     const match = body.match(regex);
@@ -216,7 +216,7 @@ function toServiceFilename(name) {
   return `${slug || "service"}.json`;
 }
 
-function toTitleCase(value) {
+function capitalizeFirst(value) {
   return value
     ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}`
     : "";
@@ -300,6 +300,7 @@ for (const url of serviceAssessmentUrls) {
 
     const isReassessment = /re-?assessment/i.test(url);
     const assessmentType = isReassessment ? "reassessment" : "assessment";
+    const visuallyHiddenText = `for ${stage} ${assessmentType}`;
 
     const resultMatch = json.details?.body?.match(resultBodyRegex);
     const resultText = resultMatch?.[1]?.trim().toLowerCase() ?? "";
@@ -379,7 +380,7 @@ for (const url of serviceAssessmentUrls) {
             {
               href: url,
               text: "Service assessment report",
-              visuallyHiddenText: `for ${stage} ${assessmentType}`,
+              visuallyHiddenText,
             },
           ],
         });
@@ -417,7 +418,7 @@ for (const url of serviceAssessmentUrls) {
           description,
           organisation,
           theme: getThemeFromTemplate(),
-          phase: toTitleCase(stage) || "Unknown",
+          phase: capitalizeFirst(stage) || "Unknown",
           timeline: {
             items: [
               {
@@ -427,7 +428,7 @@ for (const url of serviceAssessmentUrls) {
                   {
                     href: url,
                     text: "Service assessment report",
-                    visuallyHiddenText: `for ${stage} ${assessmentType}`,
+                    visuallyHiddenText,
                   },
                 ],
               },
