@@ -1,10 +1,27 @@
 {
   "name": "Get a goods movement reference",
-  "synonyms": ["Goods Vehicle Movement Service"],
+  "synonyms": [
+    "Goods Vehicle Movement Service"
+  ],
   "description": "Use this service to get a goods movement reference so you can move goods through locations which use the Goods Vehicle Movement Service.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveService": "https://www.tax.service.gov.uk/goods-movement-system/dashboard",
-  "startPage": "https://www.gov.uk/guidance/get-a-goods-movement-reference"
+  "startPage": "https://www.gov.uk/guidance/get-a-goods-movement-reference",
+  "timeline": {
+    "items": [
+      {
+        "label": "Met live assessment",
+        "date": "2023-07-27",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-a-goods-movement-reference-live-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for live assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

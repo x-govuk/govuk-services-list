@@ -6,7 +6,10 @@
   "phase": "Live",
   "startPage": "https://www.gov.uk/prison-visits",
   "liveService": "https://www.prisonvisits.service.gov.uk/",
-  "tags": ["Top 75", "Original 25 exemplars"],
+  "tags": [
+    "Top 75",
+    "Original 25 exemplars"
+  ],
   "sourceCode": [
     {
       "text": "Public-facing service source code",
@@ -24,5 +27,20 @@
       "text": "Public-facing booking service source code",
       "href": "https://github.com/ministryofjustice/hmpps-book-a-prison-visit-ui"
     }
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Met alpha assessment",
+        "date": "2021-11-11",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/visit-someone-in-prison",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for alpha assessment"
+          }
+        ]
+      }
+    ]
+  }
 }
