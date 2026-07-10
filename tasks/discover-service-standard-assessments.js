@@ -132,6 +132,7 @@ do {
 const assessmentDateRegex = /Assessment date:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 const stageRegex = /(alpha|beta|live)/i;
 const stageBodyRegex = /(?:service\s+)?stage:?<\/(?:td|th)>\s*<td>([^<]+)/i;
+const resultBodyRegex = /(?:result|outcome):?<\/(?:td|th)>\s*<td>([^<]+)/i;
 
 const ignoredWords = [
   "alpha",
@@ -174,6 +175,25 @@ for (const url of serviceAssessmentUrls) {
       !stageMatch && json.details?.body?.match(stageBodyRegex);
     const bodyStage = stageBodyMatch?.[1]?.trim().match(stageRegex)?.[0];
     const stage = (stageMatch?.[0] ?? bodyStage)?.toLowerCase() ?? null;
+
+    const isReassessment = /re-?assessment/i.test(url);
+    const assessmentType = isReassessment ? "reassessment" : "assessment";
+
+    const resultMatch = json.details?.body?.match(resultBodyRegex);
+    const resultText = resultMatch?.[1]?.trim().toLowerCase() ?? "";
+    const colourMatch = resultText.match(/\b(red|amber|green)\b/);
+
+    let label;
+    if (colourMatch) {
+      label = `Assessed as ${colourMatch[1]} at ${stage} ${assessmentType}`;
+    } else if (/\bnot\s+pass|\bfail/.test(resultText)) {
+      label = `Did not pass ${stage} ${assessmentType}`;
+    } else if (/\bpass/.test(resultText)) {
+      label = `Passed ${stage} ${assessmentType}`;
+    } else {
+      // Outcome could not be detected automatically – requires manual editing
+      label = `Passed|Did not pass ${stage} ${assessmentType}`;
+    }
 
     const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
     let assessmentDate = null;
@@ -224,14 +244,13 @@ for (const url of serviceAssessmentUrls) {
 
       if (!existingTimelineItems.includes(url)) {
         existingService.timeline.items.push({
-          // Label requires manual editing to select either "Passed" or "Did not pass"
-          label: `Passed|Did not pass ${stage} assessment`,
+          label,
           date: assessmentDate,
           links: [
             {
               href: url,
               text: "Service assessment report",
-              visuallyHiddenText: `for ${stage} assessment`,
+              visuallyHiddenText: `for ${stage} ${assessmentType}`,
             },
           ],
         });
