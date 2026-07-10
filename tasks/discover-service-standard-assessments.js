@@ -172,10 +172,8 @@ for (const url of serviceAssessmentUrls) {
     const stageMatch = json.title.match(stageRegex);
     const stageBodyMatch =
       !stageMatch && json.details?.body?.match(stageBodyRegex);
-    const stage = (
-      stageMatch?.[0] ??
-      stageBodyMatch?.[1]?.trim().match(stageRegex)?.[0]
-    )?.toLowerCase() ?? null;
+    const bodyStage = stageBodyMatch?.[1]?.trim().match(stageRegex)?.[0];
+    const stage = (stageMatch?.[0] ?? bodyStage)?.toLowerCase() ?? null;
 
     const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
     let assessmentDate = null;
