@@ -1,0 +1,23 @@
+{
+  "name": "Find education and training",
+  "description": "Whether you're already in education or training, or coming back after a break, we can help you work out what to do next.",
+  "organisation": "Department for Education",
+  "theme": "Education and learning",
+  "phase": "Beta",
+  "liveService": "https://s265t01-app-web.azurewebsites.net",
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2026-02-10",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/find-education-and-training",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
