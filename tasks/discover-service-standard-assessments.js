@@ -186,12 +186,13 @@ for (const url of serviceAssessmentUrls) {
     let label;
     if (colourMatch) {
       label = `Assessed as ${colourMatch[1]} at ${stage} ${assessmentType}`;
-    } else if (/\bnot\s+pass\b|\bfail\b/.test(resultText)) {
+    } else if (/\b(?:did\s+)?not\s+pass\b|\bfail(?:ed)?\b/.test(resultText)) {
       label = `Did not pass ${stage} ${assessmentType}`;
     } else if (/\bpass\b/.test(resultText)) {
       label = `Passed ${stage} ${assessmentType}`;
     } else {
-      // Outcome could not be detected automatically – requires manual editing
+      // Outcome could not be detected automatically (result/outcome field missing
+      // or contains an unrecognised value) – requires manual editing
       label = `Passed|Did not pass ${stage} ${assessmentType}`;
     }
 
