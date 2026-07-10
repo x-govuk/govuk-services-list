@@ -1,22 +1,31 @@
-require 'open-uri'
-require 'json'
+import fs from "node:fs";
+import path from "node:path";
+import process from "node:process";
 
+const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
 
-existing_services = []
+// Load all existing services
+const existingServices = [];
+const serviceFilenames = fs
+  .readdirSync(servicesPath)
+  .filter((filename) => filename !== "_template.json")
+  .filter((filename) => filename.endsWith(".json"));
 
-Dir.glob('app/services/*.json') do |file|
-  next if file.end_with?('_template.json')
+for (const filename of serviceFilenames) {
+  const filePath = path.join(servicesPath, filename);
+  const service = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+  service.file = filePath;
+  existingServices.push(service);
+}
 
-  json = JSON.parse(File.read(file))
-  json['file'] = file
-  existing_services << json
-end
+// Collect all existing timeline URLs
+const existingTimelineUrls = existingServices.flatMap((service) =>
+  (service.timeline?.items ?? []).flatMap((item) =>
+    (item.links ?? []).map((link) => link.href),
+  ),
+);
 
-service_assessment_urls = []
-
-existing_timeline_urls = existing_services.collect {|s| s["timeline"].to_h["items"].to_a.collect {|i| i["links"].to_a.collect {|l| l["href"] }}}.flatten
-
-ignored_reports = [
+const ignoredReports = [
   "https://www.gov.uk/service-standard-reports/national-parking-platform",
   "https://www.gov.uk/service-standard-reports/get-healthcare-cover-for-travelling-abroad",
   "https://www.gov.uk/service-standard-reports/nhs-digital-weight-management-programme-referral-hub",
@@ -92,126 +101,157 @@ ignored_reports = [
   "https://www.gov.uk/service-standard-reports/manage-key-stage-2-and-3-curriculum-resources-alpha-assessment",
   "https://www.gov.uk/service-standard-reports/export-green-list-waste",
   "https://www.gov.uk/service-standard-reports/renewable-electricity-register-beta-reassessment-report",
-  "https://www.gov.uk/service-standard-reports/renewable-electricity-register-beta-assessment-report"
-]
+  "https://www.gov.uk/service-standard-reports/renewable-electricity-register-beta-assessment-report",
+];
 
+// Fetch all service assessment URLs from the Atom feed
+const serviceAssessmentUrls = [];
+let page = 1;
+let count;
 
-page = 1
-count = 0
+do {
+  process.stdout.write(".");
+  const response = await fetch(
+    `https://www.gov.uk/service-standard-reports.atom?page=${page}`,
+  );
+  const xml = await response.text();
 
-while (page == 1 || count != 0)
-  print "."
-  file = URI.open("https://www.gov.uk/service-standard-reports.atom?page=#{page}")
-  results = file.read
-  links_regex = /\<link rel=\"alternate\" type=\"text\/html\" href=\"([^\"]+)\"\/>/
+  const newLinks = [
+    ...xml.matchAll(
+      /<link rel="alternate" type="text\/html" href="([^"]+)"\/>/g,
+    ),
+  ]
+    .map((match) => match[1])
+    .filter((link) => link !== "https://www.gov.uk");
 
-  new_links = (results.scan(links_regex).flatten - ["https://www.gov.uk"])
-  count = new_links.count
+  count = newLinks.length;
+  serviceAssessmentUrls.push(...newLinks);
+  page++;
+} while (count !== 0);
 
-  if count > 0
-    service_assessment_urls = service_assessment_urls + new_links
-  end
-  page += 1
-end
+const assessmentDateRegex = /Assessment date:?<\/(?:td|th)>\s*<td>([^<]+)/i;
+const stageRegex = /(alpha|beta|live)/i;
+const stageBodyRegex = /(?:service\s+)?stage:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 
-
-assessment_date_regex = /Assessment date\:\<\/td>\s+<td>([^<]+)<?/
-stage_regex = /(alpha|beta|live)/i
-
-ignored_words = [
+const ignoredWords = [
   "alpha",
   "beta",
   "live",
   "service",
   "standard",
-  "re\-assessment",
+  "re-assessment",
   "reassessment",
   "assessment",
-  "report"
-]
+  "report",
+];
 
-missing = 0
+let missing = 0;
 
-service_assessment_urls.each do |url|
+for (const url of serviceAssessmentUrls) {
+  if (!existingTimelineUrls.includes(url) && !ignoredReports.includes(url)) {
+    const apiUrl = url.replace(
+      "https://www.gov.uk/",
+      "https://www.gov.uk/api/content/",
+    );
 
-  next if existing_timeline_urls.include?(url)
-  next if ignored_reports.include?(url)
+    const response = await fetch(apiUrl);
+    const json = await response.json();
 
-  api_url = url.gsub("https://www.gov.uk/", "https://www.gov.uk/api/content/")
+    let title = json.title;
 
-  file = URI.open(api_url)
+    for (const word of ignoredWords) {
+      title = title.replace(new RegExp(`\\b${word}\\b`, "gi"), "");
+    }
 
-  json = JSON.parse(file.read)
+    title = title
+      .replace(/ - /g, "")
+      .replace(/ – /g, "")
+      .replace(/ {2,}/g, " ")
+      .trim();
 
-  title = json["title"]
+    const stageMatch = json.title.match(stageRegex);
+    const stageBodyMatch =
+      !stageMatch && json.details?.body?.match(stageBodyRegex);
+    const bodyStage = stageBodyMatch?.[1]?.trim().match(stageRegex)?.[0];
+    const stage = (stageMatch?.[0] ?? bodyStage)?.toLowerCase() ?? null;
 
-  ignored_words.each do |word|
-    title.gsub!(/\b#{word}\b/i, '')
-  end
-
-  title.gsub!(" - ", "")
-  title.gsub!(" – ", "")
-  title.squeeze!(" ")
-  title.strip!
-
-  stage = json["title"].scan(stage_regex).flatten
-  if stage == []
-    stage = nil
-  else
-    stage = stage[0].downcase
-  end
-
-  assessment_date = json["details"]["body"].scan(assessment_date_regex)
-
-  if assessment_date.length > 0
-    assessment_date = Date.parse(assessment_date[0][0])
-  else
-    assessment_date = nil
-  end
-
-  existing_service = existing_services.detect {|s| s["name"].downcase.strip == title.downcase.strip} || existing_services.detect {|s| s["synonyms"].to_a.collect {|a| a.downcase.strip}.include? title.downcase.strip}
-
-  if existing_service
-
-    existing_service["timeline"] ||= {}
-    existing_service["timeline"]["items"] ||= []
-
-
-    existing_timeline_items = existing_service["timeline"]["items"].collect do |item|
-      item["links"].to_a.collect {|link| link["href"] }
-    end.flatten
-
-    if !existing_timeline_items.include?(url)
-
-      existing_service["timeline"]["items"] << {
-        "label": "Passed|Did not pass #{stage} assessment",
-        "date": assessment_date,
-        "links": [
-          {
-            "href": url,
-            "text": "Service assessment report",
-            "visuallyHiddenText": "for #{stage} assessment"
-          }
-        ]
+    const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
+    let assessmentDate = null;
+    if (assessmentDateMatch) {
+      const dateStr = assessmentDateMatch[1].trim();
+      // Handle "D Month YYYY" / "DD Month YYYY" (e.g. "3 August 2021")
+      const longMatch = dateStr.match(/^(\d{1,2})\s+(\w+)\s+(\d{4})$/);
+      // Handle "DD/MM/YYYY" / "D/M/YYYY" UK numeric format (e.g. "03/08/2021")
+      const ukMatch = dateStr.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+      let parsed;
+      if (longMatch) {
+        const [, day, month, year] = longMatch;
+        parsed = Date.parse(`${month} ${day}, ${year}`);
+      } else if (ukMatch) {
+        const [, day, month, year] = ukMatch;
+        const d = Number(day);
+        const m = Number(month);
+        if (d >= 1 && d <= 31 && m >= 1 && m <= 12) {
+          parsed = Date.parse(
+            `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`,
+          );
+        }
+      } else {
+        parsed = Date.parse(dateStr);
       }
+      if (!isNaN(parsed)) {
+        assessmentDate = new Date(parsed).toISOString().split("T")[0];
+      }
+    }
 
+    const existingService =
+      existingServices.find(
+        (s) => s.name.toLowerCase().trim() === title.toLowerCase().trim(),
+      ) ||
+      existingServices.find((s) =>
+        (s.synonyms ?? [])
+          .map((a) => a.toLowerCase().trim())
+          .includes(title.toLowerCase().trim()),
+      );
 
-      File.open(existing_service['file'], 'w') do |f|
+    if (existingService) {
+      existingService.timeline ??= {};
+      existingService.timeline.items ??= [];
 
-        json_to_write = JSON.parse(JSON.generate(existing_service))
-        json_to_write.delete("file")
+      const existingTimelineItems = existingService.timeline.items.flatMap(
+        (item) => (item.links ?? []).map((link) => link.href),
+      );
 
-        f.write JSON.pretty_generate(json_to_write) + "\n"
-      end
-    end
+      if (!existingTimelineItems.includes(url)) {
+        existingService.timeline.items.push({
+          // Label requires manual editing to select either "Passed" or "Did not pass"
+          label: `Passed|Did not pass ${stage} assessment`,
+          date: assessmentDate,
+          links: [
+            {
+              href: url,
+              text: "Service assessment report",
+              visuallyHiddenText: `for ${stage} assessment`,
+            },
+          ],
+        });
 
-  else
-    missing += 1
-    puts title
-    puts url
-    puts "-"
-  end
+        const serviceToWrite = { ...existingService };
+        delete serviceToWrite.file;
 
-end
+        fs.writeFileSync(
+          existingService.file,
+          `${JSON.stringify(serviceToWrite, null, 2)}\n`,
+          "utf-8",
+        );
+      }
+    } else {
+      missing++;
+      console.log(title);
+      console.log(url);
+      console.log("-");
+    }
+  }
+}
 
-puts "\n#{missing} service assessments missing"
+console.log(`\n${missing} service assessments missing`);
