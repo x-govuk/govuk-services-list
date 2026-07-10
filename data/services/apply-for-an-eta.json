@@ -1,0 +1,70 @@
+{
+  "name": "Apply for an ETA to come to the UK",
+  "synonyms": [
+    "Electronic Travel Authorisation (ETA)",
+    "Get an electronic travel authorisation (ETA) to visit the UK"
+  ],
+  "description": "An electronic travel authorisation (ETA) lets you travel to the UK, Jersey, Guernsey or the Isle of Man for up to 6 months.",
+  "organisation": "Home Office",
+  "theme": "Passports, travel and living abroad",
+  "phase": "Beta",
+  "liveService": "https://apply-for-an-eta.homeoffice.gov.uk/apply/electronic-travel-authorisation",
+  "startPage": "https://www.gov.uk/eta/apply",
+  "platform": ["app", "web"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Policy announced",
+        "date": "2021-05-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/publications/new-plan-for-immigration-legal-migration-and-border-control/new-plan-for-immigration-legal-migration-and-border-control-strategy-statement-accessible-web-version",
+            "text": "Policy paper: New Plan for Immigration: legal migration and border control strategy statement 2021"
+          }
+        ]
+      },
+      {
+        "label": "Service opens for applications",
+        "date": "2023-10-25",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/uk-opens-electronic-travel-authorisation-scheme",
+            "text": "News story: UK opens electronic travel authorisation scheme"
+          }
+        ]
+      },
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2025-02-06",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/electronic-travel-authorisation-eta-beta-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      },
+      {
+        "label": "Met alpha assessment",
+        "date": "2023-09-14",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/electronic-travel-authorisation-eta-alpha-assessment",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for alpha assessment"
+          }
+        ]
+      },
+      {
+        "label": "Service becomes mandatory for visitors to the UK",
+        "date": "2026-02-24",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/uk-enforces-digital-permission-to-travel",
+            "text": "News story: UK enforces digital permission to travel"
+          }
+        ]
+      }
+    ]
+  }
+}
