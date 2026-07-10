@@ -1,0 +1,14 @@
+{
+  "name": "Intellectual property account",
+  "synonyms": [
+    "Manage intellectual property"
+  ],
+  "description": "Set up or sign in to an account to manage intellectual property (IP), including patents and applications that you own or represent.",
+  "organisation": "Intellectual Property Office",
+  "theme": "Business and self-employed",
+  "phase": "Beta",
+  "liveService": "https://www.manage-intellectual-property.service.gov.uk/one-login-required",
+  "startPage": "https://www.gov.uk/manage-intellectual-property",
+  "platform": "web",
+  "tags": ["GOV.UK One Login"]
+}
