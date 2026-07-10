@@ -1,0 +1,28 @@
+{
+  "name": "Review your magistrates' court decision",
+  "synonyms": [
+    "Review a magistrates’ court decision",
+    "Appeal a magistrates’ court decision"
+  ],
+  "description": "If you’re unhappy with a decision made by a magistrates’ court, you can challenge it or ask for it to be reviewed (appeal it).",
+  "organisation": "HM Courts & Tribunals Service",
+  "theme": "Crime, justice and the law",
+  "phase": "Beta",
+  "liveService": "https://review-magistrates-court-decision.form.service.justice.gov.uk",
+  "startPage": "https://www.gov.uk/appeal-magistrates-court-decision/how-to-apply",
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2025-10-22",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/review-a-magistrates-court-decision",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
