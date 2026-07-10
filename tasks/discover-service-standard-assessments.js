@@ -163,6 +163,7 @@ const ignoredWords = [
 let missing = 0;
 let created = 0;
 let serviceTemplate;
+let templateWarningShown = false;
 
 function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -190,11 +191,15 @@ function extractTableValue(body, labels) {
     return null;
   }
 
-  for (const label of labels) {
-    const regex = new RegExp(
-      `<(?:td|th)[^>]*>\\s*${escapeRegex(label)}:?\\s*<\\/(?:td|th)>\\s*<(?:td|th)[^>]*>([\\s\\S]*?)<\\/(?:td|th)>`,
-      "i",
-    );
+  const patterns = labels.map(
+    (label) =>
+      new RegExp(
+        `<(?:td|th)[^>]*>\\s*${escapeRegex(label)}:?\\s*<\\/(?:td|th)>\\s*<(?:td|th)[^>]*>([\\s\\S]*?)<\\/(?:td|th)>`,
+        "i",
+      ),
+  );
+
+  for (const regex of patterns) {
     const match = body.match(regex);
     const value = cleanText(match?.[1] ?? "");
 
@@ -229,7 +234,13 @@ function getServiceTemplate() {
 
   try {
     serviceTemplate = JSON.parse(fs.readFileSync(templatePath, "utf-8"));
-  } catch {
+  } catch (error) {
+    if (!templateWarningShown) {
+      console.warn(
+        `Warning: Could not load ${templatePath}; using defaults. ${error.message}`,
+      );
+      templateWarningShown = true;
+    }
     serviceTemplate = {};
   }
 
