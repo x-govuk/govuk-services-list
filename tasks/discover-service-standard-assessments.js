@@ -172,9 +172,13 @@ for (const url of serviceAssessmentUrls) {
     const stage = stageMatch ? stageMatch[0].toLowerCase() : null;
 
     const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
-    const assessmentDate = assessmentDateMatch
-      ? new Date(assessmentDateMatch[1]).toISOString().split("T")[0]
-      : null;
+    let assessmentDate = null;
+    if (assessmentDateMatch) {
+      const [day, month, year] = assessmentDateMatch[1].trim().split(" ");
+      assessmentDate = new Date(`${month} ${day}, ${year}`)
+        .toISOString()
+        .split("T")[0];
+    }
 
     const existingService =
       existingServices.find(
