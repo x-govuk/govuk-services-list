@@ -140,6 +140,7 @@ const descriptionLabels = [
   "service summary",
   "summary",
 ];
+const maxFilenameAttempts = 1000;
 const organisationLabels = [
   "organisation",
   "organization",
@@ -417,7 +418,6 @@ for (const url of serviceAssessmentUrls) {
         let filename = toServiceFilename(title);
         let filePath = path.join(servicesPath, filename);
         let suffix = 2;
-        const maxFilenameAttempts = 1000;
 
         while (fs.existsSync(filePath) && suffix <= maxFilenameAttempts) {
           filename = toServiceFilename(`${title} ${suffix}`);
@@ -436,7 +436,7 @@ for (const url of serviceAssessmentUrls) {
           description,
           organisation,
           theme: getThemeFromTemplate(),
-          phase: (stage ? capitalizeFirst(stage) : null) || "Unknown",
+          phase: capitalizeFirst(stage) || "Unknown",
           timeline: {
             items: [
               {
