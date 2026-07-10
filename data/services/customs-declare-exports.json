@@ -1,0 +1,25 @@
+{
+  "name": "Make and manage an export declaration online",
+  "synonyms": ["Make an export declaration online"],
+  "description": "Make or manage a declaration of goods being exported from Great Britain (England, Scotland and Wales) to a country outside the UK.",
+  "organisation": "HM Revenue and Customs",
+  "theme": "Business and self-employed",
+  "phase": "Live",
+  "liveService": "https://www.tax.service.gov.uk/customs-declare-exports/choice",
+  "startPage": "https://www.gov.uk/guidance/make-and-manage-an-export-declaration-online",
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as red at live assessment",
+        "date": "2024-07-16",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/make-an-export-declaration-online",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for live assessment"
+          }
+        ]
+      }
+    ]
+  }
+}
