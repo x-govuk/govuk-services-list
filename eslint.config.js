@@ -5,9 +5,4 @@ export default [
   {
     ignores: ["static"],
   },
-  {
-    rules: {
-      "no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
-    },
-  },
 ];
