@@ -8,5 +8,20 @@
   "liveService": "https://www.manage-intellectual-property.service.gov.uk/one-login-required",
   "startPage": "https://www.gov.uk/manage-intellectual-property",
   "platform": "web",
-  "tags": ["GOV.UK One Login"]
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Assessed as amber at beta assessment",
+        "date": "2026-02-25",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/manage-intellectual-property",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
+      }
+    ]
+  }
 }

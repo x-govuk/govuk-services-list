@@ -20,6 +20,17 @@
             "visuallyHiddenText": " for beta assessment"
           }
         ]
+      },
+      {
+        "label": "Met live assessment",
+        "date": "2021-08-03",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/apply-for-new-style-jsa",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for live assessment"
+          }
+        ]
       }
     ]
   }

@@ -41,6 +41,17 @@
             "visuallyHiddenText": " for beta assessment"
           }
         ]
+      },
+      {
+        "label": "Did not pass beta assessment",
+        "date": "2022-07-20",
+        "links": [
+          {
+            "href": "https://www.gov.uk/service-standard-reports/get-help-arranging-child-maintenance",
+            "text": "Service assessment report",
+            "visuallyHiddenText": "for beta assessment"
+          }
+        ]
       }
     ]
   }
