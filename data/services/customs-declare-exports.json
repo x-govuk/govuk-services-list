@@ -1,8 +1,6 @@
 {
   "name": "Make and manage an export declaration online",
-  "synonyms": [
-    "Make an export declaration online"
-  ],
+  "synonyms": ["Make an export declaration online"],
   "description": "Make or manage a declaration of goods being exported from Great Britain (England, Scotland and Wales) to a country outside the UK.",
   "organisation": "HM Revenue and Customs",
   "theme": "Business and self-employed",
