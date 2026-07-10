@@ -1,0 +1,9 @@
+{
+  "name": "UK National Screening Committee",
+  "description": "This list summarises whether population screening is currently recommended for a condition or not, and if it is open to public comments at this time.",
+  "organisation": "Department for Health and Social Care",
+  "theme": "Health",
+  "phase": "Beta",
+  "liveService": "https://view-health-screening-recommendations.service.gov.uk",
+  "platform": "web"
+}
