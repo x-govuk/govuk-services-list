@@ -129,7 +129,7 @@ do {
   page++;
 } while (count !== 0);
 
-const assessmentDateRegex = /Assessment date:<\/td>\s+<td>([^<]+)</;
+const assessmentDateRegex = /Assessment date:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 const stageRegex = /(alpha|beta|live)/i;
 
 const ignoredWords = [
