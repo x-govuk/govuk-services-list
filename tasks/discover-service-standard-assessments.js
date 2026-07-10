@@ -188,9 +188,11 @@ for (const url of serviceAssessmentUrls) {
       label = `Assessed as ${colourMatch[1]} at ${stage} ${assessmentType}`;
     } else if (/\bnot\s+met\b|\bdid\s+not\s+meet\b/.test(resultText)) {
       label = `Did not meet ${stage} ${assessmentType}`;
-    } else if (/\bmet\b/.test(resultText)) {
+    } else if (/(?<!not\s)\bmet\b/.test(resultText)) {
       label = `Met ${stage} ${assessmentType}`;
-    } else if (/\b(?:did\s+)?not\s+pass\b|\bfail(?:ed)?\b/.test(resultText)) {
+    } else if (
+      /\b(?:did\s+)?not\s+pass(?:ed)?\b|\bfail(?:ed)?\b/.test(resultText)
+    ) {
       label = `Did not pass ${stage} ${assessmentType}`;
     } else if (/\bpass(?:ed)?\b/.test(resultText)) {
       label = `Passed ${stage} ${assessmentType}`;
