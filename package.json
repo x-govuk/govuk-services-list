@@ -29,7 +29,8 @@
     "lint": "npm run lint:prettier && npm run lint:js && npm run lint:scss",
     "lint:fix": "npm run lint:prettier:fix && npm run lint:js:fix && npm run lint:scss:fix",
     "screenshots": "npx node tasks/screenshot-services.js",
-    "discover-start-pages": "npx node tasks/discover-start-pages.js"
+    "discover-start-pages": "npx node tasks/discover-start-pages.js",
+    "discover-service-standard-assessments": "npx node tasks/discover-service-standard-assessments.js"
   },
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^6.0.0",
