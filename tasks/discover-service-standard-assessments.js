@@ -3,7 +3,7 @@ import path from "node:path";
 import process from "node:process";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
-const templatePath = path.join(servicesPath, "_template.json");
+const defaultTheme = "*** Please use one of the existing themes from the website ***";
 
 // Load all existing services
 const existingServices = [];
@@ -164,8 +164,6 @@ const ignoredWords = [
 
 let missing = 0;
 let created = 0;
-let serviceTemplate;
-let templateWarningShown = false;
 
 function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -257,33 +255,6 @@ function capitalizeFirst(value) {
   return typeof value === "string" && value.length > 0
     ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}`
     : "";
-}
-
-function getServiceTemplate() {
-  if (serviceTemplate) {
-    return serviceTemplate;
-  }
-
-  try {
-    serviceTemplate = JSON.parse(fs.readFileSync(templatePath, "utf-8"));
-  } catch (error) {
-    if (!templateWarningShown) {
-      console.warn(
-        `Warning: Could not load ${templatePath}; using defaults. ${error.message}`,
-      );
-      templateWarningShown = true;
-    }
-    serviceTemplate = {};
-  }
-
-  return serviceTemplate;
-}
-
-function getThemeFromTemplate() {
-  const theme = getServiceTemplate().theme;
-  return typeof theme === "string" && !theme.includes("***")
-    ? theme
-    : "Government internal";
 }
 
 function selectDescription(body, metaDescription, title) {
@@ -474,7 +445,7 @@ for (const url of serviceAssessmentUrls) {
           name: title,
           description,
           organisation,
-          theme: getThemeFromTemplate(),
+          theme: defaultTheme,
           phase: capitalizeFirst(stage) || "Unknown",
           timeline: {
             items: [
@@ -500,7 +471,6 @@ for (const url of serviceAssessmentUrls) {
         );
         existingServices.push({ ...newService, file: filePath });
         created++;
-        console.log(`Created: ${title} (${filename})`);
       } else {
         missing++;
         console.log(title);
