@@ -1,0 +1,15 @@
+{
+  "name": "Taking a pet from Great Britain to Northern Ireland",
+  "synonyms": [
+    "Apply for a Northern Ireland pet travel document",
+    "Lifelong pet travel documents"
+  ],
+  "description": "Use this service to apply for a pet travel document (PTD) to take your dog, cat or ferret from Great Britain (England, Scotland and Wales) to Northern Ireland.",
+  "organisation": "Department for Environment, Food and Rural Affairs",
+  "theme": "Passports, travel and living abroad",
+  "phase": "Beta",
+  "liveService": "https://take-your-pet-from-gb-to-ni.service.gov.uk/",
+  "startPage": "https://www.gov.uk/apply-for-northern-ireland-pet-travel-document",
+  "platform": "web",
+  "tags": ["GOV.UK One Login"]
+}
