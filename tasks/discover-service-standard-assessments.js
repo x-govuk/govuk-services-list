@@ -185,9 +185,13 @@ for (const url of serviceAssessmentUrls) {
         parsed = Date.parse(`${month} ${day}, ${year}`);
       } else if (ukMatch) {
         const [, day, month, year] = ukMatch;
-        parsed = Date.parse(
-          `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`,
-        );
+        const d = Number(day);
+        const m = Number(month);
+        if (d >= 1 && d <= 31 && m >= 1 && m <= 12) {
+          parsed = Date.parse(
+            `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`,
+          );
+        }
       } else {
         parsed = Date.parse(dateStr);
       }
