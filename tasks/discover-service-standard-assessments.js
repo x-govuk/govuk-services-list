@@ -217,7 +217,9 @@ function toServiceFilename(name) {
 }
 
 function toTitleCase(value) {
-  return value ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}` : "";
+  return value
+    ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}`
+    : "";
 }
 
 for (const url of serviceAssessmentUrls) {
@@ -401,7 +403,11 @@ for (const url of serviceAssessmentUrls) {
           },
         };
 
-        fs.writeFileSync(filePath, `${JSON.stringify(newService, null, 2)}\n`, "utf-8");
+        fs.writeFileSync(
+          filePath,
+          `${JSON.stringify(newService, null, 2)}\n`,
+          "utf-8",
+        );
         existingServices.push({ ...newService, file: filePath });
         created++;
         console.log(`Created: ${title} (${filename})`);
