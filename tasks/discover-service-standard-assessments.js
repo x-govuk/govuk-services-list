@@ -142,6 +142,7 @@ const descriptionLabels = [
 ];
 const maxFilenameAttempts = 1000;
 const organisationLabels = [
+  "service provider",
   "organisation",
   "organization",
   "department",
@@ -313,9 +314,9 @@ function selectDescription(body, metaDescription, title) {
 
 function selectOrganisation(json) {
   return (
+    extractTableValue(json.details?.body, organisationLabels) ||
     cleanText(json.expanded_links?.organisations?.[0]?.title ?? "") ||
     cleanText(json.links?.organisations?.[0]?.title ?? "") ||
-    extractTableValue(json.details?.body, organisationLabels) ||
     "Unknown"
   );
 }
