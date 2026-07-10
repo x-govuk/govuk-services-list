@@ -3,7 +3,8 @@ import path from "node:path";
 import process from "node:process";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
-const defaultTheme = "*** Please use one of the existing themes from the website ***";
+const defaultTheme =
+  "*** Please use one of the existing themes from the website ***";
 
 // Load all existing services
 const existingServices = [];
