@@ -4,7 +4,6 @@ import process from "node:process";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
 const templatePath = path.join(servicesPath, "_template.json");
-const serviceTemplate = JSON.parse(fs.readFileSync(templatePath, "utf-8"));
 
 // Load all existing services
 const existingServices = [];
@@ -163,6 +162,7 @@ const ignoredWords = [
 
 let missing = 0;
 let created = 0;
+let serviceTemplate;
 
 function escapeRegex(value) {
   return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -170,12 +170,12 @@ function escapeRegex(value) {
 
 function decodeHtmlEntities(value) {
   return value
-    .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
     .replace(/&lt;/g, "<")
     .replace(/&gt;/g, ">")
-    .replace(/&nbsp;/g, " ");
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&");
 }
 
 function cleanText(value) {
@@ -220,6 +220,54 @@ function toTitleCase(value) {
   return value
     ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}`
     : "";
+}
+
+function getServiceTemplate() {
+  if (serviceTemplate) {
+    return serviceTemplate;
+  }
+
+  try {
+    serviceTemplate = JSON.parse(fs.readFileSync(templatePath, "utf-8"));
+  } catch {
+    serviceTemplate = {};
+  }
+
+  return serviceTemplate;
+}
+
+function getThemeFromTemplate() {
+  const theme = getServiceTemplate().theme;
+  return typeof theme === "string" && !theme.includes("***")
+    ? theme
+    : "Government internal";
+}
+
+function selectDescription(body, metaDescription, title) {
+  const descriptionFromBody = extractTableValue(body, descriptionLabels);
+  const descriptionFromMeta = cleanText(metaDescription ?? "");
+
+  if (descriptionFromBody) {
+    return descriptionFromBody;
+  }
+
+  if (
+    descriptionFromMeta &&
+    !/service standard report/i.test(descriptionFromMeta)
+  ) {
+    return descriptionFromMeta;
+  }
+
+  return title;
+}
+
+function selectOrganisation(json) {
+  return (
+    cleanText(json.expanded_links?.organisations?.[0]?.title ?? "") ||
+    cleanText(json.links?.organisations?.[0]?.title ?? "") ||
+    extractTableValue(json.details?.body, organisationLabels) ||
+    "Unknown"
+  );
 }
 
 for (const url of serviceAssessmentUrls) {
@@ -347,22 +395,12 @@ for (const url of serviceAssessmentUrls) {
       }
     } else {
       if (stage && stage !== "alpha") {
-        const descriptionFromBody = extractTableValue(
+        const description = selectDescription(
           json.details?.body,
-          descriptionLabels,
+          json.description,
+          title,
         );
-        const descriptionFromMeta = cleanText(json.description ?? "");
-        const description =
-          descriptionFromBody ||
-          (!/service standard report/i.test(descriptionFromMeta) &&
-            descriptionFromMeta) ||
-          title;
-
-        const organisation =
-          cleanText(json.expanded_links?.organisations?.[0]?.title ?? "") ||
-          cleanText(json.links?.organisations?.[0]?.title ?? "") ||
-          extractTableValue(json.details?.body, organisationLabels) ||
-          "Unknown";
+        const organisation = selectOrganisation(json);
 
         let filename = toServiceFilename(title);
         let filePath = path.join(servicesPath, filename);
@@ -374,17 +412,11 @@ for (const url of serviceAssessmentUrls) {
           suffix++;
         }
 
-        const theme =
-          typeof serviceTemplate.theme === "string" &&
-          !serviceTemplate.theme.includes("***")
-            ? serviceTemplate.theme
-            : "Government internal";
-
         const newService = {
           name: title,
           description,
           organisation,
-          theme,
+          theme: getThemeFromTemplate(),
           phase: toTitleCase(stage) || "Unknown",
           timeline: {
             items: [
