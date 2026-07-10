@@ -13,6 +13,7 @@ if (!Object.keys(process.env).includes("GOOGLE_CHROME_PATH")) {
   console.error(
     'Error: Missing path for Google Chrome application.\n\nAdd GOOGLE_CHROME_PATH="/path/to/Chrome" to a file named .env\n\nFor example, on Mac OS add GOOGLE_CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"',
   );
+  // eslint-disable-next-line n/no-process-exit
   process.exit();
 }
 
@@ -97,6 +98,7 @@ if (services.length === 0) {
   console.log(
     "npm run screenshots all        Collect screenshots for all non-retired services",
   );
+  // eslint-disable-next-line n/no-process-exit
   process.exit();
 }
 

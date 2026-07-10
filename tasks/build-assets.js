@@ -28,6 +28,7 @@ async function buildAssets() {
       if (watchSass) watchSass.close();
       if (watchJavaScript) watchJavaScript.dispose();
       bs.exit();
+      // eslint-disable-next-line n/no-process-exit
       process.exit(0);
     });
 
@@ -44,5 +45,6 @@ async function buildAssets() {
 
 buildAssets().catch((error) => {
   console.error("Build failed:", error);
+  // eslint-disable-next-line n/no-process-exit
   process.exit(1);
 });
