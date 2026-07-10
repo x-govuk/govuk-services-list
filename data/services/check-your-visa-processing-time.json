@@ -1,0 +1,10 @@
+{
+  "name": "Check your visa processing time",
+  "description": "Use this service to check when you can expect a decision on your visa application.",
+  "organisation": "Home Office",
+  "theme": "Citizenship and living in the UK",
+  "phase": "Beta",
+  "liveService": "https://www.check-your-visa-processing-time.homeoffice.gov.uk/location",
+  "startPage": "https://www.gov.uk/check-visa-processing-time",
+  "platform": "web"
+}
