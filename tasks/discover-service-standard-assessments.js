@@ -131,6 +131,7 @@ do {
 
 const assessmentDateRegex = /Assessment date:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 const stageRegex = /(alpha|beta|live)/i;
+const stageBodyRegex = /(?:service\s+)?stage:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 
 const ignoredWords = [
   "alpha",
@@ -169,7 +170,12 @@ for (const url of serviceAssessmentUrls) {
       .trim();
 
     const stageMatch = json.title.match(stageRegex);
-    const stage = stageMatch ? stageMatch[0].toLowerCase() : null;
+    const stageBodyMatch =
+      !stageMatch && json.details?.body?.match(stageBodyRegex);
+    const stage = (
+      stageMatch?.[0] ??
+      stageBodyMatch?.[1]?.trim().match(stageRegex)?.[0]
+    )?.toLowerCase() ?? null;
 
     const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
     let assessmentDate = null;
