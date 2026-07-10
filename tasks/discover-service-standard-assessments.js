@@ -174,10 +174,10 @@ for (const url of serviceAssessmentUrls) {
     const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
     let assessmentDate = null;
     if (assessmentDateMatch) {
-      const [day, month, year] = assessmentDateMatch[1].trim().split(" ");
-      assessmentDate = new Date(`${month} ${day}, ${year}`)
-        .toISOString()
-        .split("T")[0];
+      const parsed = Date.parse(assessmentDateMatch[1].trim());
+      if (!isNaN(parsed)) {
+        assessmentDate = new Date(parsed).toISOString().split("T")[0];
+      }
     }
 
     const existingService =
