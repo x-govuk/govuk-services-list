@@ -3,6 +3,8 @@ import path from "node:path";
 import process from "node:process";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
+const defaultTheme =
+  "*** Please use one of the existing themes from the website ***";
 
 // Load all existing services
 const existingServices = [];
@@ -133,6 +135,21 @@ const assessmentDateRegex = /Assessment date:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 const stageRegex = /(alpha|beta|live)/i;
 const stageBodyRegex = /(?:service\s+)?stage:?<\/(?:td|th)>\s*<td>([^<]+)/i;
 const resultBodyRegex = /(?:result|outcome):?<\/(?:td|th)>\s*<td>([^<]+)/i;
+const descriptionLabels = [
+  "service description",
+  "description",
+  "service summary",
+  "summary",
+];
+const maxFilenameAttempts = 1000;
+const organisationLabels = [
+  "service provider",
+  "organisation",
+  "organization",
+  "department",
+  "service team",
+  "service owner",
+];
 
 const ignoredWords = [
   "alpha",
@@ -147,6 +164,134 @@ const ignoredWords = [
 ];
 
 let missing = 0;
+let created = 0;
+
+function escapeRegex(value) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function decodeHtmlEntities(value) {
+  return value
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&");
+}
+
+function cleanText(value) {
+  return decodeHtmlEntities(value)
+    .replace(/<[^>]+>/g, " ")
+    .replace(/ {2,}/g, " ")
+    .trim();
+}
+
+function extractTableValue(body, labels) {
+  if (!body) {
+    return null;
+  }
+
+  const patterns = labels.map(
+    (label) =>
+      new RegExp(
+        `<(?:td|th)[^>]*>\\s*${escapeRegex(label)}:?\\s*<\\/(?:td|th)>\\s*<(?:td|th)[^>]*>([\\s\\S]*?)<\\/(?:td|th)>`,
+        "i",
+      ),
+  );
+
+  for (const regex of patterns) {
+    const match = body.match(regex);
+    const value = cleanText(match?.[1] ?? "");
+
+    if (value) {
+      return value;
+    }
+  }
+
+  return null;
+}
+
+function firstSentence(value) {
+  const text = cleanText(value);
+  if (!text) {
+    return null;
+  }
+
+  const match = text.match(/^(.+?[.!?])(?=\s|$)/);
+  return match?.[1] ?? text;
+}
+
+function extractSectionFirstSentence(body, sectionTitle) {
+  if (!body) {
+    return null;
+  }
+
+  const headingRegex = new RegExp(
+    `<h[1-6][^>]*>[\\s\\S]*?${escapeRegex(sectionTitle)}[\\s\\S]*?<\\/h[1-6]>`,
+    "i",
+  );
+  const headingMatch = body.match(headingRegex);
+
+  if (!headingMatch || headingMatch.index === undefined) {
+    return null;
+  }
+
+  const afterHeading = body.slice(headingMatch.index + headingMatch[0].length);
+  const paragraphMatch = afterHeading.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+  return firstSentence(paragraphMatch?.[1] ?? "");
+}
+
+function toServiceFilename(name) {
+  const slug = name
+    .toLowerCase()
+    .replace(/&/g, " and ")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+
+  return `${slug || "service"}.json`;
+}
+
+function capitalizeFirst(value) {
+  return typeof value === "string" && value.length > 0
+    ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}`
+    : "";
+}
+
+function selectDescription(body, metaDescription, title) {
+  const descriptionFromSection = extractSectionFirstSentence(
+    body,
+    "service description",
+  );
+  const descriptionFromBody = extractTableValue(body, descriptionLabels);
+  const descriptionFromMeta = cleanText(metaDescription ?? "");
+
+  if (descriptionFromSection) {
+    return descriptionFromSection;
+  }
+
+  if (descriptionFromBody) {
+    return firstSentence(descriptionFromBody);
+  }
+
+  if (
+    descriptionFromMeta &&
+    !/service standard report/i.test(descriptionFromMeta)
+  ) {
+    return descriptionFromMeta;
+  }
+
+  return title;
+}
+
+function selectOrganisation(json) {
+  return (
+    extractTableValue(json.details?.body, organisationLabels) ||
+    cleanText(json.expanded_links?.organisations?.[0]?.title ?? "") ||
+    cleanText(json.links?.organisations?.[0]?.title ?? "") ||
+    "Unknown"
+  );
+}
 
 for (const url of serviceAssessmentUrls) {
   if (!existingTimelineUrls.includes(url) && !ignoredReports.includes(url)) {
@@ -178,6 +323,7 @@ for (const url of serviceAssessmentUrls) {
 
     const isReassessment = /re-?assessment/i.test(url);
     const assessmentType = isReassessment ? "reassessment" : "assessment";
+    const visuallyHiddenText = `for ${stage} ${assessmentType}`;
 
     const resultMatch = json.details?.body?.match(resultBodyRegex);
     const resultText = resultMatch?.[1]?.trim().toLowerCase() ?? "";
@@ -257,7 +403,7 @@ for (const url of serviceAssessmentUrls) {
             {
               href: url,
               text: "Service assessment report",
-              visuallyHiddenText: `for ${stage} ${assessmentType}`,
+              visuallyHiddenText,
             },
           ],
         });
@@ -272,12 +418,69 @@ for (const url of serviceAssessmentUrls) {
         );
       }
     } else {
-      missing++;
-      console.log(title);
-      console.log(url);
-      console.log("-");
+      if (stage && stage !== "alpha") {
+        const description = selectDescription(
+          json.details?.body,
+          json.description,
+          title,
+        );
+        const organisation = selectOrganisation(json);
+
+        let filename = toServiceFilename(title);
+        let filePath = path.join(servicesPath, filename);
+        let suffix = 2;
+
+        while (fs.existsSync(filePath) && suffix <= maxFilenameAttempts) {
+          filename = toServiceFilename(`${title} ${suffix}`);
+          filePath = path.join(servicesPath, filename);
+          suffix++;
+        }
+
+        if (fs.existsSync(filePath)) {
+          throw new Error(
+            `Could not generate unique filename for service: ${title}`,
+          );
+        }
+
+        const newService = {
+          name: title,
+          description,
+          organisation,
+          theme: defaultTheme,
+          phase: capitalizeFirst(stage) || "Unknown",
+          timeline: {
+            items: [
+              {
+                label,
+                date: assessmentDate,
+                links: [
+                  {
+                    href: url,
+                    text: "Service assessment report",
+                    visuallyHiddenText,
+                  },
+                ],
+              },
+            ],
+          },
+        };
+
+        fs.writeFileSync(
+          filePath,
+          `${JSON.stringify(newService, null, 2)}\n`,
+          "utf-8",
+        );
+        existingServices.push({ ...newService, file: filePath });
+        created++;
+      } else {
+        missing++;
+        console.log(title);
+        console.log(url);
+        console.log("-");
+      }
     }
   }
 }
 
 console.log(`\n${missing} service assessments missing`);
+console.log(`${created} new services created`);
