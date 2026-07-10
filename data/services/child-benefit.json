@@ -1,8 +1,6 @@
 {
   "name": "Claim Child Benefit",
-  "synonyms": [
-    "Claim Child Benefits"
-  ],
+  "synonyms": ["Claim Child Benefits"],
   "description": "You get Child Benefit if you’re responsible for bringing up a child who is under 16 or under 20 if they stay in approved education or training",
   "organisation": "HM Revenue and Customs",
   "theme": "Childcare and parenting",
