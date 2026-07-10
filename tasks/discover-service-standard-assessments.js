@@ -222,7 +222,7 @@ function toServiceFilename(name) {
 }
 
 function capitalizeFirst(value) {
-  return value
+  return typeof value === "string" && value.length > 0
     ? `${value[0].toUpperCase()}${value.slice(1).toLowerCase()}`
     : "";
 }
@@ -417,11 +417,18 @@ for (const url of serviceAssessmentUrls) {
         let filename = toServiceFilename(title);
         let filePath = path.join(servicesPath, filename);
         let suffix = 2;
+        const maxFilenameAttempts = 1000;
 
-        while (fs.existsSync(filePath)) {
+        while (fs.existsSync(filePath) && suffix <= maxFilenameAttempts) {
           filename = toServiceFilename(`${title} ${suffix}`);
           filePath = path.join(servicesPath, filename);
           suffix++;
+        }
+
+        if (fs.existsSync(filePath)) {
+          throw new Error(
+            `Could not generate unique filename for service: ${title}`,
+          );
         }
 
         const newService = {
@@ -429,7 +436,7 @@ for (const url of serviceAssessmentUrls) {
           description,
           organisation,
           theme: getThemeFromTemplate(),
-          phase: capitalizeFirst(stage) || "Unknown",
+          phase: (stage ? capitalizeFirst(stage) : null) || "Unknown",
           timeline: {
             items: [
               {
