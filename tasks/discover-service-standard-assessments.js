@@ -174,7 +174,23 @@ for (const url of serviceAssessmentUrls) {
     const assessmentDateMatch = json.details?.body?.match(assessmentDateRegex);
     let assessmentDate = null;
     if (assessmentDateMatch) {
-      const parsed = Date.parse(assessmentDateMatch[1].trim());
+      const dateStr = assessmentDateMatch[1].trim();
+      // Handle "D Month YYYY" / "DD Month YYYY" (e.g. "3 August 2021")
+      const longMatch = dateStr.match(/^(\d{1,2})\s+(\w+)\s+(\d{4})$/);
+      // Handle "DD/MM/YYYY" / "D/M/YYYY" UK numeric format (e.g. "03/08/2021")
+      const ukMatch = dateStr.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+      let parsed;
+      if (longMatch) {
+        const [, day, month, year] = longMatch;
+        parsed = Date.parse(`${month} ${day}, ${year}`);
+      } else if (ukMatch) {
+        const [, day, month, year] = ukMatch;
+        parsed = Date.parse(
+          `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`,
+        );
+      } else {
+        parsed = Date.parse(dateStr);
+      }
       if (!isNaN(parsed)) {
         assessmentDate = new Date(parsed).toISOString().split("T")[0];
       }
