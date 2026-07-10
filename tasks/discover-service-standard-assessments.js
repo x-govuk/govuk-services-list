@@ -212,6 +212,36 @@ function extractTableValue(body, labels) {
   return null;
 }
 
+function firstSentence(value) {
+  const text = cleanText(value);
+  if (!text) {
+    return null;
+  }
+
+  const match = text.match(/^(.+?[.!?])(?=\s|$)/);
+  return match?.[1] ?? text;
+}
+
+function extractSectionFirstSentence(body, sectionTitle) {
+  if (!body) {
+    return null;
+  }
+
+  const headingRegex = new RegExp(
+    `<h[1-6][^>]*>[\\s\\S]*?${escapeRegex(sectionTitle)}[\\s\\S]*?<\\/h[1-6]>`,
+    "i",
+  );
+  const headingMatch = body.match(headingRegex);
+
+  if (!headingMatch || headingMatch.index === undefined) {
+    return null;
+  }
+
+  const afterHeading = body.slice(headingMatch.index + headingMatch[0].length);
+  const paragraphMatch = afterHeading.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
+  return firstSentence(paragraphMatch?.[1] ?? "");
+}
+
 function toServiceFilename(name) {
   const slug = name
     .toLowerCase()
@@ -256,11 +286,19 @@ function getThemeFromTemplate() {
 }
 
 function selectDescription(body, metaDescription, title) {
+  const descriptionFromSection = extractSectionFirstSentence(
+    body,
+    "service description",
+  );
   const descriptionFromBody = extractTableValue(body, descriptionLabels);
   const descriptionFromMeta = cleanText(metaDescription ?? "");
 
+  if (descriptionFromSection) {
+    return descriptionFromSection;
+  }
+
   if (descriptionFromBody) {
-    return descriptionFromBody;
+    return firstSentence(descriptionFromBody);
   }
 
   if (
