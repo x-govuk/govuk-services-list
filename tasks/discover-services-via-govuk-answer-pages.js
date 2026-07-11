@@ -100,6 +100,17 @@ for (const result of results) {
       delete serviceToWrite.file;
       serviceToWrite.startPage = [...currentStartPages, startPage];
 
+      // If the page title doesn't match the service name or an existing
+      // synonym, add it as a new synonym
+      const pageTitle = result.title;
+      const existingSynonyms = serviceToWrite.synonyms ?? [];
+      if (
+        pageTitle !== serviceToWrite.name &&
+        !existingSynonyms.includes(pageTitle)
+      ) {
+        serviceToWrite.synonyms = [...existingSynonyms, pageTitle];
+      }
+
       fs.writeFileSync(
         existingServiceWithSameLiveService.file,
         `${JSON.stringify(serviceToWrite, null, 2)}\n`,
