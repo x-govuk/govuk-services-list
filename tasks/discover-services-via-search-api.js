@@ -4,13 +4,14 @@ import path from "node:path";
 import { getGovukPages } from "../lib/search-api.js";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
-// Match an anchor tag whose class attribute includes `govuk-button--start`,
-// using a lookahead so the class attribute can appear anywhere on the element.
+// Match an anchor tag whose class attribute includes `govuk-button--start`.
+// The lookahead lets the class attribute appear anywhere in the tag.
 const startButtonTagPattern =
   /<a\b(?=[^>]*\bclass\s*=\s*(["'])[^"']*\bgovuk-button--start\b[^"']*\1)[^>]*>/;
-// Match either quoted or unquoted href attributes. Capture group 2 contains a
-// quoted URL and capture group 3 contains an unquoted URL.
-const hrefAttributePattern = /\bhref\s*=\s*(?:(["'])([^"']+)\1|([^\s>]+))/;
+// Match either quoted or unquoted href attributes and return the matching URL
+// through named capture groups.
+const hrefAttributePattern =
+  /\bhref\s*=\s*(?:(?<quote>["'])(?<quotedUrl>[^"']+)\k<quote>|(?<unquotedUrl>[^\s>]+))/;
 const pageFormats = [
   {
     format: "transaction",
@@ -32,7 +33,7 @@ const pageFormats = [
       }
 
       const hrefMatch = startButtonTagMatch[0].match(hrefAttributePattern);
-      return hrefMatch?.[2] ?? hrefMatch?.[3]; // group 2 is quoted, group 3 is unquoted
+      return hrefMatch?.groups?.quotedUrl ?? hrefMatch?.groups?.unquotedUrl;
     },
   },
 ];
