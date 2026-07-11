@@ -54,8 +54,7 @@ const toArray = (value) => {
   return Array.isArray(value) ? value : [value];
 };
 
-const asStringOrArray = (values) =>
-  values.length === 1 ? values[0] : values;
+const asStringOrArray = (values) => (values.length === 1 ? values[0] : values);
 
 const writeService = (service) => {
   const serviceToWrite = { ...service };
@@ -69,10 +68,14 @@ const writeService = (service) => {
 };
 
 const getServiceByLiveService = (liveService) =>
-  existingServices.find((service) => toArray(service.liveService).includes(liveService));
+  existingServices.find((service) =>
+    toArray(service.liveService).includes(liveService),
+  );
 
 const getServiceByStartPage = (startPage) =>
-  existingServices.find((service) => toArray(service.startPage).includes(startPage));
+  existingServices.find((service) =>
+    toArray(service.startPage).includes(startPage),
+  );
 
 const updateStartPagesAndSynonyms = ({ service, startPage, pageTitle }) => {
   const currentStartPages = toArray(service.startPage);
@@ -111,7 +114,13 @@ const updateLiveService = ({ service, liveService }) => {
   }
 };
 
-const createService = ({ content, liveService, result, subdomain, startPage }) => {
+const createService = ({
+  content,
+  liveService,
+  result,
+  subdomain,
+  startPage,
+}) => {
   const newService = {
     name: result.title,
     description: content.description ?? "",
@@ -130,11 +139,17 @@ const createService = ({ content, liveService, result, subdomain, startPage }) =
   const filePath = path.join(servicesPath, `${subdomain}.json`);
 
   if (fs.existsSync(filePath)) {
-    console.warn(`Skipping ${liveService}: file ${subdomain}.json already exists`);
+    console.warn(
+      `Skipping ${liveService}: file ${subdomain}.json already exists`,
+    );
     return;
   }
 
-  fs.writeFileSync(filePath, `${JSON.stringify(newService, null, 2)}\n`, "utf-8");
+  fs.writeFileSync(
+    filePath,
+    `${JSON.stringify(newService, null, 2)}\n`,
+    "utf-8",
+  );
   existingServices.push({ ...newService, file: filePath });
 };
 
@@ -156,7 +171,8 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
     return;
   }
 
-  const existingServiceWithSameLiveService = getServiceByLiveService(liveService);
+  const existingServiceWithSameLiveService =
+    getServiceByLiveService(liveService);
   if (existingServiceWithSameLiveService) {
     updateStartPagesAndSynonyms({
       service: existingServiceWithSameLiveService,
@@ -179,7 +195,10 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
 
   const existingServiceWithSameStartPage = getServiceByStartPage(startPage);
   if (existingServiceWithSameStartPage) {
-    updateLiveService({ service: existingServiceWithSameStartPage, liveService });
+    updateLiveService({
+      service: existingServiceWithSameStartPage,
+      liveService,
+    });
     return;
   }
 
@@ -198,6 +217,9 @@ for (const pageFormat of pageFormats) {
   const results = await getGovukPages({ format: pageFormat.format });
 
   for (const result of results) {
-    await processResult({ getLiveServiceUrl: pageFormat.getLiveServiceUrl, result });
+    await processResult({
+      getLiveServiceUrl: pageFormat.getLiveServiceUrl,
+      result,
+    });
   }
 }
