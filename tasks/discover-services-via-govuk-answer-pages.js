@@ -49,10 +49,10 @@ for (const result of results) {
   );
   if (!startButtonTagMatch) continue;
 
-  const hrefMatch = startButtonTagMatch[0].match(/\bhref="([^"]+)"/);
+  const hrefMatch = startButtonTagMatch[0].match(/\bhref=(["'])([^"']+)\1/);
   if (!hrefMatch) continue;
 
-  const startLink = hrefMatch[1];
+  const startLink = hrefMatch[2];
   if (!startLink) continue;
 
   let startLinkHost;
@@ -66,11 +66,12 @@ for (const result of results) {
   if (existingLiveServiceHosts.includes(startLinkHost)) continue;
   if (!startLinkHost.endsWith(".service.gov.uk")) continue;
 
-  // Extract subdomain (e.g. "something" from "something.service.gov.uk")
+  // Extract subdomain (e.g. "something" from "something.service.gov.uk",
+  // or "sub1.sub2" from "sub1.sub2.service.gov.uk")
   // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
   const hostParts = startLinkHost.split(".");
   if (hostParts.length < 4) continue;
-  const subdomain = hostParts.at(-4);
+  const subdomain = hostParts.slice(0, -3).join(".");
 
   const startPage = `https://www.gov.uk${result.link}`;
 
