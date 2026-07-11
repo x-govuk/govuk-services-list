@@ -4,6 +4,33 @@ import path from "node:path";
 import { getGovukPages } from "../lib/search-api.js";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
+const pageFormats = [
+  {
+    format: "transaction",
+    getLiveServiceUrl(content) {
+      return content.details?.transaction_start_link;
+    },
+  },
+  {
+    format: "answer",
+    getLiveServiceUrl(content) {
+      const body = content.details?.body;
+      if (!body) {
+        return undefined;
+      }
+
+      const startButtonTagMatch = body.match(
+        /<a\b[^>]+\bclass="[^"]*govuk-button--start[^"]*"[^>]*/,
+      );
+      if (!startButtonTagMatch) {
+        return undefined;
+      }
+
+      const hrefMatch = startButtonTagMatch[0].match(/\bhref=(["'])([^"']+)\1/);
+      return hrefMatch?.[2];
+    },
+  },
+];
 
 // Load all existing services, tracking their file paths
 const existingServices = [];
@@ -19,60 +46,79 @@ for (const filename of serviceFilenames) {
   existingServices.push(service);
 }
 
-// Collect the live service URLs of all services that already have one
-const existingLiveServiceUrls = new Set(
-  existingServices.flatMap((service) => {
-    if (!service.liveService) return [];
-    return Array.isArray(service.liveService)
-      ? service.liveService
-      : [service.liveService];
-  }),
-);
-
-const results = await getGovukPages({ format: "transaction" });
-
-for (const result of results) {
-  // Fetch the content API to find the transaction start link
-  const contentUrl = `https://www.gov.uk/api/content${result.link}`;
-  const contentResponse = await fetch(contentUrl);
-
-  if (!contentResponse.ok) {
-    console.error(
-      `Content API error for ${result.link}: ${contentResponse.status}`,
-    );
-    continue;
+const toArray = (value) => {
+  if (!value) {
+    return [];
   }
 
-  const content = await contentResponse.json();
+  return Array.isArray(value) ? value : [value];
+};
 
-  const liveService = content.details?.transaction_start_link;
-  if (!liveService) continue;
+const asStringOrArray = (values) =>
+  values.length === 1 ? values[0] : values;
 
-  let liveServiceHost;
-  try {
-    liveServiceHost = new URL(liveService).hostname;
-  } catch {
-    continue;
+const writeService = (service) => {
+  const serviceToWrite = { ...service };
+  delete serviceToWrite.file;
+
+  fs.writeFileSync(
+    service.file,
+    `${JSON.stringify(serviceToWrite, null, 2)}\n`,
+    "utf-8",
+  );
+};
+
+const getServiceByLiveService = (liveService) =>
+  existingServices.find((service) => toArray(service.liveService).includes(liveService));
+
+const getServiceByStartPage = (startPage) =>
+  existingServices.find((service) => toArray(service.startPage).includes(startPage));
+
+const updateStartPagesAndSynonyms = ({ service, startPage, pageTitle }) => {
+  const currentStartPages = toArray(service.startPage);
+  const nextStartPages = currentStartPages.includes(startPage)
+    ? currentStartPages
+    : [...currentStartPages, startPage];
+  const currentSynonyms = service.synonyms ?? [];
+  const nextSynonyms =
+    pageTitle === service.name || currentSynonyms.includes(pageTitle)
+      ? currentSynonyms
+      : [...currentSynonyms, pageTitle];
+
+  const startPagesChanged = nextStartPages.length !== currentStartPages.length;
+  const synonymsChanged = nextSynonyms.length !== currentSynonyms.length;
+
+  if (startPagesChanged || synonymsChanged) {
+    service.startPage = asStringOrArray(nextStartPages);
+
+    if (nextSynonyms.length > 0) {
+      service.synonyms = nextSynonyms;
+    }
+
+    writeService(service);
   }
+};
 
-  if (existingLiveServiceUrls.has(liveService)) continue;
-  if (!liveServiceHost.endsWith(".service.gov.uk")) continue;
+const updateLiveService = ({ service, liveService }) => {
+  const currentLiveServices = toArray(service.liveService);
+  const nextLiveServices = currentLiveServices.includes(liveService)
+    ? currentLiveServices
+    : [...currentLiveServices, liveService];
 
-  // Extract subdomain (e.g. "something" from "something.service.gov.uk")
-  // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
-  const hostParts = liveServiceHost.split(".");
-  if (hostParts.length < 4) continue;
-  const subdomain = hostParts.at(-4);
+  if (nextLiveServices.length !== currentLiveServices.length) {
+    service.liveService = asStringOrArray(nextLiveServices);
+    writeService(service);
+  }
+};
 
-  const startPage = `https://www.gov.uk${result.link}`;
-
+const createService = ({ content, liveService, result, subdomain, startPage }) => {
   const newService = {
     name: result.title,
     description: content.description ?? "",
     organisation: "** TODO **",
     theme: "** TODO **",
     phase: "** TODO **",
-    liveService: liveService,
+    liveService,
     startPage,
   };
 
@@ -81,39 +127,77 @@ for (const result of results) {
     newService.organisation = organisations[0].title;
   }
 
-  const existingServiceWithSameStartPage = existingServices.find(
-    (s) => s.startPage === startPage,
-  );
+  const filePath = path.join(servicesPath, `${subdomain}.json`);
 
+  if (fs.existsSync(filePath)) {
+    console.warn(`Skipping ${liveService}: file ${subdomain}.json already exists`);
+    return;
+  }
+
+  fs.writeFileSync(filePath, `${JSON.stringify(newService, null, 2)}\n`, "utf-8");
+  existingServices.push({ ...newService, file: filePath });
+};
+
+const processResult = async ({ getLiveServiceUrl, result }) => {
+  const startPage = `https://www.gov.uk${result.link}`;
+  const contentUrl = `https://www.gov.uk/api/content${result.link}`;
+  const contentResponse = await fetch(contentUrl);
+
+  if (!contentResponse.ok) {
+    console.error(
+      `Content API error for ${result.link}: ${contentResponse.status}`,
+    );
+    return;
+  }
+
+  const content = await contentResponse.json();
+  const liveService = getLiveServiceUrl(content);
+  if (!liveService) {
+    return;
+  }
+
+  const existingServiceWithSameLiveService = getServiceByLiveService(liveService);
+  if (existingServiceWithSameLiveService) {
+    updateStartPagesAndSynonyms({
+      service: existingServiceWithSameLiveService,
+      startPage,
+      pageTitle: result.title,
+    });
+    return;
+  }
+
+  let liveServiceHost = "";
+  try {
+    liveServiceHost = new URL(liveService).hostname;
+  } catch {
+    return;
+  }
+
+  if (!liveServiceHost.endsWith(".service.gov.uk")) {
+    return;
+  }
+
+  const existingServiceWithSameStartPage = getServiceByStartPage(startPage);
   if (existingServiceWithSameStartPage) {
-    // Update the liveService URL on the existing record
-    const serviceToWrite = { ...existingServiceWithSameStartPage };
-    delete serviceToWrite.file;
-    serviceToWrite.liveService = liveService;
+    updateLiveService({ service: existingServiceWithSameStartPage, liveService });
+    return;
+  }
 
-    fs.writeFileSync(
-      existingServiceWithSameStartPage.file,
-      `${JSON.stringify(serviceToWrite, null, 2)}\n`,
-      "utf-8",
-    );
-  } else {
-    // Write a new service file named after the subdomain
-    const filePath = path.join(servicesPath, `${subdomain}.json`);
+  // Extract subdomain (e.g. "something" from "something.service.gov.uk")
+  // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
+  const hostParts = liveServiceHost.split(".");
+  if (hostParts.length < 4) {
+    return;
+  }
 
-    if (fs.existsSync(filePath)) {
-      console.warn(
-        `Skipping ${liveService}: file ${subdomain}.json already exists`,
-      );
-      continue;
-    }
+  const subdomain = hostParts.at(-4);
+  createService({ content, liveService, result, startPage, subdomain });
+};
 
-    fs.writeFileSync(
-      filePath,
-      `${JSON.stringify(newService, null, 2)}\n`,
-      "utf-8",
-    );
+for (const pageFormat of pageFormats) {
+  const results = await getGovukPages({ format: pageFormat.format });
 
-    existingServices.push({ ...newService, file: filePath });
-    existingLiveServiceUrls.add(liveService);
+  for (const result of results) {
+    await processResult({ getLiveServiceUrl: pageFormat.getLiveServiceUrl, result });
   }
 }
