@@ -1,0 +1,11 @@
+{
+  "name": "Check your ETA",
+  "synonyms": ["Check your electronic travel authorisation (ETA)"],
+  "description": "Use this service to check if you have an electronic travel authorisation (ETA) to visit the UK and when your ETA expires.",
+  "organisation": "Home Office",
+  "theme": "Passports, travel and living abroad",
+  "phase": "Beta",
+  "liveService": "https://check-your-travel-permission.homeoffice.gov.uk/country-nationality",
+  "startPage": "https://www.gov.uk/check-eta",
+  "platform": "web"
+}
