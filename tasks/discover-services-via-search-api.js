@@ -182,7 +182,7 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
     return;
   }
 
-  let liveServiceHost = "";
+  let liveServiceHost;
   try {
     liveServiceHost = new URL(liveService).hostname;
   } catch {
