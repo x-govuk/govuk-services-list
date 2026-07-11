@@ -143,7 +143,9 @@ const updateLiveService = ({ service, liveService }) => {
     : [...currentLiveServices, liveService];
   const nextLiveServiceValue = asStringOrArray(nextLiveServices);
 
-  if (JSON.stringify(service.liveService) !== JSON.stringify(nextLiveServiceValue)) {
+  if (
+    JSON.stringify(service.liveService) !== JSON.stringify(nextLiveServiceValue)
+  ) {
     service.liveService = nextLiveServiceValue;
     writeService(service);
   }
