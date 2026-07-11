@@ -1,0 +1,22 @@
+name: Validation
+
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+  service-data:
+    name: Service data
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: ".nvmrc"
+      - name: Install dependencies
+        run: npm ci --include=dev
+      - name: Validate service data
+        run: npm run validate:data
