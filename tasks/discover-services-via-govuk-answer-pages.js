@@ -115,7 +115,7 @@ for (const result of results) {
   if (!liveServiceHost.endsWith(".service.gov.uk")) continue;
 
   // Extract the main subdomain (e.g. "something" from "something.service.gov.uk"
-  // or "www.something.service.gov.uk")
+  // or "www.something.service.gov.uk"))
   // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
   const hostParts = liveServiceHost.split(".");
   if (hostParts.length < 4) continue;
