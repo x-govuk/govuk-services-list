@@ -4,6 +4,9 @@ import path from "node:path";
 import { getGovukPages } from "../lib/search-api.js";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
+const startButtonTagPattern =
+  /<a\b(?=[^>]*\bclass\s*=\s*(["'])[^"']*\bgovuk-button--start\b[^"']*\1)[^>]*>/;
+const hrefAttributePattern = /\bhref\s*=\s*(?:(["'])([^"']+)\1|([^\s>]+))/;
 const pageFormats = [
   {
     format: "transaction",
@@ -19,15 +22,13 @@ const pageFormats = [
         return undefined;
       }
 
-      const startButtonTagMatch = body.match(
-        /<a\b[^>]+\bclass="[^"]*govuk-button--start[^"]*"[^>]*/,
-      );
+      const startButtonTagMatch = body.match(startButtonTagPattern);
       if (!startButtonTagMatch) {
         return undefined;
       }
 
-      const hrefMatch = startButtonTagMatch[0].match(/\bhref=(["'])([^"']+)\1/);
-      return hrefMatch?.[2];
+      const hrefMatch = startButtonTagMatch[0].match(hrefAttributePattern);
+      return hrefMatch?.[2] ?? hrefMatch?.[3];
     },
   },
 ];
