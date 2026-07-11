@@ -1,0 +1,102 @@
+name: Discover start pages
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  discover:
+    name: Discover start pages
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          # Use a PAT so that commits and PRs created by this workflow
+          # can trigger further workflow runs (e.g. validation).
+          token: ${{ secrets.AUTOLINT_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: ".nvmrc"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Discover new start pages
+        run: node tasks/discover-start-pages.js --output=json > /tmp/new-start-pages.json
+
+      - name: Ensure automated-discovery label exists
+        env:
+          GH_TOKEN: ${{ secrets.AUTOLINT_TOKEN }}
+        run: |
+          gh label create "automated-discovery" \
+            --color "0075ca" \
+            --description "Automatically created by the start page discovery workflow" \
+            --force
+
+      - name: Create PRs for new start pages
+        env:
+          GH_TOKEN: ${{ secrets.AUTOLINT_TOKEN }}
+        run: |
+          # Collect file paths already touched by open automated-discovery PRs
+          OPEN_PR_FILES=""
+          while IFS= read -r pr_number; do
+            files=$(gh pr view "$pr_number" --json files --jq '.files[].path')
+            OPEN_PR_FILES="${OPEN_PR_FILES}"$'\n'"${files}"
+          done < <(gh pr list --label "automated-discovery" --state open --json number --jq '.[].number')
+
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+
+          while IFS= read -r start_page; do
+            # Derive a slug from the first path segment of the GOV.UK URL
+            slug=$(echo "$start_page" | sed 's|https://www.gov.uk/||' | cut -d'/' -f1)
+            file="data/services/${slug}.json"
+            branch="discover-start-pages/${slug}"
+
+            # Skip if the service file already exists in the repo
+            if [ -f "$file" ]; then
+              echo "Skipping ${slug} — ${file} already exists"
+              continue
+            fi
+
+            # Skip if an open PR already touches this service file
+            if echo "$OPEN_PR_FILES" | grep -qxF "$file"; then
+              echo "Skipping ${slug} — open PR already exists for ${file}"
+              continue
+            fi
+
+            # Remove any stale remote branch left over from a previous run
+            git push origin --delete "$branch" 2>/dev/null || true
+
+            # Create a branch from the current main
+            git checkout -b "$branch" origin/main
+
+            # Write a minimal placeholder that passes schema validation
+            jq --null-input --arg startPage "$start_page" \
+              '{name: "TODO", organisation: "TODO", phase: "Unknown", startPage: $startPage}' \
+              > "$file"
+
+            git add "$file"
+            git commit -m "Add placeholder for ${start_page}"
+            git push origin "$branch"
+
+            gh pr create \
+              --title "Add service for ${start_page}" \
+              --body "$(printf 'A new start page was discovered via the GOV.UK Search API:\n\n%s\n\nPlease update this placeholder with the correct service details before merging.' "$start_page")" \
+              --label "automated-discovery" \
+              --base main \
+              --head "$branch"
+
+            # Return to main for the next iteration
+            git checkout main
+
+          done < <(jq -r '.[]' /tmp/new-start-pages.json)

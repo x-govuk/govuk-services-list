@@ -1,6 +1,8 @@
 import ignoredStartPages from "../data/ignored-start-pages.json" with { type: "json" };
 import { getServices } from "../lib/data.js";
 
+const outputJson = process.argv.includes("--output=json");
+
 const services = await getServices();
 const existingStartPages = [];
 const newStartPages = [];
@@ -39,14 +41,18 @@ async function getData() {
         newStartPages.push(startPage);
       }
     }
-
-    console.log(`${newStartPages.length} new start pages found:\n`);
-    for (const startPage of newStartPages.sort()) {
-      console.log(startPage);
-    }
   } catch (error) {
     console.error(error.message);
   }
 }
 
-getData();
+await getData();
+
+if (outputJson) {
+  console.log(JSON.stringify(newStartPages.sort()));
+} else {
+  console.log(`${newStartPages.length} new start pages found:\n`);
+  for (const startPage of newStartPages.sort()) {
+    console.log(startPage);
+  }
+}
