@@ -1,12 +1,34 @@
 {
-  "name": "Find a job",
+  "name": "Work Hub",
+  "synonyms": [
+    "Find a job",
+    "Get work that works for you"
+  ],
   "description": "Find full or part-time jobs in England, Scotland and Wales.",
   "organisation": "Department for Work and Pensions",
   "theme": "Working, jobs and pensions",
-  "phase": "Unknown",
-  "liveService": "https://findajob.dwp.gov.uk",
+  "phase": "Experimental",
+  "liveService": "https://www.jobs.service.gov.uk",
   "startPage": [
     "https://www.gov.uk/find-a-job",
     "https://www.gov.uk/advertise-job"
-  ]
+  ],
+  "timeline": {
+    "items": [
+      {
+        "label": "Relaunched service announced, renamed as Work Hub, with AI jobs tool",
+        "date": "2026-06-08",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/speeches/prime-ministers-speech-at-london-tech-week-2026",
+            "text": "Speech: Prime Minister’s speech at London Tech Week 2026"
+          }
+        ]
+      },
+      {
+        "label": "Old service retired and redirected to relaunched service",
+        "date": "2026-06-30"
+      }
+    ]
+  }
 }
