@@ -1,12 +1,12 @@
 {
-  "name": "Sign up for flood warnings",
-  "synonyms": ["Get flood warnings"],
+  "name": "Get flood warnings",
+  "synonyms": ["Sign up for flood warnings", "Get flood warnings by text, phone or email"],
   "description": "Sign up to get warnings in England by phone, email or text message if your home or business is at risk of flooding. The service is free.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
   "phase": "Beta",
-  "startPage": "https://www.gov.uk/sign-up-for-flood-warnings",
-  "liveService": "https://www.fws.environment-agency.gov.uk/app/olr/register",
+  "startPage": "https://www.gov.uk/get-flood-warnings",
+  "liveService": "https://get-flood-warnings.service.gov.uk/signup/service-selection",
   "timeline": {
     "items": [
       {
