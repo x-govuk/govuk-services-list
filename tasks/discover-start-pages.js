@@ -1,6 +1,6 @@
 import ignoredStartPages from "../data/ignored-start-pages.json" with { type: "json" };
 import { getServices } from "../lib/data.js";
-import { getTransactionResults } from "../lib/search-api.js";
+import { getGovukPages } from "../lib/search-api.js";
 
 const services = await getServices();
 const existingStartPages = [];
@@ -17,7 +17,7 @@ for (const service of services) {
 }
 
 try {
-  const results = await getTransactionResults();
+  const results = await getGovukPages({ format: "transaction" });
 
   const startPages = results.map(
     (result) => `https://www.gov.uk${result.link}`,

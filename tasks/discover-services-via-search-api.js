@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import { getTransactionResults } from "../lib/search-api.js";
+import { getGovukPages } from "../lib/search-api.js";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
 
@@ -24,7 +24,7 @@ const existingLiveServiceHosts = existingServices
   .filter((service) => service.liveService)
   .map((service) => new URL(service.liveService).hostname);
 
-const results = await getTransactionResults();
+const results = await getGovukPages({ format: "transaction" });
 
 for (const result of results) {
   // Fetch the content API to find the transaction start link
