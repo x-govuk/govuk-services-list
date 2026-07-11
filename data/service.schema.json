@@ -115,7 +115,7 @@
       "type": "array",
       "minItems": 1,
       "items": {
-        "enum": ["GOV.UK One Login", "Original 25 exemplars", "Top 75"]
+        "$ref": "#/$defs/nonEmptyString"
       }
     },
     "timeline": {
