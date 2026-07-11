@@ -49,7 +49,15 @@
       ]
     },
     "phase": {
-      "enum": ["Discovery", "Alpha", "Beta", "Live", "Retired", "Unknown", "Experimental"]
+      "enum": [
+        "Discovery",
+        "Alpha",
+        "Beta",
+        "Live",
+        "Retired",
+        "Unknown",
+        "Experimental"
+      ]
     },
     "phase_modifier": {
       "enum": ["Private", "Public"]

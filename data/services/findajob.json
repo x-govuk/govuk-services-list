@@ -1,9 +1,6 @@
 {
   "name": "Work Hub",
-  "synonyms": [
-    "Find a job",
-    "Get work that works for you"
-  ],
+  "synonyms": ["Find a job", "Get work that works for you"],
   "description": "Find full or part-time jobs in England, Scotland and Wales.",
   "organisation": "Department for Work and Pensions",
   "theme": "Working, jobs and pensions",
