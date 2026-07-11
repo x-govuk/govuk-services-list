@@ -24,9 +24,12 @@ const existingLiveServiceHosts = existingServices
   .filter((service) => service.liveService)
   .map((service) => new URL(service.liveService).hostname);
 const existingStartPages = new Set(
-  existingServices
-    .filter((service) => service.startPage)
-    .map((service) => service.startPage),
+  existingServices.flatMap((service) => {
+    if (!service.startPage) return [];
+    return Array.isArray(service.startPage)
+      ? service.startPage
+      : [service.startPage];
+  }),
 );
 
 const results = await getGovukPages({ format: "answer" });
@@ -71,7 +74,44 @@ for (const result of results) {
   }
 
   if (!liveServiceHost) continue;
-  if (existingLiveServiceHosts.includes(liveServiceHost)) continue;
+
+  // If an existing service already uses this live service URL, check whether
+  // this start page is listed for it and add it if not
+  const existingServiceWithSameLiveService = existingServices.find((s) => {
+    if (!s.liveService) return false;
+    try {
+      return new URL(s.liveService).hostname === liveServiceHost;
+    } catch {
+      return false;
+    }
+  });
+
+  if (existingServiceWithSameLiveService) {
+    const currentStartPages = Array.isArray(
+      existingServiceWithSameLiveService.startPage,
+    )
+      ? existingServiceWithSameLiveService.startPage
+      : existingServiceWithSameLiveService.startPage
+        ? [existingServiceWithSameLiveService.startPage]
+        : [];
+
+    if (!currentStartPages.includes(startPage)) {
+      const serviceToWrite = { ...existingServiceWithSameLiveService };
+      delete serviceToWrite.file;
+      serviceToWrite.startPage = [...currentStartPages, startPage];
+
+      fs.writeFileSync(
+        existingServiceWithSameLiveService.file,
+        `${JSON.stringify(serviceToWrite, null, 2)}\n`,
+        "utf-8",
+      );
+
+      existingStartPages.add(startPage);
+    }
+
+    continue;
+  }
+
   if (!liveServiceHost.endsWith(".service.gov.uk")) continue;
 
   // Extract subdomain (e.g. "something" from "something.service.gov.uk",
