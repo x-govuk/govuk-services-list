@@ -19,10 +19,6 @@ for (const filename of serviceFilenames) {
   existingServices.push(service);
 }
 
-// Collect the hostnames of all services that already have a live service URL
-const existingLiveServiceHosts = existingServices
-  .filter((service) => service.liveService)
-  .map((service) => new URL(service.liveService).hostname);
 const existingStartPages = new Set(
   existingServices.flatMap((service) => {
     if (!service.startPage) return [];
@@ -79,11 +75,8 @@ for (const result of results) {
   // this start page is listed for it and add it if not
   const existingServiceWithSameLiveService = existingServices.find((s) => {
     if (!s.liveService) return false;
-    try {
-      return new URL(s.liveService).hostname === liveServiceHost;
-    } catch {
-      return false;
-    }
+    const urls = Array.isArray(s.liveService) ? s.liveService : [s.liveService];
+    return urls.includes(liveService);
   });
 
   if (existingServiceWithSameLiveService) {
@@ -164,6 +157,5 @@ for (const result of results) {
   );
 
   existingServices.push({ ...newService, file: filePath });
-  existingLiveServiceHosts.push(liveServiceHost);
   existingStartPages.add(startPage);
 }

@@ -19,10 +19,15 @@ for (const filename of serviceFilenames) {
   existingServices.push(service);
 }
 
-// Collect the hostnames of all services that already have a live service URL
-const existingLiveServiceHosts = existingServices
-  .filter((service) => service.liveService)
-  .map((service) => new URL(service.liveService).hostname);
+// Collect the live service URLs of all services that already have one
+const existingLiveServiceUrls = new Set(
+  existingServices.flatMap((service) => {
+    if (!service.liveService) return [];
+    return Array.isArray(service.liveService)
+      ? service.liveService
+      : [service.liveService];
+  }),
+);
 
 const results = await getGovukPages({ format: "transaction" });
 
@@ -50,8 +55,7 @@ for (const result of results) {
     continue;
   }
 
-  if (!liveServiceHost) continue;
-  if (existingLiveServiceHosts.includes(liveServiceHost)) continue;
+  if (existingLiveServiceUrls.has(liveService)) continue;
   if (!liveServiceHost.endsWith(".service.gov.uk")) continue;
 
   // Extract subdomain (e.g. "something" from "something.service.gov.uk")
@@ -110,6 +114,6 @@ for (const result of results) {
     );
 
     existingServices.push({ ...newService, file: filePath });
-    existingLiveServiceHosts.push(liveServiceHost);
+    existingLiveServiceUrls.add(liveService);
   }
 }
