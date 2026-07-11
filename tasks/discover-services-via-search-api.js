@@ -4,8 +4,12 @@ import path from "node:path";
 import { getGovukPages } from "../lib/search-api.js";
 
 const servicesPath = path.join(import.meta.dirname, "..", "data", "services");
+// Match an anchor tag whose class attribute includes `govuk-button--start`,
+// regardless of where the class attribute appears on the element.
 const startButtonTagPattern =
   /<a\b(?=[^>]*\bclass\s*=\s*(["'])[^"']*\bgovuk-button--start\b[^"']*\1)[^>]*>/;
+// Match either quoted or unquoted href attributes. Capture group 2 contains a
+// quoted URL and capture group 3 contains an unquoted URL.
 const hrefAttributePattern = /\bhref\s*=\s*(?:(["'])([^"']+)\1|([^\s>]+))/;
 const pageFormats = [
   {
