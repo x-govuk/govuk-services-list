@@ -75,14 +75,13 @@ const normalizeLiveServiceUrl = (value) => {
 
 const getNormalizedLiveServices = (value) => {
   const normalizedLiveServices = [];
+  const seenLiveServices = new Set();
 
   for (const liveService of toArray(value)) {
     const normalizedLiveService = normalizeLiveServiceUrl(liveService);
 
-    if (
-      normalizedLiveService &&
-      !normalizedLiveServices.includes(normalizedLiveService)
-    ) {
+    if (normalizedLiveService && !seenLiveServices.has(normalizedLiveService)) {
+      seenLiveServices.add(normalizedLiveService);
       normalizedLiveServices.push(normalizedLiveService);
     }
   }
