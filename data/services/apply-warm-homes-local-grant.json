@@ -1,0 +1,23 @@
+{
+  "name": "Apply for the Warm Homes: Local Grant to improve a home",
+  "description": "Find out if you're eligible for the Warm Homes: Local Grant to make energy saving improvements to a home.",
+  "organisation": "Department for Energy Security and Net Zero",
+  "theme": "Housing and local services",
+  "phase": "Beta",
+  "liveService": "https://www.apply-warm-homes-local-grant.service.gov.uk/questionnaire/country",
+  "startPage": "https://www.gov.uk/apply-warm-homes-local-grant",
+  "timeline": {
+    "items": [
+      {
+        "label": "Service launched",
+        "date": "2025-04-01",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/up-to-170000-homes-to-get-energy-saving-upgrades",
+            "text": "Press release: Up to 170,000 homes to get energy saving upgrades"
+          }
+        ]
+      }
+    ]
+  }
+}
