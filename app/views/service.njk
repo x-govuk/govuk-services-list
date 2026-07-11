@@ -147,12 +147,6 @@
               } if service.sourceCode
             ]
           }) }}
-
-          {% if service.video %}
-          <div class="app-video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ service.video }}" frameborder="0" allowfullscreen></iframe>
-          </div>
-          {% endif %}
         </div>
 
         {%- if service.timeline and service.timeline.items | length > 0 -%}
