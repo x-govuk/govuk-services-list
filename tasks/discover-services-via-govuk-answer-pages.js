@@ -96,40 +96,23 @@ for (const result of results) {
     newService.organisation = organisations[0].title;
   }
 
-  const existingServiceWithSameStartPage = existingServices.find(
-    (s) => s.startPage === startPage,
+  // Write a new service file named after the subdomain
+  const filePath = path.join(servicesPath, `${subdomain}.json`);
+
+  if (fs.existsSync(filePath)) {
+    console.warn(
+      `Skipping ${startLink}: file ${subdomain}.json already exists`,
+    );
+    continue;
+  }
+
+  fs.writeFileSync(
+    filePath,
+    `${JSON.stringify(newService, null, 2)}\n`,
+    "utf-8",
   );
 
-  if (existingServiceWithSameStartPage) {
-    // Update the liveService URL on the existing record
-    const serviceToWrite = { ...existingServiceWithSameStartPage };
-    delete serviceToWrite.file;
-    serviceToWrite.liveService = startLink;
-
-    fs.writeFileSync(
-      existingServiceWithSameStartPage.file,
-      `${JSON.stringify(serviceToWrite, null, 2)}\n`,
-      "utf-8",
-    );
-  } else {
-    // Write a new service file named after the subdomain
-    const filePath = path.join(servicesPath, `${subdomain}.json`);
-
-    if (fs.existsSync(filePath)) {
-      console.warn(
-        `Skipping ${startLink}: file ${subdomain}.json already exists`,
-      );
-      continue;
-    }
-
-    fs.writeFileSync(
-      filePath,
-      `${JSON.stringify(newService, null, 2)}\n`,
-      "utf-8",
-    );
-
-    existingServices.push({ ...newService, file: filePath });
-    existingLiveServiceHosts.push(startLinkHost);
-    existingStartPages.add(startPage);
-  }
+  existingServices.push({ ...newService, file: filePath });
+  existingLiveServiceHosts.push(startLinkHost);
+  existingStartPages.add(startPage);
 }
