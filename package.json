@@ -59,5 +59,11 @@
     "npm": ">=10.0.0"
   },
   "type": "module",
-  "private": true
+  "private": true,
+  "allowScripts": {
+    "esbuild@0.28.1": true,
+    "@parcel/watcher@2.5.6": true,
+    "@parcel/watcher@2.5.1": true,
+    "unrs-resolver@1.12.2": true
+  }
 }
