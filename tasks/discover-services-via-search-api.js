@@ -90,6 +90,10 @@ const getNormalizedLiveServices = (value) => {
   return normalizedLiveServices;
 };
 
+const areArraysEqual = (first, second) =>
+  first.length === second.length &&
+  first.every((value, index) => value === second[index]);
+
 const writeService = (service) => {
   const serviceToWrite = { ...service };
   delete serviceToWrite.file;
@@ -137,15 +141,14 @@ const updateStartPagesAndSynonyms = ({ service, startPage, pageTitle }) => {
 };
 
 const updateLiveService = ({ service, liveService }) => {
-  const currentLiveServices = getNormalizedLiveServices(service.liveService);
-  const nextLiveServices = currentLiveServices.includes(liveService)
-    ? currentLiveServices
-    : [...currentLiveServices, liveService];
+  const currentLiveServices = toArray(service.liveService);
+  const normalizedLiveServices = getNormalizedLiveServices(currentLiveServices);
+  const nextLiveServices = normalizedLiveServices.includes(liveService)
+    ? normalizedLiveServices
+    : [...normalizedLiveServices, liveService];
   const nextLiveServiceValue = asStringOrArray(nextLiveServices);
 
-  if (
-    JSON.stringify(service.liveService) !== JSON.stringify(nextLiveServiceValue)
-  ) {
+  if (!areArraysEqual(currentLiveServices, nextLiveServices)) {
     service.liveService = nextLiveServiceValue;
     writeService(service);
   }
