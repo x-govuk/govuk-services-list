@@ -1,6 +1,9 @@
 {
   "name": "Get flood warnings",
-  "synonyms": ["Sign up for flood warnings", "Get flood warnings by text, phone or email"],
+  "synonyms": [
+    "Sign up for flood warnings",
+    "Get flood warnings by text, phone or email"
+  ],
   "description": "Sign up to get warnings in England by phone, email or text message if your home or business is at risk of flooding. The service is free.",
   "theme": "Environment and countryside",
   "organisation": "Environment Agency",
