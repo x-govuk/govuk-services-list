@@ -23,10 +23,18 @@ for (const filename of serviceFilenames) {
 const existingLiveServiceHosts = existingServices
   .filter((service) => service.liveService)
   .map((service) => new URL(service.liveService).hostname);
+const existingStartPages = new Set(
+  existingServices
+    .filter((service) => service.startPage)
+    .map((service) => service.startPage),
+);
 
 const results = await getGovukPages({ format: "answer" });
 
 for (const result of results) {
+  const startPage = `https://www.gov.uk${result.link}`;
+  if (existingStartPages.has(startPage)) continue;
+
   // Fetch the content API to find the start button link
   const contentUrl = `https://www.gov.uk/api/content${result.link}`;
   const contentResponse = await fetch(contentUrl);
@@ -72,8 +80,6 @@ for (const result of results) {
   const hostParts = startLinkHost.split(".");
   if (hostParts.length < 4) continue;
   const subdomain = hostParts.slice(0, -3).join(".");
-
-  const startPage = `https://www.gov.uk${result.link}`;
 
   const newService = {
     name: result.title,
@@ -124,5 +130,6 @@ for (const result of results) {
 
     existingServices.push({ ...newService, file: filePath });
     existingLiveServiceHosts.push(startLinkHost);
+    existingStartPages.add(startPage);
   }
 }
