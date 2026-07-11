@@ -161,10 +161,6 @@
           }
         }
       }
-    },
-    "video": {
-      "type": "string",
-      "pattern": "^[A-Za-z0-9_-]{11}$"
     }
   },
   "$defs": {
