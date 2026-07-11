@@ -1,5 +1,6 @@
 import ignoredStartPages from "../data/ignored-start-pages.json" with { type: "json" };
 import { getServices } from "../lib/data.js";
+import { getGovukPages } from "../lib/search-api.js";
 
 const services = await getServices();
 const existingStartPages = [];
@@ -15,38 +16,26 @@ for (const service of services) {
   }
 }
 
-async function getData() {
-  const url =
-    "https://www.gov.uk/api/search.json?filter_format=transaction&count=1000&start=0";
-  try {
-    const response = await fetch(url);
-    if (!response.ok) {
-      throw new Error(`Response status: ${response.status}`);
+try {
+  const results = await getGovukPages({ format: "transaction" });
+
+  const startPages = results.map(
+    (result) => `https://www.gov.uk${result.link}`,
+  );
+
+  for (const startPage of startPages) {
+    if (
+      !existingStartPages.includes(startPage) &&
+      !ignoredStartPages.includes(startPage)
+    ) {
+      newStartPages.push(startPage);
     }
-
-    const json = await response.json();
-    const results = json.results;
-
-    const startPages = results.map(
-      (result) => `https://www.gov.uk${result.link}`,
-    );
-
-    for (const startPage of startPages) {
-      if (
-        !existingStartPages.includes(startPage) &&
-        !ignoredStartPages.includes(startPage)
-      ) {
-        newStartPages.push(startPage);
-      }
-    }
-
-    console.log(`${newStartPages.length} new start pages found:\n`);
-    for (const startPage of newStartPages.sort()) {
-      console.log(startPage);
-    }
-  } catch (error) {
-    console.error(error.message);
   }
-}
 
-getData();
+  console.log(`${newStartPages.length} new start pages found:\n`);
+  for (const startPage of newStartPages.sort()) {
+    console.log(startPage);
+  }
+} catch (error) {
+  console.error(error.message);
+}
