@@ -32,7 +32,8 @@
     "screenshots": "npx node tasks/screenshot-services.js",
     "discover-start-pages": "npx node tasks/discover-start-pages.js",
     "discover-service-standard-assessments": "npx node tasks/discover-service-standard-assessments.js",
-    "discover-services-via-search-api": "npx node tasks/discover-services-via-search-api.js"
+    "discover-services-via-search-api": "npx node tasks/discover-services-via-search-api.js",
+    "discover-services-via-govuk-answer-pages": "npx node tasks/discover-services-via-govuk-answer-pages.js"
   },
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^6.0.0",
