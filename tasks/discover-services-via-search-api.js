@@ -62,6 +62,34 @@ const toArray = (value) => {
 
 const asStringOrArray = (values) => (values.length === 1 ? values[0] : values);
 
+const normalizeLiveServiceUrl = (value) => {
+  try {
+    const url = new URL(value);
+    url.protocol = "https:";
+
+    return `${url.origin}${url.pathname.replace(/\/+$/, "")}${url.search}${url.hash}`;
+  } catch {
+    return undefined;
+  }
+};
+
+const getNormalizedLiveServices = (value) => {
+  const normalizedLiveServices = [];
+
+  for (const liveService of toArray(value)) {
+    const normalizedLiveService = normalizeLiveServiceUrl(liveService);
+
+    if (
+      normalizedLiveService &&
+      !normalizedLiveServices.includes(normalizedLiveService)
+    ) {
+      normalizedLiveServices.push(normalizedLiveService);
+    }
+  }
+
+  return normalizedLiveServices;
+};
+
 const writeService = (service) => {
   const serviceToWrite = { ...service };
   delete serviceToWrite.file;
@@ -75,7 +103,7 @@ const writeService = (service) => {
 
 const getServiceByLiveService = (liveService) =>
   existingServices.find((service) =>
-    toArray(service.liveService).includes(liveService),
+    getNormalizedLiveServices(service.liveService).includes(liveService),
   );
 
 const getServiceByStartPage = (startPage) =>
@@ -109,13 +137,14 @@ const updateStartPagesAndSynonyms = ({ service, startPage, pageTitle }) => {
 };
 
 const updateLiveService = ({ service, liveService }) => {
-  const currentLiveServices = toArray(service.liveService);
+  const currentLiveServices = getNormalizedLiveServices(service.liveService);
   const nextLiveServices = currentLiveServices.includes(liveService)
     ? currentLiveServices
     : [...currentLiveServices, liveService];
+  const nextLiveServiceValue = asStringOrArray(nextLiveServices);
 
-  if (nextLiveServices.length !== currentLiveServices.length) {
-    service.liveService = asStringOrArray(nextLiveServices);
+  if (JSON.stringify(service.liveService) !== JSON.stringify(nextLiveServiceValue)) {
+    service.liveService = nextLiveServiceValue;
     writeService(service);
   }
 };
@@ -172,7 +201,7 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
   }
 
   const content = await contentResponse.json();
-  const liveService = getLiveServiceUrl(content);
+  const liveService = normalizeLiveServiceUrl(getLiveServiceUrl(content));
   if (!liveService) {
     return;
   }
@@ -180,6 +209,10 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
   const existingServiceWithSameLiveService =
     getServiceByLiveService(liveService);
   if (existingServiceWithSameLiveService) {
+    updateLiveService({
+      service: existingServiceWithSameLiveService,
+      liveService,
+    });
     updateStartPagesAndSynonyms({
       service: existingServiceWithSameLiveService,
       startPage,
