@@ -52,10 +52,13 @@ for (const result of results) {
 
   if (!startLinkHost) continue;
   if (existingLiveServiceHosts.includes(startLinkHost)) continue;
-  if (!startLinkHost.endsWith("service.gov.uk")) continue;
+  if (!startLinkHost.endsWith(".service.gov.uk")) continue;
 
   // Extract subdomain (e.g. "something" from "something.service.gov.uk")
-  const subdomain = startLinkHost.split(".").at(-4);
+  // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
+  const hostParts = startLinkHost.split(".");
+  if (hostParts.length < 4) continue;
+  const subdomain = hostParts.at(-4);
 
   const startPage = `https://www.gov.uk${result.link}`;
 
@@ -92,6 +95,13 @@ for (const result of results) {
   } else {
     // Write a new service file named after the subdomain
     const filePath = path.join(servicesPath, `${subdomain}.json`);
+
+    if (fs.existsSync(filePath)) {
+      console.warn(
+        `Skipping ${startLink}: file ${subdomain}.json already exists`,
+      );
+      continue;
+    }
 
     fs.writeFileSync(
       filePath,
