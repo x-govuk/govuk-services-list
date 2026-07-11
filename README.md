@@ -30,6 +30,14 @@ npm install
 npm start
 ```
 
+## Validate service data
+
+Run the schema validation script to check every service file in `data/services`:
+
+```bash
+npm run validate:data
+```
+
 ## How to add or update screenshots
 
 Screenshots for service landing or home pages can be added automatically by running a script.

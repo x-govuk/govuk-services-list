@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "./service.schema.json",
+  "title": "GOV.UK service data",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "organisation", "phase"],
+  "properties": {
+    "name": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "description": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "synonyms": {
+      "$ref": "#/$defs/nonEmptyStringArray"
+    },
+    "organisation": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        {
+          "$ref": "#/$defs/nonEmptyStringArray"
+        }
+      ]
+    },
+    "theme": {
+      "enum": [
+        "Benefits",
+        "Births, deaths, marriages and care",
+        "Business and self-employed",
+        "Childcare and parenting",
+        "Citizenship and living in the UK",
+        "Coronavirus (COVID-19)",
+        "Crime, justice and the law",
+        "Driving and transport",
+        "Education and learning",
+        "Employing people",
+        "Environment and countryside",
+        "Government internal",
+        "Health",
+        "Housing and local services",
+        "Money and tax",
+        "Passports, travel and living abroad",
+        "Transport",
+        "Visas and immigration",
+        "Working, jobs and pensions"
+      ]
+    },
+    "phase": {
+      "enum": ["Discovery", "Alpha", "Beta", "Live", "Retired", "Unknown"]
+    },
+    "phase_modifier": {
+      "enum": ["Private", "Public"]
+    },
+    "facing": {
+      "enum": ["internal"]
+    },
+    "liveService": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/uriString"
+        },
+        {
+          "$ref": "#/$defs/uriStringArray"
+        }
+      ]
+    },
+    "startPage": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/uriString"
+        },
+        {
+          "$ref": "#/$defs/uriStringArray"
+        }
+      ]
+    },
+    "platform": {
+      "oneOf": [
+        {
+          "enum": ["app", "web"]
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": ["app", "web"]
+          }
+        }
+      ]
+    },
+    "prototype": {
+      "$ref": "#/$defs/uriString"
+    },
+    "sourceCode": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["href", "text"],
+        "properties": {
+          "href": {
+            "$ref": "#/$defs/uriString"
+          },
+          "text": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "timeline": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["items"],
+      "properties": {
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "date"],
+            "properties": {
+              "label": {
+                "$ref": "#/$defs/nonEmptyString"
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "links": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "required": ["href", "text"],
+                  "properties": {
+                    "href": {
+                      "$ref": "#/$defs/uriString"
+                    },
+                    "text": {
+                      "$ref": "#/$defs/nonEmptyString"
+                    },
+                    "visuallyHiddenText": {
+                      "$ref": "#/$defs/nonEmptyString"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "video": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]{11}$"
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nonEmptyStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/nonEmptyString"
+      }
+    },
+    "uriString": {
+      "type": "string",
+      "format": "uri"
+    },
+    "uriStringArray": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/uriString"
+      }
+    }
+  }
+}
