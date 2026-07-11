@@ -40,23 +40,23 @@ for (const result of results) {
 
   const content = await contentResponse.json();
 
-  const startLink = content.details?.transaction_start_link;
-  if (!startLink) continue;
+  const liveService = content.details?.transaction_start_link;
+  if (!liveService) continue;
 
-  let startLinkHost;
+  let liveServiceHost;
   try {
-    startLinkHost = new URL(startLink).hostname;
+    liveServiceHost = new URL(liveService).hostname;
   } catch {
     continue;
   }
 
-  if (!startLinkHost) continue;
-  if (existingLiveServiceHosts.includes(startLinkHost)) continue;
-  if (!startLinkHost.endsWith(".service.gov.uk")) continue;
+  if (!liveServiceHost) continue;
+  if (existingLiveServiceHosts.includes(liveServiceHost)) continue;
+  if (!liveServiceHost.endsWith(".service.gov.uk")) continue;
 
   // Extract subdomain (e.g. "something" from "something.service.gov.uk")
   // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
-  const hostParts = startLinkHost.split(".");
+  const hostParts = liveServiceHost.split(".");
   if (hostParts.length < 4) continue;
   const subdomain = hostParts.at(-4);
 
@@ -68,7 +68,7 @@ for (const result of results) {
     organisation: "** TODO **",
     theme: "** TODO **",
     phase: "** TODO **",
-    liveService: startLink,
+    liveService: liveService,
     startPage,
   };
 
@@ -85,7 +85,7 @@ for (const result of results) {
     // Update the liveService URL on the existing record
     const serviceToWrite = { ...existingServiceWithSameStartPage };
     delete serviceToWrite.file;
-    serviceToWrite.liveService = startLink;
+    serviceToWrite.liveService = liveService;
 
     fs.writeFileSync(
       existingServiceWithSameStartPage.file,
@@ -98,7 +98,7 @@ for (const result of results) {
 
     if (fs.existsSync(filePath)) {
       console.warn(
-        `Skipping ${startLink}: file ${subdomain}.json already exists`,
+        `Skipping ${liveService}: file ${subdomain}.json already exists`,
       );
       continue;
     }
@@ -110,6 +110,6 @@ for (const result of results) {
     );
 
     existingServices.push({ ...newService, file: filePath });
-    existingLiveServiceHosts.push(startLinkHost);
+    existingLiveServiceHosts.push(liveServiceHost);
   }
 }

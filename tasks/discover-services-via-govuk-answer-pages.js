@@ -60,24 +60,24 @@ for (const result of results) {
   const hrefMatch = startButtonTagMatch[0].match(/\bhref=(["'])([^"']+)\1/);
   if (!hrefMatch) continue;
 
-  const startLink = hrefMatch[2];
-  if (!startLink) continue;
+  const liveService = hrefMatch[2];
+  if (!liveService) continue;
 
-  let startLinkHost;
+  let liveServiceHost;
   try {
-    startLinkHost = new URL(startLink).hostname;
+    liveServiceHost = new URL(liveService).hostname;
   } catch {
     continue;
   }
 
-  if (!startLinkHost) continue;
-  if (existingLiveServiceHosts.includes(startLinkHost)) continue;
-  if (!startLinkHost.endsWith(".service.gov.uk")) continue;
+  if (!liveServiceHost) continue;
+  if (existingLiveServiceHosts.includes(liveServiceHost)) continue;
+  if (!liveServiceHost.endsWith(".service.gov.uk")) continue;
 
   // Extract subdomain (e.g. "something" from "something.service.gov.uk",
   // or "sub1.sub2" from "sub1.sub2.service.gov.uk")
   // Hostname must have at least 4 parts: <subdomain>.service.gov.uk
-  const hostParts = startLinkHost.split(".");
+  const hostParts = liveServiceHost.split(".");
   if (hostParts.length < 4) continue;
   const subdomain = hostParts.slice(0, -3).join(".");
 
@@ -87,7 +87,7 @@ for (const result of results) {
     organisation: "** TODO **",
     theme: "** TODO **",
     phase: "** TODO **",
-    liveService: startLink,
+    liveService: liveService,
     startPage,
   };
 
@@ -101,7 +101,7 @@ for (const result of results) {
 
   if (fs.existsSync(filePath)) {
     console.warn(
-      `Skipping ${startLink}: file ${subdomain}.json already exists`,
+      `Skipping ${liveService}: file ${subdomain}.json already exists`,
     );
     continue;
   }
@@ -113,6 +113,6 @@ for (const result of results) {
   );
 
   existingServices.push({ ...newService, file: filePath });
-  existingLiveServiceHosts.push(startLinkHost);
+  existingLiveServiceHosts.push(liveServiceHost);
   existingStartPages.add(startPage);
 }
