@@ -89,7 +89,7 @@ const getNormalizedLiveServices = (value) => {
   return normalizedLiveServices;
 };
 
-const areArraysEqual = (first, second) =>
+const areArraysShallowEqual = (first, second) =>
   first.length === second.length &&
   first.every((value, index) => value === second[index]);
 
@@ -147,7 +147,7 @@ const updateLiveService = ({ service, liveService }) => {
     : [...normalizedLiveServices, liveService];
   const nextLiveServiceValue = asStringOrArray(nextLiveServices);
 
-  if (!areArraysEqual(currentLiveServices, nextLiveServices)) {
+  if (!areArraysShallowEqual(currentLiveServices, nextLiveServices)) {
     service.liveService = nextLiveServiceValue;
     writeService(service);
   }
