@@ -44,12 +44,15 @@ for (const result of results) {
   const body = content.details?.body;
   if (!body) continue;
 
-  const startButtonMatch = body.match(
-    /<a[^>]+class="[^"]*govuk-button--start[^"]*"[^>]*href="([^"]+)"/,
+  const startButtonTagMatch = body.match(
+    /<a\b[^>]+\bclass="[^"]*govuk-button--start[^"]*"[^>]*/,
   );
-  if (!startButtonMatch) continue;
+  if (!startButtonTagMatch) continue;
 
-  const startLink = startButtonMatch[1];
+  const hrefMatch = startButtonTagMatch[0].match(/\bhref="([^"]+)"/);
+  if (!hrefMatch) continue;
+
+  const startLink = hrefMatch[1];
   if (!startLink) continue;
 
   let startLinkHost;
