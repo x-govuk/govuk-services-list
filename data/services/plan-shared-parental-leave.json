@@ -6,7 +6,5 @@
   "phase": "Beta",
   "liveService": "https://www.plan-shared-parental-leave.service.gov.uk/",
   "startPage": "https://www.gov.uk/plan-shared-parental-leave-pay",
-  "synonyms": [
-    "Plan your Shared Parental Leave and Pay"
-  ]
+  "synonyms": ["Plan your Shared Parental Leave and Pay"]
 }

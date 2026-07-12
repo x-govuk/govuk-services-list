@@ -30,10 +30,6 @@
       }
     ]
   },
-  "tags": [
-    "GOV.UK One Login"
-  ],
-  "synonyms": [
-    "Driver and vehicles account: sign in or set up"
-  ]
+  "tags": ["GOV.UK One Login"],
+  "synonyms": ["Driver and vehicles account: sign in or set up"]
 }
