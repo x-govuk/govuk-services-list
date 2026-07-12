@@ -1,6 +1,7 @@
 {
-  "name": "Get a proof of benefits letter",
+  "name": "Manage your benefits and State Pension",
   "synonyms": [
+    "Get a proof of benefits letter",
     "Access to Work",
     "Get proof of your benefits and State Pension"
   ],
@@ -8,10 +9,7 @@
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",
   "phase": "Beta",
-  "liveService": [
-    "https://secure.dwp.gov.uk/get-a-proof-of-benefit-letter/",
-    "https://access.financial-support.dwp.gov.uk/orchestration/intro"
-  ],
+  "liveService": "https://www.manage-your-benefits-state-pension.service.gov.uk/account-home/your-account",
   "startPage": "https://www.gov.uk/proof-benefits-state-pension",
   "tags": ["GOV.UK One Login"],
   "timeline": {
