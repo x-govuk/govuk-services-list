@@ -156,7 +156,10 @@ const updateLiveService = ({ service, liveService }) => {
 };
 
 const replaceLiveService = ({ service, liveService }) => {
-  if (service.liveService === liveService) {
+  const currentLiveServices = getNormalizedLiveServices(
+    toArray(service.liveService),
+  );
+  if (currentLiveServices.length === 1 && currentLiveServices[0] === liveService) {
     return;
   }
 
@@ -249,6 +252,8 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
 
   const existingServiceWithSameStartPage = getServiceByStartPage(startPage);
   if (existingServiceWithSameStartPage) {
+    // A service should only ever have one liveService URL, so we only
+    // look at the first element when comparing hostnames.
     const existingLiveService = toArray(
       existingServiceWithSameStartPage.liveService,
     )[0];
