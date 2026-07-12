@@ -1,11 +1,17 @@
 {
   "name": "Apply for a Standard Visitor visa",
-  "synonyms": ["Visas"],
+  "synonyms": [
+    "Visas",
+    "Apply for an EU Settlement Scheme travel permit to return to the UK"
+  ],
   "description": "If you need a visa, you must apply online before you travel to the UK.",
   "theme": "Visas and immigration",
   "organisation": ["Home Office", "UK Visas and Immigration"],
   "phase": "Beta",
-  "startPage": "https://www.gov.uk/standard-visitor-visa/apply",
+  "startPage": [
+    "https://www.gov.uk/standard-visitor-visa/apply",
+    "https://www.gov.uk/euss-travel-permit"
+  ],
   "liveService": "https://visas-immigration.service.gov.uk/apply-visa-type/visit",
   "tags": ["Top 75", "Original 25 exemplars"],
   "timeline": {
