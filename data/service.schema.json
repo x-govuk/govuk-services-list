@@ -66,14 +66,7 @@
       "enum": ["internal"]
     },
     "liveService": {
-      "oneOf": [
-        {
-          "$ref": "#/$defs/uriString"
-        },
-        {
-          "$ref": "#/$defs/uriStringArray"
-        }
-      ]
+      "$ref": "#/$defs/uriString"
     },
     "startPage": {
       "oneOf": [
