@@ -12,7 +12,5 @@
   "phase": "Beta",
   "liveService": "https://www.compare-school-performance.service.gov.uk/",
   "startPage": "https://www.gov.uk/school-performance-tables",
-  "tags": [
-    "Top 75"
-  ]
+  "tags": ["Top 75"]
 }

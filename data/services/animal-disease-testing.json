@@ -6,7 +6,5 @@
   "phase": "Beta",
   "startPage": "https://www.gov.uk/animal-disease-testing",
   "liveService": "https://www.animal-disease-testing.service.gov.uk/login",
-  "synonyms": [
-    "Test for diseases in farm animals"
-  ]
+  "synonyms": ["Test for diseases in farm animals"]
 }

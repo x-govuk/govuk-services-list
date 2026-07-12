@@ -9,7 +9,5 @@
     "https://www.gov.uk/file-gambling-tax-return"
   ],
   "liveService": "https://www.tax.service.gov.uk/gg/sign-in?continue=/business-account/&origin=GAMBLING-frontend",
-  "synonyms": [
-    "File your gambling tax return"
-  ]
+  "synonyms": ["File your gambling tax return"]
 }

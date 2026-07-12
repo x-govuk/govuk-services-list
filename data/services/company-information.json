@@ -14,9 +14,7 @@
     "https://www.gov.uk/get-information-about-a-company",
     "https://www.gov.uk/find-out-if-a-company-is-in-financial-trouble"
   ],
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "timeline": {
     "items": [
       {

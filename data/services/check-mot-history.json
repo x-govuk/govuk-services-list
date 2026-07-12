@@ -6,7 +6,5 @@
   "phase": "Unknown",
   "liveService": "https://www.check-mot.service.gov.uk/",
   "startPage": "https://www.gov.uk/check-mot-history",
-  "synonyms": [
-    "Check the MOT history of a vehicle"
-  ]
+  "synonyms": ["Check the MOT history of a vehicle"]
 }

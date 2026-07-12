@@ -6,10 +6,6 @@
   "phase": "Beta",
   "liveService": "https://search-property-information.service.gov.uk/",
   "startPage": "https://www.gov.uk/search-property-information-land-registry",
-  "tags": [
-    "Original 25 exemplars"
-  ],
-  "synonyms": [
-    "Search for land and property information"
-  ]
+  "tags": ["Original 25 exemplars"],
+  "synonyms": ["Search for land and property information"]
 }

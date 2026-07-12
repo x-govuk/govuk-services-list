@@ -6,7 +6,5 @@
   "phase": "Beta",
   "liveService": "https://www.ipo.gov.uk/tm-ealerts.htm",
   "startPage": "https://www.gov.uk/track-a-trade-mark",
-  "synonyms": [
-    "Track a trade mark "
-  ]
+  "synonyms": ["Track a trade mark "]
 }

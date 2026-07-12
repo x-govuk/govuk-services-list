@@ -15,8 +15,5 @@
     "https://www.gov.uk/register-to-vote-crown-servants-british-council-employees"
   ],
   "liveService": "https://www.registertovote.service.gov.uk/register-to-vote/start",
-  "tags": [
-    "Top 75",
-    "Original 25 exemplars"
-  ]
+  "tags": ["Top 75", "Original 25 exemplars"]
 }

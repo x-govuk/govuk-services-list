@@ -18,9 +18,7 @@
     "https://www.gov.uk/view-vehicle-operator-safety-risk-reports",
     "https://www.gov.uk/check-vehicle-operator-licence-applications"
   ],
-  "tags": [
-    "GOV.UK One Login"
-  ],
+  "tags": ["GOV.UK One Login"],
   "liveService": "https://www.vehicle-operator-licensing.service.gov.uk/",
   "timeline": {
     "items": [

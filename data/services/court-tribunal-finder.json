@@ -6,7 +6,5 @@
   "phase": "Beta",
   "liveService": "https://www.find-court-tribunal.service.gov.uk",
   "startPage": "https://www.gov.uk/find-court-tribunal",
-  "synonyms": [
-    "Find a court or tribunal"
-  ]
+  "synonyms": ["Find a court or tribunal"]
 }

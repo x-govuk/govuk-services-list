@@ -6,7 +6,5 @@
   "phase": "Beta",
   "liveService": "https://right-to-work.service.gov.uk/view",
   "startPage": "https://www.gov.uk/view-right-to-work",
-  "synonyms": [
-    "Check a job applicant's right to work: use their share code"
-  ]
+  "synonyms": ["Check a job applicant's right to work: use their share code"]
 }

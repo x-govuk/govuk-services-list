@@ -6,10 +6,6 @@
   "phase": "Beta",
   "liveService": "https://modern-slavery-statement-registry.service.gov.uk/",
   "startPage": "https://www.gov.uk/find-modern-slavery-statement",
-  "tags": [
-    "GOV.UK One Login"
-  ],
-  "synonyms": [
-    "Find a modern slavery statement"
-  ]
+  "tags": ["GOV.UK One Login"],
+  "synonyms": ["Find a modern slavery statement"]
 }
