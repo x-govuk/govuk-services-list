@@ -4,6 +4,12 @@
   "organisation": "Office for Zero Emission Vehicles",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveService": "https://www.apply-workplace-chargepoint-grant.service.gov.uk",
-  "startPage": "https://www.gov.uk/apply-electric-vehicle-charge-point-discount"
+  "liveService": "https://www.apply-workplace-chargepoint-grant.service.gov.uk/",
+  "startPage": [
+    "https://www.gov.uk/apply-electric-vehicle-charge-point-discount",
+    "https://www.gov.uk/apply-electric-vehicle-chargepoint-grant"
+  ],
+  "synonyms": [
+    "Apply for an electric vehicle chargepoint grant for your workplace"
+  ]
 }

@@ -8,5 +8,8 @@
   "startPage": [
     "https://www.gov.uk/check-immigration-status",
     "https://www.gov.uk/view-prove-immigration-status"
+  ],
+  "synonyms": [
+    "Check someone's immigration status: use their share code"
   ]
 }

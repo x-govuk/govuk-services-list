@@ -2,7 +2,9 @@
   "name": "Check if a vehicle is taxed and has an MOT",
   "synonyms": [
     "Check if a vehicle is taxed or has an MOT",
-    "Check if a vehicle is taxed"
+    "Check if a vehicle is taxed",
+    "Check the MOT status of a vehicle",
+    "Get vehicle information from DVLA"
   ],
   "description": "Find out if a vehicle has up-to-date vehicle tax or has been registered as off the road (SORN).",
   "theme": "Driving and transport",

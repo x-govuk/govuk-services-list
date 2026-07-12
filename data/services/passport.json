@@ -1,6 +1,9 @@
 {
   "name": "Apply for a passport",
-  "synonyms": ["Apply online for a UK passport"],
+  "synonyms": [
+    "Apply online for a UK passport",
+    "Overseas British passport applications"
+  ],
   "description": "Use this service to apply for, renew, replace or update your passport and pay for it online.",
   "theme": "Passports, travel and living abroad",
   "organisation": "Home Office",
@@ -10,7 +13,10 @@
     "https://www.gov.uk/apply-renew-passport",
     "https://www.gov.uk/overseas-passports"
   ],
-  "tags": ["Top 75", "Original 25 exemplars"],
+  "tags": [
+    "Top 75",
+    "Original 25 exemplars"
+  ],
   "sourceCode": [
     {
       "text": "Source code",

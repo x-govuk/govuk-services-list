@@ -6,5 +6,10 @@
   "phase": "Beta",
   "liveService": "https://www.find-tender.service.gov.uk/",
   "startPage": "https://www.gov.uk/find-tender",
-  "tags": ["GOV.UK One Login"]
+  "tags": [
+    "GOV.UK One Login"
+  ],
+  "synonyms": [
+    "Find high value contracts in the public sector"
+  ]
 }

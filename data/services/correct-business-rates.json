@@ -5,7 +5,9 @@
     "Check or Amend your Property Data",
     "Check or challenge a business rates valuation",
     "Challenge a Valuation",
-    "Amend your Draft Business Rates Valuation"
+    "Amend your Draft Business Rates Valuation",
+    "Find a business rates valuation",
+    "Business rates valuation account: sign in or set up"
   ],
   "description": "You can check the ‘rateable value’ of your property - this is set by the Valuation Office Agency (VOA) and used by your local council to calculate your business rates bill. You can also: request changes to property or valuation details if you think they’re wrong, view the valuation details of other properties, challenge the rateable value if eligible.",
   "theme": "Money and tax",

@@ -5,5 +5,8 @@
   "organisation": "Ministry of Justice",
   "phase": "Beta",
   "liveService": "https://www.find-court-tribunal.service.gov.uk",
-  "startPage": "https://www.gov.uk/find-court-tribunal"
+  "startPage": "https://www.gov.uk/find-court-tribunal",
+  "synonyms": [
+    "Find a court or tribunal"
+  ]
 }

@@ -5,5 +5,8 @@
   "organisation": "Insolvency Service",
   "phase": "Beta",
   "startPage": "https://www.gov.uk/claim-loss-notice",
-  "liveService": "https://notice.redundancy-payments.service.gov.uk/claims/personal-details"
+  "liveService": "https://notice.redundancy-payments.service.gov.uk/claims/personal-details",
+  "synonyms": [
+    "Claim for loss of notice pay "
+  ]
 }

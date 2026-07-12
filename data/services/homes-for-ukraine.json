@@ -5,5 +5,8 @@
   "theme": "Housing and local services",
   "phase": "Beta",
   "liveService": "https://apply-to-offer-homes-for-ukraine.service.gov.uk/individual/steps/1",
-  "startPage": "https://www.gov.uk/register-interest-homes-ukraine"
+  "startPage": "https://www.gov.uk/register-interest-homes-ukraine",
+  "synonyms": [
+    "Homes for Ukraine: record your interest"
+  ]
 }

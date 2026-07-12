@@ -4,6 +4,9 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "theme": "Driving and transport",
   "phase": "Alpha",
-  "liveService": "https://find-test-centre-hgv-bus-trailer-mot.service.gov.uk",
-  "startPage": "https://www.gov.uk/find-mot-test-centre-hgv-bus-trailer"
+  "liveService": "https://find-test-centre-hgv-bus-trailer-mot.service.gov.uk/",
+  "startPage": "https://www.gov.uk/find-mot-test-centre-hgv-bus-trailer",
+  "synonyms": [
+    "Find an MOT test centre for a heavy goods vehicle (HGV), bus or trailer "
+  ]
 }
