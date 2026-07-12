@@ -155,6 +155,15 @@ const updateLiveService = ({ service, liveService }) => {
   }
 };
 
+const replaceLiveService = ({ service, liveService }) => {
+  if (service.liveService === liveService) {
+    return;
+  }
+
+  service.liveService = liveService;
+  writeService(service);
+};
+
 const createService = ({
   content,
   liveService,
@@ -240,9 +249,30 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
 
   const existingServiceWithSameStartPage = getServiceByStartPage(startPage);
   if (existingServiceWithSameStartPage) {
-    updateLiveService({
+    const existingLiveService = toArray(
+      existingServiceWithSameStartPage.liveService,
+    )[0];
+
+    let existingHostname;
+    try {
+      existingHostname = existingLiveService
+        ? new URL(existingLiveService).hostname
+        : null;
+    } catch {
+      existingHostname = null;
+    }
+
+    if (existingHostname !== liveServiceHost) {
+      replaceLiveService({
+        service: existingServiceWithSameStartPage,
+        liveService,
+      });
+    }
+
+    updateStartPagesAndSynonyms({
       service: existingServiceWithSameStartPage,
-      liveService,
+      startPage,
+      pageTitle: result.title,
     });
     return;
   }
