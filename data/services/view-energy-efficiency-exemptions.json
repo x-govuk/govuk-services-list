@@ -1,8 +1,6 @@
 {
   "name": "View exemptions for private rented sector energy standards",
-  "synonyms": [
-    "View private rented sector energy standards exemptions"
-  ],
+  "synonyms": ["View private rented sector energy standards exemptions"],
   "description": "Find private rental properties that are registered as exempt from the minimum standard of energy efficiency.",
   "organisation": "Department for Energy Security and Net Zero",
   "theme": "Housing and local services",
