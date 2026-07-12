@@ -67,7 +67,9 @@ const normalizeLiveServiceUrl = (value) => {
     const url = new URL(value);
     url.protocol = "https:";
 
-    return `${url.origin}${url.pathname.replace(/\/+$/, "")}${url.search}${url.hash}`;
+    const path = url.pathname.replace(/\/+$/, "") || "/";
+
+    return `${url.origin}${path}${url.search}`;
   } catch {
     return undefined;
   }
