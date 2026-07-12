@@ -1,0 +1,33 @@
+{
+  "name": "Private rented sector energy exemptions register",
+  "synonyms": ["Register a private rented sector energy standards exemption"],
+  "description": "Use this service to register an exemption for a private rented sector property that does not meet the Minimum Energy Efficiency Standards (MEES).",
+  "organisation": "Department for Energy Security and Net Zero",
+  "theme": "Housing and local services",
+  "phase": "Beta",
+  "liveService": "https://www.register-energy-efficiency-exemption.service.gov.uk/vforcesite/services/auth/sso/OneLogin?startURL=%2Faccount-linking",
+  "startPage": "https://www.gov.uk/register-prs-energy-standard-exemption",
+  "tags": ["GOV.UK One Login"],
+  "timeline": {
+    "items": [
+      {
+        "label": "Consultation launched",
+        "date": "2025-02-07",
+        "links": [
+          {
+            "href": "https://www.gov.uk/government/news/warm-homes-and-cheaper-bills-as-government-accelerates-plan-for-change",
+            "text": "Press release: Warm homes and cheaper bills as government accelerates Plan for Change"
+          },
+          {
+            "href": "https://www.gov.uk/government/consultations/improving-the-energy-performance-of-privately-rented-homes-2025-update",
+            "text": "Consultation: Improving the energy performance of privately rented homes"
+          }
+        ]
+      },
+      {
+        "label": "Sign in changed to use GOV.UK One Login",
+        "date": "2026-05-05"
+      }
+    ]
+  }
+}
