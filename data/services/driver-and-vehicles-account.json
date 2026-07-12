@@ -4,7 +4,7 @@
   "organisation": "Driver and Vehicle Licensing Agency",
   "theme": "Driving and transport",
   "phase": "Beta",
-  "liveService": "https://driver-and-vehicles-account.service.gov.uk",
+  "liveService": "https://driver-and-vehicles-account.service.gov.uk/",
   "startPage": "https://www.gov.uk/driver-vehicles-account",
   "timeline": {
     "items": [
@@ -30,5 +30,6 @@
       }
     ]
   },
-  "tags": ["GOV.UK One Login"]
+  "tags": ["GOV.UK One Login"],
+  "synonyms": ["Driver and vehicles account: sign in or set up"]
 }

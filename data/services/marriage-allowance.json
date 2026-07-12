@@ -5,5 +5,6 @@
   "theme": "Money and tax",
   "phase": "Beta",
   "liveService": "https://www.tax.service.gov.uk/marriage-allowance-application/transfer-allowance",
-  "startPage": "https://www.gov.uk/apply-marriage-allowance"
+  "startPage": "https://www.gov.uk/apply-marriage-allowance",
+  "synonyms": ["Apply for Marriage Allowance online"]
 }
