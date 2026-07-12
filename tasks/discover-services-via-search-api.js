@@ -155,6 +155,21 @@ const updateLiveService = ({ service, liveService }) => {
   }
 };
 
+const replaceLiveService = ({ service, liveService }) => {
+  const currentLiveServices = getNormalizedLiveServices(
+    toArray(service.liveService),
+  );
+  if (
+    currentLiveServices.length === 1 &&
+    currentLiveServices[0] === liveService
+  ) {
+    return;
+  }
+
+  service.liveService = liveService;
+  writeService(service);
+};
+
 const createService = ({
   content,
   liveService,
@@ -240,9 +255,32 @@ const processResult = async ({ getLiveServiceUrl, result }) => {
 
   const existingServiceWithSameStartPage = getServiceByStartPage(startPage);
   if (existingServiceWithSameStartPage) {
-    updateLiveService({
+    // A service should only ever have one liveService URL, so we only
+    // look at the first element when comparing hostnames.
+    const existingLiveService = toArray(
+      existingServiceWithSameStartPage.liveService,
+    )[0];
+
+    let existingHostname;
+    try {
+      existingHostname = existingLiveService
+        ? new URL(existingLiveService).hostname
+        : null;
+    } catch {
+      existingHostname = null;
+    }
+
+    if (existingHostname !== liveServiceHost) {
+      replaceLiveService({
+        service: existingServiceWithSameStartPage,
+        liveService,
+      });
+    }
+
+    updateStartPagesAndSynonyms({
       service: existingServiceWithSameStartPage,
-      liveService,
+      startPage,
+      pageTitle: result.title,
     });
     return;
   }
