@@ -159,7 +159,10 @@ const replaceLiveService = ({ service, liveService }) => {
   const currentLiveServices = getNormalizedLiveServices(
     toArray(service.liveService),
   );
-  if (currentLiveServices.length === 1 && currentLiveServices[0] === liveService) {
+  if (
+    currentLiveServices.length === 1 &&
+    currentLiveServices[0] === liveService
+  ) {
     return;
   }
 
