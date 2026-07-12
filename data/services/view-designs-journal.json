@@ -4,6 +4,7 @@
   "organisation": "Intellectual Property Office",
   "theme": "Business and self-employed",
   "phase": "Beta",
-  "liveService": "https://www.registered-design.service.gov.uk/view/",
-  "startPage": "https://www.gov.uk/check-the-design-journal"
+  "liveService": "https://www.registered-design.service.gov.uk/view",
+  "startPage": "https://www.gov.uk/check-the-design-journal",
+  "synonyms": ["Check the designs journal"]
 }

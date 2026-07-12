@@ -5,5 +5,6 @@
   "theme": "Business and self-employed",
   "phase": "Beta",
   "liveService": "https://check-international-trade-barriers.service.gov.uk/",
-  "startPage": "https://www.gov.uk/barriers-trading-investing-abroad"
+  "startPage": "https://www.gov.uk/barriers-trading-investing-abroad",
+  "synonyms": ["Check for barriers to trading and investing abroad"]
 }

@@ -1,6 +1,9 @@
 {
   "name": "Universal Credit",
-  "synonyms": ["Universal Credit Full Service"],
+  "synonyms": [
+    "Universal Credit Full Service",
+    "Sign in to your Universal Credit account"
+  ],
   "description": "Universal Credit (UC) Digital provides a simple, personalised digital and non-digital service for claimants and staff.",
   "theme": "Benefits",
   "organisation": "Department for Work and Pensions",

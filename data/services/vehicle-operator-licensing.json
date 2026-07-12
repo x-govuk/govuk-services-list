@@ -3,7 +3,9 @@
   "synonyms": [
     "Manage your Vehicle Operator License",
     "Apply for a vehicle operator licence",
-    "View your vehicle operator safety and risk reports"
+    "View your vehicle operator safety and risk reports",
+    "Manage your vehicle operator licence",
+    "Check vehicle operator licence applications"
   ],
   "description": "Update your heavy goods vehicle (HGV) or public service vehicle (PSV) operator’s licence, for example to: add more vehicles to your licence, increase the vehicle limit on your licence, add or remove a transport manager.",
   "theme": "Driving and transport",

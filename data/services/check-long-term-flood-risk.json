@@ -6,5 +6,6 @@
   "phase": "Beta",
   "startPage": "https://www.gov.uk/check-long-term-flood-risk",
   "liveService": "https://check-long-term-flood-risk.service.gov.uk/postcode",
-  "tags": ["Top 75"]
+  "tags": ["Top 75"],
+  "synonyms": ["Check the long term flood risk for an area in England"]
 }

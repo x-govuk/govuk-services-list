@@ -5,5 +5,14 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "Beta",
   "liveService": "https://driverpracticaltest.dvsa.gov.uk/login",
-  "startPage": ["https://www.gov.uk/change-driving-test"]
+  "startPage": [
+    "https://www.gov.uk/change-driving-test",
+    "https://www.gov.uk/check-driving-test",
+    "https://www.gov.uk/cancel-driving-test"
+  ],
+  "synonyms": [
+    "Change your driving test appointment",
+    "Check your driving test appointment details",
+    "Cancel your driving test"
+  ]
 }

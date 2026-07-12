@@ -5,5 +5,6 @@
   "organisation": "Driver and Vehicle Standards Agency",
   "phase": "Beta",
   "liveService": "https://www.check-mot.service.gov.uk/?skipResults=true",
-  "startPage": "https://www.gov.uk/replacing-lost-damaged-mot-certificate"
+  "startPage": "https://www.gov.uk/replacing-lost-damaged-mot-certificate",
+  "synonyms": ["Replace a lost or damaged MOT certificate"]
 }

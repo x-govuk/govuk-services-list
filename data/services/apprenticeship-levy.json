@@ -1,6 +1,10 @@
 {
   "name": "Manage apprenticeships",
-  "synonyms": ["The (Digital) Apprenticeship", "Access my Levy"],
+  "synonyms": [
+    "The (Digital) Apprenticeship",
+    "Access my Levy",
+    "Sign in to your apprenticeship service account"
+  ],
   "description": "This service is for organisations that want to take on apprentices. Use this service to set up and manage apprenticeship training and pay for apprenticeship training.",
   "theme": "Education and learning",
   "organisation": ["Department for Education"],

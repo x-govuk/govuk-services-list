@@ -8,6 +8,9 @@
   "organisation": "Foreign, Commonwealth & Development Office",
   "theme": "Births, deaths, marriages and care",
   "phase": "Beta",
-  "startPage": "https://www.gov.uk/register-a-birth",
+  "startPage": [
+    "https://www.gov.uk/register-a-birth",
+    "https://www.gov.uk/register-birth-abroad"
+  ],
   "liveService": "https://register-a-birth-abroad.service.gov.uk/"
 }
