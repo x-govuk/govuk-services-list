@@ -51,7 +51,7 @@
     "browser-sync": "^3.0.4",
     "prettier": "^3.9.5",
     "puppeteer-core": "^25.3.0",
-    "stylelint": "^17.14.0",
+    "stylelint": "^17.14.1",
     "stylelint-config-gds": "^3.0.0",
     "stylelint-order": "^8.1.1"
   },
