@@ -45,7 +45,7 @@
     "sass": "^1.98.0"
   },
   "devDependencies": {
-    "@x-govuk/eslint-config": "^0.0.2",
+    "@x-govuk/eslint-config": "^0.0.3",
     "ajv": "^8.20.0",
     "ajv-formats": "^3.0.1",
     "browser-sync": "^3.0.4",
