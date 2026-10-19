@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@x-govuk/govuk-prototype-components": "^6.0.0",
-    "@x-govuk/govuk-prototype-filters": "^2.2.0",
+    "@x-govuk/govuk-prototype-filters": "^2.2.1",
     "dotenv": "^18.0.7",
     "esbuild": "^0.28.2",
     "express": "~5.3.0",
