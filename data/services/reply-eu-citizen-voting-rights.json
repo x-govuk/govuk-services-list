@@ -3,7 +3,7 @@
   "description": "Use this service to reply to a letter or email from the Electoral Registration Office asking about your immigration status.",
   "organisation": "Ministry of Housing, Communities and Local Government",
   "theme": "Citizenship and living in the UK",
-  "phase": "Beta",
+  "phase": "Retired",
   "startPage": "https://www.gov.uk/reply-to-electoral-registration-office-about-your-voting-rights",
   "liveService": "https://reply-eu-citizen-voting-rights.service.gov.uk/start",
   "timeline": {
@@ -39,6 +39,10 @@
             "text": "Beta amber evidence review"
           }
         ]
+      },
+      {
+        "label": "Service retired",
+        "date": "2025-03-03"
       }
     ]
   }
